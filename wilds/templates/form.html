@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MH Wilds Build Optimizer (Beta)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="container mt-5">
+<h1>MH Wilds Build Optimizer (Beta)</h1>
+<sub>from @nenrikido on discord</sub>
+<div>
+    How to use :
+    <ul>
+        <li>Type your desired skills and sets in the input boxes (autocomplete available)</li>
+        <li>Choose your max amount of skill points and the weight of each skill, and the min amount of pieces from each set</li>
+        <li>Click on "Optimize" and wait for the results</li>
+    </ul>
+    Notes :
+    <ul>
+        <li>For now, builds are only calculated using the dimensius weapon (artian with 3-3-3 decoration slots)</li>
+        <li>Data is up to date with TU2 (AT Uth Duna)</li>
+        <li>Yes the default skills and sets chosen are for LS, yes i'm a weeb</li>
+    </ul>
+    Features to come :
+    <ul>
+        <li>Weapon selector</li>
+        <li>Amulet selector (from findable random amulets)</li>
+        <li>Armor pieces filters</li>
+        <li>Skill & set templates</li>
+        <li>Better design (I suck at design sry)</li>
+    </ul>
+</div>
+
+<form method="post">
+    <h3>Desired Skills</h3>
+    <input id="skills-input" class="form-control mb-3" placeholder="Choose your desired skill" />
+    <div id="skills-badges" class="mb-3"></div>
+
+    <h3>Desired Sets</h3>
+    <input id="sets-input" class="form-control mb-3" placeholder="Choose your desired set" />
+    <div id="sets-badges" class="mb-3"></div>
+
+    <h3>Number of Builds (N)</h3>
+    <input type="number" class="form-control mb-3" name="N" value="5">
+
+    <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="include_all_amulets" name="include_all_amulets" checked>
+        <label class="form-check-label" for="include_all_amulets">Include all generated amulets from desired skills
+            (unchecking this will include only farmable amulets)</label>
+    </div>
+    <input type="submit" class="btn btn-success" value="Optimize">
+</form>
+
+</body>
+<script>
+    const skillsData = {{ available_skills | tojson}};
+    const setsData = {{ available_sets | tojson}};
+</script>
+<script type="module" src="/static/main.js"></script>
+</html>
