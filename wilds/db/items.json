@@ -3870,6 +3870,42 @@
       ]
     },
     {
+      "name": "Tasty Blades",
+      "skills": {
+        "Grillmaster": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        }
+      ]
+    },
+    {
+      "name": "Well-done Blades",
+      "skills": {
+        "Grillmaster": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        },
+        {
+          "value": 1,
+          "type": "W"
+        }
+      ]
+    },
+    {
       "name": "Twin Acrus I",
       "skills": {
         "Convert Thunder Resistance": 1,
@@ -5114,6 +5150,22 @@
       ]
     },
     {
+      "name": "Shadowbringer",
+      "skills": {
+        "Darkside": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        }
+      ]
+    },
+    {
       "name": "Fellslayer Dangeom",
       "skills": {
         "Punishing Draw": 3
@@ -5175,6 +5227,26 @@
       "skills": {
         "Focus": 2,
         "Convert Thunder Resistance": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        },
+        {
+          "value": 1,
+          "type": "W"
+        }
+      ]
+    },
+    {
+      "name": "True Shadowbringer",
+      "skills": {
+        "Darkside": 1
       },
       "slots": [
         {
@@ -11444,6 +11516,42 @@
       "skills": {
         "Slicked Blade": 3,
         "Critical Element": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        },
+        {
+          "value": 1,
+          "type": "W"
+        }
+      ]
+    },
+    {
+      "name": "Omega's Rod",
+      "skills": {
+        "Synergy": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        }
+      ]
+    },
+    {
+      "name": "True Omega's Rod",
+      "skills": {
+        "Synergy": 1
       },
       "slots": [
         {
@@ -17928,6 +18036,23 @@
       ]
     },
     {
+      "name": "Omega's Sword",
+      "skills": {
+        "Guard Up": 3,
+        "Synthetic Shield": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        }
+      ]
+    },
+    {
       "name": "Lagia Sword I",
       "skills": {
         "Offensive Guard": 2,
@@ -17949,6 +18074,27 @@
       "skills": {
         "Offensive Guard": 2,
         "Convert Thunder Resistance": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        },
+        {
+          "value": 1,
+          "type": "W"
+        }
+      ]
+    },
+    {
+      "name": "True Omega's Sword",
+      "skills": {
+        "Guard Up": 3,
+        "Synthetic Shield": 1
       },
       "slots": [
         {
@@ -18846,6 +18992,46 @@
       "slots": []
     },
     {
+      "name": "Harvest Flor \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Botanist": 1,
+        "Resentment": 1
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Omega Ear Cuffs \u03b1",
+      "sets": [
+        "Omega Resonance"
+      ],
+      "skills": {
+        "Weakness Exploit": 1,
+        "Divine Blessing": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Half Rim Glasses \u03b1",
       "sets": [],
       "skills": {
@@ -18854,6 +19040,20 @@
       "slots": [
         {
           "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Skull Mask \u03b1",
+      "sets": [],
+      "skills": {
+        "Earplugs": 3,
+        "Intimidator": 3
+      },
+      "slots": [
+        {
+          "value": 2,
           "type": "A"
         }
       ]
@@ -18961,6 +19161,31 @@
       "slots": [
         {
           "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Gelidron Mask \u03b1",
+      "sets": [
+        "Flexible Leathercraft"
+      ],
+      "skills": {
+        "Speed Eating": 2,
+        "Free Meal": 1,
+        "Hunger Resistance": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
           "type": "A"
         }
       ]
@@ -19097,6 +19322,30 @@
       ]
     },
     {
+      "name": "Udra Mirehelm \u03b3",
+      "sets": [
+        "Nu Udra's Mutiny",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Burst": 3
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Blossom Headgear \u03b1",
       "sets": [
         "Festival Spirit"
@@ -19165,11 +19414,54 @@
       ]
     },
     {
+      "name": "Bale Burgeonet \u03b1",
+      "sets": [
+        "Soul of the Dark Knight"
+      ],
+      "skills": {
+        "Maximum Might": 2,
+        "Resentment": 2
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Sealed Dragon Cloth \u03b1",
       "sets": [],
       "skills": {
         "Dragon Resistance": 3,
         "Resentment": 2
+      },
+      "slots": []
+    },
+    {
+      "name": "Kitten Frames \u03b1",
+      "sets": [],
+      "skills": {
+        "Ambush": 3,
+        "Jump Master": 1,
+        "Evade Extender": 2
+      },
+      "slots": []
+    },
+    {
+      "name": "Dreamwalker Helm \u03b1",
+      "sets": [
+        "Dreamspell Prayer",
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Flayer": 1,
+        "Ambush": 1,
+        "Wide-Range": 2
       },
       "slots": []
     },
@@ -19190,6 +19482,28 @@
         },
         {
           "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Aviator Shades \u03b1",
+      "sets": [],
+      "skills": {
+        "Windproof": 3,
+        "Tool Specialist": 2
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
           "type": "A"
         }
       ]
@@ -21082,6 +21396,36 @@
       "slots": []
     },
     {
+      "name": "Harvest Tronco \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Mushroomancer": 2,
+        "Resentment": 1
+      },
+      "slots": []
+    },
+    {
+      "name": "Omega Suit \u03b1",
+      "sets": [
+        "Omega Resonance"
+      ],
+      "skills": {
+        "Partbreaker": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Garb \u03b1",
       "sets": [
         "Master of the Fist"
@@ -21145,6 +21489,27 @@
         "Quick Sheathe": 2
       },
       "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Gelidron Backpack \u03b1",
+      "sets": [
+        "Flexible Leathercraft"
+      ],
+      "skills": {
+        "Speed Eating": 1,
+        "Free Meal": 2,
+        "Hunger Resistance": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
         {
           "value": 1,
           "type": "A"
@@ -21219,6 +21584,26 @@
       ]
     },
     {
+      "name": "Udra Miremail \u03b3",
+      "sets": [
+        "Nu Udra's Mutiny",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Counterstrike": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 3,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Blossom Vest \u03b1",
       "sets": [
         "Festival Spirit"
@@ -21278,6 +21663,40 @@
       "slots": [
         {
           "value": 3,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Bale Cuirass \u03b1",
+      "sets": [
+        "Soul of the Dark Knight"
+      ],
+      "skills": {
+        "Quick Sheathe": 2,
+        "Latent Power": 2
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Dreamwalker Mail \u03b1",
+      "sets": [
+        "Dreamspell Prayer",
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Flayer": 1,
+        "Sleep Resistance": 1,
+        "Wide-Range": 1
+      },
+      "slots": [
+        {
+          "value": 2,
           "type": "A"
         }
       ]
@@ -23052,6 +23471,38 @@
       "slots": []
     },
     {
+      "name": "Harvest Trama \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Constitution": 2,
+        "Mushroomancer": 1,
+        "Free Meal": 2
+      },
+      "slots": []
+    },
+    {
+      "name": "Omega Vambraces \u03b1",
+      "sets": [
+        "Omega Resonance"
+      ],
+      "skills": {
+        "Divine Blessing": 1,
+        "Agitator": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Arm Wraps \u03b1",
       "sets": [
         "Master of the Fist"
@@ -23181,6 +23632,30 @@
       ]
     },
     {
+      "name": "Udra Mirebraces \u03b3",
+      "sets": [
+        "Nu Udra's Mutiny",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Resentment": 3
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Blossom Cuffs \u03b1",
       "sets": [
         "Festival Spirit"
@@ -23232,6 +23707,44 @@
       "slots": [
         {
           "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Bale Gauntlets \u03b1",
+      "sets": [
+        "Soul of the Dark Knight"
+      ],
+      "skills": {
+        "Maximum Might": 1,
+        "Resentment": 1,
+        "Latent Power": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Dreamwalker Braces \u03b1",
+      "sets": [
+        "Dreamspell Prayer",
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Flayer": 1,
+        "Sleep Resistance": 1
+      },
+      "slots": [
+        {
+          "value": 2,
           "type": "A"
         },
         {
@@ -25087,6 +25600,47 @@
       "slots": []
     },
     {
+      "name": "Harvest Hoja \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Constitution": 1,
+        "Free Meal": 1,
+        "Botanist": 1
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Omega Accessory \u03b1",
+      "sets": [
+        "Omega Resonance"
+      ],
+      "skills": {
+        "Burst": 1,
+        "Divine Blessing": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Belt \u03b1",
       "sets": [
         "Master of the Fist"
@@ -25196,6 +25750,23 @@
       ]
     },
     {
+      "name": "Udra Mirecoil \u03b3",
+      "sets": [
+        "Nu Udra's Mutiny",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Ambush": 1,
+        "Burst": 2
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Blossom Coat \u03b1",
       "sets": [
         "Festival Spirit"
@@ -25256,6 +25827,42 @@
           "type": "A"
         }
       ]
+    },
+    {
+      "name": "Bale Flanchard \u03b1",
+      "sets": [
+        "Soul of the Dark Knight"
+      ],
+      "skills": {
+        "Constitution": 2,
+        "Resentment": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Dreamwalker Coil \u03b1",
+      "sets": [
+        "Dreamspell Prayer",
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Flayer": 1,
+        "Ambush": 2
+      },
+      "slots": []
     },
     {
       "name": "Duna Wildcoil \u03b3",
@@ -27042,6 +27649,41 @@
       "slots": []
     },
     {
+      "name": "Harvest Raiz \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Constitution": 2,
+        "Botanist": 2
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Omega Boots \u03b1",
+      "sets": [
+        "Omega Resonance"
+      ],
+      "skills": {
+        "Evade Window": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Pants \u03b1",
       "sets": [
         "Master of the Fist"
@@ -27160,6 +27802,24 @@
       ]
     },
     {
+      "name": "Udra Miregreaves \u03b3",
+      "sets": [
+        "Nu Udra's Mutiny",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Counterstrike": 1,
+        "Speed Eating": 3,
+        "Resentment": 2
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Blossom Boots \u03b1",
       "sets": [
         "Festival Spirit"
@@ -27214,6 +27874,43 @@
         },
         {
           "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Bale Sollerets \u03b1",
+      "sets": [
+        "Soul of the Dark Knight"
+      ],
+      "skills": {
+        "Resentment": 1,
+        "Latent Power": 2
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Dreamwalker Greaves \u03b1",
+      "sets": [
+        "Dreamspell Prayer",
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Flayer": 1,
+        "Wide-Range": 2
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
           "type": "A"
         }
       ]
@@ -28400,6 +29097,11 @@
       "slots": []
     },
     {
+      "name": "Unknown Charm",
+      "skills": {},
+      "slots": []
+    },
+    {
       "name": "Sleep Charm I",
       "skills": {
         "Sleep Resistance": 1
@@ -28502,6 +29204,11 @@
       "skills": {
         "Blast Resistance": 3
       },
+      "slots": []
+    },
+    {
+      "name": "Secret Charm",
+      "skills": {},
       "slots": []
     },
     {
@@ -28898,6 +29605,11 @@
       "slots": []
     },
     {
+      "name": "Golden Age Charm",
+      "skills": {},
+      "slots": []
+    },
+    {
       "name": "Sanity Charm I",
       "skills": {
         "Antivirus": 1
@@ -29000,6 +29712,11 @@
       "skills": {
         "Adrenaline Rush": 3
       },
+      "slots": []
+    },
+    {
+      "name": "Historical Charm",
+      "skills": {},
       "slots": []
     },
     {
@@ -29185,6 +29902,13 @@
       "slots": []
     },
     {
+      "name": "Descent Charm III",
+      "skills": {
+        "Ambush": 3
+      },
+      "slots": []
+    },
+    {
       "name": "Imbibe Charm I",
       "skills": {
         "Elemental Absorption": 1
@@ -29311,6 +30035,13 @@
       "slots": []
     },
     {
+      "name": "Fury Charm III",
+      "skills": {
+        "Resentment": 3
+      },
+      "slots": []
+    },
+    {
       "name": "Geology Charm I",
       "skills": {
         "Geologist": 1
@@ -29409,6 +30140,13 @@
       "slots": []
     },
     {
+      "name": "Foray Charm III",
+      "skills": {
+        "Foray": 3
+      },
+      "slots": []
+    },
+    {
       "name": "Chain Charm I",
       "skills": {
         "Burst": 1
@@ -29419,6 +30157,13 @@
       "name": "Chain Charm II",
       "skills": {
         "Burst": 2
+      },
+      "slots": []
+    },
+    {
+      "name": "Chain Charm III",
+      "skills": {
+        "Burst": 3
       },
       "slots": []
     }
