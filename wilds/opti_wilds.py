@@ -14,14 +14,16 @@ def load_data_files():
         tuple: (items_data, decorations, available_skills, available_sets)
     """
 
-    # Sample data for items:
     # group -> list of dicts {'name': str, 'skills': {skill: points}, 'slots': [{'value': value, 'type': slot_type}, ...], 'set': str (optional)}
     items_data = json.load(open('db/items.json'))
 
-    # Sample decorations: list of dicts {'name': str, 'skills': {skill: points}, 'size': int, 'type': slot_type}
+    # list of dicts {'name': str, 'skills': {skill: points}, 'size': int, 'type': slot_type}
     decorations = json.load(open('db/decorations.json'))
 
+    # List of skill names
     available_skills = json.load(open('db/skills.json'))
+
+    # List of set names
     available_sets = json.load(open('db/sets.json'))
 
     return items_data, decorations, available_skills, available_sets
