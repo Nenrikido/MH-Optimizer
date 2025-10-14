@@ -84,8 +84,8 @@ function addBadge(containerId, name, index, label1, label2, default1, default2) 
     const noSecondLabel = label2 === null;
     const container = document.getElementById(containerId);
     const badge = document.createElement('span');
-    badge.className = 'badge bg-secondary me-2 mb-2 d-flex justify-content-between';
-    badge.style.width = '30%';
+    badge.className = 'badge bg-secondary d-flex justify-content-between';
+    badge.style.minWidth = 'calc(25% - 0.375rem)';
     badge.innerHTML = `
                 <div class="d-flex align-items-center">
                     ${name}
