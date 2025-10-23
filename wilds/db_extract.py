@@ -71,6 +71,8 @@ for armor in armors:
 
 amulets = json.load(open('./full_db/Amulet.json', encoding='utf-8'))
 for amulet in amulets:
+    if amulet['is_random']:
+        continue
     for amulet_rank in amulet['ranks']:
         items['amulet'].append({
             'name': amulet_rank['names']['en'],
