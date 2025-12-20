@@ -1,4 +1,5 @@
 import json
+from itertools import product
 
 import pulp
 from tqdm.auto import tqdm
@@ -29,7 +30,8 @@ def load_data_files():
     return items_data, decorations, available_skills, available_sets
 
 
-def define_data(desired_skills, desired_sets, items_data, decorations, include_all_amulets=True):
+def define_data(desired_skills, desired_sets, items_data, decorations, include_all_amulets=True, transcend=False,
+                include_gog_sets=False):
     """
     Define all the input data for the optimizer, including skills, groups, sets, items, and decorations.
 
@@ -39,7 +41,7 @@ def define_data(desired_skills, desired_sets, items_data, decorations, include_a
 
     # Define the groups
     groups = ['weapon', 'head', 'chest', 'arms', 'waist', 'legs', 'amulet']
-    armor_groups = ['head', 'chest', 'arms', 'waist', 'legs']
+    armor_groups = ['weapon', 'head', 'chest', 'arms', 'waist', 'legs']
 
     if include_all_amulets:
         # add generated amulets
@@ -48,13 +50,33 @@ def define_data(desired_skills, desired_sets, items_data, decorations, include_a
             only_better_slots=True,
         )
 
+    if include_gog_sets:
+        generated_weapons = []
+        for item_data in items_data['weapon']:
+            if item_data.get('is_gog', False):
+                skill_sets = list(filter(lambda x: not x['is_group'], desired_sets))
+                skill_groups = list(filter(lambda x: x['is_group'], desired_sets))
+                for i, (skill_set, skill_group) in enumerate(product(skill_sets or [None], skill_groups or [None]), 1):
+                    sets = []
+                    if skill_set is not None:
+                        sets.append(skill_set['set'])
+                    if skill_group is not None:
+                        sets.append(skill_group['set'])
+                    generated_weapons.append({
+                        **item_data,
+                        'name': f"{item_data['name']} ({', '.join(sets)})",
+                        'sets': sets
+                    })
+        items_data['weapon'] += generated_weapons
+
     return {
         'desired_skills': desired_skills,
         'groups': groups,
         'armor_groups': armor_groups,
         'desired_sets': desired_sets,
         'items_data': items_data,
-        'decorations': decorations
+        'decorations': decorations,
+        "transcend": transcend
     }
 
 
@@ -74,6 +96,7 @@ def setup_problem(data):
     desired_sets = data['desired_sets']
     items_data = data['items_data']
     decorations = data['decorations']
+    transcend = data['transcend']
 
     max_level = 4
     levels = range(1, max_level + 1)
@@ -117,7 +140,8 @@ def setup_problem(data):
         for T in slot_types:
             expr = pulp.lpSum(
                 item_vars[group][item['name']] * sum(
-                    1 for slot in item['slots'] if slot['value'] == L and slot['type'] == T)
+                    1 for slot in item['transcended_slots' if transcend and 'transcended_slots' in item else 'slots'] if
+                    slot['value'] == L and slot['type'] == T)
                 for group in groups for item in items_data[group]
             )
             slots_T_L[T][L] = expr
@@ -347,6 +371,7 @@ def main():
     builds = run_optimizer(data, N=10)
 
     print(*output_builds(builds, data), sep="\n" + "-" * 40 + "\n\n")
+
 
 if __name__ == "__main__":
     main()

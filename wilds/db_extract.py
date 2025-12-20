@@ -62,11 +62,24 @@ for armor in armors:
             armor_sets.append(sets[str(armor['set_bonus']['skill_id'])])
         if armor['group_bonus']:
             armor_sets.append(sets[str(armor['group_bonus']['skill_id'])])
+        slots = []
+        transcended_slots = []
+        upgraded_slots = 0
+        for slot_index in range(3):
+            try:
+                slot_value = armor_piece['slots'][slot_index]
+                slots.append({'value': slot_value, 'type': 'A'})
+            except IndexError:
+                slot_value = 0
+            if armor['rarity'] == 5 or armor['rarity'] == 6:
+                transcended_slots.append({'value': slot_value + (slot_value < 3 and (upgraded_slots < 2 or armor['rarity'] == 5)), 'type': 'A'})
+                upgraded_slots += slot_value < 3
         items[armor_piece['kind']].append({
             'name': armor_piece['names']['en'],
             'sets': armor_sets,
             'skills': {skills[skill_id]: skill_points for skill_id, skill_points in armor_piece['skills'].items()},
-            'slots': [{'value': slot, 'type': 'A'} for slot in armor_piece['slots']]
+            'slots': slots,
+            'transcended_slots': transcended_slots or slots
         })
 
 amulets = json.load(open('./full_db/Amulet.json', encoding='utf-8'))

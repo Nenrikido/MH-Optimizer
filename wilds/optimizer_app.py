@@ -30,8 +30,8 @@ def run_optimization():
             name = request.form[f'sets_name_{i}']
             min_pieces = int(request.form.get(f'sets_min_{i}', 2))
             traversed_sets_idx.append(i)
-            if name:
-                desired_sets.append({'set': name, 'min_pieces': min_pieces})
+            if name and ((is_group := name in available_sets["groups"]) or name in available_sets["sets"]):
+                desired_sets.append({'set': name, 'min_pieces': min_pieces, 'is_group': is_group})
         elif key.startswith('weapons_') and (i := int(key.split('_')[-1])) not in traversed_weapons_idx:
             name = request.form[f'weapons_name_{i}']
             traversed_weapons_idx.append(i)
@@ -51,8 +51,8 @@ def run_optimization():
             elif key.startswith('slots_'):
                 custom_amulets[amulet_idx]['slots'] = list(map(
                     lambda x: {
-                      "value": int(x[-1]),
-                      "type": "W" if x[0] == "W" else "A"
+                        "value": int(x[-1]),
+                        "type": "W" if x[0] == "W" else "A"
                     },
                     value.split('-0')[0].split('-')
                 ))
@@ -80,8 +80,15 @@ def run_optimization():
 
     N = min(int(request.form['N']), 20)
 
-    data = define_data(desired_skills, desired_sets, filtered_items_data, filtered_decorations,
-                       include_all_amulets=request.form.get('include_all_amulets', ''))
+    data = define_data(
+        desired_skills,
+        desired_sets,
+        filtered_items_data,
+        filtered_decorations,
+        include_all_amulets=request.form.get('include_all_amulets', False),
+        transcend=request.form.get('transcend', False),
+        include_gog_sets=request.form.get('include_gog_sets', False)
+    )
 
     builds = run_optimizer(data, N)
 
@@ -93,6 +100,8 @@ def index():
     items_data_default, _, available_skills, available_sets = load_data_files()
 
     available_weapons = list(map(lambda x: x['name'], items_data_default['weapon']))
+
+    available_sets = available_sets["sets"] + available_sets["groups"]
 
     return render_template(
         'form.html',

@@ -71,14 +71,14 @@
                     </ul>
                     Notes :
                     <ul>
-                        <li>Data is up to date with TU3 (AT Nu Udra)</li>
+                        <li>Data is up to date with TU4 (Gogmazios)</li>
                         <li>Yes the default values are for LS, yes i'm a weeb</li>
                     </ul>
                     Features to come :
                     <ul>
-                        <li>Armor pieces filters</li>
                         <li>Local save</li>
                         <li>Skill & set templates</li>
+                        <li>Armor pieces filters</li>
                         <li>Better design (I suck at design sry)</li>
                     </ul>
                 </div>
@@ -100,11 +100,19 @@
                 <input type="number" class="form-control mb-3" name="N" value="5" max="20">
 
                 <div class="form-check mb-3">
-                    <input type="checkbox" class="form-check-input" id="include_all_amulets" name="include_all_amulets">
+                    <input type="checkbox" class="form-check-input" id="include_all_amulets" name="include_all_amulets" checked>
                     <label class="form-check-label" for="include_all_amulets">Include all generated amulets from desired
                         skills
                         (unchecking this will include only farmable amulets and amulets chosen from the filters
                         tab)</label>
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="transcend" name="transcend">
+                    <label class="form-check-label" for="transcend">Transcend all armors (this changes their decoration slots if their rarity is 5 or 6)</label>
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="include_gog_sets" name="include_gog_sets">
+                    <label class="form-check-label" for="include_gog_sets">Include all possible sets on Gogmazios upgraded weapons</label>
                 </div>
                 <input id="submit-launch" type="submit" class="btn btn-success" value="Optimize">
             </div>
