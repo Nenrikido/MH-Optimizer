@@ -218,6 +218,7 @@ def collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data):
     groups = data['groups']
     items_data = data['items_data']
     decorations = data['decorations']
+    transcend = data['transcend']
     skills = {skill['name']: skill for skill in data['desired_skills']}
     slot_types = ['A', 'W']
 
@@ -263,7 +264,7 @@ def collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data):
             if item['name'] == name:
                 selected_slots[group] = [
                     {'idx': idx + 1, 'level': slot['value'], 'type': slot['type'], 'assigned': None}
-                    for idx, slot in enumerate(item['slots'])
+                    for idx, slot in enumerate(item['transcended_slots' if transcend and 'transcended_slots' in item else 'slots'])
                 ]
 
     # Collect deco instances to place, sorted by size descending

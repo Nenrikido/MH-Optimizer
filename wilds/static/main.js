@@ -69,19 +69,17 @@ document.addEventListener('DOMContentLoaded', () => {
     //  defaults TESTING
     Array.from([
       {"name": "Master's Touch", "max_points": 1, "weight": 30},
-      {"name": "Fire Attack", "max_points": 3, "weight": 10},
       {"name": "Critical Boost", "max_points": 5, "weight": 10},
-      {"name": "Critical Eye", "max_points": 3, "weight": 10},
-      {"name": "Handicraft", "max_points": 5, "weight": 3},
-      {"name": "Counterstrike", "max_points": 3, "weight": 8},
+      {"name": "Counterstrike", "max_points": 3, "weight": 10},
       {"name": "Antivirus", "max_points": 3, "weight": 8},
       {"name": "Adrenaline Rush", "max_points": 5, "weight": 6},
       {"name": "Weakness Exploit", "max_points": 5, "weight": 10},
       {"name": "Divine Blessing", "max_points": 3, "weight": 5},
-      {"name": "Evade Window", "max_points": 3, "weight": 8},
-      {"name": "Coalescence", "max_points": 3, "weight": 5},
       {"name": "Constitution", "max_points": 5, "weight": 5},
-      {"name": "Burst", "max_points": 5, "weight": 10}
+      {"name": "Burst", "max_points": 1, "weight": 10},
+      {"name": "Maximum Might", "max_points": 3, "weight": 10},
+      {"name": "Quick Sheathe", "max_points": 3, "weight": 10},
+      {"name": "Agitator", "max_points": 5, "weight": 10},
     ]).map(e => {
         const idx = availableSkillsData.indexOf(e.name);
         if (idx === -1) return;
@@ -92,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     Array.from([
         {'set': "Gore Magala\u0027s Tyranny", 'min_pieces': 2},
-        {'set': "Gogmapocalypse", 'min_pieces': 2},
+        {'set': "Fulgur Anjanath's Will", 'min_pieces': 2},
         {'set': "Lord\u0027s Soul", 'min_pieces': 3}
     ]).map(e => {
         const idx = availableSetsData.indexOf(e.set);
@@ -102,11 +100,11 @@ document.addEventListener('DOMContentLoaded', () => {
         addBadge('sets-badges', e.set, setIndex++, 'Min Pieces', null, e.min_pieces, '')
     });
 
-    const idx = availableWeaponsData.indexOf('Eternal Cusp');
+    const idx = availableWeaponsData.indexOf("Headsman's Hamus");
     if (idx > -1) {
         availableWeaponsData.splice(idx, 1);
         refreshAutocompleteData(skillsInput, availableSkillsData);
-        addBadge('weapons-badges', 'Eternal Cusp', weaponIndex++, null, null, '', '')
+        addBadge('weapons-badges', "Headsman's Hamus", weaponIndex++, null, null, '', '')
     }
     // end defaults
 });
