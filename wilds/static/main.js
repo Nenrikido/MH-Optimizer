@@ -1,7 +1,8 @@
 import Autocomplete from './autocomplete.js';
+import {getStoreData, seedDefaultData, saveCurrentConfiguration, STORES} from './store.js';
 
 let amuletIndex = 0;
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     Autocomplete.init('#skills-input', {
         items: availableSkillsData.map(e => ({label: e, value: e})),
         suggestionsThreshold: 0,
@@ -25,6 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         fixed: true,
         onSelectItem: onWeaponSelect
     });
+    const saveBtn = document.getElementById('save-configuration');
+    if (saveBtn) {
+        saveBtn.addEventListener('click', saveCurrentConfiguration);
+    }
 
     const amuletBadgeTemplate = document.querySelector('#amulet-badge-template');
     const amuletBadgesContainer = document.querySelector('#amulet-badges');
@@ -65,48 +70,38 @@ document.addEventListener('DOMContentLoaded', () => {
         amuletIndex++;
     })
 
+    await seedDefaultData();
 
-    //  defaults TESTING
-    Array.from([
-      {"name": "Master's Touch", "max_points": 1, "weight": 30},
-      {"name": "Critical Boost", "max_points": 5, "weight": 10},
-      {"name": "Counterstrike", "max_points": 3, "weight": 10},
-      {"name": "Antivirus", "max_points": 3, "weight": 8},
-      {"name": "Adrenaline Rush", "max_points": 5, "weight": 6},
-      {"name": "Weakness Exploit", "max_points": 5, "weight": 10},
-      {"name": "Divine Blessing", "max_points": 3, "weight": 5},
-      {"name": "Constitution", "max_points": 5, "weight": 5},
-      {"name": "Burst", "max_points": 1, "weight": 10},
-      {"name": "Maximum Might", "max_points": 3, "weight": 10},
-      {"name": "Quick Sheathe", "max_points": 3, "weight": 10},
-      {"name": "Agitator", "max_points": 5, "weight": 10},
-    ]).map(e => {
-        const idx = availableSkillsData.indexOf(e.name);
+    (await getStoreData(STORES.skills)).forEach(skill => {
+        const idx = availableSkillsData.indexOf(skill.name);
         if (idx === -1) return;
         availableSkillsData.splice(idx, 1);
         refreshAutocompleteData(skillsInput, availableSkillsData);
-        addBadge('skills-badges', e.name, skillIndex++, 'Max Points', 'Weight', e.max_points, e.weight)
+        addBadge('skills-badges', skill.name, skillIndex++, 'Max Points', 'Weight', skill.max_points, skill.weight)
     });
 
-    Array.from([
-        {'set': "Gore Magala\u0027s Tyranny", 'min_pieces': 2},
-        {'set': "Fulgur Anjanath's Will", 'min_pieces': 2},
-        {'set': "Lord\u0027s Soul", 'min_pieces': 3}
-    ]).map(e => {
-        const idx = availableSetsData.indexOf(e.set);
+    (await getStoreData(STORES.sets)).map(set => {
+        const idx = availableSetsData.indexOf(set.set);
         if (idx === -1) return;
         availableSetsData.splice(idx, 1);
         refreshAutocompleteData(skillsInput, availableSkillsData);
-        addBadge('sets-badges', e.set, setIndex++, 'Min Pieces', null, e.min_pieces, '')
+        addBadge('sets-badges', set.set, setIndex++, 'Min Pieces', null, set.min_pieces, '')
     });
 
-    const idx = availableWeaponsData.indexOf("Headsman's Hamus");
-    if (idx > -1) {
-        availableWeaponsData.splice(idx, 1);
-        refreshAutocompleteData(skillsInput, availableSkillsData);
-        addBadge('weapons-badges', "Headsman's Hamus", weaponIndex++, null, null, '', '')
-    }
-    // end defaults
+    (await getStoreData(STORES.weapons)).forEach(weapon => {
+        const idx = availableWeaponsData.indexOf(weapon.name);
+        if (idx > -1) {
+            availableWeaponsData.splice(idx, 1);
+            refreshAutocompleteData(skillsInput, availableSkillsData);
+            addBadge('weapons-badges', weapon.name, weaponIndex++, null, null, '', '')
+        }
+    });
+
+    const config = (await getStoreData(STORES.config)).pop();
+    document.querySelector(`input[name="N"]`).value = config.N;
+    document.querySelector(`#include_all_amulets`).checked = config.include_all_amulets;
+    document.querySelector(`#transcend`).checked = config.transcend;
+    document.querySelector(`#include_gog_sets`).checked = config.include_gog_sets;
 });
 
 let skillIndex = 0;
@@ -133,6 +128,7 @@ function addBadge(containerId, name, index, label1, label2, default1, default2) 
     const noSecondLabel = label2 === null;
     const container = document.getElementById(containerId);
     const badge = document.createElement('span');
+    badge.id = `${containerId.split('-')[0]}_badge_${index}`;
     badge.className = 'badge bg-secondary d-flex justify-content-between';
     badge.style.minWidth = 'calc(25% - 0.375rem)';
     badge.innerHTML = `
@@ -161,6 +157,7 @@ function addBadge(containerId, name, index, label1, label2, default1, default2) 
     container.appendChild(badge);
 
     badge.querySelector('.btn-close').addEventListener('click', () => {
+
         badge.remove();
         if (noFirstLabel) {
             availableWeaponsData.push(name);

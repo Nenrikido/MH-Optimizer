@@ -334,17 +334,31 @@ def run_optimizer(data, N):
     prob, item_vars, deco_vars, deco_size, effective_vars, skills = setup_problem(data)
 
     builds = []
+    seen_skill_configs = []
+    k = 0
 
-    for k in tqdm(range(N)):
-        prob.solve(pulp.PULP_CBC_CMD(msg=False))
+    with tqdm(total=N) as pbar:
+        while len(builds) < N:
+            prob.solve(pulp.PULP_CBC_CMD(msg=False))
 
-        if pulp.LpStatus[prob.status] != 'Optimal':
-            break
+            if pulp.LpStatus[prob.status] != 'Optimal':
+                break
 
-        build, sel_vars = collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data)
-        builds.append(build)
+            build, sel_vars = collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data)
 
-        prob += pulp.lpSum(1 - v for v in sel_vars) >= 1, f"exclude_build_{k}"
+            # maybe render this optional
+            current_skills = {s: build['skills'][s] for s in build['skills']}
+            if current_skills in seen_skill_configs:
+                prob += pulp.lpSum(1 - v for v in sel_vars) >= 1, f"exclude_piece_combo_{k}"
+                k += 1
+                continue
+
+            builds.append(build)
+            seen_skill_configs.append(current_skills)
+
+            prob += pulp.lpSum(1 - v for v in sel_vars) >= 1, f"exclude_build_{k}"
+            pbar.update(1)
+            k += 1
 
     return builds
 
