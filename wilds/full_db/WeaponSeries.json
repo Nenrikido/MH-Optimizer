@@ -627,6 +627,25 @@
     }
   },
   {
+    "game_id": 859479296,
+    "names": {
+      "ja": "アイルー派生",
+      "en": "Felyne Tree",
+      "fr": "Felyne",
+      "it": "Serie Felyne",
+      "de": "Felynen-Baum",
+      "es": "Árbol de Felyne",
+      "ru": "Древо коттов",
+      "pl": "Drzewo felina",
+      "pt-BR": "Felyno",
+      "ko": "아이루 파생",
+      "zh-Hant": "艾路衍生",
+      "zh-Hans": "艾露猫衍生",
+      "ar": "شجرة فيلاين",
+      "es-419": "Árbol Felyne"
+    }
+  },
+  {
     "game_id": 861502784,
     "names": {
       "ja": "黒蝕竜派生",

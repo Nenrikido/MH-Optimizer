@@ -12,18 +12,24 @@ weapon_files = [*filter(
 
 skills = {}
 sets = {}
+groups = {}
 for skill in json.load(open('./full_db/Skill.json', encoding='utf-8')):
     if skill['kind'] == 'armor' or skill['kind'] == 'weapon':
         skills[str(skill['game_id'])] = skill['names']['en']
-    else:
+    elif skill['kind'] == 'set':
         sets[str(skill['game_id'])] = skill['names']['en']
+    else:
+        groups[str(skill['game_id'])] = skill['names']['en']
 
 # build skills db
 skills_db = sorted(set(skills.values()))
 json.dump(skills_db, open('db/skills.json', 'w', encoding='utf-8'), indent=2)
 
 # build sets db
-sets_db = sorted(set(sets.values()))
+sets_db = {
+    "sets": sorted(set(sets.values())),
+    "groups": sorted(set(groups.values()))
+}
 json.dump(sets_db, open('db/sets.json', 'w', encoding='utf-8'), indent=2)
 
 # build decorations db
@@ -61,7 +67,7 @@ for armor in armors:
         if armor['set_bonus']:
             armor_sets.append(sets[str(armor['set_bonus']['skill_id'])])
         if armor['group_bonus']:
-            armor_sets.append(sets[str(armor['group_bonus']['skill_id'])])
+            armor_sets.append(groups[str(armor['group_bonus']['skill_id'])])
         slots = []
         transcended_slots = []
         upgraded_slots = 0
@@ -72,12 +78,23 @@ for armor in armors:
             except IndexError:
                 slot_value = 0
             if armor['rarity'] == 5 or armor['rarity'] == 6:
-                transcended_slots.append({'value': slot_value + (slot_value < 3 and (upgraded_slots < 2 or armor['rarity'] == 5)), 'type': 'A'})
-                upgraded_slots += slot_value < 3
+                slot_value += (slot_value < 3 and (upgraded_slots < 2 or armor['rarity'] == 5))
+                if slot_value > 0:
+                    transcended_slots.append({'value': slot_value, 'type': 'A'})
+                upgraded_slots += 1
+        armor_skills = {}
+        for skill_id, skill_points in armor_piece['skills'].items():
+            if str(skill_id) in skills:
+                armor_skills[skills[str(skill_id)]] = skill_points
+            else:
+                if str(skill_id) in sets:
+                    armor_sets.append(sets[str(skill_id)])
+                elif str(skill_id) in groups:
+                    armor_sets.append(groups[str(skill_id)])
         items[armor_piece['kind']].append({
             'name': armor_piece['names']['en'],
             'sets': armor_sets,
-            'skills': {skills[skill_id]: skill_points for skill_id, skill_points in armor_piece['skills'].items()},
+            'skills': armor_skills,
             'slots': slots,
             'transcended_slots': transcended_slots or slots
         })
