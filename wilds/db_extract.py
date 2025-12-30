@@ -51,14 +51,18 @@ items = {
     'legs': [],
     'amulet': []
 }
+weapon_names = set()
 for weapon_file in weapon_files:
     weapons = json.load(open(weapon_file, encoding='utf-8'))
     for weapon in weapons:
-        items['weapon'].append({
-            'name': weapon['names']['en'],
-            'skills': {skills[skill_id]: skill_points for skill_id, skill_points in weapon['skills'].items()},
-            'slots': [{'value': slot, 'type': 'W'} for slot in weapon['slots']]
-        })
+        weapon_name = weapon['names']['en']
+        if weapon_name not in weapon_names:
+            weapon_names.add(weapon_name)
+            items['weapon'].append({
+                'name': weapon['names']['en'],
+                'skills': {skills[skill_id]: skill_points for skill_id, skill_points in weapon['skills'].items()},
+                'slots': [{'value': slot, 'type': 'W'} for slot in weapon['slots']]
+            })
 
 armors = json.load(open('./full_db/Armor.json', encoding='utf-8'))
 for armor in armors:

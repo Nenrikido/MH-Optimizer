@@ -1324,42 +1324,6 @@
       ]
     },
     {
-      "name": "Calamitous Angel",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Calamitous Angel",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
       "name": "Hope Strongarm I",
       "skills": {},
       "slots": []
@@ -2617,42 +2581,6 @@
         },
         {
           "value": 1,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Promised Abyss",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Promised Abyss",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
           "type": "W"
         }
       ]
@@ -4070,42 +3998,6 @@
       ]
     },
     {
-      "name": "Eternal Cusp",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Eternal Cusp",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
       "name": "Hope Blade I",
       "skills": {},
       "slots": []
@@ -5482,42 +5374,6 @@
       ]
     },
     {
-      "name": "Ostrak Oblivion",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Ostrak Oblivion",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
       "name": "Blazing Veiah",
       "skills": {
         "Whiteflame Torrent": 1
@@ -6763,42 +6619,6 @@
         },
         {
           "value": 1,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Auguring Omen",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Auguring Omen",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
           "type": "W"
         }
       ]
@@ -8132,42 +7952,6 @@
       ]
     },
     {
-      "name": "Bound Admonition",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Bound Admonition",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
       "name": "Hope Cannon I",
       "skills": {},
       "slots": []
@@ -9294,42 +9078,6 @@
         },
         {
           "value": 1,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Trembling Hels",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Trembling Hels",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
           "type": "W"
         }
       ]
@@ -10656,42 +10404,6 @@
         },
         {
           "value": 1,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Onyx Choros",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Onyx Choros",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
           "type": "W"
         }
       ]
@@ -12057,42 +11769,6 @@
       ]
     },
     {
-      "name": "Limbo Llor",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Limbo Llor",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
       "name": "Vanguard's Glaive",
       "skills": {
         "Airborne": 1,
@@ -13370,42 +13046,6 @@
         },
         {
           "value": 1,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Aether Pike",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Aether Pike",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
           "type": "W"
         }
       ]
@@ -14732,42 +14372,6 @@
       ]
     },
     {
-      "name": "Bethorned Agony",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Bethorned Agony",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
       "name": "Hope Edge I",
       "skills": {},
       "slots": []
@@ -16064,24 +15668,6 @@
       ]
     },
     {
-      "name": "Headsman's Hamus",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
       "name": "Scavenger Pickaxe",
       "skills": {
         "Power Stone": 1
@@ -16117,24 +15703,6 @@
         },
         {
           "value": 1,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Headsman's Hamus",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
           "type": "W"
         }
       ]
@@ -17324,42 +16892,6 @@
         },
         {
           "value": 1,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Wicked Regnum",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Wicked Regnum",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
           "type": "W"
         }
       ]
@@ -18845,42 +18377,6 @@
         },
         {
           "value": 1,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Kyrie Verd",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ]
-    },
-    {
-      "name": "Kyrie Verd",
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
           "type": "W"
         }
       ]
