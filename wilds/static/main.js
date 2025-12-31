@@ -81,18 +81,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     (await getStoreData(STORES.sets)).map(set => {
-        const idx = availableSetsData.indexOf(set.set);
+        const idx = availableSetsData.indexOf(set.name);
         if (idx === -1) return;
         availableSetsData.splice(idx, 1);
-        refreshAutocompleteData(skillsInput, availableSkillsData);
-        addBadge('sets-badges', set.set, setIndex++, 'Min Pieces', null, set.min_pieces, '')
+        refreshAutocompleteData(setsInput, availableSetsData);
+        addBadge('sets-badges', set.name, setIndex++, 'Min Pieces', null, set.min_pieces, '')
     });
 
     (await getStoreData(STORES.weapons)).forEach(weapon => {
         const idx = availableWeaponsData.indexOf(weapon.name);
         if (idx > -1) {
             availableWeaponsData.splice(idx, 1);
-            refreshAutocompleteData(skillsInput, availableSkillsData);
+            refreshAutocompleteData(weaponsInput, availableWeaponsData);
             addBadge('weapons-badges', weapon.name, weaponIndex++, null, null, '', '')
         }
     });

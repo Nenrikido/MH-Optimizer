@@ -342,6 +342,7 @@ def run_optimizer(data, N):
             prob.solve(pulp.PULP_CBC_CMD(msg=False))
 
             if pulp.LpStatus[prob.status] != 'Optimal':
+                print(f"No more optimal solutions found. (status = {pulp.LpStatus[prob.status]})")
                 break
 
             build, sel_vars = collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data)

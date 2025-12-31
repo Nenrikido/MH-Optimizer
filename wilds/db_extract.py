@@ -61,7 +61,9 @@ for weapon_file in weapon_files:
             items['weapon'].append({
                 'name': weapon['names']['en'],
                 'skills': {skills[skill_id]: skill_points for skill_id, skill_points in weapon['skills'].items()},
-                'slots': [{'value': slot, 'type': 'W'} for slot in weapon['slots']]
+                'slots': [{'value': slot, 'type': 'W'} for slot in weapon['slots']],
+                'sets': [],
+                'is_gog': weapon['series_id'] is None and weapon['crafting']['zenny_cost'] == 300
             })
 
 armors = json.load(open('./full_db/Armor.json', encoding='utf-8'))
