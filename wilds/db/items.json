@@ -1490,6 +1490,48 @@
       "is_gog": true
     },
     {
+      "name": "Azure Era Wyrmbow",
+      "skills": {
+        "Convert Water Resistance": 1,
+        "Critical Element": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        }
+      ],
+      "sets": [],
+      "is_gog": false
+    },
+    {
+      "name": "Azure Era \"Soaring Dragon\"",
+      "skills": {
+        "Convert Water Resistance": 1,
+        "Critical Element": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        },
+        {
+          "value": 1,
+          "type": "W"
+        }
+      ],
+      "sets": [],
+      "is_gog": false
+    },
+    {
       "name": "Hope Strongarm I",
       "skills": {},
       "slots": [],
@@ -6046,6 +6088,52 @@
       ],
       "sets": [],
       "is_gog": true
+    },
+    {
+      "name": "Shatterseal",
+      "skills": {
+        "Focus": 3,
+        "Shattering Reflection": 1
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        }
+      ],
+      "sets": [],
+      "is_gog": false
+    },
+    {
+      "name": "Shatterseal Drakesnest",
+      "skills": {
+        "Focus": 3,
+        "Shattering Reflection": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 3,
+          "type": "W"
+        }
+      ],
+      "sets": [],
+      "is_gog": false
     },
     {
       "name": "Blazing Veiah",
@@ -17634,6 +17722,48 @@
       "is_gog": true
     },
     {
+      "name": "Azure Star Blade",
+      "skills": {
+        "Convert Water Resistance": 1,
+        "Critical Element": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        }
+      ],
+      "sets": [],
+      "is_gog": false
+    },
+    {
+      "name": "Azure Star \"Dragon Dance\"",
+      "skills": {
+        "Convert Water Resistance": 1,
+        "Critical Element": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "W"
+        },
+        {
+          "value": 2,
+          "type": "W"
+        },
+        {
+          "value": 1,
+          "type": "W"
+        }
+      ],
+      "sets": [],
+      "is_gog": false
+    },
+    {
       "name": "Scavenger Pickaxe",
       "skills": {
         "Power Stone": 1
@@ -22270,6 +22400,46 @@
       ]
     },
     {
+      "name": "Azure Age Hair \u03b1",
+      "sets": [
+        "Leviathan's Fury",
+        "Fortifying Pelt"
+      ],
+      "skills": {
+        "Constitution": 2,
+        "Adrenaline Rush": 1,
+        "Latent Power": 1
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Prayer Beads \u03b1",
       "sets": [
         "Master of the Fist"
@@ -22335,6 +22505,18 @@
           "type": "A"
         }
       ]
+    },
+    {
+      "name": "Rompomask \u03b1",
+      "sets": [
+        "Buttery Leathercraft"
+      ],
+      "skills": {
+        "Counterstrike": 2,
+        "Resentment": 5
+      },
+      "slots": [],
+      "transcended_slots": []
     },
     {
       "name": "Eager Wudwud \u03b1",
@@ -22588,6 +22770,44 @@
         },
         {
           "value": 3,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Sororal Earrings \u03b1",
+      "sets": [
+        "Gore Magala's Tyranny",
+        "Glory's Favor"
+      ],
+      "skills": {
+        "Burst": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
           "type": "A"
         }
       ]
@@ -22941,6 +23161,36 @@
       ]
     },
     {
+      "name": "Arkvulcan Helm \u03b3",
+      "sets": [
+        "Arkveld's Hunger",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Weakness Exploit": 3
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Sealed Dragon Cloth \u03b1",
       "sets": [],
       "skills": {
@@ -22978,6 +23228,36 @@
       "transcended_slots": [
         {
           "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Gala Suit Top Hat \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Item Prolonger": 3,
+        "Divine Blessing": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
           "type": "A"
         },
         {
@@ -26264,6 +26544,30 @@
       ]
     },
     {
+      "name": "Azure Age Haori \u03b1",
+      "sets": [
+        "Leviathan's Fury",
+        "Fortifying Pelt"
+      ],
+      "skills": {
+        "Quick Sheathe": 1,
+        "Adrenaline Rush": 1,
+        "Latent Power": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Garb \u03b1",
       "sets": [
         "Master of the Fist"
@@ -26484,6 +26788,20 @@
           "type": "A"
         }
       ]
+    },
+    {
+      "name": "Sororal Coat \u03b1",
+      "sets": [
+        "Gore Magala's Tyranny",
+        "Glory's Favor"
+      ],
+      "skills": {
+        "Stamina Surge": 2,
+        "Burst": 1,
+        "Partbreaker": 1
+      },
+      "slots": [],
+      "transcended_slots": []
     },
     {
       "name": "Sakuratide Robe \u03b1",
@@ -26722,6 +27040,75 @@
       "transcended_slots": [
         {
           "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Arkvulcan Mail \u03b3",
+      "sets": [
+        "Arkveld's Hunger",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Blight Resistance": 1,
+        "Convert Element": 3
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Gala Suit Jacket \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Coalescence": 2,
+        "Divine Blessing": 1
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
           "type": "A"
         }
       ]
@@ -29707,6 +30094,30 @@
       ]
     },
     {
+      "name": "Azure Age Sleeve \u03b1",
+      "sets": [
+        "Leviathan's Fury",
+        "Fortifying Pelt"
+      ],
+      "skills": {
+        "Constitution": 1,
+        "Adrenaline Rush": 1,
+        "Latent Power": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Arm Wraps \u03b1",
       "sets": [
         "Master of the Fist"
@@ -29878,6 +30289,30 @@
         },
         {
           "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Sororal Vambraces \u03b1",
+      "sets": [
+        "Gore Magala's Tyranny",
+        "Glory's Favor"
+      ],
+      "skills": {
+        "Burst": 1,
+        "Evade Extender": 1,
+        "Partbreaker": 1
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 2,
           "type": "A"
         }
       ]
@@ -30118,6 +30553,67 @@
       "transcended_slots": [
         {
           "value": 3,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Arkvulcan Vambraces \u03b3",
+      "sets": [
+        "Arkveld's Hunger",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Flayer": 2,
+        "Weakness Exploit": 2
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Gala Suit Cuffs \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Maximum Might": 2,
+        "Peak Performance": 2
+      },
+      "slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 1,
+          "type": "A"
+        },
+        {
+          "value": 1,
           "type": "A"
         }
       ]
@@ -33231,6 +33727,38 @@
       ]
     },
     {
+      "name": "Azure Age Obi \u03b1",
+      "sets": [
+        "Leviathan's Fury",
+        "Fortifying Pelt"
+      ],
+      "skills": {
+        "Quick Sheathe": 2,
+        "Adrenaline Rush": 1,
+        "Latent Power": 1
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Belt \u03b1",
       "sets": [
         "Master of the Fist"
@@ -33412,6 +33940,19 @@
           "type": "A"
         }
       ]
+    },
+    {
+      "name": "Sororal Coil \u03b1",
+      "sets": [
+        "Gore Magala's Tyranny",
+        "Glory's Favor"
+      ],
+      "skills": {
+        "Burst": 2,
+        "Evade Extender": 2
+      },
+      "slots": [],
+      "transcended_slots": []
     },
     {
       "name": "Sakuratide Obi \u03b1",
@@ -33646,6 +34187,75 @@
         },
         {
           "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Arkvulcan Coil \u03b3",
+      "sets": [
+        "Arkveld's Hunger",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Flayer": 1,
+        "Elemental Absorption": 3
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Gala Suit Tail \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Coalescence": 1,
+        "Peak Performance": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
           "type": "A"
         },
         {
@@ -36620,6 +37230,38 @@
       ]
     },
     {
+      "name": "Azure Age Geta \u03b1",
+      "sets": [
+        "Leviathan's Fury",
+        "Fortifying Pelt"
+      ],
+      "skills": {
+        "Constitution": 2,
+        "Adrenaline Rush": 1,
+        "Latent Power": 1
+      },
+      "slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
       "name": "Demon Pants \u03b1",
       "sets": [
         "Master of the Fist"
@@ -36787,6 +37429,37 @@
         },
         {
           "value": 1,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Sororal Boots \u03b1",
+      "sets": [
+        "Gore Magala's Tyranny",
+        "Glory's Favor"
+      ],
+      "skills": {
+        "Stamina Surge": 1,
+        "Partbreaker": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
           "type": "A"
         }
       ]
@@ -37006,6 +37679,75 @@
       "transcended_slots": [
         {
           "value": 2,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Arkvulcan Greaves \u03b3",
+      "sets": [
+        "Arkveld's Hunger",
+        "Lord's Soul"
+      ],
+      "skills": {
+        "Flayer": 2,
+        "Blight Resistance": 2
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 3,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 3,
+          "type": "A"
+        }
+      ]
+    },
+    {
+      "name": "Gala Suit Slacks \u03b1",
+      "sets": [
+        "Festival Spirit"
+      ],
+      "skills": {
+        "Maximum Might": 1,
+        "Peak Performance": 1
+      },
+      "slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
+          "type": "A"
+        }
+      ],
+      "transcended_slots": [
+        {
+          "value": 3,
+          "type": "A"
+        },
+        {
+          "value": 2,
+          "type": "A"
+        },
+        {
+          "value": 1,
           "type": "A"
         }
       ]
@@ -39506,6 +40248,13 @@
       "slots": []
     },
     {
+      "name": "Chainblade Charm III",
+      "skills": {
+        "Flayer": 3
+      },
+      "slots": []
+    },
+    {
       "name": "Phoenix Charm I",
       "skills": {
         "Coalescence": 1
@@ -39859,6 +40608,13 @@
       "name": "Exploiter Charm II",
       "skills": {
         "Weakness Exploit": 2
+      },
+      "slots": []
+    },
+    {
+      "name": "Exploiter Charm III",
+      "skills": {
+        "Weakness Exploit": 3
       },
       "slots": []
     },
