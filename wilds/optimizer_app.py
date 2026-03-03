@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, send_from_directory
+from flask import Flask, request, render_template, send_from_directory, jsonify
 
 from opti_wilds import load_data_files, define_data, run_optimizer, output_builds
 
@@ -95,6 +95,17 @@ def run_optimization():
     return output_builds(builds, data, next_line="<br>")
 
 
+@app.route('/available_items', methods=['GET'])
+def available_items():
+    items_data_default, _, available_skills, available_sets = load_data_files()
+    available_weapons = list(map(lambda x: x['name'], items_data_default['weapon']))
+    available_sets = available_sets["sets"] + available_sets["groups"]
+    return jsonify({
+        "available_skills": available_skills,
+        "available_sets": available_sets,
+        "available_weapons": available_weapons
+    })
+
 @app.route('/', methods=['GET'])
 def index():
     items_data_default, _, available_skills, available_sets = load_data_files()
@@ -114,6 +125,8 @@ def index():
 @app.route('/static/<path:path>', methods=['GET'])
 def send_static(path):
     return send_from_directory('static', path)
+
+
 
 
 if __name__ == '__main__':

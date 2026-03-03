@@ -30,9 +30,9 @@ const DEFAULT_DATA = {
         {"name": "Agitator", "max_points": 5, "weight": 10},
     ],
     sets: [
-        {'set': "Gore Magala\u0027s Tyranny", 'min_pieces': 2},
-        {'set': "Fulgur Anjanath's Will", 'min_pieces': 2},
-        {'set': "Lord\u0027s Soul", 'min_pieces': 3}
+        {'name': "Gore Magala\u0027s Tyranny", 'min_pieces': 2},
+        {'name': "Fulgur Anjanath's Will", 'min_pieces': 2},
+        {'name': "Lord\u0027s Soul", 'min_pieces': 3}
     ],
     weapons: ["Headsman's Hamus"]
 };
