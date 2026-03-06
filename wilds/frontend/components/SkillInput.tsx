@@ -1,22 +1,24 @@
 import React, { useState } from 'react';
+import { Skill } from '../model/Skill';
+
+interface SkillInputProps {
+  skills: Skill[];
+  setSkills: (skills: Skill[]) => void;
+  availableSkills: string[];
+}
 
 // Ce composant gère l'input des skills avec suggestions/autocomplete
-function SkillInput({ skills, setSkills }) {
+function SkillInput({ skills, setSkills, availableSkills }: SkillInputProps) {
   const [input, setInput] = useState('');
-  // À remplacer par une vraie liste de suggestions (props ou contexte)
-  const availableSkills = [
-    "Master's Touch", 'Critical Boost', 'Counterstrike', 'Antivirus',
-    'Adrenaline Rush', 'Weakness Exploit', 'Divine Blessing',
-    'Constitution', 'Burst', 'Maximum Might', 'Quick Sheathe', 'Agitator'
-  ];
+  console.log(availableSkills);
 
   // Suggestions filtrées
   const suggestions = availableSkills.filter(
-    s => s.toLowerCase().includes(input.toLowerCase()) && !skills.includes(s)
+    s => s.toLowerCase().includes(input.toLowerCase()) && !skills.some(skill => skill.name === s)
   );
 
-  const handleSelect = (skill) => {
-    setSkills([...skills, skill]);
+  const handleSelect = (skill: string) => {
+    setSkills([...skills, {name: skill, max_points: 3, weight: 10}]);
     setInput('');
   };
 
@@ -48,4 +50,3 @@ function SkillInput({ skills, setSkills }) {
 }
 
 export default SkillInput;
-

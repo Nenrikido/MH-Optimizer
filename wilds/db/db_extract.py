@@ -13,7 +13,7 @@ weapon_files = [*filter(
 skills = {}
 sets = {}
 groups = {}
-for skill in json.load(open('./full_db/Skill.json', encoding='utf-8')):
+for skill in json.load(open('../full_db/Skill.json', encoding='utf-8')):
     if skill['kind'] == 'armor' or skill['kind'] == 'weapon':
         skills[str(skill['game_id'])] = skill['names']['en']
     elif skill['kind'] == 'set':
@@ -23,14 +23,14 @@ for skill in json.load(open('./full_db/Skill.json', encoding='utf-8')):
 
 # build skills db
 skills_db = sorted(set(skills.values()))
-json.dump(skills_db, open('db/skills.json', 'w', encoding='utf-8'), indent=2)
+json.dump(skills_db, open('skills.json', 'w', encoding='utf-8'), indent=2)
 
 # build sets db
 sets_db = {
     "sets": sorted(set(sets.values())),
     "groups": sorted(set(groups.values()))
 }
-json.dump(sets_db, open('db/sets.json', 'w', encoding='utf-8'), indent=2)
+json.dump(sets_db, open('sets.json', 'w', encoding='utf-8'), indent=2)
 
 # build decorations db
 decorations = [{
@@ -38,8 +38,8 @@ decorations = [{
     "skills": {skills[skill_id]: skill_points for skill_id, skill_points in decoration['skills'].items()},
     "size": decoration['level'],
     "type": 'A' if decoration['allowed_on'] == 'armor' else 'W'
-} for decoration in json.load(open('./full_db/Accessory.json', encoding='utf-8'))]
-json.dump(decorations, open('db/decorations.json', 'w', encoding='utf-8'), indent=2)
+} for decoration in json.load(open('../full_db/Accessory.json', encoding='utf-8'))]
+json.dump(decorations, open('decorations.json', 'w', encoding='utf-8'), indent=2)
 
 # build items db
 items = {
@@ -66,7 +66,7 @@ for weapon_file in weapon_files:
                 'is_gog': weapon['series_id'] is None and weapon['crafting']['zenny_cost'] == 300
             })
 
-armors = json.load(open('./full_db/Armor.json', encoding='utf-8'))
+armors = json.load(open('../full_db/Armor.json', encoding='utf-8'))
 for armor in armors:
     for armor_piece in armor['pieces']:
         armor_sets = []
@@ -105,7 +105,7 @@ for armor in armors:
             'transcended_slots': transcended_slots or slots
         })
 
-amulets = json.load(open('./full_db/Amulet.json', encoding='utf-8'))
+amulets = json.load(open('../full_db/Amulet.json', encoding='utf-8'))
 for amulet in amulets:
     if amulet['is_random']:
         continue
@@ -116,5 +116,5 @@ for amulet in amulets:
             'slots': []
         })
 
-json.dump(items, open('db/items.json', 'w', encoding='utf-8'), indent=2)
+json.dump(items, open('items.json', 'w', encoding='utf-8'), indent=2)
 

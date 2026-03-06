@@ -1,17 +1,26 @@
 import React from 'react';
+import type {Options as OptionsType} from '../model/Options';
 
-function Options({ options, setOptions, onOptimize, loading, onSaveConfig }) {
+interface OptionsProps {
+  options: OptionsType;
+  setOptions: (options: OptionsProps['options']) => void;
+  onOptimize: () => void;
+  loading: boolean;
+  onSaveConfig: () => void;
+}
+
+function Options({ options, setOptions, onOptimize, loading, onSaveConfig }: OptionsProps) {
   return (
     <div>
-      <h4>Nombre de résultats (max: 20)</h4>
+      <h4>Nombre de résultats (max: 5)</h4>
       <input
         type="number"
         className="form-control mb-3"
         name="N"
         value={options.N}
-        max={20}
+        max={5}
         min={1}
-        onChange={e => setOptions({ ...options, N: Math.max(1, Math.min(20, Number(e.target.value))) })}
+        onChange={e => setOptions({ ...options, N: Math.max(1, Math.min(5, Number(e.target.value))) })}
       />
       <div className="form-check mb-3">
         <input

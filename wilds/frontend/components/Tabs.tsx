@@ -3,14 +3,25 @@ import ResultsTab from './ResultsTab';
 import AmuletBadgeList from './AmuletBadgeList';
 import AddAmuletButton from './AddAmuletButton';
 import TemplatesTab from './TemplatesTab';
+import { Result } from '../model/Result';
+import { Amulet } from '../model/Amulet';
+import { Skill } from '../model/Skill';
 
-function Tabs({ results, amulets, setAmulets, availableSkills }) {
+interface TabsProps {
+  results: Result[] | string[];
+  amulets: Amulet[];
+  setAmulets: (amulets: Amulet[]) => void;
+  availableSkills: string[];
+  loading: boolean;
+}
+
+function Tabs({ results, amulets, setAmulets, availableSkills, loading }: TabsProps) {
   const [activeTab, setActiveTab] = useState('results');
 
   const handleAddAmulet = () => {
     setAmulets([
       ...amulets,
-      { skills: [], slots: '' }
+      { name: '', skills: [], slots: '' }
     ]);
   };
 
@@ -61,7 +72,7 @@ function Tabs({ results, amulets, setAmulets, availableSkills }) {
           aria-labelledby="nav-results-tab"
           tabIndex={0}
         >
-          <ResultsTab results={results} />
+          <ResultsTab results={results} loading={loading} />
         </div>
         <div
           className={`tab-pane card card-body${activeTab === 'filters' ? ' show active' : ''}`}

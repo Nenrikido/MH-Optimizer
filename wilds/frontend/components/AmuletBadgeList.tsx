@@ -1,28 +1,36 @@
 import React from 'react';
 import AmuletBadge from './AmuletBadge';
+import { Amulet } from '../model/Amulet';
+import { Skill } from '../model/Skill';
 
-function AmuletBadgeList({ amulets, setAmulets, availableSkills }) {
-  const handleRemove = (index) => {
+interface AmuletBadgeListProps {
+  amulets: Amulet[];
+  setAmulets: (amulets: Amulet[]) => void;
+  availableSkills: string[];
+}
+
+function AmuletBadgeList({ amulets, setAmulets, availableSkills }: AmuletBadgeListProps) {
+  const handleRemove = (index: number) => {
     setAmulets(amulets.filter((_, i) => i !== index));
   };
-  const handleSkillRemove = (amuletIdx, skillIdx) => {
+  const handleSkillRemove = (amuletIdx: number, skillIdx: number) => {
     setAmulets(amulets.map((a, i) =>
       i === amuletIdx ? { ...a, skills: a.skills.filter((_, j) => j !== skillIdx) } : a
     ));
   };
-  const handleSlotRemove = (index) => {
+  const handleSlotRemove = (index: number) => {
     setAmulets(amulets.map((a, i) => i === index ? { ...a, slots: '' } : a));
   };
-  const handleSkillChange = (amuletIdx, skillIdx, field, value) => {
+  const handleSkillChange = (amuletIdx: number, skillIdx: number, field: string, value: string | number) => {
     setAmulets(amulets.map((a, i) => {
       if (i !== amuletIdx) return a;
       const skills = [...a.skills];
-      if (!skills[skillIdx]) skills[skillIdx] = { name: '', value: '' };
+      if (!skills[skillIdx]) skills[skillIdx] = { name: '', value: 0 };
       skills[skillIdx] = { ...skills[skillIdx], [field]: value };
       return { ...a, skills };
     }));
   };
-  const handleSlotChange = (index, value) => {
+  const handleSlotChange = (index: number, value: string) => {
     setAmulets(amulets.map((a, i) => i === index ? { ...a, slots: value } : a));
   };
   return (
@@ -45,4 +53,3 @@ function AmuletBadgeList({ amulets, setAmulets, availableSkills }) {
 }
 
 export default AmuletBadgeList;
-

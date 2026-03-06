@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>MH Wilds Build Optimizer (Beta)</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <meta content="MH Wilds Build Optimizer (Beta)" property="og:title" />
+    <meta content="A little tool made by @nenrikido on Discord to optimize builds based on weighted skills of your choosing !"
+          property="og:description" />
+    <meta content="https://mh-opti.nenri.fr/" property="og:url" />
+    <meta content="https://mh-opti.nenri.fr/static/favicon.png" property="og:image" />
+    <meta content="#a19423" data-react-helmet="true" name="theme-color" />
+    <style>
+        @media (max-width: 1000px) {
+            #main-container {
+                flex-wrap: wrap;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            #main-container .container {
+                max-height: initial !important;
+            }
+        }
+
+        #nav-tabContent .card-body {
+            border-top: 0;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            height: calc(100vh - 99px - 4rem);
+            overflow: auto;
+        }
+
+        pre {
+            overflow: initial;
+        }
+    </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/main.tsx"></script>
+</body>
+</html>
+

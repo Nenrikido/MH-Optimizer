@@ -1,4 +1,5 @@
-from flask import Flask, request, render_template, send_from_directory, jsonify
+from flask import Flask, request, render_template, send_from_directory, jsonify, redirect
+import os
 
 from opti_wilds import load_data_files, define_data, run_optimizer, output_builds
 
@@ -78,7 +79,7 @@ def run_optimization():
     filtered_decorations = [d for d in decorations_default if
                             not filter_decos or filter_decos.lower() in d['name'].lower()]
 
-    N = min(int(request.form['N']), 20)
+    N = min(int(request.form['N']), 5)
 
     data = define_data(
         desired_skills,
@@ -125,6 +126,18 @@ def index():
 @app.route('/static/<path:path>', methods=['GET'])
 def send_static(path):
     return send_from_directory('static', path)
+
+@app.route('/dist/<path:path>', methods=['GET'])
+def send_dist(path):
+    return send_from_directory('dist', path)
+@app.route('/app', defaults={'path': ''})
+@app.route('/app/<path:path>')
+def serve_react_app(path):
+    static_folder = os.path.join(app.root_path, 'dist')
+    index_path = os.path.join(static_folder, 'index.html')
+    if path != "" and os.path.exists(os.path.join(static_folder, path)):
+        return send_from_directory(static_folder, path)
+    return send_from_directory(static_folder, 'index.html')
 
 
 

@@ -1,6 +1,19 @@
 import React from 'react';
+import { Amulet } from '../model/Amulet';
+import { Skill } from '../model/Skill';
 
-function AmuletBadge({ amulet, onRemove, onSkillRemove, onSlotRemove, onSkillChange, onSlotChange, index, availableSkills }) {
+interface AmuletBadgeProps {
+  amulet: Amulet;
+  onRemove: (index: number) => void;
+  onSkillRemove: (amuletIdx: number, skillIdx: number) => void;
+  onSlotRemove: (index: number) => void;
+  onSkillChange: (amuletIdx: number, skillIdx: number, field: string, value: string | number) => void;
+  onSlotChange: (index: number, value: string) => void;
+  index: number;
+  availableSkills: string[];
+}
+
+function AmuletBadge({ amulet, onRemove, onSkillRemove, onSlotRemove, onSkillChange, onSlotChange, index, availableSkills }: AmuletBadgeProps) {
   return (
     <div className="badge text-start bg-secondary d-flex gap-4 justify-content-between align-items-center w-100 mb-2">
       <div className="d-flex flex-column w-75">
@@ -60,4 +73,3 @@ function AmuletBadge({ amulet, onRemove, onSkillRemove, onSlotRemove, onSkillCha
 }
 
 export default AmuletBadge;
-

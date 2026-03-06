@@ -4,7 +4,7 @@ from itertools import product
 import pulp
 from tqdm.auto import tqdm
 
-from amulet_finder import generate_amulets
+from wilds.db.amulet_finder import generate_amulets
 
 
 def load_data_files():
@@ -16,16 +16,16 @@ def load_data_files():
     """
 
     # group -> list of dicts {'name': str, 'skills': {skill: points}, 'slots': [{'value': value, 'type': slot_type}, ...], 'set': str (optional)}
-    items_data = json.load(open('db/items.json'))
+    items_data = json.load(open('../db/items.json'))
 
     # list of dicts {'name': str, 'skills': {skill: points}, 'size': int, 'type': slot_type}
-    decorations = json.load(open('db/decorations.json'))
+    decorations = json.load(open('../db/decorations.json'))
 
     # List of skill names
-    available_skills = json.load(open('db/skills.json'))
+    available_skills = json.load(open('../db/skills.json'))
 
     # List of set names
-    available_sets = json.load(open('db/sets.json'))
+    available_sets = json.load(open('../db/sets.json'))
 
     return items_data, decorations, available_skills, available_sets
 
@@ -369,7 +369,7 @@ def main():
     Main function to run the optimizer.
     """
     # Define the desired skills with max points and weights
-    desired_skills = json.load(open('./db/loadouts.json', encoding='utf-8'))['ig']
+    desired_skills = json.load(open('../db/loadouts.json', encoding='utf-8'))['ig']
 
     # User-defined set restrictions
     desired_sets = [

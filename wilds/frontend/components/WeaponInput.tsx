@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
+import { Weapon } from '../model/Weapon';
 
-function WeaponInput({ weapons, setWeapons, availableWeapons }) {
+interface WeaponInputProps {
+  weapons: Weapon[];
+  setWeapons: (weapons: Weapon[]) => void;
+  availableWeapons: string[];
+}
+
+function WeaponInput({ weapons, setWeapons, availableWeapons }: WeaponInputProps) {
   const [input, setInput] = useState('');
   // Suggestions filtrées
   const suggestions = availableWeapons.filter(
-    w => w.toLowerCase().includes(input.toLowerCase()) && !weapons.includes(w)
+    w => w.toLowerCase().includes(input.toLowerCase()) && !weapons.some(weapon => weapon.name === w)
   );
 
-  const handleSelect = (weapon) => {
-    setWeapons([...weapons, weapon]);
+  const handleSelect = (weapon: string) => {
+    setWeapons([...weapons, {name: weapon}]);
     setInput('');
   };
 
@@ -40,4 +47,3 @@ function WeaponInput({ weapons, setWeapons, availableWeapons }) {
 }
 
 export default WeaponInput;
-
