@@ -1,12 +1,12 @@
 from flask import Flask, request, render_template, send_from_directory, jsonify, redirect
 import os
 
-from opti_wilds import load_data_files, define_data, run_optimizer, output_builds
+from opti_wilds import load_data_files, define_data, run_optimizer, output_builds, output_builds_json
 
 app = Flask(__name__)
 
 
-@app.route('/run', methods=['POST'])
+@app.route('/api/run', methods=['POST'])
 def run_optimization():
     items_data_default, decorations_default, available_skills, available_sets = load_data_files()
 
@@ -79,7 +79,7 @@ def run_optimization():
     filtered_decorations = [d for d in decorations_default if
                             not filter_decos or filter_decos.lower() in d['name'].lower()]
 
-    N = min(int(request.form['N']), 5)
+    N = min(int(request.form.get('N', '1')), 5)
 
     data = define_data(
         desired_skills,
@@ -96,7 +96,91 @@ def run_optimization():
     return output_builds(builds, data, next_line="<br>")
 
 
-@app.route('/available_items', methods=['GET'])
+@app.route('/api/run_json', methods=['POST'])
+def run_optimization_json():
+    items_data_default, decorations_default, available_skills, available_sets = load_data_files()
+
+    data_json = request.get_json()
+
+    # Extraire les skills
+    desired_skills = []
+    for skill in data_json.get('skills', []):
+        desired_skills.append({
+            'name': skill.get('name'),
+            'max_points': skill.get('max_points', 5),
+            'weight': skill.get('weight', 10)
+        })
+
+    # Extraire les sets
+    desired_sets = []
+    for armor_set in data_json.get('sets', []):
+        name = armor_set.get('name')
+        if name and ((is_group := name in available_sets["groups"]) or name in available_sets["sets"]):
+            desired_sets.append({
+                'set': name,
+                'min_pieces': armor_set.get('min_pieces', 2),
+                'is_group': is_group
+            })
+
+    # Extraire les weapons
+    desired_weapons = [weapon.get('name') for weapon in data_json.get('weapons', [])]
+
+    # Extraire les amulets
+    custom_amulets_list = []
+    for amulet in data_json.get('amulets', []):
+        amulet_data = {
+            "name": amulet.get('name', 'Custom Amulet'),
+            "skills": {}
+        }
+        for skill in amulet.get('skills', []):
+            if skill.get('name'):
+                amulet_data['skills'][skill['name']] = skill.get('value', 1)
+
+        # Parse slots
+        slots_str = amulet.get('slots', '')
+        if slots_str:
+            amulet_data['slots'] = list(map(
+                lambda x: {
+                    "value": int(x[-1]),
+                    "type": "W" if x[0] == "W" else "A"
+                },
+                slots_str.split('-0')[0].split('-')
+            ))
+
+        custom_amulets_list.append(amulet_data)
+
+    # Filter items_data
+    filtered_items_data = {k: v for k, v in items_data_default.items()}
+
+    # Filter weapons
+    filtered_items_data['weapon'] = [item for item in filtered_items_data['weapon'] if item['name'] in desired_weapons]
+
+    # Add custom amulets
+    filtered_items_data['amulet'] += custom_amulets_list
+
+    # Filter decorations
+    filtered_decorations = decorations_default
+
+    # Extraire les options
+    options = data_json.get('options', {})
+    N = min(options.get('N', 1), 5)
+
+    data = define_data(
+        desired_skills,
+        desired_sets,
+        filtered_items_data,
+        filtered_decorations,
+        include_all_amulets=options.get('include_all_amulets', False),
+        transcend=options.get('transcend', False),
+        include_gog_sets=options.get('include_gog_sets', False)
+    )
+
+    builds = run_optimizer(data, N)
+
+    return jsonify(output_builds_json(builds, data))
+
+
+@app.route('/api/available_items', methods=['GET'])
 def available_items():
     items_data_default, _, available_skills, available_sets = load_data_files()
     available_weapons = list(map(lambda x: x['name'], items_data_default['weapon']))

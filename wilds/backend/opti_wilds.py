@@ -330,6 +330,73 @@ def output_builds(builds, data, next_line="\n"):
     return output
 
 
+def output_builds_json(builds, data):
+    """
+    Returns the collected builds in a structured JSON format.
+
+    Args:
+        builds (list): List of build dictionaries.
+        data (dict): The data dictionary from define_data().
+
+    Returns:
+        list: List of structured build dictionaries.
+    """
+    output = []
+    skills_info = {skill['name']: skill for skill in data['desired_skills']}
+
+    for idx, build in enumerate(builds, 1):
+        # Format items with their decorations
+        items = []
+        for group, name in build['items'].items():
+            slots = build['slots'][group]
+            slots_list = []
+            for slot in slots:
+                slots_list.append({
+                    'decoration': slot['assigned'] or None,
+                    'size': slot['level'],
+                    'type': slot['type']
+                })
+
+            # Handle generated amulets
+            display_name = name
+            amulet_details = None
+            if group == 'amulet' and name.startswith('Amulet_R'):
+                amulet = next((a for a in data['items_data']['amulet'] if a['name'] == name), None)
+                if amulet:
+                    amulet_details = {
+                        'rarity': amulet['rarity'],
+                        'groups': amulet.get('groups', []),
+                        'skills': amulet.get('skills', {})
+                    }
+
+            items.append({
+                'slot': group,
+                'name': display_name,
+                'decorations': slots_list,
+                'amulet_details': amulet_details
+            })
+
+        # Format skills
+        skills = []
+        for skill_name, effective in build['skills'].items():
+            skill_info = skills_info.get(skill_name, {})
+            skills.append({
+                'name': skill_name,
+                'current': int(effective),
+                'max': skill_info.get('max_points', 5),
+                'weight': skill_info.get('weight', 10)
+            })
+
+        output.append({
+            'id': idx,
+            'score': build['score'],
+            'items': items,
+            'skills': skills
+        })
+
+    return output
+
+
 def run_optimizer(data, N):
     prob, item_vars, deco_vars, deco_size, effective_vars, skills = setup_problem(data)
 

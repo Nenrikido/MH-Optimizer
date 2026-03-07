@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { Weapon } from '../model/Weapon';
+import React, {useState} from 'react';
+import {Weapon} from '../model/Weapon';
+import CustomAutocomplete from './CustomAutocomplete';
 
 interface WeaponInputProps {
   weapons: Weapon[];
@@ -7,42 +8,27 @@ interface WeaponInputProps {
   availableWeapons: string[];
 }
 
-function WeaponInput({ weapons, setWeapons, availableWeapons }: WeaponInputProps) {
+function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) {
   const [input, setInput] = useState('');
-  // Suggestions filtrées
-  const suggestions = availableWeapons.filter(
-    w => w.toLowerCase().includes(input.toLowerCase()) && !weapons.some(weapon => weapon.name === w)
-  );
 
-  const handleSelect = (weapon: string) => {
-    setWeapons([...weapons, {name: weapon}]);
-    setInput('');
+  const handleSelect = (value: string) => {
+    if (value && !weapons.some(weapon => weapon.name === value)) {
+      setWeapons([...weapons, {name: value}]);
+      setInput('');
+    }
   };
 
   return (
-    <div style={{ position: 'relative' }}>
-      <input
-        className="form-control mb-3"
-        placeholder="On which weapon(s) ?"
-        value={input}
-        onChange={e => setInput(e.target.value)}
-        autoComplete="off"
-      />
-      {input && suggestions.length > 0 && (
-        <ul className="list-group position-absolute w-100" style={{ zIndex: 10 }}>
-          {suggestions.map(weapon => (
-            <li
-              key={weapon}
-              className="list-group-item list-group-item-action"
-              onClick={() => handleSelect(weapon)}
-              style={{ cursor: 'pointer' }}
-            >
-              {weapon}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
+    <CustomAutocomplete
+      value={input}
+      onChange={handleSelect}
+      onInputChange={setInput}
+      availableSkills={availableWeapons}
+      placeholder="On which weapon(s) ?"
+      fullWidth
+      size="small"
+      sx={{mb: 2}}
+    />
   );
 }
 

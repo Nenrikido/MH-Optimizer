@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { Set as ArmorSet } from '../model/Set';
+import React, {useState} from 'react';
+import {Set as ArmorSet} from '../model/Set';
+import CustomAutocomplete from './CustomAutocomplete';
 
 interface SetInputProps {
   sets: ArmorSet[];
@@ -7,42 +8,27 @@ interface SetInputProps {
   availableSets: string[];
 }
 
-function SetInput({ sets, setSets, availableSets }: SetInputProps) {
+function SetInput({sets, setSets, availableSets}: SetInputProps) {
   const [input, setInput] = useState('');
-  // Suggestions filtrées
-  const suggestions = availableSets.filter(
-    s => s.toLowerCase().includes(input.toLowerCase()) && !sets.some(set => set.name === s)
-  );
 
-  const handleSelect = (set: string) => {
-    setSets([...sets, {name: set, min_pieces: 2}]);
-    setInput('');
+  const handleSelect = (value: string) => {
+    if (value && !sets.some(set => set.name === value)) {
+      setSets([...sets, {name: value, min_pieces: 2}]);
+      setInput('');
+    }
   };
 
   return (
-    <div style={{ position: 'relative' }}>
-      <input
-        className="form-control mb-3"
-        placeholder="With which set(s) ?"
-        value={input}
-        onChange={e => setInput(e.target.value)}
-        autoComplete="off"
-      />
-      {input && suggestions.length > 0 && (
-        <ul className="list-group position-absolute w-100" style={{ zIndex: 10 }}>
-          {suggestions.map(set => (
-            <li
-              key={set}
-              className="list-group-item list-group-item-action"
-              onClick={() => handleSelect(set)}
-              style={{ cursor: 'pointer' }}
-            >
-              {set}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
+    <CustomAutocomplete
+      value={input}
+      onChange={handleSelect}
+      onInputChange={setInput}
+      availableSkills={availableSets}
+      placeholder="With which set(s) ?"
+      fullWidth
+      size="small"
+      sx={{mb: 2}}
+    />
   );
 }
 

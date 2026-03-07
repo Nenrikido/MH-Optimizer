@@ -1,36 +1,41 @@
 import React from 'react';
+import {Accordion, AccordionDetails, AccordionSummary, Typography} from '@mui/material';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function InfoCollapse() {
   return (
-    <div>
-      <a className="btn btn-secondary" data-bs-toggle="collapse" href="#collapse-info" role="button" aria-expanded="false" aria-controls="collapse-info">
-        ⓘ Infos
-      </a>
-      <div className="collapse" id="collapse-info">
-        <div className="card card-body">
-          How to use :
+      <Accordion>
+        <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="info-content"
+            id="info-header"
+        >
+          <Typography>ⓘ Infos</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>How to use :</Typography>
           <ul>
             <li>Type your desired skills, sets and weapons in the input boxes (autocomplete available)</li>
-            <li>Choose your max amount of skill points and the weight of each skill, and the min amount of pieces from each set</li>
+            <li>Choose your max amount of skill points and the weight of each skill, and the min amount of pieces from
+              each set
+            </li>
             <li>In the "Filters" tab, you can choose the amulets you have in your box</li>
             <li>Click on "Optimize" and wait for the results</li>
           </ul>
-          Notes :
+          <Typography>Notes :</Typography>
           <ul>
-            <li>Data is up to date with TU4 (AT Jin Dahaad)</li>
+            <li>Data is up to date with TU4.1 (AT Arkveld)</li>
             <li>Yes the default values are for LS, yes i'm a weeb</li>
           </ul>
-          Features to come :
+          <Typography>Features to come :</Typography>
           <ul>
             <li>Skill & set templates</li>
             <li>Armor pieces filters</li>
             <li>Better design (I suck at design sry)</li>
           </ul>
-        </div>
-      </div>
-    </div>
+        </AccordionDetails>
+      </Accordion>
   );
 }
 
 export default InfoCollapse;
-

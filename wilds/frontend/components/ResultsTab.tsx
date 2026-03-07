@@ -1,37 +1,41 @@
 import React from 'react';
-import { Result } from '../model/Result';
+import {Box, Paper, Typography} from '@mui/material';
+import BuildCard from './BuildCard';
+import {Result} from '../model/Result';
 
 interface ResultsTabProps {
   results: Result[] | string[];
   loading: boolean;
 }
 
-function ResultsTab({ results, loading }: ResultsTabProps) {
+function ResultsTab({results, loading}: ResultsTabProps) {
   return (
-    <div>
-      <h4>Optimization results</h4>
+    <Box>
+      <Typography variant="body1" sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>
+        Optimization results
+      </Typography>
       {loading ? (
-        <div className="d-flex align-items-center gap-2">
-          <span
-            className="spinner-border spinner-border-sm"
-            role="status"
-            aria-hidden="true"
-          ></span>
+        <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
+          <div className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></div>
           Optimizing ...
-        </div>
+        </Box>
       ) : results.length === 0 ? (
-        <div>No result for now.</div>
+        <Typography>No result for now.</Typography>
       ) : (
         results.map((res, idx) =>
           typeof res === 'string' ? (
-            <pre key={idx}>{res}</pre>
+            <Paper key={idx} sx={{p: 2, mb: 2, whiteSpace: 'pre-wrap'}}>
+              <Typography component="pre" sx={{fontSize: '0.85rem'}}>{res}</Typography>
+            </Paper>
           ) : (
-            <pre key={idx}>{JSON.stringify(res, null, 2)}</pre>
+            <BuildCard key={res.id || idx} build={res} />
           )
         )
       )}
-    </div>
+    </Box>
   );
 }
 
 export default ResultsTab;
+
+

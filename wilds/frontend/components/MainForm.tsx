@@ -1,4 +1,5 @@
 import React from 'react';
+import {Box, Typography} from '@mui/material';
 import SkillInput from './SkillInput';
 import BadgeList from './BadgeList';
 import SetInput from './SetInput';
@@ -28,29 +29,46 @@ interface MainFormProps {
   onSaveConfig: () => void;
 }
 
-function MainForm({ skills, setSkills, sets, setSets, weapons, setWeapons, options, setOptions, availableSkills = [], availableSets = [], availableWeapons = [], onOptimize, loading, loadingLists, onSaveConfig }: MainFormProps) {
+function MainForm({
+                    skills,
+                    setSkills,
+                    sets,
+                    setSets,
+                    weapons,
+                    setWeapons,
+                    options,
+                    setOptions,
+                    availableSkills = [],
+                    availableSets = [],
+                    availableWeapons = [],
+                    onOptimize,
+                    loading,
+                    loadingLists,
+                    onSaveConfig
+                  }: MainFormProps) {
   if (loadingLists) {
-    return <div className="container p-3">Chargement des listes...</div>;
+    return <Box sx={{ p: 3 }}>Loading lists...</Box>;
   }
   return (
-    <div className="container p-3 overflow-auto" style={{ maxHeight: 'calc(100vh - 75px)', minWidth: '60vw' }}>
-      <InfoCollapse />
-      <div className="mt-2">
-        <h4>Skills</h4>
-        <SkillInput skills={skills} setSkills={setSkills} availableSkills={availableSkills} />
-        <BadgeList items={skills} setItems={setSkills} type="skills" />
+      <Box sx={{ p: 3, minWidth: '60vw', height: 'calc(100vh - 75px)', overflowY: 'auto', overflowX: 'hidden' }}>
+        <InfoCollapse />
+        <Box sx={{ mt: 1 }}>
+          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>Skills</Typography>
+          <SkillInput skills={skills} setSkills={setSkills} availableSkills={availableSkills} />
+          <BadgeList items={skills} setItems={setSkills} type="skills" />
 
-        <h4>Sets</h4>
-        <SetInput sets={sets} setSets={setSets} availableSets={availableSets} />
-        <BadgeList items={sets} setItems={setSets} type="sets" />
+          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>Sets</Typography>
+          <SetInput sets={sets} setSets={setSets} availableSets={availableSets} />
+          <BadgeList items={sets} setItems={setSets} type="sets" />
 
-        <h4>Weapons</h4>
-        <WeaponInput weapons={weapons} setWeapons={setWeapons} availableWeapons={availableWeapons} />
-        <BadgeList items={weapons} setItems={setWeapons} type="weapons" />
+          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>Weapons</Typography>
+          <WeaponInput weapons={weapons} setWeapons={setWeapons} availableWeapons={availableWeapons} />
+          <BadgeList items={weapons} setItems={setWeapons} type="weapons" />
 
-        <Options options={options} setOptions={setOptions} onOptimize={onOptimize} loading={loading} onSaveConfig={onSaveConfig} />
-      </div>
-    </div>
+          <Options options={options} setOptions={setOptions} onOptimize={onOptimize} loading={loading}
+                   onSaveConfig={onSaveConfig} />
+        </Box>
+      </Box>
   );
 }
 
