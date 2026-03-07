@@ -1,16 +1,16 @@
 import React from 'react';
 import {Box, Button, Checkbox, FormControlLabel} from '@mui/material';
-import type {Options as OptionsType} from '../model/Options';
+import type {Options} from '../../model/Options';
 
 interface OptionsProps {
-  options: OptionsType;
+  options: Options;
   setOptions: (options: OptionsProps['options']) => void;
   onOptimize: () => void;
   loading: boolean;
   onSaveConfig: () => void;
 }
 
-function Options({options, setOptions, onOptimize, loading, onSaveConfig}: OptionsProps) {
+function OptionsInputs({options, setOptions, onOptimize, loading, onSaveConfig}: OptionsProps) {
   return (
       <Box>
         <FormControlLabel
@@ -58,4 +58,4 @@ function Options({options, setOptions, onOptimize, loading, onSaveConfig}: Optio
   );
 }
 
-export default Options;
+export default OptionsInputs;

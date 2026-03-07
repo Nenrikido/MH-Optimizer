@@ -1,9 +1,9 @@
 import React from 'react';
 import {Box, IconButton, TextField} from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import {Skill} from '../model/Skill';
-import {Set as ArmorSet} from '../model/Set';
-import {Weapon} from '../model/Weapon';
+import {Skill} from '../../model/Skill';
+import {Set as ArmorSet} from '../../model/Set';
+import {Weapon} from '../../model/Weapon';
 
 interface BadgeListProps {
   items: (Skill | ArmorSet | Weapon)[];

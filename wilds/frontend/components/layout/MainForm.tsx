@@ -1,15 +1,15 @@
 import React from 'react';
 import {Box, Typography} from '@mui/material';
-import SkillInput from './SkillInput';
-import BadgeList from './BadgeList';
-import SetInput from './SetInput';
-import WeaponInput from './WeaponInput';
-import Options from './Options';
+import SkillInput from '../inputs/SkillInput';
+import BadgeList from '../blocks/BadgeList';
+import SetInput from '../inputs/SetInput';
+import WeaponInput from '../inputs/WeaponInput';
+import OptionsInputs from '../inputs/OptionsInputs';
 import InfoCollapse from './InfoCollapse';
-import {Skill} from '../model/Skill';
-import {Set as ArmorSet} from '../model/Set';
-import {Weapon} from '../model/Weapon';
-import type {Options as OptionsType} from '../model/Options';
+import {Skill} from '../../model/Skill';
+import {Set as ArmorSet} from '../../model/Set';
+import {Weapon} from '../../model/Weapon';
+import type {Options} from '../../model/Options';
 
 interface MainFormProps {
   skills: Skill[];
@@ -18,8 +18,8 @@ interface MainFormProps {
   setSets: (sets: ArmorSet[]) => void;
   weapons: Weapon[];
   setWeapons: (weapons: Weapon[]) => void;
-  options: OptionsType;
-  setOptions: (options: OptionsType) => void;
+  options: Options;
+  setOptions: (options: Options) => void;
   availableSkills: string[];
   availableSets: string[];
   availableWeapons: string[];
@@ -50,7 +50,14 @@ function MainForm({
     return <Box sx={{ p: 3 }}>Loading lists...</Box>;
   }
   return (
-      <Box sx={{ p: 3, minWidth: '60vw', height: 'calc(100vh - 75px)', overflowY: 'auto', overflowX: 'hidden' }}>
+      <Box sx={{
+        p: 3,
+        width: { xs: '100%', lg: '60%' },
+        minWidth: { xs: '100%', lg: '60vw' },
+        height: { xs: 'auto', lg: 'calc(100vh - 75px)' },
+        overflowY: { xs: 'visible', lg: 'auto' },
+        overflowX: 'hidden'
+      }}>
         <InfoCollapse />
         <Box sx={{ mt: 1 }}>
           <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>Skills</Typography>
@@ -65,8 +72,8 @@ function MainForm({
           <WeaponInput weapons={weapons} setWeapons={setWeapons} availableWeapons={availableWeapons} />
           <BadgeList items={weapons} setItems={setWeapons} type="weapons" />
 
-          <Options options={options} setOptions={setOptions} onOptimize={onOptimize} loading={loading}
-                   onSaveConfig={onSaveConfig} />
+          <OptionsInputs options={options} setOptions={setOptions} onOptimize={onOptimize} loading={loading}
+                         onSaveConfig={onSaveConfig} />
         </Box>
       </Box>
   );

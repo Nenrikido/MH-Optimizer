@@ -1,93 +1,20 @@
 import React, {useEffect, useState} from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
+import { GlobalStyles } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
-import Header from './components/Header';
-import MainForm from './components/MainForm';
-import Tabs from './components/Tabs';
+import Box from '@mui/material/Box';
+import Header from './components/layout/Header';
+import MainForm from './components/layout/MainForm';
+import Tabs from './components/layout/Tabs';
 import {Skill} from './model/Skill';
 import {Set as ArmorSet} from './model/Set';
 import {Weapon} from './model/Weapon';
 import {Amulet} from './model/Amulet';
 import {Options} from './model/Options';
 import {Result} from './model/Result';
-import Box from '@mui/material/Box';
 import { DEFAULT_DATA } from './lib/defaultData';
-
-const theme = createTheme({
-  palette: {
-    mode: 'dark',
-    primary: {
-      main: '#0d6efd',
-    },
-    secondary: {
-      main: '#6c757d',
-    },
-    success: {
-      main: '#198754',
-    },
-    background: {
-      default: '#212529',
-      paper: '#343a40',
-    },
-    text: {
-      primary: '#adb5bd',
-      secondary: '#adb5bd',
-    },
-    divider: '#495057',
-  },
-  typography: {
-    fontFamily: '"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
-  },
-  components: {
-    MuiButton: {
-      styleOverrides: {
-        contained: {
-          textTransform: 'none',
-          fontWeight: 500,
-        },
-      },
-    },
-    MuiTextField: {
-      styleOverrides: {
-        root: {
-          '& .MuiOutlinedInput-root': {
-            backgroundColor: '#212529',
-            color: '#f8f9fa',
-            fontSize: '0.875rem',
-          },
-          '& .MuiOutlinedInput-input': {
-            color: '#f8f9fa',
-            fontSize: '0.875rem',
-          },
-        },
-      },
-    },
-    MuiAutocomplete: {
-      styleOverrides: {
-        paper: {
-          backgroundColor: '#343a40',
-        },
-      },
-    },
-    MuiAccordion: {
-      styleOverrides: {
-        root: {
-          backgroundColor: '#343a40',
-          '&.Mui-expanded': {
-            margin: 0,
-          },
-        },
-      },
-    },
-    MuiPaper: {
-      styleOverrides: {
-        root: {
-          backgroundColor: '#343a40',
-        },
-      },
-    },
-  },
-});
+import { theme } from './lib/theme';
+import { globalStyles } from './lib/globalStyles';
 
 function App() {
     // États principaux pour skills, sets, weapons, etc.
@@ -180,9 +107,18 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
+            <GlobalStyles styles={globalStyles} />
             <Box sx={{ height: '100vh', overflow: 'hidden' }}>
                 <Header />
-                <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', height: 'calc(100vh - 75px)', overflow: 'hidden' }} id="main-container">
+                <Box
+                    sx={{
+                        display: 'flex',
+                        flexDirection: { xs: 'column', lg: 'row' },
+                        height: 'calc(100vh - 75px)',
+                        overflow: { xs: 'auto', lg: 'hidden' }
+                    }}
+                    id="main-container"
+                >
                     <MainForm
                         skills={skills}
                         setSkills={setSkills}

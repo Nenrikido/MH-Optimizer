@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box} from '@mui/material';
 import AmuletBadge from './AmuletBadge';
-import {Amulet} from '../model/Amulet';
+import {Amulet} from '../../model/Amulet';
 
 interface AmuletBadgeListProps {
   amulets: Amulet[];

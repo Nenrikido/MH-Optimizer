@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Set as ArmorSet} from '../model/Set';
+import {Set as ArmorSet} from '../../model/Set';
 import CustomAutocomplete from './CustomAutocomplete';
 
 interface SetInputProps {

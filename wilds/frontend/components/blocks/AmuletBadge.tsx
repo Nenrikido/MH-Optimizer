@@ -2,8 +2,8 @@ import React from 'react';
 import {Box, FormControl, IconButton, MenuItem, Select} from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import ClearIcon from '@mui/icons-material/Clear';
-import {Amulet} from '../model/Amulet';
-import CustomAutocomplete from './CustomAutocomplete';
+import {Amulet} from '../../model/Amulet';
+import CustomAutocomplete from '../inputs/CustomAutocomplete';
 
 interface AmuletBadgeProps {
   amulet: Amulet;

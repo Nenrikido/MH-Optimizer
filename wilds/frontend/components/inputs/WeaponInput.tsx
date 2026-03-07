@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Weapon} from '../model/Weapon';
+import {Weapon} from '../../model/Weapon';
 import CustomAutocomplete from './CustomAutocomplete';
 
 interface WeaponInputProps {

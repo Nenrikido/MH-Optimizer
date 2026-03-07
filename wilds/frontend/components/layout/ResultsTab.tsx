@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Paper, Typography} from '@mui/material';
-import BuildCard from './BuildCard';
-import {Result} from '../model/Result';
+import BuildCard from '../blocks/BuildCard';
+import {Result} from '../../model/Result';
 
 interface ResultsTabProps {
   results: Result[] | string[];

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Card, CardContent, Chip, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper} from '@mui/material';
-import {BuildItem, BuildSkill, Result} from "../model/Result";
+import {BuildItem, BuildSkill, Result} from "../../model/Result";
 
 interface BuildCardProps {
   build: Result;

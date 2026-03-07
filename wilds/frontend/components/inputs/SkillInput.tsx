@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Skill} from '../model/Skill';
+import {Skill} from '../../model/Skill';
 import CustomAutocomplete from './CustomAutocomplete';
 
 interface SkillInputProps {
