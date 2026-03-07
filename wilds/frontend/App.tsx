@@ -164,7 +164,7 @@ function App() {
             amulets,
         };
         try {
-            const response = await fetch('/api/run_json', {
+            const response = await fetch('/api/run', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(payload),
