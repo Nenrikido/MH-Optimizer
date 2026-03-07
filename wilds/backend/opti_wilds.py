@@ -4,7 +4,7 @@ from itertools import product
 import pulp
 from tqdm.auto import tqdm
 
-from wilds.db.amulet_finder import generate_amulets
+from amulet_finder import generate_amulets
 
 
 def load_data_files():

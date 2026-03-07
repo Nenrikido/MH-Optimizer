@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --sourcemap=true --watch",
-    "preview": "vite preview"
+    "build_prod": "vite build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
