@@ -29,7 +29,7 @@ function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
       placeholder="Which skills do you want to have ?"
       fullWidth
       size="small"
-      sx={{mb: 2}}
+      sx={{mb: 1}}
     />
   );
 }

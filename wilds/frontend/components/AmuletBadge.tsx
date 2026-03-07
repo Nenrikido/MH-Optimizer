@@ -39,10 +39,10 @@ function AmuletBadge({
   };
 
   return (
-      <Box sx={{display: 'flex', gap: 2, alignItems: 'center', bgcolor: '#495057', p: 1, borderRadius: 1, mb: 1, border: '1px solid #6c757d'}}>
-        <Box sx={{display: 'flex', flexDirection: 'column', width: '75%'}}>
+      <Box sx={{display: 'flex', gap: 1, alignItems: 'center', bgcolor: '#495057', p: 1, borderRadius: 1, border: '1px solid #6c757d'}}>
+        <Box sx={{display: 'flex', flexDirection: 'column', width: '75%', gap: 1}}>
           {[1, 2, 3].map(i => (
-              <Box key={i} sx={{display: 'flex', alignItems: 'center', mb: 1, gap: 1}}>
+              <Box key={i} sx={{display: 'flex', alignItems: 'center', gap: 1}}>
                 <CustomAutocomplete
                     value={amulet.skills[i - 1]?.name || ''}
                     onChange={(value) => onSkillChange(index, i - 1, 'name', value)}

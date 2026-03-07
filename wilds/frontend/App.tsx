@@ -135,7 +135,6 @@ function App() {
         fetch('/api/available_items')
             .then(r => r.json())
             .then(data => {
-                console.log(data);
                 setAvailableSkills(data.available_skills || []);
                 setAvailableSets(data.available_sets || []);
                 setAvailableWeapons(data.available_weapons || []);

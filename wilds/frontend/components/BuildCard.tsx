@@ -107,8 +107,8 @@ function BuildCard({ build }: BuildCardProps) {
                   color: '#f8f9fa',
                   fontSize: '0.75rem',
                   height: '24px',
-                  minWidth: 'calc(25% - 3px)',
-                  maxWidth: 'calc(25% - 3px)',
+                  minWidth: 'calc(25% - 6px)',
+                  maxWidth: 'calc(25% - 6px)',
                   justifyContent: 'flex-start',
                   '& .MuiChip-label': {
                     overflow: 'hidden',

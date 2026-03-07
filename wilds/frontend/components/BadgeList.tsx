@@ -30,7 +30,7 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
   };
 
   return (
-      <Box sx={{mb: 3, display: 'flex', flexWrap: 'wrap', gap: 0.375}}>
+      <Box sx={{mb: 2, display: 'flex', flexWrap: 'wrap', gap: 1}}>
         {items.map((item, idx) => (
             <Box
                 key={item.name}
@@ -43,8 +43,8 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                   borderRadius: 1,
                   px: 1,
                   py: 0.5,
-                  minWidth: 'calc(25% - 3px)',
-                  maxWidth: 'calc(25% - 3px)',
+                  minWidth: 'calc(25% - 6px)',
+                  maxWidth: 'calc(25% - 6px)',
                 }}
             >
               <Box sx={{flexGrow: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#f8f9fa', mr: 0.5}}>{item.name}</Box>

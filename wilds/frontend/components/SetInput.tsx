@@ -27,7 +27,7 @@ function SetInput({sets, setSets, availableSets}: SetInputProps) {
       placeholder="With which set(s) ?"
       fullWidth
       size="small"
-      sx={{mb: 2}}
+      sx={{mb: 1}}
     />
   );
 }

@@ -34,7 +34,7 @@ function AmuletBadgeList({amulets, setAmulets, availableSkills}: AmuletBadgeList
     setAmulets(amulets.map((a, i) => i === index ? {...a, slots: value} : a));
   };
   return (
-      <Box sx={{mb: 3, display: 'flex', flexDirection: 'column', gap: 2}}>
+      <Box sx={{display: 'flex', flexDirection: 'column', gap: 2}}>
         {amulets.map((amulet, idx) => (
             <AmuletBadge
                 key={idx}

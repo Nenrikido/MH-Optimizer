@@ -27,7 +27,7 @@ function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) 
       placeholder="On which weapon(s) ?"
       fullWidth
       size="small"
-      sx={{mb: 2}}
+      sx={{mb: 1}}
     />
   );
 }

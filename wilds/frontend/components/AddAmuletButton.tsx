@@ -7,7 +7,7 @@ interface AddAmuletButtonProps {
 
 function AddAmuletButton({onAdd}: AddAmuletButtonProps) {
   return (
-      <Button variant="contained" color="secondary" onClick={onAdd} sx={{mb: 2}}>
+      <Button variant="contained" color="secondary" onClick={onAdd} sx={{mt: 1}}>
         + Add an amulet
       </Button>
   );

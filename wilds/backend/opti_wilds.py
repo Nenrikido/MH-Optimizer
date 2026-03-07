@@ -122,7 +122,7 @@ def setup_problem(data):
             item_vars[group][item['name']]
             for group in armor_groups
             for item in items_data[group]
-            if ds['set'] in item.get('sets')
+            if ds['set'] in item.get('sets', [])
         )
         prob += set_sum >= ds['min_pieces'], f"Min_Set_{ds['set']}"
 
@@ -140,8 +140,8 @@ def setup_problem(data):
         for T in slot_types:
             expr = pulp.lpSum(
                 item_vars[group][item['name']] * sum(
-                    1 for slot in item['transcended_slots' if transcend and 'transcended_slots' in item else 'slots'] if
-                    slot['value'] == L and slot['type'] == T)
+                    1 for slot in item.get('transcended_slots' if transcend and 'transcended_slots' in item else 'slots', [])
+                    if slot['value'] == L and slot['type'] == T)
                 for group in groups for item in items_data[group]
             )
             slots_T_L[T][L] = expr
@@ -184,11 +184,11 @@ def setup_problem(data):
         # From items
         for group in groups:
             for item in items_data[group]:
-                if skill in item['skills']:
+                if skill in item.get('skills', {}):
                     level_expr += item_vars[group][item['name']] * item['skills'][skill]
         # From decorations
         for deco in decorations:
-            if skill in deco['skills']:
+            if skill in deco.get('skills', {}):
                 level_expr += deco_vars[deco['type']][deco['name']] * deco['skills'][skill]
 
         prob += effective_vars[skill] <= level_expr, f"Level_{skill}"
@@ -242,11 +242,11 @@ def collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data):
     # Achieved skills
     for skill in skills:
         level = sum(
-            item_vars[group][item['name']].value() * item['skills'].get(skill, 0)
+            item_vars[group][item['name']].value() * item.get('skills', {}).get(skill, 0)
             for group in groups
             for item in items_data[group]
         ) + sum(
-            deco_vars[deco['type']][deco['name']].value() * deco['skills'].get(skill, 0)
+            deco_vars[deco['type']][deco['name']].value() * deco.get('skills', {}).get(skill, 0)
             for deco in decorations
         )
         effective = min(level, skills[skill]['max_points'])
@@ -264,7 +264,7 @@ def collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data):
             if item['name'] == name:
                 selected_slots[group] = [
                     {'idx': idx + 1, 'level': slot['value'], 'type': slot['type'], 'assigned': None}
-                    for idx, slot in enumerate(item['transcended_slots' if transcend and 'transcended_slots' in item else 'slots'])
+                    for idx, slot in enumerate(item.get('transcended_slots' if transcend and 'transcended_slots' in item else 'slots', []))
                 ]
 
     # Collect deco instances to place, sorted by size descending
