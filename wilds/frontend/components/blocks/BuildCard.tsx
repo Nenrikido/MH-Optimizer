@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Card, CardContent, Chip, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper} from '@mui/material';
-import {BuildItem, BuildSkill, Result} from "../../model/Result";
+import {BuildItem, BuildSkill, Result} from '../../model/Result';
 import { useI18n } from '../../lib/i18nContext';
 
 interface BuildCardProps {
@@ -8,26 +8,20 @@ interface BuildCardProps {
 }
 
 function BuildCard({ build }: BuildCardProps) {
-  const { t } = useI18n();
+  const { t, language } = useI18n();
 
-  const getSlotIcon = (type: string) => {
-    return type === 'W' ? '⬤' : '◆';
-  };
+  const getSlotIcon = (type: string) => (type === 'W' ? '⬤' : '◆');
 
   const formatAmuletName = (item: BuildItem) => {
-    if (!item.amulet_details) return item.name;
+    if (!item.amulet_details) return item.names[language] || item.names.en;
     const { rarity, groups, skills } = item.amulet_details;
-    const skillsStr = Object.entries(skills).map(([name, value]) => `${name}: ${value}`).join(', ');
+    const skillsStr = skills.map((skill) => `${skill.names[language] || skill.names.en}: ${skill.value}`).join(', ');
     return `R${rarity}, G${groups.join('|')}, ${skillsStr}`;
   };
 
-  const getSkillProgress = (skill: BuildSkill) => {
-    return (skill.current / skill.max) * 100;
-  };
+  const getSkillProgress = (skill: BuildSkill) => (skill.current / skill.max) * 100;
 
-  const getMaxScore = (build: Result) => {
-    return build.skills.reduce((sum, skill) => sum + skill.max * skill.weight, 0);
-  }
+  const getMaxScore = (result: Result) => result.skills.reduce((sum, skill) => sum + skill.max * skill.weight, 0);
 
   return (
     <Card sx={{ mb: 2, backgroundColor: '#343a40', border: '1px solid #495057', overflow: 'hidden' }}>
@@ -62,23 +56,23 @@ function BuildCard({ build }: BuildCardProps) {
             </TableHead>
             <TableBody>
               {build.items.map((item: BuildItem) => (
-                <TableRow key={item.slot}>
+                <TableRow key={`${item.slot}:${item.id}`}>
                   <TableCell sx={{ color: '#f8f9fa', borderBottom: '1px solid #495057', textTransform: 'capitalize', fontSize: '0.8rem', py: 0.75 }}>
                     {item.slot}
                   </TableCell>
-                  <TableCell sx={{ color: '#f8f9fa', borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                    {item.slot === 'amulet' ? formatAmuletName(item) : item.name}
+                  <TableCell sx={{ color: '#f8f9fa', borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, overflow: 'hidden' }}>
+                    {item.slot === 'amulet' ? formatAmuletName(item) : (item.names[language] || item.names.en)}
                   </TableCell>
                   <TableCell sx={{ color: '#f8f9fa', borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75 }}>
                     <Box sx={{ display: 'flex', gap: 0.5, flexWrap: 'wrap' }}>
                       {item.decorations.map((deco, idx) => (
                         <Chip
                           key={idx}
-                          label={`${getSlotIcon(deco.type)} ${deco.decoration || '-'}`}
+                          label={`${getSlotIcon(deco.type)} ${deco.decoration_names ? (deco.decoration_names[language] || deco.decoration_names.en) : '-'}`}
                           size="small"
                           sx={{
-                            backgroundColor: deco.decoration ? '#495057' : '#2c3034',
-                            color: deco.decoration ? '#f8f9fa' : '#6c757d',
+                            backgroundColor: deco.decoration_id ? '#495057' : '#2c3034',
+                            color: deco.decoration_id ? '#f8f9fa' : '#6c757d',
                             fontSize: '0.7rem',
                             height: '20px',
                             '& .MuiChip-label': { px: 1, py: 0 }
@@ -100,10 +94,11 @@ function BuildCard({ build }: BuildCardProps) {
           {build.skills.map((skill: BuildSkill) => {
             const progress = getSkillProgress(skill);
             const isComplete = skill.current >= skill.max;
+            const skillName = skill.names[language] || skill.names.en;
             return (
               <Chip
-                key={skill.name}
-                label={`${skill.name}: ${skill.current}/${skill.max} (w: ${skill.weight})`}
+                key={skill.id}
+                label={`${skillName}: ${skill.current}/${skill.max} (w: ${skill.weight})`}
                 size="small"
                 sx={{
                   backgroundColor: isComplete ? '#198754' : (progress >= 50 ? '#856404' : '#495057'),

@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 import {Skill} from '../../model/Skill';
 import CustomAutocomplete from './CustomAutocomplete';
 import { useI18n } from '../../lib/i18nContext';
+import { NamedEntity } from '../../model/Localized';
 
 interface SkillInputProps {
   skills: Skill[];
   setSkills: (skills: Skill[]) => void;
-  availableSkills: string[];
+  availableSkills: NamedEntity[];
 }
 
 // This component handles skill input with suggestions/autocomplete
@@ -15,8 +16,9 @@ function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
   const { t } = useI18n();
 
   const handleSelect = (value: string) => {
-    if (value && !skills.some(skill => skill.name === value)) {
-      setSkills([...skills, {name: value, max_points: 3, weight: 10}]);
+    const selected = availableSkills.find((skill) => skill.id === value);
+    if (selected && !skills.some(skill => skill.id === value)) {
+      setSkills([...skills, {id: selected.id, names: selected.names, max_points: 3, weight: 10}]);
       setInput('');
     }
   };
@@ -26,8 +28,8 @@ function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
       value={input}
       onChange={handleSelect}
       onInputChange={setInput}
-      availableSkills={availableSkills}
-      filterOutValues={skills.map(s => s.name)}
+      options={availableSkills}
+      filterOutValues={skills.map(s => s.id)}
       placeholder={t.inputs.skills}
       fullWidth
       size="small"

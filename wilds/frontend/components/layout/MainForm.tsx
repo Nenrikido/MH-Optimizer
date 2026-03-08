@@ -10,6 +10,7 @@ import {Skill} from '../../model/Skill';
 import {Set as ArmorSet} from '../../model/Set';
 import {Weapon} from '../../model/Weapon';
 import type {Options} from '../../model/Options';
+import { NamedEntity } from '../../model/Localized';
 import { useI18n } from '../../lib/i18nContext';
 
 interface MainFormProps {
@@ -21,9 +22,9 @@ interface MainFormProps {
   setWeapons: (weapons: Weapon[]) => void;
   options: Options;
   setOptions: (options: Options) => void;
-  availableSkills: string[];
-  availableSets: string[];
-  availableWeapons: string[];
+  availableSkills: NamedEntity[];
+  availableSets: NamedEntity[];
+  availableWeapons: NamedEntity[];
   onOptimize: () => void;
   loading: boolean;
   loadingLists: boolean;

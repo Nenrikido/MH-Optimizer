@@ -1,11 +1,13 @@
 import React from 'react';
 import { Autocomplete, TextField, SxProps, Theme } from '@mui/material';
+import { NamedEntity } from '../../model/Localized';
+import { useI18n } from '../../lib/i18nContext';
 
 interface SkillAutocompleteProps {
   value: string;
   onChange: (value: string) => void;
   onInputChange?: (value: string) => void;
-  availableSkills: string[];
+  options: NamedEntity[];
   placeholder?: string;
   label?: string;
   size?: 'small' | 'medium';
@@ -20,7 +22,7 @@ function CustomAutocomplete({
   value,
   onChange,
   onInputChange,
-  availableSkills,
+  options,
   placeholder,
   label,
   size = 'medium',
@@ -30,23 +32,23 @@ function CustomAutocomplete({
   filterOutValues = [],
   disabled = false,
 }: SkillAutocompleteProps) {
-  const [inputValue, setInputValue] = React.useState(value);
+  const { language } = useI18n();
 
-  const handleInputChange = (event: any, newInputValue: string) => {
-    setInputValue(newInputValue);
-    onInputChange?.(newInputValue);
-  };
+  const filteredOptions = options.filter((option) => !filterOutValues.includes(option.id));
+  const valueOption = filteredOptions.find((option) => option.id === value) || null;
 
   return (
     <Autocomplete
-      options={availableSkills.filter(s => !filterOutValues.includes(s))}
-      value={value || null}
-      inputValue={inputValue}
-      onInputChange={handleInputChange}
-      onChange={(event, newValue) => {
-        onChange(newValue || '');
-        setInputValue(newValue || '');
+      options={filteredOptions}
+      value={valueOption}
+      onInputChange={(event, newInputValue) => {
+        onInputChange?.(newInputValue);
       }}
+      onChange={(event, newValue) => {
+        onChange(newValue?.id || '');
+      }}
+      getOptionLabel={(option) => option.names[language] || option.names.en}
+      isOptionEqualToValue={(option, selectedValue) => option.id === selectedValue.id}
       renderInput={(params) => (
         <TextField
           {...params}
@@ -58,7 +60,6 @@ function CustomAutocomplete({
           sx={sx}
         />
       )}
-      freeSolo
       disabled={disabled}
       fullWidth
       sx={{flex: fullWidth ? 1 : 'auto', ...sx}}

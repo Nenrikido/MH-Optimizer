@@ -1,5 +1,9 @@
+import { LocalizedNames } from './Localized';
+
 export interface AmuletSkill {
-  name: string;
+  id?: string;
+  names?: LocalizedNames;
+  name?: string;
   value: number;
 }
 
@@ -8,4 +12,3 @@ export interface Amulet {
   skills: AmuletSkill[];
   slots: string;
 }
-

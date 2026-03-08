@@ -1,6 +1,9 @@
+import { LocalizedNames } from './Localized';
+
 export interface Skill {
-  name: string;
+  id: string;
+  names: LocalizedNames;
+  name?: string;
   max_points?: number;
   weight?: number;
 }
-

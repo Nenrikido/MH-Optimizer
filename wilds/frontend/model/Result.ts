@@ -1,20 +1,29 @@
+import { LocalizedNames } from './Localized';
+
 export interface BuildItem {
   slot: string;
-  name: string;
+  id: string;
+  names: LocalizedNames;
   decorations: Array<{
-    decoration: string | null;
+    decoration_id: string | null;
+    decoration_names: LocalizedNames | null;
     size: number;
     type: string;
   }>;
   amulet_details?: {
     rarity: number;
     groups: number[];
-    skills: Record<string, number>;
+    skills: Array<{
+      id: string;
+      names: LocalizedNames;
+      value: number;
+    }>;
   } | null;
 }
 
 export interface BuildSkill {
-  name: string;
+  id: string;
+  names: LocalizedNames;
   current: number;
   max: number;
   weight: number;
@@ -26,5 +35,3 @@ export interface Result {
   items: BuildItem[];
   skills: BuildSkill[];
 }
-
-

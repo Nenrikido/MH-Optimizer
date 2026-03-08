@@ -1,10 +1,41 @@
 import json
 from itertools import product
+from typing import Any
 
 import pulp
 from tqdm.auto import tqdm
 
 from amulet_finder import generate_amulets
+
+
+def _get_names(entry):
+    names = entry.get('names')
+    if isinstance(names, dict):
+        en = names.get('en', entry.get('name', ''))
+        fr = names.get('fr', en)
+        return {'en': en, 'fr': fr}
+    name = entry.get('name', '')
+    return {'en': name, 'fr': name}
+
+
+def _normalize_item(item):
+    normalized = dict(item)
+    normalized['id'] = str(item.get('id', item.get('name', '')))
+    normalized['names'] = _get_names(item)
+    return normalized
+
+
+def _find_by_id_or_name(entries, value):
+    if value is None:
+        return None
+    str_value = str(value)
+    for entry in entries:
+        if str(entry.get('id')) == str_value:
+            return entry
+        names = _get_names(entry)
+        if names['en'] == str_value or names['fr'] == str_value or entry.get('name') == str_value:
+            return entry
+    return None
 
 
 def load_data_files():
@@ -14,18 +45,41 @@ def load_data_files():
     Returns:
         tuple: (items_data, decorations, available_skills, available_sets)
     """
+    items_data = json.load(open('../db/items.json', encoding='utf-8'))
+    for group, entries in items_data.items():
+        items_data[group] = [_normalize_item(item) for item in entries]
 
-    # group -> list of dicts {'name': str, 'skills': {skill: points}, 'slots': [{'value': value, 'type': slot_type}, ...], 'set': str (optional)}
-    items_data = json.load(open('../db/items.json'))
+    decorations_raw = json.load(open('../db/decorations.json', encoding='utf-8'))
+    decorations = []
+    for deco in decorations_raw:
+        normalized: dict[str, Any] = dict(deco)
+        normalized['id'] = str(deco.get('id', deco.get('name', '')))
+        normalized['names'] = _get_names(deco)
+        decorations.append(normalized)
 
-    # list of dicts {'name': str, 'skills': {skill: points}, 'size': int, 'type': slot_type}
-    decorations = json.load(open('../db/decorations.json'))
+    available_skills_raw = json.load(open('../db/skills.json', encoding='utf-8'))
+    if available_skills_raw and isinstance(available_skills_raw[0], str):
+        available_skills = [
+            {'id': name, 'names': {'en': name, 'fr': name}}
+            for name in available_skills_raw
+        ]
+    else:
+        available_skills = [
+            {'id': str(skill['id']), 'names': _get_names(skill)}
+            for skill in available_skills_raw
+        ]
 
-    # List of skill names
-    available_skills = json.load(open('../db/skills.json'))
+    available_sets_raw = json.load(open('../db/sets.json', encoding='utf-8'))
 
-    # List of set names
-    available_sets = json.load(open('../db/sets.json'))
+    def _normalize_set_list(entries):
+        if entries and isinstance(entries[0], str):
+            return [{'id': name, 'names': {'en': name, 'fr': name}} for name in entries]
+        return [{'id': str(entry['id']), 'names': _get_names(entry)} for entry in entries]
+
+    available_sets = {
+        'sets': _normalize_set_list(available_sets_raw.get('sets', [])),
+        'groups': _normalize_set_list(available_sets_raw.get('groups', [])),
+    }
 
     return items_data, decorations, available_skills, available_sets
 
@@ -38,34 +92,61 @@ def define_data(desired_skills, desired_sets, items_data, decorations, include_a
     Returns:
         dict: A dictionary containing all defined data.
     """
-
-    # Define the groups
     groups = ['weapon', 'head', 'chest', 'arms', 'waist', 'legs', 'amulet']
     armor_groups = ['weapon', 'head', 'chest', 'arms', 'waist', 'legs']
 
+    skill_catalog = {str(skill['id']): _get_names(skill) for skill in desired_skills}
+    skill_name_to_id = {}
+    for skill_id, names in skill_catalog.items():
+        skill_name_to_id[names['en']] = skill_id
+        skill_name_to_id[names['fr']] = skill_id
+
     if include_all_amulets:
-        # add generated amulets
-        items_data['amulet'] += generate_amulets(
-            [s['name'] for s in desired_skills],
+        generated = generate_amulets(
+            [skill_catalog[s['id']]['en'] for s in desired_skills if s['id'] in skill_catalog],
             only_better_slots=True,
         )
+        generated_items = []
+        for amulet in generated:
+            amulet_id = f"generated:{amulet['name']}"
+            generated_items.append({
+                'id': amulet_id,
+                'names': {'en': amulet['name'], 'fr': amulet['name']},
+                'skills': {
+                    skill_name_to_id[name]: value
+                    for name, value in amulet.get('skills', {}).items()
+                    if name in skill_name_to_id
+                },
+                'slots': amulet.get('slots', []),
+                'rarity': amulet.get('rarity'),
+                'groups': amulet.get('groups', []),
+            })
+        items_data['amulet'] += generated_items
 
     if include_gog_sets:
         generated_weapons = []
         for item_data in items_data['weapon']:
             if item_data.get('is_gog', False):
-                skill_sets = list(filter(lambda x: not x['is_group'], desired_sets))
-                skill_groups = list(filter(lambda x: x['is_group'], desired_sets))
-                for i, (skill_set, skill_group) in enumerate(product(skill_sets or [None], skill_groups or [None]), 1):
-                    sets = []
+                skill_sets = [x for x in desired_sets if not x.get('is_group', False)]
+                skill_groups = [x for x in desired_sets if x.get('is_group', False)]
+                for skill_set, skill_group in product(skill_sets or [None], skill_groups or [None]):
+                    set_ids = []
+                    set_names = []
                     if skill_set is not None:
-                        sets.append(skill_set['set'])
+                        set_ids.append(skill_set['set_id'])
+                        set_names.append(skill_set.get('set_name', skill_set['set_id']))
                     if skill_group is not None:
-                        sets.append(skill_group['set'])
+                        set_ids.append(skill_group['set_id'])
+                        set_names.append(skill_group.get('set_name', skill_group['set_id']))
+
                     generated_weapons.append({
                         **item_data,
-                        'name': f"{item_data['name']} ({', '.join(sets)})",
-                        'sets': sets
+                        'id': f"{item_data['id']}:gog:{'|'.join(set_ids)}",
+                        'names': {
+                            'en': f"{_get_names(item_data)['en']} ({', '.join(set_names)})",
+                            'fr': f"{_get_names(item_data)['fr']} ({', '.join(set_names)})",
+                        },
+                        'sets': set_ids,
                     })
         items_data['weapon'] += generated_weapons
 
@@ -76,7 +157,8 @@ def define_data(desired_skills, desired_sets, items_data, decorations, include_a
         'desired_sets': desired_sets,
         'items_data': items_data,
         'decorations': decorations,
-        "transcend": transcend
+        'transcend': transcend,
+        'skill_catalog': skill_catalog,
     }
 
 
@@ -102,100 +184,101 @@ def setup_problem(data):
     levels = range(1, max_level + 1)
     slot_types = ['A', 'W']
 
-    # Create the optimization problem
     prob = pulp.LpProblem("MHWi_Build_Optimizer", pulp.LpMaximize)
 
-    # Binary variables for selecting items in each group
     item_vars = {group: {} for group in groups}
     for group in groups:
         for item in items_data[group]:
-            var = pulp.LpVariable(f"{group}_{item['name']}", cat='Binary')
-            item_vars[group][item['name']] = var
+            item_id = item['id']
+            var = pulp.LpVariable(f"{group}_{item_id}", cat='Binary')
+            item_vars[group][item_id] = var
 
-    # Constraints: exactly one item per group
     for group in groups:
         prob += pulp.lpSum(item_vars[group].values()) == 1, f"One_{group}"
 
-    # Set restrictions
     for ds in desired_sets:
+        set_id = ds['set_id']
         set_sum = pulp.lpSum(
-            item_vars[group][item['name']]
+            item_vars[group][item['id']]
             for group in armor_groups
             for item in items_data[group]
-            if ds['set'] in item.get('sets', [])
+            if set_id in item.get('sets', [])
         )
-        prob += set_sum >= ds['min_pieces'], f"Min_Set_{ds['set']}"
+        prob += set_sum >= ds['min_pieces'], f"Min_Set_{set_id}"
 
-    # Integer variables for number of each decoration
     deco_vars = {'A': {}, 'W': {}}
     deco_size = {'A': {}, 'W': {}}
     for deco in decorations:
-        var = pulp.LpVariable(f"deco_{deco['type']}_{deco['name']}", lowBound=0, cat='Integer')
-        deco_vars[deco['type']][deco['name']] = var
-        deco_size[deco['type']][deco['name']] = deco['size']
+        deco_id = deco['id']
+        var = pulp.LpVariable(f"deco_{deco['type']}_{deco_id}", lowBound=0, cat='Integer')
+        deco_vars[deco['type']][deco_id] = var
+        deco_size[deco['type']][deco_id] = deco['size']
 
-    # Total slots per level and type
     slots_T_L = {'A': {}, 'W': {}}
-    for L in levels:
-        for T in slot_types:
+    for level in levels:
+        for slot_type in slot_types:
             expr = pulp.lpSum(
-                item_vars[group][item['name']] * sum(
-                    1 for slot in item.get('transcended_slots' if transcend and 'transcended_slots' in item else 'slots', [])
-                    if slot['value'] == L and slot['type'] == T)
+                item_vars[group][item['id']] * sum(
+                    1
+                    for slot in item.get(
+                        'transcended_slots' if transcend and 'transcended_slots' in item else 'slots',
+                        []
+                    )
+                    if slot['value'] == level and slot['type'] == slot_type
+                )
                 for group in groups for item in items_data[group]
             )
-            slots_T_L[T][L] = expr
+            slots_T_L[slot_type][level] = expr
 
-    # Used variables: used_L_T_S for slots of level L type T used by decos of size S
     used_vars = {}
-    for L in levels:
-        used_vars[L] = {}
-        for T in slot_types:
-            used_vars[L][T] = {}
-            for S in range(1, L + 1):
-                used_vars[L][T][S] = pulp.LpVariable(f"used_L{L}_T{T}_S{S}", lowBound=0, cat='Integer')
+    for level in levels:
+        used_vars[level] = {}
+        for slot_type in slot_types:
+            used_vars[level][slot_type] = {}
+            for size in range(1, level + 1):
+                used_vars[level][slot_type][size] = pulp.LpVariable(
+                    f"used_L{level}_T{slot_type}_S{size}", lowBound=0, cat='Integer'
+                )
 
-    # Constraints for slot usage per level and type
-    for L in levels:
-        for T in slot_types:
-            prob += pulp.lpSum(used_vars[L][T][S] for S in range(1, L + 1)) <= slots_T_L[T][L], f"slot_usage_T{T}_L{L}"
+    for level in levels:
+        for slot_type in slot_types:
+            prob += (
+                pulp.lpSum(used_vars[level][slot_type][size] for size in range(1, level + 1))
+                <= slots_T_L[slot_type][level]
+            ), f"slot_usage_T{slot_type}_L{level}"
 
-    # Constraints for deco assignment per size and type
-    for S in levels:
-        for T in slot_types:
-            decos_S_T = pulp.lpSum(
-                deco_vars[T].get(name, 0) for name in deco_vars[T] if deco_size[T][name] == S
+    for size in levels:
+        for slot_type in slot_types:
+            decos_size_type = pulp.lpSum(
+                deco_vars[slot_type].get(deco_id, 0)
+                for deco_id in deco_vars[slot_type]
+                if deco_size[slot_type][deco_id] == size
             )
-            prob += pulp.lpSum(
-                used_vars[L][T][S] for L in range(S, max_level + 1)
-            ) == decos_S_T, f"deco_assignment_S{S}_T{T}"
+            prob += (
+                pulp.lpSum(used_vars[level][slot_type][size] for level in range(size, max_level + 1))
+                == decos_size_type
+            ), f"deco_assignment_S{size}_T{slot_type}"
 
-    # All skills from desired
-    skills = {skill['name']: skill for skill in desired_skills}
+    skills = {str(skill['id']): skill for skill in desired_skills}
 
-    # Effective level variables
     effective_vars = {}
-    for skill in skills:
-        effective_vars[skill] = pulp.LpVariable(f"effective_{skill}", lowBound=0)
+    for skill_id in skills:
+        effective_vars[skill_id] = pulp.LpVariable(f"effective_{skill_id}", lowBound=0)
 
-    # For each skill, compute level and constrain effective
-    for skill in skills:
+    for skill_id in skills:
         level_expr = 0
-        # From items
         for group in groups:
             for item in items_data[group]:
-                if skill in item.get('skills', {}):
-                    level_expr += item_vars[group][item['name']] * item['skills'][skill]
-        # From decorations
+                if skill_id in item.get('skills', {}):
+                    level_expr += item_vars[group][item['id']] * item['skills'][skill_id]
         for deco in decorations:
-            if skill in deco.get('skills', {}):
-                level_expr += deco_vars[deco['type']][deco['name']] * deco['skills'][skill]
+            if skill_id in deco.get('skills', {}):
+                level_expr += deco_vars[deco['type']][deco['id']] * deco['skills'][skill_id]
 
-        prob += effective_vars[skill] <= level_expr, f"Level_{skill}"
-        prob += effective_vars[skill] <= skills[skill]['max_points'], f"Max_{skill}"
+        prob += effective_vars[skill_id] <= level_expr, f"Level_{skill_id}"
+        prob += effective_vars[skill_id] <= skills[skill_id]['max_points'], f"Max_{skill_id}"
 
-    # Objective: maximize weighted sum of effective levels
-    prob += pulp.lpSum(effective_vars[skill] * skills[skill]['weight'] for skill in skills)
+    prob += pulp.lpSum(effective_vars[skill_id] * skills[skill_id]['weight'] for skill_id in skills)
 
     return prob, item_vars, deco_vars, deco_size, effective_vars, skills
 
@@ -219,63 +302,56 @@ def collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data):
     items_data = data['items_data']
     decorations = data['decorations']
     transcend = data['transcend']
-    skills = {skill['name']: skill for skill in data['desired_skills']}
+    skills = {str(skill['id']): skill for skill in data['desired_skills']}
     slot_types = ['A', 'W']
 
-    build = {'items': {}, 'decorations': {'A': {}, 'W': {}}, 'slots': {}, 'skills': {}, 'score': 0}
+    build: dict[str, Any] = {'items': {}, 'decorations': {'A': {}, 'W': {}}, 'slots': {}, 'skills': {}, 'score': 0}
 
-    # Selected items
     sel_vars = []
     for group in groups:
-        for name, var in item_vars[group].items():
+        for item_id, var in item_vars[group].items():
             if var.value() == 1:
-                build['items'][group] = name
+                build['items'][group] = item_id
                 sel_vars.append(var)
 
-    # Selected decorations
     for slot_type in slot_types:
-        for name, var in deco_vars[slot_type].items():
+        for deco_id, var in deco_vars[slot_type].items():
             count = int(var.value())
             if count > 0:
-                build['decorations'][slot_type][name] = count
+                build['decorations'][slot_type][deco_id] = count
 
-    # Achieved skills
-    for skill in skills:
+    for skill_id in skills:
         level = sum(
-            item_vars[group][item['name']].value() * item.get('skills', {}).get(skill, 0)
+            item_vars[group][item['id']].value() * item.get('skills', {}).get(skill_id, 0)
             for group in groups
             for item in items_data[group]
         ) + sum(
-            deco_vars[deco['type']][deco['name']].value() * deco.get('skills', {}).get(skill, 0)
+            deco_vars[deco['type']][deco['id']].value() * deco.get('skills', {}).get(skill_id, 0)
             for deco in decorations
         )
-        effective = min(level, skills[skill]['max_points'])
-        build['skills'][skill] = effective
+        max_points = int(skills[skill_id].get('max_points', 5))
+        effective = min(level, max_points)
+        build['skills'][skill_id] = effective
 
-    # Total score
-    build['score'] = sum(effective_vars[skill].value() * skills[skill]['weight'] for skill in skills)
+    build['score'] = sum(effective_vars[skill_id].value() * skills[skill_id]['weight'] for skill_id in skills)
 
-    # Post-processing: Assign decorations to specific slots
-    # Collect selected slots
     selected_slots = {}
     for group in groups:
-        name = build['items'][group]
+        item_id = build['items'][group]
         for item in items_data[group]:
-            if item['name'] == name:
+            if item['id'] == item_id:
                 selected_slots[group] = [
                     {'idx': idx + 1, 'level': slot['value'], 'type': slot['type'], 'assigned': None}
                     for idx, slot in enumerate(item.get('transcended_slots' if transcend and 'transcended_slots' in item else 'slots', []))
                 ]
 
-    # Collect deco instances to place, sorted by size descending
     deco_list = []
     for slot_type in slot_types:
-        for name, count in build['decorations'][slot_type].items():
+        for deco_id, count in build['decorations'][slot_type].items():
             for _ in range(count):
-                deco_list.append({'name': name, 'size': deco_size[slot_type][name], 'type': slot_type})
+                deco_list.append({'id': deco_id, 'size': deco_size[slot_type][deco_id], 'type': slot_type})
     deco_list.sort(key=lambda d: d['size'], reverse=True)
 
-    # Assign decos to slots
     for deco in deco_list:
         assigned = False
         for group in groups:
@@ -283,17 +359,13 @@ def collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data):
                 continue
             for slot in selected_slots[group]:
                 if slot['assigned'] is None and slot['level'] >= deco['size'] and slot['type'] == deco['type']:
-                    slot['assigned'] = deco['name']
+                    slot['assigned'] = deco['id']
                     assigned = True
                     break
             if assigned:
                 break
-        if not assigned:
-            print("Warning: Could not assign decoration to a slot (should not happen).")
 
-    # Store slot assignments
     build['slots'] = selected_slots
-
     return build, sel_vars
 
 
@@ -307,26 +379,27 @@ def output_builds(builds, data, next_line="\n"):
         next_line (str): Line separator, default is newline.
     """
     output = []
-    skills = {skill['name']: skill for skill in data['desired_skills']}
+    skills = {str(skill['id']): skill for skill in data['desired_skills']}
+    items_index = {
+        group: {item['id']: item for item in data['items_data'][group]}
+        for group in data['groups']
+    }
+
     for idx, build in enumerate(builds, 1):
         build_str = f"Build {idx} (Score: {build['score']}):{next_line}"
         build_str += f"Items:{next_line}"
-        for group, name in build['items'].items():
+        for group, item_id in build['items'].items():
             slots = build['slots'][group]
-            slots_dic = {}
-            for slot in slots:
-                slots_dic[slot['idx']] = slot['assigned'] or "-"
-            slots_desc = ", ".join(slots_dic[i] for i in range(1, len(slots_dic) + 1))
-            if group == 'amulet' and name.startswith('Amulet_R'):
-                amulet = next((a for a in data['items_data']['amulet'] if a['name'] == name), None)
-                name = f"R{amulet['rarity']}, G{'|'.join(map(str, amulet['groups']))}, {', '.join(k + ': ' + str(v) for k, v in amulet['skills'].items())}"
-            build_str += f"{group.capitalize()}: {name} [{slots_desc}]{next_line}"
+            slots_desc = ", ".join(slot['assigned'] or "-" for slot in slots)
+            item_name = _get_names(items_index[group][item_id])['en']
+            build_str += f"{group.capitalize()}: {item_name} [{slots_desc}]{next_line}"
 
         build_str += f"{next_line}Skills:{next_line}"
-        for skill, effective in build['skills'].items():
-            build_str += f"{skill}: {int(effective)}/{skills[skill]['max_points']} (weight: {skills[skill]['weight']}){next_line}"
-
+        for skill_id, effective in build['skills'].items():
+            skill_name = _get_names(skills[skill_id])['en']
+            build_str += f"{skill_name}: {int(effective)}/{skills[skill_id]['max_points']} (weight: {skills[skill_id]['weight']}){next_line}"
         output.append(build_str)
+
     return output
 
 
@@ -342,46 +415,58 @@ def output_builds_json(builds, data):
         list: List of structured build dictionaries.
     """
     output = []
-    skills_info = {skill['name']: skill for skill in data['desired_skills']}
+    skills_info = {str(skill['id']): skill for skill in data['desired_skills']}
+    items_index = {
+        group: {item['id']: item for item in data['items_data'][group]}
+        for group in data['groups']
+    }
+    deco_index = {deco['id']: deco for deco in data['decorations']}
 
     for idx, build in enumerate(builds, 1):
-        # Format items with their decorations
         items = []
-        for group, name in build['items'].items():
+        for group, item_id in build['items'].items():
+            item_data = items_index[group][item_id]
             slots = build['slots'][group]
             slots_list = []
             for slot in slots:
+                decoration_id = slot['assigned'] or None
+                decoration_names = _get_names(deco_index[decoration_id]) if decoration_id else None
                 slots_list.append({
-                    'decoration': slot['assigned'] or None,
+                    'decoration_id': decoration_id,
+                    'decoration_names': decoration_names,
                     'size': slot['level'],
                     'type': slot['type']
                 })
 
-            # Handle generated amulets
-            display_name = name
             amulet_details = None
-            if group == 'amulet' and name.startswith('Amulet_R'):
-                amulet = next((a for a in data['items_data']['amulet'] if a['name'] == name), None)
-                if amulet:
-                    amulet_details = {
-                        'rarity': amulet['rarity'],
-                        'groups': amulet.get('groups', []),
-                        'skills': amulet.get('skills', {})
-                    }
+            if group == 'amulet' and item_id.startswith('generated:'):
+                amulet_details = {
+                    'rarity': item_data.get('rarity'),
+                    'groups': item_data.get('groups', []),
+                    'skills': [
+                        {
+                            'id': skill_id,
+                            'names': data['skill_catalog'].get(skill_id, {'en': skill_id, 'fr': skill_id}),
+                            'value': value,
+                        }
+                        for skill_id, value in item_data.get('skills', {}).items()
+                    ]
+                }
 
             items.append({
                 'slot': group,
-                'name': display_name,
+                'id': item_id,
+                'names': _get_names(item_data),
                 'decorations': slots_list,
                 'amulet_details': amulet_details
             })
 
-        # Format skills
         skills = []
-        for skill_name, effective in build['skills'].items():
-            skill_info = skills_info.get(skill_name, {})
+        for skill_id, effective in build['skills'].items():
+            skill_info = skills_info.get(skill_id, {'id': skill_id, 'names': {'en': skill_id, 'fr': skill_id}})
             skills.append({
-                'name': skill_name,
+                'id': skill_id,
+                'names': _get_names(skill_info),
                 'current': int(effective),
                 'max': skill_info.get('max_points', 5),
                 'weight': skill_info.get('weight', 10)
@@ -446,9 +531,12 @@ def main():
     items_data_default, decorations_default, available_skills, available_sets = load_data_files()
 
     # items filter
-    items_data_default['weapon'] = [item for item in items_data_default['weapon'] if 'Levin Acrus' == item['name']]
+    items_data_default['weapon'] = [
+        item for item in items_data_default['weapon']
+        if _get_names(item)['en'] == 'Levin Acrus'
+    ]
     #
-    # items_data_default['head'] = [item for item in items_data_default['head'] if 'Rey Sandhelm γ' != item['name']]
+    # items_data_default['head'] = [item for item in items_data_default['head'] if _get_names(item)['en'] != 'Rey Sandhelm γ']
 
     data = define_data(desired_skills, desired_sets, items_data_default, decorations_default)
     builds = run_optimizer(data, N=10)

@@ -1,139 +1,961 @@
 [
-  "Adaptability",
-  "Adrenaline Rush",
-  "Agitator",
-  "Airborne",
-  "Ambush",
-  "Antivirus",
-  "Aquatic/Oilsilt Mobility",
-  "Artillery",
-  "Attack Boost",
-  "Ballistics",
-  "Bind Resistance",
-  "Bladescale Honing",
-  "Bladescale Loading",
-  "Blast Attack",
-  "Blast Functionality",
-  "Blast Resistance",
-  "Bleeding Resistance",
-  "Blight Resistance",
-  "Blindsider",
-  "Bludgeoner",
-  "Bombardier",
-  "Botanist",
-  "Burst",
-  "Catburglar",
-  "Charge Master",
-  "Charge Up",
-  "Cliffhanger",
-  "Coalescence",
-  "Constitution",
-  "Convert Element",
-  "Convert Thunder Resistance",
-  "Convert Water Resistance",
-  "Counterstrike",
-  "Crackling Cornpopper",
-  "Critical Boost",
-  "Critical Draw",
-  "Critical Element",
-  "Critical Eye",
-  "Critical Status",
-  "Darkside",
-  "Defense Boost",
-  "Divine Blessing",
-  "Dragon Attack",
-  "Dragon Resistance",
-  "Earplugs",
-  "Elemental Absorption",
-  "Entomologist",
-  "Evade Extender",
-  "Evade Window",
-  "Evading Reload",
-  "Exhaust Functionality",
-  "Fire Attack",
-  "Fire Resistance",
-  "Flayer",
-  "Flinch Free",
-  "Focus",
-  "Foray",
-  "Free Meal",
-  "Geologist",
-  "Grillmaster",
-  "Guard",
-  "Guard Up",
-  "Handicraft",
-  "Heroics",
-  "Horn Maestro",
-  "Hunger Resistance",
-  "Ice Attack",
-  "Ice Resistance",
-  "Intimidator",
-  "Iron Skin",
-  "Item Prolonger",
-  "Jump Master",
-  "Latent Power",
-  "Leap of Faith",
-  "Load Shells",
-  "Marathon Runner",
-  "Master's Touch",
-  "Maximum Might",
-  "Mind's Eye",
-  "Mushroomancer",
-  "Normal Shots",
-  "Offensive Guard",
-  "Opening Shot",
-  "Outdoorsman",
-  "Palico Rally",
-  "Para Functionality",
-  "Paralysis Attack",
-  "Paralysis Resistance",
-  "Partbreaker",
-  "Peak Performance",
-  "Piercing Shots",
-  "Poison Attack",
-  "Poison Duration Up",
-  "Poison Functionality",
-  "Poison Resistance",
-  "Power Prolonger",
-  "Power Stone",
-  "Protective Polish",
-  "Punishing Draw",
-  "Quick Sheathe",
-  "Rapid Fire Up",
-  "Rapid Morph",
-  "Razor Sharp",
-  "Recovery Speed",
-  "Recovery Up",
-  "Resentment",
-  "Rice Ball",
-  "Self-Improvement",
-  "Shattering Reflection",
-  "Shock Absorber",
-  "Sleep Attack",
-  "Sleep Functionality",
-  "Sleep Resistance",
-  "Slicked Blade",
-  "Slugger",
-  "Special Ammo Boost",
-  "Speed Eating",
-  "Speed Sharpening",
-  "Spread/Power Shots",
-  "Stamina Surge",
-  "Stamina Thief",
-  "Stench Resistance",
-  "Stun Resistance",
-  "Survival Expert",
-  "Synergy",
-  "Synthetic Shield",
-  "Tetrad Shot",
-  "Thunder Attack",
-  "Thunder Resistance",
-  "Tool Specialist",
-  "Tremor Resistance",
-  "Water Attack",
-  "Water Resistance",
-  "Weakness Exploit",
-  "Whiteflame Torrent",
-  "Wide-Range",
-  "Windproof"
+  {
+    "id": "424768352",
+    "names": {
+      "en": "Adaptability",
+      "fr": "Adaptabilité"
+    }
+  },
+  {
+    "id": "1174975744",
+    "names": {
+      "en": "Adrenaline Rush",
+      "fr": "Poussée d'adrénaline"
+    }
+  },
+  {
+    "id": "1865909632",
+    "names": {
+      "en": "Agitator",
+      "fr": "Témérité"
+    }
+  },
+  {
+    "id": "402237312",
+    "names": {
+      "en": "Airborne",
+      "fr": "Mort venue d'en haut"
+    }
+  },
+  {
+    "id": "-171796848",
+    "names": {
+      "en": "Ambush",
+      "fr": "Embuscade"
+    }
+  },
+  {
+    "id": "-1662120192",
+    "names": {
+      "en": "Antivirus",
+      "fr": "Antivirus"
+    }
+  },
+  {
+    "id": "-201445760",
+    "names": {
+      "en": "Aquatic/Oilsilt Mobility",
+      "fr": "Mobilité eau/boue huileuse"
+    }
+  },
+  {
+    "id": "-596764096",
+    "names": {
+      "en": "Artillery",
+      "fr": "BOUM !"
+    }
+  },
+  {
+    "id": "1",
+    "names": {
+      "en": "Attack Boost",
+      "fr": "Machine de guerre"
+    }
+  },
+  {
+    "id": "-420608864",
+    "names": {
+      "en": "Ballistics",
+      "fr": "Balistique"
+    }
+  },
+  {
+    "id": "1966172160",
+    "names": {
+      "en": "Bind Resistance",
+      "fr": "Anti-immobilisation"
+    }
+  },
+  {
+    "id": "25070",
+    "names": {
+      "en": "Bladescale Honing",
+      "fr": "Aiguisage lamécaille"
+    }
+  },
+  {
+    "id": "3504",
+    "names": {
+      "en": "Bladescale Loading",
+      "fr": "Chargement lamécaille"
+    }
+  },
+  {
+    "id": "-844978880",
+    "names": {
+      "en": "Blast Attack",
+      "fr": "Destruction massive"
+    }
+  },
+  {
+    "id": "-2022542848",
+    "names": {
+      "en": "Blast Functionality",
+      "fr": "Maître bombardier"
+    }
+  },
+  {
+    "id": "820385792",
+    "names": {
+      "en": "Blast Resistance",
+      "fr": "Antiexplosion"
+    }
+  },
+  {
+    "id": "1940820864",
+    "names": {
+      "en": "Bleeding Resistance",
+      "fr": "Antihémorragie"
+    }
+  },
+  {
+    "id": "-568838336",
+    "names": {
+      "en": "Blight Resistance",
+      "fr": "Totem élémentaire"
+    }
+  },
+  {
+    "id": "-257693696",
+    "names": {
+      "en": "Blindsider",
+      "fr": "Aveuglement"
+    }
+  },
+  {
+    "id": "397306144",
+    "names": {
+      "en": "Bludgeoner",
+      "fr": "Matraquage"
+    }
+  },
+  {
+    "id": "-857543744",
+    "names": {
+      "en": "Bombardier",
+      "fr": "Bombardier"
+    }
+  },
+  {
+    "id": "860517760",
+    "names": {
+      "en": "Botanist",
+      "fr": "Botaniste"
+    }
+  },
+  {
+    "id": "565867136",
+    "names": {
+      "en": "Burst",
+      "fr": "Vendetta"
+    }
+  },
+  {
+    "id": "30554",
+    "names": {
+      "en": "Catburglar",
+      "fr": "Chat voleur"
+    }
+  },
+  {
+    "id": "-1475134080",
+    "names": {
+      "en": "Charge Master",
+      "fr": "Maître de la charge"
+    }
+  },
+  {
+    "id": "353114912",
+    "names": {
+      "en": "Charge Up",
+      "fr": "Surcharge"
+    }
+  },
+  {
+    "id": "-692636288",
+    "names": {
+      "en": "Cliffhanger",
+      "fr": "Monte-en-l'air"
+    }
+  },
+  {
+    "id": "-1700743296",
+    "names": {
+      "en": "Coalescence",
+      "fr": "Union"
+    }
+  },
+  {
+    "id": "-1689391744",
+    "names": {
+      "en": "Constitution",
+      "fr": "Athlète"
+    }
+  },
+  {
+    "id": "2083363072",
+    "names": {
+      "en": "Convert Element",
+      "fr": "Conversion élémentaire"
+    }
+  },
+  {
+    "id": "30201",
+    "names": {
+      "en": "Convert Thunder Resistance",
+      "fr": "Conversion résistance foudre"
+    }
+  },
+  {
+    "id": "11481",
+    "names": {
+      "en": "Convert Water Resistance",
+      "fr": "Conversion résistance eau"
+    }
+  },
+  {
+    "id": "280489184",
+    "names": {
+      "en": "Counterstrike",
+      "fr": "Contre-attaque"
+    }
+  },
+  {
+    "id": "1826",
+    "names": {
+      "en": "Crackling Cornpopper",
+      "fr": "Maïs crépitant"
+    }
+  },
+  {
+    "id": "-1607763456",
+    "names": {
+      "en": "Critical Boost",
+      "fr": "Berserker"
+    }
+  },
+  {
+    "id": "686533440",
+    "names": {
+      "en": "Critical Draw",
+      "fr": "Dégainage éclair"
+    }
+  },
+  {
+    "id": "313598432",
+    "names": {
+      "en": "Critical Element",
+      "fr": "Rage élémentaire"
+    }
+  },
+  {
+    "id": "-2096489472",
+    "names": {
+      "en": "Critical Eye",
+      "fr": "Maître d'armes"
+    }
+  },
+  {
+    "id": "-168922880",
+    "names": {
+      "en": "Critical Status",
+      "fr": "Attaque perfide"
+    }
+  },
+  {
+    "id": "3813",
+    "names": {
+      "en": "Darkside",
+      "fr": "Ténèbres intérieures"
+    }
+  },
+  {
+    "id": "1077686656",
+    "names": {
+      "en": "Defense Boost",
+      "fr": "Bastion"
+    }
+  },
+  {
+    "id": "1346775424",
+    "names": {
+      "en": "Divine Blessing",
+      "fr": "Bénédiction"
+    }
+  },
+  {
+    "id": "-776946176",
+    "names": {
+      "en": "Dragon Attack",
+      "fr": "Pourfendeur de dragon"
+    }
+  },
+  {
+    "id": "-2125233152",
+    "names": {
+      "en": "Dragon Resistance",
+      "fr": "Aura draconique"
+    }
+  },
+  {
+    "id": "192746944",
+    "names": {
+      "en": "Earplugs",
+      "fr": "Bouchon d'oreilles"
+    }
+  },
+  {
+    "id": "1489568384",
+    "names": {
+      "en": "Elemental Absorption",
+      "fr": "Absorption élémentaire"
+    }
+  },
+  {
+    "id": "898284480",
+    "names": {
+      "en": "Entomologist",
+      "fr": "Entomologiste"
+    }
+  },
+  {
+    "id": "673822976",
+    "names": {
+      "en": "Evade Extender",
+      "fr": "Trompe-la-mort"
+    }
+  },
+  {
+    "id": "144660544",
+    "names": {
+      "en": "Evade Window",
+      "fr": "Fenêtre d'invulnérabilité"
+    }
+  },
+  {
+    "id": "30828",
+    "names": {
+      "en": "Evading Reload",
+      "fr": "Rechargement fugitif"
+    }
+  },
+  {
+    "id": "-181774400",
+    "names": {
+      "en": "Exhaust Functionality",
+      "fr": "Pattes engourdies"
+    }
+  },
+  {
+    "id": "-562534336",
+    "names": {
+      "en": "Fire Attack",
+      "fr": "Pyromane"
+    }
+  },
+  {
+    "id": "1425756032",
+    "names": {
+      "en": "Fire Resistance",
+      "fr": "Ignifuge"
+    }
+  },
+  {
+    "id": "-856322816",
+    "names": {
+      "en": "Flayer",
+      "fr": "Écorcheur"
+    }
+  },
+  {
+    "id": "742695104",
+    "names": {
+      "en": "Flinch Free",
+      "fr": "Nerfs d'acier"
+    }
+  },
+  {
+    "id": "-283334048",
+    "names": {
+      "en": "Focus",
+      "fr": "Concentration"
+    }
+  },
+  {
+    "id": "27684744",
+    "names": {
+      "en": "Foray",
+      "fr": "Incursion"
+    }
+  },
+  {
+    "id": "850626240",
+    "names": {
+      "en": "Free Meal",
+      "fr": "Pique-assiette"
+    }
+  },
+  {
+    "id": "595870656",
+    "names": {
+      "en": "Geologist",
+      "fr": "Géologiste"
+    }
+  },
+  {
+    "id": "16931",
+    "names": {
+      "en": "Grillmaster",
+      "fr": "Chef BBQ"
+    }
+  },
+  {
+    "id": "-307644128",
+    "names": {
+      "en": "Guard",
+      "fr": "Paladin"
+    }
+  },
+  {
+    "id": "-1674114176",
+    "names": {
+      "en": "Guard Up",
+      "fr": "Ultra garde"
+    }
+  },
+  {
+    "id": "1160639488",
+    "names": {
+      "en": "Handicraft",
+      "fr": "Savoir-faire"
+    }
+  },
+  {
+    "id": "422666624",
+    "names": {
+      "en": "Heroics",
+      "fr": "Héroïsme"
+    }
+  },
+  {
+    "id": "-1237438336",
+    "names": {
+      "en": "Horn Maestro",
+      "fr": "Maestro"
+    }
+  },
+  {
+    "id": "2045149568",
+    "names": {
+      "en": "Hunger Resistance",
+      "fr": "Coupe-faim"
+    }
+  },
+  {
+    "id": "1268070400",
+    "names": {
+      "en": "Ice Attack",
+      "fr": "Blizzard"
+    }
+  },
+  {
+    "id": "652161472",
+    "names": {
+      "en": "Ice Resistance",
+      "fr": "Antigel"
+    }
+  },
+  {
+    "id": "1472632704",
+    "names": {
+      "en": "Intimidator",
+      "fr": "Intimidation"
+    }
+  },
+  {
+    "id": "1522518528",
+    "names": {
+      "en": "Iron Skin",
+      "fr": "Peau de fer"
+    }
+  },
+  {
+    "id": "-1684613760",
+    "names": {
+      "en": "Item Prolonger",
+      "fr": "Chimiste"
+    }
+  },
+  {
+    "id": "78208296",
+    "names": {
+      "en": "Jump Master",
+      "fr": "Acrobate"
+    }
+  },
+  {
+    "id": "1763191040",
+    "names": {
+      "en": "Latent Power",
+      "fr": "Force latente"
+    }
+  },
+  {
+    "id": "-1304512512",
+    "names": {
+      "en": "Leap of Faith",
+      "fr": "Saut de la foi"
+    }
+  },
+  {
+    "id": "802725120",
+    "names": {
+      "en": "Load Shells",
+      "fr": "Recharge chargée"
+    }
+  },
+  {
+    "id": "-682586176",
+    "names": {
+      "en": "Marathon Runner",
+      "fr": "Marathonien"
+    }
+  },
+  {
+    "id": "1389859584",
+    "names": {
+      "en": "Master's Touch",
+      "fr": "Main de maître"
+    }
+  },
+  {
+    "id": "632127488",
+    "names": {
+      "en": "Maximum Might",
+      "fr": "Corps et âme"
+    }
+  },
+  {
+    "id": "1594792704",
+    "names": {
+      "en": "Mind's Eye",
+      "fr": "Œil de l'esprit"
+    }
+  },
+  {
+    "id": "-481419552",
+    "names": {
+      "en": "Mushroomancer",
+      "fr": "Mycologue extrême"
+    }
+  },
+  {
+    "id": "-1961297152",
+    "names": {
+      "en": "Normal Shots",
+      "fr": "Tir maximum"
+    }
+  },
+  {
+    "id": "-181127504",
+    "names": {
+      "en": "Offensive Guard",
+      "fr": "Garde offensive"
+    }
+  },
+  {
+    "id": "1711950720",
+    "names": {
+      "en": "Opening Shot",
+      "fr": "Premier tir"
+    }
+  },
+  {
+    "id": "1845834112",
+    "names": {
+      "en": "Outdoorsman",
+      "fr": "Art de la chasse"
+    }
+  },
+  {
+    "id": "1934955136",
+    "names": {
+      "en": "Palico Rally",
+      "fr": "Esprit Palico"
+    }
+  },
+  {
+    "id": "-676967744",
+    "names": {
+      "en": "Para Functionality",
+      "fr": "Gibier de potence"
+    }
+  },
+  {
+    "id": "-1863702144",
+    "names": {
+      "en": "Paralysis Attack",
+      "fr": "Neutralisation"
+    }
+  },
+  {
+    "id": "522288832",
+    "names": {
+      "en": "Paralysis Resistance",
+      "fr": "Antiparalysie"
+    }
+  },
+  {
+    "id": "1470960256",
+    "names": {
+      "en": "Partbreaker",
+      "fr": "Destructeur"
+    }
+  },
+  {
+    "id": "2106877312",
+    "names": {
+      "en": "Peak Performance",
+      "fr": "Performance optimale"
+    }
+  },
+  {
+    "id": "552982656",
+    "names": {
+      "en": "Piercing Shots",
+      "fr": "Traque sans merci"
+    }
+  },
+  {
+    "id": "-1716324608",
+    "names": {
+      "en": "Poison Attack",
+      "fr": "Mort-aux-rats"
+    }
+  },
+  {
+    "id": "-1629629184",
+    "names": {
+      "en": "Poison Duration Up",
+      "fr": "Poison +"
+    }
+  },
+  {
+    "id": "919683456",
+    "names": {
+      "en": "Poison Functionality",
+      "fr": "Apothicaire"
+    }
+  },
+  {
+    "id": "1459579264",
+    "names": {
+      "en": "Poison Resistance",
+      "fr": "Toxicologie"
+    }
+  },
+  {
+    "id": "691199232",
+    "names": {
+      "en": "Power Prolonger",
+      "fr": "Puissance absolue"
+    }
+  },
+  {
+    "id": "28385",
+    "names": {
+      "en": "Power Stone",
+      "fr": "Pierre de pouvoir"
+    }
+  },
+  {
+    "id": "1500129152",
+    "names": {
+      "en": "Protective Polish",
+      "fr": "Acier trempé"
+    }
+  },
+  {
+    "id": "-1946345856",
+    "names": {
+      "en": "Punishing Draw",
+      "fr": "Batto-jutsu"
+    }
+  },
+  {
+    "id": "-1073401280",
+    "names": {
+      "en": "Quick Sheathe",
+      "fr": "Rengainage éclair"
+    }
+  },
+  {
+    "id": "-1507579776",
+    "names": {
+      "en": "Rapid Fire Up",
+      "fr": "Tir super rapide"
+    }
+  },
+  {
+    "id": "-1961116288",
+    "names": {
+      "en": "Rapid Morph",
+      "fr": "Morphose rapide"
+    }
+  },
+  {
+    "id": "1050520384",
+    "names": {
+      "en": "Razor Sharp",
+      "fr": "Samouraï"
+    }
+  },
+  {
+    "id": "-1121468544",
+    "names": {
+      "en": "Recovery Speed",
+      "fr": "Halo de guérison"
+    }
+  },
+  {
+    "id": "-1235658624",
+    "names": {
+      "en": "Recovery Up",
+      "fr": "Cercle de vie"
+    }
+  },
+  {
+    "id": "1359821952",
+    "names": {
+      "en": "Resentment",
+      "fr": "Vengeance"
+    }
+  },
+  {
+    "id": "10503",
+    "names": {
+      "en": "Rice Ball",
+      "fr": "Onigiri"
+    }
+  },
+  {
+    "id": "1639440000",
+    "names": {
+      "en": "Self-Improvement",
+      "fr": "Auto-amélioration"
+    }
+  },
+  {
+    "id": "12877",
+    "names": {
+      "en": "Shattering Reflection",
+      "fr": "Reflet éparpillé"
+    }
+  },
+  {
+    "id": "-632440576",
+    "names": {
+      "en": "Shock Absorber",
+      "fr": "Antichocs"
+    }
+  },
+  {
+    "id": "166057120",
+    "names": {
+      "en": "Sleep Attack",
+      "fr": "La nuit porte conseil"
+    }
+  },
+  {
+    "id": "169998480",
+    "names": {
+      "en": "Sleep Functionality",
+      "fr": "Marchand de sable"
+    }
+  },
+  {
+    "id": "-193031552",
+    "names": {
+      "en": "Sleep Resistance",
+      "fr": "Insomnie"
+    }
+  },
+  {
+    "id": "-847539392",
+    "names": {
+      "en": "Slicked Blade",
+      "fr": "Lame glissante"
+    }
+  },
+  {
+    "id": "-893407296",
+    "names": {
+      "en": "Slugger",
+      "fr": "Cogneur"
+    }
+  },
+  {
+    "id": "-160562336",
+    "names": {
+      "en": "Special Ammo Boost",
+      "fr": "Salve mortelle"
+    }
+  },
+  {
+    "id": "634068352",
+    "names": {
+      "en": "Speed Eating",
+      "fr": "Carnassier"
+    }
+  },
+  {
+    "id": "1444935552",
+    "names": {
+      "en": "Speed Sharpening",
+      "fr": "Affûtage rapide"
+    }
+  },
+  {
+    "id": "-2123993856",
+    "names": {
+      "en": "Spread/Power Shots",
+      "fr": "Désigné pour mourir"
+    }
+  },
+  {
+    "id": "-315492576",
+    "names": {
+      "en": "Stamina Surge",
+      "fr": "Métabolisme"
+    }
+  },
+  {
+    "id": "1758661504",
+    "names": {
+      "en": "Stamina Thief",
+      "fr": "Vol d'endurance"
+    }
+  },
+  {
+    "id": "-411441344",
+    "names": {
+      "en": "Stench Resistance",
+      "fr": "Antipuanteur"
+    }
+  },
+  {
+    "id": "705317568",
+    "names": {
+      "en": "Stun Resistance",
+      "fr": "Crâne d'acier"
+    }
+  },
+  {
+    "id": "-593005376",
+    "names": {
+      "en": "Survival Expert",
+      "fr": "Ami de la nature"
+    }
+  },
+  {
+    "id": "31998",
+    "names": {
+      "en": "Synergy",
+      "fr": "Programme synergique"
+    }
+  },
+  {
+    "id": "7506",
+    "names": {
+      "en": "Synthetic Shield",
+      "fr": "Bouclier optionnel"
+    }
+  },
+  {
+    "id": "1613139840",
+    "names": {
+      "en": "Tetrad Shot",
+      "fr": "Quatrième tir"
+    }
+  },
+  {
+    "id": "1452140672",
+    "names": {
+      "en": "Thunder Attack",
+      "fr": "Feu du ciel"
+    }
+  },
+  {
+    "id": "2143068800",
+    "names": {
+      "en": "Thunder Resistance",
+      "fr": "Paratonnerre"
+    }
+  },
+  {
+    "id": "469540352",
+    "names": {
+      "en": "Tool Specialist",
+      "fr": "Expert en survie"
+    }
+  },
+  {
+    "id": "-609509888",
+    "names": {
+      "en": "Tremor Resistance",
+      "fr": "Sismologie"
+    }
+  },
+  {
+    "id": "508916704",
+    "names": {
+      "en": "Water Attack",
+      "fr": "Maelstrom"
+    }
+  },
+  {
+    "id": "383104832",
+    "names": {
+      "en": "Water Resistance",
+      "fr": "Étanchéité"
+    }
+  },
+  {
+    "id": "-397570464",
+    "names": {
+      "en": "Weakness Exploit",
+      "fr": "Mise à mort"
+    }
+  },
+  {
+    "id": "576193792",
+    "names": {
+      "en": "Whiteflame Torrent",
+      "fr": "Brasier blanc"
+    }
+  },
+  {
+    "id": "894530496",
+    "names": {
+      "en": "Wide-Range",
+      "fr": "Un pour tous"
+    }
+  },
+  {
+    "id": "-895828480",
+    "names": {
+      "en": "Windproof",
+      "fr": "Pare-vent"
+    }
+  }
 ]

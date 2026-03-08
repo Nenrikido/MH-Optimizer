@@ -1,5 +1,8 @@
+import { LocalizedNames } from './Localized';
+
 export interface Weapon {
-  name: string;
+  id: string;
+  names: LocalizedNames;
+  name?: string;
   type?: string;
 }
-

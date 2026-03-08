@@ -104,7 +104,7 @@ const en: Translations = {
 
 const fr: Translations = {
   header: {
-    title: 'Optimiseur de Build MH Wilds (Bêta)',
+    title: 'Optimiseur de Build pour MH Wilds (Bêta)',
     subtitle: 'par @nenrikido sur discord',
   },
   form: {

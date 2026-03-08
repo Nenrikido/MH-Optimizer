@@ -1,6 +1,9 @@
+import { LocalizedNames } from './Localized';
+
 export interface Set {
-  name: string;
+  id: string;
+  names: LocalizedNames;
+  name?: string;
   min_pieces?: number;
   is_group?: boolean;
 }
-

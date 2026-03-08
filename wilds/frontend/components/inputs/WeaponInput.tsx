@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 import {Weapon} from '../../model/Weapon';
 import CustomAutocomplete from './CustomAutocomplete';
 import { useI18n } from '../../lib/i18nContext';
+import { NamedEntity } from '../../model/Localized';
 
 interface WeaponInputProps {
   weapons: Weapon[];
   setWeapons: (weapons: Weapon[]) => void;
-  availableWeapons: string[];
+  availableWeapons: NamedEntity[];
 }
 
 function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) {
@@ -14,8 +15,9 @@ function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) 
   const { t } = useI18n();
 
   const handleSelect = (value: string) => {
-    if (value && !weapons.some(weapon => weapon.name === value)) {
-      setWeapons([...weapons, {name: value}]);
+    const selected = availableWeapons.find((weapon) => weapon.id === value);
+    if (selected && !weapons.some(weapon => weapon.id === value)) {
+      setWeapons([...weapons, {id: selected.id, names: selected.names}]);
       setInput('');
     }
   };
@@ -25,7 +27,7 @@ function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) 
       value={input}
       onChange={handleSelect}
       onInputChange={setInput}
-      availableSkills={availableWeapons}
+      options={availableWeapons}
       placeholder={t.inputs.weapons}
       fullWidth
       size="small"

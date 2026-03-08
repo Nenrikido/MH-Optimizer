@@ -4,42 +4,62 @@
 
 from glob import glob
 import json
+from pathlib import Path
 
-weapon_files = [*filter(
-    lambda f: 'HuntingHorn' not in f or 'HuntingHorn.' in f,
-    glob('./full_db/weapons/*.json')
-)]
+ROOT_DIR = Path(__file__).resolve().parents[1]
+FULL_DB_DIR = ROOT_DIR / 'full_db'
+OUT_DIR = ROOT_DIR / 'db'
 
-skills = {}
-sets = {}
-groups = {}
-for skill in json.load(open('../full_db/Skill.json', encoding='utf-8')):
-    if skill['kind'] == 'armor' or skill['kind'] == 'weapon':
-        skills[str(skill['game_id'])] = skill['names']['en']
+weapon_files = [
+    *filter(
+        lambda f: 'HuntingHorn' not in f or 'HuntingHorn.' in f,
+        glob(str(FULL_DB_DIR / 'weapons' / '*.json'))
+    )
+]
+
+
+def get_names(entry):
+    names = entry.get('names', {})
+    en = names.get('en', '')
+    fr = names.get('fr', en)
+    return {'en': en, 'fr': fr}
+
+
+skill_name_by_id = {}
+skills = []
+sets = []
+groups = []
+for skill in json.load(open(FULL_DB_DIR / 'Skill.json', encoding='utf-8')):
+    skill_id = str(skill['game_id'])
+    names = get_names(skill)
+    skill_name_by_id[skill_id] = names['en']
+
+    entry = {'id': skill_id, 'names': names}
+    if skill['kind'] in ('armor', 'weapon'):
+        skills.append(entry)
     elif skill['kind'] == 'set':
-        sets[str(skill['game_id'])] = skill['names']['en']
+        sets.append(entry)
     else:
-        groups[str(skill['game_id'])] = skill['names']['en']
+        groups.append(entry)
 
-# build skills db
-skills_db = sorted(set(skills.values()))
-json.dump(skills_db, open('skills.json', 'w', encoding='utf-8'), indent=2)
+skills.sort(key=lambda s: s['names']['en'])
+sets.sort(key=lambda s: s['names']['en'])
+groups.sort(key=lambda s: s['names']['en'])
 
-# build sets db
-sets_db = {
-    "sets": sorted(set(sets.values())),
-    "groups": sorted(set(groups.values()))
-}
-json.dump(sets_db, open('sets.json', 'w', encoding='utf-8'), indent=2)
+json.dump(skills, open(OUT_DIR / 'skills.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
+json.dump({'sets': sets, 'groups': groups}, open(OUT_DIR / 'sets.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
 
 # build decorations db
-decorations = [{
-    "name": decoration['names']['en'],
-    "skills": {skills[skill_id]: skill_points for skill_id, skill_points in decoration['skills'].items()},
-    "size": decoration['level'],
-    "type": 'A' if decoration['allowed_on'] == 'armor' else 'W'
-} for decoration in json.load(open('../full_db/Accessory.json', encoding='utf-8'))]
-json.dump(decorations, open('decorations.json', 'w', encoding='utf-8'), indent=2)
+decorations = []
+for decoration in json.load(open(FULL_DB_DIR / 'Accessory.json', encoding='utf-8')):
+    decorations.append({
+        'id': str(decoration['game_id']),
+        'names': get_names(decoration),
+        'skills': {str(skill_id): skill_points for skill_id, skill_points in decoration['skills'].items()},
+        'size': decoration['level'],
+        'type': 'A' if decoration['allowed_on'] == 'armor' else 'W'
+    })
+json.dump(decorations, open(OUT_DIR / 'decorations.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
 
 # build items db
 items = {
@@ -51,29 +71,34 @@ items = {
     'legs': [],
     'amulet': []
 }
-weapon_names = set()
+weapon_ids = set()
 for weapon_file in weapon_files:
     weapons = json.load(open(weapon_file, encoding='utf-8'))
     for weapon in weapons:
-        weapon_name = weapon['names']['en']
-        if weapon_name not in weapon_names:
-            weapon_names.add(weapon_name)
-            items['weapon'].append({
-                'name': weapon['names']['en'],
-                'skills': {skills[skill_id]: skill_points for skill_id, skill_points in weapon['skills'].items()},
-                'slots': [{'value': slot, 'type': 'W'} for slot in weapon['slots']],
-                'sets': [],
-                'is_gog': weapon['series_id'] is None and weapon['crafting']['zenny_cost'] == 300
-            })
+        weapon_kind = str(weapon.get('kind', 'weapon'))
+        weapon_id = f"{weapon_kind}:{weapon['game_id']}"
+        if weapon_id in weapon_ids:
+            continue
+        weapon_ids.add(weapon_id)
 
-armors = json.load(open('../full_db/Armor.json', encoding='utf-8'))
+        items['weapon'].append({
+            'id': weapon_id,
+            'names': get_names(weapon),
+            'skills': {str(skill_id): skill_points for skill_id, skill_points in weapon['skills'].items()},
+            'slots': [{'value': slot, 'type': 'W'} for slot in weapon['slots']],
+            'sets': [],
+            'is_gog': weapon['series_id'] is None and weapon['crafting']['zenny_cost'] == 300
+        })
+
+armors = json.load(open(FULL_DB_DIR / 'Armor.json', encoding='utf-8'))
 for armor in armors:
-    for armor_piece in armor['pieces']:
-        armor_sets = []
+    for idx, armor_piece in enumerate(armor['pieces']):
+        armor_set_ids = []
         if armor['set_bonus']:
-            armor_sets.append(sets[str(armor['set_bonus']['skill_id'])])
+            armor_set_ids.append(str(armor['set_bonus']['skill_id']))
         if armor['group_bonus']:
-            armor_sets.append(groups[str(armor['group_bonus']['skill_id'])])
+            armor_set_ids.append(str(armor['group_bonus']['skill_id']))
+
         slots = []
         transcended_slots = []
         upgraded_slots = 0
@@ -83,38 +108,39 @@ for armor in armors:
                 slots.append({'value': slot_value, 'type': 'A'})
             except IndexError:
                 slot_value = 0
-            if armor['rarity'] == 5 or armor['rarity'] == 6:
+            if armor['rarity'] in (5, 6):
                 slot_value += (slot_value < 3 and (upgraded_slots < 2 or armor['rarity'] == 5))
                 if slot_value > 0:
                     transcended_slots.append({'value': slot_value, 'type': 'A'})
                 upgraded_slots += 1
+
         armor_skills = {}
         for skill_id, skill_points in armor_piece['skills'].items():
-            if str(skill_id) in skills:
-                armor_skills[skills[str(skill_id)]] = skill_points
+            str_skill_id = str(skill_id)
+            if str_skill_id in skill_name_by_id:
+                armor_skills[str_skill_id] = skill_points
             else:
-                if str(skill_id) in sets:
-                    armor_sets.append(sets[str(skill_id)])
-                elif str(skill_id) in groups:
-                    armor_sets.append(groups[str(skill_id)])
+                armor_set_ids.append(str_skill_id)
+
         items[armor_piece['kind']].append({
-            'name': armor_piece['names']['en'],
-            'sets': armor_sets,
+            'id': f"{armor['game_id']}:{armor_piece['kind']}:{idx}",
+            'names': get_names(armor_piece),
+            'sets': armor_set_ids,
             'skills': armor_skills,
             'slots': slots,
             'transcended_slots': transcended_slots or slots
         })
 
-amulets = json.load(open('../full_db/Amulet.json', encoding='utf-8'))
+amulets = json.load(open(FULL_DB_DIR / 'Amulet.json', encoding='utf-8'))
 for amulet in amulets:
     if amulet['is_random']:
         continue
-    for amulet_rank in amulet['ranks']:
+    for rank_index, amulet_rank in enumerate(amulet['ranks']):
         items['amulet'].append({
-            'name': amulet_rank['names']['en'],
-            'skills': {skills[skill_id]: skill_points for skill_id, skill_points in amulet_rank['skills'].items()},
+            'id': f"{amulet['game_id']}:{rank_index}",
+            'names': get_names(amulet_rank),
+            'skills': {str(skill_id): skill_points for skill_id, skill_points in amulet_rank['skills'].items()},
             'slots': []
         })
 
-json.dump(items, open('items.json', 'w', encoding='utf-8'), indent=2)
-
+json.dump(items, open(OUT_DIR / 'items.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)

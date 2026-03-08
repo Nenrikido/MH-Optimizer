@@ -6,72 +6,114 @@ from opti_wilds import load_data_files, define_data, run_optimizer, output_build
 app = Flask(__name__)
 
 
+def _names(entry):
+    names = entry.get('names', {})
+    en = names.get('en', entry.get('name', ''))
+    fr = names.get('fr', en)
+    return {'en': en, 'fr': fr}
+
+
 @app.route('/api/run', methods=['POST'])
 def run_optimization():
     items_data_default, decorations_default, available_skills, available_sets = load_data_files()
 
-    data_json = request.get_json()
+    data_json = request.get_json() or {}
 
-    # Extraire les skills
+    skill_by_id = {str(skill['id']): skill for skill in available_skills}
+    skill_name_to_id = {}
+    for skill in available_skills:
+        names = _names(skill)
+        skill_name_to_id[names['en']] = str(skill['id'])
+        skill_name_to_id[names['fr']] = str(skill['id'])
+
+    set_entries = available_sets.get('sets', []) + available_sets.get('groups', [])
+    set_by_id = {str(s['id']): s for s in set_entries}
+    set_name_to_id = {}
+    group_ids = set(str(s['id']) for s in available_sets.get('groups', []))
+    for set_entry in set_entries:
+        names = _names(set_entry)
+        set_name_to_id[names['en']] = str(set_entry['id'])
+        set_name_to_id[names['fr']] = str(set_entry['id'])
+
     desired_skills = []
     for skill in data_json.get('skills', []):
+        skill_id = skill.get('id')
+        if not skill_id:
+            skill_id = skill_name_to_id.get(skill.get('name'))
+        if not skill_id or skill_id not in skill_by_id:
+            continue
         desired_skills.append({
-            'name': skill.get('name'),
+            'id': str(skill_id),
+            'names': _names(skill_by_id[str(skill_id)]),
             'max_points': skill.get('max_points', 5),
             'weight': skill.get('weight', 10)
         })
 
-    # Extraire les sets
     desired_sets = []
     for armor_set in data_json.get('sets', []):
-        name = armor_set.get('name')
-        if name and ((is_group := name in available_sets["groups"]) or name in available_sets["sets"]):
-            desired_sets.append({
-                'set': name,
-                'min_pieces': armor_set.get('min_pieces', 2),
-                'is_group': is_group
-            })
+        set_id = armor_set.get('id')
+        if not set_id:
+            set_id = set_name_to_id.get(armor_set.get('name'))
+        if not set_id or set_id not in set_by_id:
+            continue
+        desired_sets.append({
+            'set_id': str(set_id),
+            'set_name': _names(set_by_id[str(set_id)])['en'],
+            'min_pieces': armor_set.get('min_pieces', 2),
+            'is_group': str(set_id) in group_ids,
+        })
 
-    # Extraire les weapons
-    desired_weapons = [weapon.get('name') for weapon in data_json.get('weapons', [])]
+    desired_weapon_ids = []
+    weapon_name_to_id = {}
+    for weapon in items_data_default['weapon']:
+        names = _names(weapon)
+        weapon_name_to_id[names['en']] = weapon['id']
+        weapon_name_to_id[names['fr']] = weapon['id']
 
-    # Extraire les amulets
+    for weapon in data_json.get('weapons', []):
+        weapon_id = weapon.get('id')
+        if not weapon_id:
+            weapon_id = weapon_name_to_id.get(weapon.get('name'))
+        if weapon_id:
+            desired_weapon_ids.append(str(weapon_id))
+
     custom_amulets_list = []
-    for amulet in data_json.get('amulets', []):
+    for idx, amulet in enumerate(data_json.get('amulets', [])):
         amulet_data = {
-            "name": amulet.get('name', 'Custom Amulet'),
-            "skills": {}
+            'id': f"custom:{idx}",
+            'names': {'en': amulet.get('name', 'Custom Amulet'), 'fr': amulet.get('name', 'Custom Amulet')},
+            'skills': {},
+            'slots': [],
         }
         for skill in amulet.get('skills', []):
-            if skill.get('name'):
-                amulet_data['skills'][skill['name']] = skill.get('value', 1)
+            skill_id = skill.get('id')
+            if not skill_id:
+                skill_id = skill_name_to_id.get(skill.get('name'))
+            if skill_id:
+                amulet_data['skills'][str(skill_id)] = skill.get('value', 1)
 
-        # Parse slots
         slots_str = amulet.get('slots', '')
         if slots_str:
             amulet_data['slots'] = list(map(
                 lambda x: {
-                    "value": int(x[-1]),
-                    "type": "W" if x[0] == "W" else "A"
+                    'value': int(x[-1]),
+                    'type': 'W' if x[0] == 'W' else 'A'
                 },
                 slots_str.split('-0')[0].split('-')
             ))
 
         custom_amulets_list.append(amulet_data)
 
-    # Filter items_data
-    filtered_items_data = {k: v for k, v in items_data_default.items()}
+    filtered_items_data = {k: v[:] for k, v in items_data_default.items()}
+    if desired_weapon_ids:
+        desired_weapon_ids_set = set(desired_weapon_ids)
+        filtered_items_data['weapon'] = [
+            item for item in filtered_items_data['weapon']
+            if str(item['id']) in desired_weapon_ids_set
+        ]
 
-    # Filter weapons
-    filtered_items_data['weapon'] = [item for item in filtered_items_data['weapon'] if item['name'] in desired_weapons]
-
-    # Add custom amulets
     filtered_items_data['amulet'] += custom_amulets_list
 
-    # Filter decorations
-    filtered_decorations = decorations_default
-
-    # Extraire les options
     options = data_json.get('options', {})
     N = min(options.get('N', 1), 5)
 
@@ -79,7 +121,7 @@ def run_optimization():
         desired_skills,
         desired_sets,
         filtered_items_data,
-        filtered_decorations,
+        decorations_default,
         include_all_amulets=options.get('include_all_amulets', False),
         transcend=options.get('transcend', False),
         include_gog_sets=options.get('include_gog_sets', False)
@@ -93,12 +135,15 @@ def run_optimization():
 @app.route('/api/available_items', methods=['GET'])
 def available_items():
     items_data_default, _, available_skills, available_sets = load_data_files()
-    available_weapons = list(map(lambda x: x['name'], items_data_default['weapon']))
-    available_sets = available_sets["sets"] + available_sets["groups"]
+    available_weapons = [
+        {'id': weapon['id'], 'names': _names(weapon)}
+        for weapon in items_data_default['weapon']
+    ]
+    available_all_sets = available_sets.get('sets', []) + available_sets.get('groups', [])
     return jsonify({
-        "available_skills": available_skills,
-        "available_sets": available_sets,
-        "available_weapons": available_weapons
+        'available_skills': available_skills,
+        'available_sets': available_all_sets,
+        'available_weapons': available_weapons,
     })
 
 
@@ -153,4 +198,3 @@ def serve_react_app(path):
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', debug=True)
-

@@ -1,3061 +1,4505 @@
 [
   {
-    "name": "Venom Jewel [1]",
+    "id": "-2144349312",
+    "names": {
+      "en": "Venom Jewel [1]",
+      "fr": "Joyau venin [1]"
+    },
     "skills": {
-      "Poison Attack": 1
+      "-1716324608": 1
     },
     "size": 1,
     "type": "W"
   },
   {
-    "name": "Handicraft Jewel II [2]",
-    "skills": {
-      "Handicraft": 2
+    "id": "-2136274304",
+    "names": {
+      "en": "Handicraft Jewel II [2]",
+      "fr": "Joyau artisanat II [2]"
     },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Flayer Jewel [3]",
     "skills": {
-      "Flayer": 1
-    },
-    "size": 3,
-    "type": "A"
-  },
-  {
-    "name": "Crit Stat/Handicraft Jwl [3]",
-    "skills": {
-      "Critical Status": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Sleep Jewel [1]",
-    "skills": {
-      "Sleep Attack": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Precise Jewel II [2]",
-    "skills": {
-      "Ballistics": 2
+      "1160639488": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Bolt/Precise Jewel [3]",
+    "id": "-2135118208",
+    "names": {
+      "en": "Flayer Jewel [3]",
+      "fr": "Joyau écorcheur [3]"
+    },
     "skills": {
-      "Ballistics": 1,
-      "Thunder Attack": 3
+      "-856322816": 1
+    },
+    "size": 3,
+    "type": "A"
+  },
+  {
+    "id": "-2098600064",
+    "names": {
+      "en": "Crit Stat/Handicraft Jwl [3]",
+      "fr": "Joyau châtiment/artisanat [3]"
+    },
+    "skills": {
+      "-168922880": 3,
+      "1160639488": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Water Res Jewel [1]",
-    "skills": {
-      "Water Resistance": 1
+    "id": "-2092760832",
+    "names": {
+      "en": "Sleep Jewel [1]",
+      "fr": "Joyau sommeil [1]"
     },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Sleep Jewel II [2]",
     "skills": {
-      "Sleep Attack": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Drain Jewel III [3]",
-    "skills": {
-      "Stamina Thief": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Destroyer Jewel [2]",
-    "skills": {
-      "Partbreaker": 1
-    },
-    "size": 2,
-    "type": "A"
-  },
-  {
-    "name": "Bandolier Jewel III [3]",
-    "skills": {
-      "Tetrad Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Escape Jewel [1]",
-    "skills": {
-      "Bind Resistance": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Charge Jewel [1]",
-    "skills": {
-      "Charge Master": 1
+      "166057120": 1
     },
     "size": 1,
     "type": "W"
   },
   {
-    "name": "Attack Jewel II [2]",
+    "id": "-2046315136",
+    "names": {
+      "en": "Precise Jewel II [2]",
+      "fr": "Joyau kyudo II [2]"
+    },
     "skills": {
-      "Attack Boost": 2
+      "-420608864": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Bandolier/Ironwall Jwl [3]",
+    "id": "-2040726144",
+    "names": {
+      "en": "Bolt/Precise Jewel [3]",
+      "fr": "Joyau foudre/kyudo [3]"
+    },
     "skills": {
-      "Guard": 1,
-      "Tetrad Shot": 3
+      "-420608864": 1,
+      "1452140672": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Blaze/Precise Jewel [3]",
-    "skills": {
-      "Fire Attack": 3,
-      "Ballistics": 1
+    "id": "-1958732416",
+    "names": {
+      "en": "Water Res Jewel [1]",
+      "fr": "Joyau étanche [1]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt Jewel [1]",
     "skills": {
-      "Thunder Attack": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Suture Jewel [1]",
-    "skills": {
-      "Bleeding Resistance": 1
+      "383104832": 1
     },
     "size": 1,
     "type": "A"
   },
   {
-    "name": "Fire Res Jewel [1]",
-    "skills": {
-      "Fire Resistance": 1
+    "id": "-1957828352",
+    "names": {
+      "en": "Sleep Jewel II [2]",
+      "fr": "Joyau sommeil II [2]"
     },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Grinder/Handicraft Jwl [3]",
     "skills": {
-      "Handicraft": 1,
-      "Speed Sharpening": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Poison Jewel [2]",
-    "skills": {
-      "Poison Duration Up": 1
+      "166057120": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Hungerless Jewel [1]",
-    "skills": {
-      "Hunger Resistance": 1
+    "id": "-1918136064",
+    "names": {
+      "en": "Drain Jewel III [3]",
+      "fr": "Joyau fatigue III [3]"
     },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Enhancer Jewel [1]",
     "skills": {
-      "Power Prolonger": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Handicraft Jwl [3]",
-    "skills": {
-      "Handicraft": 1,
-      "Thunder Attack": 3
+      "1758661504": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Specimen Jewel [1]",
-    "skills": {
-      "Entomologist": 1
+    "id": "-1911376000",
+    "names": {
+      "en": "Destroyer Jewel [2]",
+      "fr": "Joyau destruction [2]"
     },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Salvo Jewel [3]",
     "skills": {
-      "Rapid Fire Up": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Mirewalker Jewel [1]",
-    "skills": {
-      "Aquatic/Oilsilt Mobility": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Magazine Jewel II [2]",
-    "skills": {
-      "Load Shells": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Rzr Sharp Jwl III [3]",
-    "skills": {
-      "Razor Sharp": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Sleep Jewel III [3]",
-    "skills": {
-      "Sleep Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon Jewel III [3]",
-    "skills": {
-      "Dragon Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Sonorous/Attack Jwl [3]",
-    "skills": {
-      "Horn Maestro": 2,
-      "Attack Boost": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Stat Jwl III [3]",
-    "skills": {
-      "Critical Status": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt Jewel II [2]",
-    "skills": {
-      "Thunder Attack": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Blaze/Guardian Jewel [3]",
-    "skills": {
-      "Fire Attack": 3,
-      "Offensive Guard": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Venom Jewel II [2]",
-    "skills": {
-      "Poison Attack": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Drain Jewel II [2]",
-    "skills": {
-      "Stamina Thief": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Foray Jewel [3]",
-    "skills": {
-      "Foray": 1
-    },
-    "size": 3,
-    "type": "A"
-  },
-  {
-    "name": "Grinder/Ironwall Jewel [3]",
-    "skills": {
-      "Guard": 1,
-      "Speed Sharpening": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Def Lock Jewel [1]",
-    "skills": {
-      "Iron Skin": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Dragon/KO Jewel [3]",
-    "skills": {
-      "Slugger": 1,
-      "Dragon Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Grinder/Draw Jewel [3]",
-    "skills": {
-      "Critical Draw": 1,
-      "Speed Sharpening": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Opener Jewel II [2]",
-    "skills": {
-      "Opening Shot": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Charge Up/Attack Jwl [3]",
-    "skills": {
-      "Attack Boost": 1,
-      "Charge Up": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch Jewel III [3]",
-    "skills": {
-      "Rapid Morph": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Mighty Jewel [2]",
-    "skills": {
-      "Maximum Might": 1
+      "1470960256": 1
     },
     "size": 2,
     "type": "A"
   },
   {
-    "name": "Guardian Jewel [1]",
+    "id": "-1907467776",
+    "names": {
+      "en": "Bandolier Jewel III [3]",
+      "fr": "Joyau armurier III [3]"
+    },
     "skills": {
-      "Offensive Guard": 1
+      "1613139840": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1898312320",
+    "names": {
+      "en": "Escape Jewel [1]",
+      "fr": "Joyau échappatoire [1]"
+    },
+    "skills": {
+      "1966172160": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1890995072",
+    "names": {
+      "en": "Charge Jewel [1]",
+      "fr": "Joyau charge [1]"
+    },
+    "skills": {
+      "-1475134080": 1
     },
     "size": 1,
     "type": "W"
   },
   {
-    "name": "Sharp Jewel II [2]",
+    "id": "-1843593600",
+    "names": {
+      "en": "Attack Jewel II [2]",
+      "fr": "Joyau attaque II [2]"
+    },
     "skills": {
-      "Protective Polish": 2
+      "1": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Bolt Jewel III [3]",
+    "id": "-1838842752",
+    "names": {
+      "en": "Bandolier/Ironwall Jwl [3]",
+      "fr": "Joyau armurier/paladin [3]"
+    },
     "skills": {
-      "Thunder Attack": 3
+      "-307644128": 1,
+      "1613139840": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Guardian/Ironwall Jwl [3]",
+    "id": "-1826260608",
+    "names": {
+      "en": "Blaze/Precise Jewel [3]",
+      "fr": "Joyau feu/kyudo [3]"
+    },
     "skills": {
-      "Guard": 1,
-      "Offensive Guard": 3
+      "-562534336": 3,
+      "-420608864": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Jumping Jewel [2]",
-    "skills": {
-      "Evade Extender": 1
+    "id": "-1814261888",
+    "names": {
+      "en": "Bolt Jewel [1]",
+      "fr": "Joyau foudre [1]"
     },
-    "size": 2,
+    "skills": {
+      "1452140672": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-1808385664",
+    "names": {
+      "en": "Suture Jewel [1]",
+      "fr": "Joyau antihémorragie [1]"
+    },
+    "skills": {
+      "1940820864": 1
+    },
+    "size": 1,
     "type": "A"
   },
   {
-    "name": "Bolt/KO Jewel [3]",
+    "id": "-1801961088",
+    "names": {
+      "en": "Fire Res Jewel [1]",
+      "fr": "Joyau ignifuge [1]"
+    },
     "skills": {
-      "Slugger": 1,
-      "Thunder Attack": 3
+      "1425756032": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1780766976",
+    "names": {
+      "en": "Grinder/Handicraft Jwl [3]",
+      "fr": "Joyau aiguiseur/artisanat [3]"
+    },
+    "skills": {
+      "1160639488": 1,
+      "1444935552": 2
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Mind's Eye Jewel [1]",
-    "skills": {
-      "Mind's Eye": 1
+    "id": "-1779241856",
+    "names": {
+      "en": "Poison Jewel [2]",
+      "fr": "Joyau poison [2]"
     },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Rzr Sharp/Ironwall Jwl [3]",
     "skills": {
-      "Guard": 1,
-      "Razor Sharp": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Recovery Jewel [1]",
-    "skills": {
-      "Recovery Speed": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Pep Jewel [1]",
-    "skills": {
-      "Sleep Resistance": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Dragon Res Jewel [1]",
-    "skills": {
-      "Dragon Resistance": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Sane Jewel [1]",
-    "skills": {
-      "Antivirus": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Trueshot Jewel II [2]",
-    "skills": {
-      "Special Ammo Boost": 2
+      "-1629629184": 1
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Stream Jewel [1]",
-    "skills": {
-      "Water Attack": 1
+    "id": "-1775008128",
+    "names": {
+      "en": "Hungerless Jewel [1]",
+      "fr": "Joyau spartiate [1]"
     },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Earplugs Jewel [2]",
     "skills": {
-      "Earplugs": 1
-    },
-    "size": 2,
-    "type": "A"
-  },
-  {
-    "name": "Physique Jewel [1]",
-    "skills": {
-      "Constitution": 1
+      "2045149568": 1
     },
     "size": 1,
     "type": "A"
   },
   {
-    "name": "Opener Jewel III [3]",
+    "id": "-1770074240",
+    "names": {
+      "en": "Enhancer Jewel [1]",
+      "fr": "Joyau puissance [1]"
+    },
     "skills": {
-      "Opening Shot": 3
+      "691199232": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-1769520768",
+    "names": {
+      "en": "Bolt/Handicraft Jwl [3]",
+      "fr": "Joyau foudre/artisanat [3]"
+    },
+    "skills": {
+      "1160639488": 1,
+      "1452140672": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Blaze/Ironwall Jwl [3]",
-    "skills": {
-      "Fire Attack": 3,
-      "Guard": 1
+    "id": "-1749412352",
+    "names": {
+      "en": "Specimen Jewel [1]",
+      "fr": "Joyau insectoïde [1]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Mastery Jewel [3]",
     "skills": {
-      "Master's Touch": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Gambit/KO Jewel [3]",
-    "skills": {
-      "Punishing Draw": 3,
-      "Slugger": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Survival Jewel [1]",
-    "skills": {
-      "Survival Expert": 1
+      "898284480": 1
     },
     "size": 1,
     "type": "A"
   },
   {
-    "name": "Thunder Res Jewel [1]",
+    "id": "-1730551168",
+    "names": {
+      "en": "Salvo Jewel [3]",
+      "fr": "Joyau mitraille [3]"
+    },
     "skills": {
-      "Thunder Resistance": 1
+      "-1507579776": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1726768640",
+    "names": {
+      "en": "Mirewalker Jewel [1]",
+      "fr": "Joyau d'Atlantis [1]"
+    },
+    "skills": {
+      "-201445760": 1
     },
     "size": 1,
     "type": "A"
   },
   {
-    "name": "Draw Jewel III [3]",
-    "skills": {
-      "Critical Draw": 3
+    "id": "-1723727616",
+    "names": {
+      "en": "Magazine Jewel II [2]",
+      "fr": "Joyau franc-tireur II [2]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Guardian Jewel III [3]",
     "skills": {
-      "Offensive Guard": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch/Handicraft Jwl [3]",
-    "skills": {
-      "Rapid Morph": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream Jewel II [2]",
-    "skills": {
-      "Water Attack": 2
+      "802725120": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Flight Jewel [2]",
+    "id": "-1720284416",
+    "names": {
+      "en": "Rzr Sharp Jwl III [3]",
+      "fr": "Joyau samouraï III [3]"
+    },
     "skills": {
-      "Airborne": 1
+      "1050520384": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1714653184",
+    "names": {
+      "en": "Sleep Jewel III [3]",
+      "fr": "Joyau sommeil III [3]"
+    },
+    "skills": {
+      "166057120": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1709840128",
+    "names": {
+      "en": "Dragon Jewel III [3]",
+      "fr": "Joyau dracocide III [3]"
+    },
+    "skills": {
+      "-776946176": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1708108928",
+    "names": {
+      "en": "Sonorous/Attack Jwl [3]",
+      "fr": "Joyau musique/attaque [3]"
+    },
+    "skills": {
+      "-1237438336": 2,
+      "1": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1706210176",
+    "names": {
+      "en": "Crit Stat Jwl III [3]",
+      "fr": "Joyau châtiment III [3]"
+    },
+    "skills": {
+      "-168922880": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1693028992",
+    "names": {
+      "en": "Bolt Jewel II [2]",
+      "fr": "Joyau foudre II [2]"
+    },
+    "skills": {
+      "1452140672": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Precise Jewel [1]",
-    "skills": {
-      "Ballistics": 1
+    "id": "-1672815872",
+    "names": {
+      "en": "Blaze/Guardian Jewel [3]",
+      "fr": "Joyau feu/gardien [3]"
     },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Blunt Jewel III [3]",
     "skills": {
-      "Bludgeoner": 3
+      "-562534336": 3,
+      "-181127504": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Poisoncoat Jewel [2]",
-    "skills": {
-      "Poison Functionality": 1
+    "id": "-1669066368",
+    "names": {
+      "en": "Venom Jewel II [2]",
+      "fr": "Joyau venin II [2]"
     },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Sleepcoat Jewel [3]",
     "skills": {
-      "Sleep Functionality": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Elem/Handicraft Jwl [3]",
-    "skills": {
-      "Critical Element": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Leap Jewel [1]",
-    "skills": {
-      "Jump Master": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Venom Jewel III [3]",
-    "skills": {
-      "Poison Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Adapt Jewel [1]",
-    "skills": {
-      "Adaptability": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Crit Stat/Ironwall Jwl [3]",
-    "skills": {
-      "Guard": 1,
-      "Critical Status": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Magazine/Expert Jwl [3]",
-    "skills": {
-      "Critical Eye": 1,
-      "Load Shells": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Expert Jewel III [3]",
-    "skills": {
-      "Critical Eye": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Ice Res Jewel [1]",
-    "skills": {
-      "Ice Resistance": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Gambit/Handicraft Jwl [3]",
-    "skills": {
-      "Punishing Draw": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Elem/KO Jewel [3]",
-    "skills": {
-      "Slugger": 1,
-      "Critical Element": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Gambit Jewel [1]",
-    "skills": {
-      "Punishing Draw": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Antipara Jewel [1]",
-    "skills": {
-      "Paralysis Resistance": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Blast Jewel [1]",
-    "skills": {
-      "Blast Attack": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Paracoat Jewel [3]",
-    "skills": {
-      "Para Functionality": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "KO Jewel [1]",
-    "skills": {
-      "Slugger": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Blaze/Enhancer Jwl [3]",
-    "skills": {
-      "Fire Attack": 3,
-      "Power Prolonger": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Gambit/Ironwall Jwl [3]",
-    "skills": {
-      "Punishing Draw": 3,
-      "Guard": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Flight/Draw Jewel [3]",
-    "skills": {
-      "Airborne": 1,
-      "Critical Draw": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Blast Jewel II [2]",
-    "skills": {
-      "Blast Attack": 2
+      "-1716324608": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Critical Jewel II [2]",
+    "id": "-1664513664",
+    "names": {
+      "en": "Drain Jewel II [2]",
+      "fr": "Joyau fatigue II [2]"
+    },
     "skills": {
-      "Critical Boost": 2
+      "1758661504": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Bolt/Ironwall Jewel [3]",
+    "id": "-1645940096",
+    "names": {
+      "en": "Foray Jewel [3]",
+      "fr": "Joyau incursion [3]"
+    },
     "skills": {
-      "Guard": 1,
-      "Thunder Attack": 3
+      "27684744": 1
+    },
+    "size": 3,
+    "type": "A"
+  },
+  {
+    "id": "-1631437696",
+    "names": {
+      "en": "Grinder/Ironwall Jewel [3]",
+      "fr": "Joyau aiguiseur/paladin [3]"
+    },
+    "skills": {
+      "-307644128": 1,
+      "1444935552": 2
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Blaze/Handicraft Jwl [3]",
+    "id": "-1626218240",
+    "names": {
+      "en": "Def Lock Jewel [1]",
+      "fr": "Joyau fer [1]"
+    },
     "skills": {
-      "Fire Attack": 3,
-      "Handicraft": 1
+      "1522518528": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1622630272",
+    "names": {
+      "en": "Dragon/KO Jewel [3]",
+      "fr": "Joyau dracocide/cogneur [3]"
+    },
+    "skills": {
+      "-893407296": 1,
+      "-776946176": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Charge/KO Jewel [3]",
+    "id": "-1609962496",
+    "names": {
+      "en": "Grinder/Draw Jewel [3]",
+      "fr": "Joyau aiguiseur/dégainage [3]"
+    },
     "skills": {
-      "Charge Master": 3,
-      "Slugger": 1
+      "686533440": 1,
+      "1444935552": 2
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Guardian Jewel II [2]",
+    "id": "-1604621952",
+    "names": {
+      "en": "Opener Jewel II [2]",
+      "fr": "Joyau premier coup II [2]"
+    },
     "skills": {
-      "Offensive Guard": 2
+      "1711950720": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Crit Element Jewel [1]",
-    "skills": {
-      "Critical Element": 1
+    "id": "-1581788032",
+    "names": {
+      "en": "Charge Up/Attack Jwl [3]",
+      "fr": "Joyau surcharge/attaque [3]"
     },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Wind Resist Jewel [1]",
     "skills": {
-      "Windproof": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Paralyzer Jewel [1]",
-    "skills": {
-      "Paralysis Attack": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Focus Jewel III [3]",
-    "skills": {
-      "Focus": 3
+      "1": 1,
+      "353114912": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Poison/KO Jewel [3]",
+    "id": "-1569165952",
+    "names": {
+      "en": "Quickswitch Jewel III [3]",
+      "fr": "Joyau morphose III [3]"
+    },
     "skills": {
-      "Poison Duration Up": 1,
-      "Slugger": 1
+      "-1961116288": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Flight/Attack Jwl [3]",
-    "skills": {
-      "Attack Boost": 1,
-      "Airborne": 1
+    "id": "-1550869760",
+    "names": {
+      "en": "Mighty Jewel [2]",
+      "fr": "Joyau omnipotence [2]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Blastcoat Jewel [2]",
     "skills": {
-      "Blast Functionality": 1
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Grinder/Expert Jewel [3]",
-    "skills": {
-      "Critical Eye": 1,
-      "Speed Sharpening": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Magazine/Draw Jwl [3]",
-    "skills": {
-      "Critical Draw": 1,
-      "Load Shells": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Refresh Jewel [2]",
-    "skills": {
-      "Stamina Surge": 1
+      "632127488": 1
     },
     "size": 2,
     "type": "A"
   },
   {
-    "name": "Blaze/Focus Jewel [3]",
-    "skills": {
-      "Fire Attack": 3,
-      "Focus": 1
+    "id": "-1549794304",
+    "names": {
+      "en": "Guardian Jewel [1]",
+      "fr": "Joyau gardien [1]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Charge Up/KO Jewel [3]",
     "skills": {
-      "Slugger": 1,
-      "Charge Up": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Focus/Handicraft Jewel [3]",
-    "skills": {
-      "Focus": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Sonorous/KO Jewel [3]",
-    "skills": {
-      "Horn Maestro": 2,
-      "Slugger": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Growth Jewel [1]",
-    "skills": {
-      "Self-Improvement": 1
+      "-181127504": 1
     },
     "size": 1,
-    "type": "A"
+    "type": "W"
   },
   {
-    "name": "Bandolier Jewel II [2]",
+    "id": "-1545069696",
+    "names": {
+      "en": "Sharp Jewel II [2]",
+      "fr": "Joyau trempe II [2]"
+    },
     "skills": {
-      "Tetrad Shot": 2
+      "1500129152": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Shield/Handicraft Jwl [3]",
+    "id": "-1518352896",
+    "names": {
+      "en": "Bolt Jewel III [3]",
+      "fr": "Joyau foudre III [3]"
+    },
     "skills": {
-      "Guard Up": 3,
-      "Handicraft": 1
+      "1452140672": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Protection Jewel [1]",
-    "skills": {
-      "Divine Blessing": 1
+    "id": "-1489248128",
+    "names": {
+      "en": "Guardian/Ironwall Jwl [3]",
+      "fr": "Joyau gardien/paladin [3]"
     },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Paralyzer Jwl III [3]",
     "skills": {
-      "Paralysis Attack": 3
+      "-307644128": 1,
+      "-181127504": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Stream/KO Jewel [3]",
-    "skills": {
-      "Slugger": 1,
-      "Water Attack": 3
+    "id": "-1485261696",
+    "names": {
+      "en": "Jumping Jewel [2]",
+      "fr": "Joyau esquive [2]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Sonorous Jewel [2]",
     "skills": {
-      "Horn Maestro": 1
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Razor Sharp Jewel [1]",
-    "skills": {
-      "Razor Sharp": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch/Ironwall Jwl [3]",
-    "skills": {
-      "Rapid Morph": 3,
-      "Guard": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Ironwall Jwl [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Guard": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Guardian/Handicraft Jwl [3]",
-    "skills": {
-      "Offensive Guard": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Expert Jewel [1]",
-    "skills": {
-      "Critical Eye": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Chain Jewel [3]",
-    "skills": {
-      "Burst": 1
-    },
-    "size": 3,
-    "type": "A"
-  },
-  {
-    "name": "Magazine/Handicraft Jwl [3]",
-    "skills": {
-      "Load Shells": 2,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Brace Jewel [1]",
-    "skills": {
-      "Flinch Free": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Dive Jewel [1]",
-    "skills": {
-      "Leap of Faith": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Poison/Ironwall Jwl [3]",
-    "skills": {
-      "Poison Duration Up": 1,
-      "Guard": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Antidote Jewel [1]",
-    "skills": {
-      "Poison Resistance": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Bomber Jewel [1]",
-    "skills": {
-      "Bombardier": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Geology Jewel [1]",
-    "skills": {
-      "Geologist": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Enhancer Jewel II [2]",
-    "skills": {
-      "Power Prolonger": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Blaze/KO Jewel [3]",
-    "skills": {
-      "Slugger": 1,
-      "Fire Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Draw Jewel [1]",
-    "skills": {
-      "Critical Draw": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Charge Jewel II [2]",
-    "skills": {
-      "Charge Master": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Sheath Jewel [1]",
-    "skills": {
-      "Quick Sheathe": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Shield Jewel II [2]",
-    "skills": {
-      "Guard Up": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Satiated Jewel [1]",
-    "skills": {
-      "Free Meal": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Dragon Jewel II [2]",
-    "skills": {
-      "Dragon Attack": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Razor Sharp Jewel II [2]",
-    "skills": {
-      "Razor Sharp": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Sonorous/Expert Jwl [3]",
-    "skills": {
-      "Critical Eye": 1,
-      "Horn Maestro": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Poison/Draw Jewel [3]",
-    "skills": {
-      "Poison Duration Up": 1,
-      "Critical Draw": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Grinder/KO Jewel [3]",
-    "skills": {
-      "Slugger": 1,
-      "Speed Sharpening": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Ironwall Jewel [1]",
-    "skills": {
-      "Guard": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Blaze/Shield Jewel [3]",
-    "skills": {
-      "Guard Up": 1,
-      "Fire Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Artillery Jewel II [2]",
-    "skills": {
-      "Artillery": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Fungiform Jewel [2]",
-    "skills": {
-      "Mushroomancer": 1
+      "673822976": 1
     },
     "size": 2,
     "type": "A"
   },
   {
-    "name": "Opener/Precise Jewel [3]",
+    "id": "-1465477120",
+    "names": {
+      "en": "Bolt/KO Jewel [3]",
+      "fr": "Joyau foudre/cogneur [3]"
+    },
     "skills": {
-      "Ballistics": 1,
-      "Opening Shot": 3
+      "-893407296": 1,
+      "1452140672": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Blaze Jewel II [2]",
+    "id": "-1463543552",
+    "names": {
+      "en": "Mind's Eye Jewel [1]",
+      "fr": "Joyau spirituel [1]"
+    },
     "skills": {
-      "Fire Attack": 2
+      "1594792704": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-1452017024",
+    "names": {
+      "en": "Rzr Sharp/Ironwall Jwl [3]",
+      "fr": "Joyau samouraï/paladin [3]"
+    },
+    "skills": {
+      "-307644128": 1,
+      "1050520384": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1449268352",
+    "names": {
+      "en": "Recovery Jewel [1]",
+      "fr": "Joyau récupération [1]"
+    },
+    "skills": {
+      "-1121468544": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1434375936",
+    "names": {
+      "en": "Pep Jewel [1]",
+      "fr": "Joyau insomnie [1]"
+    },
+    "skills": {
+      "-193031552": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1416808832",
+    "names": {
+      "en": "Dragon Res Jewel [1]",
+      "fr": "Joyau draconique [1]"
+    },
+    "skills": {
+      "-2125233152": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1401571456",
+    "names": {
+      "en": "Sane Jewel [1]",
+      "fr": "Joyau antifurie [1]"
+    },
+    "skills": {
+      "-1662120192": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1397276160",
+    "names": {
+      "en": "Trueshot Jewel II [2]",
+      "fr": "Joyau sniper II [2]"
+    },
+    "skills": {
+      "-160562336": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Blaze Jewel [1]",
+    "id": "-1394596736",
+    "names": {
+      "en": "Stream Jewel [1]",
+      "fr": "Joyau eau [1]"
+    },
     "skills": {
-      "Fire Attack": 1
+      "508916704": 1
     },
     "size": 1,
     "type": "W"
   },
   {
-    "name": "Shield/Stream Jewel [3]",
-    "skills": {
-      "Guard Up": 3,
-      "Water Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Opener Jewel [3]",
-    "skills": {
-      "Thunder Attack": 3,
-      "Opening Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Guardian Jwl [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Offensive Guard": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Focus Jewel [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Focus": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Elem/Blaze Jwl [3]",
-    "skills": {
-      "Fire Attack": 1,
-      "Critical Element": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Rzr Sharp Jwl [3]",
-    "skills": {
-      "Razor Sharp": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Focus/Frost Jewel [3]",
-    "skills": {
-      "Focus": 3,
-      "Ice Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Rzr Sharp/Frost Jwl [3]",
-    "skills": {
-      "Razor Sharp": 3,
-      "Ice Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Opener Jewel [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Opening Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Focus/Stream Jewel [3]",
-    "skills": {
-      "Focus": 3,
-      "Water Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch/Dragon Jwl [3]",
-    "skills": {
-      "Rapid Morph": 3,
-      "Dragon Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bandolier/Blaze Jwl [3]",
-    "skills": {
-      "Fire Attack": 1,
-      "Tetrad Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Rzr Sharp/Stream Jwl [3]",
-    "skills": {
-      "Water Attack": 1,
-      "Razor Sharp": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Blaze/Opener Jewel [3]",
-    "skills": {
-      "Fire Attack": 3,
-      "Opening Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Focus Jewel [3]",
-    "skills": {
-      "Focus": 1,
-      "Thunder Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Enhancer/Blaze Jewel [3]",
-    "skills": {
-      "Fire Attack": 1,
-      "Power Prolonger": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Elem/Stream Jwl [3]",
-    "skills": {
-      "Critical Element": 3,
-      "Water Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Rzr Sharp Jwl [3]",
-    "skills": {
-      "Razor Sharp": 1,
-      "Thunder Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Enhancer/Frost Jwl [3]",
-    "skills": {
-      "Power Prolonger": 3,
-      "Ice Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Elem/Bolt Jwl [3]",
-    "skills": {
-      "Critical Element": 3,
-      "Thunder Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Crit Elem Jwl [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Critical Element": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Bandolier Jwl [3]",
-    "skills": {
-      "Ice Attack": 3,
-      "Tetrad Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Shield Jewel [3]",
-    "skills": {
-      "Guard Up": 1,
-      "Dragon Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch/Blaze Jwl [3]",
-    "skills": {
-      "Rapid Morph": 3,
-      "Fire Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Shield/Frost Jewel [3]",
-    "skills": {
-      "Guard Up": 3,
-      "Ice Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Quickswitch Jwl [3]",
-    "skills": {
-      "Rapid Morph": 1,
-      "Thunder Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Elem/Frost Jwl [3]",
-    "skills": {
-      "Critical Element": 3,
-      "Ice Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Shield/Bolt Jewel [3]",
-    "skills": {
-      "Guard Up": 3,
-      "Thunder Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Rzr Sharp Jwl [3]",
-    "skills": {
-      "Water Attack": 3,
-      "Razor Sharp": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Shield Jewel [3]",
-    "skills": {
-      "Guard Up": 1,
-      "Water Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Focus Jewel [3]",
-    "skills": {
-      "Focus": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Crit Elem Jwl [3]",
-    "skills": {
-      "Critical Element": 1,
-      "Water Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Opener/Bolt Jewel [3]",
-    "skills": {
-      "Thunder Attack": 1,
-      "Opening Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Enhancer Jwl [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Power Prolonger": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Rzr Sharp/Blaze Jwl [3]",
-    "skills": {
-      "Fire Attack": 1,
-      "Razor Sharp": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Opener/Stream Jwl [3]",
-    "skills": {
-      "Water Attack": 1,
-      "Opening Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Guardian/Blaze Jwl [3]",
-    "skills": {
-      "Fire Attack": 1,
-      "Offensive Guard": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Focus/Bolt Jwl [3]",
-    "skills": {
-      "Focus": 3,
-      "Thunder Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Enhancer Jwl [3]",
-    "skills": {
-      "Power Prolonger": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Focus/Dragon Jewel [3]",
-    "skills": {
-      "Dragon Attack": 1,
-      "Focus": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Shield Jewel [3]",
-    "skills": {
-      "Guard Up": 1,
-      "Thunder Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bandolier/Stream Jwl [3]",
-    "skills": {
-      "Water Attack": 1,
-      "Tetrad Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bandolier/Frost Jwl [3]",
-    "skills": {
-      "Ice Attack": 1,
-      "Tetrad Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch/Frost Jwl [3]",
-    "skills": {
-      "Rapid Morph": 3,
-      "Ice Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Crit Elem Jwl [3]",
-    "skills": {
-      "Critical Element": 1,
-      "Thunder Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Quickswitch Jwl [3]",
-    "skills": {
-      "Rapid Morph": 1,
-      "Dragon Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Shield/Dragon Jwl [3]",
-    "skills": {
-      "Guard Up": 3,
-      "Dragon Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Guardian Jwl [3]",
-    "skills": {
-      "Offensive Guard": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Blaze/Crit Elem Jwl [3]",
-    "skills": {
-      "Fire Attack": 3,
-      "Critical Element": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Crit Elem Jwl [3]",
-    "skills": {
-      "Critical Element": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Guardian/Dragon Jwl [3]",
-    "skills": {
-      "Dragon Attack": 1,
-      "Offensive Guard": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Bandolier Jwl [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Tetrad Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Guardian Jwl [3]",
-    "skills": {
-      "Offensive Guard": 1,
-      "Thunder Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Enhancer Jwl [3]",
-    "skills": {
-      "Water Attack": 3,
-      "Power Prolonger": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Guardian Jwl [3]",
-    "skills": {
-      "Offensive Guard": 1,
-      "Water Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bandolier/Bolt Jwl [3]",
-    "skills": {
-      "Thunder Attack": 1,
-      "Tetrad Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Guardian/Stream Jwl [3]",
-    "skills": {
-      "Offensive Guard": 3,
-      "Water Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Enhancer/Stream Jwl [3]",
-    "skills": {
-      "Water Attack": 1,
-      "Power Prolonger": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Bandolier Jwl [3]",
-    "skills": {
-      "Thunder Attack": 3,
-      "Tetrad Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Dragon/Rzr Sharp Jwl [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Razor Sharp": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Focus/Blaze Jewel [3]",
-    "skills": {
-      "Fire Attack": 1,
-      "Focus": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Guardian/Bolt Jwl [3]",
-    "skills": {
-      "Offensive Guard": 3,
-      "Thunder Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch/Bolt Jwl [3]",
-    "skills": {
-      "Rapid Morph": 3,
-      "Thunder Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Quickswitch Jwl [3]",
-    "skills": {
-      "Rapid Morph": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Guardian/Frost Jwl [3]",
-    "skills": {
-      "Offensive Guard": 3,
-      "Ice Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Opener/Frost Jewel [3]",
-    "skills": {
-      "Ice Attack": 1,
-      "Opening Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Bandolier Jwl [3]",
-    "skills": {
-      "Water Attack": 3,
-      "Tetrad Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Rzr Sharp/Dragon Jwl [3]",
-    "skills": {
-      "Dragon Attack": 1,
-      "Razor Sharp": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Opener/Blaze Jewel [3]",
-    "skills": {
-      "Fire Attack": 1,
-      "Opening Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Blaze/Bandolier Jwl [3]",
-    "skills": {
-      "Fire Attack": 3,
-      "Tetrad Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Enhancer/Bolt Jewel [3]",
-    "skills": {
-      "Power Prolonger": 3,
-      "Thunder Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Shield/Blaze Jewel [3]",
-    "skills": {
-      "Guard Up": 3,
-      "Fire Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Enhancer/Dragon Jwl [3]",
-    "skills": {
-      "Dragon Attack": 1,
-      "Power Prolonger": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch/Stream Jwl [3]",
-    "skills": {
-      "Rapid Morph": 3,
-      "Water Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bandolier/Dragon Jwl [3]",
-    "skills": {
-      "Dragon Attack": 1,
-      "Tetrad Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Opener/Dragon Jewel [3]",
-    "skills": {
-      "Dragon Attack": 1,
-      "Opening Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Elem/Dragon Jwl [3]",
-    "skills": {
-      "Dragon Attack": 1,
-      "Critical Element": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Opener Jewel [3]",
-    "skills": {
-      "Ice Attack": 3,
-      "Opening Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Rzr Sharp/Bolt Jwl [3]",
-    "skills": {
-      "Razor Sharp": 3,
-      "Thunder Attack": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Quickswitch Jwl [3]",
-    "skills": {
-      "Rapid Morph": 1,
-      "Water Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Shield Jewel [3]",
-    "skills": {
-      "Guard Up": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Bolt/Enhancer Jwl [3]",
-    "skills": {
-      "Power Prolonger": 1,
-      "Thunder Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Focus Jewel [3]",
-    "skills": {
-      "Focus": 1,
-      "Water Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Opener Jwl [3]",
-    "skills": {
-      "Water Attack": 3,
-      "Opening Shot": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Grinder Jewel II [2]",
-    "skills": {
-      "Speed Sharpening": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Defense Jewel [1]",
-    "skills": {
-      "Defense Boost": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Grinder Jewel [1]",
-    "skills": {
-      "Speed Sharpening": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Poison/Precise Jwl [3]",
-    "skills": {
-      "Poison Duration Up": 1,
-      "Ballistics": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Gambit Jewel III [3]",
-    "skills": {
-      "Punishing Draw": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Razor Sharp/KO Jwl [3]",
-    "skills": {
-      "Slugger": 1,
-      "Razor Sharp": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Spread Jewel [3]",
-    "skills": {
-      "Spread/Power Shots": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "KO Jewel II [2]",
-    "skills": {
-      "Slugger": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Focus/KO Jewel [3]",
-    "skills": {
-      "Slugger": 1,
-      "Focus": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Sharp Jewel [1]",
-    "skills": {
-      "Protective Polish": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Ranger Jewel [1]",
-    "skills": {
-      "Outdoorsman": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Artillery Jewel [1]",
-    "skills": {
-      "Artillery": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Bandolier/Precise Jwl [3]",
-    "skills": {
-      "Ballistics": 1,
-      "Tetrad Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Charge/Handicraft Jwl [3]",
-    "skills": {
-      "Charge Master": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Status Jewel [1]",
-    "skills": {
-      "Critical Status": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Attack Jewel [1]",
-    "skills": {
-      "Attack Boost": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Handicraft Jwl III [3]",
-    "skills": {
-      "Handicraft": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Opener/Ironwall Jwl [3]",
-    "skills": {
-      "Guard": 1,
-      "Opening Shot": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch Jewel II [2]",
-    "skills": {
-      "Rapid Morph": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Frost Jewel [1]",
-    "skills": {
-      "Ice Attack": 1
+    "id": "-1392648576",
+    "names": {
+      "en": "Earplugs Jewel [2]",
+      "fr": "Joyau insonorisation [2]"
     },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Flawless Jewel [2]",
     "skills": {
-      "Peak Performance": 1
+      "192746944": 1
     },
     "size": 2,
     "type": "A"
   },
   {
-    "name": "Dragon/Precise Jewel [3]",
+    "id": "-1381641984",
+    "names": {
+      "en": "Physique Jewel [1]",
+      "fr": "Joyau athlète [1]"
+    },
     "skills": {
-      "Dragon Attack": 3,
-      "Ballistics": 1
+      "-1689391744": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1374390656",
+    "names": {
+      "en": "Opener Jewel III [3]",
+      "fr": "Joyau premier coup III [3]"
+    },
+    "skills": {
+      "1711950720": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Expert Jewel II [2]",
+    "id": "-1345708800",
+    "names": {
+      "en": "Blaze/Ironwall Jwl [3]",
+      "fr": "Joyau feu/paladin [3]"
+    },
     "skills": {
-      "Critical Eye": 2
+      "-562534336": 3,
+      "-307644128": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1340047744",
+    "names": {
+      "en": "Mastery Jewel [3]",
+      "fr": "Joyau maîtrise [3]"
+    },
+    "skills": {
+      "1389859584": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1319399040",
+    "names": {
+      "en": "Gambit/KO Jewel [3]",
+      "fr": "Joyau punition/cogneur [3]"
+    },
+    "skills": {
+      "-1946345856": 3,
+      "-893407296": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1318893952",
+    "names": {
+      "en": "Survival Jewel [1]",
+      "fr": "Joyau de survie [1]"
+    },
+    "skills": {
+      "-593005376": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1267187456",
+    "names": {
+      "en": "Thunder Res Jewel [1]",
+      "fr": "Joyau isolant [1]"
+    },
+    "skills": {
+      "2143068800": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1220470528",
+    "names": {
+      "en": "Draw Jewel III [3]",
+      "fr": "Joyau dégainage III [3]"
+    },
+    "skills": {
+      "686533440": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1218528128",
+    "names": {
+      "en": "Guardian Jewel III [3]",
+      "fr": "Joyau gardien III [3]"
+    },
+    "skills": {
+      "-181127504": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1205597696",
+    "names": {
+      "en": "Quickswitch/Handicraft Jwl [3]",
+      "fr": "Joyau morphose/artisanat [3]"
+    },
+    "skills": {
+      "-1961116288": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1188973056",
+    "names": {
+      "en": "Stream Jewel II [2]",
+      "fr": "Joyau eau II [2]"
+    },
+    "skills": {
+      "508916704": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Attack Jewel III [3]",
-    "skills": {
-      "Attack Boost": 3
+    "id": "-1178454912",
+    "names": {
+      "en": "Flight Jewel [2]",
+      "fr": "Joyau acrobatie [2]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Magazine Jewel [1]",
     "skills": {
-      "Load Shells": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Poison/Expert Jwl [3]",
-    "skills": {
-      "Critical Eye": 1,
-      "Poison Duration Up": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost Jewel III [3]",
-    "skills": {
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Poison/Handicraft Jwl [3]",
-    "skills": {
-      "Poison Duration Up": 1,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Handicraft Jewel [1]",
-    "skills": {
-      "Handicraft": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Enhancer Jewel III [3]",
-    "skills": {
-      "Power Prolonger": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Medicine Jewel [1]",
-    "skills": {
-      "Recovery Up": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Charge Jewel III [3]",
-    "skills": {
-      "Charge Master": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Flight/Expert Jewel [3]",
-    "skills": {
-      "Critical Eye": 1,
-      "Airborne": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Sonorous/Draw Jwl [3]",
-    "skills": {
-      "Horn Maestro": 2,
-      "Critical Draw": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Furor Jewel [2]",
-    "skills": {
-      "Resentment": 1
-    },
-    "size": 2,
-    "type": "A"
-  },
-  {
-    "name": "Crit Stat/Precise Jwl [3]",
-    "skills": {
-      "Ballistics": 1,
-      "Critical Status": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Mind's Eye Jwl III [3]",
-    "skills": {
-      "Mind's Eye": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "KO Jewel III [3]",
-    "skills": {
-      "Slugger": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Magazine/Ironwall Jwl [3]",
-    "skills": {
-      "Guard": 1,
-      "Load Shells": 2
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Paralyzer Jewel II [2]",
-    "skills": {
-      "Paralysis Attack": 2
+      "402237312": 1
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Gobbler Jewel [1]",
+    "id": "-1166585472",
+    "names": {
+      "en": "Precise Jewel [1]",
+      "fr": "Joyau kyudo [1]"
+    },
     "skills": {
-      "Speed Eating": 1
+      "-420608864": 1
     },
     "size": 1,
-    "type": "A"
+    "type": "W"
   },
   {
-    "name": "Stream/Ironwall Jwl [3]",
+    "id": "-1163377152",
+    "names": {
+      "en": "Blunt Jewel III [3]",
+      "fr": "Joyau matraque III [3]"
+    },
     "skills": {
-      "Guard": 1,
-      "Water Attack": 3
+      "397306144": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Ambush Jewel [2]",
-    "skills": {
-      "Ambush": 1
+    "id": "-1161972480",
+    "names": {
+      "en": "Poisoncoat Jewel [2]",
+      "fr": "Joyau toxique [2]"
     },
-    "size": 2,
-    "type": "A"
-  },
-  {
-    "name": "Phoenix Jewel [2]",
     "skills": {
-      "Coalescence": 1
-    },
-    "size": 2,
-    "type": "A"
-  },
-  {
-    "name": "Steadfast Jewel [1]",
-    "skills": {
-      "Stun Resistance": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Antiblast Jewel [1]",
-    "skills": {
-      "Blast Resistance": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Drain Jewel [1]",
-    "skills": {
-      "Stamina Thief": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Mind's Eye Jewel II [2]",
-    "skills": {
-      "Mind's Eye": 2
+      "919683456": 1
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Tenderizer Jewel [3]",
-    "skills": {
-      "Weakness Exploit": 1
+    "id": "-1159995904",
+    "names": {
+      "en": "Sleepcoat Jewel [3]",
+      "fr": "Joyau sporifère [3]"
     },
-    "size": 3,
-    "type": "A"
-  },
-  {
-    "name": "Artillery Jewel III [3]",
     "skills": {
-      "Artillery": 3
+      "169998480": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Charge Up Jewel [2]",
+    "id": "-1152759424",
+    "names": {
+      "en": "Crit Elem/Handicraft Jwl [3]",
+      "fr": "Joyau chamanisme/artisanat [3]"
+    },
     "skills": {
-      "Charge Up": 1
+      "313598432": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1139186816",
+    "names": {
+      "en": "Leap Jewel [1]",
+      "fr": "Joyau saut [1]"
+    },
+    "skills": {
+      "78208296": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1133012096",
+    "names": {
+      "en": "Venom Jewel III [3]",
+      "fr": "Joyau venin III [3]"
+    },
+    "skills": {
+      "-1716324608": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1113106688",
+    "names": {
+      "en": "Adapt Jewel [1]",
+      "fr": "Joyau adaptation [1]"
+    },
+    "skills": {
+      "424768352": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1108771200",
+    "names": {
+      "en": "Crit Stat/Ironwall Jwl [3]",
+      "fr": "Joyau châtiment/paladin [3]"
+    },
+    "skills": {
+      "-307644128": 1,
+      "-168922880": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1082640896",
+    "names": {
+      "en": "Magazine/Expert Jwl [3]",
+      "fr": "Joyau franc-tireur/maître [3]"
+    },
+    "skills": {
+      "-2096489472": 1,
+      "802725120": 2
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1081371008",
+    "names": {
+      "en": "Expert Jewel III [3]",
+      "fr": "Joyau maître III [3]"
+    },
+    "skills": {
+      "-2096489472": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1072040640",
+    "names": {
+      "en": "Ice Res Jewel [1]",
+      "fr": "Joyau antigel [1]"
+    },
+    "skills": {
+      "652161472": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1055912640",
+    "names": {
+      "en": "Gambit/Handicraft Jwl [3]",
+      "fr": "Joyau punition/artisanat [3]"
+    },
+    "skills": {
+      "-1946345856": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1050453888",
+    "names": {
+      "en": "Crit Elem/KO Jewel [3]",
+      "fr": "Joyau chamanisme/cogneur [3]"
+    },
+    "skills": {
+      "-893407296": 1,
+      "313598432": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-1034943744",
+    "names": {
+      "en": "Gambit Jewel [1]",
+      "fr": "Joyau punition [1]"
+    },
+    "skills": {
+      "-1946345856": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-1016655360",
+    "names": {
+      "en": "Antipara Jewel [1]",
+      "fr": "Joyau antiparalysie [1]"
+    },
+    "skills": {
+      "522288832": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-1016332736",
+    "names": {
+      "en": "Blast Jewel [1]",
+      "fr": "Joyau explosion [1]"
+    },
+    "skills": {
+      "-844978880": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-1003144960",
+    "names": {
+      "en": "Paracoat Jewel [3]",
+      "fr": "Joyau entrave [3]"
+    },
+    "skills": {
+      "-676967744": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-949824384",
+    "names": {
+      "en": "KO Jewel [1]",
+      "fr": "Joyau cogneur [1]"
+    },
+    "skills": {
+      "-893407296": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-937758144",
+    "names": {
+      "en": "Blaze/Enhancer Jwl [3]",
+      "fr": "Joyau feu/puissance [3]"
+    },
+    "skills": {
+      "-562534336": 3,
+      "691199232": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-933830080",
+    "names": {
+      "en": "Gambit/Ironwall Jwl [3]",
+      "fr": "Joyau punition/paladin [3]"
+    },
+    "skills": {
+      "-1946345856": 3,
+      "-307644128": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-919326784",
+    "names": {
+      "en": "Flight/Draw Jewel [3]",
+      "fr": "Joyau acrobatie/dégainage [3]"
+    },
+    "skills": {
+      "402237312": 1,
+      "686533440": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-857552768",
+    "names": {
+      "en": "Blast Jewel II [2]",
+      "fr": "Joyau explosion II [2]"
+    },
+    "skills": {
+      "-844978880": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Focus Jewel II [2]",
+    "id": "-848728960",
+    "names": {
+      "en": "Critical Jewel II [2]",
+      "fr": "Joyau berserk II [2]"
+    },
     "skills": {
-      "Focus": 2
+      "-1607763456": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Charge Up/Handicraft Jwl [3]",
+    "id": "-790612736",
+    "names": {
+      "en": "Bolt/Ironwall Jewel [3]",
+      "fr": "Joyau foudre/paladin [3]"
+    },
     "skills": {
-      "Charge Up": 1,
-      "Handicraft": 1
+      "-307644128": 1,
+      "1452140672": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Shockproof Jewel [1]",
-    "skills": {
-      "Shock Absorber": 1
+    "id": "-777488128",
+    "names": {
+      "en": "Blaze/Handicraft Jwl [3]",
+      "fr": "Joyau feu/artisanat [3]"
     },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Blaze Jewel III [3]",
     "skills": {
-      "Fire Attack": 3
+      "-562534336": 3,
+      "1160639488": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Frost Jewel II [2]",
+    "id": "-773823488",
+    "names": {
+      "en": "Charge/KO Jewel [3]",
+      "fr": "Joyau charge/cogneur [3]"
+    },
     "skills": {
-      "Ice Attack": 2
+      "-1475134080": 3,
+      "-893407296": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-753381888",
+    "names": {
+      "en": "Guardian Jewel II [2]",
+      "fr": "Joyau gardien II [2]"
+    },
+    "skills": {
+      "-181127504": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Dragon/Handicraft Jwl [3]",
-    "skills": {
-      "Dragon Attack": 3,
-      "Handicraft": 1
+    "id": "-749488896",
+    "names": {
+      "en": "Crit Element Jewel [1]",
+      "fr": "Joyau chamanisme [1]"
     },
-    "size": 3,
+    "skills": {
+      "313598432": 1
+    },
+    "size": 1,
     "type": "W"
   },
   {
-    "name": "Crit Elem/Ironwall Jwl [3]",
-    "skills": {
-      "Guard": 1,
-      "Critical Element": 3
+    "id": "-725659840",
+    "names": {
+      "en": "Wind Resist Jewel [1]",
+      "fr": "Joyau antivent [1]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Blaze/Quickswitch Jwl [3]",
     "skills": {
-      "Rapid Morph": 1,
-      "Fire Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream/Handicraft Jwl [3]",
-    "skills": {
-      "Water Attack": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Charge Up/Expert Jwl [3]",
-    "skills": {
-      "Critical Eye": 1,
-      "Charge Up": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Element/Precise Jwl [3]",
-    "skills": {
-      "Ballistics": 1,
-      "Critical Element": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Throttle Jewel [3]",
-    "skills": {
-      "Latent Power": 1
-    },
-    "size": 3,
-    "type": "A"
-  },
-  {
-    "name": "Perfume Jewel [1]",
-    "skills": {
-      "Stench Resistance": 1
+      "-895828480": 1
     },
     "size": 1,
     "type": "A"
   },
   {
-    "name": "Maintenance Jewel [2]",
-    "skills": {
-      "Tool Specialist": 1
+    "id": "-714680256",
+    "names": {
+      "en": "Paralyzer Jewel [1]",
+      "fr": "Joyau paralysant [1]"
     },
-    "size": 2,
-    "type": "A"
+    "skills": {
+      "-1863702144": 1
+    },
+    "size": 1,
+    "type": "W"
   },
   {
-    "name": "Critical Jewel III [3]",
+    "id": "-712981504",
+    "names": {
+      "en": "Focus Jewel III [3]",
+      "fr": "Joyau concentration III [3]"
+    },
     "skills": {
-      "Critical Boost": 3
+      "-283334048": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Frost/Precise Jewel [3]",
+    "id": "-706109632",
+    "names": {
+      "en": "Poison/KO Jewel [3]",
+      "fr": "Joyau poison/cogneur [3]"
+    },
     "skills": {
-      "Ballistics": 1,
-      "Ice Attack": 3
+      "-1629629184": 1,
+      "-893407296": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Blaze/Rzr Sharp Jwl [3]",
+    "id": "-699699904",
+    "names": {
+      "en": "Flight/Attack Jwl [3]",
+      "fr": "Joyau acrobatie/attaque [3]"
+    },
     "skills": {
-      "Fire Attack": 3,
-      "Razor Sharp": 1
+      "1": 1,
+      "402237312": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Draincoat Jewel [2]",
+    "id": "-693750528",
+    "names": {
+      "en": "Blastcoat Jewel [2]",
+      "fr": "Joyau explosif [2]"
+    },
     "skills": {
-      "Exhaust Functionality": 1
+      "-2022542848": 1
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Shield Jewel III [3]",
+    "id": "-682377152",
+    "names": {
+      "en": "Grinder/Expert Jewel [3]",
+      "fr": "Joyau aiguiseur/maître [3]"
+    },
     "skills": {
-      "Guard Up": 3
+      "-2096489472": 1,
+      "1444935552": 2
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Grinder/Attack Jewel [3]",
+    "id": "-677836288",
+    "names": {
+      "en": "Magazine/Draw Jwl [3]",
+      "fr": "Joyau franc-tireur/dégainage [3]"
+    },
     "skills": {
-      "Attack Boost": 1,
-      "Speed Sharpening": 2
+      "686533440": 1,
+      "802725120": 2
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Blunt Jewel II [2]",
-    "skills": {
-      "Bludgeoner": 2
+    "id": "-673317952",
+    "names": {
+      "en": "Refresh Jewel [2]",
+      "fr": "Joyau métabolisme [2]"
     },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Critical Jewel [1]",
     "skills": {
-      "Critical Boost": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Sharp Jewel III [3]",
-    "skills": {
-      "Protective Polish": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Focus/Precise Jewel [3]",
-    "skills": {
-      "Ballistics": 1,
-      "Focus": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Gambit Jewel II [2]",
-    "skills": {
-      "Punishing Draw": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Bandolier Jewel [1]",
-    "skills": {
-      "Tetrad Shot": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Blunt Jewel [1]",
-    "skills": {
-      "Bludgeoner": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Forceshot Jewel [3]",
-    "skills": {
-      "Normal Shots": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Quickswitch Jewel [1]",
-    "skills": {
-      "Rapid Morph": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Crit Element Jewel II [2]",
-    "skills": {
-      "Critical Element": 2
-    },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Flash Jewel [1]",
-    "skills": {
-      "Blindsider": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Flight/Handicraft Jwl [3]",
-    "skills": {
-      "Airborne": 1,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Counter Jewel [2]",
-    "skills": {
-      "Counterstrike": 1
+      "-315492576": 1
     },
     "size": 2,
     "type": "A"
   },
   {
-    "name": "Precise Jewel III [3]",
+    "id": "-645579072",
+    "names": {
+      "en": "Blaze/Focus Jewel [3]",
+      "fr": "Joyau feu/concentration [3]"
+    },
     "skills": {
-      "Ballistics": 3
+      "-562534336": 3,
+      "-283334048": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Trueshot Jewel [1]",
+    "id": "-645377408",
+    "names": {
+      "en": "Charge Up/KO Jewel [3]",
+      "fr": "Joyau surcharge/cogneur [3]"
+    },
     "skills": {
-      "Special Ammo Boost": 1
+      "-893407296": 1,
+      "353114912": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-621608832",
+    "names": {
+      "en": "Focus/Handicraft Jewel [3]",
+      "fr": "Joyau concentration/artisanat [3]"
+    },
+    "skills": {
+      "-283334048": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-595931264",
+    "names": {
+      "en": "Sonorous/KO Jewel [3]",
+      "fr": "Joyau musique/cogneur [3]"
+    },
+    "skills": {
+      "-1237438336": 2,
+      "-893407296": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-590616064",
+    "names": {
+      "en": "Growth Jewel [1]",
+      "fr": "Joyau croissance [1]"
+    },
+    "skills": {
+      "1639440000": 1
     },
     "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Frost/KO Jewel [3]",
-    "skills": {
-      "Slugger": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Crit Status/KO Jwl [3]",
-    "skills": {
-      "Slugger": 1,
-      "Critical Status": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Potential Jewel [2]",
-    "skills": {
-      "Heroics": 1
-    },
-    "size": 2,
     "type": "A"
   },
   {
-    "name": "Crit Status Jewel II [2]",
-    "skills": {
-      "Critical Status": 2
+    "id": "-557270784",
+    "names": {
+      "en": "Bandolier Jewel II [2]",
+      "fr": "Joyau armurier II [2]"
     },
-    "size": 2,
-    "type": "W"
-  },
-  {
-    "name": "Shield/Ironwall Jwl [3]",
     "skills": {
-      "Guard Up": 3,
-      "Guard": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Shield Jewel [1]",
-    "skills": {
-      "Guard Up": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Evasion Jewel [2]",
-    "skills": {
-      "Evade Window": 1
-    },
-    "size": 2,
-    "type": "A"
-  },
-  {
-    "name": "Frost/Handicraft Jwl [3]",
-    "skills": {
-      "Handicraft": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Stream Jewel III [3]",
-    "skills": {
-      "Water Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Frost/Ironwall Jwl [3]",
-    "skills": {
-      "Guard": 1,
-      "Ice Attack": 3
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Draw Jewel II [2]",
-    "skills": {
-      "Critical Draw": 2
+      "1613139840": 2
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Counterattack Jewel [3]",
-    "skills": {
-      "Adrenaline Rush": 1
+    "id": "-546783040",
+    "names": {
+      "en": "Shield/Handicraft Jwl [3]",
+      "fr": "Joyau bouclier/artisanat [3]"
     },
-    "size": 3,
-    "type": "A"
-  },
-  {
-    "name": "Quickswitch/KO Jwl [3]",
     "skills": {
-      "Rapid Morph": 3,
-      "Slugger": 1
+      "-1674114176": 3,
+      "1160639488": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Rzr Sharp/Handicraft Jwl [3]",
-    "skills": {
-      "Razor Sharp": 3,
-      "Handicraft": 1
+    "id": "-534202944",
+    "names": {
+      "en": "Protection Jewel [1]",
+      "fr": "Joyau protection [1]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Pierce Jewel [3]",
     "skills": {
-      "Piercing Shots": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Friendship Jewel [1]",
-    "skills": {
-      "Wide-Range": 1
+      "1346775424": 1
     },
     "size": 1,
     "type": "A"
   },
   {
-    "name": "Sprinter Jewel [1]",
-    "skills": {
-      "Marathon Runner": 1
+    "id": "-522458240",
+    "names": {
+      "en": "Paralyzer Jwl III [3]",
+      "fr": "Joyau paralysant III [3]"
     },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Crit Elem Jwl III [3]",
     "skills": {
-      "Critical Element": 3
+      "-1863702144": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Blast Jewel III [3]",
+    "id": "-510575936",
+    "names": {
+      "en": "Stream/KO Jewel [3]",
+      "fr": "Joyau eau/cogneur [3]"
+    },
     "skills": {
-      "Blast Attack": 3
+      "-893407296": 1,
+      "508916704": 3
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Stream/Precise Jewel [3]",
-    "skills": {
-      "Ballistics": 1,
-      "Water Attack": 3
+    "id": "-508830240",
+    "names": {
+      "en": "Sonorous Jewel [2]",
+      "fr": "Joyau musique [2]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Enhancer/Handicraft Jwl [3]",
     "skills": {
-      "Power Prolonger": 3,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Focus Jewel [1]",
-    "skills": {
-      "Focus": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Charge Up/Draw Jwl [3]",
-    "skills": {
-      "Charge Up": 1,
-      "Critical Draw": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Climber Jewel [1]",
-    "skills": {
-      "Cliffhanger": 1
-    },
-    "size": 1,
-    "type": "A"
-  },
-  {
-    "name": "Ironwall Jewel II [2]",
-    "skills": {
-      "Guard": 2
+      "-1237438336": 1
     },
     "size": 2,
     "type": "W"
   },
   {
-    "name": "Botany Jewel [1]",
+    "id": "-493483136",
+    "names": {
+      "en": "Razor Sharp Jewel [1]",
+      "fr": "Joyau samouraï [1]"
+    },
     "skills": {
-      "Botanist": 1
+      "1050520384": 1
     },
     "size": 1,
-    "type": "A"
+    "type": "W"
   },
   {
-    "name": "Challenger Jewel [3]",
+    "id": "-487601632",
+    "names": {
+      "en": "Quickswitch/Ironwall Jwl [3]",
+      "fr": "Joyau morphose/paladin [3]"
+    },
     "skills": {
-      "Agitator": 1
+      "-1961116288": 3,
+      "-307644128": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-477564992",
+    "names": {
+      "en": "Dragon/Ironwall Jwl [3]",
+      "fr": "Joyau dracocide/paladin [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "-307644128": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-463114720",
+    "names": {
+      "en": "Guardian/Handicraft Jwl [3]",
+      "fr": "Joyau gardien/artisanat [3]"
+    },
+    "skills": {
+      "-181127504": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-451614112",
+    "names": {
+      "en": "Expert Jewel [1]",
+      "fr": "Joyau maître [1]"
+    },
+    "skills": {
+      "-2096489472": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-447558304",
+    "names": {
+      "en": "Chain Jewel [3]",
+      "fr": "Joyau chaîne [3]"
+    },
+    "skills": {
+      "565867136": 1
     },
     "size": 3,
     "type": "A"
   },
   {
-    "name": "Magazine/Attack Jwl [3]",
+    "id": "-430198272",
+    "names": {
+      "en": "Magazine/Handicraft Jwl [3]",
+      "fr": "Joyau franc-tireur/artisanat [3]"
+    },
     "skills": {
-      "Attack Boost": 1,
-      "Load Shells": 2
+      "802725120": 2,
+      "1160639488": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Ironwall Jewel III [3]",
-    "skills": {
-      "Guard": 3
+    "id": "-417484064",
+    "names": {
+      "en": "Brace Jewel [1]",
+      "fr": "Joyau inflexible [1]"
     },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Sonorous/Handicraft Jwl [3]",
     "skills": {
-      "Horn Maestro": 2,
-      "Handicraft": 1
-    },
-    "size": 3,
-    "type": "W"
-  },
-  {
-    "name": "Enduring Jewel [1]",
-    "skills": {
-      "Item Prolonger": 1
+      "742695104": 1
     },
     "size": 1,
     "type": "A"
   },
   {
-    "name": "Dragon Jewel [1]",
-    "skills": {
-      "Dragon Attack": 1
+    "id": "-394478144",
+    "names": {
+      "en": "Dive Jewel [1]",
+      "fr": "Joyau plongeon [1]"
     },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Opener Jewel [1]",
     "skills": {
-      "Opening Shot": 1
-    },
-    "size": 1,
-    "type": "W"
-  },
-  {
-    "name": "Footing Jewel [1]",
-    "skills": {
-      "Tremor Resistance": 1
+      "-1304512512": 1
     },
     "size": 1,
     "type": "A"
   },
   {
-    "name": "Poison/Attack Jewel [3]",
+    "id": "-389889248",
+    "names": {
+      "en": "Poison/Ironwall Jwl [3]",
+      "fr": "Joyau poison/paladin [3]"
+    },
     "skills": {
-      "Poison Duration Up": 1,
-      "Attack Boost": 1
+      "-1629629184": 1,
+      "-307644128": 1
     },
     "size": 3,
     "type": "W"
   },
   {
-    "name": "Intimidator Jewel [1]",
+    "id": "-384925600",
+    "names": {
+      "en": "Antidote Jewel [1]",
+      "fr": "Joyau antidote [1]"
+    },
     "skills": {
-      "Intimidator": 1
+      "1459579264": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-325572000",
+    "names": {
+      "en": "Bomber Jewel [1]",
+      "fr": "Joyau bombardier [1]"
+    },
+    "skills": {
+      "-857543744": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-316552800",
+    "names": {
+      "en": "Geology Jewel [1]",
+      "fr": "Joyau géologie [1]"
+    },
+    "skills": {
+      "595870656": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-301443072",
+    "names": {
+      "en": "Enhancer Jewel II [2]",
+      "fr": "Joyau puissance II [2]"
+    },
+    "skills": {
+      "691199232": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "-292390464",
+    "names": {
+      "en": "Blaze/KO Jewel [3]",
+      "fr": "Joyau feu/cogneur [3]"
+    },
+    "skills": {
+      "-893407296": 1,
+      "-562534336": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-245086656",
+    "names": {
+      "en": "Draw Jewel [1]",
+      "fr": "Joyau dégainage [1]"
+    },
+    "skills": {
+      "686533440": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-243518144",
+    "names": {
+      "en": "Charge Jewel II [2]",
+      "fr": "Joyau charge II [2]"
+    },
+    "skills": {
+      "-1475134080": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "-198925264",
+    "names": {
+      "en": "Sheath Jewel [1]",
+      "fr": "Joyau rengainage [1]"
+    },
+    "skills": {
+      "-1073401280": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-198819232",
+    "names": {
+      "en": "Shield Jewel II [2]",
+      "fr": "Joyau bouclier II [2]"
+    },
+    "skills": {
+      "-1674114176": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "-177096704",
+    "names": {
+      "en": "Satiated Jewel [1]",
+      "fr": "Joyau parasite [1]"
+    },
+    "skills": {
+      "850626240": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "-150840288",
+    "names": {
+      "en": "Dragon Jewel II [2]",
+      "fr": "Joyau dracocide II [2]"
+    },
+    "skills": {
+      "-776946176": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "-145991360",
+    "names": {
+      "en": "Razor Sharp Jewel II [2]",
+      "fr": "Joyau samouraï II [2]"
+    },
+    "skills": {
+      "1050520384": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "-143560672",
+    "names": {
+      "en": "Sonorous/Expert Jwl [3]",
+      "fr": "Joyau musique/maître [3]"
+    },
+    "skills": {
+      "-2096489472": 1,
+      "-1237438336": 2
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-140702464",
+    "names": {
+      "en": "Poison/Draw Jewel [3]",
+      "fr": "Joyau poison/dégainage [3]"
+    },
+    "skills": {
+      "-1629629184": 1,
+      "686533440": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-102120712",
+    "names": {
+      "en": "Grinder/KO Jewel [3]",
+      "fr": "Joyau aiguiseur/cogneur [3]"
+    },
+    "skills": {
+      "-893407296": 1,
+      "1444935552": 2
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-98207152",
+    "names": {
+      "en": "Ironwall Jewel [1]",
+      "fr": "Joyau paladin [1]"
+    },
+    "skills": {
+      "-307644128": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "-92885912",
+    "names": {
+      "en": "Blaze/Shield Jewel [3]",
+      "fr": "Joyau feu/bouclier [3]"
+    },
+    "skills": {
+      "-1674114176": 1,
+      "-562534336": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-87428912",
+    "names": {
+      "en": "Artillery Jewel II [2]",
+      "fr": "Joyau dynamite II [2]"
+    },
+    "skills": {
+      "-596764096": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "-35111916",
+    "names": {
+      "en": "Fungiform Jewel [2]",
+      "fr": "Joyau mycologue [2]"
+    },
+    "skills": {
+      "-481419552": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "-19370102",
+    "names": {
+      "en": "Opener/Precise Jewel [3]",
+      "fr": "Joyau premier coup/kyudo [3]"
+    },
+    "skills": {
+      "-420608864": 1,
+      "1711950720": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "-15284539",
+    "names": {
+      "en": "Blaze Jewel II [2]",
+      "fr": "Joyau feu II [2]"
+    },
+    "skills": {
+      "-562534336": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "-12878304",
+    "names": {
+      "en": "Blaze Jewel [1]",
+      "fr": "Joyau feu [1]"
+    },
+    "skills": {
+      "-562534336": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "276",
+    "names": {
+      "en": "Shield/Stream Jewel [3]",
+      "fr": "Joyau bouclier/eau [3]"
+    },
+    "skills": {
+      "-1674114176": 3,
+      "508916704": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "783",
+    "names": {
+      "en": "Bolt/Opener Jewel [3]",
+      "fr": "Joyau foudre/premier coup [3]"
+    },
+    "skills": {
+      "1452140672": 3,
+      "1711950720": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1508",
+    "names": {
+      "en": "Dragon/Guardian Jwl [3]",
+      "fr": "Joyau dracocide/gardien [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "-181127504": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1570",
+    "names": {
+      "en": "Dragon/Focus Jewel [3]",
+      "fr": "Joyau dracocide/concentration [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "-283334048": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1591",
+    "names": {
+      "en": "Crit Elem/Blaze Jwl [3]",
+      "fr": "Joyau chamanisme/feu [3]"
+    },
+    "skills": {
+      "-562534336": 1,
+      "313598432": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1625",
+    "names": {
+      "en": "Frost/Rzr Sharp Jwl [3]",
+      "fr": "Joyau glace/samouraï [3]"
+    },
+    "skills": {
+      "1050520384": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1919",
+    "names": {
+      "en": "Focus/Frost Jewel [3]",
+      "fr": "Joyau concentration/glace [3]"
+    },
+    "skills": {
+      "-283334048": 3,
+      "1268070400": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "2186",
+    "names": {
+      "en": "Rzr Sharp/Frost Jwl [3]",
+      "fr": "Joyau samouraï/glace [3]"
+    },
+    "skills": {
+      "1050520384": 3,
+      "1268070400": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "2420",
+    "names": {
+      "en": "Dragon/Opener Jewel [3]",
+      "fr": "Joyau dracocide/premier coup [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "1711950720": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "3416",
+    "names": {
+      "en": "Focus/Stream Jewel [3]",
+      "fr": "Joyau concentration/eau [3]"
+    },
+    "skills": {
+      "-283334048": 3,
+      "508916704": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "3690",
+    "names": {
+      "en": "Quickswitch/Dragon Jwl [3]",
+      "fr": "Joyau morphose/dracocide [3]"
+    },
+    "skills": {
+      "-1961116288": 3,
+      "-776946176": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "4514",
+    "names": {
+      "en": "Bandolier/Blaze Jwl [3]",
+      "fr": "Joyau armurier/feu [3]"
+    },
+    "skills": {
+      "-562534336": 1,
+      "1613139840": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "4715",
+    "names": {
+      "en": "Rzr Sharp/Stream Jwl [3]",
+      "fr": "Joyau samouraï/eau [3]"
+    },
+    "skills": {
+      "508916704": 1,
+      "1050520384": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "4781",
+    "names": {
+      "en": "Blaze/Opener Jewel [3]",
+      "fr": "Joyau feu/premier coup [3]"
+    },
+    "skills": {
+      "-562534336": 3,
+      "1711950720": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "5173",
+    "names": {
+      "en": "Bolt/Focus Jewel [3]",
+      "fr": "Joyau foudre/concentration [3]"
+    },
+    "skills": {
+      "-283334048": 1,
+      "1452140672": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "5731",
+    "names": {
+      "en": "Enhancer/Blaze Jewel [3]",
+      "fr": "Joyau puissance/feu [3]"
+    },
+    "skills": {
+      "-562534336": 1,
+      "691199232": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "5876",
+    "names": {
+      "en": "Crit Elem/Stream Jwl [3]",
+      "fr": "Joyau chamanisme/eau [3]"
+    },
+    "skills": {
+      "313598432": 3,
+      "508916704": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "6393",
+    "names": {
+      "en": "Bolt/Rzr Sharp Jwl [3]",
+      "fr": "Joyau foudre/samouraï [3]"
+    },
+    "skills": {
+      "1050520384": 1,
+      "1452140672": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "6455",
+    "names": {
+      "en": "Enhancer/Frost Jwl [3]",
+      "fr": "Joyau puissance/glace [3]"
+    },
+    "skills": {
+      "691199232": 3,
+      "1268070400": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "6866",
+    "names": {
+      "en": "Crit Elem/Bolt Jwl [3]",
+      "fr": "Joyau chamanisme/foudre [3]"
+    },
+    "skills": {
+      "313598432": 3,
+      "1452140672": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "7249",
+    "names": {
+      "en": "Dragon/Crit Elem Jwl [3]",
+      "fr": "Joyau dracocide/chamanisme [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "313598432": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "7817",
+    "names": {
+      "en": "Frost/Bandolier Jwl [3]",
+      "fr": "Joyau glace/armurier [3]"
+    },
+    "skills": {
+      "1268070400": 3,
+      "1613139840": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "8302",
+    "names": {
+      "en": "Dragon/Shield Jewel [3]",
+      "fr": "Joyau dracocide/bouclier [3]"
+    },
+    "skills": {
+      "-1674114176": 1,
+      "-776946176": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "8988",
+    "names": {
+      "en": "Quickswitch/Blaze Jwl [3]",
+      "fr": "Joyau morphose/feu [3]"
+    },
+    "skills": {
+      "-1961116288": 3,
+      "-562534336": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "9096",
+    "names": {
+      "en": "Shield/Frost Jewel [3]",
+      "fr": "Joyau bouclier/glace [3]"
+    },
+    "skills": {
+      "-1674114176": 3,
+      "1268070400": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "11183",
+    "names": {
+      "en": "Bolt/Quickswitch Jwl [3]",
+      "fr": "Joyau foudre/morphose [3]"
+    },
+    "skills": {
+      "-1961116288": 1,
+      "1452140672": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "12151",
+    "names": {
+      "en": "Crit Elem/Frost Jwl [3]",
+      "fr": "Joyau chamanisme/glace [3]"
+    },
+    "skills": {
+      "313598432": 3,
+      "1268070400": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "12241",
+    "names": {
+      "en": "Shield/Bolt Jewel [3]",
+      "fr": "Joyau bouclier/foudre [3]"
+    },
+    "skills": {
+      "-1674114176": 3,
+      "1452140672": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "12727",
+    "names": {
+      "en": "Stream/Rzr Sharp Jwl [3]",
+      "fr": "Joyau eau/samouraï [3]"
+    },
+    "skills": {
+      "508916704": 3,
+      "1050520384": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "13386",
+    "names": {
+      "en": "Stream/Shield Jewel [3]",
+      "fr": "Joyau eau/bouclier [3]"
+    },
+    "skills": {
+      "-1674114176": 1,
+      "508916704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "13550",
+    "names": {
+      "en": "Frost/Focus Jewel [3]",
+      "fr": "Joyau glace/concentration [3]"
+    },
+    "skills": {
+      "-283334048": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "14731",
+    "names": {
+      "en": "Stream/Crit Elem Jwl [3]",
+      "fr": "Joyau eau/chamanisme [3]"
+    },
+    "skills": {
+      "313598432": 1,
+      "508916704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "14794",
+    "names": {
+      "en": "Opener/Bolt Jewel [3]",
+      "fr": "Joyau premier coup/foudre [3]"
+    },
+    "skills": {
+      "1452140672": 1,
+      "1711950720": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "14855",
+    "names": {
+      "en": "Dragon/Enhancer Jwl [3]",
+      "fr": "Joyau dracocide/puissance [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "691199232": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "14956",
+    "names": {
+      "en": "Rzr Sharp/Blaze Jwl [3]",
+      "fr": "Joyau samouraï/feu [3]"
+    },
+    "skills": {
+      "-562534336": 1,
+      "1050520384": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "15379",
+    "names": {
+      "en": "Opener/Stream Jwl [3]",
+      "fr": "Joyau premier coup/eau [3]"
+    },
+    "skills": {
+      "508916704": 1,
+      "1711950720": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "16193",
+    "names": {
+      "en": "Guardian/Blaze Jwl [3]",
+      "fr": "Joyau gardien/feu [3]"
+    },
+    "skills": {
+      "-562534336": 1,
+      "-181127504": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "16930",
+    "names": {
+      "en": "Focus/Bolt Jwl [3]",
+      "fr": "Joyau concentration/foudre [3]"
+    },
+    "skills": {
+      "-283334048": 3,
+      "1452140672": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "17415",
+    "names": {
+      "en": "Frost/Enhancer Jwl [3]",
+      "fr": "Joyau glace/puissance [3]"
+    },
+    "skills": {
+      "691199232": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "17610",
+    "names": {
+      "en": "Focus/Dragon Jewel [3]",
+      "fr": "Joyau concentration/dracocide [3]"
+    },
+    "skills": {
+      "-776946176": 1,
+      "-283334048": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "17913",
+    "names": {
+      "en": "Bolt/Shield Jewel [3]",
+      "fr": "Joyau foudre/bouclier [3]"
+    },
+    "skills": {
+      "-1674114176": 1,
+      "1452140672": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "17949",
+    "names": {
+      "en": "Bandolier/Stream Jwl [3]",
+      "fr": "Joyau armurier/eau [3]"
+    },
+    "skills": {
+      "508916704": 1,
+      "1613139840": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "18359",
+    "names": {
+      "en": "Bandolier/Frost Jwl [3]",
+      "fr": "Joyau armurier/glace [3]"
+    },
+    "skills": {
+      "1268070400": 1,
+      "1613139840": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "18958",
+    "names": {
+      "en": "Quickswitch/Frost Jwl [3]",
+      "fr": "Joyau morphose/glace [3]"
+    },
+    "skills": {
+      "-1961116288": 3,
+      "1268070400": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "19383",
+    "names": {
+      "en": "Bolt/Crit Elem Jwl [3]",
+      "fr": "Joyau foudre/chamanisme [3]"
+    },
+    "skills": {
+      "313598432": 1,
+      "1452140672": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "20183",
+    "names": {
+      "en": "Dragon/Quickswitch Jwl [3]",
+      "fr": "Joyau dracocide/morphose [3]"
+    },
+    "skills": {
+      "-1961116288": 1,
+      "-776946176": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "20287",
+    "names": {
+      "en": "Shield/Dragon Jwl [3]",
+      "fr": "Joyau bouclier/dracocide [3]"
+    },
+    "skills": {
+      "-1674114176": 3,
+      "-776946176": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "20306",
+    "names": {
+      "en": "Frost/Guardian Jwl [3]",
+      "fr": "Joyau glace/gardien [3]"
+    },
+    "skills": {
+      "-181127504": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "20412",
+    "names": {
+      "en": "Blaze/Crit Elem Jwl [3]",
+      "fr": "Joyau feu/chamanisme [3]"
+    },
+    "skills": {
+      "-562534336": 3,
+      "313598432": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "21045",
+    "names": {
+      "en": "Frost/Crit Elem Jwl [3]",
+      "fr": "Joyau glace/chamanisme [3]"
+    },
+    "skills": {
+      "313598432": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "21328",
+    "names": {
+      "en": "Guardian/Dragon Jwl [3]",
+      "fr": "Joyau gardien/dracocide [3]"
+    },
+    "skills": {
+      "-776946176": 1,
+      "-181127504": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "21515",
+    "names": {
+      "en": "Dragon/Bandolier Jwl [3]",
+      "fr": "Joyau dracocide/armurier [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "1613139840": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "21891",
+    "names": {
+      "en": "Bolt/Guardian Jwl [3]",
+      "fr": "Joyau foudre/gardien [3]"
+    },
+    "skills": {
+      "-181127504": 1,
+      "1452140672": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "22048",
+    "names": {
+      "en": "Stream/Enhancer Jwl [3]",
+      "fr": "Joyau eau/puissance [3]"
+    },
+    "skills": {
+      "508916704": 3,
+      "691199232": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "22310",
+    "names": {
+      "en": "Stream/Guardian Jwl [3]",
+      "fr": "Joyau eau/gardien [3]"
+    },
+    "skills": {
+      "-181127504": 1,
+      "508916704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "22604",
+    "names": {
+      "en": "Bandolier/Bolt Jwl [3]",
+      "fr": "Joyau armurier/foudre [3]"
+    },
+    "skills": {
+      "1452140672": 1,
+      "1613139840": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "22673",
+    "names": {
+      "en": "Guardian/Stream Jwl [3]",
+      "fr": "Joyau gardien/eau [3]"
+    },
+    "skills": {
+      "-181127504": 3,
+      "508916704": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "22681",
+    "names": {
+      "en": "Enhancer/Stream Jwl [3]",
+      "fr": "Joyau puissance/eau [3]"
+    },
+    "skills": {
+      "508916704": 1,
+      "691199232": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "23236",
+    "names": {
+      "en": "Bolt/Bandolier Jwl [3]",
+      "fr": "Joyau foudre/armurier [3]"
+    },
+    "skills": {
+      "1452140672": 3,
+      "1613139840": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "23494",
+    "names": {
+      "en": "Dragon/Rzr Sharp Jwl [3]",
+      "fr": "Joyau dracocide/samouraï [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "1050520384": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "23522",
+    "names": {
+      "en": "Focus/Blaze Jewel [3]",
+      "fr": "Joyau concentration/feu [3]"
+    },
+    "skills": {
+      "-562534336": 1,
+      "-283334048": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "23556",
+    "names": {
+      "en": "Guardian/Bolt Jwl [3]",
+      "fr": "Joyau gardien/foudre [3]"
+    },
+    "skills": {
+      "-181127504": 3,
+      "1452140672": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "23622",
+    "names": {
+      "en": "Quickswitch/Bolt Jwl [3]",
+      "fr": "Joyau morphose/foudre [3]"
+    },
+    "skills": {
+      "-1961116288": 3,
+      "1452140672": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "23677",
+    "names": {
+      "en": "Frost/Quickswitch Jwl [3]",
+      "fr": "Joyau glace/morphose [3]"
+    },
+    "skills": {
+      "-1961116288": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "24211",
+    "names": {
+      "en": "Guardian/Frost Jwl [3]",
+      "fr": "Joyau gardien/glace [3]"
+    },
+    "skills": {
+      "-181127504": 3,
+      "1268070400": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "24561",
+    "names": {
+      "en": "Opener/Frost Jewel [3]",
+      "fr": "Joyau premier coup/glace [3]"
+    },
+    "skills": {
+      "1268070400": 1,
+      "1711950720": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "24768",
+    "names": {
+      "en": "Stream/Bandolier Jwl [3]",
+      "fr": "Joyau eau/armurier [3]"
+    },
+    "skills": {
+      "508916704": 3,
+      "1613139840": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "24865",
+    "names": {
+      "en": "Rzr Sharp/Dragon Jwl [3]",
+      "fr": "Joyau samouraï/dracocide [3]"
+    },
+    "skills": {
+      "-776946176": 1,
+      "1050520384": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "24927",
+    "names": {
+      "en": "Opener/Blaze Jewel [3]",
+      "fr": "Joyau premier coup/feu [3]"
+    },
+    "skills": {
+      "-562534336": 1,
+      "1711950720": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "25926",
+    "names": {
+      "en": "Blaze/Bandolier Jwl [3]",
+      "fr": "Joyau feu/armurier [3]"
+    },
+    "skills": {
+      "-562534336": 3,
+      "1613139840": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "25952",
+    "names": {
+      "en": "Enhancer/Bolt Jewel [3]",
+      "fr": "Joyau puissance/foudre [3]"
+    },
+    "skills": {
+      "691199232": 3,
+      "1452140672": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "26003",
+    "names": {
+      "en": "Shield/Blaze Jewel [3]",
+      "fr": "Joyau bouclier/feu [3]"
+    },
+    "skills": {
+      "-1674114176": 3,
+      "-562534336": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "26077",
+    "names": {
+      "en": "Enhancer/Dragon Jwl [3]",
+      "fr": "Joyau puissance/dracocide [3]"
+    },
+    "skills": {
+      "-776946176": 1,
+      "691199232": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "27036",
+    "names": {
+      "en": "Quickswitch/Stream Jwl [3]",
+      "fr": "Joyau morphose/eau [3]"
+    },
+    "skills": {
+      "-1961116288": 3,
+      "508916704": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "27791",
+    "names": {
+      "en": "Bandolier/Dragon Jwl [3]",
+      "fr": "Joyau armurier/dracocide [3]"
+    },
+    "skills": {
+      "-776946176": 1,
+      "1613139840": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "28076",
+    "names": {
+      "en": "Opener/Dragon Jewel [3]",
+      "fr": "Joyau premier coup/dracocide [3]"
+    },
+    "skills": {
+      "-776946176": 1,
+      "1711950720": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "30137",
+    "names": {
+      "en": "Crit Elem/Dragon Jwl [3]",
+      "fr": "Joyau chamanisme/dracocide [3]"
+    },
+    "skills": {
+      "-776946176": 1,
+      "313598432": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "30161",
+    "names": {
+      "en": "Frost/Opener Jewel [3]",
+      "fr": "Joyau glace/premier coup [3]"
+    },
+    "skills": {
+      "1268070400": 3,
+      "1711950720": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "30405",
+    "names": {
+      "en": "Rzr Sharp/Bolt Jwl [3]",
+      "fr": "Joyau samouraï/foudre [3]"
+    },
+    "skills": {
+      "1050520384": 3,
+      "1452140672": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "30490",
+    "names": {
+      "en": "Stream/Quickswitch Jwl [3]",
+      "fr": "Joyau eau/morphose [3]"
+    },
+    "skills": {
+      "-1961116288": 1,
+      "508916704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "31893",
+    "names": {
+      "en": "Frost/Shield Jewel [3]",
+      "fr": "Joyau glace/bouclier [3]"
+    },
+    "skills": {
+      "-1674114176": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "32288",
+    "names": {
+      "en": "Bolt/Enhancer Jwl [3]",
+      "fr": "Joyau foudre/puissance [3]"
+    },
+    "skills": {
+      "691199232": 1,
+      "1452140672": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "32433",
+    "names": {
+      "en": "Stream/Focus Jewel [3]",
+      "fr": "Joyau eau/concentration [3]"
+    },
+    "skills": {
+      "-283334048": 1,
+      "508916704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "32676",
+    "names": {
+      "en": "Stream/Opener Jwl [3]",
+      "fr": "Joyau eau/premier coup [3]"
+    },
+    "skills": {
+      "508916704": 3,
+      "1711950720": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "5028590",
+    "names": {
+      "en": "Grinder Jewel II [2]",
+      "fr": "Joyau aiguiseur II [2]"
+    },
+    "skills": {
+      "1444935552": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "5672852",
+    "names": {
+      "en": "Defense Jewel [1]",
+      "fr": "Joyau défense [1]"
+    },
+    "skills": {
+      "1077686656": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "7844454",
+    "names": {
+      "en": "Grinder Jewel [1]",
+      "fr": "Joyau aiguiseur [1]"
+    },
+    "skills": {
+      "1444935552": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "17525612",
+    "names": {
+      "en": "Poison/Precise Jwl [3]",
+      "fr": "Joyau poison/kyudo [3]"
+    },
+    "skills": {
+      "-1629629184": 1,
+      "-420608864": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "19401228",
+    "names": {
+      "en": "Gambit Jewel III [3]",
+      "fr": "Joyau punition III [3]"
+    },
+    "skills": {
+      "-1946345856": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "23951036",
+    "names": {
+      "en": "Razor Sharp/KO Jwl [3]",
+      "fr": "Joyau samouraï/cogneur [3]"
+    },
+    "skills": {
+      "-893407296": 1,
+      "1050520384": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "34988560",
+    "names": {
+      "en": "Spread Jewel [3]",
+      "fr": "Joyau plomb [3]"
+    },
+    "skills": {
+      "-2123993856": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "44196940",
+    "names": {
+      "en": "KO Jewel II [2]",
+      "fr": "Joyau cogneur II [2]"
+    },
+    "skills": {
+      "-893407296": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "64300272",
+    "names": {
+      "en": "Focus/KO Jewel [3]",
+      "fr": "Joyau concentration/cogneur [3]"
+    },
+    "skills": {
+      "-893407296": 1,
+      "-283334048": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "67372504",
+    "names": {
+      "en": "Sharp Jewel [1]",
+      "fr": "Joyau trempe [1]"
+    },
+    "skills": {
+      "1500129152": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "72596768",
+    "names": {
+      "en": "Ranger Jewel [1]",
+      "fr": "Joyau chasse [1]"
+    },
+    "skills": {
+      "1845834112": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "97814240",
+    "names": {
+      "en": "Artillery Jewel [1]",
+      "fr": "Joyau dynamite [1]"
+    },
+    "skills": {
+      "-596764096": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "103198480",
+    "names": {
+      "en": "Bandolier/Precise Jwl [3]",
+      "fr": "Joyau armurier/kyudo [3]"
+    },
+    "skills": {
+      "-420608864": 1,
+      "1613139840": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "115284000",
+    "names": {
+      "en": "Charge/Handicraft Jwl [3]",
+      "fr": "Joyau charge/artisanat [3]"
+    },
+    "skills": {
+      "-1475134080": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "124240896",
+    "names": {
+      "en": "Crit Status Jewel [1]",
+      "fr": "Joyau châtiment [1]"
+    },
+    "skills": {
+      "-168922880": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "130724024",
+    "names": {
+      "en": "Attack Jewel [1]",
+      "fr": "Joyau attaque [1]"
+    },
+    "skills": {
+      "1": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "146040608",
+    "names": {
+      "en": "Handicraft Jwl III [3]",
+      "fr": "Joyau artisanat III [3]"
+    },
+    "skills": {
+      "1160639488": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "163043584",
+    "names": {
+      "en": "Opener/Ironwall Jwl [3]",
+      "fr": "Joyau premier coup/paladin [3]"
+    },
+    "skills": {
+      "-307644128": 1,
+      "1711950720": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "183160800",
+    "names": {
+      "en": "Quickswitch Jewel II [2]",
+      "fr": "Joyau morphose II [2]"
+    },
+    "skills": {
+      "-1961116288": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "186552368",
+    "names": {
+      "en": "Frost Jewel [1]",
+      "fr": "Joyau glace [1]"
+    },
+    "skills": {
+      "1268070400": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "213184688",
+    "names": {
+      "en": "Flawless Jewel [2]",
+      "fr": "Joyau parfait [2]"
+    },
+    "skills": {
+      "2106877312": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "219173888",
+    "names": {
+      "en": "Dragon/Precise Jewel [3]",
+      "fr": "Joyau dracocide/kyudo [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "-420608864": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "248848256",
+    "names": {
+      "en": "Expert Jewel II [2]",
+      "fr": "Joyau maître II [2]"
+    },
+    "skills": {
+      "-2096489472": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "280205024",
+    "names": {
+      "en": "Attack Jewel III [3]",
+      "fr": "Joyau attaque III [3]"
+    },
+    "skills": {
+      "1": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "298345088",
+    "names": {
+      "en": "Magazine Jewel [1]",
+      "fr": "Joyau franc-tireur [1]"
+    },
+    "skills": {
+      "802725120": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "336866720",
+    "names": {
+      "en": "Poison/Expert Jwl [3]",
+      "fr": "Joyau poison/maître [3]"
+    },
+    "skills": {
+      "-2096489472": 1,
+      "-1629629184": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "386498304",
+    "names": {
+      "en": "Frost Jewel III [3]",
+      "fr": "Joyau glace III [3]"
+    },
+    "skills": {
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "391149760",
+    "names": {
+      "en": "Poison/Handicraft Jwl [3]",
+      "fr": "Joyau poison/artisanat [3]"
+    },
+    "skills": {
+      "-1629629184": 1,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "435353600",
+    "names": {
+      "en": "Handicraft Jewel [1]",
+      "fr": "Joyau artisanat [1]"
+    },
+    "skills": {
+      "1160639488": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "446613472",
+    "names": {
+      "en": "Enhancer Jewel III [3]",
+      "fr": "Joyau puissance III [3]"
+    },
+    "skills": {
+      "691199232": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "454747104",
+    "names": {
+      "en": "Medicine Jewel [1]",
+      "fr": "Joyau médecin [1]"
+    },
+    "skills": {
+      "-1235658624": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "457280288",
+    "names": {
+      "en": "Charge Jewel III [3]",
+      "fr": "Joyau charge III [3]"
+    },
+    "skills": {
+      "-1475134080": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "460437856",
+    "names": {
+      "en": "Flight/Expert Jewel [3]",
+      "fr": "Joyau acrobatie/maître [3]"
+    },
+    "skills": {
+      "-2096489472": 1,
+      "402237312": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "499818016",
+    "names": {
+      "en": "Sonorous/Draw Jwl [3]",
+      "fr": "Joyau musique/dégainage [3]"
+    },
+    "skills": {
+      "-1237438336": 2,
+      "686533440": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "519959680",
+    "names": {
+      "en": "Furor Jewel [2]",
+      "fr": "Joyau vengeance [2]"
+    },
+    "skills": {
+      "1359821952": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "520733824",
+    "names": {
+      "en": "Crit Stat/Precise Jwl [3]",
+      "fr": "Joyau châtiment/kyudo [3]"
+    },
+    "skills": {
+      "-420608864": 1,
+      "-168922880": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "583988672",
+    "names": {
+      "en": "Mind's Eye Jwl III [3]",
+      "fr": "Joyau spirituel III [3]"
+    },
+    "skills": {
+      "1594792704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "594204352",
+    "names": {
+      "en": "KO Jewel III [3]",
+      "fr": "Joyau cogneur III [3]"
+    },
+    "skills": {
+      "-893407296": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "618579264",
+    "names": {
+      "en": "Magazine/Ironwall Jwl [3]",
+      "fr": "Joyau franc-tireur/paladin [3]"
+    },
+    "skills": {
+      "-307644128": 1,
+      "802725120": 2
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "639622592",
+    "names": {
+      "en": "Paralyzer Jewel II [2]",
+      "fr": "Joyau paralysant II [2]"
+    },
+    "skills": {
+      "-1863702144": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "645053056",
+    "names": {
+      "en": "Gobbler Jewel [1]",
+      "fr": "Joyau carnassier [1]"
+    },
+    "skills": {
+      "634068352": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "654954304",
+    "names": {
+      "en": "Stream/Ironwall Jwl [3]",
+      "fr": "Joyau eau/paladin [3]"
+    },
+    "skills": {
+      "-307644128": 1,
+      "508916704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "656487488",
+    "names": {
+      "en": "Ambush Jewel [2]",
+      "fr": "Joyau embuscade [2]"
+    },
+    "skills": {
+      "-171796848": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "668852032",
+    "names": {
+      "en": "Phoenix Jewel [2]",
+      "fr": "Joyau phénix [2]"
+    },
+    "skills": {
+      "-1700743296": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "694060672",
+    "names": {
+      "en": "Steadfast Jewel [1]",
+      "fr": "Joyau volonté [1]"
+    },
+    "skills": {
+      "705317568": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "701807872",
+    "names": {
+      "en": "Antiblast Jewel [1]",
+      "fr": "Joyau blindage [1]"
+    },
+    "skills": {
+      "820385792": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "714935168",
+    "names": {
+      "en": "Drain Jewel [1]",
+      "fr": "Joyau fatigue [1]"
+    },
+    "skills": {
+      "1758661504": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "759889920",
+    "names": {
+      "en": "Mind's Eye Jewel II [2]",
+      "fr": "Joyau spirituel II [2]"
+    },
+    "skills": {
+      "1594792704": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "767051200",
+    "names": {
+      "en": "Tenderizer Jewel [3]",
+      "fr": "Joyau supplice [3]"
+    },
+    "skills": {
+      "-397570464": 1
+    },
+    "size": 3,
+    "type": "A"
+  },
+  {
+    "id": "771935488",
+    "names": {
+      "en": "Artillery Jewel III [3]",
+      "fr": "Joyau dynamite III [3]"
+    },
+    "skills": {
+      "-596764096": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "795180288",
+    "names": {
+      "en": "Charge Up Jewel [2]",
+      "fr": "Joyau surcharge [2]"
+    },
+    "skills": {
+      "353114912": 1
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "797303936",
+    "names": {
+      "en": "Focus Jewel II [2]",
+      "fr": "Joyau concentration II [2]"
+    },
+    "skills": {
+      "-283334048": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "839957184",
+    "names": {
+      "en": "Charge Up/Handicraft Jwl [3]",
+      "fr": "Joyau surcharge/artisanat [3]"
+    },
+    "skills": {
+      "353114912": 1,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "865685248",
+    "names": {
+      "en": "Shockproof Jewel [1]",
+      "fr": "Joyau antichoc [1]"
+    },
+    "skills": {
+      "-632440576": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "886913856",
+    "names": {
+      "en": "Blaze Jewel III [3]",
+      "fr": "Joyau feu III [3]"
+    },
+    "skills": {
+      "-562534336": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "895028672",
+    "names": {
+      "en": "Frost Jewel II [2]",
+      "fr": "Joyau glace II [2]"
+    },
+    "skills": {
+      "1268070400": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "897466048",
+    "names": {
+      "en": "Dragon/Handicraft Jwl [3]",
+      "fr": "Joyau dracocide/artisanat [3]"
+    },
+    "skills": {
+      "-776946176": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "910101056",
+    "names": {
+      "en": "Crit Elem/Ironwall Jwl [3]",
+      "fr": "Joyau chamanisme/paladin [3]"
+    },
+    "skills": {
+      "-307644128": 1,
+      "313598432": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "912898176",
+    "names": {
+      "en": "Blaze/Quickswitch Jwl [3]",
+      "fr": "Joyau feu/morphose [3]"
+    },
+    "skills": {
+      "-1961116288": 1,
+      "-562534336": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "914233472",
+    "names": {
+      "en": "Stream/Handicraft Jwl [3]",
+      "fr": "Joyau eau/artisanat [3]"
+    },
+    "skills": {
+      "508916704": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "934416192",
+    "names": {
+      "en": "Charge Up/Expert Jwl [3]",
+      "fr": "Joyau surcharge/maître [3]"
+    },
+    "skills": {
+      "-2096489472": 1,
+      "353114912": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "944809600",
+    "names": {
+      "en": "Crit Element/Precise Jwl [3]",
+      "fr": "Joyau chamanisme/kyudo [3]"
+    },
+    "skills": {
+      "-420608864": 1,
+      "313598432": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "948977536",
+    "names": {
+      "en": "Throttle Jewel [3]",
+      "fr": "Joyau occulte [3]"
+    },
+    "skills": {
+      "1763191040": 1
+    },
+    "size": 3,
+    "type": "A"
+  },
+  {
+    "id": "949857152",
+    "names": {
+      "en": "Perfume Jewel [1]",
+      "fr": "Joyau essence [1]"
+    },
+    "skills": {
+      "-411441344": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "954350400",
+    "names": {
+      "en": "Maintenance Jewel [2]",
+      "fr": "Joyau survie [2]"
+    },
+    "skills": {
+      "469540352": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "986212736",
+    "names": {
+      "en": "Critical Jewel III [3]",
+      "fr": "Joyau berserk III [3]"
+    },
+    "skills": {
+      "-1607763456": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1024615424",
+    "names": {
+      "en": "Frost/Precise Jewel [3]",
+      "fr": "Joyau glace/kyudo [3]"
+    },
+    "skills": {
+      "-420608864": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1031937152",
+    "names": {
+      "en": "Blaze/Rzr Sharp Jwl [3]",
+      "fr": "Joyau feu/samouraï [3]"
+    },
+    "skills": {
+      "-562534336": 3,
+      "1050520384": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1067880832",
+    "names": {
+      "en": "Draincoat Jewel [2]",
+      "fr": "Joyau léthargie [2]"
+    },
+    "skills": {
+      "-181774400": 1
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "1088947584",
+    "names": {
+      "en": "Shield Jewel III [3]",
+      "fr": "Joyau bouclier III [3]"
+    },
+    "skills": {
+      "-1674114176": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1096472320",
+    "names": {
+      "en": "Grinder/Attack Jewel [3]",
+      "fr": "Joyau aiguiseur/attaque [3]"
+    },
+    "skills": {
+      "1": 1,
+      "1444935552": 2
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1115345024",
+    "names": {
+      "en": "Blunt Jewel II [2]",
+      "fr": "Joyau matraque II [2]"
+    },
+    "skills": {
+      "397306144": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "1150766464",
+    "names": {
+      "en": "Critical Jewel [1]",
+      "fr": "Joyau berserk [1]"
+    },
+    "skills": {
+      "-1607763456": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "1162934272",
+    "names": {
+      "en": "Sharp Jewel III [3]",
+      "fr": "Joyau trempe III [3]"
+    },
+    "skills": {
+      "1500129152": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1174071168",
+    "names": {
+      "en": "Focus/Precise Jewel [3]",
+      "fr": "Joyau concentration/kyudo [3]"
+    },
+    "skills": {
+      "-420608864": 1,
+      "-283334048": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1179637760",
+    "names": {
+      "en": "Gambit Jewel II [2]",
+      "fr": "Joyau punition II [2]"
+    },
+    "skills": {
+      "-1946345856": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "1190642816",
+    "names": {
+      "en": "Bandolier Jewel [1]",
+      "fr": "Joyau armurier [1]"
+    },
+    "skills": {
+      "1613139840": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "1194220032",
+    "names": {
+      "en": "Blunt Jewel [1]",
+      "fr": "Joyau matraque [1]"
+    },
+    "skills": {
+      "397306144": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "1202986624",
+    "names": {
+      "en": "Forceshot Jewel [3]",
+      "fr": "Joyau artilleur [3]"
+    },
+    "skills": {
+      "-1961297152": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1213481984",
+    "names": {
+      "en": "Quickswitch Jewel [1]",
+      "fr": "Joyau morphose [1]"
+    },
+    "skills": {
+      "-1961116288": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "1216872320",
+    "names": {
+      "en": "Crit Element Jewel II [2]",
+      "fr": "Joyau chamanisme II [2]"
+    },
+    "skills": {
+      "313598432": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "1230875008",
+    "names": {
+      "en": "Flash Jewel [1]",
+      "fr": "Joyau flash [1]"
+    },
+    "skills": {
+      "-257693696": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "1287680640",
+    "names": {
+      "en": "Flight/Handicraft Jwl [3]",
+      "fr": "Joyau acrobatie/artisanat [3]"
+    },
+    "skills": {
+      "402237312": 1,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1305797760",
+    "names": {
+      "en": "Counter Jewel [2]",
+      "fr": "Joyau contre-attaque [2]"
+    },
+    "skills": {
+      "280489184": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "1343145856",
+    "names": {
+      "en": "Precise Jewel III [3]",
+      "fr": "Joyau kyudo III [3]"
+    },
+    "skills": {
+      "-420608864": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1377760768",
+    "names": {
+      "en": "Trueshot Jewel [1]",
+      "fr": "Joyau sniper [1]"
+    },
+    "skills": {
+      "-160562336": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "1389113984",
+    "names": {
+      "en": "Frost/KO Jewel [3]",
+      "fr": "Joyau glace/cogneur [3]"
+    },
+    "skills": {
+      "-893407296": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1397927296",
+    "names": {
+      "en": "Crit Status/KO Jwl [3]",
+      "fr": "Joyau châtiment/cogneur [3]"
+    },
+    "skills": {
+      "-893407296": 1,
+      "-168922880": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1414248576",
+    "names": {
+      "en": "Potential Jewel [2]",
+      "fr": "Joyau héros [2]"
+    },
+    "skills": {
+      "422666624": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "1427190272",
+    "names": {
+      "en": "Crit Status Jewel II [2]",
+      "fr": "Joyau châtiment II [2]"
+    },
+    "skills": {
+      "-168922880": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "1443679488",
+    "names": {
+      "en": "Shield/Ironwall Jwl [3]",
+      "fr": "Joyau bouclier/paladin [3]"
+    },
+    "skills": {
+      "-1674114176": 3,
+      "-307644128": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1444555776",
+    "names": {
+      "en": "Shield Jewel [1]",
+      "fr": "Joyau bouclier [1]"
+    },
+    "skills": {
+      "-1674114176": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "1478235520",
+    "names": {
+      "en": "Evasion Jewel [2]",
+      "fr": "Joyau invulnérabilité [2]"
+    },
+    "skills": {
+      "144660544": 1
+    },
+    "size": 2,
+    "type": "A"
+  },
+  {
+    "id": "1494637824",
+    "names": {
+      "en": "Frost/Handicraft Jwl [3]",
+      "fr": "Joyau glace/artisanat [3]"
+    },
+    "skills": {
+      "1160639488": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1536980096",
+    "names": {
+      "en": "Stream Jewel III [3]",
+      "fr": "Joyau eau III [3]"
+    },
+    "skills": {
+      "508916704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1596720768",
+    "names": {
+      "en": "Frost/Ironwall Jwl [3]",
+      "fr": "Joyau glace/paladin [3]"
+    },
+    "skills": {
+      "-307644128": 1,
+      "1268070400": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1597431680",
+    "names": {
+      "en": "Draw Jewel II [2]",
+      "fr": "Joyau dégainage II [2]"
+    },
+    "skills": {
+      "686533440": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "1598502400",
+    "names": {
+      "en": "Counterattack Jewel [3]",
+      "fr": "Joyau riposte [3]"
+    },
+    "skills": {
+      "1174975744": 1
+    },
+    "size": 3,
+    "type": "A"
+  },
+  {
+    "id": "1619248640",
+    "names": {
+      "en": "Quickswitch/KO Jwl [3]",
+      "fr": "Joyau morphose/cogneur [3]"
+    },
+    "skills": {
+      "-1961116288": 3,
+      "-893407296": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1636575872",
+    "names": {
+      "en": "Rzr Sharp/Handicraft Jwl [3]",
+      "fr": "Joyau samouraï/artisanat [3]"
+    },
+    "skills": {
+      "1050520384": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1701043584",
+    "names": {
+      "en": "Pierce Jewel [3]",
+      "fr": "Joyau titane [3]"
+    },
+    "skills": {
+      "552982656": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1731714432",
+    "names": {
+      "en": "Friendship Jewel [1]",
+      "fr": "Joyau mousquetaire [1]"
+    },
+    "skills": {
+      "894530496": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "1738329216",
+    "names": {
+      "en": "Sprinter Jewel [1]",
+      "fr": "Joyau marathon [1]"
+    },
+    "skills": {
+      "-682586176": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "1789092864",
+    "names": {
+      "en": "Crit Elem Jwl III [3]",
+      "fr": "Joyau chamanisme III [3]"
+    },
+    "skills": {
+      "313598432": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1832912384",
+    "names": {
+      "en": "Blast Jewel III [3]",
+      "fr": "Joyau explosion III [3]"
+    },
+    "skills": {
+      "-844978880": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1833462144",
+    "names": {
+      "en": "Stream/Precise Jewel [3]",
+      "fr": "Joyau eau/kyudo [3]"
+    },
+    "skills": {
+      "-420608864": 1,
+      "508916704": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1887590400",
+    "names": {
+      "en": "Enhancer/Handicraft Jwl [3]",
+      "fr": "Joyau puissance/artisanat [3]"
+    },
+    "skills": {
+      "691199232": 3,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1906356096",
+    "names": {
+      "en": "Focus Jewel [1]",
+      "fr": "Joyau concentration [1]"
+    },
+    "skills": {
+      "-283334048": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "1910118400",
+    "names": {
+      "en": "Charge Up/Draw Jwl [3]",
+      "fr": "Joyau surcharge/dégainage [3]"
+    },
+    "skills": {
+      "353114912": 1,
+      "686533440": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "1933586560",
+    "names": {
+      "en": "Climber Jewel [1]",
+      "fr": "Joyau grimpeur [1]"
+    },
+    "skills": {
+      "-692636288": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "1967618304",
+    "names": {
+      "en": "Ironwall Jewel II [2]",
+      "fr": "Joyau paladin II [2]"
+    },
+    "skills": {
+      "-307644128": 2
+    },
+    "size": 2,
+    "type": "W"
+  },
+  {
+    "id": "1979979520",
+    "names": {
+      "en": "Botany Jewel [1]",
+      "fr": "Joyau botaniste [1]"
+    },
+    "skills": {
+      "860517760": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "2003488640",
+    "names": {
+      "en": "Challenger Jewel [3]",
+      "fr": "Joyau témérité [3]"
+    },
+    "skills": {
+      "1865909632": 1
+    },
+    "size": 3,
+    "type": "A"
+  },
+  {
+    "id": "2004238976",
+    "names": {
+      "en": "Magazine/Attack Jwl [3]",
+      "fr": "Joyau franc-tireur/attaque [3]"
+    },
+    "skills": {
+      "1": 1,
+      "802725120": 2
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "2005516288",
+    "names": {
+      "en": "Ironwall Jewel III [3]",
+      "fr": "Joyau paladin III [3]"
+    },
+    "skills": {
+      "-307644128": 3
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "2071836160",
+    "names": {
+      "en": "Sonorous/Handicraft Jwl [3]",
+      "fr": "Joyau musique/artisanat [3]"
+    },
+    "skills": {
+      "-1237438336": 2,
+      "1160639488": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "2074953216",
+    "names": {
+      "en": "Enduring Jewel [1]",
+      "fr": "Joyau chimiste [1]"
+    },
+    "skills": {
+      "-1684613760": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "2088515968",
+    "names": {
+      "en": "Dragon Jewel [1]",
+      "fr": "Joyau dracocide [1]"
+    },
+    "skills": {
+      "-776946176": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "2092268800",
+    "names": {
+      "en": "Opener Jewel [1]",
+      "fr": "Joyau premier coup [1]"
+    },
+    "skills": {
+      "1711950720": 1
+    },
+    "size": 1,
+    "type": "W"
+  },
+  {
+    "id": "2099419520",
+    "names": {
+      "en": "Footing Jewel [1]",
+      "fr": "Joyau antiséisme [1]"
+    },
+    "skills": {
+      "-609509888": 1
+    },
+    "size": 1,
+    "type": "A"
+  },
+  {
+    "id": "2117714048",
+    "names": {
+      "en": "Poison/Attack Jewel [3]",
+      "fr": "Joyau poison/attaque [3]"
+    },
+    "skills": {
+      "-1629629184": 1,
+      "1": 1
+    },
+    "size": 3,
+    "type": "W"
+  },
+  {
+    "id": "2145184512",
+    "names": {
+      "en": "Intimidator Jewel [1]",
+      "fr": "Joyau intimidation [1]"
+    },
+    "skills": {
+      "1472632704": 1
     },
     "size": 1,
     "type": "A"

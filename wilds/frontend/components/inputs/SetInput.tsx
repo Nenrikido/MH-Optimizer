@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 import {Set as ArmorSet} from '../../model/Set';
 import CustomAutocomplete from './CustomAutocomplete';
 import { useI18n } from '../../lib/i18nContext';
+import { NamedEntity } from '../../model/Localized';
 
 interface SetInputProps {
   sets: ArmorSet[];
   setSets: (sets: ArmorSet[]) => void;
-  availableSets: string[];
+  availableSets: NamedEntity[];
 }
 
 function SetInput({sets, setSets, availableSets}: SetInputProps) {
@@ -14,8 +15,9 @@ function SetInput({sets, setSets, availableSets}: SetInputProps) {
   const { t } = useI18n();
 
   const handleSelect = (value: string) => {
-    if (value && !sets.some(set => set.name === value)) {
-      setSets([...sets, {name: value, min_pieces: 2}]);
+    const selected = availableSets.find((setItem) => setItem.id === value);
+    if (selected && !sets.some(setItem => setItem.id === value)) {
+      setSets([...sets, {id: selected.id, names: selected.names, min_pieces: 2}]);
       setInput('');
     }
   };
@@ -25,7 +27,7 @@ function SetInput({sets, setSets, availableSets}: SetInputProps) {
       value={input}
       onChange={handleSelect}
       onInputChange={setInput}
-      availableSkills={availableSets}
+      options={availableSets}
       placeholder={t.inputs.armor}
       fullWidth
       size="small"

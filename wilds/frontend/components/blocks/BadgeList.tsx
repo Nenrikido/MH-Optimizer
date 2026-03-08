@@ -14,10 +14,10 @@ interface BadgeListProps {
 
 // Displays a list of badges (skills, sets, weapons)
 function BadgeList({items, setItems, type}: BadgeListProps) {
-  const { t } = useI18n();
+  const { language } = useI18n();
 
   const handleRemove = (item: Skill | ArmorSet | Weapon) => {
-    setItems(items.filter(i => i !== item));
+    setItems(items.filter(i => i.id !== item.id));
   };
 
   const handleUpdateSkill = (index: number, field: 'max_points' | 'weight', value: number) => {
@@ -36,7 +36,7 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
       <Box sx={{mb: 2, display: 'flex', flexWrap: 'wrap', gap: 1}}>
         {items.map((item, idx) => (
             <Box
-                key={item.name}
+                key={item.id}
                 sx={{
                   display: 'flex',
                   alignItems: 'center',
@@ -50,7 +50,9 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                   maxWidth: 'calc(25% - 6px)',
                 }}
             >
-              <Box sx={{flexGrow: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#f8f9fa', mr: 0.5}}>{item.name}</Box>
+              <Box sx={{flexGrow: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#f8f9fa', mr: 0.5}}>
+                {item.names[language] || item.names.en}
+              </Box>
               <Box sx={{display: 'flex', alignItems: 'center', gap: 0.5, flexShrink: 0}}>
                 {type === 'skills' && (
                     <>

@@ -6,13 +6,14 @@ import AddAmuletButton from '../blocks/AddAmuletButton';
 import TemplatesTab from './TemplatesTab';
 import {Result} from '../../model/Result';
 import {Amulet} from '../../model/Amulet';
+import { NamedEntity } from '../../model/Localized';
 import { useI18n } from '../../lib/i18nContext';
 
 interface TabsProps {
   results: Result[] | string[];
   amulets: Amulet[];
   setAmulets: (amulets: Amulet[]) => void;
-  availableSkills: string[];
+  availableSkills: NamedEntity[];
   loading: boolean;
 }
 
