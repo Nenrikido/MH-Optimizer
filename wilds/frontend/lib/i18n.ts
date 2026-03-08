@@ -27,6 +27,15 @@ export interface Translations {
     filters: string;
     templates: string;
   };
+  templates: {
+    defaultTitle: string;
+    customTitle: string;
+    namePlaceholder: string;
+    saveCurrent: string;
+    emptyCustom: string;
+    apply: string;
+    delete: string;
+  };
   results: {
     noResults: string;
     error: string;
@@ -45,6 +54,24 @@ export interface Translations {
   };
   info: {
     help: string;
+    howToUse: string;
+    howToUseSteps: {
+      step1: string;
+      step2: string;
+      step3: string;
+      step4: string;
+    };
+    notes: string;
+    notesItems: {
+      dataUpToDate: string;
+      defaultValues: string;
+    };
+    featuresToCome: string;
+    featuresToComeItems: {
+      iconsImages: string;
+      armorFilters: string;
+      betterDesign: string;
+    };
   };
   common: {
     loading: string;
@@ -76,7 +103,16 @@ const en: Translations = {
   tabs: {
     results: 'Results',
     filters: 'Filters',
-    templates: 'Templates (WIP)',
+    templates: 'Templates',
+  },
+  templates: {
+    defaultTitle: 'Default Templates',
+    customTitle: 'Custom Templates',
+    namePlaceholder: 'Template name',
+    saveCurrent: 'Save Current',
+    emptyCustom: 'No custom templates saved yet.',
+    apply: 'Apply',
+    delete: 'Delete',
   },
   results: {
     noResults: 'No results for now.',
@@ -96,6 +132,24 @@ const en: Translations = {
   },
   info: {
     help: 'Help',
+    howToUse: 'How to use:',
+    howToUseSteps: {
+      step1: 'Type your desired skills, sets and weapons in the input boxes (autocomplete available)',
+      step2: 'Choose your max amount of skill points and the weight of each skill, and the min amount of pieces from each set',
+      step3: 'In the "Filters" tab, you can choose the amulets you have in your box',
+      step4: 'Click on "Optimize" and wait for the results',
+    },
+    notes: 'Notes:',
+    notesItems: {
+      dataUpToDate: 'Data is up to date with TU4.1 (AT Arkveld)',
+      defaultValues: "Yes the default values are for Insect Glaive, yes I'm a weeb",
+    },
+    featuresToCome: 'Features to come:',
+    featuresToComeItems: {
+      iconsImages: 'A bit of icons and images here and there',
+      armorFilters: 'Armor pieces filters',
+      betterDesign: 'Better design (I suck at design sry)',
+    },
   },
   common: {
     loading: 'Loading...',
@@ -127,7 +181,16 @@ const fr: Translations = {
   tabs: {
     results: 'Résultats',
     filters: 'Filtres',
-    templates: 'Modèles (EN COURS)',
+    templates: 'Modèles',
+  },
+  templates: {
+    defaultTitle: 'Modèles par défaut',
+    customTitle: 'Modèles personnalisés',
+    namePlaceholder: 'Nom du modèle',
+    saveCurrent: 'Sauver la config actuelle',
+    emptyCustom: 'Aucun modèle personnalisé enregistré.',
+    apply: 'Appliquer',
+    delete: 'Supprimer',
   },
   results: {
     noResults: 'Aucun résultat pour le moment.',
@@ -147,6 +210,24 @@ const fr: Translations = {
   },
   info: {
     help: 'Aide',
+    howToUse: 'Comment utiliser :',
+    howToUseSteps: {
+      step1: 'Tapez vos compétences, ensembles d\'armure et armes souhaités dans les champs de saisie (auto-complétion disponible)',
+      step2: 'Choisissez le nombre maximum de points de compétence et le poids de chaque compétence, ainsi que le nombre minimum de pièces de chaque ensemble',
+      step3: 'Dans l\'onglet "Filtres", vous pouvez choisir les amulettes que vous avez dans votre inventaire',
+      step4: 'Cliquez sur "Optimiser" et attendez les résultats',
+    },
+    notes: 'Notes :',
+    notesItems: {
+      dataUpToDate: 'Les données sont à jour avec TU4.1 (AT Arkveld)',
+      defaultValues: 'Oui, les valeurs par défaut sont pour l\'Insectoglaive, oui je suis un weeb',
+    },
+    featuresToCome: 'Fonctionnalités à venir :',
+    featuresToComeItems: {
+      iconsImages: 'Quelques icônes et images ici et là',
+      armorFilters: 'Filtres de pièces d\'armure',
+      betterDesign: 'Meilleur design (je suis nul en design désolé)',
+    },
   },
   common: {
     loading: 'Chargement...',
@@ -158,4 +239,3 @@ export const translations: Record<Language, Translations> = { en, fr };
 export const getTranslations = (language: Language): Translations => {
   return translations[language] || translations.en;
 };
-

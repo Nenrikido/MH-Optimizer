@@ -17,6 +17,7 @@ import { DEFAULT_DATA } from './lib/defaultData';
 import { theme } from './lib/theme';
 import { globalStyles } from './lib/globalStyles';
 import { I18nProvider } from './lib/i18nContext';
+import { TemplateData } from './model/Template';
 
 function normalizeEntity(entry: any): NamedEntity | null {
   if (!entry) return null;
@@ -82,6 +83,49 @@ function App() {
     const [availableSets, setAvailableSets] = useState<NamedEntity[]>([]);
     const [availableWeapons, setAvailableWeapons] = useState<NamedEntity[]>([]);
     const [loadingLists, setLoadingLists] = useState<boolean>(true);
+    const [customTemplates, setCustomTemplates] = useState<TemplateData[]>([]);
+
+    const cloneConfig = (template: TemplateData) => ({
+        skills: template.skills.map((s) => ({ ...s, names: { ...s.names } })),
+        sets: template.sets.map((s) => ({ ...s, names: { ...s.names } })),
+        weapons: template.weapons.map((w) => ({ ...w, names: { ...w.names } })),
+        amulets: template.amulets.map((a) => ({ ...a, skills: a.skills.map((s) => ({ ...s })) })),
+        options: { ...template.options },
+    });
+
+    const applyTemplate = (template: TemplateData) => {
+        const cloned = cloneConfig(template);
+        setSkills(cloned.skills);
+        setSets(cloned.sets);
+        setWeapons(cloned.weapons);
+        setAmulets(cloned.amulets);
+        setOptions(cloned.options);
+    };
+
+    const saveCustomTemplate = (name: string) => {
+        const trimmedName = name.trim();
+        if (!trimmedName) return;
+
+        const template: TemplateData = {
+            id: `custom-${Date.now()}`,
+            name: trimmedName,
+            skills: skills.map((s) => ({ ...s, names: { ...s.names } })),
+            sets: sets.map((s) => ({ ...s, names: { ...s.names } })),
+            weapons: weapons.map((w) => ({ ...w, names: { ...w.names } })),
+            amulets: amulets.map((a) => ({ ...a, skills: a.skills.map((skill) => ({ ...skill })) })),
+            options: { ...options },
+        };
+
+        const nextTemplates = [...customTemplates, template];
+        setCustomTemplates(nextTemplates);
+        localStorage.setItem('mh_opti_custom_templates', JSON.stringify(nextTemplates));
+    };
+
+    const deleteCustomTemplate = (templateId: string) => {
+        const nextTemplates = customTemplates.filter((template) => template.id !== templateId);
+        setCustomTemplates(nextTemplates);
+        localStorage.setItem('mh_opti_custom_templates', JSON.stringify(nextTemplates));
+    };
 
     useEffect(() => {
         fetch('/api/available_items')
@@ -140,6 +184,19 @@ function App() {
 
                 setLoadingLists(false);
             });
+    }, []);
+
+    useEffect(() => {
+        const raw = localStorage.getItem('mh_opti_custom_templates');
+        if (!raw) return;
+        try {
+            const parsed = JSON.parse(raw);
+            if (Array.isArray(parsed)) {
+                setCustomTemplates(parsed as TemplateData[]);
+            }
+        } catch {
+            setCustomTemplates([]);
+        }
     }, []);
 
     const handleSaveConfig = () => {
@@ -207,6 +264,11 @@ function App() {
                             setAmulets={setAmulets}
                             availableSkills={availableSkills}
                             loading={loading}
+                            defaultTemplates={DEFAULT_DATA.defaultTemplates}
+                            customTemplates={customTemplates}
+                            onApplyTemplate={applyTemplate}
+                            onSaveTemplate={saveCustomTemplate}
+                            onDeleteTemplate={deleteCustomTemplate}
                         />
                     </Box>
                 </Box>

@@ -16,25 +16,23 @@ function InfoCollapse() {
           <Typography>ⓘ {t.info.help}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>How to use :</Typography>
+          <Typography>{t.info.howToUse}</Typography>
           <ul>
-            <li>Type your desired skills, sets and weapons in the input boxes (autocomplete available)</li>
-            <li>Choose your max amount of skill points and the weight of each skill, and the min amount of pieces from
-              each set
-            </li>
-            <li>In the "Filters" tab, you can choose the amulets you have in your box</li>
-            <li>Click on "Optimize" and wait for the results</li>
+            <li>{t.info.howToUseSteps.step1}</li>
+            <li>{t.info.howToUseSteps.step2}</li>
+            <li>{t.info.howToUseSteps.step3}</li>
+            <li>{t.info.howToUseSteps.step4}</li>
           </ul>
-          <Typography>Notes :</Typography>
+          <Typography>{t.info.notes}</Typography>
           <ul>
-            <li>Data is up to date with TU4.1 (AT Arkveld)</li>
-            <li>Yes the default values are for LS, yes i'm a weeb</li>
+            <li>{t.info.notesItems.dataUpToDate}</li>
+            <li>{t.info.notesItems.defaultValues}</li>
           </ul>
-          <Typography>Features to come :</Typography>
+          <Typography>{t.info.featuresToCome}</Typography>
           <ul>
-            <li>Skill & set templates</li>
-            <li>Armor pieces filters</li>
-            <li>Better design (I suck at design sry)</li>
+            <li>{t.info.featuresToComeItems.iconsImages}</li>
+            <li>{t.info.featuresToComeItems.armorFilters}</li>
+            <li>{t.info.featuresToComeItems.betterDesign}</li>
           </ul>
         </AccordionDetails>
       </Accordion>

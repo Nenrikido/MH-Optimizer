@@ -8,6 +8,7 @@ import {Result} from '../../model/Result';
 import {Amulet} from '../../model/Amulet';
 import { NamedEntity } from '../../model/Localized';
 import { useI18n } from '../../lib/i18nContext';
+import { TemplateData } from '../../model/Template';
 
 interface TabsProps {
   results: Result[] | string[];
@@ -15,6 +16,11 @@ interface TabsProps {
   setAmulets: (amulets: Amulet[]) => void;
   availableSkills: NamedEntity[];
   loading: boolean;
+  defaultTemplates: TemplateData[];
+  customTemplates: TemplateData[];
+  onApplyTemplate: (template: TemplateData) => void;
+  onSaveTemplate: (name: string) => void;
+  onDeleteTemplate: (templateId: string) => void;
 }
 
 function TabPanel(props: { children?: React.ReactNode; index: number; value: number }) {
@@ -52,7 +58,18 @@ function a11yProps(index: number) {
   };
 }
 
-function TabsComponent({results, amulets, setAmulets, availableSkills, loading}: TabsProps) {
+function TabsComponent({
+  results,
+  amulets,
+  setAmulets,
+  availableSkills,
+  loading,
+  defaultTemplates,
+  customTemplates,
+  onApplyTemplate,
+  onSaveTemplate,
+  onDeleteTemplate,
+}: TabsProps) {
   const [value, setValue] = useState(0);
   const { t } = useI18n();
 
@@ -126,7 +143,6 @@ function TabsComponent({results, amulets, setAmulets, availableSkills, loading}:
             <Tab
                 label={t.tabs.templates}
                 {...a11yProps(2)}
-                disabled
                 sx={{
                   border: '2px solid transparent',
                   borderBottom: '2px solid transparent',
@@ -154,7 +170,13 @@ function TabsComponent({results, amulets, setAmulets, availableSkills, loading}:
             <AddAmuletButton onAdd={handleAddAmulet} />
           </TabPanel>
           <TabPanel value={value} index={2}>
-            <TemplatesTab />
+            <TemplatesTab
+              defaultTemplates={defaultTemplates}
+              customTemplates={customTemplates}
+              onApplyTemplate={onApplyTemplate}
+              onSaveTemplate={onSaveTemplate}
+              onDeleteTemplate={onDeleteTemplate}
+            />
           </TabPanel>
         </Box>
       </Box>
