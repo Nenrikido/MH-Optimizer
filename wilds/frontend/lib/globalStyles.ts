@@ -1,3 +1,8 @@
+/**
+ * Global CSS styles for the application.
+ * Defines scrollbar styling for both webkit and Firefox browsers.
+ */
+
 export const globalStyles = {
   body: {
     scrollbarWidth: 'thin',
@@ -38,4 +43,3 @@ export const globalStyles = {
     background: '#6c757d',
   },
 };
-

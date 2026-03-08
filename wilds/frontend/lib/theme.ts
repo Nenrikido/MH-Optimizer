@@ -1,3 +1,8 @@
+/**
+ * Material-UI theme configuration.
+ * Defines the dark theme with custom colors, typography, and component overrides.
+ */
+
 import { createTheme } from '@mui/material/styles';
 
 export const theme = createTheme({
@@ -75,4 +80,3 @@ export const theme = createTheme({
     },
   },
 });
-

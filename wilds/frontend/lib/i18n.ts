@@ -1,3 +1,8 @@
+/**
+ * Internationalization translations and configuration.
+ * Defines translation types and provides translations for English and French.
+ */
+
 export type Language = 'en' | 'fr';
 
 export interface Translations {

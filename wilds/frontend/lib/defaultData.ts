@@ -1,3 +1,8 @@
+/**
+ * Default application data and starter templates.
+ * Provides initial configuration values, default templates, and starter presets.
+ */
+
 import {Skill} from '../model/Skill';
 import {Set as ArmorSet} from '../model/Set';
 import {Weapon} from '../model/Weapon';
