@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Weapon} from '../../model/Weapon';
 import CustomAutocomplete from './CustomAutocomplete';
+import { useI18n } from '../../lib/i18nContext';
 
 interface WeaponInputProps {
   weapons: Weapon[];
@@ -10,6 +11,7 @@ interface WeaponInputProps {
 
 function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) {
   const [input, setInput] = useState('');
+  const { t } = useI18n();
 
   const handleSelect = (value: string) => {
     if (value && !weapons.some(weapon => weapon.name === value)) {
@@ -24,7 +26,7 @@ function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) 
       onChange={handleSelect}
       onInputChange={setInput}
       availableSkills={availableWeapons}
-      placeholder="On which weapon(s) ?"
+      placeholder={t.inputs.weapons}
       fullWidth
       size="small"
       sx={{mb: 1}}

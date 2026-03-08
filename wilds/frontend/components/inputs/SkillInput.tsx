@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Skill} from '../../model/Skill';
 import CustomAutocomplete from './CustomAutocomplete';
+import { useI18n } from '../../lib/i18nContext';
 
 interface SkillInputProps {
   skills: Skill[];
@@ -11,6 +12,7 @@ interface SkillInputProps {
 // This component handles skill input with suggestions/autocomplete
 function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
   const [input, setInput] = useState('');
+  const { t } = useI18n();
 
   const handleSelect = (value: string) => {
     if (value && !skills.some(skill => skill.name === value)) {
@@ -26,7 +28,7 @@ function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
       onInputChange={setInput}
       availableSkills={availableSkills}
       filterOutValues={skills.map(s => s.name)}
-      placeholder="Which skills do you want to have ?"
+      placeholder={t.inputs.skills}
       fullWidth
       size="small"
       sx={{mb: 1}}

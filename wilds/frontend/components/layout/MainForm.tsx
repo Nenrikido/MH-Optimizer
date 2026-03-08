@@ -10,6 +10,7 @@ import {Skill} from '../../model/Skill';
 import {Set as ArmorSet} from '../../model/Set';
 import {Weapon} from '../../model/Weapon';
 import type {Options} from '../../model/Options';
+import { useI18n } from '../../lib/i18nContext';
 
 interface MainFormProps {
   skills: Skill[];
@@ -46,8 +47,10 @@ function MainForm({
                     loadingLists,
                     onSaveConfig
                   }: MainFormProps) {
+  const { t } = useI18n();
+
   if (loadingLists) {
-    return <Box sx={{ p: 3 }}>Loading lists...</Box>;
+    return <Box sx={{ p: 3 }}>{t.common.loading}</Box>;
   }
   return (
       <Box sx={{
@@ -60,15 +63,15 @@ function MainForm({
       }}>
         <InfoCollapse />
         <Box sx={{ mt: 1 }}>
-          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>Skills</Typography>
+          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>{t.form.skills}</Typography>
           <SkillInput skills={skills} setSkills={setSkills} availableSkills={availableSkills} />
           <BadgeList items={skills} setItems={setSkills} type="skills" />
 
-          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>Sets</Typography>
+          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>{t.form.armor}</Typography>
           <SetInput sets={sets} setSets={setSets} availableSets={availableSets} />
           <BadgeList items={sets} setItems={setSets} type="sets" />
 
-          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>Weapons</Typography>
+          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>{t.form.weapons}</Typography>
           <WeaponInput weapons={weapons} setWeapons={setWeapons} availableWeapons={availableWeapons} />
           <BadgeList items={weapons} setItems={setWeapons} type="weapons" />
 

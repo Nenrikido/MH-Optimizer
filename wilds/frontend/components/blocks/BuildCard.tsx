@@ -1,12 +1,15 @@
 import React from 'react';
 import {Box, Card, CardContent, Chip, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper} from '@mui/material';
 import {BuildItem, BuildSkill, Result} from "../../model/Result";
+import { useI18n } from '../../lib/i18nContext';
 
 interface BuildCardProps {
   build: Result;
 }
 
 function BuildCard({ build }: BuildCardProps) {
+  const { t } = useI18n();
+
   const getSlotIcon = (type: string) => {
     return type === 'W' ? '⬤' : '◆';
   };
@@ -46,7 +49,7 @@ function BuildCard({ build }: BuildCardProps) {
         </Box>
 
         <Typography variant="subtitle2" sx={{ color: '#adb5bd', mb: 1, fontWeight: 600, fontSize: '0.875rem' }}>
-          Items:
+          {t.results.armorLabel}:
         </Typography>
         <TableContainer component={Paper} sx={{ mb: 2, backgroundColor: '#212529', overflowX: 'auto', maxWidth: '100%' }}>
           <Table size="small" sx={{ tableLayout: 'fixed', width: '100%' }}>
@@ -91,7 +94,7 @@ function BuildCard({ build }: BuildCardProps) {
         </TableContainer>
 
         <Typography variant="subtitle2" sx={{ color: '#adb5bd', mb: 1, fontWeight: 600, fontSize: '0.875rem' }}>
-          Skills:
+          {t.results.skillsLabel}:
         </Typography>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.375 }}>
           {build.skills.map((skill: BuildSkill) => {

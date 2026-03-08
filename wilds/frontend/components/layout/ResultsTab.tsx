@@ -2,6 +2,7 @@ import React from 'react';
 import {Box, Paper, Typography} from '@mui/material';
 import BuildCard from '../blocks/BuildCard';
 import {Result} from '../../model/Result';
+import { useI18n } from '../../lib/i18nContext';
 
 interface ResultsTabProps {
   results: Result[] | string[];
@@ -9,18 +10,20 @@ interface ResultsTabProps {
 }
 
 function ResultsTab({results, loading}: ResultsTabProps) {
+  const { t } = useI18n();
+
   return (
     <Box>
       <Typography variant="body1" sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>
-        Optimization results
+        {t.results.title}
       </Typography>
       {loading ? (
         <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
           <div className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></div>
-          Optimizing ...
+          {t.common.loading}
         </Box>
       ) : results.length === 0 ? (
-        <Typography>No result for now.</Typography>
+        <Typography>{t.results.noResults}</Typography>
       ) : (
         results.map((res, idx) =>
           typeof res === 'string' ? (

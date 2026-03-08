@@ -4,6 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import {Skill} from '../../model/Skill';
 import {Set as ArmorSet} from '../../model/Set';
 import {Weapon} from '../../model/Weapon';
+import { useI18n } from '../../lib/i18nContext';
 
 interface BadgeListProps {
   items: (Skill | ArmorSet | Weapon)[];
@@ -13,6 +14,8 @@ interface BadgeListProps {
 
 // Displays a list of badges (skills, sets, weapons)
 function BadgeList({items, setItems, type}: BadgeListProps) {
+  const { t } = useI18n();
+
   const handleRemove = (item: Skill | ArmorSet | Weapon) => {
     setItems(items.filter(i => i !== item));
   };

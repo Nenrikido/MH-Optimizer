@@ -4,6 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import ClearIcon from '@mui/icons-material/Clear';
 import {Amulet} from '../../model/Amulet';
 import CustomAutocomplete from '../inputs/CustomAutocomplete';
+import { useI18n } from '../../lib/i18nContext';
 
 interface AmuletBadgeProps {
   amulet: Amulet;
@@ -26,6 +27,8 @@ function AmuletBadge({
                        index,
                        availableSkills
                      }: AmuletBadgeProps) {
+  const { t } = useI18n();
+
   const skillInputSx = {
     '& .MuiOutlinedInput-root': {
       color: '#f8f9fa',
@@ -47,7 +50,7 @@ function AmuletBadge({
                     value={amulet.skills[i - 1]?.name || ''}
                     onChange={(value) => onSkillChange(index, i - 1, 'name', value)}
                     availableSkills={availableSkills}
-                    placeholder={`Skill ${i}`}
+                    placeholder={`${t.filters.amulets.skill} ${i}`}
                     size="small"
                     fullWidth
                     sx={{'& .MuiOutlinedInput-root': {color: '#f8f9fa', '& fieldset': {borderColor: '#6c757d'}, '&:hover fieldset': {borderColor: '#adb5bd'}}}}
@@ -96,7 +99,7 @@ function AmuletBadge({
                 sx={{color: '#f8f9fa'}}
             >
               <MenuItem value="">
-                <em>Slots</em>
+                <em>{t.filters.amulets.level}</em>
               </MenuItem>
               <MenuItem value="1-0-0">1-0-0</MenuItem>
               <MenuItem value="1-1-0">1-1-0</MenuItem>

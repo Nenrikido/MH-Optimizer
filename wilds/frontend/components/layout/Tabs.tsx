@@ -6,6 +6,7 @@ import AddAmuletButton from '../blocks/AddAmuletButton';
 import TemplatesTab from './TemplatesTab';
 import {Result} from '../../model/Result';
 import {Amulet} from '../../model/Amulet';
+import { useI18n } from '../../lib/i18nContext';
 
 interface TabsProps {
   results: Result[] | string[];
@@ -52,6 +53,7 @@ function a11yProps(index: number) {
 
 function TabsComponent({results, amulets, setAmulets, availableSkills, loading}: TabsProps) {
   const [value, setValue] = useState(0);
+  const { t } = useI18n();
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -87,7 +89,7 @@ function TabsComponent({results, amulets, setAmulets, availableSkills, loading}:
               }}
           >
             <Tab
-                label="Results"
+                label={t.tabs.results}
                 {...a11yProps(0)}
                 sx={{
                   border: '2px solid transparent',
@@ -104,7 +106,7 @@ function TabsComponent({results, amulets, setAmulets, availableSkills, loading}:
                 }}
             />
             <Tab
-                label="Filters"
+                label={t.tabs.filters}
                 {...a11yProps(1)}
                 sx={{
                   border: '2px solid transparent',
@@ -121,7 +123,7 @@ function TabsComponent({results, amulets, setAmulets, availableSkills, loading}:
                 }}
             />
             <Tab
-                label="Templates (WIP)"
+                label={t.tabs.templates}
                 {...a11yProps(2)}
                 disabled
                 sx={{
@@ -146,7 +148,7 @@ function TabsComponent({results, amulets, setAmulets, availableSkills, loading}:
           </TabPanel>
           <TabPanel value={value} index={1}>
             <Typography variant="body1"
-                        sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>Amulets</Typography>
+                        sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>{t.tabs.filters}</Typography>
             <AmuletBadgeList amulets={amulets} setAmulets={setAmulets} availableSkills={availableSkills} />
             <AddAmuletButton onAdd={handleAddAmulet} />
           </TabPanel>

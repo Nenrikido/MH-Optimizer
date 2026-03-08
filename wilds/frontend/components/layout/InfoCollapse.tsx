@@ -1,8 +1,11 @@
 import React from 'react';
 import {Accordion, AccordionDetails, AccordionSummary, Typography} from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useI18n } from '../../lib/i18nContext';
 
 function InfoCollapse() {
+  const { t } = useI18n();
+
   return (
       <Accordion>
         <AccordionSummary
@@ -10,7 +13,7 @@ function InfoCollapse() {
             aria-controls="info-content"
             id="info-header"
         >
-          <Typography>ⓘ Infos</Typography>
+          <Typography>ⓘ {t.info.help}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>How to use :</Typography>

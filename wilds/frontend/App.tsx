@@ -15,6 +15,7 @@ import {Result} from './model/Result';
 import { DEFAULT_DATA } from './lib/defaultData';
 import { theme } from './lib/theme';
 import { globalStyles } from './lib/globalStyles';
+import { I18nProvider } from './lib/i18nContext';
 
 function App() {
     // États principaux pour skills, sets, weapons, etc.
@@ -105,47 +106,49 @@ function App() {
     };
 
     return (
-        <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <GlobalStyles styles={globalStyles} />
-            <Box sx={{ height: '100vh', overflow: 'hidden' }}>
-                <Header />
-                <Box
-                    sx={{
-                        display: 'flex',
-                        flexDirection: { xs: 'column', lg: 'row' },
-                        height: 'calc(100vh - 75px)',
-                        overflow: { xs: 'auto', lg: 'hidden' }
-                    }}
-                    id="main-container"
-                >
-                    <MainForm
-                        skills={skills}
-                        setSkills={setSkills}
-                        sets={sets}
-                        setSets={setSets}
-                        weapons={weapons}
-                        setWeapons={setWeapons}
-                        options={options}
-                        setOptions={setOptions}
-                        availableSkills={availableSkills}
-                        availableSets={availableSets}
-                        availableWeapons={availableWeapons}
-                        onOptimize={handleOptimize}
-                        loading={loading}
-                        loadingLists={loadingLists}
-                        onSaveConfig={handleSaveConfig}
-                    />
-                    <Tabs
-                        results={results}
-                        amulets={amulets}
-                        setAmulets={setAmulets}
-                        availableSkills={availableSkills}
-                        loading={loading}
-                    />
+        <I18nProvider>
+            <ThemeProvider theme={theme}>
+                <CssBaseline />
+                <GlobalStyles styles={globalStyles} />
+                <Box sx={{ height: '100vh', overflow: 'hidden' }}>
+                    <Header />
+                    <Box
+                        sx={{
+                            display: 'flex',
+                            flexDirection: { xs: 'column', lg: 'row' },
+                            height: 'calc(100vh - 75px)',
+                            overflow: { xs: 'auto', lg: 'hidden' }
+                        }}
+                        id="main-container"
+                    >
+                        <MainForm
+                            skills={skills}
+                            setSkills={setSkills}
+                            sets={sets}
+                            setSets={setSets}
+                            weapons={weapons}
+                            setWeapons={setWeapons}
+                            options={options}
+                            setOptions={setOptions}
+                            availableSkills={availableSkills}
+                            availableSets={availableSets}
+                            availableWeapons={availableWeapons}
+                            onOptimize={handleOptimize}
+                            loading={loading}
+                            loadingLists={loadingLists}
+                            onSaveConfig={handleSaveConfig}
+                        />
+                        <Tabs
+                            results={results}
+                            amulets={amulets}
+                            setAmulets={setAmulets}
+                            availableSkills={availableSkills}
+                            loading={loading}
+                        />
+                    </Box>
                 </Box>
-            </Box>
-        </ThemeProvider>
+            </ThemeProvider>
+        </I18nProvider>
     );
 }
 

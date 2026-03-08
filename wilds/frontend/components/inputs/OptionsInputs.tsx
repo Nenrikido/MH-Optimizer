@@ -1,6 +1,7 @@
 import React from 'react';
 import {Box, Button, Checkbox, FormControlLabel} from '@mui/material';
 import type {Options} from '../../model/Options';
+import { useI18n } from '../../lib/i18nContext';
 
 interface OptionsProps {
   options: Options;
@@ -11,6 +12,8 @@ interface OptionsProps {
 }
 
 function OptionsInputs({options, setOptions, onOptimize, loading, onSaveConfig}: OptionsProps) {
+  const { t } = useI18n();
+
   return (
       <Box>
         <FormControlLabel
@@ -21,7 +24,7 @@ function OptionsInputs({options, setOptions, onOptimize, loading, onSaveConfig}:
               size="small"
             />
           }
-          label="Include all generated amulets from desired skills (unchecking this will include only farmable amulets and amulets chosen from the filters tab)"
+          label={t.options.includeAllAmulets}
           sx={{ mb: 1, display: 'block' }}
         />
         <FormControlLabel
@@ -32,7 +35,7 @@ function OptionsInputs({options, setOptions, onOptimize, loading, onSaveConfig}:
               size="small"
             />
           }
-          label="Transcend all armors (this changes their decoration slots if their rarity is 5 or 6)"
+          label={t.options.transcend}
           sx={{ mb: 1, display: 'block' }}
         />
         <FormControlLabel
@@ -43,15 +46,15 @@ function OptionsInputs({options, setOptions, onOptimize, loading, onSaveConfig}:
               size="small"
             />
           }
-          label="Include all possible sets on Gogmazios upgraded weapons"
+          label={t.options.includeGogSets}
           sx={{ mb: 2, display: 'block' }}
         />
         <Box sx={{ display: 'flex', gap: 1 }}>
           <Button variant="contained" color="success" onClick={onOptimize} disabled={loading} size="small">
-            {loading ? 'Optimizing...' : 'Optimize'}
+            {loading ? t.common.loading : t.form.optimize}
           </Button>
           <Button variant="contained" color="primary" onClick={onSaveConfig} size="small">
-            Save Configuration
+            {t.form.save}
           </Button>
         </Box>
       </Box>

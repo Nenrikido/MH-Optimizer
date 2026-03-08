@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Set as ArmorSet} from '../../model/Set';
 import CustomAutocomplete from './CustomAutocomplete';
+import { useI18n } from '../../lib/i18nContext';
 
 interface SetInputProps {
   sets: ArmorSet[];
@@ -10,6 +11,7 @@ interface SetInputProps {
 
 function SetInput({sets, setSets, availableSets}: SetInputProps) {
   const [input, setInput] = useState('');
+  const { t } = useI18n();
 
   const handleSelect = (value: string) => {
     if (value && !sets.some(set => set.name === value)) {
@@ -24,7 +26,7 @@ function SetInput({sets, setSets, availableSets}: SetInputProps) {
       onChange={handleSelect}
       onInputChange={setInput}
       availableSkills={availableSets}
-      placeholder="With which set(s) ?"
+      placeholder={t.inputs.armor}
       fullWidth
       size="small"
       sx={{mb: 1}}
