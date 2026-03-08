@@ -72,6 +72,7 @@ items = {
     'amulet': []
 }
 weapon_ids = set()
+weapon_names = set()  # Track kind+name to avoid Gogmazios duplicates
 for weapon_file in weapon_files:
     weapons = json.load(open(weapon_file, encoding='utf-8'))
     for weapon in weapons:
@@ -81,13 +82,23 @@ for weapon_file in weapon_files:
             continue
         weapon_ids.add(weapon_id)
 
+        # Check if this is a Gogmazios weapon (multiple variants with same name)
+        names = get_names(weapon)
+        weapon_name_key = f"{weapon_kind}:{names['en']}"
+        is_gog = weapon['series_id'] is None and weapon['crafting']['zenny_cost'] == 300
+
+        # Skip duplicate Gog weapon variants (keep only first encountered)
+        if is_gog and weapon_name_key in weapon_names:
+            continue
+        weapon_names.add(weapon_name_key)
+
         items['weapon'].append({
             'id': weapon_id,
-            'names': get_names(weapon),
+            'names': names,
             'skills': {str(skill_id): skill_points for skill_id, skill_points in weapon['skills'].items()},
             'slots': [{'value': slot, 'type': 'W'} for slot in weapon['slots']],
             'sets': [],
-            'is_gog': weapon['series_id'] is None and weapon['crafting']['zenny_cost'] == 300
+            'is_gog': is_gog
         })
 
 armors = json.load(open(FULL_DB_DIR / 'Armor.json', encoding='utf-8'))

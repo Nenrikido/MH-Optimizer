@@ -1822,30 +1822,6 @@
       "is_gog": true
     },
     {
-      "id": "bow:92",
-      "names": {
-        "en": "Calamitous Angel",
-        "fr": "Ange calamiteux"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
       "id": "bow:94",
       "names": {
         "en": "Azure Era Wyrmbow",
@@ -1894,30 +1870,6 @@
       ],
       "sets": [],
       "is_gog": false
-    },
-    {
-      "id": "bow:99",
-      "names": {
-        "en": "Calamitous Angel",
-        "fr": "Ange calamiteux"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
     },
     {
       "id": "charge-blade:1",
@@ -3663,54 +3615,6 @@
     },
     {
       "id": "charge-blade:85",
-      "names": {
-        "en": "Promised Abyss",
-        "fr": "Abysse promise"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "charge-blade:86",
-      "names": {
-        "en": "Promised Abyss",
-        "fr": "Abysse promise"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "charge-blade:87",
       "names": {
         "en": "Promised Abyss",
         "fr": "Abysse promise"
@@ -5656,54 +5560,6 @@
       "is_gog": true
     },
     {
-      "id": "dual-blades:91",
-      "names": {
-        "en": "Eternal Cusp",
-        "fr": "Pique d'éternité"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "dual-blades:92",
-      "names": {
-        "en": "Eternal Cusp",
-        "fr": "Pique d'éternité"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
       "id": "great-sword:1",
       "names": {
         "en": "Hope Blade I",
@@ -7590,54 +7446,6 @@
       "is_gog": true
     },
     {
-      "id": "great-sword:88",
-      "names": {
-        "en": "Ostrak Oblivion",
-        "fr": "Ostrak oublié"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "great-sword:89",
-      "names": {
-        "en": "Ostrak Oblivion",
-        "fr": "Ostrak oublié"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
       "id": "great-sword:90",
       "names": {
         "en": "Shatterseal",
@@ -9417,54 +9225,6 @@
     },
     {
       "id": "gunlance:84",
-      "names": {
-        "en": "Auguring Omen",
-        "fr": "Présage clairvoyant"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "gunlance:85",
-      "names": {
-        "en": "Auguring Omen",
-        "fr": "Présage clairvoyant"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "gunlance:86",
       "names": {
         "en": "Auguring Omen",
         "fr": "Présage clairvoyant"
@@ -11290,54 +11050,6 @@
       "is_gog": true
     },
     {
-      "id": "hammer:87",
-      "names": {
-        "en": "Bound Admonition",
-        "fr": "Geôle d'admonition"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "hammer:88",
-      "names": {
-        "en": "Bound Admonition",
-        "fr": "Geôle d'admonition"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
       "id": "heavy-bowgun:1",
       "names": {
         "en": "Hope Cannon I",
@@ -12896,54 +12608,6 @@
     },
     {
       "id": "heavy-bowgun:80",
-      "names": {
-        "en": "Trembling Hels",
-        "fr": "Hels frémissant"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "heavy-bowgun:81",
-      "names": {
-        "en": "Trembling Hels",
-        "fr": "Hels frémissant"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "heavy-bowgun:82",
       "names": {
         "en": "Trembling Hels",
         "fr": "Hels frémissant"
@@ -14762,54 +14426,6 @@
     },
     {
       "id": "hunting-horn:86",
-      "names": {
-        "en": "Onyx Choros",
-        "fr": "Choros onyx"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "hunting-horn:87",
-      "names": {
-        "en": "Onyx Choros",
-        "fr": "Choros onyx"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "hunting-horn:88",
       "names": {
         "en": "Onyx Choros",
         "fr": "Choros onyx"
@@ -16679,54 +16295,6 @@
       "is_gog": true
     },
     {
-      "id": "insect-glaive:87",
-      "names": {
-        "en": "Limbo Llor",
-        "fr": "Larmes des limbes"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "insect-glaive:88",
-      "names": {
-        "en": "Limbo Llor",
-        "fr": "Larmes des limbes"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
       "id": "insect-glaive:93",
       "names": {
         "en": "Vanguard's Glaive",
@@ -18525,54 +18093,6 @@
       "is_gog": true
     },
     {
-      "id": "lance:86",
-      "names": {
-        "en": "Aether Pike",
-        "fr": "Lance de l'éther"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "lance:87",
-      "names": {
-        "en": "Aether Pike",
-        "fr": "Lance de l'éther"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
       "id": "lance:91",
       "names": {
         "en": "Paladin Lance I",
@@ -20333,54 +19853,6 @@
     },
     {
       "id": "light-bowgun:86",
-      "names": {
-        "en": "Bethorned Agony",
-        "fr": "Agonie épineuse"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "light-bowgun:87",
-      "names": {
-        "en": "Bethorned Agony",
-        "fr": "Agonie épineuse"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "light-bowgun:88",
       "names": {
         "en": "Bethorned Agony",
         "fr": "Agonie épineuse"
@@ -22198,30 +21670,6 @@
       "is_gog": true
     },
     {
-      "id": "long-sword:92",
-      "names": {
-        "en": "Headsman's Hamus",
-        "fr": "Hamus du bourreau"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
       "id": "long-sword:93",
       "names": {
         "en": "Azure Star Blade",
@@ -22322,30 +21770,6 @@
       ],
       "sets": [],
       "is_gog": false
-    },
-    {
-      "id": "long-sword:99",
-      "names": {
-        "en": "Headsman's Hamus",
-        "fr": "Hamus du bourreau"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
     },
     {
       "id": "switch-axe:1",
@@ -23988,54 +23412,6 @@
     },
     {
       "id": "switch-axe:80",
-      "names": {
-        "en": "Wicked Regnum",
-        "fr": "Règne malfaisant"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "switch-axe:81",
-      "names": {
-        "en": "Wicked Regnum",
-        "fr": "Règne malfaisant"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "switch-axe:82",
       "names": {
         "en": "Wicked Regnum",
         "fr": "Règne malfaisant"
@@ -26079,54 +25455,6 @@
     },
     {
       "id": "sword-shield:95",
-      "names": {
-        "en": "Kyrie Verd",
-        "fr": "Kyrie Verd"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "sword-shield:96",
-      "names": {
-        "en": "Kyrie Verd",
-        "fr": "Kyrie Verd"
-      },
-      "skills": {},
-      "slots": [
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        },
-        {
-          "value": 3,
-          "type": "W"
-        }
-      ],
-      "sets": [],
-      "is_gog": true
-    },
-    {
-      "id": "sword-shield:97",
       "names": {
         "en": "Kyrie Verd",
         "fr": "Kyrie Verd"

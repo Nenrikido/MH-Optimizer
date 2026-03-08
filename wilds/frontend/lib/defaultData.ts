@@ -66,8 +66,10 @@ const DEFAULT_SETS: ArmorSet[] = [
 
 const DEFAULT_WEAPONS: Weapon[] = [
   {
-    id: '91',
-    names: {en: 'Calamitous Angel', fr: 'Ange calamiteux'},
+    id: 'long-sword:99', names: {
+      en: "Headsman's Hamus",
+      fr: "Hamus du bourreau"
+    },
   },
 ];
 
@@ -93,7 +95,12 @@ const DEFAULT_TEMPLATES: TemplateData[] = [
       {id: '-1768553344', names: {en: "Fulgur Anjanath's Will", fr: "Volonté de l'Anjanath tonnerre"}, min_pieces: 2,},
       {id: '1484575872', names: {en: "Lord's Soul", fr: 'Âme du seigneur'}, min_pieces: 3,},
     ],
-    weapons: [{id: '91', names: {en: 'Calamitous Angel', fr: 'Ange calamiteux'},},],
+    weapons: [{
+      id: 'long-sword:99', names: {
+        en: "Headsman's Hamus",
+        fr: "Hamus du bourreau"
+      },
+    },],
     amulets: [],
     options: DEFAULT_OPTIONS,
   },
