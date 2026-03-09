@@ -28,6 +28,7 @@ function SetInput({sets, setSets, availableSets}: SetInputProps) {
       onChange={handleSelect}
       onInputChange={setInput}
       options={availableSets}
+      filterOutValues={sets.map(s => s.id)}
       placeholder={t.inputs.armor}
       fullWidth
       size="small"

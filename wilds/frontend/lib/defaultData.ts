@@ -66,7 +66,7 @@ const DEFAULT_SETS: ArmorSet[] = [
 
 const DEFAULT_WEAPONS: Weapon[] = [
   {
-    id: 'long-sword:99', names: {
+    id: 'long-sword:91', names: {
       en: "Headsman's Hamus",
       fr: "Hamus du bourreau"
     },

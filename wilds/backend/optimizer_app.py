@@ -105,6 +105,21 @@ def run_optimization():
         custom_amulets_list.append(amulet_data)
 
     filtered_items_data = {k: v[:] for k, v in items_data_default.items()}
+
+    options = data_json.get('options', {})
+
+    # Filter by excluded armor items (by item ID)
+    excluded_items = options.get('excluded_armor_items', [])
+    if excluded_items:
+        excluded_items_set = set(excluded_items)
+        for armor_type in ['head', 'chest', 'arms', 'waist', 'legs']:
+            if armor_type in filtered_items_data:
+                filtered_items_data[armor_type] = [
+                    item for item in filtered_items_data[armor_type]
+                    if item['id'] not in excluded_items_set
+                ]
+
+    # Filter weapons by selection only.
     if desired_weapon_ids:
         desired_weapon_ids_set = set(desired_weapon_ids)
         filtered_items_data['weapon'] = [
@@ -112,9 +127,12 @@ def run_optimization():
             if str(item['id']) in desired_weapon_ids_set
         ]
 
+    # GOG set/group filters are applied in define_data (variant generation), not here.
+    gog_set_filter = options.get('gog_set_filter', '')
+    gog_group_filter = options.get('gog_group_filter', '')
+
     filtered_items_data['amulet'] += custom_amulets_list
 
-    options = data_json.get('options', {})
     N = min(options.get('N', 1), 5)
 
     data = define_data(
@@ -124,10 +142,21 @@ def run_optimization():
         decorations_default,
         include_all_amulets=options.get('include_all_amulets', False),
         transcend=options.get('transcend', False),
-        include_gog_sets=options.get('include_gog_sets', False)
+        include_gog_sets=options.get('include_gog_sets', False),
+        gog_set_filter=gog_set_filter,
+        gog_group_filter=gog_group_filter,
     )
 
-    builds = run_optimizer(data, N)
+    builds, status = run_optimizer(data, N, return_status=True)
+
+    if not builds:
+        if status == 'Infeasible':
+            return jsonify([
+                "No feasible build found with the current constraints.\n"
+                "Try reducing required set pieces, lowering skill caps/weights, "
+                "or widening weapon/armor filters."
+            ])
+        return jsonify([f"Optimization ended with status: {status}"])
 
     return jsonify(output_builds_json(builds, data))
 
@@ -135,14 +164,36 @@ def run_optimization():
 @app.route('/api/available_items', methods=['GET'])
 def available_items():
     items_data_default, _, available_skills, available_sets = load_data_files()
+
     available_weapons = [
         {'id': weapon['id'], 'names': _names(weapon)}
         for weapon in items_data_default['weapon']
     ]
-    available_all_sets = available_sets.get('sets', []) + available_sets.get('groups', [])
+
+    # Collect all armor items from all armor types (exclude weapons)
+    available_armor_items = []
+    for armor_type in ['head', 'chest', 'arms', 'waist', 'legs']:
+        for armor_item in items_data_default.get(armor_type, []):
+            available_armor_items.append({
+                'id': armor_item['id'],
+                'names': _names(armor_item)
+            })
+
+    # Separate sets and groups
+    available_sets_list = [
+        {'id': s['id'], 'names': _names(s)}
+        for s in available_sets.get('sets', [])
+    ]
+    available_groups_list = [
+        {'id': g['id'], 'names': _names(g)}
+        for g in available_sets.get('groups', [])
+    ]
+
     return jsonify({
         'available_skills': available_skills,
-        'available_sets': available_all_sets,
+        'available_armor_items': available_armor_items,
+        'available_sets': available_sets_list,
+        'available_groups': available_groups_list,
         'available_weapons': available_weapons,
     })
 

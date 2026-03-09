@@ -27,12 +27,9 @@ function InfoCollapse() {
           <ul>
             <li>{t.info.notesItems.dataUpToDate}</li>
             <li>{t.info.notesItems.defaultValues}</li>
-          </ul>
-          <Typography>{t.info.featuresToCome}</Typography>
-          <ul>
-            <li>{t.info.featuresToComeItems.iconsImages}</li>
-            <li>{t.info.featuresToComeItems.armorFilters}</li>
-            <li>{t.info.featuresToComeItems.betterDesign}</li>
+            <li>{t.info.notesItems.noBuild}</li>
+            <li>{t.info.notesItems.gogFilters}</li>
+            <li>{t.info.notesItems.customTemplates}</li>
           </ul>
         </AccordionDetails>
       </Accordion>

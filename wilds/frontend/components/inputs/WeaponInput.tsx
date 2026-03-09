@@ -28,6 +28,7 @@ function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) 
       onChange={handleSelect}
       onInputChange={setInput}
       options={availableWeapons}
+      filterOutValues={weapons.map(s => s.id)}
       placeholder={t.inputs.weapons}
       fullWidth
       size="small"

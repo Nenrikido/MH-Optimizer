@@ -19,6 +19,14 @@ export interface BuildItem {
       value: number;
     }>;
   } | null;
+  set_bonuses?: Array<{
+    id: string;
+    names: LocalizedNames;
+  }>;
+  group_bonuses?: Array<{
+    id: string;
+    names: LocalizedNames;
+  }>;
 }
 
 export interface BuildSkill {
@@ -34,4 +42,14 @@ export interface Result {
   score: number;
   items: BuildItem[];
   skills: BuildSkill[];
+  set_bonuses?: Array<{
+    id: string;
+    names: LocalizedNames;
+    count: number;
+  }>;
+  group_bonuses?: Array<{
+    id: string;
+    names: LocalizedNames;
+    count: number;
+  }>;
 }

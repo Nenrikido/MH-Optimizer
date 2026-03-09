@@ -84,8 +84,17 @@ def load_data_files():
     return items_data, decorations, available_skills, available_sets
 
 
-def define_data(desired_skills, desired_sets, items_data, decorations, include_all_amulets=True, transcend=False,
-                include_gog_sets=False):
+def define_data(
+    desired_skills,
+    desired_sets,
+    items_data,
+    decorations,
+    include_all_amulets=True,
+    transcend=False,
+    include_gog_sets=False,
+    gog_set_filter='',
+    gog_group_filter='',
+):
     """
     Define all the input data for the optimizer, including skills, groups, sets, items, and decorations.
 
@@ -123,31 +132,60 @@ def define_data(desired_skills, desired_sets, items_data, decorations, include_a
             })
         items_data['amulet'] += generated_items
 
-    if include_gog_sets:
+    if include_gog_sets or gog_set_filter or gog_group_filter:
         generated_weapons = []
-        for item_data in items_data['weapon']:
-            if item_data.get('is_gog', False):
-                skill_sets = [x for x in desired_sets if not x.get('is_group', False)]
-                skill_groups = [x for x in desired_sets if x.get('is_group', False)]
-                for skill_set, skill_group in product(skill_sets or [None], skill_groups or [None]):
-                    set_ids = []
-                    set_names = []
-                    if skill_set is not None:
-                        set_ids.append(skill_set['set_id'])
-                        set_names.append(skill_set.get('set_name', skill_set['set_id']))
-                    if skill_group is not None:
-                        set_ids.append(skill_group['set_id'])
-                        set_names.append(skill_group.get('set_name', skill_group['set_id']))
 
-                    generated_weapons.append({
-                        **item_data,
-                        'id': f"{item_data['id']}:gog:{'|'.join(set_ids)}",
-                        'names': {
-                            'en': f"{_get_names(item_data)['en']} ({', '.join(set_names)})",
-                            'fr': f"{_get_names(item_data)['fr']} ({', '.join(set_names)})",
-                        },
-                        'sets': set_ids,
-                    })
+        desired_set_lookup = {str(x['set_id']): x for x in desired_sets}
+        desired_skill_sets = [x for x in desired_sets if not x.get('is_group', False)]
+        desired_skill_groups = [x for x in desired_sets if x.get('is_group', False)]
+
+        # include_gog_sets=True full expansion from desired sets/groups.
+        # include_gog_sets=False uses explicit filters to add only matching GOG variants.
+        if include_gog_sets:
+            set_candidates = desired_skill_sets or [None]
+            group_candidates = desired_skill_groups or [None]
+        else:
+            set_candidates = [
+                ({
+                    'set_id': str(gog_set_filter),
+                    'set_name': desired_set_lookup.get(str(gog_set_filter), {}).get('set_name', str(gog_set_filter)),
+                } if gog_set_filter else None)
+            ]
+            group_candidates = [
+                ({
+                    'set_id': str(gog_group_filter),
+                    'set_name': desired_set_lookup.get(str(gog_group_filter), {}).get('set_name', str(gog_group_filter)),
+                    'is_group': True,
+                } if gog_group_filter else None)
+            ]
+
+        for item_data in items_data['weapon']:
+            if not item_data.get('is_gog', False):
+                continue
+
+            for skill_set, skill_group in product(set_candidates, group_candidates):
+                set_ids = []
+                set_names = []
+                if skill_set is not None:
+                    set_ids.append(str(skill_set['set_id']))
+                    set_names.append(skill_set.get('set_name', str(skill_set['set_id'])))
+                if skill_group is not None:
+                    set_ids.append(str(skill_group['set_id']))
+                    set_names.append(skill_group.get('set_name', str(skill_group['set_id'])))
+
+                if not set_ids:
+                    continue
+
+                generated_weapons.append({
+                    **item_data,
+                    'id': f"{item_data['id']}:gog:{'|'.join(set_ids)}",
+                    'names': {
+                        'en': f"{_get_names(item_data)['en']} ({', '.join(set_names)})",
+                        'fr': f"{_get_names(item_data)['fr']} ({', '.join(set_names)})",
+                    },
+                    'sets': set_ids,
+                })
+
         items_data['weapon'] += generated_weapons
 
     return {
@@ -422,8 +460,15 @@ def output_builds_json(builds, data):
     }
     deco_index = {deco['id']: deco for deco in data['decorations']}
 
+    # Build set/group name lookup from DB so results can show exact bonuses.
+    sets_db = json.load(open('../db/sets.json', encoding='utf-8'))
+    set_lookup = {str(s['id']): _get_names(s) for s in sets_db.get('sets', [])}
+    group_lookup = {str(g['id']): _get_names(g) for g in sets_db.get('groups', [])}
+
     for idx, build in enumerate(builds, 1):
         items = []
+        set_bonus_counts: dict[str, int] = {}
+        group_bonus_counts: dict[str, int] = {}
         for group, item_id in build['items'].items():
             item_data = items_index[group][item_id]
             slots = build['slots'][group]
@@ -453,12 +498,19 @@ def output_builds_json(builds, data):
                     ]
                 }
 
+            for bonus_id in item_data.get('sets', []):
+                str_bonus_id = str(bonus_id)
+                if str_bonus_id in set_lookup:
+                    set_bonus_counts[str_bonus_id] = set_bonus_counts.get(str_bonus_id, 0) + 1
+                elif str_bonus_id in group_lookup:
+                    group_bonus_counts[str_bonus_id] = group_bonus_counts.get(str_bonus_id, 0) + 1
+
             items.append({
                 'slot': group,
                 'id': item_id,
                 'names': _get_names(item_data),
                 'decorations': slots_list,
-                'amulet_details': amulet_details
+                'amulet_details': amulet_details,
             })
 
         skills = []
@@ -472,29 +524,45 @@ def output_builds_json(builds, data):
                 'weight': skill_info.get('weight', 10)
             })
 
+        active_set_bonuses = [
+            {'id': set_id, 'names': set_lookup[set_id], 'count': count}
+            for set_id, count in sorted(set_bonus_counts.items())
+            if count >= 2
+        ]
+        active_group_bonuses = [
+            {'id': group_id, 'names': group_lookup[group_id], 'count': count}
+            for group_id, count in sorted(group_bonus_counts.items())
+            if count >= 3
+        ]
+
         output.append({
             'id': idx,
             'score': build['score'],
             'items': items,
-            'skills': skills
+            'skills': skills,
+            'set_bonuses': active_set_bonuses,
+            'group_bonuses': active_group_bonuses,
         })
 
     return output
 
 
-def run_optimizer(data, N):
+def run_optimizer(data, N, return_status=False):
     prob, item_vars, deco_vars, deco_size, effective_vars, skills = setup_problem(data)
 
     builds = []
     seen_skill_configs = []
     k = 0
+    last_status = 'Optimal'
 
     with tqdm(total=N) as pbar:
         while len(builds) < N:
             prob.solve(pulp.PULP_CBC_CMD(msg=False))
 
-            if pulp.LpStatus[prob.status] != 'Optimal':
-                print(f"No more optimal solutions found. (status = {pulp.LpStatus[prob.status]})")
+            current_status = pulp.LpStatus[prob.status]
+            if current_status != 'Optimal':
+                last_status = current_status
+                print(f"No more optimal solutions found. (status = {current_status})")
                 break
 
             build, sel_vars = collect_build(prob, item_vars, deco_vars, deco_size, effective_vars, data)
@@ -513,6 +581,8 @@ def run_optimizer(data, N):
             pbar.update(1)
             k += 1
 
+    if return_status:
+        return builds, last_status
     return builds
 
 

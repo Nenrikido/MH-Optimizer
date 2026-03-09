@@ -10,7 +10,42 @@ interface BuildCardProps {
 function BuildCard({ build }: BuildCardProps) {
   const { t, language } = useI18n();
 
+  const slotIcons: Record<string, string> = {
+    weapon: '⚔️',
+    head: '🪖',
+    chest: '🛡️',
+    arms: '🧤',
+    waist: '🥋',
+    legs: '👢',
+    amulet: '📿',
+  };
+
+  const weaponTypeIcons: Record<string, string> = {
+    'great-sword': '🗡️',
+    'long-sword': '🗡️',
+    'sword-shield': '🛡️',
+    'dual-blades': '🗡️',
+    hammer: '🔨',
+    'hunting-horn': '🎺',
+    lance: '🛡️',
+    gunlance: '💥',
+    'switch-axe': '🪓',
+    'charge-blade': '⚡',
+    'insect-glaive': '🪲',
+    'light-bowgun': '🔫',
+    'heavy-bowgun': '🔫',
+    bow: '🏹',
+  };
+
   const getSlotIcon = (type: string) => (type === 'W' ? '⬤' : '◆');
+
+  const getItemIcon = (item: BuildItem) => {
+    if (item.slot === 'weapon') {
+      const weaponType = item.id.split(':')[0];
+      return weaponTypeIcons[weaponType] || '⚔️';
+    }
+    return slotIcons[item.slot] || '▪️';
+  };
 
   const formatAmuletName = (item: BuildItem) => {
     if (!item.amulet_details) return item.names[language] || item.names.en;
@@ -49,8 +84,8 @@ function BuildCard({ build }: BuildCardProps) {
           <Table size="small" sx={{ tableLayout: 'fixed', width: '100%' }}>
             <TableHead>
               <TableRow>
-                <TableCell sx={{ color: '#adb5bd', fontWeight: 600, borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, width: '15%' }}>Slot</TableCell>
-                <TableCell sx={{ color: '#adb5bd', fontWeight: 600, borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, width: '35%' }}>Item</TableCell>
+                <TableCell sx={{ color: '#adb5bd', fontWeight: 600, borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, width: '10%' }}>Slot</TableCell>
+                <TableCell sx={{ color: '#adb5bd', fontWeight: 600, borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, width: '40%' }}>Item</TableCell>
                 <TableCell sx={{ color: '#adb5bd', fontWeight: 600, borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, width: '50%' }}>Decorations</TableCell>
               </TableRow>
             </TableHead>
@@ -58,7 +93,7 @@ function BuildCard({ build }: BuildCardProps) {
               {build.items.map((item: BuildItem) => (
                 <TableRow key={`${item.slot}:${item.id}`}>
                   <TableCell sx={{ color: '#f8f9fa', borderBottom: '1px solid #495057', textTransform: 'capitalize', fontSize: '0.8rem', py: 0.75 }}>
-                    {item.slot}
+                    {getItemIcon(item)}
                   </TableCell>
                   <TableCell sx={{ color: '#f8f9fa', borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, overflow: 'hidden' }}>
                     {item.slot === 'amulet' ? formatAmuletName(item) : (item.names[language] || item.names.en)}
@@ -86,6 +121,32 @@ function BuildCard({ build }: BuildCardProps) {
             </TableBody>
           </Table>
         </TableContainer>
+
+        {(build.set_bonuses?.length || build.group_bonuses?.length) ? (
+          <Box sx={{ mb: 2 }}>
+            <Typography variant="subtitle2" sx={{ color: '#adb5bd', mb: 1, fontWeight: 600, fontSize: '0.875rem' }}>
+              Set / Group Bonuses:
+            </Typography>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
+              {(build.set_bonuses || []).map((bonus) => (
+                <Chip
+                  key={`build-set-${bonus.id}`}
+                  label={`Set: ${bonus.names[language] || bonus.names.en} (${bonus.count})`}
+                  size="small"
+                  sx={{ backgroundColor: '#3b5b7a', color: '#f8f9fa', fontSize: '0.72rem' }}
+                />
+              ))}
+              {(build.group_bonuses || []).map((bonus) => (
+                <Chip
+                  key={`build-group-${bonus.id}`}
+                  label={`Group: ${bonus.names[language] || bonus.names.en} (${bonus.count})`}
+                  size="small"
+                  sx={{ backgroundColor: '#5f3b7a', color: '#f8f9fa', fontSize: '0.72rem' }}
+                />
+              ))}
+            </Box>
+          </Box>
+        ) : null}
 
         <Typography variant="subtitle2" sx={{ color: '#adb5bd', mb: 1, fontWeight: 600, fontSize: '0.875rem' }}>
           {t.results.skillsLabel}:

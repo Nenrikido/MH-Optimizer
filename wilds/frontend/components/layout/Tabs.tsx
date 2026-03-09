@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
-import {Box, Tab, Tabs, Typography} from '@mui/material';
+import {Box, Tab, Tabs} from '@mui/material';
 import ResultsTab from './ResultsTab';
-import AmuletBadgeList from '../blocks/AmuletBadgeList';
-import AddAmuletButton from '../blocks/AddAmuletButton';
+import FiltersTab from './FiltersTab';
 import TemplatesTab from './TemplatesTab';
 import {Result} from '../../model/Result';
 import {Amulet} from '../../model/Amulet';
@@ -21,6 +20,15 @@ interface TabsProps {
   onApplyTemplate: (template: TemplateData) => void;
   onSaveTemplate: (name: string) => void;
   onDeleteTemplate: (templateId: string) => void;
+  excludedArmorItems: string[];
+  setExcludedArmorItems: (items: string[]) => void;
+  gogSetFilter: string;
+  setGogSetFilter: (setId: string) => void;
+  gogGroupFilter: string;
+  setGogGroupFilter: (groupId: string) => void;
+  availableArmorItems: NamedEntity[];
+  availableSets: NamedEntity[];
+  availableGroups: NamedEntity[];
 }
 
 function TabPanel(props: { children?: React.ReactNode; index: number; value: number }) {
@@ -69,6 +77,15 @@ function TabsComponent({
   onApplyTemplate,
   onSaveTemplate,
   onDeleteTemplate,
+  excludedArmorItems,
+  setExcludedArmorItems,
+  gogSetFilter,
+  setGogSetFilter,
+  gogGroupFilter,
+  setGogGroupFilter,
+  availableArmorItems,
+  availableSets,
+  availableGroups,
 }: TabsProps) {
   const [value, setValue] = useState(0);
   const { t } = useI18n();
@@ -77,12 +94,6 @@ function TabsComponent({
     setValue(newValue);
   };
 
-  const handleAddAmulet = () => {
-    setAmulets([
-      ...amulets,
-      {name: '', skills: [], slots: ''}
-    ]);
-  };
 
   return (
       <Box sx={{
@@ -164,10 +175,20 @@ function TabsComponent({
             <ResultsTab results={results} loading={loading} />
           </TabPanel>
           <TabPanel value={value} index={1}>
-            <Typography variant="body1"
-                        sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>{t.tabs.filters}</Typography>
-            <AmuletBadgeList amulets={amulets} setAmulets={setAmulets} availableSkills={availableSkills} />
-            <AddAmuletButton onAdd={handleAddAmulet} />
+            <FiltersTab
+              amulets={amulets}
+              setAmulets={setAmulets}
+              availableSkills={availableSkills}
+              excludedArmorItems={excludedArmorItems}
+              setExcludedArmorItems={setExcludedArmorItems}
+              gogSetFilter={gogSetFilter}
+              setGogSetFilter={setGogSetFilter}
+              gogGroupFilter={gogGroupFilter}
+              setGogGroupFilter={setGogGroupFilter}
+              availableArmorItems={availableArmorItems}
+              availableSets={availableSets}
+              availableGroups={availableGroups}
+            />
           </TabPanel>
           <TabPanel value={value} index={2}>
             <TemplatesTab

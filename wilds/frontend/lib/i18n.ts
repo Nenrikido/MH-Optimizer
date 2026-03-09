@@ -52,10 +52,31 @@ export interface Translations {
   };
   filters: {
     amulets: {
+      title: string;
       addAmulet: string;
       skill: string;
       level: string;
-    }
+    };
+    excludeArmorParts: {
+      title: string;
+      description: string;
+      placeholder: string;
+    };
+    gogWeapons: {
+      title: string;
+      description: string;
+      setBonus: string;
+      setBonusAutocomplete: string;
+      groupBonus: string;
+      groupBonusAutocomplete: string;
+    };
+  };
+  armorParts: {
+    head: string;
+    chest: string;
+    arms: string;
+    waist: string;
+    legs: string;
   };
   info: {
     help: string;
@@ -70,12 +91,9 @@ export interface Translations {
     notesItems: {
       dataUpToDate: string;
       defaultValues: string;
-    };
-    featuresToCome: string;
-    featuresToComeItems: {
-      iconsImages: string;
-      armorFilters: string;
-      betterDesign: string;
+      noBuild: string;
+      gogFilters: string;
+      customTemplates: string;
     };
   };
   common: {
@@ -130,30 +148,48 @@ const en: Translations = {
   },
   filters: {
     amulets: {
+      title: 'Amulets',
       addAmulet: 'Add an amulet',
       skill: 'Skill',
       level: 'Level',
-    }
+    },
+    excludeArmorParts: {
+      title: 'Exclude Armor Parts',
+      description: 'Select armor parts to exclude from searches',
+      placeholder: 'Search armor parts...',
+    },
+    gogWeapons: {
+      title: 'Gogmazios Weapon',
+      description: 'Choose the Gogmazios weapons set and group bonus',
+      setBonus: 'Set Bonus',
+      setBonusAutocomplete: 'Search for a set bonus...',
+      groupBonus: 'Group Bonus',
+      groupBonusAutocomplete: 'Search for a group bonus...',
+    },
+  },
+  armorParts: {
+    head: 'Head',
+    chest: 'Chest',
+    arms: 'Arms',
+    waist: 'Waist',
+    legs: 'Legs',
   },
   info: {
     help: 'Help',
     howToUse: 'How to use:',
     howToUseSteps: {
-      step1: 'Type your desired skills, sets and weapons in the input boxes (autocomplete available)',
-      step2: 'Choose your max amount of skill points and the weight of each skill, and the min amount of pieces from each set',
-      step3: 'In the "Filters" tab, you can choose the amulets you have in your box',
-      step4: 'Click on "Optimize" and wait for the results',
+      step1: 'Pick your target skills, sets and weapons with autocomplete.',
+      step2: 'Adjust max points / weights and set piece requirements.',
+      step3: 'Use Filters to add your amulets and exclude specific armor items.',
+      step4: 'Click Optimize and review builds, skills and active set/group bonuses.',
     },
     notes: 'Notes:',
     notesItems: {
       dataUpToDate: 'Data is up to date with TU4.1 (AT Arkveld)',
       defaultValues: "Yes the default values are for Insect Glaive, yes I'm a weeb",
-    },
-    featuresToCome: 'Features to come:',
-    featuresToComeItems: {
-      iconsImages: 'A bit of icons and images here and there',
-      armorFilters: 'Armor pieces filters',
-      betterDesign: 'Better design (I suck at design sry)',
+      noBuild: 'If no build appears, relax constraints (sets/skills/filters).',
+      gogFilters: 'Gogmazios set/group filters are hidden when "Include all Gog sets" is enabled.',
+      customTemplates: 'Saved custom templates are local to your browser.',
     },
   },
   common: {
@@ -208,30 +244,48 @@ const fr: Translations = {
   },
   filters: {
     amulets: {
+      title: 'Amulettes',
       addAmulet: 'Ajouter une amulette',
       skill: 'Compétence',
       level: 'Niveau',
-    }
+    },
+    excludeArmorParts: {
+      title: 'Exclure des pièces d\'armure',
+      description: 'Sélectionner les pièces d\'armure à exclure des recherches',
+      placeholder: 'Rechercher des pièces d\'armure...',
+    },
+    gogWeapons: {
+      title: 'Armes Gogmazios',
+      description: 'Choisissez le bonus d\'ensemble et de groupe de l\'arme Gogmazios',
+      setBonus: 'Bonus d\'ensemble',
+      setBonusAutocomplete: 'Recherchez un bonus d\'ensemble...',
+      groupBonus: 'Bonus de groupe',
+      groupBonusAutocomplete: 'Recherchez un bonus de groupe...',
+    },
+  },
+  armorParts: {
+    head: 'Tête',
+    chest: 'Torse',
+    arms: 'Bras',
+    waist: 'Ceinture',
+    legs: 'Jambes',
   },
   info: {
     help: 'Aide',
     howToUse: 'Comment utiliser :',
     howToUseSteps: {
-      step1: 'Tapez vos compétences, ensembles d\'armure et armes souhaités dans les champs de saisie (auto-complétion disponible)',
-      step2: 'Choisissez le nombre maximum de points de compétence et le poids de chaque compétence, ainsi que le nombre minimum de pièces de chaque ensemble',
-      step3: 'Dans l\'onglet "Filtres", vous pouvez choisir les amulettes que vous avez dans votre inventaire',
-      step4: 'Cliquez sur "Optimiser" et attendez les résultats',
+      step1: 'Choisissez vos compétences, ensembles et armes via l\'auto-complétion.',
+      step2: 'Ajustez les points max / poids et le minimum de pièces par ensemble.',
+      step3: 'Utilisez Filtres pour ajouter vos amulettes et exclure des pièces d\'armure précises.',
+      step4: 'Cliquez sur Optimiser puis consultez les builds, compétences et bonus actifs.',
     },
     notes: 'Notes :',
     notesItems: {
       dataUpToDate: 'Les données sont à jour avec TU4.1 (AT Arkveld)',
       defaultValues: 'Oui, les valeurs par défaut sont pour l\'Insectoglaive, oui je suis un weeb',
-    },
-    featuresToCome: 'Fonctionnalités à venir :',
-    featuresToComeItems: {
-      iconsImages: 'Quelques icônes et images ici et là',
-      armorFilters: 'Filtres de pièces d\'armure',
-      betterDesign: 'Meilleur design (je suis nul en design désolé)',
+      noBuild: 'Si aucun build ne sort, assouplissez les contraintes (sets/skills/filtres).',
+      gogFilters: 'Les filtres Gogmazios (set/groupe) sont masqués si "Inclure tous les sets Gog" est activé.',
+      customTemplates: 'Les templates personnalisés sont enregistrés localement dans le navigateur.',
     },
   },
   common: {

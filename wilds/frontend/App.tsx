@@ -28,8 +28,11 @@ function App() {
   const [results, setResults] = useState<Result[] | string[]>([]);
   const [amulets, setAmulets] = useState<Amulet[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
+  const [excludedArmorItems, setExcludedArmorItems] = useState<string[]>([]);
+  const [gogSetFilter, setGogSetFilter] = useState<string>('');
+  const [gogGroupFilter, setGogGroupFilter] = useState<string>('');
 
-  const { availableSkills, availableSets, availableWeapons, loading: loadingLists } = useAvailableItems(
+  const { availableSkills, availableSets, availableWeapons, availableArmorItems, availableGroups, loading: loadingLists } = useAvailableItems(
     setSkills,
     setSets,
     setWeapons,
@@ -61,7 +64,18 @@ function App() {
   const handleOptimize = async () => {
     setLoading(true);
     setResults([]);
-    const payload = { skills, sets, weapons, options, amulets };
+    const payload = {
+      skills,
+      sets,
+      weapons,
+      amulets,
+      options: {
+        ...options,
+        excluded_armor_items: excludedArmorItems,
+        gog_set_filter: options.include_gog_sets ? '' : gogSetFilter,
+        gog_group_filter: options.include_gog_sets ? '' : gogGroupFilter,
+      }
+    };
     try {
       const response = await fetch('/api/run', {
         method: 'POST',
@@ -103,7 +117,7 @@ function App() {
               options={options}
               setOptions={setOptions}
               availableSkills={availableSkills}
-              availableSets={availableSets}
+              availableSets={[...availableSets, ...availableGroups]}
               availableWeapons={availableWeapons}
               onOptimize={handleOptimize}
               loading={loading}
@@ -121,6 +135,15 @@ function App() {
               onApplyTemplate={applyTemplate}
               onSaveTemplate={saveTemplate}
               onDeleteTemplate={deleteTemplate}
+              excludedArmorItems={excludedArmorItems}
+              setExcludedArmorItems={setExcludedArmorItems}
+              gogSetFilter={gogSetFilter}
+              setGogSetFilter={setGogSetFilter}
+              gogGroupFilter={gogGroupFilter}
+              setGogGroupFilter={setGogGroupFilter}
+              availableArmorItems={availableArmorItems}
+              availableSets={options.include_gog_sets ? [] : availableSets}
+              availableGroups={options.include_gog_sets ? [] : availableGroups}
             />
           </Box>
         </Box>

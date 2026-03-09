@@ -25,6 +25,8 @@ interface UseAvailableItemsResult {
   availableSkills: NamedEntity[];
   availableSets: NamedEntity[];
   availableWeapons: NamedEntity[];
+  availableArmorItems: NamedEntity[];
+  availableGroups: NamedEntity[];
   loading: boolean;
 }
 
@@ -38,6 +40,8 @@ export function useAvailableItems(
   const [availableSkills, setAvailableSkills] = useState<NamedEntity[]>([]);
   const [availableSets, setAvailableSets] = useState<NamedEntity[]>([]);
   const [availableWeapons, setAvailableWeapons] = useState<NamedEntity[]>([]);
+  const [availableArmorItems, setAvailableArmorItems] = useState<NamedEntity[]>([]);
+  const [availableGroups, setAvailableGroups] = useState<NamedEntity[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
@@ -47,10 +51,14 @@ export function useAvailableItems(
         const skillsList = (data.available_skills || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
         const setsList = (data.available_sets || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
         const weaponsList = (data.available_weapons || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
+        const armorItemsList = (data.available_armor_items || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
+        const groupsList = (data.available_groups || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
 
         setAvailableSkills(skillsList);
         setAvailableSets(setsList);
         setAvailableWeapons(weaponsList);
+        setAvailableArmorItems(armorItemsList);
+        setAvailableGroups(groupsList);
 
         const skillIndex = buildEntityIndex(skillsList);
         const setIndex = buildEntityIndex(setsList);
@@ -82,6 +90,8 @@ export function useAvailableItems(
     availableSkills,
     availableSets,
     availableWeapons,
+    availableArmorItems,
+    availableGroups,
     loading,
   };
 }
