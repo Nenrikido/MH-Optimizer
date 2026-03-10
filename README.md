@@ -6,6 +6,7 @@ A collection of build optimization tools for Monster Hunter games using linear p
 
 ### [Monster Hunter Wilds](./wilds/) ⭐ **Active Development**
 Full-featured build optimizer with modern React + TypeScript frontend and Flask backend.
+https://mh-opti.nenri.fr/
 
 **Features:**
 - 🎯 Skill-based optimization with custom weights
