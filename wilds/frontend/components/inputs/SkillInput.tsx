@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
+import {Autocomplete, TextField} from '@mui/material';
 import {Skill} from '../../model/Skill';
-import CustomAutocomplete from './CustomAutocomplete';
 import { useI18n } from '../../lib/i18nContext';
 import { NamedEntity } from '../../model/Localized';
 
@@ -13,24 +13,33 @@ interface SkillInputProps {
 // This component handles skill input with suggestions/autocomplete
 function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
   const [input, setInput] = useState('');
-  const { t } = useI18n();
+  const { t, language } = useI18n();
 
-  const handleSelect = (value: string) => {
-    const selected = availableSkills.find((skill) => skill.id === value);
-    if (selected && !skills.some(skill => skill.id === value)) {
-      setSkills([...skills, {id: selected.id, names: selected.names, max_points: 3, weight: 10}]);
+  const filteredOptions = availableSkills.filter((option) => !skills.some(skill => skill.id === option.id));
+
+  const handleSelect = (_: any, value: NamedEntity | null) => {
+    if (value && !skills.some(skill => skill.id === value.id)) {
+      setSkills([...skills, {id: value.id, names: value.names, max_points: 3, weight: 10}]);
       setInput('');
     }
   };
 
   return (
-    <CustomAutocomplete
-      value={input}
+    <Autocomplete
+      inputValue={input}
+      onInputChange={(_, newInputValue) => setInput(newInputValue)}
       onChange={handleSelect}
-      onInputChange={setInput}
-      options={availableSkills}
-      filterOutValues={skills.map(s => s.id)}
-      placeholder={t.inputs.skills}
+      options={filteredOptions}
+      getOptionLabel={(option) => option.names[language] || option.names.en}
+      isOptionEqualToValue={(option, value) => option.id === value.id}
+      renderInput={(params) => (
+        <TextField
+          {...params}
+          placeholder={t.inputs.skills}
+          size="small"
+          fullWidth
+        />
+      )}
       fullWidth
       size="small"
       sx={{mb: 1}}

@@ -12,7 +12,7 @@ import { TemplateData } from '../../model/Template';
 interface TabsProps {
   results: Result[] | string[];
   amulets: Amulet[];
-  setAmulets: (amulets: Amulet[]) => void;
+  setAmulets: React.Dispatch<React.SetStateAction<Amulet[]>>;
   availableSkills: NamedEntity[];
   loading: boolean;
   defaultTemplates: TemplateData[];

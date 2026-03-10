@@ -14,7 +14,7 @@ interface BadgeListProps {
 
 // Displays a list of badges (skills, sets, weapons)
 function BadgeList({items, setItems, type}: BadgeListProps) {
-  const { language } = useI18n();
+  const { t, language } = useI18n();
 
   const handleRemove = (item: Skill | ArmorSet | Weapon) => {
     setItems(items.filter(i => i.id !== item.id));
@@ -59,6 +59,7 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                       <TextField
                           type="number"
                           size="small"
+                          title={t.inputs.skillsMaxPoints}
                           value={(item as Skill).max_points}
                           onChange={(e) => handleUpdateSkill(idx, 'max_points', parseInt(e.target.value) || 0)}
                           sx={{width: 45, '& .MuiOutlinedInput-root': {color: '#f8f9fa', '& fieldset': {borderColor: '#6c757d'}, '&:hover fieldset': {borderColor: '#adb5bd'}, padding: '2px 4px'}}}
@@ -67,6 +68,7 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                       <TextField
                           type="number"
                           size="small"
+                          title={t.inputs.skillsWeight}
                           value={(item as Skill).weight}
                           onChange={(e) => handleUpdateSkill(idx, 'weight', parseInt(e.target.value) || 0)}
                           sx={{width: 45, '& .MuiOutlinedInput-root': {color: '#f8f9fa', '& fieldset': {borderColor: '#6c757d'}, '&:hover fieldset': {borderColor: '#adb5bd'}, padding: '2px 4px'}}}
@@ -78,6 +80,7 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                     <TextField
                         type="number"
                         size="small"
+                        title={t.inputs.armorMinPieces}
                         value={(item as ArmorSet).min_pieces}
                         onChange={(e) => handleUpdateSet(idx, parseInt(e.target.value) || 0)}
                         sx={{width: 45, '& .MuiOutlinedInput-root': {color: '#f8f9fa', '& fieldset': {borderColor: '#6c757d'}, '&:hover fieldset': {borderColor: '#adb5bd'}, padding: '2px 4px'}}}

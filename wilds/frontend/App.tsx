@@ -46,13 +46,11 @@ function App() {
     saveTemplate,
     deleteTemplate,
   } = useTemplates(
-    () => ({ skills, sets, weapons, amulets, options }),
-    ({ skills, sets, weapons, amulets, options }) => {
+    () => ({ skills, sets, weapons, amulets }),
+    ({ skills, sets, weapons }) => {
       setSkills(skills);
       setSets(sets);
       setWeapons(weapons);
-      setAmulets(amulets);
-      setOptions(options);
     }
   );
 

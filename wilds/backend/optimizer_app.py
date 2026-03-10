@@ -13,6 +13,21 @@ def _names(entry):
     return {'en': en, 'fr': fr}
 
 
+def _derive_custom_amulet_name(input_name, skill_items, skill_by_id, slots_str):
+    if input_name and str(input_name).strip():
+        return str(input_name).strip()
+
+    parts = []
+    for skill_id, value in skill_items.items():
+        names = _names(skill_by_id.get(str(skill_id), {'name': str(skill_id)}))
+        parts.append(f"{names['en']} Lv{value}")
+
+    suffix = f" [{slots_str}]" if slots_str else ''
+    if not parts:
+        return f"Custom Amulet{suffix}" if suffix else 'Custom Amulet'
+    return f"{' + '.join(parts)}{suffix}"
+
+
 @app.route('/api/run', methods=['POST'])
 def run_optimization():
     items_data_default, decorations_default, available_skills, available_sets = load_data_files()
@@ -79,28 +94,42 @@ def run_optimization():
 
     custom_amulets_list = []
     for idx, amulet in enumerate(data_json.get('amulets', [])):
-        amulet_data = {
-            'id': f"custom:{idx}",
-            'names': {'en': amulet.get('name', 'Custom Amulet'), 'fr': amulet.get('name', 'Custom Amulet')},
-            'skills': {},
-            'slots': [],
-        }
+        custom_skills = {}
         for skill in amulet.get('skills', []):
             skill_id = skill.get('id')
             if not skill_id:
                 skill_id = skill_name_to_id.get(skill.get('name'))
             if skill_id:
-                amulet_data['skills'][str(skill_id)] = skill.get('value', 1)
+                custom_skills[str(skill_id)] = int(skill.get('value', 1) or 1)
 
         slots_str = amulet.get('slots', '')
+        slots = []
         if slots_str:
-            amulet_data['slots'] = list(map(
+            slots = list(map(
                 lambda x: {
                     'value': int(x[-1]),
                     'type': 'W' if x[0] == 'W' else 'A'
                 },
                 slots_str.split('-0')[0].split('-')
             ))
+
+        # Skip fully empty custom amulets.
+        if not custom_skills and not slots:
+            continue
+
+        amulet_name = _derive_custom_amulet_name(
+            amulet.get('name', ''),
+            custom_skills,
+            skill_by_id,
+            slots_str,
+        )
+
+        amulet_data = {
+            'id': f"custom:{idx}",
+            'names': {'en': amulet_name, 'fr': amulet_name},
+            'skills': custom_skills,
+            'slots': slots,
+        }
 
         custom_amulets_list.append(amulet_data)
 

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
+import {Autocomplete, TextField} from '@mui/material';
 import {Set as ArmorSet} from '../../model/Set';
-import CustomAutocomplete from './CustomAutocomplete';
 import { useI18n } from '../../lib/i18nContext';
 import { NamedEntity } from '../../model/Localized';
 
@@ -12,24 +12,33 @@ interface SetInputProps {
 
 function SetInput({sets, setSets, availableSets}: SetInputProps) {
   const [input, setInput] = useState('');
-  const { t } = useI18n();
+  const { t, language } = useI18n();
 
-  const handleSelect = (value: string) => {
-    const selected = availableSets.find((setItem) => setItem.id === value);
-    if (selected && !sets.some(setItem => setItem.id === value)) {
-      setSets([...sets, {id: selected.id, names: selected.names, min_pieces: 2}]);
+  const filteredOptions = availableSets.filter((option) => !sets.some(set => set.id === option.id));
+
+  const handleSelect = (_: any, value: NamedEntity | null) => {
+    if (value && !sets.some(setItem => setItem.id === value.id)) {
+      setSets([...sets, {id: value.id, names: value.names, min_pieces: 2}]);
       setInput('');
     }
   };
 
   return (
-    <CustomAutocomplete
-      value={input}
+    <Autocomplete
+      inputValue={input}
+      onInputChange={(_, newInputValue) => setInput(newInputValue)}
       onChange={handleSelect}
-      onInputChange={setInput}
-      options={availableSets}
-      filterOutValues={sets.map(s => s.id)}
-      placeholder={t.inputs.armor}
+      options={filteredOptions}
+      getOptionLabel={(option) => option.names[language] || option.names.en}
+      isOptionEqualToValue={(option, value) => option.id === value.id}
+      renderInput={(params) => (
+        <TextField
+          {...params}
+          placeholder={t.inputs.armor}
+          size="small"
+          fullWidth
+        />
+      )}
       fullWidth
       size="small"
       sx={{mb: 1}}

@@ -7,15 +7,11 @@ import { TemplateData } from '../model/Template';
 import { Skill } from '../model/Skill';
 import { Set as ArmorSet } from '../model/Set';
 import { Weapon } from '../model/Weapon';
-import { Amulet } from '../model/Amulet';
-import { Options } from '../model/Options';
 
 export interface TemplateConfig {
   skills: Skill[];
   sets: ArmorSet[];
   weapons: Weapon[];
-  amulets: Amulet[];
-  options: Options;
 }
 
 /**
@@ -29,8 +25,6 @@ export function cloneTemplate(template: TemplateData): TemplateConfig {
     skills: template.skills.map((s) => ({ ...s, names: { ...s.names } })),
     sets: template.sets.map((s) => ({ ...s, names: { ...s.names } })),
     weapons: template.weapons.map((w) => ({ ...w, names: { ...w.names } })),
-    amulets: template.amulets.map((a) => ({ ...a, skills: a.skills.map((s) => ({ ...s })) })),
-    options: { ...template.options },
   };
 }
 
@@ -51,7 +45,5 @@ export function createTemplate(
     skills: config.skills.map((s) => ({ ...s, names: { ...s.names } })),
     sets: config.sets.map((s) => ({ ...s, names: { ...s.names } })),
     weapons: config.weapons.map((w) => ({ ...w, names: { ...w.names } })),
-    amulets: config.amulets.map((a) => ({ ...a, skills: a.skills.map((skill) => ({ ...skill })) })),
-    options: { ...config.options },
   };
 }

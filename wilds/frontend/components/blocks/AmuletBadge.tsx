@@ -1,9 +1,8 @@
 import React from 'react';
-import {Box, FormControl, IconButton, MenuItem, Select} from '@mui/material';
+import {Autocomplete, Box, FormControl, IconButton, MenuItem, Select, TextField} from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import ClearIcon from '@mui/icons-material/Clear';
 import {Amulet} from '../../model/Amulet';
-import CustomAutocomplete from '../inputs/CustomAutocomplete';
 import { useI18n } from '../../lib/i18nContext';
 import { NamedEntity } from '../../model/Localized';
 
@@ -33,58 +32,97 @@ function AmuletBadge({
   index,
   availableSkills
 }: AmuletBadgeProps) {
-  const { t } = useI18n();
+  const { t, language } = useI18n();
 
-  const handleSkillSelect = (skillIndex: number, value: string) => {
-    const selected = availableSkills.find((skill) => skill.id === value);
-    onSkillChange(index, skillIndex, 'id', selected?.id || '');
-    onSkillChange(index, skillIndex, 'name', selected?.names.en || '');
-    onSkillChange(index, skillIndex, 'names', selected?.names || undefined);
+  const handleSkillSelect = (skillIndex: number, value: NamedEntity | null) => {
+    if (value) {
+      onSkillChange(index, skillIndex, 'id', value.id);
+      onSkillChange(index, skillIndex, 'name', value.names.en);
+      onSkillChange(index, skillIndex, 'names', value.names);
+      onSkillChange(index, skillIndex, 'value', 1);
+    } else {
+      onSkillRemove(index, skillIndex);
+    }
   };
 
   return (
     <Box sx={{display: 'flex', gap: 1, alignItems: 'center', bgcolor: '#495057', p: 1, borderRadius: 1, border: '1px solid #6c757d'}}>
       <Box sx={{display: 'flex', flexDirection: 'column', width: '75%', gap: 1}}>
-        {[1, 2, 3].map(i => (
-          <Box key={i} sx={{display: 'flex', alignItems: 'center', gap: 1}}>
-            <CustomAutocomplete
-              value={amulet.skills[i - 1]?.id || ''}
-              onChange={(value) => handleSkillSelect(i - 1, value)}
-              options={availableSkills}
-              placeholder={`${t.filters.amulets.skill} ${i}`}
-              size="small"
-              fullWidth
-              sx={{'& .MuiOutlinedInput-root': {color: '#f8f9fa', '& fieldset': {borderColor: '#6c757d'}, '&:hover fieldset': {borderColor: '#adb5bd'}}}}
-            />
-            <Box
-              component="input"
-              type="number"
-              value={amulet.skills[i - 1]?.value || ''}
-              onChange={e => onSkillChange(index, i - 1, 'value', e.target.value)}
-              min={1}
-              max={4}
-              sx={{
-                width: 60,
-                padding: '8px',
-                borderRadius: '4px',
-                border: '1px solid #6c757d',
-                backgroundColor: '#212529',
-                color: '#f8f9fa',
-                fontSize: '0.875rem',
-                '&:hover': {
-                  borderColor: '#adb5bd',
-                },
-                '&:focus': {
-                  outline: 'none',
-                  borderColor: '#adb5bd',
-                },
-              }}
-            />
-            <IconButton size="small" onClick={() => onSkillRemove(index, i - 1)} sx={{color: '#adb5bd'}}>
-              <ClearIcon fontSize="small" />
-            </IconButton>
-          </Box>
-        ))}
+        {[0, 1, 2].map(i => {
+          const currentSkill = amulet.skills[i];
+          const selectedSkill = currentSkill?.id ? availableSkills.find(s => s.id === currentSkill.id) : null;
+
+          // Filter out skills already selected in this amulet
+          const selectedSkillIds = amulet.skills
+            .filter((s, idx) => idx !== i && s?.id)
+            .map(s => s.id);
+          const filteredSkills = availableSkills.filter(skill => !selectedSkillIds.includes(skill.id));
+          return (
+            <Box key={i} sx={{display: 'flex', alignItems: 'center', gap: 1}}>
+              <Autocomplete
+                value={selectedSkill}
+                onChange={(_, newValue) => handleSkillSelect(i, newValue)}
+                options={filteredSkills}
+                getOptionLabel={(option) => option.names[language] || option.names.en}
+                isOptionEqualToValue={(option, value) => option.id === value.id}
+                renderInput={(params) => (
+                  <TextField
+                    {...params}
+                    placeholder={`${t.filters.amulets.skill} ${i + 1}`}
+                    size="small"
+                    fullWidth
+                  />
+                )}
+                size="small"
+                sx={{
+                  flex: 1,
+                  '& .MuiOutlinedInput-root': {
+                    color: '#f8f9fa',
+                    '& fieldset': {borderColor: '#6c757d'},
+                    '&:hover fieldset': {borderColor: '#adb5bd'}
+                  }
+                }}
+              />
+              <Box
+                component="input"
+                type="number"
+                value={currentSkill?.value || ''}
+                onChange={e => {
+                  const val = Number(e.target.value);
+                  if (val >= 1 && val <= 3) {
+                    onSkillChange(index, i, 'value', val);
+                  }
+                }}
+                min={1}
+                max={3}
+                disabled={!currentSkill?.id}
+                placeholder="1"
+                sx={{
+                  width: 60,
+                  padding: '8px',
+                  borderRadius: '4px',
+                  border: '1px solid #6c757d',
+                  backgroundColor: '#212529',
+                  color: '#f8f9fa',
+                  fontSize: '0.875rem',
+                  '&:hover': {
+                    borderColor: '#adb5bd',
+                  },
+                  '&:focus': {
+                    outline: 'none',
+                    borderColor: '#adb5bd',
+                  },
+                  '&:disabled': {
+                    opacity: 0.5,
+                  },
+                  '&::placeholder': {
+                    color: '#6c757d',
+                  }
+                }}
+              />
+            </Box>
+          );
+        })}
       </Box>
       <Box sx={{display: 'flex', alignItems: 'center'}}>
         <FormControl size="small" sx={{'& .MuiOutlinedInput-root': {
@@ -100,7 +138,7 @@ function AmuletBadge({
             sx={{color: '#f8f9fa'}}
           >
             <MenuItem value="">
-              <em>{t.filters.amulets.level}</em>
+              <em>{t.filters.amulets.slots}</em>
             </MenuItem>
             <MenuItem value="1-0-0">1-0-0</MenuItem>
             <MenuItem value="1-1-0">1-1-0</MenuItem>

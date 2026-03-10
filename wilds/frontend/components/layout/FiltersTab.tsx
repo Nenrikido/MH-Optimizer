@@ -7,14 +7,13 @@ import React, {useState} from 'react';
 import {Autocomplete, Box, Chip, TextField, Typography} from '@mui/material';
 import AmuletBadgeList from '../blocks/AmuletBadgeList';
 import AddAmuletButton from '../blocks/AddAmuletButton';
-import CustomAutocomplete from '../inputs/CustomAutocomplete';
 import {Amulet} from '../../model/Amulet';
 import {NamedEntity} from '../../model/Localized';
 import {useI18n} from '../../lib/i18nContext';
 
 interface FiltersTabProps {
   amulets: Amulet[];
-  setAmulets: (amulets: Amulet[]) => void;
+  setAmulets: React.Dispatch<React.SetStateAction<Amulet[]>>;
   availableSkills: NamedEntity[];
   excludedArmorItems: string[];
   setExcludedArmorItems: (items: string[]) => void;
@@ -45,10 +44,10 @@ function FiltersTab({
   const [exclusionInput, setExclusionInput] = useState('');
 
   const handleAddAmulet = () => {
-    setAmulets([
-      ...amulets,
-      {name: '', skills: [], slots: ''}
-    ]);
+    setAmulets(prev => ([
+      ...prev,
+      {name: 'Custom Amulet', skills: [{value: 0}, {value: 0}, {value: 0}], slots: ''}
+    ]));
   };
 
   // Filter available armor items (remove already excluded)
@@ -56,10 +55,9 @@ function FiltersTab({
     item => !excludedArmorItems.includes(item.id)
   );
 
-  const handleSelectArmorItem = (value: string) => {
-    const selected = availableArmorItems.find(item => item.id === value);
-    if (selected && !excludedArmorItems.includes(selected.id)) {
-      setExcludedArmorItems([...excludedArmorItems, selected.id]);
+  const handleSelectArmorItem = (_: any, value: NamedEntity | null) => {
+    if (value && !excludedArmorItems.includes(value.id)) {
+      setExcludedArmorItems([...excludedArmorItems, value.id]);
       setExclusionInput('');
     }
   };
@@ -106,12 +104,21 @@ function FiltersTab({
         </Typography>
 
         {/* Search field */}
-        <CustomAutocomplete
-          value={exclusionInput}
+        <Autocomplete
+          inputValue={exclusionInput}
+          onInputChange={(_, newInputValue) => setExclusionInput(newInputValue)}
           onChange={handleSelectArmorItem}
-          onInputChange={setExclusionInput}
           options={availableArmorForExclusion}
-          placeholder={t.filters.excludeArmorParts.placeholder}
+          getOptionLabel={(option) => option.names[language] || option.names.en}
+          isOptionEqualToValue={(option, value) => option.id === value.id}
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              placeholder={t.filters.excludeArmorParts.placeholder}
+              size="small"
+              fullWidth
+            />
+          )}
           fullWidth
           size="small"
           sx={{mb: 1.5}}

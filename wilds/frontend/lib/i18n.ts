@@ -24,7 +24,10 @@ export interface Translations {
   };
   inputs: {
     skills: string;
+    skillsMaxPoints: string;
+    skillsWeight: string;
     armor: string;
+    armorMinPieces: string;
     weapons: string;
   }
   tabs: {
@@ -55,7 +58,7 @@ export interface Translations {
       title: string;
       addAmulet: string;
       skill: string;
-      level: string;
+      slots: string;
     };
     excludeArmorParts: {
       title: string;
@@ -120,7 +123,10 @@ const en: Translations = {
   },
   inputs: {
     skills: 'Which skills do you want to have ?',
+    skillsMaxPoints: 'Max level for this skill (leave empty for no limit)',
+    skillsWeight: 'Weight for this skill',
     armor: 'With which armor set(s)',
+    armorMinPieces: 'Minimum pieces for this set (default 2)',
     weapons: 'On which weapon(s)',
   },
   tabs: {
@@ -151,7 +157,7 @@ const en: Translations = {
       title: 'Amulets',
       addAmulet: 'Add an amulet',
       skill: 'Skill',
-      level: 'Level',
+      slots: 'Slots'
     },
     excludeArmorParts: {
       title: 'Exclude Armor Parts',
@@ -216,7 +222,10 @@ const fr: Translations = {
   },
   inputs: {
     skills: 'Quelles compétences souhaitez-vous avoir ?',
+    skillsMaxPoints: 'Niveau max pour cette compétence',
+    skillsWeight: 'Poids pour cette compétence',
     armor: 'Avec quel(s) ensemble(s) d\'armure ?',
+    armorMinPieces: 'Nombre minimum de pièces pour cet ensemble (défaut 2)',
     weapons: 'Sur quelle(s) arme(s) ?',
   },
   tabs: {
@@ -247,7 +256,7 @@ const fr: Translations = {
       title: 'Amulettes',
       addAmulet: 'Ajouter une amulette',
       skill: 'Compétence',
-      level: 'Niveau',
+      slots: 'Slots'
     },
     excludeArmorParts: {
       title: 'Exclure des pièces d\'armure',

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
+import {Autocomplete, TextField} from '@mui/material';
 import {Weapon} from '../../model/Weapon';
-import CustomAutocomplete from './CustomAutocomplete';
 import { useI18n } from '../../lib/i18nContext';
 import { NamedEntity } from '../../model/Localized';
 
@@ -12,24 +12,33 @@ interface WeaponInputProps {
 
 function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) {
   const [input, setInput] = useState('');
-  const { t } = useI18n();
+  const { t, language } = useI18n();
 
-  const handleSelect = (value: string) => {
-    const selected = availableWeapons.find((weapon) => weapon.id === value);
-    if (selected && !weapons.some(weapon => weapon.id === value)) {
-      setWeapons([...weapons, {id: selected.id, names: selected.names}]);
+  const filteredOptions = availableWeapons.filter((option) => !weapons.some(weapon => weapon.id === option.id));
+
+  const handleSelect = (_: any, value: NamedEntity | null) => {
+    if (value && !weapons.some(weapon => weapon.id === value.id)) {
+      setWeapons([...weapons, {id: value.id, names: value.names}]);
       setInput('');
     }
   };
 
   return (
-    <CustomAutocomplete
-      value={input}
+    <Autocomplete
+      inputValue={input}
+      onInputChange={(_, newInputValue) => setInput(newInputValue)}
       onChange={handleSelect}
-      onInputChange={setInput}
-      options={availableWeapons}
-      filterOutValues={weapons.map(s => s.id)}
-      placeholder={t.inputs.weapons}
+      options={filteredOptions}
+      getOptionLabel={(option) => option.names[language] || option.names.en}
+      isOptionEqualToValue={(option, value) => option.id === value.id}
+      renderInput={(params) => (
+        <TextField
+          {...params}
+          placeholder={t.inputs.weapons}
+          size="small"
+          fullWidth
+        />
+      )}
       fullWidth
       size="small"
       sx={{mb: 1}}

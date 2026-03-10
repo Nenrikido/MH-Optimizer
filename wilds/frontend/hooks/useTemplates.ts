@@ -32,6 +32,7 @@ export function useTemplates(
   /**
    * Applies a template to the current configuration.
    * Deep clones the template data before applying to prevent mutations.
+   * Preserves the current amulets - templates should not override them.
    */
   const applyTemplate = (template: TemplateData) => {
     const cloned = cloneTemplate(template);

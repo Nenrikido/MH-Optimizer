@@ -10,7 +10,5 @@ export interface TemplateData {
   skills: Skill[];
   sets: ArmorSet[];
   weapons: Weapon[];
-  amulets: Amulet[];
-  options: Options;
 }
 
