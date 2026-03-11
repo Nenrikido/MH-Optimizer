@@ -98,9 +98,9 @@ function TabsComponent({
 
   return (
       <Box sx={{
-        width: {xs: '100%', lg: '40%'},
-        minWidth: {xs: '100%', lg: '40vw'},
-        maxWidth: {xs: '100%', lg: '40vw'},
+        width: {xs: '100%', lg: '45%'},
+        minWidth: {xs: '100%', lg: '45vw'},
+        maxWidth: {xs: '100%', lg: '45vw'},
         height: {xs: '600px', lg: 'calc(100vh - 75px)'},
         display: 'flex',
         flexDirection: 'column',

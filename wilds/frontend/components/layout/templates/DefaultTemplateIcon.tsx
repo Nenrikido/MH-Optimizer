@@ -1,7 +1,8 @@
 import React from 'react';
 import { Box, Tooltip, Typography } from '@mui/material';
-import { TemplateData } from '../../../model/Template';
+import { TemplateData, getTemplateName } from '../../../model/Template';
 import { GearIconKey, Icon, isGearIconKey } from '../../../lib/icon';
+import { useI18n } from '../../../lib/i18nContext';
 import TemplateTooltipContent from './TemplateTooltipContent';
 
 interface DefaultTemplateIconProps {
@@ -10,7 +11,9 @@ interface DefaultTemplateIconProps {
 }
 
 function DefaultTemplateIcon({ template, onApply }: DefaultTemplateIconProps) {
+  const { t } = useI18n();
   const gearKey = template.weapons[0]?.gear_key;
+  const displayName = getTemplateName(template, t);
 
   return (
     <Tooltip title={<TemplateTooltipContent template={template} />} arrow placement="top">
@@ -23,8 +26,7 @@ function DefaultTemplateIcon({ template, onApply }: DefaultTemplateIconProps) {
           justifyContent: 'center',
           gap: 0.5,
           p: 1,
-          width: 64,
-          height: 72,
+          flexBasis: 'calc(100% / 7 - 48px / 7)',
           backgroundColor: '#2c3034',
           border: '1px solid #495057',
           borderRadius: 1,
@@ -41,9 +43,9 @@ function DefaultTemplateIcon({ template, onApply }: DefaultTemplateIconProps) {
       >
         {isGearIconKey(gearKey)
           ? <Icon type="gear" iconKey={gearKey as GearIconKey} size={32} />
-          : <Typography sx={{ fontSize: '0.65rem', color: '#adb5bd', textAlign: 'center', lineHeight: 1.2 }}>{template.name}</Typography>}
+          : <Typography sx={{ fontSize: '0.65rem', color: '#adb5bd', textAlign: 'center', lineHeight: 1.2 }}>{displayName}</Typography>}
         <Typography sx={{ fontSize: '0.6rem', color: '#6c757d', textAlign: 'center', lineHeight: 1.1, maxWidth: 60, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-          {template.name}
+          {displayName}
         </Typography>
       </Box>
     </Tooltip>

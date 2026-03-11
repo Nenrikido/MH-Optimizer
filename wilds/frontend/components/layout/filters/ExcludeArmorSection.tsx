@@ -26,9 +26,6 @@ function ExcludeArmorSection({ excludedArmorItems, setExcludedArmorItems, availa
       <Typography variant="body1" sx={{ fontSize: '1rem', fontWeight: 600, mb: 1.5, color: '#adb5bd' }}>
         {t.filters.excludeArmorParts.title}
       </Typography>
-      <Typography variant="caption" sx={{ color: '#6c757d', mb: 1.5, display: 'block' }}>
-        {t.filters.excludeArmorParts.description}
-      </Typography>
 
       <Autocomplete
         inputValue={exclusionInput}

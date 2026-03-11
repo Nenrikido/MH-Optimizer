@@ -56,8 +56,8 @@ function MainForm({
   return (
       <Box sx={{
         p: 3,
-        width: { xs: '100%', lg: '60%' },
-        minWidth: { xs: '100%', lg: '60vw' },
+        width: { xs: '100%', lg: '55%' },
+        minWidth: { xs: '100%', lg: '55vw' },
         height: { xs: 'auto', lg: 'calc(100vh - 75px)' },
         overflowY: { xs: 'visible', lg: 'auto' },
         overflowX: 'hidden'

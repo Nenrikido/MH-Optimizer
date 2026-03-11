@@ -26,9 +26,6 @@ function GogWeaponsSection({
       <Typography variant="body1" sx={{ fontSize: '1rem', fontWeight: 600, mb: 1.5, color: '#adb5bd' }}>
         {t.filters.gogWeapons.title}
       </Typography>
-      <Typography variant="caption" sx={{ color: '#6c757d', mb: 1.5, display: 'block' }}>
-        {t.filters.gogWeapons.description}
-      </Typography>
 
       <Box sx={{ mb: 2 }}>
         <Typography variant="body2" sx={{ fontSize: '0.875rem', fontWeight: 500, color: '#adb5bd', mb: 1 }}>

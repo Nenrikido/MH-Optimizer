@@ -1,18 +1,20 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import { TemplateData } from '../../../model/Template';
+import { TemplateData, getTemplateName } from '../../../model/Template';
 import { useI18n } from '../../../lib/i18nContext';
-import { Icon, isSkillIconKey } from '../../../lib/icon';
+import {Icon, isGearIconKey, isSkillIconKey} from '../../../lib/icon';
 
 interface TemplateTooltipContentProps {
   template: TemplateData;
 }
 
 function TemplateTooltipContent({ template }: TemplateTooltipContentProps) {
-  const { language } = useI18n();
+  const { t, language } = useI18n();
+  const displayName = getTemplateName(template, t);
 
   return (
     <Box sx={{ maxWidth: 360 }}>
+      <Typography sx={{ fontWeight: 700, fontSize: '0.85rem', mb: 0.75 }}>{displayName}</Typography>
       {template.skills.length > 0 && (
         <Box sx={{ mb: 1 }}>
           <Typography sx={{ fontWeight: 600, fontSize: '0.8rem', mb: 0.25 }}>Skills:</Typography>
@@ -29,7 +31,8 @@ function TemplateTooltipContent({ template }: TemplateTooltipContentProps) {
           <Typography sx={{ fontWeight: 600, fontSize: '0.8rem', mb: 0.25 }}>Sets:</Typography>
           {template.sets.map((set, idx) => (
             <Typography key={idx} sx={{ fontSize: '0.72rem' }}>
-              - {set.names[language] || set.names.en} ({set.min_pieces}p)
+              {isSkillIconKey(set.icon) && <Icon type="skills" iconKey={set.icon} size={14} />}
+              {set.names[language] || set.names.en} ({set.min_pieces}p)
             </Typography>
           ))}
         </Box>
@@ -39,7 +42,8 @@ function TemplateTooltipContent({ template }: TemplateTooltipContentProps) {
           <Typography sx={{ fontWeight: 600, fontSize: '0.8rem', mb: 0.25 }}>Weapons:</Typography>
           {template.weapons.map((weapon, idx) => (
             <Typography key={idx} sx={{ fontSize: '0.72rem' }}>
-              - {weapon.names[language] || weapon.names.en}
+              {isGearIconKey(weapon.gear_key) && <Icon type="gear" iconKey={weapon.gear_key} size={14} />}
+              {weapon.names[language] || weapon.names.en}
             </Typography>
           ))}
         </Box>

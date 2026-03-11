@@ -16,7 +16,7 @@ import { DEFAULT_DATA } from './lib/defaultData';
 import { theme } from './lib/theme';
 import { globalStyles } from './lib/globalStyles';
 import { I18nProvider } from './lib/i18nContext';
-import { saveConfig } from './lib/configStorage';
+import {loadConfig, saveConfig} from './lib/configStorage';
 import { useAvailableItems } from './hooks/useAvailableItems';
 import { useTemplates } from './hooks/useTemplates';
 

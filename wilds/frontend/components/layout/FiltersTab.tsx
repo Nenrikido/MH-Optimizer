@@ -26,7 +26,6 @@ function FiltersTab({
 }: FiltersTabProps) {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
-      <AmuletsSection amulets={amulets} setAmulets={setAmulets} availableSkills={availableSkills} />
       <ExcludeArmorSection
         excludedArmorItems={excludedArmorItems}
         setExcludedArmorItems={setExcludedArmorItems}
@@ -40,6 +39,7 @@ function FiltersTab({
         availableSets={availableSets}
         availableGroups={availableGroups}
       />
+      <AmuletsSection amulets={amulets} setAmulets={setAmulets} availableSkills={availableSkills} />
     </Box>
   );
 }

@@ -43,15 +43,30 @@ export interface Translations {
     emptyCustom: string;
     apply: string;
     delete: string;
+    names: {
+      'default-great-sword': string;
+      'default-long-sword': string;
+      'default-sword-and-shield': string;
+      'default-dual-blades': string;
+      'default-hammer': string;
+      'default-hunting-horn': string;
+      'default-lance': string;
+      'default-gunlance': string;
+      'default-switch-axe': string;
+      'default-charge-blade': string;
+      'default-insect-glaive': string;
+      'default-light-bowgun': string;
+      'default-heavy-bowgun': string;
+      'default-bow': string;
+    };
   };
   results: {
     noResults: string;
     error: string;
     title: string;
     skillsLabel: string;
-    amuletsLabel: string;
+    armorSetLabel: string;
     armorLabel: string;
-    weaponLabel: string;
   };
   filters: {
     amulets: {
@@ -62,12 +77,10 @@ export interface Translations {
     };
     excludeArmorParts: {
       title: string;
-      description: string;
       placeholder: string;
     };
     gogWeapons: {
       title: string;
-      description: string;
       setBonus: string;
       setBonusAutocomplete: string;
       groupBonus: string;
@@ -142,15 +155,30 @@ const en: Translations = {
     emptyCustom: 'No custom templates saved yet.',
     apply: 'Apply',
     delete: 'Delete',
+    names: {
+      'default-great-sword': 'Great Sword',
+      'default-long-sword': 'Long Sword',
+      'default-sword-and-shield': 'Sword & Shield',
+      'default-dual-blades': 'Dual Blades',
+      'default-hammer': 'Hammer',
+      'default-hunting-horn': 'Hunting Horn',
+      'default-lance': 'Lance',
+      'default-gunlance': 'Gunlance',
+      'default-switch-axe': 'Switch Axe',
+      'default-charge-blade': 'Charge Blade',
+      'default-insect-glaive': 'Insect Glaive',
+      'default-light-bowgun': 'Light Bowgun',
+      'default-heavy-bowgun': 'Heavy Bowgun',
+      'default-bow': 'Bow',
+    },
   },
   results: {
     noResults: 'No results for now.',
     error: 'Error during optimization',
     title: 'Optimization results',
     skillsLabel: 'Skills',
-    amuletsLabel: 'Amulets',
+    armorSetLabel: 'Set / Group Bonuses',
     armorLabel: 'Items',
-    weaponLabel: 'Weapon',
   },
   filters: {
     amulets: {
@@ -161,16 +189,14 @@ const en: Translations = {
     },
     excludeArmorParts: {
       title: 'Exclude Armor Parts',
-      description: 'Select armor parts to exclude from searches',
-      placeholder: 'Search armor parts...',
+      placeholder: 'Search armor parts to exclude from searches',
     },
     gogWeapons: {
       title: 'Gogmazios Weapon',
-      description: 'Choose the Gogmazios weapons set and group bonus',
       setBonus: 'Set Bonus',
-      setBonusAutocomplete: 'Search for a set bonus...',
+      setBonusAutocomplete: 'Choose the Gogmazios weapons set bonus',
       groupBonus: 'Group Bonus',
-      groupBonusAutocomplete: 'Search for a group bonus...',
+      groupBonusAutocomplete: 'Choose the Gogmazios weapons group bonus',
     },
   },
   armorParts: {
@@ -192,7 +218,7 @@ const en: Translations = {
     notes: 'Notes:',
     notesItems: {
       dataUpToDate: 'Data is up to date with TU4.1 (AT Arkveld)',
-      defaultValues: "Yes the default values are for Insect Glaive, yes I'm a weeb",
+      defaultValues: "Yes the default values are for LS, yes I'm a weeb",
       noBuild: 'If no build appears, relax constraints (sets/skills/filters).',
       gogFilters: 'Gogmazios set/group filters are hidden when "Include all Gog sets" is enabled.',
       customTemplates: 'Saved custom templates are local to your browser.',
@@ -241,15 +267,30 @@ const fr: Translations = {
     emptyCustom: 'Aucun modèle personnalisé enregistré.',
     apply: 'Appliquer',
     delete: 'Supprimer',
+    names: {
+      'default-great-sword': 'Grande Épée',
+      'default-long-sword': 'Katana',
+      'default-sword-and-shield': 'Épée & Bouclier',
+      'default-dual-blades': 'Doubles Lames',
+      'default-hammer': 'Marteau',
+      'default-hunting-horn': 'Cor de Chasse',
+      'default-lance': 'Lance',
+      'default-gunlance': 'Fusée-Lance',
+      'default-switch-axe': 'Morpho-Hache',
+      'default-charge-blade': 'Lame Chargée',
+      'default-insect-glaive': 'Insectoglaive',
+      'default-light-bowgun': 'Fusarbalète Légère',
+      'default-heavy-bowgun': 'Fusarbalète Lourde',
+      'default-bow': 'Arc',
+    },
   },
   results: {
     noResults: 'Aucun résultat pour le moment.',
     error: 'Erreur lors de l\'optimisation',
     title: 'Résultats de l\'optimisation',
     skillsLabel: 'Compétences',
-    amuletsLabel: 'Amulettes',
+    armorSetLabel: 'Bonus d\'ensemble / de groupe',
     armorLabel: 'Équipement',
-    weaponLabel: 'Arme',
   },
   filters: {
     amulets: {
@@ -260,16 +301,14 @@ const fr: Translations = {
     },
     excludeArmorParts: {
       title: 'Exclure des pièces d\'armure',
-      description: 'Sélectionner les pièces d\'armure à exclure des recherches',
-      placeholder: 'Rechercher des pièces d\'armure...',
+      placeholder: 'Sélectionner les pièces d\'armure à exclure des recherches',
     },
     gogWeapons: {
       title: 'Armes Gogmazios',
-      description: 'Choisissez le bonus d\'ensemble et de groupe de l\'arme Gogmazios',
       setBonus: 'Bonus d\'ensemble',
-      setBonusAutocomplete: 'Recherchez un bonus d\'ensemble...',
+      setBonusAutocomplete: 'Choisissez un bonus d\'ensemble des armes Gogmazios...',
       groupBonus: 'Bonus de groupe',
-      groupBonusAutocomplete: 'Recherchez un bonus de groupe...',
+      groupBonusAutocomplete: 'Choisissez un bonus de groupe des armes Gogmazios...',
     },
   },
   armorParts: {
@@ -291,7 +330,7 @@ const fr: Translations = {
     notes: 'Notes :',
     notesItems: {
       dataUpToDate: 'Les données sont à jour avec TU4.1 (AT Arkveld)',
-      defaultValues: 'Oui, les valeurs par défaut sont pour l\'Insectoglaive, oui je suis un weeb',
+      defaultValues: 'Oui, les valeurs par défaut sont pour la LS, oui je suis un weeb',
       noBuild: 'Si aucun build ne sort, assouplissez les contraintes (sets/skills/filtres).',
       gogFilters: 'Les filtres Gogmazios (set/groupe) sont masqués si "Inclure tous les sets Gog" est activé.',
       customTemplates: 'Les templates personnalisés sont enregistrés localement dans le navigateur.',

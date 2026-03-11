@@ -32,7 +32,6 @@ groups = []
 for skill in json.load(open(FULL_DB_DIR / 'Skill.json', encoding='utf-8')):
     skill_id = str(skill['game_id'])
     names = get_names(skill)
-    skill_name_by_id[skill_id] = names['en']
 
     entry = {
         'id': skill_id,
@@ -40,6 +39,9 @@ for skill in json.load(open(FULL_DB_DIR / 'Skill.json', encoding='utf-8')):
         'icon': skill.get('icon'),
     }
     if skill['kind'] in ('armor', 'weapon'):
+        # Only combat skills belong to the `skills` map on items.
+        # Set/group skills must remain in item `sets`.
+        skill_name_by_id[skill_id] = names['en']
         skills.append(entry)
     elif skill['kind'] == 'set':
         sets.append(entry)

@@ -258,6 +258,42 @@ def serve_favicon():
     return send_from_directory(public_folder, 'favicon.png')
 
 
+@app.route('/gear.png')
+def serve_gear_icon():
+    """Serve gear spritesheet"""
+    # Try dist first (production build)
+    dist_folder = os.path.join(app.root_path, '..', 'frontend', 'dist')
+    gear_dist = os.path.join(dist_folder, 'gear.png')
+    if os.path.exists(gear_dist):
+        response = send_from_directory(dist_folder, 'gear.png')
+        response.cache_control.max_age = 31536000  # 1 year
+        return response
+
+    # Fallback to public folder (development)
+    public_folder = os.path.join(app.root_path, '..', 'frontend', 'public')
+    response = send_from_directory(public_folder, 'gear.png')
+    response.cache_control.max_age = 3600  # 1 hour for dev
+    return response
+
+
+@app.route('/skills.png')
+def serve_skills_icon():
+    """Serve skills spritesheet"""
+    # Try dist first (production build)
+    dist_folder = os.path.join(app.root_path, '..', 'frontend', 'dist')
+    skills_dist = os.path.join(dist_folder, 'skills.png')
+    if os.path.exists(skills_dist):
+        response = send_from_directory(dist_folder, 'skills.png')
+        response.cache_control.max_age = 31536000  # 1 year
+        return response
+
+    # Fallback to public folder (development)
+    public_folder = os.path.join(app.root_path, '..', 'frontend', 'public')
+    response = send_from_directory(public_folder, 'skills.png')
+    response.cache_control.max_age = 3600  # 1 hour for dev
+    return response
+
+
 @app.route('/')
 def serve_index():
     """Serve index.html for root path"""
