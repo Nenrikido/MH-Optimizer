@@ -9,12 +9,14 @@ import AmuletBadgeList from '../blocks/AmuletBadgeList';
 import AddAmuletButton from '../blocks/AddAmuletButton';
 import {Amulet} from '../../model/Amulet';
 import {NamedEntity} from '../../model/Localized';
+import {Skill} from '../../model/Skill';
 import {useI18n} from '../../lib/i18nContext';
+import { GearIconKey, Icon, isGearIconKey, isSkillIconKey } from '../../lib/icon';
 
 interface FiltersTabProps {
   amulets: Amulet[];
   setAmulets: React.Dispatch<React.SetStateAction<Amulet[]>>;
-  availableSkills: NamedEntity[];
+  availableSkills: Skill[];
   excludedArmorItems: string[];
   setExcludedArmorItems: (items: string[]) => void;
   gogSetFilter: string;
@@ -50,7 +52,6 @@ function FiltersTab({
     ]));
   };
 
-  // Filter available armor items (remove already excluded)
   const availableArmorForExclusion = availableArmorItems.filter(
     item => !excludedArmorItems.includes(item.id)
   );
@@ -77,15 +78,8 @@ function FiltersTab({
   const selectedGogSet = availableSets.find((s) => s.id === gogSetFilter) || null;
   const selectedGogGroup = availableGroups.find((g) => g.id === gogGroupFilter) || null;
 
-  // Get names of excluded armor items for display
-  const excludedArmorNames = excludedArmorItems.map(id => {
-    const item = availableArmorItems.find(a => a.id === id);
-    return item ? item.names.en : id;
-  });
-
   return (
     <Box sx={{display: 'flex', flexDirection: 'column', gap: 3}}>
-      {/* Amulets Section */}
       <Box>
         <Typography variant="body1" sx={{fontSize: '1rem', fontWeight: 600, mb: 1.5, color: '#adb5bd'}}>
           {t.filters.amulets.title}
@@ -94,7 +88,6 @@ function FiltersTab({
         <AddAmuletButton onAdd={handleAddAmulet} />
       </Box>
 
-      {/* Excluded Armor Items Section */}
       <Box>
         <Typography variant="body1" sx={{fontSize: '1rem', fontWeight: 600, mb: 1.5, color: '#adb5bd'}}>
           {t.filters.excludeArmorParts.title}
@@ -103,7 +96,6 @@ function FiltersTab({
           {t.filters.excludeArmorParts.description}
         </Typography>
 
-        {/* Search field */}
         <Autocomplete
           inputValue={exclusionInput}
           onInputChange={(_, newInputValue) => setExclusionInput(newInputValue)}
@@ -111,6 +103,12 @@ function FiltersTab({
           options={availableArmorForExclusion}
           getOptionLabel={(option) => option.names[language] || option.names.en}
           isOptionEqualToValue={(option, value) => option.id === value.id}
+          renderOption={(props, option) => (
+            <Box component="li" {...props} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+              {isGearIconKey(option.gear_key) ? <Icon type="gear" iconKey={option.gear_key as GearIconKey} /> : null}
+              <span>{option.names[language] || option.names.en}</span>
+            </Box>
+          )}
           renderInput={(params) => (
             <TextField
               {...params}
@@ -124,23 +122,30 @@ function FiltersTab({
           sx={{mb: 1.5}}
         />
 
-        {/* Selected chips */}
         {excludedArmorItems.length > 0 && (
           <Box sx={{display: 'flex', flexWrap: 'wrap', gap: 1}}>
-            {excludedArmorItems.map((itemId, idx) => (
-              <Chip
-                key={itemId}
-                label={excludedArmorNames[idx]}
-                onDelete={() => handleRemoveArmorItem(itemId)}
-                size="small"
-                variant="outlined"
-              />
-            ))}
+            {excludedArmorItems.map((itemId) => {
+              const item = availableArmorItems.find(a => a.id === itemId);
+              const label = item ? (item.names[language] || item.names.en) : itemId;
+              return (
+                <Chip
+                  key={itemId}
+                  label={
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                      {item && isGearIconKey(item.gear_key) ? <Icon type="gear" iconKey={item.gear_key as GearIconKey} /> : null}
+                      <span>{label}</span>
+                    </Box>
+                  }
+                  onDelete={() => handleRemoveArmorItem(itemId)}
+                  size="small"
+                  variant="outlined"
+                />
+              );
+            })}
           </Box>
         )}
       </Box>
 
-      {/* GOG Weapon Filters Section */}
       {availableSets.length > 0 || availableGroups.length > 0 ? (
         <Box>
           <Typography variant="body1" sx={{fontSize: '1rem', fontWeight: 600, mb: 1.5, color: '#adb5bd'}}>
@@ -150,7 +155,6 @@ function FiltersTab({
             {t.filters.gogWeapons.description}
           </Typography>
 
-          {/* GOG Set Filter */}
           <Box sx={{mb: 2}}>
             <Typography variant="body2" sx={{fontSize: '0.875rem', fontWeight: 500, color: '#adb5bd', mb: 1}}>
               {t.filters.gogWeapons.setBonus}
@@ -164,13 +168,18 @@ function FiltersTab({
               onChange={(_, newValue) => handleSelectGogSet(newValue?.id || '')}
               getOptionLabel={(option) => option.names[language] || option.names.en}
               isOptionEqualToValue={(option, value) => option.id === value.id}
+              renderOption={(props, option) => (
+                <Box component="li" {...props} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                  {isSkillIconKey(option.icon) ? <Icon type="skills" iconKey={option.icon} /> : null}
+                  <span>{option.names[language] || option.names.en}</span>
+                </Box>
+              )}
               renderInput={(params) => (
                 <TextField {...params} placeholder={t.filters.gogWeapons.setBonusAutocomplete} />
               )}
             />
           </Box>
 
-          {/* GOG Group Filter */}
           <Box>
             <Typography variant="body2" sx={{fontSize: '0.875rem', fontWeight: 500, color: '#adb5bd', mb: 1}}>
               {t.filters.gogWeapons.groupBonus}
@@ -184,6 +193,12 @@ function FiltersTab({
               onChange={(_, newValue) => handleSelectGogGroup(newValue?.id || '')}
               getOptionLabel={(option) => option.names[language] || option.names.en}
               isOptionEqualToValue={(option, value) => option.id === value.id}
+              renderOption={(props, option) => (
+                <Box component="li" {...props} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                  {isSkillIconKey(option.icon) ? <Icon type="skills" iconKey={option.icon} /> : null}
+                  <span>{option.names[language] || option.names.en}</span>
+                </Box>
+              )}
               renderInput={(params) => (
                 <TextField {...params} placeholder={t.filters.gogWeapons.groupBonusAutocomplete} />
               )}

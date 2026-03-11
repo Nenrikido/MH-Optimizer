@@ -5,175 +5,200 @@
       "names": {
         "en": "Arkveld's Hunger",
         "fr": "Appétit de l'Arkveld"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "741102208",
       "names": {
         "en": "Blangonga's Spirit",
         "fr": "Esprit du Blangonga"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-911441792",
       "names": {
         "en": "Blossomdance Prayer",
         "fr": "Prière Danse des fleurs"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-62248528",
       "names": {
         "en": "Doshaguma's Might",
         "fr": "Puissance du Doshaguma"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "11709",
       "names": {
         "en": "Dreamspell Prayer",
         "fr": "Prière Veillée des rêves"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "918165056",
       "names": {
         "en": "Ebony Odogaron's Power",
         "fr": "Pouvoir de l'Odogaron désastre"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "8694",
       "names": {
         "en": "Flamefete Prayer",
         "fr": "Prière Fête des flammes"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-1768553344",
       "names": {
         "en": "Fulgur Anjanath's Will",
         "fr": "Volonté de l'Anjanath tonnerre"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "5590",
       "names": {
         "en": "Gogmapocalypse",
         "fr": "Gogmapocalypse"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "722735744",
       "names": {
         "en": "Gore Magala's Tyranny",
         "fr": "Tyrannie du Gore Magala"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-418246240",
       "names": {
         "en": "Gravios's Protection",
         "fr": "Protection du Gravios"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-1432692352",
       "names": {
         "en": "Guardian Arkveld's Vitality",
         "fr": "Vitalité de l'Arkveld Gardien"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-215826112",
       "names": {
         "en": "Jin Dahaad's Revolt",
         "fr": "Révolte du Jin Dahaad"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "16835",
       "names": {
         "en": "Leviathan's Fury",
         "fr": "Furie du Léviathan"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "30815",
       "names": {
         "en": "Lumenhymn Prayer",
         "fr": "Prière Chant des lumières"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-403054144",
       "names": {
         "en": "Mizutsune's Prowess",
         "fr": "Prouesse du Mizutsune"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "1980404096",
       "names": {
         "en": "Nu Udra's Mutiny",
         "fr": "Mutinerie du Nu Udra"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "31540",
       "names": {
         "en": "Omega Resonance",
         "fr": "Résonance Oméga"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-3666104",
       "names": {
         "en": "Rathalos's Flare",
         "fr": "Éclat du Rathalos"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "539707072",
       "names": {
         "en": "Rey Dau's Voltage",
         "fr": "Tension du Rey Dau"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "30992",
       "names": {
         "en": "Seregios's Tenacity",
         "fr": "Ténacité du Seregios"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "24531",
       "names": {
         "en": "Soul of the Dark Knight",
         "fr": "Cristal de chevalier noir"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "2104075392",
       "names": {
         "en": "Uth Duna's Cover",
         "fr": "Couverture de l'Uth Duna"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-1468066176",
       "names": {
         "en": "Xu Wu's Vigor",
         "fr": "Vigueur du Xu Wu"
-      }
+      },
+      "icon": "set"
     },
     {
       "id": "-555494336",
       "names": {
         "en": "Zoh Shia's Pulse",
         "fr": "Pouls du Zoh Shia"
-      }
+      },
+      "icon": "set"
     }
   ],
   "groups": [
@@ -182,119 +207,136 @@
       "names": {
         "en": "Alluring Pelt",
         "fr": "Pelage attrayant"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "451472896",
       "names": {
         "en": "Buttery Leathercraft",
         "fr": "Douceur du cuir"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "13941",
       "names": {
         "en": "Festival Spirit",
         "fr": "Esprit du festival"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "-1648695680",
       "names": {
         "en": "Flexible Leathercraft",
         "fr": "Cuir souple"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "1998066176",
       "names": {
         "en": "Fortifying Pelt",
         "fr": "Pelage de renforcement"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "2237",
       "names": {
         "en": "Glory's Favor",
         "fr": "Faveur de la gloire"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "-2041451904",
       "names": {
         "en": "Guardian's Protection",
         "fr": "Protection du Gardien"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "-1305836672",
       "names": {
         "en": "Guardian's Pulse",
         "fr": "Pouls du Gardien"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "-1642078720",
       "names": {
         "en": "Imparted Wisdom",
         "fr": "Sagesse transmise"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "-1769550080",
       "names": {
         "en": "Lord's Favor",
         "fr": "Faveur du seigneur"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "2107855744",
       "names": {
         "en": "Lord's Fury",
         "fr": "Rage supérieure"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "1484575872",
       "names": {
         "en": "Lord's Soul",
         "fr": "Âme du seigneur"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "4554",
       "names": {
         "en": "Master of the Fist",
         "fr": "Le Maître du poing"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "1968728576",
       "names": {
         "en": "Neopteron Alert",
         "fr": "Alerte Neopteron"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "1685697920",
       "names": {
         "en": "Neopteron Camouflage",
         "fr": "Camouflage Neopteron"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "-1664678272",
       "names": {
         "en": "Scale Layering",
         "fr": "Écailles superposées"
-      }
+      },
+      "icon": "group"
     },
     {
       "id": "1487598336",
       "names": {
         "en": "Scaling Prowess",
         "fr": "Maîtrise des écailles"
-      }
+      },
+      "icon": "group"
     }
   ]
 }

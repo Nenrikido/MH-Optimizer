@@ -28,6 +28,10 @@ def _derive_custom_amulet_name(input_name, skill_items, skill_by_id, slots_str):
     return f"{' + '.join(parts)}{suffix}"
 
 
+def _weapon_gear_key(item_id):
+    return str(item_id).split(':', 1)[0] if item_id else 'weapon'
+
+
 @app.route('/api/run', methods=['POST'])
 def run_optimization():
     items_data_default, decorations_default, available_skills, available_sets = load_data_files()
@@ -60,6 +64,7 @@ def run_optimization():
         desired_skills.append({
             'id': str(skill_id),
             'names': _names(skill_by_id[str(skill_id)]),
+            'icon': skill_by_id[str(skill_id)].get('icon'),
             'max_points': skill.get('max_points', 5),
             'weight': skill.get('weight', 10)
         })
@@ -195,7 +200,11 @@ def available_items():
     items_data_default, _, available_skills, available_sets = load_data_files()
 
     available_weapons = [
-        {'id': weapon['id'], 'names': _names(weapon)}
+        {
+            'id': weapon['id'],
+            'names': _names(weapon),
+            'gear_key': _weapon_gear_key(weapon['id']),
+        }
         for weapon in items_data_default['weapon']
     ]
 
@@ -205,16 +214,17 @@ def available_items():
         for armor_item in items_data_default.get(armor_type, []):
             available_armor_items.append({
                 'id': armor_item['id'],
-                'names': _names(armor_item)
+                'names': _names(armor_item),
+                'gear_key': armor_type,
             })
 
     # Separate sets and groups
     available_sets_list = [
-        {'id': s['id'], 'names': _names(s)}
+        {'id': s['id'], 'names': _names(s), 'icon': s.get('icon')}
         for s in available_sets.get('sets', [])
     ]
     available_groups_list = [
-        {'id': g['id'], 'names': _names(g)}
+        {'id': g['id'], 'names': _names(g), 'icon': g.get('icon')}
         for g in available_sets.get('groups', [])
     ]
 

@@ -2,12 +2,12 @@ import React from 'react';
 import {Box} from '@mui/material';
 import AmuletBadge from './AmuletBadge';
 import {Amulet} from '../../model/Amulet';
-import { NamedEntity } from '../../model/Localized';
+import { Skill } from '../../model/Skill';
 
 interface AmuletBadgeListProps {
   amulets: Amulet[];
   setAmulets: React.Dispatch<React.SetStateAction<Amulet[]>>;
-  availableSkills: NamedEntity[];
+  availableSkills: Skill[];
 }
 
 function AmuletBadgeList({amulets, setAmulets, availableSkills}: AmuletBadgeListProps) {

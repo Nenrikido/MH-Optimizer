@@ -2,6 +2,7 @@ import React from 'react';
 import {Box, Card, CardContent, Chip, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper} from '@mui/material';
 import {BuildItem, BuildSkill, Result} from '../../model/Result';
 import { useI18n } from '../../lib/i18nContext';
+import { GearIconKey, Icon, isGearIconKey, isSkillIconKey } from '../../lib/icon';
 
 interface BuildCardProps {
   build: Result;
@@ -10,42 +11,7 @@ interface BuildCardProps {
 function BuildCard({ build }: BuildCardProps) {
   const { t, language } = useI18n();
 
-  const slotIcons: Record<string, string> = {
-    weapon: '⚔️',
-    head: '🪖',
-    chest: '🛡️',
-    arms: '🧤',
-    waist: '🥋',
-    legs: '👢',
-    amulet: '📿',
-  };
-
-  const weaponTypeIcons: Record<string, string> = {
-    'great-sword': '🗡️',
-    'long-sword': '🗡️',
-    'sword-shield': '🛡️',
-    'dual-blades': '🗡️',
-    hammer: '🔨',
-    'hunting-horn': '🎺',
-    lance: '🛡️',
-    gunlance: '💥',
-    'switch-axe': '🪓',
-    'charge-blade': '⚡',
-    'insect-glaive': '🪲',
-    'light-bowgun': '🔫',
-    'heavy-bowgun': '🔫',
-    bow: '🏹',
-  };
-
   const getSlotIcon = (type: string) => (type === 'W' ? '⬤' : '◆');
-
-  const getItemIcon = (item: BuildItem) => {
-    if (item.slot === 'weapon') {
-      const weaponType = item.id.split(':')[0];
-      return weaponTypeIcons[weaponType] || '⚔️';
-    }
-    return slotIcons[item.slot] || '▪️';
-  };
 
   const formatAmuletName = (item: BuildItem) => {
     if (!item.amulet_details) return item.names[language] || item.names.en;
@@ -93,7 +59,7 @@ function BuildCard({ build }: BuildCardProps) {
               {build.items.map((item: BuildItem) => (
                 <TableRow key={`${item.slot}:${item.id}`}>
                   <TableCell sx={{ color: '#f8f9fa', borderBottom: '1px solid #495057', textTransform: 'capitalize', fontSize: '0.8rem', py: 0.75 }}>
-                    {getItemIcon(item)}
+                    {isGearIconKey(item.gear_key) ? <Icon type="gear" iconKey={item.gear_key as GearIconKey} /> : null}
                   </TableCell>
                   <TableCell sx={{ color: '#f8f9fa', borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75, overflow: 'hidden' }}>
                     {item.slot === 'amulet' ? formatAmuletName(item) : (item.names[language] || item.names.en)}
@@ -131,7 +97,12 @@ function BuildCard({ build }: BuildCardProps) {
               {(build.set_bonuses || []).map((bonus) => (
                 <Chip
                   key={`build-set-${bonus.id}`}
-                  label={`Set: ${bonus.names[language] || bonus.names.en} (${bonus.count})`}
+                  label={
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                      {isSkillIconKey(bonus.icon) ? <Icon type="skills" iconKey={bonus.icon} /> : null}
+                      <span>{`${bonus.names[language] || bonus.names.en} (${bonus.count})`}</span>
+                    </Box>
+                  }
                   size="small"
                   sx={{ backgroundColor: '#3b5b7a', color: '#f8f9fa', fontSize: '0.72rem' }}
                 />
@@ -139,7 +110,12 @@ function BuildCard({ build }: BuildCardProps) {
               {(build.group_bonuses || []).map((bonus) => (
                 <Chip
                   key={`build-group-${bonus.id}`}
-                  label={`Group: ${bonus.names[language] || bonus.names.en} (${bonus.count})`}
+                  label={
+                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75 }}>
+                      {isSkillIconKey(bonus.icon) ? <Icon type="skills" iconKey={bonus.icon} /> : null}
+                      <span>{`${bonus.names[language] || bonus.names.en} (${bonus.count})`}</span>
+                    </Box>
+                  }
                   size="small"
                   sx={{ backgroundColor: '#5f3b7a', color: '#f8f9fa', fontSize: '0.72rem' }}
                 />
@@ -159,7 +135,12 @@ function BuildCard({ build }: BuildCardProps) {
             return (
               <Chip
                 key={skill.id}
-                label={`${skillName}: ${skill.current}/${skill.max} (w: ${skill.weight})`}
+                label={
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75, minWidth: 0 }}>
+                    {isSkillIconKey(skill.icon) ? <Icon type="skills" iconKey={skill.icon} /> : null}
+                    <span>{`${skillName}: ${skill.current}/${skill.max} (w: ${skill.weight})`}</span>
+                  </Box>
+                }
                 size="small"
                 sx={{
                   backgroundColor: isComplete ? '#198754' : (progress >= 50 ? '#856404' : '#495057'),

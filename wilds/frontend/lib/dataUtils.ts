@@ -23,17 +23,36 @@ export function normalizeEntity(entry: any): NamedEntity | null {
   if (!id) return null;
   const en = entry.names?.en || entry.name || id;
   const fr = entry.names?.fr || en;
-  return { id, names: { en, fr } };
+  return {
+    id,
+    names: { en, fr },
+    icon: entry.icon ?? null,
+    gear_key: entry.gear_key ?? null,
+  };
+}
+
+/**
+ * Normalizes a raw API skill entity while preserving optional metadata like icon.
+ */
+export function normalizeSkillEntity(entry: any): Skill | null {
+  const base = normalizeEntity(entry);
+  if (!base) return null;
+
+  return {
+    id: base.id,
+    names: base.names,
+    icon: base.icon ?? entry?.icon ?? null,
+  };
 }
 
 /**
  * Normalizes a saved skill from localStorage into a full Skill object.
  * Attempts to match by ID first, then by name, using the skill index.
  * @param skill - Raw saved skill data
- * @param skillIndex - Index mapping IDs and names to canonical skill entities
+ * @param skillIndex - Record mapping IDs and names to canonical skill entities
  * @returns Normalized skill or null if invalid
  */
-export function normalizeSavedSkill(skill: any, skillIndex: Record<string, NamedEntity>): Skill | null {
+export function normalizeSavedSkill(skill: any, skillIndex: Record<string, Skill>): Skill | null {
   const fromId = skill?.id ? skillIndex[String(skill.id)] : undefined;
   const fromName = skill?.name ? skillIndex[String(skill.name)] : undefined;
   const base = fromId || fromName;
@@ -42,6 +61,7 @@ export function normalizeSavedSkill(skill: any, skillIndex: Record<string, Named
   return {
     id: base?.id || String(skill.name),
     names: base?.names || { en: String(skill.name), fr: String(skill.name) },
+    icon: base?.icon ?? null,
     max_points: skill?.max_points ?? 3,
     weight: skill?.weight ?? 10,
   };
@@ -63,6 +83,7 @@ export function normalizeSavedSet(setItem: any, setIndex: Record<string, NamedEn
   return {
     id: base?.id || String(setItem.name),
     names: base?.names || { en: String(setItem.name), fr: String(setItem.name) },
+    icon: base?.icon ?? null,
     min_pieces: setItem?.min_pieces ?? 2,
     is_group: setItem?.is_group,
   };
@@ -84,6 +105,7 @@ export function normalizeSavedWeapon(weapon: any, weaponIndex: Record<string, Na
   return {
     id: base?.id || String(weapon.name),
     names: base?.names || { en: String(weapon.name), fr: String(weapon.name) },
+    gear_key: base?.gear_key ?? null,
   };
 }
 
@@ -93,8 +115,8 @@ export function normalizeSavedWeapon(weapon: any, weaponIndex: Record<string, Na
  * @param entities - Array of named entities to index
  * @returns Record mapping multiple keys (id, en name, fr name) to entities
  */
-export function buildEntityIndex(entities: NamedEntity[]): Record<string, NamedEntity> {
-  const index: Record<string, NamedEntity> = {};
+export function buildEntityIndex<T extends NamedEntity>(entities: T[]): Record<string, T> {
+  const index: Record<string, T> = {};
   entities.forEach((entry) => {
     index[entry.id] = entry;
     index[entry.names.en] = entry;

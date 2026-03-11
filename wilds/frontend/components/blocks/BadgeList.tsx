@@ -5,6 +5,7 @@ import {Skill} from '../../model/Skill';
 import {Set as ArmorSet} from '../../model/Set';
 import {Weapon} from '../../model/Weapon';
 import { useI18n } from '../../lib/i18nContext';
+import { Icon, isGearIconKey, isSkillIconKey } from '../../lib/icon';
 
 interface BadgeListProps {
   items: (Skill | ArmorSet | Weapon)[];
@@ -32,6 +33,19 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
     setItems(newItems);
   };
 
+  const renderBadgeIcon = (item: Skill | ArmorSet | Weapon) => {
+    const gearKey = (item as Weapon).gear_key;
+    const skillIcon = (item as Skill | ArmorSet).icon;
+
+    if (type === 'weapons' && isGearIconKey(gearKey)) {
+      return <Icon type="gear" iconKey={gearKey} />;
+    }
+    if ((type === 'skills' || type === 'sets') && isSkillIconKey(skillIcon)) {
+      return <Icon type="skills" iconKey={skillIcon} />;
+    }
+    return null;
+  };
+
   return (
       <Box sx={{mb: 2, display: 'flex', flexWrap: 'wrap', gap: 1}}>
         {items.map((item, idx) => (
@@ -50,8 +64,11 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                   maxWidth: 'calc(25% - 6px)',
                 }}
             >
-              <Box sx={{flexGrow: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#f8f9fa', mr: 0.5}}>
-                {item.names[language] || item.names.en}
+              <Box sx={{display: 'flex', alignItems: 'center', gap: 0.75, flexGrow: 0, overflow: 'hidden', mr: 0.5}}>
+                {renderBadgeIcon(item)}
+                <Box sx={{overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#f8f9fa'}}>
+                  {item.names[language] || item.names.en}
+                </Box>
               </Box>
               <Box sx={{display: 'flex', alignItems: 'center', gap: 0.5, flexShrink: 0}}>
                 {type === 'skills' && (

@@ -58,23 +58,28 @@ def load_data_files():
         decorations.append(normalized)
 
     available_skills_raw = json.load(open('../db/skills.json', encoding='utf-8'))
-    if available_skills_raw and isinstance(available_skills_raw[0], str):
-        available_skills = [
-            {'id': name, 'names': {'en': name, 'fr': name}}
-            for name in available_skills_raw
-        ]
-    else:
-        available_skills = [
-            {'id': str(skill['id']), 'names': _get_names(skill)}
-            for skill in available_skills_raw
-        ]
+    available_skills = [
+        {
+            'id': str(skill['id']),
+            'names': _get_names(skill),
+            'icon': skill.get('icon'),
+        }
+        for skill in available_skills_raw
+    ]
 
     available_sets_raw = json.load(open('../db/sets.json', encoding='utf-8'))
 
     def _normalize_set_list(entries):
         if entries and isinstance(entries[0], str):
-            return [{'id': name, 'names': {'en': name, 'fr': name}} for name in entries]
-        return [{'id': str(entry['id']), 'names': _get_names(entry)} for entry in entries]
+            return [{'id': name, 'names': {'en': name, 'fr': name}, 'icon': None} for name in entries]
+        return [
+            {
+                'id': str(entry['id']),
+                'names': _get_names(entry),
+                'icon': entry.get('icon'),
+            }
+            for entry in entries
+        ]
 
     available_sets = {
         'sets': _normalize_set_list(available_sets_raw.get('sets', [])),
@@ -104,7 +109,14 @@ def define_data(
     groups = ['weapon', 'head', 'chest', 'arms', 'waist', 'legs', 'amulet']
     armor_groups = ['weapon', 'head', 'chest', 'arms', 'waist', 'legs']
 
-    skill_catalog = {str(skill['id']): _get_names(skill) for skill in desired_skills}
+    skill_catalog = {
+        str(skill['id']): {
+            'en': _get_names(skill)['en'],
+            'fr': _get_names(skill)['fr'],
+            'icon': skill.get('icon'),
+        }
+        for skill in desired_skills
+    }
     skill_name_to_id = {}
     for skill_id, names in skill_catalog.items():
         skill_name_to_id[names['en']] = skill_id
@@ -462,8 +474,14 @@ def output_builds_json(builds, data):
 
     # Build set/group name lookup from DB so results can show exact bonuses.
     sets_db = json.load(open('../db/sets.json', encoding='utf-8'))
-    set_lookup = {str(s['id']): _get_names(s) for s in sets_db.get('sets', [])}
-    group_lookup = {str(g['id']): _get_names(g) for g in sets_db.get('groups', [])}
+    set_lookup = {
+        str(s['id']): {'names': _get_names(s), 'icon': s.get('icon')}
+        for s in sets_db.get('sets', [])
+    }
+    group_lookup = {
+        str(g['id']): {'names': _get_names(g), 'icon': g.get('icon')}
+        for g in sets_db.get('groups', [])
+    }
 
     for idx, build in enumerate(builds, 1):
         items = []
@@ -491,7 +509,11 @@ def output_builds_json(builds, data):
                     'skills': [
                         {
                             'id': skill_id,
-                            'names': data['skill_catalog'].get(skill_id, {'en': skill_id, 'fr': skill_id}),
+                            'names': {
+                                'en': data['skill_catalog'].get(skill_id, {}).get('en', skill_id),
+                                'fr': data['skill_catalog'].get(skill_id, {}).get('fr', skill_id),
+                            },
+                            'icon': data['skill_catalog'].get(skill_id, {}).get('icon'),
                             'value': value,
                         }
                         for skill_id, value in item_data.get('skills', {}).items()
@@ -509,6 +531,7 @@ def output_builds_json(builds, data):
                 'slot': group,
                 'id': item_id,
                 'names': _get_names(item_data),
+                'gear_key': str(item_id).split(':', 1)[0] if group == 'weapon' else group,
                 'decorations': slots_list,
                 'amulet_details': amulet_details,
             })
@@ -519,18 +542,29 @@ def output_builds_json(builds, data):
             skills.append({
                 'id': skill_id,
                 'names': _get_names(skill_info),
+                'icon': skill_info.get('icon'),
                 'current': int(effective),
                 'max': skill_info.get('max_points', 5),
                 'weight': skill_info.get('weight', 10)
             })
 
         active_set_bonuses = [
-            {'id': set_id, 'names': set_lookup[set_id], 'count': count}
+            {
+                'id': set_id,
+                'names': set_lookup[set_id]['names'],
+                'icon': set_lookup[set_id].get('icon'),
+                'count': count,
+            }
             for set_id, count in sorted(set_bonus_counts.items())
             if count >= 2
         ]
         active_group_bonuses = [
-            {'id': group_id, 'names': group_lookup[group_id], 'count': count}
+            {
+                'id': group_id,
+                'names': group_lookup[group_id]['names'],
+                'icon': group_lookup[group_id].get('icon'),
+                'count': count,
+            }
             for group_id, count in sorted(group_bonus_counts.items())
             if count >= 3
         ]

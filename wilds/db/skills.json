@@ -4,958 +4,1095 @@
     "names": {
       "en": "Adaptability",
       "fr": "Adaptabilité"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "1174975744",
     "names": {
       "en": "Adrenaline Rush",
       "fr": "Poussée d'adrénaline"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "1865909632",
     "names": {
       "en": "Agitator",
       "fr": "Témérité"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "402237312",
     "names": {
       "en": "Airborne",
       "fr": "Mort venue d'en haut"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-171796848",
     "names": {
       "en": "Ambush",
       "fr": "Embuscade"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-1662120192",
     "names": {
       "en": "Antivirus",
       "fr": "Antivirus"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-201445760",
     "names": {
       "en": "Aquatic/Oilsilt Mobility",
       "fr": "Mobilité eau/boue huileuse"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "-596764096",
     "names": {
       "en": "Artillery",
       "fr": "BOUM !"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "1",
     "names": {
       "en": "Attack Boost",
       "fr": "Machine de guerre"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "-420608864",
     "names": {
       "en": "Ballistics",
       "fr": "Balistique"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "1966172160",
     "names": {
       "en": "Bind Resistance",
       "fr": "Anti-immobilisation"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "25070",
     "names": {
       "en": "Bladescale Honing",
       "fr": "Aiguisage lamécaille"
-    }
+    },
+    "icon": "handicraft"
   },
   {
     "id": "3504",
     "names": {
       "en": "Bladescale Loading",
       "fr": "Chargement lamécaille"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-844978880",
     "names": {
       "en": "Blast Attack",
       "fr": "Destruction massive"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "-2022542848",
     "names": {
       "en": "Blast Functionality",
       "fr": "Maître bombardier"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "820385792",
     "names": {
       "en": "Blast Resistance",
       "fr": "Antiexplosion"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "1940820864",
     "names": {
       "en": "Bleeding Resistance",
       "fr": "Antihémorragie"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "-568838336",
     "names": {
       "en": "Blight Resistance",
       "fr": "Totem élémentaire"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "-257693696",
     "names": {
       "en": "Blindsider",
       "fr": "Aveuglement"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "397306144",
     "names": {
       "en": "Bludgeoner",
       "fr": "Matraquage"
-    }
+    },
+    "icon": "handicraft"
   },
   {
     "id": "-857543744",
     "names": {
       "en": "Bombardier",
       "fr": "Bombardier"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "860517760",
     "names": {
       "en": "Botanist",
       "fr": "Botaniste"
-    }
+    },
+    "icon": "gathering"
   },
   {
     "id": "565867136",
     "names": {
       "en": "Burst",
       "fr": "Vendetta"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "30554",
     "names": {
       "en": "Catburglar",
       "fr": "Chat voleur"
-    }
+    },
+    "icon": "gathering"
   },
   {
     "id": "-1475134080",
     "names": {
       "en": "Charge Master",
       "fr": "Maître de la charge"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "353114912",
     "names": {
       "en": "Charge Up",
       "fr": "Surcharge"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-692636288",
     "names": {
       "en": "Cliffhanger",
       "fr": "Monte-en-l'air"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "-1700743296",
     "names": {
       "en": "Coalescence",
       "fr": "Union"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-1689391744",
     "names": {
       "en": "Constitution",
       "fr": "Athlète"
-    }
+    },
+    "icon": "stamina"
   },
   {
     "id": "2083363072",
     "names": {
       "en": "Convert Element",
       "fr": "Conversion élémentaire"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "30201",
     "names": {
       "en": "Convert Thunder Resistance",
       "fr": "Conversion résistance foudre"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "11481",
     "names": {
       "en": "Convert Water Resistance",
       "fr": "Conversion résistance eau"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "280489184",
     "names": {
       "en": "Counterstrike",
       "fr": "Contre-attaque"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "1826",
     "names": {
       "en": "Crackling Cornpopper",
       "fr": "Maïs crépitant"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-1607763456",
     "names": {
       "en": "Critical Boost",
       "fr": "Berserker"
-    }
+    },
+    "icon": "affinity"
   },
   {
     "id": "686533440",
     "names": {
       "en": "Critical Draw",
       "fr": "Dégainage éclair"
-    }
+    },
+    "icon": "affinity"
   },
   {
     "id": "313598432",
     "names": {
       "en": "Critical Element",
       "fr": "Rage élémentaire"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "-2096489472",
     "names": {
       "en": "Critical Eye",
       "fr": "Maître d'armes"
-    }
+    },
+    "icon": "affinity"
   },
   {
     "id": "-168922880",
     "names": {
       "en": "Critical Status",
       "fr": "Attaque perfide"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "3813",
     "names": {
       "en": "Darkside",
       "fr": "Ténèbres intérieures"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "1077686656",
     "names": {
       "en": "Defense Boost",
       "fr": "Bastion"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "1346775424",
     "names": {
       "en": "Divine Blessing",
       "fr": "Bénédiction"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "-776946176",
     "names": {
       "en": "Dragon Attack",
       "fr": "Pourfendeur de dragon"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "-2125233152",
     "names": {
       "en": "Dragon Resistance",
       "fr": "Aura draconique"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "192746944",
     "names": {
       "en": "Earplugs",
       "fr": "Bouchon d'oreilles"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "1489568384",
     "names": {
       "en": "Elemental Absorption",
       "fr": "Absorption élémentaire"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "898284480",
     "names": {
       "en": "Entomologist",
       "fr": "Entomologiste"
-    }
+    },
+    "icon": "gathering"
   },
   {
     "id": "673822976",
     "names": {
       "en": "Evade Extender",
       "fr": "Trompe-la-mort"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "144660544",
     "names": {
       "en": "Evade Window",
       "fr": "Fenêtre d'invulnérabilité"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "30828",
     "names": {
       "en": "Evading Reload",
       "fr": "Rechargement fugitif"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-181774400",
     "names": {
       "en": "Exhaust Functionality",
       "fr": "Pattes engourdies"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-562534336",
     "names": {
       "en": "Fire Attack",
       "fr": "Pyromane"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "1425756032",
     "names": {
       "en": "Fire Resistance",
       "fr": "Ignifuge"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "-856322816",
     "names": {
       "en": "Flayer",
       "fr": "Écorcheur"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "742695104",
     "names": {
       "en": "Flinch Free",
       "fr": "Nerfs d'acier"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "-283334048",
     "names": {
       "en": "Focus",
       "fr": "Concentration"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "27684744",
     "names": {
       "en": "Foray",
       "fr": "Incursion"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "850626240",
     "names": {
       "en": "Free Meal",
       "fr": "Pique-assiette"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "595870656",
     "names": {
       "en": "Geologist",
       "fr": "Géologiste"
-    }
+    },
+    "icon": "gathering"
   },
   {
     "id": "16931",
     "names": {
       "en": "Grillmaster",
       "fr": "Chef BBQ"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "-307644128",
     "names": {
       "en": "Guard",
       "fr": "Paladin"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "-1674114176",
     "names": {
       "en": "Guard Up",
       "fr": "Ultra garde"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "1160639488",
     "names": {
       "en": "Handicraft",
       "fr": "Savoir-faire"
-    }
+    },
+    "icon": "handicraft"
   },
   {
     "id": "422666624",
     "names": {
       "en": "Heroics",
       "fr": "Héroïsme"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-1237438336",
     "names": {
       "en": "Horn Maestro",
       "fr": "Maestro"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "2045149568",
     "names": {
       "en": "Hunger Resistance",
       "fr": "Coupe-faim"
-    }
+    },
+    "icon": "stamina"
   },
   {
     "id": "1268070400",
     "names": {
       "en": "Ice Attack",
       "fr": "Blizzard"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "652161472",
     "names": {
       "en": "Ice Resistance",
       "fr": "Antigel"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "1472632704",
     "names": {
       "en": "Intimidator",
       "fr": "Intimidation"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "1522518528",
     "names": {
       "en": "Iron Skin",
       "fr": "Peau de fer"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "-1684613760",
     "names": {
       "en": "Item Prolonger",
       "fr": "Chimiste"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "78208296",
     "names": {
       "en": "Jump Master",
       "fr": "Acrobate"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "1763191040",
     "names": {
       "en": "Latent Power",
       "fr": "Force latente"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-1304512512",
     "names": {
       "en": "Leap of Faith",
       "fr": "Saut de la foi"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "802725120",
     "names": {
       "en": "Load Shells",
       "fr": "Recharge chargée"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "-682586176",
     "names": {
       "en": "Marathon Runner",
       "fr": "Marathonien"
-    }
+    },
+    "icon": "stamina"
   },
   {
     "id": "1389859584",
     "names": {
       "en": "Master's Touch",
       "fr": "Main de maître"
-    }
+    },
+    "icon": "handicraft"
   },
   {
     "id": "632127488",
     "names": {
       "en": "Maximum Might",
       "fr": "Corps et âme"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "1594792704",
     "names": {
       "en": "Mind's Eye",
       "fr": "Œil de l'esprit"
-    }
+    },
+    "icon": "handicraft"
   },
   {
     "id": "-481419552",
     "names": {
       "en": "Mushroomancer",
       "fr": "Mycologue extrême"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "-1961297152",
     "names": {
       "en": "Normal Shots",
       "fr": "Tir maximum"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-181127504",
     "names": {
       "en": "Offensive Guard",
       "fr": "Garde offensive"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "1711950720",
     "names": {
       "en": "Opening Shot",
       "fr": "Premier tir"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "1845834112",
     "names": {
       "en": "Outdoorsman",
       "fr": "Art de la chasse"
-    }
+    },
+    "icon": "gathering"
   },
   {
     "id": "1934955136",
     "names": {
       "en": "Palico Rally",
       "fr": "Esprit Palico"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-676967744",
     "names": {
       "en": "Para Functionality",
       "fr": "Gibier de potence"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-1863702144",
     "names": {
       "en": "Paralysis Attack",
       "fr": "Neutralisation"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "522288832",
     "names": {
       "en": "Paralysis Resistance",
       "fr": "Antiparalysie"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "1470960256",
     "names": {
       "en": "Partbreaker",
       "fr": "Destructeur"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "2106877312",
     "names": {
       "en": "Peak Performance",
       "fr": "Performance optimale"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "552982656",
     "names": {
       "en": "Piercing Shots",
       "fr": "Traque sans merci"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-1716324608",
     "names": {
       "en": "Poison Attack",
       "fr": "Mort-aux-rats"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "-1629629184",
     "names": {
       "en": "Poison Duration Up",
       "fr": "Poison +"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "919683456",
     "names": {
       "en": "Poison Functionality",
       "fr": "Apothicaire"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "1459579264",
     "names": {
       "en": "Poison Resistance",
       "fr": "Toxicologie"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "691199232",
     "names": {
       "en": "Power Prolonger",
       "fr": "Puissance absolue"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "28385",
     "names": {
       "en": "Power Stone",
       "fr": "Pierre de pouvoir"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "1500129152",
     "names": {
       "en": "Protective Polish",
       "fr": "Acier trempé"
-    }
+    },
+    "icon": "handicraft"
   },
   {
     "id": "-1946345856",
     "names": {
       "en": "Punishing Draw",
       "fr": "Batto-jutsu"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-1073401280",
     "names": {
       "en": "Quick Sheathe",
       "fr": "Rengainage éclair"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "-1507579776",
     "names": {
       "en": "Rapid Fire Up",
       "fr": "Tir super rapide"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-1961116288",
     "names": {
       "en": "Rapid Morph",
       "fr": "Morphose rapide"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "1050520384",
     "names": {
       "en": "Razor Sharp",
       "fr": "Samouraï"
-    }
+    },
+    "icon": "handicraft"
   },
   {
     "id": "-1121468544",
     "names": {
       "en": "Recovery Speed",
       "fr": "Halo de guérison"
-    }
+    },
+    "icon": "health"
   },
   {
     "id": "-1235658624",
     "names": {
       "en": "Recovery Up",
       "fr": "Cercle de vie"
-    }
+    },
+    "icon": "health"
   },
   {
     "id": "1359821952",
     "names": {
       "en": "Resentment",
       "fr": "Vengeance"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "10503",
     "names": {
       "en": "Rice Ball",
       "fr": "Onigiri"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "1639440000",
     "names": {
       "en": "Self-Improvement",
       "fr": "Auto-amélioration"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "12877",
     "names": {
       "en": "Shattering Reflection",
       "fr": "Reflet éparpillé"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "-632440576",
     "names": {
       "en": "Shock Absorber",
       "fr": "Antichocs"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "166057120",
     "names": {
       "en": "Sleep Attack",
       "fr": "La nuit porte conseil"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "169998480",
     "names": {
       "en": "Sleep Functionality",
       "fr": "Marchand de sable"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-193031552",
     "names": {
       "en": "Sleep Resistance",
       "fr": "Insomnie"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "-847539392",
     "names": {
       "en": "Slicked Blade",
       "fr": "Lame glissante"
-    }
+    },
+    "icon": "affinity"
   },
   {
     "id": "-893407296",
     "names": {
       "en": "Slugger",
       "fr": "Cogneur"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-160562336",
     "names": {
       "en": "Special Ammo Boost",
       "fr": "Salve mortelle"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "634068352",
     "names": {
       "en": "Speed Eating",
       "fr": "Carnassier"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "1444935552",
     "names": {
       "en": "Speed Sharpening",
       "fr": "Affûtage rapide"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "-2123993856",
     "names": {
       "en": "Spread/Power Shots",
       "fr": "Désigné pour mourir"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "-315492576",
     "names": {
       "en": "Stamina Surge",
       "fr": "Métabolisme"
-    }
+    },
+    "icon": "stamina"
   },
   {
     "id": "1758661504",
     "names": {
       "en": "Stamina Thief",
       "fr": "Vol d'endurance"
-    }
+    },
+    "icon": "offense"
   },
   {
     "id": "-411441344",
     "names": {
       "en": "Stench Resistance",
       "fr": "Antipuanteur"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "705317568",
     "names": {
       "en": "Stun Resistance",
       "fr": "Crâne d'acier"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "-593005376",
     "names": {
       "en": "Survival Expert",
       "fr": "Ami de la nature"
-    }
+    },
+    "icon": "health"
   },
   {
     "id": "31998",
     "names": {
       "en": "Synergy",
       "fr": "Programme synergique"
-    }
+    },
+    "icon": "affinity"
   },
   {
     "id": "7506",
     "names": {
       "en": "Synthetic Shield",
       "fr": "Bouclier optionnel"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "1613139840",
     "names": {
       "en": "Tetrad Shot",
       "fr": "Quatrième tir"
-    }
+    },
+    "icon": "ranged"
   },
   {
     "id": "1452140672",
     "names": {
       "en": "Thunder Attack",
       "fr": "Feu du ciel"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "2143068800",
     "names": {
       "en": "Thunder Resistance",
       "fr": "Paratonnerre"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "469540352",
     "names": {
       "en": "Tool Specialist",
       "fr": "Expert en survie"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "-609509888",
     "names": {
       "en": "Tremor Resistance",
       "fr": "Sismologie"
-    }
+    },
+    "icon": "utility"
   },
   {
     "id": "508916704",
     "names": {
       "en": "Water Attack",
       "fr": "Maelstrom"
-    }
+    },
+    "icon": "element"
   },
   {
     "id": "383104832",
     "names": {
       "en": "Water Resistance",
       "fr": "Étanchéité"
-    }
+    },
+    "icon": "defense"
   },
   {
     "id": "-397570464",
     "names": {
       "en": "Weakness Exploit",
       "fr": "Mise à mort"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "576193792",
     "names": {
       "en": "Whiteflame Torrent",
       "fr": "Brasier blanc"
-    }
+    },
+    "icon": "attack"
   },
   {
     "id": "894530496",
     "names": {
       "en": "Wide-Range",
       "fr": "Un pour tous"
-    }
+    },
+    "icon": "item"
   },
   {
     "id": "-895828480",
     "names": {
       "en": "Windproof",
       "fr": "Pare-vent"
-    }
+    },
+    "icon": "utility"
   }
 ]

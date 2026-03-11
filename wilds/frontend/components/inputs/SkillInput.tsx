@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
-import {Autocomplete, TextField} from '@mui/material';
+import {Autocomplete, Box, TextField} from '@mui/material';
 import {Skill} from '../../model/Skill';
 import { useI18n } from '../../lib/i18nContext';
-import { NamedEntity } from '../../model/Localized';
+import { Icon, isSkillIconKey } from '../../lib/icon';
 
 interface SkillInputProps {
   skills: Skill[];
   setSkills: (skills: Skill[]) => void;
-  availableSkills: NamedEntity[];
+  availableSkills: Skill[];
 }
 
 // This component handles skill input with suggestions/autocomplete
@@ -17,9 +17,9 @@ function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
 
   const filteredOptions = availableSkills.filter((option) => !skills.some(skill => skill.id === option.id));
 
-  const handleSelect = (_: any, value: NamedEntity | null) => {
+  const handleSelect = (_: any, value: Skill | null) => {
     if (value && !skills.some(skill => skill.id === value.id)) {
-      setSkills([...skills, {id: value.id, names: value.names, max_points: 3, weight: 10}]);
+      setSkills([...skills, {id: value.id, names: value.names, icon: value.icon, max_points: 3, weight: 10}]);
       setInput('');
     }
   };
@@ -32,6 +32,12 @@ function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
       options={filteredOptions}
       getOptionLabel={(option) => option.names[language] || option.names.en}
       isOptionEqualToValue={(option, value) => option.id === value.id}
+      renderOption={(props, option) => (
+        <Box component="li" {...props} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          {isSkillIconKey(option.icon) ? <Icon type="skills" iconKey={option.icon} /> : null}
+          <span>{option.names[language] || option.names.en}</span>
+        </Box>
+      )}
       renderInput={(params) => (
         <TextField
           {...params}

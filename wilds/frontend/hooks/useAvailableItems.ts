@@ -18,11 +18,19 @@ import { Weapon } from '../model/Weapon';
 import { Amulet } from '../model/Amulet';
 import { Options } from '../model/Options';
 import { DEFAULT_DATA } from '../lib/defaultData';
-import { normalizeEntity, normalizeSavedSkill, normalizeSavedSet, normalizeSavedWeapon, buildEntityIndex } from '../lib/dataUtils';
+import { normalizeEntity, normalizeSkillEntity, normalizeSavedSkill, normalizeSavedSet, normalizeSavedWeapon, buildEntityIndex } from '../lib/dataUtils';
 import { loadConfig } from '../lib/configStorage';
 
+interface AvailableItemsResponse {
+  available_skills?: unknown[];
+  available_sets?: unknown[];
+  available_groups?: unknown[];
+  available_weapons?: unknown[];
+  available_armor_items?: unknown[];
+}
+
 interface UseAvailableItemsResult {
-  availableSkills: NamedEntity[];
+  availableSkills: Skill[];
   availableSets: NamedEntity[];
   availableWeapons: NamedEntity[];
   availableArmorItems: NamedEntity[];
@@ -37,7 +45,7 @@ export function useAvailableItems(
   setAmulets: (amulets: Amulet[]) => void,
   setOptions: (options: Options) => void
 ): UseAvailableItemsResult {
-  const [availableSkills, setAvailableSkills] = useState<NamedEntity[]>([]);
+  const [availableSkills, setAvailableSkills] = useState<Skill[]>([]);
   const [availableSets, setAvailableSets] = useState<NamedEntity[]>([]);
   const [availableWeapons, setAvailableWeapons] = useState<NamedEntity[]>([]);
   const [availableArmorItems, setAvailableArmorItems] = useState<NamedEntity[]>([]);
@@ -47,8 +55,8 @@ export function useAvailableItems(
   useEffect(() => {
     fetch('/api/available_items')
       .then((r) => r.json())
-      .then((data) => {
-        const skillsList = (data.available_skills || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
+      .then((data: AvailableItemsResponse) => {
+        const skillsList = (data.available_skills || []).map(normalizeSkillEntity).filter(Boolean) as Skill[];
         const setsList = (data.available_sets || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
         const weaponsList = (data.available_weapons || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
         const armorItemsList = (data.available_armor_items || []).map(normalizeEntity).filter(Boolean) as NamedEntity[];
@@ -72,9 +80,9 @@ export function useAvailableItems(
           setAmulets(saved.amulets || DEFAULT_DATA.amulets);
           setOptions(saved.options || DEFAULT_DATA.options);
         } else {
-          setSkills(DEFAULT_DATA.skills as Skill[]);
-          setSets(DEFAULT_DATA.sets as ArmorSet[]);
-          setWeapons(DEFAULT_DATA.weapons as Weapon[]);
+          setSkills((DEFAULT_DATA.skills || []).map((s: any) => normalizeSavedSkill(s, skillIndex)).filter((s): s is Skill => s !== null));
+          setSets((DEFAULT_DATA.sets || []).map((s: any) => normalizeSavedSet(s, setIndex)).filter((s): s is ArmorSet => s !== null));
+          setWeapons((DEFAULT_DATA.weapons || []).map((w: any) => normalizeSavedWeapon(w, weaponIndex)).filter((w): w is Weapon => w !== null));
           setAmulets(DEFAULT_DATA.amulets);
           setOptions(DEFAULT_DATA.options);
         }

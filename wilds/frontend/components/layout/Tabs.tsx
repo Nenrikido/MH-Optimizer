@@ -6,6 +6,7 @@ import TemplatesTab from './TemplatesTab';
 import {Result} from '../../model/Result';
 import {Amulet} from '../../model/Amulet';
 import { NamedEntity } from '../../model/Localized';
+import { Skill } from '../../model/Skill';
 import { useI18n } from '../../lib/i18nContext';
 import { TemplateData } from '../../model/Template';
 
@@ -13,7 +14,7 @@ interface TabsProps {
   results: Result[] | string[];
   amulets: Amulet[];
   setAmulets: React.Dispatch<React.SetStateAction<Amulet[]>>;
-  availableSkills: NamedEntity[];
+  availableSkills: Skill[];
   loading: boolean;
   defaultTemplates: TemplateData[];
   customTemplates: TemplateData[];

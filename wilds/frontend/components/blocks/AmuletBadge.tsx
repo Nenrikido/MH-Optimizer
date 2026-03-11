@@ -4,7 +4,9 @@ import CloseIcon from '@mui/icons-material/Close';
 import ClearIcon from '@mui/icons-material/Clear';
 import {Amulet} from '../../model/Amulet';
 import { useI18n } from '../../lib/i18nContext';
+import { Skill } from '../../model/Skill';
 import { NamedEntity } from '../../model/Localized';
+import { Icon, isSkillIconKey } from '../../lib/icon';
 
 interface AmuletBadgeProps {
   amulet: Amulet;
@@ -19,7 +21,7 @@ interface AmuletBadgeProps {
   ) => void;
   onSlotChange: (index: number, value: string) => void;
   index: number;
-  availableSkills: NamedEntity[];
+  availableSkills: Skill[];
 }
 
 function AmuletBadge({
@@ -34,7 +36,7 @@ function AmuletBadge({
 }: AmuletBadgeProps) {
   const { t, language } = useI18n();
 
-  const handleSkillSelect = (skillIndex: number, value: NamedEntity | null) => {
+  const handleSkillSelect = (skillIndex: number, value: Skill | null) => {
     if (value) {
       onSkillChange(index, skillIndex, 'id', value.id);
       onSkillChange(index, skillIndex, 'name', value.names.en);
@@ -65,6 +67,12 @@ function AmuletBadge({
                 options={filteredSkills}
                 getOptionLabel={(option) => option.names[language] || option.names.en}
                 isOptionEqualToValue={(option, value) => option.id === value.id}
+                renderOption={(props, option) => (
+                  <Box component="li" {...props} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                    {isSkillIconKey(option.icon) ? <Icon type="skills" iconKey={option.icon} size={18} /> : null}
+                    <span>{option.names[language] || option.names.en}</span>
+                  </Box>
+                )}
                 renderInput={(params) => (
                   <TextField
                     {...params}

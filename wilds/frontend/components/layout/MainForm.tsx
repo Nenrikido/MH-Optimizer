@@ -22,7 +22,7 @@ interface MainFormProps {
   setWeapons: (weapons: Weapon[]) => void;
   options: Options;
   setOptions: (options: Options) => void;
-  availableSkills: NamedEntity[];
+  availableSkills: Skill[];
   availableSets: NamedEntity[];
   availableWeapons: NamedEntity[];
   onOptimize: () => void;

@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-import {Autocomplete, TextField} from '@mui/material';
+import {Autocomplete, Box, TextField} from '@mui/material';
 import {Set as ArmorSet} from '../../model/Set';
 import { useI18n } from '../../lib/i18nContext';
 import { NamedEntity } from '../../model/Localized';
+import { Icon, isSkillIconKey } from '../../lib/icon';
 
 interface SetInputProps {
   sets: ArmorSet[];
@@ -18,7 +19,7 @@ function SetInput({sets, setSets, availableSets}: SetInputProps) {
 
   const handleSelect = (_: any, value: NamedEntity | null) => {
     if (value && !sets.some(setItem => setItem.id === value.id)) {
-      setSets([...sets, {id: value.id, names: value.names, min_pieces: 2}]);
+      setSets([...sets, {id: value.id, names: value.names, icon: value.icon, min_pieces: 2}]);
       setInput('');
     }
   };
@@ -31,6 +32,12 @@ function SetInput({sets, setSets, availableSets}: SetInputProps) {
       options={filteredOptions}
       getOptionLabel={(option) => option.names[language] || option.names.en}
       isOptionEqualToValue={(option, value) => option.id === value.id}
+      renderOption={(props, option) => (
+        <Box component="li" {...props} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          {isSkillIconKey(option.icon) ? <Icon type="skills" iconKey={option.icon} /> : null}
+          <span>{option.names[language] || option.names.en}</span>
+        </Box>
+      )}
       renderInput={(params) => (
         <TextField
           {...params}

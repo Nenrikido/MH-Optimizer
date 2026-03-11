@@ -34,7 +34,11 @@ for skill in json.load(open(FULL_DB_DIR / 'Skill.json', encoding='utf-8')):
     names = get_names(skill)
     skill_name_by_id[skill_id] = names['en']
 
-    entry = {'id': skill_id, 'names': names}
+    entry = {
+        'id': skill_id,
+        'names': names,
+        'icon': skill.get('icon'),
+    }
     if skill['kind'] in ('armor', 'weapon'):
         skills.append(entry)
     elif skill['kind'] == 'set':
