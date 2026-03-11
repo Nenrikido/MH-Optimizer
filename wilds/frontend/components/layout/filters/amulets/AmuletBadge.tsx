@@ -1,12 +1,11 @@
 import React from 'react';
-import {Autocomplete, Box, FormControl, IconButton, MenuItem, Select, TextField} from '@mui/material';
+import { Autocomplete, Box, FormControl, IconButton, MenuItem, Select, TextField } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import ClearIcon from '@mui/icons-material/Clear';
-import {Amulet} from '../../model/Amulet';
-import { useI18n } from '../../lib/i18nContext';
-import { Skill } from '../../model/Skill';
-import { NamedEntity } from '../../model/Localized';
-import { Icon, isSkillIconKey } from '../../lib/icon';
+import { Amulet } from '../../../../model/Amulet';
+import { useI18n } from '../../../../lib/i18nContext';
+import { Skill } from '../../../../model/Skill';
+import { Icon, isSkillIconKey } from '../../../../lib/icon';
 
 interface AmuletBadgeProps {
   amulet: Amulet;
@@ -32,7 +31,7 @@ function AmuletBadge({
   onSkillChange,
   onSlotChange,
   index,
-  availableSkills
+  availableSkills,
 }: AmuletBadgeProps) {
   const { t, language } = useI18n();
 
@@ -48,19 +47,19 @@ function AmuletBadge({
   };
 
   return (
-    <Box sx={{display: 'flex', gap: 1, alignItems: 'center', bgcolor: '#495057', p: 1, borderRadius: 1, border: '1px solid #6c757d'}}>
-      <Box sx={{display: 'flex', flexDirection: 'column', width: '75%', gap: 1}}>
-        {[0, 1, 2].map(i => {
+    <Box sx={{ display: 'flex', gap: 1, alignItems: 'center', bgcolor: '#495057', p: 1, borderRadius: 1, border: '1px solid #6c757d' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', width: '75%', gap: 1 }}>
+        {[0, 1, 2].map((i) => {
           const currentSkill = amulet.skills[i];
-          const selectedSkill = currentSkill?.id ? availableSkills.find(s => s.id === currentSkill.id) : null;
+          const selectedSkill = currentSkill?.id ? availableSkills.find((s) => s.id === currentSkill.id) : null;
 
-          // Filter out skills already selected in this amulet
           const selectedSkillIds = amulet.skills
             .filter((s, idx) => idx !== i && s?.id)
-            .map(s => s.id);
-          const filteredSkills = availableSkills.filter(skill => !selectedSkillIds.includes(skill.id));
+            .map((s) => s.id);
+          const filteredSkills = availableSkills.filter((skill) => !selectedSkillIds.includes(skill.id));
+
           return (
-            <Box key={i} sx={{display: 'flex', alignItems: 'center', gap: 1}}>
+            <Box key={i} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
               <Autocomplete
                 value={selectedSkill}
                 onChange={(_, newValue) => handleSkillSelect(i, newValue)}
@@ -86,16 +85,16 @@ function AmuletBadge({
                   flex: 1,
                   '& .MuiOutlinedInput-root': {
                     color: '#f8f9fa',
-                    '& fieldset': {borderColor: '#6c757d'},
-                    '&:hover fieldset': {borderColor: '#adb5bd'}
-                  }
+                    '& fieldset': { borderColor: '#6c757d' },
+                    '&:hover fieldset': { borderColor: '#adb5bd' },
+                  },
                 }}
               />
               <Box
                 component="input"
                 type="number"
                 value={currentSkill?.value || ''}
-                onChange={e => {
+                onChange={(e) => {
                   const val = Number(e.target.value);
                   if (val >= 1 && val <= 3) {
                     onSkillChange(index, i, 'value', val);
@@ -113,38 +112,27 @@ function AmuletBadge({
                   backgroundColor: '#212529',
                   color: '#f8f9fa',
                   fontSize: '0.875rem',
-                  '&:hover': {
-                    borderColor: '#adb5bd',
-                  },
-                  '&:focus': {
-                    outline: 'none',
-                    borderColor: '#adb5bd',
-                  },
-                  '&:disabled': {
-                    opacity: 0.5,
-                  },
-                  '&::placeholder': {
-                    color: '#6c757d',
-                  }
+                  '&:hover': { borderColor: '#adb5bd' },
+                  '&:focus': { outline: 'none', borderColor: '#adb5bd' },
+                  '&:disabled': { opacity: 0.5 },
+                  '&::placeholder': { color: '#6c757d' },
                 }}
               />
             </Box>
           );
         })}
       </Box>
-      <Box sx={{display: 'flex', alignItems: 'center'}}>
-        <FormControl size="small" sx={{'& .MuiOutlinedInput-root': {
-          color: '#f8f9fa',
-          '& fieldset': {
-            borderColor: '#6c757d',
-          },
-        }}}>
-          <Select
-            value={amulet.slots}
-            onChange={e => onSlotChange(index, e.target.value)}
-            displayEmpty
-            sx={{color: '#f8f9fa'}}
-          >
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <FormControl
+          size="small"
+          sx={{
+            '& .MuiOutlinedInput-root': {
+              color: '#f8f9fa',
+              '& fieldset': { borderColor: '#6c757d' },
+            },
+          }}
+        >
+          <Select value={amulet.slots} onChange={(e) => onSlotChange(index, e.target.value)} displayEmpty sx={{ color: '#f8f9fa' }}>
             <MenuItem value="">
               <em>{t.filters.amulets.slots}</em>
             </MenuItem>
@@ -158,11 +146,11 @@ function AmuletBadge({
             <MenuItem value="W1-1-1">W1-1-1</MenuItem>
           </Select>
         </FormControl>
-        <IconButton size="small" onClick={() => onSlotRemove(index)} sx={{color: '#adb5bd'}}>
+        <IconButton size="small" onClick={() => onSlotRemove(index)} sx={{ color: '#adb5bd' }}>
           <ClearIcon fontSize="small" />
         </IconButton>
       </Box>
-      <IconButton size="small" onClick={() => onRemove(index)} sx={{color: '#adb5bd'}}>
+      <IconButton size="small" onClick={() => onRemove(index)} sx={{ color: '#adb5bd' }}>
         <CloseIcon fontSize="small" />
       </IconButton>
     </Box>
@@ -170,3 +158,4 @@ function AmuletBadge({
 }
 
 export default AmuletBadge;
+

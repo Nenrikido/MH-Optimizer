@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Typography} from '@mui/material';
 import SkillInput from '../inputs/SkillInput';
-import BadgeList from '../blocks/BadgeList';
+import BadgeList from '../inputs/BadgeList';
 import SetInput from '../inputs/SetInput';
 import WeaponInput from '../inputs/WeaponInput';
 import OptionsInputs from '../inputs/OptionsInputs';

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Box, Card, CardContent, Chip, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper} from '@mui/material';
-import {BuildItem, BuildSkill, Result} from '../../model/Result';
-import { useI18n } from '../../lib/i18nContext';
-import { GearIconKey, Icon, isGearIconKey, isSkillIconKey } from '../../lib/icon';
+import {BuildItem, BuildSkill, Result} from '../model/Result';
+import { useI18n } from '../lib/i18nContext';
+import { GearIconKey, Icon, isGearIconKey, isSkillIconKey } from '../lib/icon';
 
 interface BuildCardProps {
   build: Result;

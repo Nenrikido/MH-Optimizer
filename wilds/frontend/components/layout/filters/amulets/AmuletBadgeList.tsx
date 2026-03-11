@@ -1,8 +1,8 @@
 import React from 'react';
-import {Box} from '@mui/material';
+import { Box } from '@mui/material';
+import { Amulet } from '../../../../model/Amulet';
+import { Skill } from '../../../../model/Skill';
 import AmuletBadge from './AmuletBadge';
-import {Amulet} from '../../model/Amulet';
-import { Skill } from '../../model/Skill';
 
 interface AmuletBadgeListProps {
   amulets: Amulet[];
@@ -10,7 +10,7 @@ interface AmuletBadgeListProps {
   availableSkills: Skill[];
 }
 
-function AmuletBadgeList({amulets, setAmulets, availableSkills}: AmuletBadgeListProps) {
+function AmuletBadgeList({ amulets, setAmulets, availableSkills }: AmuletBadgeListProps) {
   const getSkillLabel = (skillId?: string, fallbackName?: string) => {
     if (!skillId) return fallbackName || '';
     const found = availableSkills.find((s) => s.id === skillId);
@@ -30,29 +30,29 @@ function AmuletBadgeList({amulets, setAmulets, availableSkills}: AmuletBadgeList
 
   const normalizeAmulet = (a: Amulet) => {
     let skills = Array.isArray(a.skills) ? [...a.skills] : [];
-    while (skills.length < 3) skills.push({value: 0});
+    while (skills.length < 3) skills.push({ value: 0 });
     skills = skills.slice(0, 3);
-    const normalized = {...a, skills};
-    return {...normalized, name: deriveAmuletName(normalized)};
+    const normalized = { ...a, skills };
+    return { ...normalized, name: deriveAmuletName(normalized) };
   };
 
   const handleRemove = (index: number) => {
-    setAmulets(prev => prev.filter((_, i) => i !== index));
+    setAmulets((prev) => prev.filter((_, i) => i !== index));
   };
 
   const handleSkillRemove = (amuletIdx: number, skillIdx: number) => {
-    setAmulets(prev => prev.map((a, i) => {
+    setAmulets((prev) => prev.map((a, i) => {
       if (i !== amuletIdx) return a;
       let skills = Array.isArray(a.skills) ? [...a.skills] : [];
       while (skills.length < 3) skills.push({ value: 0 });
       skills = skills.slice(0, 3);
       skills[skillIdx] = { value: 0 };
-      return normalizeAmulet({...a, skills});
+      return normalizeAmulet({ ...a, skills });
     }));
   };
 
   const handleSlotRemove = (index: number) => {
-    setAmulets(prev => prev.map((a, i) => i === index ? normalizeAmulet({...a, slots: ''}) : a));
+    setAmulets((prev) => prev.map((a, i) => (i === index ? normalizeAmulet({ ...a, slots: '' }) : a)));
   };
 
   const handleSkillChange = (
@@ -61,7 +61,7 @@ function AmuletBadgeList({amulets, setAmulets, availableSkills}: AmuletBadgeList
     field: string,
     value: string | number | { en: string; fr: string } | undefined
   ) => {
-    setAmulets(prev => prev.map((a, i) => {
+    setAmulets((prev) => prev.map((a, i) => {
       if (i !== amuletIdx) return a;
       let skills = Array.isArray(a.skills) ? [...a.skills] : [];
       while (skills.length < 3) skills.push({ value: 0 });
@@ -69,17 +69,17 @@ function AmuletBadgeList({amulets, setAmulets, availableSkills}: AmuletBadgeList
       if (!skills[skillIdx] || typeof skills[skillIdx] !== 'object' || skills[skillIdx] === null) {
         skills[skillIdx] = { value: 0 };
       }
-      skills[skillIdx] = {...skills[skillIdx], [field]: value};
-      return normalizeAmulet({...a, skills});
+      skills[skillIdx] = { ...skills[skillIdx], [field]: value };
+      return normalizeAmulet({ ...a, skills });
     }));
   };
 
   const handleSlotChange = (index: number, value: string) => {
-    setAmulets(prev => prev.map((a, i) => i === index ? normalizeAmulet({...a, slots: value}) : a));
+    setAmulets((prev) => prev.map((a, i) => (i === index ? normalizeAmulet({ ...a, slots: value }) : a)));
   };
 
   return (
-    <Box sx={{display: 'flex', flexDirection: 'column', gap: 2}}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
       {amulets.map((amulet, idx) => (
         <AmuletBadge
           key={idx}
@@ -98,3 +98,4 @@ function AmuletBadgeList({amulets, setAmulets, availableSkills}: AmuletBadgeList
 }
 
 export default AmuletBadgeList;
+

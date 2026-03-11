@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Paper, Typography} from '@mui/material';
-import BuildCard from '../blocks/BuildCard';
+import BuildCard from '../BuildCard';
 import {Result} from '../../model/Result';
 import { useI18n } from '../../lib/i18nContext';
 
