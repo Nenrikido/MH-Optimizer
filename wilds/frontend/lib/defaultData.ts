@@ -19,72 +19,6 @@ export interface DefaultData {
   defaultTemplates: TemplateData[];
 }
 
-const SKILL_ICON_BY_ID: Record<string, Skill["icon"]> = {
-  "-1073401280": "utility",
-  "-1237438336": "offense",
-  "-1475134080": "element",
-  "-1507579776": "ranged",
-  "-160562336": "ranged",
-  "-1607763456": "affinity",
-  "-1674114176": "utility",
-  "-1689391744": "stamina",
-  "-1700743296": "offense",
-  "-181127504": "attack",
-  "-283334048": "offense",
-  "-307644128": "utility",
-  "-315492576": "stamina",
-  "-397570464": "attack",
-  "-420608864": "ranged",
-  "-562534336": "element",
-  "-596764096": "offense",
-  "-856322816": "offense",
-  "-893407296": "offense",
-  // Set / group bonus IDs used by defaults/templates.
-  "722735744": "set",
-  "-1768553344": "set",
-  "1484575872": "group",
-  "-3666104": "set",
-  "-215826112": "set",
-  "-418246240": "set",
-  "539707072": "set",
-  "-403054144": "set",
-  "-964369920": "set",
-  "-62248528": "set",
-  "24531": "set",
-  "5590": "set",
-  "1980404096": "set",
-  "918165056": "set",
-  "1": "attack",
-  "1050520384": "handicraft",
-  "1160639488": "handicraft",
-  "1174975744": "attack",
-  "1346775424": "defense",
-  "1359821952": "attack",
-  "1389859584": "handicraft",
-  "144660544": "utility",
-  "1470960256": "offense",
-  "1613139840": "ranged",
-  "1711950720": "ranged",
-  "1763191040": "offense",
-  "1865909632": "offense",
-  "2083363072": "attack",
-  "2106877312": "attack",
-  "280489184": "attack",
-  "313598432": "element",
-  "402237312": "offense",
-  "565867136": "offense",
-  "632127488": "attack",
-  "673822976": "utility",
-  "691199232": "offense",
-  "802725120": "utility",
-  "-1662120192": "offense",
-  "-2096489472": "affinity",
-};
-
-const withSkillIcons = (skills: Skill[] | ArmorSet[]): Skill[] | ArmorSet[] => skills.map((skill) => ({ ...skill, icon: skill.icon ?? SKILL_ICON_BY_ID[skill.id] ?? null }));
-
-const withTemplateSkillIcons = (templates: TemplateData[]): TemplateData[] => templates.map((template) => ({ ...template, skills: withSkillIcons(template.skills), sets: withSkillIcons(template.sets) }));
-
 const DEFAULT_TEMPLATES: TemplateData[] = [
   {
     id: "default-great-sword",
@@ -132,7 +66,7 @@ const DEFAULT_TEMPLATES: TemplateData[] = [
     ],
     sets: [
       { id: "722735744", names: { en: "Gore Magala's Tyranny", fr: "Tyrannie du Gore Magala" }, min_pieces: 2, icon: "set" },
-      { id: "1484575872", names: { en: "Lord's Soul", fr: "Âme du seigneur" }, min_pieces: 2, icon: "group" },
+      { id: "1484575872", names: { en: "Lord's Soul", fr: "Âme du seigneur" }, min_pieces: 3, icon: "group" },
     ],
     weapons: [{ id: "long-sword:91", names: { en: "Headsman's Hamus", fr: "Hamus du bourreau" }, gear_key: "long-sword" }],
   },
@@ -305,7 +239,7 @@ const DEFAULT_TEMPLATES: TemplateData[] = [
       { id: "-1607763456", names: { en: "Critical Boost", fr: "Berserker" }, max_points: 4, weight: 10 },
     ],
     sets: [
-      { id: "1484575872", names: { en: "Lord's Soul", fr: "Âme du seigneur" }, min_pieces: 2 },
+      { id: "1484575872", names: { en: "Lord's Soul", fr: "Âme du seigneur" }, min_pieces: 3 },
       { id: "722735744", names: { en: "Gore Magala's Tyranny", fr: "Tyrannie du Gore Magala" }, min_pieces: 2 },
       { id: "539707072", names: { en: "Rey Dau's Voltage", fr: "Tension du Rey Dau" }, min_pieces: 2 },
     ],
@@ -436,4 +370,11 @@ const DEFAULT_TEMPLATES: TemplateData[] = [
   },
 ];
 
-export const DEFAULT_DATA: DefaultData = { skills: withSkillIcons(DEFAULT_TEMPLATES[1].skills), sets: withSkillIcons(DEFAULT_TEMPLATES[1].sets), weapons: DEFAULT_TEMPLATES[1].weapons, amulets: [], options: { include_all_amulets: true, transcend: true, include_gog_sets: true }, defaultTemplates: withTemplateSkillIcons(DEFAULT_TEMPLATES) };
+export const DEFAULT_DATA: DefaultData = {
+  skills: DEFAULT_TEMPLATES[1].skills,
+  sets: DEFAULT_TEMPLATES[1].sets,
+  weapons: DEFAULT_TEMPLATES[1].weapons,
+  amulets: [],
+  options: { include_all_amulets: true, transcend: true, include_gog_sets: true },
+  defaultTemplates: DEFAULT_TEMPLATES
+};

@@ -101,7 +101,7 @@ function TabsComponent({
         width: {xs: '100%', lg: '45%'},
         minWidth: {xs: '100%', lg: '45vw'},
         maxWidth: {xs: '100%', lg: '45vw'},
-        height: {xs: '600px', lg: 'calc(100vh - 75px)'},
+        height: {xs: 'auto', lg: 'calc(100vh - 75px)'},
         display: 'flex',
         flexDirection: 'column',
         overflow: 'hidden',

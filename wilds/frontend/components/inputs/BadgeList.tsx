@@ -60,8 +60,8 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                   borderRadius: 1,
                   px: 1,
                   py: 0.5,
-                  minWidth: 'calc(100% / 3 - 16px / 3)',
-                  maxWidth: 'calc(100% / 3 - 16px / 3)',
+                  minWidth: {xs: '100%', sm: 'calc(100% / 2 - 4px)', md: 'calc(100% / 3 - 16px / 3)'},
+                  maxWidth: {xs: '100%', sm: 'calc(100% / 2 - 4px)', md: 'calc(100% / 3 - 16px / 3)'},
                 }}
             >
               <Box sx={{display: 'flex', alignItems: 'center', gap: 0.75, flexGrow: 0, overflow: 'hidden', mr: 0.5}}>

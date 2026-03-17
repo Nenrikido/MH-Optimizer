@@ -94,13 +94,16 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <GlobalStyles styles={globalStyles} />
-        <Box sx={{ height: '100vh', overflow: 'hidden' }}>
+        <Box sx={{
+          height: {xs: 'auto', lg: '100vh'},
+          overflow: { xs: 'auto', lg: 'hidden' },
+        }}>
           <Header />
           <Box
             sx={{
               display: 'flex',
               flexDirection: { xs: 'column', lg: 'row' },
-              height: 'calc(100vh - 75px)',
+              height: {xs: 'auto', lg: 'calc(100vh - 75px)'},
               overflow: { xs: 'auto', lg: 'hidden' },
             }}
             id="main-container"

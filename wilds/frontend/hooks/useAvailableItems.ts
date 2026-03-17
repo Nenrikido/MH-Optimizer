@@ -69,7 +69,7 @@ export function useAvailableItems(
         setAvailableGroups(groupsList);
 
         const skillIndex = buildEntityIndex(skillsList);
-        const setIndex = buildEntityIndex(setsList);
+        const setIndex = buildEntityIndex([...setsList, ...groupsList]);
         const weaponIndex = buildEntityIndex(weaponsList);
 
         const saved = loadConfig();
