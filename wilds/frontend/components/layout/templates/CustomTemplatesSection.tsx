@@ -15,7 +15,7 @@ function CustomTemplatesSection({
 }: CustomTemplatesSectionProps) {
   return (
     <>
-      <Typography sx={{ fontSize: '1rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>
+      <Typography sx={{ fontSize: '1rem', fontWeight: 600, mb: 1, color: 'text.primary' }}>
         {title}
       </Typography>
       <Box sx={{ display: 'flex', gap: 1, mb: 1.5 }}>
@@ -26,24 +26,16 @@ function CustomTemplatesSection({
           onChange={(e) => onTemplateNameChange(e.target.value)}
           onKeyDown={(e) => e.key === 'Enter' && onSaveTemplate()}
           placeholder={labels.namePlaceholder}
-          sx={{
-            '& .MuiOutlinedInput-root': {
-              backgroundColor: '#2c3034',
-              '& fieldset': { borderColor: '#495057' },
-              '&:hover fieldset': { borderColor: '#6c757d' },
-              '&.Mui-focused fieldset': { borderColor: '#adb5bd' },
-            },
-          }}
         />
         <Button
           onClick={onSaveTemplate}
           sx={{
-            backgroundColor: '#495057',
-            color: '#f8f9fa',
+            backgroundColor: 'action.selected',
+            color: 'text.primary',
             textTransform: 'none',
             px: 2,
             whiteSpace: 'nowrap',
-            '&:hover': { backgroundColor: '#5a6268' },
+            '&:hover': { backgroundColor: 'action.hover' },
           }}
         >
           {labels.saveCurrent}
@@ -51,7 +43,7 @@ function CustomTemplatesSection({
       </Box>
 
       {templates.length === 0 ? (
-        <Typography sx={{ fontSize: '0.85rem', color: '#6c757d' }}>{labels.emptyCustom}</Typography>
+        <Typography sx={{ fontSize: '0.85rem', color: 'text.secondary' }}>{labels.emptyCustom}</Typography>
       ) : (
         templates.map((template) => (
           <CustomTemplateRow

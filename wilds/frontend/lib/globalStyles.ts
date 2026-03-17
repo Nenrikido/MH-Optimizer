@@ -3,43 +3,51 @@
  * Defines scrollbar styling for both webkit and Firefox browsers.
  */
 
-export const globalStyles = {
-  body: {
-    scrollbarWidth: 'thin',
-    scrollbarColor: '#495057 #212529',
-  },
-  'body::-webkit-scrollbar': {
-    width: '12px',
-    height: '12px',
-  },
-  'body::-webkit-scrollbar-track': {
-    background: '#212529',
-  },
-  'body::-webkit-scrollbar-thumb': {
-    background: '#495057',
-    borderRadius: '6px',
-    border: '2px solid #212529',
-  },
-  'body::-webkit-scrollbar-thumb:hover': {
-    background: '#6c757d',
-  },
-  '*': {
-    scrollbarWidth: 'thin',
-    scrollbarColor: '#495057 #212529',
-  },
-  '*::-webkit-scrollbar': {
-    width: '12px',
-    height: '12px',
-  },
-  '*::-webkit-scrollbar-track': {
-    background: '#212529',
-  },
-  '*::-webkit-scrollbar-thumb': {
-    background: '#495057',
-    borderRadius: '6px',
-    border: '2px solid #212529',
-  },
-  '*::-webkit-scrollbar-thumb:hover': {
-    background: '#6c757d',
-  },
-};
+import { PaletteMode } from '@mui/material/styles';
+
+export function createGlobalStyles(mode: PaletteMode) {
+  const track = mode === 'dark' ? '#212529' : '#f4f1ea';
+  const thumb = mode === 'dark' ? '#495057' : '#c1b4a3';
+  const thumbHover = mode === 'dark' ? '#6c757d' : '#a99683';
+
+  return {
+    body: {
+      scrollbarWidth: 'thin',
+      scrollbarColor: `${thumb} ${track}`,
+    },
+    'body::-webkit-scrollbar': {
+      width: '12px',
+      height: '12px',
+    },
+    'body::-webkit-scrollbar-track': {
+      background: track,
+    },
+    'body::-webkit-scrollbar-thumb': {
+      background: thumb,
+      borderRadius: '6px',
+      border: `2px solid ${track}`,
+    },
+    'body::-webkit-scrollbar-thumb:hover': {
+      background: thumbHover,
+    },
+    '*': {
+      scrollbarWidth: 'thin',
+      scrollbarColor: `${thumb} ${track}`,
+    },
+    '*::-webkit-scrollbar': {
+      width: '12px',
+      height: '12px',
+    },
+    '*::-webkit-scrollbar-track': {
+      background: track,
+    },
+    '*::-webkit-scrollbar-thumb': {
+      background: thumb,
+      borderRadius: '6px',
+      border: `2px solid ${track}`,
+    },
+    '*::-webkit-scrollbar-thumb:hover': {
+      background: thumbHover,
+    },
+  };
+}

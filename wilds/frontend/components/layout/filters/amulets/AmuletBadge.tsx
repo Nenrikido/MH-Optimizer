@@ -47,7 +47,7 @@ function AmuletBadge({
   };
 
   return (
-    <Box sx={{ display: 'flex', gap: 1, alignItems: 'center', bgcolor: '#495057', p: 1, borderRadius: 1, border: '1px solid #6c757d' }}>
+    <Box sx={{ display: 'flex', gap: 1, alignItems: 'center', bgcolor: 'action.selected', p: 1, borderRadius: 1, border: '1px solid', borderColor: 'divider' }}>
       <Box sx={{ display: 'flex', flexDirection: 'column', width: '75%', gap: 1 }}>
         {[0, 1, 2].map((i) => {
           const currentSkill = amulet.skills[i];
@@ -83,11 +83,6 @@ function AmuletBadge({
                 size="small"
                 sx={{
                   flex: 1,
-                  '& .MuiOutlinedInput-root': {
-                    color: '#f8f9fa',
-                    '& fieldset': { borderColor: '#6c757d' },
-                    '&:hover fieldset': { borderColor: '#adb5bd' },
-                  },
                 }}
               />
               <Box
@@ -108,14 +103,15 @@ function AmuletBadge({
                   width: 60,
                   padding: '8px',
                   borderRadius: '4px',
-                  border: '1px solid #6c757d',
-                  backgroundColor: '#212529',
-                  color: '#f8f9fa',
+                  border: '1px solid',
+                  borderColor: 'divider',
+                  backgroundColor: 'background.default',
+                  color: 'text.primary',
                   fontSize: '0.875rem',
-                  '&:hover': { borderColor: '#adb5bd' },
-                  '&:focus': { outline: 'none', borderColor: '#adb5bd' },
+                  '&:hover': { borderColor: 'text.secondary' },
+                  '&:focus': { outline: 'none', borderColor: 'text.secondary' },
                   '&:disabled': { opacity: 0.5 },
-                  '&::placeholder': { color: '#6c757d' },
+                  '&::placeholder': { color: 'text.secondary' },
                 }}
               />
             </Box>
@@ -127,12 +123,11 @@ function AmuletBadge({
           size="small"
           sx={{
             '& .MuiOutlinedInput-root': {
-              color: '#f8f9fa',
-              '& fieldset': { borderColor: '#6c757d' },
+              color: 'text.primary',
             },
           }}
         >
-          <Select value={amulet.slots} onChange={(e) => onSlotChange(index, e.target.value)} displayEmpty sx={{ color: '#f8f9fa' }}>
+          <Select value={amulet.slots} onChange={(e) => onSlotChange(index, e.target.value)} displayEmpty sx={{ color: 'text.primary' }}>
             <MenuItem value="">
               <em>{t.filters.amulets.slots}</em>
             </MenuItem>
@@ -146,11 +141,11 @@ function AmuletBadge({
             <MenuItem value="W1-1-1">W1-1-1</MenuItem>
           </Select>
         </FormControl>
-        <IconButton size="small" onClick={() => onSlotRemove(index)} sx={{ color: '#adb5bd' }}>
+        <IconButton size="small" onClick={() => onSlotRemove(index)} sx={{ color: 'text.secondary' }}>
           <ClearIcon fontSize="small" />
         </IconButton>
       </Box>
-      <IconButton size="small" onClick={() => onRemove(index)} sx={{ color: '#adb5bd' }}>
+      <IconButton size="small" onClick={() => onRemove(index)} sx={{ color: 'text.secondary' }}>
         <CloseIcon fontSize="small" />
       </IconButton>
     </Box>

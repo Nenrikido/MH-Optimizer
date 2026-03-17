@@ -38,17 +38,17 @@ function BuildCard({build}: BuildCardProps) {
   const getMaxScore = (result: Result) => result.skills.reduce((sum, skill) => sum + skill.max * skill.weight, 0);
 
   return (
-    <Card sx={{mb: 2, backgroundColor: '#343a40', border: '1px solid #495057', overflow: 'hidden'}}>
+    <Card sx={{mb: 2, backgroundColor: 'background.paper', border: '1px solid', borderColor: 'divider', overflow: 'hidden'}}>
       <CardContent sx={{p: 2, '&:last-child': {pb: 2}}}>
         <Box sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2}}>
-          <Typography variant="h6" sx={{color: '#adb5bd', fontSize: '1.1rem', fontWeight: 600}}>
+          <Typography variant="h6" sx={{color: 'text.primary', fontSize: '1.1rem', fontWeight: 600}}>
             Build {build.id}
           </Typography>
           <Chip
             label={`Score: ${build.score} / ${getMaxScore(build)}`}
             size="small"
             sx={{
-              backgroundColor: '#a19423',
+              backgroundColor: (theme) => theme.palette.mode === 'dark' ? '#a19423' : '#d1be66',
               color: '#000',
               fontWeight: 600,
               fontSize: '0.8rem'
@@ -56,33 +56,36 @@ function BuildCard({build}: BuildCardProps) {
           />
         </Box>
 
-        <Typography variant="subtitle2" sx={{color: '#adb5bd', mb: 1, fontWeight: 600, fontSize: '0.875rem'}}>
+        <Typography variant="subtitle2" sx={{color: 'text.primary', mb: 1, fontWeight: 600, fontSize: '0.875rem'}}>
           {t.results.armorLabel}:
         </Typography>
-        <TableContainer component={Paper} sx={{mb: 2, backgroundColor: '#212529', overflowX: 'auto', maxWidth: '100%'}}>
+        <TableContainer component={Paper} sx={{mb: 2, backgroundColor: 'background.default', overflowX: 'auto', maxWidth: '100%'}}>
           <Table size="small" sx={{tableLayout: 'fixed', width: '100%'}}>
             <TableHead>
               <TableRow>
                 <TableCell sx={{
-                  color: '#adb5bd',
+                  color: 'text.primary',
                   fontWeight: 600,
-                  borderBottom: '1px solid #495057',
+                  borderBottom: '1px solid',
+                  borderColor: 'divider',
                   fontSize: '0.8rem',
                   py: 0.75,
                   width: '10%'
                 }}>Slot</TableCell>
                 <TableCell sx={{
-                  color: '#adb5bd',
+                  color: 'text.primary',
                   fontWeight: 600,
-                  borderBottom: '1px solid #495057',
+                  borderBottom: '1px solid',
+                  borderColor: 'divider',
                   fontSize: '0.8rem',
                   py: 0.75,
                   width: '40%'
                 }}>Item</TableCell>
                 <TableCell sx={{
-                  color: '#adb5bd',
+                  color: 'text.primary',
                   fontWeight: 600,
-                  borderBottom: '1px solid #495057',
+                  borderBottom: '1px solid',
+                  borderColor: 'divider',
                   fontSize: '0.8rem',
                   py: 0.75,
                   width: '50%'
@@ -93,8 +96,9 @@ function BuildCard({build}: BuildCardProps) {
               {build.items.map((item: BuildItem) => (
                 <TableRow key={`${item.slot}:${item.id}`}>
                   <TableCell sx={{
-                    color: '#f8f9fa',
-                    borderBottom: '1px solid #495057',
+                    color: 'text.primary',
+                    borderBottom: '1px solid',
+                    borderColor: 'divider',
                     textTransform: 'capitalize',
                     fontSize: '0.8rem',
                     py: 0.75
@@ -102,15 +106,16 @@ function BuildCard({build}: BuildCardProps) {
                     {isGearIconKey(item.gear_key) ? <Icon type="gear" iconKey={item.gear_key as GearIconKey} /> : null}
                   </TableCell>
                   <TableCell sx={{
-                    color: '#f8f9fa',
-                    borderBottom: '1px solid #495057',
+                    color: 'text.primary',
+                    borderBottom: '1px solid',
+                    borderColor: 'divider',
                     fontSize: '0.8rem',
                     py: 0.75,
                     overflow: 'hidden'
                   }}>
                     {item.slot === 'amulet' ? formatAmuletName(item) : (item.names[language] || item.names.en)}
                   </TableCell>
-                  <TableCell sx={{color: '#f8f9fa', borderBottom: '1px solid #495057', fontSize: '0.8rem', py: 0.75}}>
+                  <TableCell sx={{color: 'text.primary', borderBottom: '1px solid', borderColor: 'divider', fontSize: '0.8rem', py: 0.75}}>
                     <Box sx={{display: 'flex', gap: 0.5, flexWrap: 'wrap'}}>
                       {item.decorations.map((deco, idx) => (
                         <Chip
@@ -118,8 +123,8 @@ function BuildCard({build}: BuildCardProps) {
                           label={`${getSlotIcon(deco.type)} ${deco.decoration_names ? (deco.decoration_names[language] || deco.decoration_names.en) : '-'}`}
                           size="small"
                           sx={{
-                            backgroundColor: deco.decoration_id ? '#495057' : '#2c3034',
-                            color: deco.decoration_id ? '#f8f9fa' : '#6c757d',
+                            backgroundColor: deco.decoration_id ? 'action.selected' : 'background.paper',
+                            color: deco.decoration_id ? 'text.primary' : 'text.secondary',
                             fontSize: '0.7rem',
                             height: '20px',
                             '& .MuiChip-label': {px: 1, py: 0}
@@ -136,7 +141,7 @@ function BuildCard({build}: BuildCardProps) {
 
         {(build.set_bonuses?.length || build.group_bonuses?.length) ? (
           <Box sx={{mb: 2}}>
-            <Typography variant="subtitle2" sx={{color: '#adb5bd', mb: 1, fontWeight: 600, fontSize: '0.875rem'}}>
+            <Typography variant="subtitle2" sx={{color: 'text.primary', mb: 1, fontWeight: 600, fontSize: '0.875rem'}}>
               {t.results.armorSetLabel}
             </Typography>
             <Box sx={{display: 'flex', flexWrap: 'wrap', gap: 0.5}}>
@@ -151,10 +156,11 @@ function BuildCard({build}: BuildCardProps) {
                   }
                   size="small"
                   sx={{
-                    backgroundColor: '#3b5b7a',
-                    color: '#f8f9fa',
+                    backgroundColor: (theme) => theme.palette.mode === 'dark' ? '#3b5b7a' : '#d8e2ef',
+                    color: 'text.primary',
                     fontSize: '0.72rem',
-                    flexBasis: 'calc(100% / 3 - 16px / 3)',
+                    minWidth: 'calc(100% / 3 - 16px / 3)',
+                    maxWidth: 'calc(100% / 3 - 16px / 3)',
                   }}
                 />
               ))}
@@ -169,10 +175,11 @@ function BuildCard({build}: BuildCardProps) {
                   }
                   size="small"
                   sx={{
-                    backgroundColor: '#5f3b7a',
-                    color: '#f8f9fa',
+                    backgroundColor: (theme) => theme.palette.mode === 'dark' ? '#5f3b7a' : '#e5daf0',
+                    color: 'text.primary',
                     fontSize: '0.72rem',
-                    flexBasis: 'calc(100% / 3 - 16px / 3)',
+                    minWidth: 'calc(100% / 3 - 16px / 3)',
+                    maxWidth: 'calc(100% / 3 - 16px / 3)',
                   }}
                 />
               ))}
@@ -180,7 +187,7 @@ function BuildCard({build}: BuildCardProps) {
           </Box>
         ) : null}
 
-        <Typography variant="subtitle2" sx={{color: '#adb5bd', mb: 1, fontWeight: 600, fontSize: '0.875rem'}}>
+        <Typography variant="subtitle2" sx={{color: 'text.primary', mb: 1, fontWeight: 600, fontSize: '0.875rem'}}>
           {t.results.skillsLabel}:
         </Typography>
         <Box sx={{display: 'flex', flexWrap: 'wrap', gap: 0.375}}>
@@ -199,8 +206,14 @@ function BuildCard({build}: BuildCardProps) {
                 }
                 size="small"
                 sx={{
-                  backgroundColor: isComplete ? '#198754' : (progress >= 50 ? '#856404' : '#495057'),
-                  color: '#f8f9fa',
+                  backgroundColor: isComplete
+                    ? 'success.main'
+                    : (theme) => progress >= 50
+                      ? (theme.palette.mode === 'dark' ? '#856404' : '#ecd9a4')
+                      : theme.palette.action.selected,
+                  color: (theme) => isComplete
+                    ? theme.palette.getContrastText(theme.palette.success.main)
+                    : theme.palette.text.primary,
                   fontSize: '0.75rem',
                   height: '24px',
                   minWidth: 'calc(100% / 3 - 16px / 3)',

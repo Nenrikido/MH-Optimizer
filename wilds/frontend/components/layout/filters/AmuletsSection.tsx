@@ -17,7 +17,7 @@ function AmuletsSection({ amulets, setAmulets, availableSkills }: AmuletsSection
 
   return (
     <Box>
-      <Typography variant="body1" sx={{ fontSize: '1rem', fontWeight: 600, mb: 1.5, color: '#adb5bd' }}>
+      <Typography variant="body1" sx={{ fontSize: '1rem', fontWeight: 600, mb: 1.5, color: 'text.primary' }}>
         {t.filters.amulets.title}
       </Typography>
       <AmuletBadgeList amulets={amulets} setAmulets={setAmulets} availableSkills={availableSkills} />

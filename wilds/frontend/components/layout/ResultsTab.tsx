@@ -10,7 +10,7 @@ function ResultsTab() {
 
   return (
     <Box>
-      <Typography variant="body1" sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>
+      <Typography variant="body1" sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: 'text.primary'}}>
         {t.results.title}
       </Typography>
       {loading ? (

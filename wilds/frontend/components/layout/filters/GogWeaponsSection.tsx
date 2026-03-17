@@ -23,12 +23,12 @@ function GogWeaponsSection({
 
   return (
     <Box>
-      <Typography variant="body1" sx={{ fontSize: '1rem', fontWeight: 600, mb: 1.5, color: '#adb5bd' }}>
+      <Typography variant="body1" sx={{ fontSize: '1rem', fontWeight: 600, mb: 1.5, color: 'text.primary' }}>
         {t.filters.gogWeapons.title}
       </Typography>
 
       <Box sx={{ mb: 2 }}>
-        <Typography variant="body2" sx={{ fontSize: '0.875rem', fontWeight: 500, color: '#adb5bd', mb: 1 }}>
+        <Typography variant="body2" sx={{ fontSize: '0.875rem', fontWeight: 500, color: 'text.primary', mb: 1 }}>
           {t.filters.gogWeapons.setBonus}
         </Typography>
         <Autocomplete
@@ -51,7 +51,7 @@ function GogWeaponsSection({
       </Box>
 
       <Box>
-        <Typography variant="body2" sx={{ fontSize: '0.875rem', fontWeight: 500, color: '#adb5bd', mb: 1 }}>
+        <Typography variant="body2" sx={{ fontSize: '0.875rem', fontWeight: 500, color: 'text.primary', mb: 1 }}>
           {t.filters.gogWeapons.groupBonus}
         </Typography>
         <Autocomplete

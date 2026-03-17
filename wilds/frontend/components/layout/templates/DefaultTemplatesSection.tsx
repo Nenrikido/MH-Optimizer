@@ -6,7 +6,7 @@ import { DefaultTemplatesSectionProps } from './types';
 function DefaultTemplatesSection({ title, templates, onApplyTemplate }: DefaultTemplatesSectionProps) {
   return (
     <>
-      <Typography sx={{ fontSize: '1rem', fontWeight: 600, mb: 1, color: '#adb5bd' }}>
+      <Typography sx={{ fontSize: '1rem', fontWeight: 600, mb: 1, color: 'text.primary' }}>
         {title}
       </Typography>
       <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 2.5 }}>

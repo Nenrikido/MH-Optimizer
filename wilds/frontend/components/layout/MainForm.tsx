@@ -35,6 +35,7 @@ function MainForm() {
   }
 
   const combinedAvailableSets = [...availableSets, ...availableGroups];
+  const sectionTitleSx = {fontSize: '1.5rem', fontWeight: 600, mb: 1, color: 'text.primary'};
 
   return (
     <Box sx={{
@@ -46,18 +47,15 @@ function MainForm() {
     }}>
       <InfoCollapse/>
       <Box sx={{mt: 1}}>
-        <Typography variant="body1"
-                    sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>{t.form.skills}</Typography>
+        <Typography variant="body1" sx={sectionTitleSx}>{t.form.skills}</Typography>
         <SkillInput skills={skills} setSkills={setSkills} availableSkills={availableSkills}/>
         <BadgeList items={skills} setItems={setSkills} type="skills"/>
 
-        <Typography variant="body1"
-                    sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>{t.form.armor}</Typography>
+        <Typography variant="body1" sx={sectionTitleSx}>{t.form.armor}</Typography>
         <SetInput sets={sets} setSets={setSets} availableSets={combinedAvailableSets}/>
         <BadgeList items={sets} setItems={setSets} type="sets"/>
 
-        <Typography variant="body1"
-                    sx={{fontSize: '1.5rem', fontWeight: 600, mb: 1, color: '#adb5bd'}}>{t.form.weapons}</Typography>
+        <Typography variant="body1" sx={sectionTitleSx}>{t.form.weapons}</Typography>
         <WeaponInput weapons={weapons} setWeapons={setWeapons} availableWeapons={availableWeapons}/>
         <BadgeList items={weapons} setItems={setWeapons} type="weapons"/>
 

@@ -55,17 +55,19 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'space-between',
-                  bgcolor: '#495057',
-                  border: '1px solid #6c757d',
+                  bgcolor: 'action.selected',
+                  border: '1px solid',
+                  borderColor: 'divider',
                   borderRadius: 1,
                   px: 1,
                   py: 0.5,
-                  flexBasis: {xs: '100%', sm: 'calc(100% / 2 - 4px)', md: 'calc(100% / 3 - 16px / 3)'},
+                  minWidth: {xs: '100%', sm: 'calc(100% / 2 - 4px)', md: 'calc(100% / 3 - 16px / 3)'},
+                  maxWidth: {xs: '100%', sm: 'calc(100% / 2 - 4px)', md: 'calc(100% / 3 - 16px / 3)'},
                 }}
             >
               <Box sx={{display: 'flex', alignItems: 'center', gap: 0.75, flexGrow: 0, overflow: 'hidden', mr: 0.5}}>
                 {renderBadgeIcon(item)}
-                <Box sx={{overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#f8f9fa'}}>
+                <Box sx={{overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: 'text.primary'}}>
                   {item.names[language] || item.names.en}
                 </Box>
               </Box>
@@ -78,7 +80,7 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                           title={t.inputs.skillsMaxPoints}
                           value={(item as Skill).max_points}
                           onChange={(e) => handleUpdateSkill(idx, 'max_points', parseInt(e.target.value) || 0)}
-                          sx={{width: 45, '& .MuiOutlinedInput-root': {color: '#f8f9fa', '& fieldset': {borderColor: '#6c757d'}, '&:hover fieldset': {borderColor: '#adb5bd'}, padding: '2px 4px'}}}
+                           sx={{width: 45, '& .MuiOutlinedInput-root': {padding: '2px 4px'}}}
                           slotProps={{input: {inputProps: {min: 1, max: 10, style: {padding: '2px 4px', height: 'auto'}}}}}
                       />
                       <TextField
@@ -87,7 +89,7 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                           title={t.inputs.skillsWeight}
                           value={(item as Skill).weight}
                           onChange={(e) => handleUpdateSkill(idx, 'weight', parseInt(e.target.value) || 0)}
-                          sx={{width: 45, '& .MuiOutlinedInput-root': {color: '#f8f9fa', '& fieldset': {borderColor: '#6c757d'}, '&:hover fieldset': {borderColor: '#adb5bd'}, padding: '2px 4px'}}}
+                           sx={{width: 45, '& .MuiOutlinedInput-root': {padding: '2px 4px'}}}
                           slotProps={{input: {inputProps: {min: 1, style: {padding: '2px 4px', height: 'auto'}}}}}
                       />
                     </>
@@ -99,11 +101,11 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                         title={t.inputs.armorMinPieces}
                         value={(item as ArmorSet).min_pieces}
                         onChange={(e) => handleUpdateSet(idx, parseInt(e.target.value) || 0)}
-                        sx={{width: 45, '& .MuiOutlinedInput-root': {color: '#f8f9fa', '& fieldset': {borderColor: '#6c757d'}, '&:hover fieldset': {borderColor: '#adb5bd'}, padding: '2px 4px'}}}
+                        sx={{width: 45, '& .MuiOutlinedInput-root': {padding: '2px 4px'}}}
                         slotProps={{input: {inputProps: {min: 1, style: {padding: '2px 4px', height: 'auto'}}}}}
                     />
                 )}
-                <IconButton size="small" onClick={() => handleRemove(item)} sx={{color: '#adb5bd', padding: '2px'}}>
+                <IconButton size="small" onClick={() => handleRemove(item)} sx={{color: 'text.secondary', padding: '2px'}}>
                   <CloseIcon fontSize="small" />
                 </IconButton>
               </Box>

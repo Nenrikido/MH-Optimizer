@@ -13,15 +13,20 @@ import { Amulet } from './model/Amulet';
 import { Options } from './model/Options';
 import { Result } from './model/Result';
 import { DEFAULT_DATA } from './lib/defaultData';
-import { theme } from './lib/theme';
-import { globalStyles } from './lib/globalStyles';
+import { createAppTheme } from './lib/theme';
+import { createGlobalStyles } from './lib/globalStyles';
 import { I18nProvider } from './lib/i18nContext';
 import {saveConfig} from './lib/configStorage';
 import { useAvailableItems } from './hooks/useAvailableItems';
 import { useTemplates } from './hooks/useTemplates';
 import { AppStateProvider } from './lib/appStateContext';
+import { ThemeModeProvider, useThemeMode } from './lib/themeModeContext';
 
-function App() {
+function AppContent() {
+  const { mode } = useThemeMode();
+  const theme = useMemo(() => createAppTheme(mode), [mode]);
+  const globalStyles = useMemo(() => createGlobalStyles(mode), [mode]);
+
   const [skills, setSkills] = useState<Skill[]>([]);
   const [sets, setSets] = useState<ArmorSet[]>([]);
   const [weapons, setWeapons] = useState<Weapon[]>([]);
@@ -149,31 +154,39 @@ function App() {
   );
 
   return (
-    <I18nProvider>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <GlobalStyles styles={globalStyles} />
-        <AppStateProvider value={appStateValue}>
-          <Box sx={{
-            height: {xs: 'auto', lg: '100vh'},
-            overflow: { xs: 'auto', lg: 'hidden' },
-          }}>
-            <Header />
-            <Box
-              sx={{
-                display: 'flex',
-                flexDirection: { xs: 'column', lg: 'row' },
-                height: {xs: 'auto', lg: 'calc(100vh - 75px)'},
-                overflow: { xs: 'auto', lg: 'hidden' },
-              }}
-              id="main-container"
-            >
-              <MainForm />
-              <Tabs />
-            </Box>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <GlobalStyles styles={globalStyles} />
+      <AppStateProvider value={appStateValue}>
+        <Box sx={{
+          height: {xs: 'auto', lg: '100vh'},
+          overflow: { xs: 'auto', lg: 'hidden' },
+        }}>
+          <Header />
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: { xs: 'column', lg: 'row' },
+              height: {xs: 'auto', lg: 'calc(100vh - 75px)'},
+              overflow: { xs: 'auto', lg: 'hidden' },
+            }}
+            id="main-container"
+          >
+            <MainForm />
+            <Tabs />
           </Box>
-        </AppStateProvider>
-      </ThemeProvider>
+        </Box>
+      </AppStateProvider>
+    </ThemeProvider>
+  );
+}
+
+function App() {
+  return (
+    <I18nProvider>
+      <ThemeModeProvider>
+        <AppContent />
+      </ThemeModeProvider>
     </I18nProvider>
   );
 }

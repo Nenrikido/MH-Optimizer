@@ -114,6 +114,8 @@ export interface Translations {
   };
   common: {
     loading: string;
+    switchToLightMode: string;
+    switchToDarkMode: string;
   };
 }
 
@@ -226,6 +228,8 @@ const en: Translations = {
   },
   common: {
     loading: 'Loading...',
+    switchToLightMode: 'Switch to light mode',
+    switchToDarkMode: 'Switch to dark mode',
   }
 };
 
@@ -338,6 +342,8 @@ const fr: Translations = {
   },
   common: {
     loading: 'Chargement...',
+    switchToLightMode: 'Passer en mode clair',
+    switchToDarkMode: 'Passer en mode sombre',
   },
 };
 
@@ -450,6 +456,8 @@ const es: Translations = {
   },
   common: {
     loading: 'Cargando...',
+    switchToLightMode: 'Cambiar al modo claro',
+    switchToDarkMode: 'Cambiar al modo oscuro',
   },
 };
 

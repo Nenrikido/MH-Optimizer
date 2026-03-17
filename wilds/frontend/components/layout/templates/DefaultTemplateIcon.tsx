@@ -26,25 +26,27 @@ function DefaultTemplateIcon({ template, onApply }: DefaultTemplateIconProps) {
           justifyContent: 'center',
           gap: 0.5,
           p: 1,
-          flexBasis: {xs: 'calc(100% / 3 - 48px / 3)', sm: 'calc(100% / 5 - 48px / 5)', md: 'calc(100% / 7 - 48px / 7)'},
-          backgroundColor: '#2c3034',
-          border: '1px solid #495057',
+          minWidth: {xs: 'calc(100% / 3 - 48px / 3)', sm: 'calc(100% / 5 - 48px / 5)', md: 'calc(100% / 7 - 48px / 7)'},
+          maxWidth: {xs: 'calc(100% / 3 - 48px / 3)', sm: 'calc(100% / 5 - 48px / 5)', md: 'calc(100% / 7 - 48px / 7)'},
+          backgroundColor: 'action.selected',
+          border: '1px solid',
+          borderColor: 'divider',
           borderRadius: 1,
           cursor: 'pointer',
           userSelect: 'none',
           '&:hover': {
-            backgroundColor: '#3a4045',
-            borderColor: '#6c757d',
+            backgroundColor: 'action.hover',
+            borderColor: 'text.secondary',
           },
           '&:active': {
-            backgroundColor: '#495057',
+            backgroundColor: 'action.selected',
           },
         }}
       >
         {isGearIconKey(gearKey)
           ? <Icon type="gear" iconKey={gearKey as GearIconKey} size={32} />
-          : <Typography sx={{ fontSize: '0.65rem', color: '#adb5bd', textAlign: 'center', lineHeight: 1.2 }}>{displayName}</Typography>}
-        <Typography sx={{ fontSize: '0.6rem', color: '#6c757d', textAlign: 'center', lineHeight: 1.1, maxWidth: 60, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          : <Typography sx={{ fontSize: '0.65rem', color: 'text.primary', textAlign: 'center', lineHeight: 1.2 }}>{displayName}</Typography>}
+        <Typography sx={{ fontSize: '0.6rem', color: 'text.secondary', textAlign: 'center', lineHeight: 1.1, maxWidth: 60, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
           {displayName}
         </Typography>
       </Box>
