@@ -121,7 +121,7 @@ export interface Translations {
 
 const en: Translations = {
   header: {
-    title: 'MH Wilds Build Optimizer (Beta)',
+    title: 'MH Wilds Build Optimizer',
     subtitle: 'from @nenrikido on discord',
   },
   form: {
@@ -235,7 +235,7 @@ const en: Translations = {
 
 const fr: Translations = {
   header: {
-    title: 'Optimiseur de Build pour MH Wilds (Bêta)',
+    title: 'Optimiseur de Build pour MH Wilds',
     subtitle: 'par @nenrikido sur discord',
   },
   form: {
@@ -349,7 +349,7 @@ const fr: Translations = {
 
 const es: Translations = {
   header: {
-    title: 'Optimizador de Builds MH Wilds (Beta)',
+    title: 'Optimizador de Builds MH Wilds',
     subtitle: 'por @nenrikido en discord',
   },
   form: {
