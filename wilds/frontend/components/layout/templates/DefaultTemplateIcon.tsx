@@ -26,7 +26,7 @@ function DefaultTemplateIcon({ template, onApply }: DefaultTemplateIconProps) {
           justifyContent: 'center',
           gap: 0.5,
           p: 1,
-          flexBasis: 'calc(100% / 7 - 48px / 7)',
+          flexBasis: {xs: 'calc(100% / 3 - 48px / 3)', sm: 'calc(100% / 5 - 48px / 5)', md: 'calc(100% / 7 - 48px / 7)'},
           backgroundColor: '#2c3034',
           border: '1px solid #495057',
           borderRadius: 1,
