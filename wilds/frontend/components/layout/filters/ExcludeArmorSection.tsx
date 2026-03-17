@@ -28,8 +28,17 @@ function ExcludeArmorSection({ excludedArmorItems, setExcludedArmorItems, availa
       </Typography>
 
       <Autocomplete
+        disableClearable
         inputValue={exclusionInput}
-        onInputChange={(_, newInputValue) => setExclusionInput(newInputValue)}
+        onInputChange={(_, newInputValue, reason) => {
+          if (reason === 'input') {
+            setExclusionInput(newInputValue);
+            return;
+          }
+          if (reason === 'clear' || reason === 'reset') {
+            setExclusionInput('');
+          }
+        }}
         onChange={handleSelectArmorItem}
         options={availableArmorForExclusion}
         getOptionLabel={(option) => option.names[language] || option.names.en}

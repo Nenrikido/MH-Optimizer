@@ -19,15 +19,33 @@ function SkillInput({skills, setSkills, availableSkills}: SkillInputProps) {
 
   const handleSelect = (_: any, value: Skill | null) => {
     if (value && !skills.some(skill => skill.id === value.id)) {
-      setSkills([...skills, {id: value.id, names: value.names, icon: value.icon, max_points: 3, weight: 10}]);
-      setInput('');
+      setSkills([
+        ...skills,
+        {
+          id: value.id,
+          names: value.names,
+          icon: value.icon,
+          max_points: value.max_points ?? 3,
+          weight: 10,
+        },
+      ]);
     }
+    setInput('');
   };
 
   return (
     <Autocomplete
+      disableClearable
       inputValue={input}
-      onInputChange={(_, newInputValue) => setInput(newInputValue)}
+      onInputChange={(_, newInputValue, reason) => {
+        if (reason === 'input') {
+          setInput(newInputValue);
+          return;
+        }
+        if (reason === 'clear' || reason === 'reset') {
+          setInput('');
+        }
+      }}
       onChange={handleSelect}
       options={filteredOptions}
       getOptionLabel={(option) => option.names[language] || option.names.en}

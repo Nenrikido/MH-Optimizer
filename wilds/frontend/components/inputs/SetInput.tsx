@@ -19,15 +19,34 @@ function SetInput({sets, setSets, availableSets}: SetInputProps) {
 
   const handleSelect = (_: any, value: NamedEntity | null) => {
     if (value && !sets.some(setItem => setItem.id === value.id)) {
-      setSets([...sets, {id: value.id, names: value.names, icon: value.icon, min_pieces: 2}]);
-      setInput('');
+      const isGroup = value.icon === 'group';
+      setSets([
+        ...sets,
+        {
+          id: value.id,
+          names: value.names,
+          icon: value.icon,
+          min_pieces: isGroup ? 3 : 2,
+          is_group: isGroup,
+        },
+      ]);
     }
+    setInput('');
   };
 
   return (
     <Autocomplete
+      disableClearable
       inputValue={input}
-      onInputChange={(_, newInputValue) => setInput(newInputValue)}
+      onInputChange={(_, newInputValue, reason) => {
+        if (reason === 'input') {
+          setInput(newInputValue);
+          return;
+        }
+        if (reason === 'clear' || reason === 'reset') {
+          setInput('');
+        }
+      }}
       onChange={handleSelect}
       options={filteredOptions}
       getOptionLabel={(option) => option.names[language] || option.names.en}

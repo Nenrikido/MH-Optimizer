@@ -63,6 +63,7 @@ def load_data_files():
             'id': str(skill['id']),
             'names': _get_names(skill),
             'icon': skill.get('icon'),
+            'max_points': skill.get('max_points'),
         }
         for skill in available_skills_raw
     ]

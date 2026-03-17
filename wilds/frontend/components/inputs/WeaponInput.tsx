@@ -26,8 +26,17 @@ function WeaponInput({weapons, setWeapons, availableWeapons}: WeaponInputProps) 
 
   return (
     <Autocomplete
+      disableClearable
       inputValue={input}
-      onInputChange={(_, newInputValue) => setInput(newInputValue)}
+      onInputChange={(_, newInputValue, reason) => {
+        if (reason === 'input') {
+          setInput(newInputValue);
+          return;
+        }
+        if (reason === 'clear' || reason === 'reset') {
+          setInput('');
+        }
+      }}
       onChange={handleSelect}
       options={filteredOptions}
       getOptionLabel={(option) => option.names[language] || option.names.en}

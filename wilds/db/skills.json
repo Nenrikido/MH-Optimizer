@@ -5,7 +5,8 @@
       "en": "Adaptability",
       "fr": "Adaptabilité"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 2
   },
   {
     "id": "1174975744",
@@ -13,7 +14,8 @@
       "en": "Adrenaline Rush",
       "fr": "Poussée d'adrénaline"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 5
   },
   {
     "id": "1865909632",
@@ -21,7 +23,8 @@
       "en": "Agitator",
       "fr": "Témérité"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 5
   },
   {
     "id": "402237312",
@@ -29,7 +32,8 @@
       "en": "Airborne",
       "fr": "Mort venue d'en haut"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 1
   },
   {
     "id": "-171796848",
@@ -37,7 +41,8 @@
       "en": "Ambush",
       "fr": "Embuscade"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "-1662120192",
@@ -45,7 +50,8 @@
       "en": "Antivirus",
       "fr": "Antivirus"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "-201445760",
@@ -53,7 +59,8 @@
       "en": "Aquatic/Oilsilt Mobility",
       "fr": "Mobilité eau/boue huileuse"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 2
   },
   {
     "id": "-596764096",
@@ -61,7 +68,8 @@
       "en": "Artillery",
       "fr": "BOUM !"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "1",
@@ -69,7 +77,8 @@
       "en": "Attack Boost",
       "fr": "Machine de guerre"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 5
   },
   {
     "id": "-420608864",
@@ -77,7 +86,8 @@
       "en": "Ballistics",
       "fr": "Balistique"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 3
   },
   {
     "id": "1966172160",
@@ -85,7 +95,8 @@
       "en": "Bind Resistance",
       "fr": "Anti-immobilisation"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "25070",
@@ -93,7 +104,8 @@
       "en": "Bladescale Honing",
       "fr": "Aiguisage lamécaille"
     },
-    "icon": "handicraft"
+    "icon": "handicraft",
+    "max_points": 1
   },
   {
     "id": "3504",
@@ -101,7 +113,8 @@
       "en": "Bladescale Loading",
       "fr": "Chargement lamécaille"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-844978880",
@@ -109,7 +122,8 @@
       "en": "Blast Attack",
       "fr": "Destruction massive"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "-2022542848",
@@ -117,7 +131,8 @@
       "en": "Blast Functionality",
       "fr": "Maître bombardier"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "820385792",
@@ -125,7 +140,8 @@
       "en": "Blast Resistance",
       "fr": "Antiexplosion"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "1940820864",
@@ -133,7 +149,8 @@
       "en": "Bleeding Resistance",
       "fr": "Antihémorragie"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "-568838336",
@@ -141,7 +158,8 @@
       "en": "Blight Resistance",
       "fr": "Totem élémentaire"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "-257693696",
@@ -149,7 +167,8 @@
       "en": "Blindsider",
       "fr": "Aveuglement"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 1
   },
   {
     "id": "397306144",
@@ -157,7 +176,8 @@
       "en": "Bludgeoner",
       "fr": "Matraquage"
     },
-    "icon": "handicraft"
+    "icon": "handicraft",
+    "max_points": 3
   },
   {
     "id": "-857543744",
@@ -165,7 +185,8 @@
       "en": "Bombardier",
       "fr": "Bombardier"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 3
   },
   {
     "id": "860517760",
@@ -173,7 +194,8 @@
       "en": "Botanist",
       "fr": "Botaniste"
     },
-    "icon": "gathering"
+    "icon": "gathering",
+    "max_points": 4
   },
   {
     "id": "565867136",
@@ -181,7 +203,8 @@
       "en": "Burst",
       "fr": "Vendetta"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 5
   },
   {
     "id": "30554",
@@ -189,7 +212,8 @@
       "en": "Catburglar",
       "fr": "Chat voleur"
     },
-    "icon": "gathering"
+    "icon": "gathering",
+    "max_points": 1
   },
   {
     "id": "-1475134080",
@@ -197,7 +221,8 @@
       "en": "Charge Master",
       "fr": "Maître de la charge"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "353114912",
@@ -205,7 +230,8 @@
       "en": "Charge Up",
       "fr": "Surcharge"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 1
   },
   {
     "id": "-692636288",
@@ -213,7 +239,8 @@
       "en": "Cliffhanger",
       "fr": "Monte-en-l'air"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 1
   },
   {
     "id": "-1700743296",
@@ -221,7 +248,8 @@
       "en": "Coalescence",
       "fr": "Union"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "-1689391744",
@@ -229,7 +257,8 @@
       "en": "Constitution",
       "fr": "Athlète"
     },
-    "icon": "stamina"
+    "icon": "stamina",
+    "max_points": 5
   },
   {
     "id": "2083363072",
@@ -237,7 +266,8 @@
       "en": "Convert Element",
       "fr": "Conversion élémentaire"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 3
   },
   {
     "id": "30201",
@@ -245,7 +275,8 @@
       "en": "Convert Thunder Resistance",
       "fr": "Conversion résistance foudre"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 1
   },
   {
     "id": "11481",
@@ -253,7 +284,8 @@
       "en": "Convert Water Resistance",
       "fr": "Conversion résistance eau"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 1
   },
   {
     "id": "280489184",
@@ -261,7 +293,8 @@
       "en": "Counterstrike",
       "fr": "Contre-attaque"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 3
   },
   {
     "id": "1826",
@@ -269,7 +302,8 @@
       "en": "Crackling Cornpopper",
       "fr": "Maïs crépitant"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 1
   },
   {
     "id": "-1607763456",
@@ -277,7 +311,8 @@
       "en": "Critical Boost",
       "fr": "Berserker"
     },
-    "icon": "affinity"
+    "icon": "affinity",
+    "max_points": 5
   },
   {
     "id": "686533440",
@@ -285,7 +320,8 @@
       "en": "Critical Draw",
       "fr": "Dégainage éclair"
     },
-    "icon": "affinity"
+    "icon": "affinity",
+    "max_points": 3
   },
   {
     "id": "313598432",
@@ -293,7 +329,8 @@
       "en": "Critical Element",
       "fr": "Rage élémentaire"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "-2096489472",
@@ -301,7 +338,8 @@
       "en": "Critical Eye",
       "fr": "Maître d'armes"
     },
-    "icon": "affinity"
+    "icon": "affinity",
+    "max_points": 5
   },
   {
     "id": "-168922880",
@@ -309,7 +347,8 @@
       "en": "Critical Status",
       "fr": "Attaque perfide"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "3813",
@@ -317,7 +356,8 @@
       "en": "Darkside",
       "fr": "Ténèbres intérieures"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 1
   },
   {
     "id": "1077686656",
@@ -325,7 +365,8 @@
       "en": "Defense Boost",
       "fr": "Bastion"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 7
   },
   {
     "id": "1346775424",
@@ -333,7 +374,8 @@
       "en": "Divine Blessing",
       "fr": "Bénédiction"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "-776946176",
@@ -341,7 +383,8 @@
       "en": "Dragon Attack",
       "fr": "Pourfendeur de dragon"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "-2125233152",
@@ -349,7 +392,8 @@
       "en": "Dragon Resistance",
       "fr": "Aura draconique"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "192746944",
@@ -357,7 +401,8 @@
       "en": "Earplugs",
       "fr": "Bouchon d'oreilles"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "1489568384",
@@ -365,7 +410,8 @@
       "en": "Elemental Absorption",
       "fr": "Absorption élémentaire"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "898284480",
@@ -373,7 +419,8 @@
       "en": "Entomologist",
       "fr": "Entomologiste"
     },
-    "icon": "gathering"
+    "icon": "gathering",
+    "max_points": 1
   },
   {
     "id": "673822976",
@@ -381,7 +428,8 @@
       "en": "Evade Extender",
       "fr": "Trompe-la-mort"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "144660544",
@@ -389,7 +437,8 @@
       "en": "Evade Window",
       "fr": "Fenêtre d'invulnérabilité"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 5
   },
   {
     "id": "30828",
@@ -397,7 +446,8 @@
       "en": "Evading Reload",
       "fr": "Rechargement fugitif"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-181774400",
@@ -405,7 +455,8 @@
       "en": "Exhaust Functionality",
       "fr": "Pattes engourdies"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-562534336",
@@ -413,7 +464,8 @@
       "en": "Fire Attack",
       "fr": "Pyromane"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "1425756032",
@@ -421,7 +473,8 @@
       "en": "Fire Resistance",
       "fr": "Ignifuge"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "-856322816",
@@ -429,7 +482,8 @@
       "en": "Flayer",
       "fr": "Écorcheur"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 5
   },
   {
     "id": "742695104",
@@ -437,7 +491,8 @@
       "en": "Flinch Free",
       "fr": "Nerfs d'acier"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "-283334048",
@@ -445,7 +500,8 @@
       "en": "Focus",
       "fr": "Concentration"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "27684744",
@@ -453,7 +509,8 @@
       "en": "Foray",
       "fr": "Incursion"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 5
   },
   {
     "id": "850626240",
@@ -461,7 +518,8 @@
       "en": "Free Meal",
       "fr": "Pique-assiette"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 3
   },
   {
     "id": "595870656",
@@ -469,7 +527,8 @@
       "en": "Geologist",
       "fr": "Géologiste"
     },
-    "icon": "gathering"
+    "icon": "gathering",
+    "max_points": 3
   },
   {
     "id": "16931",
@@ -477,7 +536,8 @@
       "en": "Grillmaster",
       "fr": "Chef BBQ"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 1
   },
   {
     "id": "-307644128",
@@ -485,7 +545,8 @@
       "en": "Guard",
       "fr": "Paladin"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "-1674114176",
@@ -493,7 +554,8 @@
       "en": "Guard Up",
       "fr": "Ultra garde"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "1160639488",
@@ -501,7 +563,8 @@
       "en": "Handicraft",
       "fr": "Savoir-faire"
     },
-    "icon": "handicraft"
+    "icon": "handicraft",
+    "max_points": 5
   },
   {
     "id": "422666624",
@@ -509,7 +572,8 @@
       "en": "Heroics",
       "fr": "Héroïsme"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 5
   },
   {
     "id": "-1237438336",
@@ -517,7 +581,8 @@
       "en": "Horn Maestro",
       "fr": "Maestro"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 2
   },
   {
     "id": "2045149568",
@@ -525,7 +590,8 @@
       "en": "Hunger Resistance",
       "fr": "Coupe-faim"
     },
-    "icon": "stamina"
+    "icon": "stamina",
+    "max_points": 3
   },
   {
     "id": "1268070400",
@@ -533,7 +599,8 @@
       "en": "Ice Attack",
       "fr": "Blizzard"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "652161472",
@@ -541,7 +608,8 @@
       "en": "Ice Resistance",
       "fr": "Antigel"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "1472632704",
@@ -549,7 +617,8 @@
       "en": "Intimidator",
       "fr": "Intimidation"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "1522518528",
@@ -557,7 +626,8 @@
       "en": "Iron Skin",
       "fr": "Peau de fer"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "-1684613760",
@@ -565,7 +635,8 @@
       "en": "Item Prolonger",
       "fr": "Chimiste"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 3
   },
   {
     "id": "78208296",
@@ -573,7 +644,8 @@
       "en": "Jump Master",
       "fr": "Acrobate"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 1
   },
   {
     "id": "1763191040",
@@ -581,7 +653,8 @@
       "en": "Latent Power",
       "fr": "Force latente"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 5
   },
   {
     "id": "-1304512512",
@@ -589,7 +662,8 @@
       "en": "Leap of Faith",
       "fr": "Saut de la foi"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 1
   },
   {
     "id": "802725120",
@@ -597,7 +671,8 @@
       "en": "Load Shells",
       "fr": "Recharge chargée"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 2
   },
   {
     "id": "-682586176",
@@ -605,7 +680,8 @@
       "en": "Marathon Runner",
       "fr": "Marathonien"
     },
-    "icon": "stamina"
+    "icon": "stamina",
+    "max_points": 3
   },
   {
     "id": "1389859584",
@@ -613,7 +689,8 @@
       "en": "Master's Touch",
       "fr": "Main de maître"
     },
-    "icon": "handicraft"
+    "icon": "handicraft",
+    "max_points": 1
   },
   {
     "id": "632127488",
@@ -621,7 +698,8 @@
       "en": "Maximum Might",
       "fr": "Corps et âme"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 3
   },
   {
     "id": "1594792704",
@@ -629,7 +707,8 @@
       "en": "Mind's Eye",
       "fr": "Œil de l'esprit"
     },
-    "icon": "handicraft"
+    "icon": "handicraft",
+    "max_points": 3
   },
   {
     "id": "-481419552",
@@ -637,7 +716,8 @@
       "en": "Mushroomancer",
       "fr": "Mycologue extrême"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 3
   },
   {
     "id": "-1961297152",
@@ -645,7 +725,8 @@
       "en": "Normal Shots",
       "fr": "Tir maximum"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-181127504",
@@ -653,7 +734,8 @@
       "en": "Offensive Guard",
       "fr": "Garde offensive"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 3
   },
   {
     "id": "1711950720",
@@ -661,7 +743,8 @@
       "en": "Opening Shot",
       "fr": "Premier tir"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 3
   },
   {
     "id": "1845834112",
@@ -669,7 +752,8 @@
       "en": "Outdoorsman",
       "fr": "Art de la chasse"
     },
-    "icon": "gathering"
+    "icon": "gathering",
+    "max_points": 1
   },
   {
     "id": "1934955136",
@@ -677,7 +761,8 @@
       "en": "Palico Rally",
       "fr": "Esprit Palico"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 5
   },
   {
     "id": "-676967744",
@@ -685,7 +770,8 @@
       "en": "Para Functionality",
       "fr": "Gibier de potence"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-1863702144",
@@ -693,7 +779,8 @@
       "en": "Paralysis Attack",
       "fr": "Neutralisation"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "522288832",
@@ -701,7 +788,8 @@
       "en": "Paralysis Resistance",
       "fr": "Antiparalysie"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "1470960256",
@@ -709,7 +797,8 @@
       "en": "Partbreaker",
       "fr": "Destructeur"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "2106877312",
@@ -717,7 +806,8 @@
       "en": "Peak Performance",
       "fr": "Performance optimale"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 5
   },
   {
     "id": "552982656",
@@ -725,7 +815,8 @@
       "en": "Piercing Shots",
       "fr": "Traque sans merci"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-1716324608",
@@ -733,7 +824,8 @@
       "en": "Poison Attack",
       "fr": "Mort-aux-rats"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "-1629629184",
@@ -741,7 +833,8 @@
       "en": "Poison Duration Up",
       "fr": "Poison +"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 1
   },
   {
     "id": "919683456",
@@ -749,7 +842,8 @@
       "en": "Poison Functionality",
       "fr": "Apothicaire"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "1459579264",
@@ -757,7 +851,8 @@
       "en": "Poison Resistance",
       "fr": "Toxicologie"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "691199232",
@@ -765,7 +860,8 @@
       "en": "Power Prolonger",
       "fr": "Puissance absolue"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "28385",
@@ -773,7 +869,8 @@
       "en": "Power Stone",
       "fr": "Pierre de pouvoir"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 1
   },
   {
     "id": "1500129152",
@@ -781,7 +878,8 @@
       "en": "Protective Polish",
       "fr": "Acier trempé"
     },
-    "icon": "handicraft"
+    "icon": "handicraft",
+    "max_points": 3
   },
   {
     "id": "-1946345856",
@@ -789,7 +887,8 @@
       "en": "Punishing Draw",
       "fr": "Batto-jutsu"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "-1073401280",
@@ -797,7 +896,8 @@
       "en": "Quick Sheathe",
       "fr": "Rengainage éclair"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "-1507579776",
@@ -805,7 +905,8 @@
       "en": "Rapid Fire Up",
       "fr": "Tir super rapide"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-1961116288",
@@ -813,7 +914,8 @@
       "en": "Rapid Morph",
       "fr": "Morphose rapide"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "1050520384",
@@ -821,7 +923,8 @@
       "en": "Razor Sharp",
       "fr": "Samouraï"
     },
-    "icon": "handicraft"
+    "icon": "handicraft",
+    "max_points": 3
   },
   {
     "id": "-1121468544",
@@ -829,7 +932,8 @@
       "en": "Recovery Speed",
       "fr": "Halo de guérison"
     },
-    "icon": "health"
+    "icon": "health",
+    "max_points": 3
   },
   {
     "id": "-1235658624",
@@ -837,7 +941,8 @@
       "en": "Recovery Up",
       "fr": "Cercle de vie"
     },
-    "icon": "health"
+    "icon": "health",
+    "max_points": 3
   },
   {
     "id": "1359821952",
@@ -845,7 +950,8 @@
       "en": "Resentment",
       "fr": "Vengeance"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 5
   },
   {
     "id": "10503",
@@ -853,7 +959,8 @@
       "en": "Rice Ball",
       "fr": "Onigiri"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 1
   },
   {
     "id": "1639440000",
@@ -861,7 +968,8 @@
       "en": "Self-Improvement",
       "fr": "Auto-amélioration"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 1
   },
   {
     "id": "12877",
@@ -869,7 +977,8 @@
       "en": "Shattering Reflection",
       "fr": "Reflet éparpillé"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 1
   },
   {
     "id": "-632440576",
@@ -877,7 +986,8 @@
       "en": "Shock Absorber",
       "fr": "Antichocs"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 1
   },
   {
     "id": "166057120",
@@ -885,7 +995,8 @@
       "en": "Sleep Attack",
       "fr": "La nuit porte conseil"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "169998480",
@@ -893,7 +1004,8 @@
       "en": "Sleep Functionality",
       "fr": "Marchand de sable"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-193031552",
@@ -901,7 +1013,8 @@
       "en": "Sleep Resistance",
       "fr": "Insomnie"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "-847539392",
@@ -909,7 +1022,8 @@
       "en": "Slicked Blade",
       "fr": "Lame glissante"
     },
-    "icon": "affinity"
+    "icon": "affinity",
+    "max_points": 3
   },
   {
     "id": "-893407296",
@@ -917,7 +1031,8 @@
       "en": "Slugger",
       "fr": "Cogneur"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "-160562336",
@@ -925,7 +1040,8 @@
       "en": "Special Ammo Boost",
       "fr": "Salve mortelle"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 2
   },
   {
     "id": "634068352",
@@ -933,7 +1049,8 @@
       "en": "Speed Eating",
       "fr": "Carnassier"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "1444935552",
@@ -941,7 +1058,8 @@
       "en": "Speed Sharpening",
       "fr": "Affûtage rapide"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 2
   },
   {
     "id": "-2123993856",
@@ -949,7 +1067,8 @@
       "en": "Spread/Power Shots",
       "fr": "Désigné pour mourir"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 1
   },
   {
     "id": "-315492576",
@@ -957,7 +1076,8 @@
       "en": "Stamina Surge",
       "fr": "Métabolisme"
     },
-    "icon": "stamina"
+    "icon": "stamina",
+    "max_points": 3
   },
   {
     "id": "1758661504",
@@ -965,7 +1085,8 @@
       "en": "Stamina Thief",
       "fr": "Vol d'endurance"
     },
-    "icon": "offense"
+    "icon": "offense",
+    "max_points": 3
   },
   {
     "id": "-411441344",
@@ -973,7 +1094,8 @@
       "en": "Stench Resistance",
       "fr": "Antipuanteur"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 2
   },
   {
     "id": "705317568",
@@ -981,7 +1103,8 @@
       "en": "Stun Resistance",
       "fr": "Crâne d'acier"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "-593005376",
@@ -989,7 +1112,8 @@
       "en": "Survival Expert",
       "fr": "Ami de la nature"
     },
-    "icon": "health"
+    "icon": "health",
+    "max_points": 3
   },
   {
     "id": "31998",
@@ -997,7 +1121,8 @@
       "en": "Synergy",
       "fr": "Programme synergique"
     },
-    "icon": "affinity"
+    "icon": "affinity",
+    "max_points": 1
   },
   {
     "id": "7506",
@@ -1005,7 +1130,8 @@
       "en": "Synthetic Shield",
       "fr": "Bouclier optionnel"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 1
   },
   {
     "id": "1613139840",
@@ -1013,7 +1139,8 @@
       "en": "Tetrad Shot",
       "fr": "Quatrième tir"
     },
-    "icon": "ranged"
+    "icon": "ranged",
+    "max_points": 3
   },
   {
     "id": "1452140672",
@@ -1021,7 +1148,8 @@
       "en": "Thunder Attack",
       "fr": "Feu du ciel"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "2143068800",
@@ -1029,7 +1157,8 @@
       "en": "Thunder Resistance",
       "fr": "Paratonnerre"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "469540352",
@@ -1037,7 +1166,8 @@
       "en": "Tool Specialist",
       "fr": "Expert en survie"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 5
   },
   {
     "id": "-609509888",
@@ -1045,7 +1175,8 @@
       "en": "Tremor Resistance",
       "fr": "Sismologie"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   },
   {
     "id": "508916704",
@@ -1053,7 +1184,8 @@
       "en": "Water Attack",
       "fr": "Maelstrom"
     },
-    "icon": "element"
+    "icon": "element",
+    "max_points": 3
   },
   {
     "id": "383104832",
@@ -1061,7 +1193,8 @@
       "en": "Water Resistance",
       "fr": "Étanchéité"
     },
-    "icon": "defense"
+    "icon": "defense",
+    "max_points": 3
   },
   {
     "id": "-397570464",
@@ -1069,7 +1202,8 @@
       "en": "Weakness Exploit",
       "fr": "Mise à mort"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 5
   },
   {
     "id": "576193792",
@@ -1077,7 +1211,8 @@
       "en": "Whiteflame Torrent",
       "fr": "Brasier blanc"
     },
-    "icon": "attack"
+    "icon": "attack",
+    "max_points": 1
   },
   {
     "id": "894530496",
@@ -1085,7 +1220,8 @@
       "en": "Wide-Range",
       "fr": "Un pour tous"
     },
-    "icon": "item"
+    "icon": "item",
+    "max_points": 5
   },
   {
     "id": "-895828480",
@@ -1093,6 +1229,7 @@
       "en": "Windproof",
       "fr": "Pare-vent"
     },
-    "icon": "utility"
+    "icon": "utility",
+    "max_points": 3
   }
 ]

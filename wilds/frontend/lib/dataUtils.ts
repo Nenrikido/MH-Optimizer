@@ -42,6 +42,7 @@ export function normalizeSkillEntity(entry: any): Skill | null {
     id: base.id,
     names: base.names,
     icon: base.icon ?? entry?.icon ?? null,
+    max_points: typeof entry?.max_points === 'number' ? entry.max_points : undefined,
   };
 }
 
@@ -62,7 +63,7 @@ export function normalizeSavedSkill(skill: any, skillIndex: Record<string, Skill
     id: base?.id || String(skill.name),
     names: base?.names || { en: String(skill.name), fr: String(skill.name) },
     icon: base?.icon ?? null,
-    max_points: skill?.max_points ?? 3,
+    max_points: skill?.max_points ?? base?.max_points ?? 3,
     weight: skill?.weight ?? 10,
   };
 }

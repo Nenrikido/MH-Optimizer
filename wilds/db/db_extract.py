@@ -32,11 +32,13 @@ groups = []
 for skill in json.load(open(FULL_DB_DIR / 'Skill.json', encoding='utf-8')):
     skill_id = str(skill['game_id'])
     names = get_names(skill)
+    ranks = skill.get('ranks') or []
 
     entry = {
         'id': skill_id,
         'names': names,
         'icon': skill.get('icon'),
+        'max_points': len(ranks) if isinstance(ranks, list) else 0,
     }
     if skill['kind'] in ('armor', 'weapon'):
         # Only combat skills belong to the `skills` map on items.
