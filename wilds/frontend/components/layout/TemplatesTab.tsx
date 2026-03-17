@@ -1,31 +1,24 @@
 import React, { useState } from 'react';
 import { Box, Typography } from '@mui/material';
 import { useI18n } from '../../lib/i18nContext';
-import { TemplateData } from '../../model/Template';
 import DefaultTemplatesSection from './templates/DefaultTemplatesSection';
 import CustomTemplatesSection from './templates/CustomTemplatesSection';
+import { useAppState } from '../../lib/appStateContext';
 
-interface TemplatesTabProps {
-  defaultTemplates: TemplateData[];
-  customTemplates: TemplateData[];
-  onApplyTemplate: (template: TemplateData) => void;
-  onSaveTemplate: (name: string) => void;
-  onDeleteTemplate: (templateId: string) => void;
-}
-
-function TemplatesTab({
-  defaultTemplates,
-  customTemplates,
-  onApplyTemplate,
-  onSaveTemplate,
-  onDeleteTemplate,
-}: TemplatesTabProps) {
+function TemplatesTab() {
   const { t } = useI18n();
   const [templateName, setTemplateName] = useState('');
+  const {
+    defaultTemplates,
+    customTemplates,
+    applyTemplate,
+    saveTemplate,
+    deleteTemplate,
+  } = useAppState();
 
   const handleSave = () => {
     if (!templateName.trim()) return;
-    onSaveTemplate(templateName);
+    saveTemplate(templateName);
     setTemplateName('');
   };
 
@@ -38,7 +31,7 @@ function TemplatesTab({
       <DefaultTemplatesSection
         title={t.templates.defaultTitle}
         templates={defaultTemplates}
-        onApplyTemplate={onApplyTemplate}
+        onApplyTemplate={applyTemplate}
       />
 
       <CustomTemplatesSection
@@ -47,8 +40,8 @@ function TemplatesTab({
         templateName={templateName}
         onTemplateNameChange={setTemplateName}
         onSaveTemplate={handleSave}
-        onApplyTemplate={onApplyTemplate}
-        onDeleteTemplate={onDeleteTemplate}
+        onApplyTemplate={applyTemplate}
+        onDeleteTemplate={deleteTemplate}
         labels={{
           apply: t.templates.apply,
           saveCurrent: t.templates.saveCurrent,

@@ -3,34 +3,7 @@ import {Box, Tab, Tabs} from '@mui/material';
 import ResultsTab from './ResultsTab';
 import FiltersTab from './FiltersTab';
 import TemplatesTab from './TemplatesTab';
-import {Result} from '../../model/Result';
-import {Amulet} from '../../model/Amulet';
-import { NamedEntity } from '../../model/Localized';
-import { Skill } from '../../model/Skill';
 import { useI18n } from '../../lib/i18nContext';
-import { TemplateData } from '../../model/Template';
-
-interface TabsProps {
-  results: Result[] | string[];
-  amulets: Amulet[];
-  setAmulets: React.Dispatch<React.SetStateAction<Amulet[]>>;
-  availableSkills: Skill[];
-  loading: boolean;
-  defaultTemplates: TemplateData[];
-  customTemplates: TemplateData[];
-  onApplyTemplate: (template: TemplateData) => void;
-  onSaveTemplate: (name: string) => void;
-  onDeleteTemplate: (templateId: string) => void;
-  excludedArmorItems: string[];
-  setExcludedArmorItems: (items: string[]) => void;
-  gogSetFilter: string;
-  setGogSetFilter: (setId: string) => void;
-  gogGroupFilter: string;
-  setGogGroupFilter: (groupId: string) => void;
-  availableArmorItems: NamedEntity[];
-  availableSets: NamedEntity[];
-  availableGroups: NamedEntity[];
-}
 
 function TabPanel(props: { children?: React.ReactNode; index: number; value: number }) {
   const {children, value, index, ...other} = props;
@@ -67,34 +40,13 @@ function a11yProps(index: number) {
   };
 }
 
-function TabsComponent({
-  results,
-  amulets,
-  setAmulets,
-  availableSkills,
-  loading,
-  defaultTemplates,
-  customTemplates,
-  onApplyTemplate,
-  onSaveTemplate,
-  onDeleteTemplate,
-  excludedArmorItems,
-  setExcludedArmorItems,
-  gogSetFilter,
-  setGogSetFilter,
-  gogGroupFilter,
-  setGogGroupFilter,
-  availableArmorItems,
-  availableSets,
-  availableGroups,
-}: TabsProps) {
+function TabsComponent() {
   const [value, setValue] = useState(0);
   const { t } = useI18n();
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
   };
-
 
   return (
       <Box sx={{
@@ -173,32 +125,13 @@ function TabsComponent({
         </Box>
         <Box sx={{flexGrow: 1, overflow: 'hidden', minHeight: 0, border: '1px solid rgb(255, 255, 255, 0.15)', borderTop: '1px solid rgb(255, 255, 255, 0.15)', borderRadius: '0 0 10px 10px', mt: '-1px', backgroundColor: '#343a40'}}>
           <TabPanel value={value} index={0}>
-            <ResultsTab results={results} loading={loading} />
+            <ResultsTab />
           </TabPanel>
           <TabPanel value={value} index={1}>
-            <FiltersTab
-              amulets={amulets}
-              setAmulets={setAmulets}
-              availableSkills={availableSkills}
-              excludedArmorItems={excludedArmorItems}
-              setExcludedArmorItems={setExcludedArmorItems}
-              gogSetFilter={gogSetFilter}
-              setGogSetFilter={setGogSetFilter}
-              gogGroupFilter={gogGroupFilter}
-              setGogGroupFilter={setGogGroupFilter}
-              availableArmorItems={availableArmorItems}
-              availableSets={availableSets}
-              availableGroups={availableGroups}
-            />
+            <FiltersTab />
           </TabPanel>
           <TabPanel value={value} index={2}>
-            <TemplatesTab
-              defaultTemplates={defaultTemplates}
-              customTemplates={customTemplates}
-              onApplyTemplate={onApplyTemplate}
-              onSaveTemplate={onSaveTemplate}
-              onDeleteTemplate={onDeleteTemplate}
-            />
+            <TemplatesTab />
           </TabPanel>
         </Box>
       </Box>

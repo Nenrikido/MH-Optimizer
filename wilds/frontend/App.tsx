@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { GlobalStyles } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -16,9 +16,10 @@ import { DEFAULT_DATA } from './lib/defaultData';
 import { theme } from './lib/theme';
 import { globalStyles } from './lib/globalStyles';
 import { I18nProvider } from './lib/i18nContext';
-import {loadConfig, saveConfig} from './lib/configStorage';
+import {saveConfig} from './lib/configStorage';
 import { useAvailableItems } from './hooks/useAvailableItems';
 import { useTemplates } from './hooks/useTemplates';
+import { AppStateProvider } from './lib/appStateContext';
 
 function App() {
   const [skills, setSkills] = useState<Skill[]>([]);
@@ -89,65 +90,89 @@ function App() {
     }
   };
 
+  const appStateValue = useMemo(
+    () => ({
+      skills,
+      setSkills,
+      sets,
+      setSets,
+      weapons,
+      setWeapons,
+      options,
+      setOptions,
+      amulets,
+      setAmulets,
+      results,
+      loading,
+      loadingLists,
+      availableSkills,
+      availableSets,
+      availableGroups,
+      availableWeapons,
+      availableArmorItems,
+      excludedArmorItems,
+      setExcludedArmorItems,
+      gogSetFilter,
+      setGogSetFilter,
+      gogGroupFilter,
+      setGogGroupFilter,
+      defaultTemplates: DEFAULT_DATA.defaultTemplates,
+      customTemplates,
+      applyTemplate,
+      saveTemplate,
+      deleteTemplate,
+      onOptimize: handleOptimize,
+      onSaveConfig: handleSaveConfig,
+    }),
+    [
+      skills,
+      sets,
+      weapons,
+      options,
+      amulets,
+      results,
+      loading,
+      loadingLists,
+      availableSkills,
+      availableSets,
+      availableGroups,
+      availableWeapons,
+      availableArmorItems,
+      excludedArmorItems,
+      gogSetFilter,
+      gogGroupFilter,
+      customTemplates,
+      applyTemplate,
+      saveTemplate,
+      deleteTemplate,
+    ]
+  );
+
   return (
     <I18nProvider>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <GlobalStyles styles={globalStyles} />
-        <Box sx={{
-          height: {xs: 'auto', lg: '100vh'},
-          overflow: { xs: 'auto', lg: 'hidden' },
-        }}>
-          <Header />
-          <Box
-            sx={{
-              display: 'flex',
-              flexDirection: { xs: 'column', lg: 'row' },
-              height: {xs: 'auto', lg: 'calc(100vh - 75px)'},
-              overflow: { xs: 'auto', lg: 'hidden' },
-            }}
-            id="main-container"
-          >
-            <MainForm
-              skills={skills}
-              setSkills={setSkills}
-              sets={sets}
-              setSets={setSets}
-              weapons={weapons}
-              setWeapons={setWeapons}
-              options={options}
-              setOptions={setOptions}
-              availableSkills={availableSkills}
-              availableSets={[...availableSets, ...availableGroups]}
-              availableWeapons={availableWeapons}
-              onOptimize={handleOptimize}
-              loading={loading}
-              loadingLists={loadingLists}
-              onSaveConfig={handleSaveConfig}
-            />
-            <Tabs
-              results={results}
-              amulets={amulets}
-              setAmulets={setAmulets}
-              availableSkills={availableSkills}
-              loading={loading}
-              defaultTemplates={DEFAULT_DATA.defaultTemplates}
-              customTemplates={customTemplates}
-              onApplyTemplate={applyTemplate}
-              onSaveTemplate={saveTemplate}
-              onDeleteTemplate={deleteTemplate}
-              excludedArmorItems={excludedArmorItems}
-              setExcludedArmorItems={setExcludedArmorItems}
-              gogSetFilter={gogSetFilter}
-              setGogSetFilter={setGogSetFilter}
-              gogGroupFilter={gogGroupFilter}
-              setGogGroupFilter={setGogGroupFilter}
-              availableArmorItems={availableArmorItems}
-              availableSets={options.include_gog_sets ? [] : availableSets}
-              availableGroups={options.include_gog_sets ? [] : availableGroups}
-            />
+        <AppStateProvider value={appStateValue}>
+          <Box sx={{
+            height: {xs: 'auto', lg: '100vh'},
+            overflow: { xs: 'auto', lg: 'hidden' },
+          }}>
+            <Header />
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: { xs: 'column', lg: 'row' },
+                height: {xs: 'auto', lg: 'calc(100vh - 75px)'},
+                overflow: { xs: 'auto', lg: 'hidden' },
+              }}
+              id="main-container"
+            >
+              <MainForm />
+              <Tabs />
+            </Box>
           </Box>
-        </Box>
+        </AppStateProvider>
       </ThemeProvider>
     </I18nProvider>
   );

@@ -8,22 +8,24 @@ import { Box } from '@mui/material';
 import AmuletsSection from './filters/AmuletsSection';
 import ExcludeArmorSection from './filters/ExcludeArmorSection';
 import GogWeaponsSection from './filters/GogWeaponsSection';
-import { FiltersTabProps } from './filters/types';
+import { useAppState } from '../../lib/appStateContext';
 
-function FiltersTab({
-  amulets,
-  setAmulets,
-  availableSkills,
-  excludedArmorItems,
-  setExcludedArmorItems,
-  gogSetFilter,
-  setGogSetFilter,
-  gogGroupFilter,
-  setGogGroupFilter,
-  availableArmorItems,
-  availableSets,
-  availableGroups,
-}: FiltersTabProps) {
+function FiltersTab() {
+  const {
+    amulets,
+    setAmulets,
+    availableSkills,
+    excludedArmorItems,
+    setExcludedArmorItems,
+    gogSetFilter,
+    setGogSetFilter,
+    gogGroupFilter,
+    setGogGroupFilter,
+    availableArmorItems,
+    availableSets,
+    availableGroups,
+  } = useAppState();
+
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
       <ExcludeArmorSection
