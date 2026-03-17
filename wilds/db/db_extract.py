@@ -22,7 +22,8 @@ def get_names(entry):
     names = entry.get('names', {})
     en = names.get('en', '')
     fr = names.get('fr', en)
-    return {'en': en, 'fr': fr}
+    es = names.get('es', en)
+    return {'en': en, 'fr': fr, 'es': es}
 
 
 skill_name_by_id = {}

@@ -23,9 +23,10 @@ export function normalizeEntity(entry: any): NamedEntity | null {
   if (!id) return null;
   const en = entry.names?.en || entry.name || id;
   const fr = entry.names?.fr || en;
+  const es = entry.names?.es || en;
   return {
     id,
-    names: { en, fr },
+    names: { en, fr, es },
     icon: entry.icon ?? null,
     gear_key: entry.gear_key ?? null,
   };
@@ -61,7 +62,7 @@ export function normalizeSavedSkill(skill: any, skillIndex: Record<string, Skill
 
   return {
     id: base?.id || String(skill.name),
-    names: base?.names || { en: String(skill.name), fr: String(skill.name) },
+    names: base?.names || { en: String(skill.name), fr: String(skill.name), es: String(skill.name) },
     icon: base?.icon ?? null,
     max_points: skill?.max_points ?? base?.max_points ?? 3,
     weight: skill?.weight ?? 10,
@@ -83,7 +84,7 @@ export function normalizeSavedSet(setItem: any, setIndex: Record<string, NamedEn
 
   return {
     id: base?.id || String(setItem.name),
-    names: base?.names || { en: String(setItem.name), fr: String(setItem.name) },
+    names: base?.names || { en: String(setItem.name), fr: String(setItem.name), es: String(setItem.name) },
     icon: base?.icon ?? null,
     min_pieces: setItem?.min_pieces ?? 2,
     is_group: setItem?.is_group,
@@ -105,7 +106,7 @@ export function normalizeSavedWeapon(weapon: any, weaponIndex: Record<string, Na
 
   return {
     id: base?.id || String(weapon.name),
-    names: base?.names || { en: String(weapon.name), fr: String(weapon.name) },
+    names: base?.names || { en: String(weapon.name), fr: String(weapon.name), es: String(weapon.name) },
     gear_key: base?.gear_key ?? null,
   };
 }

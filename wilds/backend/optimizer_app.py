@@ -10,7 +10,8 @@ def _names(entry):
     names = entry.get('names', {})
     en = names.get('en', entry.get('name', ''))
     fr = names.get('fr', en)
-    return {'en': en, 'fr': fr}
+    es = names.get('es', en)
+    return {'en': en, 'fr': fr, 'es': es}
 
 
 def _derive_custom_amulet_name(input_name, skill_items, skill_by_id, slots_str):

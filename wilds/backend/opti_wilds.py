@@ -13,9 +13,10 @@ def _get_names(entry):
     if isinstance(names, dict):
         en = names.get('en', entry.get('name', ''))
         fr = names.get('fr', en)
-        return {'en': en, 'fr': fr}
+        es = names.get('es', en)
+        return {'en': en, 'fr': fr, 'es': es}
     name = entry.get('name', '')
-    return {'en': name, 'fr': name}
+    return {'en': name, 'fr': name, 'es': name}
 
 
 def _normalize_item(item):

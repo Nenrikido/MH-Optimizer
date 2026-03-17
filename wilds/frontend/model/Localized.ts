@@ -1,6 +1,7 @@
 export interface LocalizedNames {
   en: string;
   fr: string;
+  es?: string;
 }
 
 export interface NamedEntity {
@@ -9,4 +10,3 @@ export interface NamedEntity {
   icon?: string | null;
   gear_key?: string | null;
 }
-

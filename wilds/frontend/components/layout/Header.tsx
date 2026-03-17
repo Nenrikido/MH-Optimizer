@@ -27,10 +27,12 @@ function Header() {
           onChange={handleLanguageChange}
           renderValue={(value) => (
             <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
-              <Box component="img" src={value === 'en' ? '/flags/gb.svg' : '/flags/fr.svg'} alt=""
+              <Box component="img"
+                   src={value === 'en' ? '/flags/gb.svg' : value === 'fr' ? '/flags/fr.svg' : '/flags/es.svg'}
+                   alt=""
                    sx={{width: 18, height: 12, borderRadius: '2px'}} />
               <Box component="span" sx={{color: '#adb5bd', fontSize: '0.875rem'}}>
-                {value === 'en' ? 'English' : 'Francais'}
+                {value === 'en' ? 'English' : value === 'fr' ? 'Français' : 'Español'}
               </Box>
             </Box>
           )}
@@ -50,7 +52,13 @@ function Header() {
           <MenuItem value="fr">
             <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
               <Box component="img" src="/flags/fr.svg" alt="" sx={{width: 18, height: 12, borderRadius: '2px'}} />
-              <Box component="span">Francais</Box>
+              <Box component="span">Français</Box>
+            </Box>
+          </MenuItem>
+          <MenuItem value="es">
+            <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
+              <Box component="img" src="/flags/es.svg" alt="" sx={{width: 18, height: 12, borderRadius: '2px'}} />
+              <Box component="span">Español</Box>
             </Box>
           </MenuItem>
         </Select>

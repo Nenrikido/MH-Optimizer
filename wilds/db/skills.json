@@ -3,7 +3,8 @@
     "id": "424768352",
     "names": {
       "en": "Adaptability",
-      "fr": "Adaptabilité"
+      "fr": "Adaptabilité",
+      "es": "Adaptabilidad"
     },
     "icon": "defense",
     "max_points": 2
@@ -12,7 +13,8 @@
     "id": "1174975744",
     "names": {
       "en": "Adrenaline Rush",
-      "fr": "Poussée d'adrénaline"
+      "fr": "Poussée d'adrénaline",
+      "es": "Subida de adrenalina"
     },
     "icon": "attack",
     "max_points": 5
@@ -21,7 +23,8 @@
     "id": "1865909632",
     "names": {
       "en": "Agitator",
-      "fr": "Témérité"
+      "fr": "Témérité",
+      "es": "Instigación"
     },
     "icon": "offense",
     "max_points": 5
@@ -30,7 +33,8 @@
     "id": "402237312",
     "names": {
       "en": "Airborne",
-      "fr": "Mort venue d'en haut"
+      "fr": "Mort venue d'en haut",
+      "es": "Bonus ataque en salto"
     },
     "icon": "offense",
     "max_points": 1
@@ -39,7 +43,8 @@
     "id": "-171796848",
     "names": {
       "en": "Ambush",
-      "fr": "Embuscade"
+      "fr": "Embuscade",
+      "es": "Emboscada"
     },
     "icon": "offense",
     "max_points": 3
@@ -48,7 +53,8 @@
     "id": "-1662120192",
     "names": {
       "en": "Antivirus",
-      "fr": "Antivirus"
+      "fr": "Antivirus",
+      "es": "Antivirus"
     },
     "icon": "offense",
     "max_points": 3
@@ -57,7 +63,8 @@
     "id": "-201445760",
     "names": {
       "en": "Aquatic/Oilsilt Mobility",
-      "fr": "Mobilité eau/boue huileuse"
+      "fr": "Mobilité eau/boue huileuse",
+      "es": "Movilidad por agua/fango"
     },
     "icon": "utility",
     "max_points": 2
@@ -66,7 +73,8 @@
     "id": "-596764096",
     "names": {
       "en": "Artillery",
-      "fr": "BOUM !"
+      "fr": "BOUM !",
+      "es": "Artillería"
     },
     "icon": "offense",
     "max_points": 3
@@ -75,7 +83,8 @@
     "id": "1",
     "names": {
       "en": "Attack Boost",
-      "fr": "Machine de guerre"
+      "fr": "Machine de guerre",
+      "es": "Bonus de ataque"
     },
     "icon": "attack",
     "max_points": 5
@@ -84,7 +93,8 @@
     "id": "-420608864",
     "names": {
       "en": "Ballistics",
-      "fr": "Balistique"
+      "fr": "Balistique",
+      "es": "Balística"
     },
     "icon": "ranged",
     "max_points": 3
@@ -93,7 +103,8 @@
     "id": "1966172160",
     "names": {
       "en": "Bind Resistance",
-      "fr": "Anti-immobilisation"
+      "fr": "Anti-immobilisation",
+      "es": "Antiinmovilización"
     },
     "icon": "defense",
     "max_points": 3
@@ -102,7 +113,8 @@
     "id": "25070",
     "names": {
       "en": "Bladescale Honing",
-      "fr": "Aiguisage lamécaille"
+      "fr": "Aiguisage lamécaille",
+      "es": "Afilado de filoescama"
     },
     "icon": "handicraft",
     "max_points": 1
@@ -111,7 +123,8 @@
     "id": "3504",
     "names": {
       "en": "Bladescale Loading",
-      "fr": "Chargement lamécaille"
+      "fr": "Chargement lamécaille",
+      "es": "Carga de filoescama"
     },
     "icon": "ranged",
     "max_points": 1
@@ -120,7 +133,8 @@
     "id": "-844978880",
     "names": {
       "en": "Blast Attack",
-      "fr": "Destruction massive"
+      "fr": "Destruction massive",
+      "es": "Ataque de nitro"
     },
     "icon": "element",
     "max_points": 3
@@ -129,7 +143,8 @@
     "id": "-2022542848",
     "names": {
       "en": "Blast Functionality",
-      "fr": "Maître bombardier"
+      "fr": "Maître bombardier",
+      "es": "Añade nitro"
     },
     "icon": "ranged",
     "max_points": 1
@@ -138,7 +153,8 @@
     "id": "820385792",
     "names": {
       "en": "Blast Resistance",
-      "fr": "Antiexplosion"
+      "fr": "Antiexplosion",
+      "es": "Antinitro"
     },
     "icon": "defense",
     "max_points": 3
@@ -147,7 +163,8 @@
     "id": "1940820864",
     "names": {
       "en": "Bleeding Resistance",
-      "fr": "Antihémorragie"
+      "fr": "Antihémorragie",
+      "es": "Antisangrado"
     },
     "icon": "defense",
     "max_points": 3
@@ -156,7 +173,8 @@
     "id": "-568838336",
     "names": {
       "en": "Blight Resistance",
-      "fr": "Totem élémentaire"
+      "fr": "Totem élémentaire",
+      "es": "Antiplagas"
     },
     "icon": "defense",
     "max_points": 3
@@ -165,7 +183,8 @@
     "id": "-257693696",
     "names": {
       "en": "Blindsider",
-      "fr": "Aveuglement"
+      "fr": "Aveuglement",
+      "es": "Mejora al deslumbrar"
     },
     "icon": "item",
     "max_points": 1
@@ -174,7 +193,8 @@
     "id": "397306144",
     "names": {
       "en": "Bludgeoner",
-      "fr": "Matraquage"
+      "fr": "Matraquage",
+      "es": "Impacto mejorado"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -183,7 +203,8 @@
     "id": "-857543744",
     "names": {
       "en": "Bombardier",
-      "fr": "Bombardier"
+      "fr": "Bombardier",
+      "es": "Bombardero"
     },
     "icon": "item",
     "max_points": 3
@@ -192,7 +213,8 @@
     "id": "860517760",
     "names": {
       "en": "Botanist",
-      "fr": "Botaniste"
+      "fr": "Botaniste",
+      "es": "Botánica"
     },
     "icon": "gathering",
     "max_points": 4
@@ -201,7 +223,8 @@
     "id": "565867136",
     "names": {
       "en": "Burst",
-      "fr": "Vendetta"
+      "fr": "Vendetta",
+      "es": "Ráfaga"
     },
     "icon": "offense",
     "max_points": 5
@@ -210,7 +233,8 @@
     "id": "30554",
     "names": {
       "en": "Catburglar",
-      "fr": "Chat voleur"
+      "fr": "Chat voleur",
+      "es": "Ladrón gato"
     },
     "icon": "gathering",
     "max_points": 1
@@ -219,7 +243,8 @@
     "id": "-1475134080",
     "names": {
       "en": "Charge Master",
-      "fr": "Maître de la charge"
+      "fr": "Maître de la charge",
+      "es": "Maestro de cargas"
     },
     "icon": "element",
     "max_points": 3
@@ -228,7 +253,8 @@
     "id": "353114912",
     "names": {
       "en": "Charge Up",
-      "fr": "Surcharge"
+      "fr": "Surcharge",
+      "es": "Más carga"
     },
     "icon": "offense",
     "max_points": 1
@@ -237,7 +263,8 @@
     "id": "-692636288",
     "names": {
       "en": "Cliffhanger",
-      "fr": "Monte-en-l'air"
+      "fr": "Monte-en-l'air",
+      "es": "Experto en trepar"
     },
     "icon": "utility",
     "max_points": 1
@@ -246,7 +273,8 @@
     "id": "-1700743296",
     "names": {
       "en": "Coalescence",
-      "fr": "Union"
+      "fr": "Union",
+      "es": "Coalescencia"
     },
     "icon": "offense",
     "max_points": 3
@@ -255,7 +283,8 @@
     "id": "-1689391744",
     "names": {
       "en": "Constitution",
-      "fr": "Athlète"
+      "fr": "Athlète",
+      "es": "Constitución"
     },
     "icon": "stamina",
     "max_points": 5
@@ -264,7 +293,8 @@
     "id": "2083363072",
     "names": {
       "en": "Convert Element",
-      "fr": "Conversion élémentaire"
+      "fr": "Conversion élémentaire",
+      "es": "Convierte elemento"
     },
     "icon": "attack",
     "max_points": 3
@@ -273,7 +303,8 @@
     "id": "30201",
     "names": {
       "en": "Convert Thunder Resistance",
-      "fr": "Conversion résistance foudre"
+      "fr": "Conversion résistance foudre",
+      "es": "Convierte antirrayo"
     },
     "icon": "element",
     "max_points": 1
@@ -282,7 +313,8 @@
     "id": "11481",
     "names": {
       "en": "Convert Water Resistance",
-      "fr": "Conversion résistance eau"
+      "fr": "Conversion résistance eau",
+      "es": "Convertir antiagua"
     },
     "icon": "element",
     "max_points": 1
@@ -291,7 +323,8 @@
     "id": "280489184",
     "names": {
       "en": "Counterstrike",
-      "fr": "Contre-attaque"
+      "fr": "Contre-attaque",
+      "es": "Venganza"
     },
     "icon": "attack",
     "max_points": 3
@@ -300,7 +333,8 @@
     "id": "1826",
     "names": {
       "en": "Crackling Cornpopper",
-      "fr": "Maïs crépitant"
+      "fr": "Maïs crépitant",
+      "es": "Maicera rebosante"
     },
     "icon": "offense",
     "max_points": 1
@@ -309,7 +343,8 @@
     "id": "-1607763456",
     "names": {
       "en": "Critical Boost",
-      "fr": "Berserker"
+      "fr": "Berserker",
+      "es": "Bonus críticos"
     },
     "icon": "affinity",
     "max_points": 5
@@ -318,7 +353,8 @@
     "id": "686533440",
     "names": {
       "en": "Critical Draw",
-      "fr": "Dégainage éclair"
+      "fr": "Dégainage éclair",
+      "es": "Desenfunde crítico"
     },
     "icon": "affinity",
     "max_points": 3
@@ -327,7 +363,8 @@
     "id": "313598432",
     "names": {
       "en": "Critical Element",
-      "fr": "Rage élémentaire"
+      "fr": "Rage élémentaire",
+      "es": "Elemento crítico"
     },
     "icon": "element",
     "max_points": 3
@@ -336,7 +373,8 @@
     "id": "-2096489472",
     "names": {
       "en": "Critical Eye",
-      "fr": "Maître d'armes"
+      "fr": "Maître d'armes",
+      "es": "Ojo crítico"
     },
     "icon": "affinity",
     "max_points": 5
@@ -345,7 +383,8 @@
     "id": "-168922880",
     "names": {
       "en": "Critical Status",
-      "fr": "Attaque perfide"
+      "fr": "Attaque perfide",
+      "es": "Estado crítico"
     },
     "icon": "element",
     "max_points": 3
@@ -354,7 +393,8 @@
     "id": "3813",
     "names": {
       "en": "Darkside",
-      "fr": "Ténèbres intérieures"
+      "fr": "Ténèbres intérieures",
+      "es": "Lado oscuro"
     },
     "icon": "attack",
     "max_points": 1
@@ -363,7 +403,8 @@
     "id": "1077686656",
     "names": {
       "en": "Defense Boost",
-      "fr": "Bastion"
+      "fr": "Bastion",
+      "es": "Bonus de defensa"
     },
     "icon": "defense",
     "max_points": 7
@@ -372,7 +413,8 @@
     "id": "1346775424",
     "names": {
       "en": "Divine Blessing",
-      "fr": "Bénédiction"
+      "fr": "Bénédiction",
+      "es": "Bendición divina"
     },
     "icon": "defense",
     "max_points": 3
@@ -381,7 +423,8 @@
     "id": "-776946176",
     "names": {
       "en": "Dragon Attack",
-      "fr": "Pourfendeur de dragon"
+      "fr": "Pourfendeur de dragon",
+      "es": "Ataque de draco"
     },
     "icon": "element",
     "max_points": 3
@@ -390,7 +433,8 @@
     "id": "-2125233152",
     "names": {
       "en": "Dragon Resistance",
-      "fr": "Aura draconique"
+      "fr": "Aura draconique",
+      "es": "Antidraco"
     },
     "icon": "defense",
     "max_points": 3
@@ -399,7 +443,8 @@
     "id": "192746944",
     "names": {
       "en": "Earplugs",
-      "fr": "Bouchon d'oreilles"
+      "fr": "Bouchon d'oreilles",
+      "es": "Antirrugidos"
     },
     "icon": "utility",
     "max_points": 3
@@ -408,7 +453,8 @@
     "id": "1489568384",
     "names": {
       "en": "Elemental Absorption",
-      "fr": "Absorption élémentaire"
+      "fr": "Absorption élémentaire",
+      "es": "Absorción elemental"
     },
     "icon": "offense",
     "max_points": 3
@@ -417,7 +463,8 @@
     "id": "898284480",
     "names": {
       "en": "Entomologist",
-      "fr": "Entomologiste"
+      "fr": "Entomologiste",
+      "es": "Entomología"
     },
     "icon": "gathering",
     "max_points": 1
@@ -426,7 +473,8 @@
     "id": "673822976",
     "names": {
       "en": "Evade Extender",
-      "fr": "Trompe-la-mort"
+      "fr": "Trompe-la-mort",
+      "es": "Distancia evasiva"
     },
     "icon": "utility",
     "max_points": 3
@@ -435,7 +483,8 @@
     "id": "144660544",
     "names": {
       "en": "Evade Window",
-      "fr": "Fenêtre d'invulnérabilité"
+      "fr": "Fenêtre d'invulnérabilité",
+      "es": "Intervalo de evasión"
     },
     "icon": "utility",
     "max_points": 5
@@ -444,7 +493,8 @@
     "id": "30828",
     "names": {
       "en": "Evading Reload",
-      "fr": "Rechargement fugitif"
+      "fr": "Rechargement fugitif",
+      "es": "Recarga en esquiva"
     },
     "icon": "ranged",
     "max_points": 1
@@ -453,7 +503,8 @@
     "id": "-181774400",
     "names": {
       "en": "Exhaust Functionality",
-      "fr": "Pattes engourdies"
+      "fr": "Pattes engourdies",
+      "es": "Añade fatiga"
     },
     "icon": "ranged",
     "max_points": 1
@@ -462,7 +513,8 @@
     "id": "-562534336",
     "names": {
       "en": "Fire Attack",
-      "fr": "Pyromane"
+      "fr": "Pyromane",
+      "es": "Ataque de fuego"
     },
     "icon": "element",
     "max_points": 3
@@ -471,7 +523,8 @@
     "id": "1425756032",
     "names": {
       "en": "Fire Resistance",
-      "fr": "Ignifuge"
+      "fr": "Ignifuge",
+      "es": "Antifuego"
     },
     "icon": "defense",
     "max_points": 3
@@ -480,7 +533,8 @@
     "id": "-856322816",
     "names": {
       "en": "Flayer",
-      "fr": "Écorcheur"
+      "fr": "Écorcheur",
+      "es": "Desuello"
     },
     "icon": "offense",
     "max_points": 5
@@ -489,7 +543,8 @@
     "id": "742695104",
     "names": {
       "en": "Flinch Free",
-      "fr": "Nerfs d'acier"
+      "fr": "Nerfs d'acier",
+      "es": "Firmeza"
     },
     "icon": "utility",
     "max_points": 3
@@ -498,7 +553,8 @@
     "id": "-283334048",
     "names": {
       "en": "Focus",
-      "fr": "Concentration"
+      "fr": "Concentration",
+      "es": "Carga veloz"
     },
     "icon": "offense",
     "max_points": 3
@@ -507,7 +563,8 @@
     "id": "27684744",
     "names": {
       "en": "Foray",
-      "fr": "Incursion"
+      "fr": "Incursion",
+      "es": "Irrupción"
     },
     "icon": "offense",
     "max_points": 5
@@ -516,7 +573,8 @@
     "id": "850626240",
     "names": {
       "en": "Free Meal",
-      "fr": "Pique-assiette"
+      "fr": "Pique-assiette",
+      "es": "Comida gratis"
     },
     "icon": "item",
     "max_points": 3
@@ -525,7 +583,8 @@
     "id": "595870656",
     "names": {
       "en": "Geologist",
-      "fr": "Géologiste"
+      "fr": "Géologiste",
+      "es": "Geología"
     },
     "icon": "gathering",
     "max_points": 3
@@ -534,7 +593,8 @@
     "id": "16931",
     "names": {
       "en": "Grillmaster",
-      "fr": "Chef BBQ"
+      "fr": "Chef BBQ",
+      "es": "Maestro de la parrilla"
     },
     "icon": "attack",
     "max_points": 1
@@ -543,7 +603,8 @@
     "id": "-307644128",
     "names": {
       "en": "Guard",
-      "fr": "Paladin"
+      "fr": "Paladin",
+      "es": "Bloqueo mejorado"
     },
     "icon": "utility",
     "max_points": 3
@@ -552,7 +613,8 @@
     "id": "-1674114176",
     "names": {
       "en": "Guard Up",
-      "fr": "Ultra garde"
+      "fr": "Ultra garde",
+      "es": "Escudo"
     },
     "icon": "utility",
     "max_points": 3
@@ -561,7 +623,8 @@
     "id": "1160639488",
     "names": {
       "en": "Handicraft",
-      "fr": "Savoir-faire"
+      "fr": "Savoir-faire",
+      "es": "Artesanía"
     },
     "icon": "handicraft",
     "max_points": 5
@@ -570,7 +633,8 @@
     "id": "422666624",
     "names": {
       "en": "Heroics",
-      "fr": "Héroïsme"
+      "fr": "Héroïsme",
+      "es": "Heroicidad"
     },
     "icon": "offense",
     "max_points": 5
@@ -579,7 +643,8 @@
     "id": "-1237438336",
     "names": {
       "en": "Horn Maestro",
-      "fr": "Maestro"
+      "fr": "Maestro",
+      "es": "As de la cornamusa"
     },
     "icon": "offense",
     "max_points": 2
@@ -588,7 +653,8 @@
     "id": "2045149568",
     "names": {
       "en": "Hunger Resistance",
-      "fr": "Coupe-faim"
+      "fr": "Coupe-faim",
+      "es": "Antihambre"
     },
     "icon": "stamina",
     "max_points": 3
@@ -597,7 +663,8 @@
     "id": "1268070400",
     "names": {
       "en": "Ice Attack",
-      "fr": "Blizzard"
+      "fr": "Blizzard",
+      "es": "Ataque de hielo"
     },
     "icon": "element",
     "max_points": 3
@@ -606,7 +673,8 @@
     "id": "652161472",
     "names": {
       "en": "Ice Resistance",
-      "fr": "Antigel"
+      "fr": "Antigel",
+      "es": "Antihielo"
     },
     "icon": "defense",
     "max_points": 3
@@ -615,7 +683,8 @@
     "id": "1472632704",
     "names": {
       "en": "Intimidator",
-      "fr": "Intimidation"
+      "fr": "Intimidation",
+      "es": "Intimidador"
     },
     "icon": "utility",
     "max_points": 3
@@ -624,7 +693,8 @@
     "id": "1522518528",
     "names": {
       "en": "Iron Skin",
-      "fr": "Peau de fer"
+      "fr": "Peau de fer",
+      "es": "Piel de hierro"
     },
     "icon": "defense",
     "max_points": 3
@@ -633,7 +703,8 @@
     "id": "-1684613760",
     "names": {
       "en": "Item Prolonger",
-      "fr": "Chimiste"
+      "fr": "Chimiste",
+      "es": "Duración de objetos"
     },
     "icon": "item",
     "max_points": 3
@@ -642,7 +713,8 @@
     "id": "78208296",
     "names": {
       "en": "Jump Master",
-      "fr": "Acrobate"
+      "fr": "Acrobate",
+      "es": "Experto en salto"
     },
     "icon": "utility",
     "max_points": 1
@@ -651,7 +723,8 @@
     "id": "1763191040",
     "names": {
       "en": "Latent Power",
-      "fr": "Force latente"
+      "fr": "Force latente",
+      "es": "Poder latente"
     },
     "icon": "offense",
     "max_points": 5
@@ -660,7 +733,8 @@
     "id": "-1304512512",
     "names": {
       "en": "Leap of Faith",
-      "fr": "Saut de la foi"
+      "fr": "Saut de la foi",
+      "es": "Mejora de salto"
     },
     "icon": "utility",
     "max_points": 1
@@ -669,7 +743,8 @@
     "id": "802725120",
     "names": {
       "en": "Load Shells",
-      "fr": "Recharge chargée"
+      "fr": "Recharge chargée",
+      "es": "Cargar arma"
     },
     "icon": "utility",
     "max_points": 2
@@ -678,7 +753,8 @@
     "id": "-682586176",
     "names": {
       "en": "Marathon Runner",
-      "fr": "Marathonien"
+      "fr": "Marathonien",
+      "es": "Corredor de fondo"
     },
     "icon": "stamina",
     "max_points": 3
@@ -687,7 +763,8 @@
     "id": "1389859584",
     "names": {
       "en": "Master's Touch",
-      "fr": "Main de maître"
+      "fr": "Main de maître",
+      "es": "Toque maestro"
     },
     "icon": "handicraft",
     "max_points": 1
@@ -696,7 +773,8 @@
     "id": "632127488",
     "names": {
       "en": "Maximum Might",
-      "fr": "Corps et âme"
+      "fr": "Corps et âme",
+      "es": "Poder máximo"
     },
     "icon": "attack",
     "max_points": 3
@@ -705,7 +783,8 @@
     "id": "1594792704",
     "names": {
       "en": "Mind's Eye",
-      "fr": "Œil de l'esprit"
+      "fr": "Œil de l'esprit",
+      "es": "Ojo mental"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -714,7 +793,8 @@
     "id": "-481419552",
     "names": {
       "en": "Mushroomancer",
-      "fr": "Mycologue extrême"
+      "fr": "Mycologue extrême",
+      "es": "Micología"
     },
     "icon": "item",
     "max_points": 3
@@ -723,7 +803,8 @@
     "id": "-1961297152",
     "names": {
       "en": "Normal Shots",
-      "fr": "Tir maximum"
+      "fr": "Tir maximum",
+      "es": "Disparo normal"
     },
     "icon": "ranged",
     "max_points": 1
@@ -732,7 +813,8 @@
     "id": "-181127504",
     "names": {
       "en": "Offensive Guard",
-      "fr": "Garde offensive"
+      "fr": "Garde offensive",
+      "es": "Bloqueo agresivo"
     },
     "icon": "attack",
     "max_points": 3
@@ -741,7 +823,8 @@
     "id": "1711950720",
     "names": {
       "en": "Opening Shot",
-      "fr": "Premier tir"
+      "fr": "Premier tir",
+      "es": "Primer disparo"
     },
     "icon": "ranged",
     "max_points": 3
@@ -750,7 +833,8 @@
     "id": "1845834112",
     "names": {
       "en": "Outdoorsman",
-      "fr": "Art de la chasse"
+      "fr": "Art de la chasse",
+      "es": "Autosuficiente"
     },
     "icon": "gathering",
     "max_points": 1
@@ -759,7 +843,8 @@
     "id": "1934955136",
     "names": {
       "en": "Palico Rally",
-      "fr": "Esprit Palico"
+      "fr": "Esprit Palico",
+      "es": "Mejora de camarada"
     },
     "icon": "offense",
     "max_points": 5
@@ -768,7 +853,8 @@
     "id": "-676967744",
     "names": {
       "en": "Para Functionality",
-      "fr": "Gibier de potence"
+      "fr": "Gibier de potence",
+      "es": "Añade parálisis"
     },
     "icon": "ranged",
     "max_points": 1
@@ -777,7 +863,8 @@
     "id": "-1863702144",
     "names": {
       "en": "Paralysis Attack",
-      "fr": "Neutralisation"
+      "fr": "Neutralisation",
+      "es": "Ataque paralizante"
     },
     "icon": "element",
     "max_points": 3
@@ -786,7 +873,8 @@
     "id": "522288832",
     "names": {
       "en": "Paralysis Resistance",
-      "fr": "Antiparalysie"
+      "fr": "Antiparalysie",
+      "es": "Antiparálisis"
     },
     "icon": "defense",
     "max_points": 3
@@ -795,7 +883,8 @@
     "id": "1470960256",
     "names": {
       "en": "Partbreaker",
-      "fr": "Destructeur"
+      "fr": "Destructeur",
+      "es": "Rompepartes"
     },
     "icon": "offense",
     "max_points": 3
@@ -804,7 +893,8 @@
     "id": "2106877312",
     "names": {
       "en": "Peak Performance",
-      "fr": "Performance optimale"
+      "fr": "Performance optimale",
+      "es": "Plena forma"
     },
     "icon": "attack",
     "max_points": 5
@@ -813,7 +903,8 @@
     "id": "552982656",
     "names": {
       "en": "Piercing Shots",
-      "fr": "Traque sans merci"
+      "fr": "Traque sans merci",
+      "es": "Disparo perforante"
     },
     "icon": "ranged",
     "max_points": 1
@@ -822,7 +913,8 @@
     "id": "-1716324608",
     "names": {
       "en": "Poison Attack",
-      "fr": "Mort-aux-rats"
+      "fr": "Mort-aux-rats",
+      "es": "Ataque venenoso"
     },
     "icon": "element",
     "max_points": 3
@@ -831,7 +923,8 @@
     "id": "-1629629184",
     "names": {
       "en": "Poison Duration Up",
-      "fr": "Poison +"
+      "fr": "Poison +",
+      "es": "Veneno extendido"
     },
     "icon": "offense",
     "max_points": 1
@@ -840,7 +933,8 @@
     "id": "919683456",
     "names": {
       "en": "Poison Functionality",
-      "fr": "Apothicaire"
+      "fr": "Apothicaire",
+      "es": "Añade veneno"
     },
     "icon": "ranged",
     "max_points": 1
@@ -849,7 +943,8 @@
     "id": "1459579264",
     "names": {
       "en": "Poison Resistance",
-      "fr": "Toxicologie"
+      "fr": "Toxicologie",
+      "es": "Antiveneno"
     },
     "icon": "defense",
     "max_points": 3
@@ -858,7 +953,8 @@
     "id": "691199232",
     "names": {
       "en": "Power Prolonger",
-      "fr": "Puissance absolue"
+      "fr": "Puissance absolue",
+      "es": "Carga prolongada"
     },
     "icon": "offense",
     "max_points": 3
@@ -867,7 +963,8 @@
     "id": "28385",
     "names": {
       "en": "Power Stone",
-      "fr": "Pierre de pouvoir"
+      "fr": "Pierre de pouvoir",
+      "es": "Piedra de poder"
     },
     "icon": "attack",
     "max_points": 1
@@ -876,7 +973,8 @@
     "id": "1500129152",
     "names": {
       "en": "Protective Polish",
-      "fr": "Acier trempé"
+      "fr": "Acier trempé",
+      "es": "Acabado protector"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -885,7 +983,8 @@
     "id": "-1946345856",
     "names": {
       "en": "Punishing Draw",
-      "fr": "Batto-jutsu"
+      "fr": "Batto-jutsu",
+      "es": "Pena inmediata"
     },
     "icon": "offense",
     "max_points": 3
@@ -894,7 +993,8 @@
     "id": "-1073401280",
     "names": {
       "en": "Quick Sheathe",
-      "fr": "Rengainage éclair"
+      "fr": "Rengainage éclair",
+      "es": "Envainado veloz"
     },
     "icon": "utility",
     "max_points": 3
@@ -903,7 +1003,8 @@
     "id": "-1507579776",
     "names": {
       "en": "Rapid Fire Up",
-      "fr": "Tir super rapide"
+      "fr": "Tir super rapide",
+      "es": "Andanada rápida"
     },
     "icon": "ranged",
     "max_points": 1
@@ -912,7 +1013,8 @@
     "id": "-1961116288",
     "names": {
       "en": "Rapid Morph",
-      "fr": "Morphose rapide"
+      "fr": "Morphose rapide",
+      "es": "Mutación rápida"
     },
     "icon": "offense",
     "max_points": 3
@@ -921,7 +1023,8 @@
     "id": "1050520384",
     "names": {
       "en": "Razor Sharp",
-      "fr": "Samouraï"
+      "fr": "Samouraï",
+      "es": "Filo de cuchilla"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -930,7 +1033,8 @@
     "id": "-1121468544",
     "names": {
       "en": "Recovery Speed",
-      "fr": "Halo de guérison"
+      "fr": "Halo de guérison",
+      "es": "Recuperación rápida"
     },
     "icon": "health",
     "max_points": 3
@@ -939,7 +1043,8 @@
     "id": "-1235658624",
     "names": {
       "en": "Recovery Up",
-      "fr": "Cercle de vie"
+      "fr": "Cercle de vie",
+      "es": "Recuperación"
     },
     "icon": "health",
     "max_points": 3
@@ -948,7 +1053,8 @@
     "id": "1359821952",
     "names": {
       "en": "Resentment",
-      "fr": "Vengeance"
+      "fr": "Vengeance",
+      "es": "Resentimiento"
     },
     "icon": "attack",
     "max_points": 5
@@ -957,7 +1063,8 @@
     "id": "10503",
     "names": {
       "en": "Rice Ball",
-      "fr": "Onigiri"
+      "fr": "Onigiri",
+      "es": "Onigiri"
     },
     "icon": "offense",
     "max_points": 1
@@ -966,7 +1073,8 @@
     "id": "1639440000",
     "names": {
       "en": "Self-Improvement",
-      "fr": "Auto-amélioration"
+      "fr": "Auto-amélioration",
+      "es": "Automejora"
     },
     "icon": "offense",
     "max_points": 1
@@ -975,7 +1083,8 @@
     "id": "12877",
     "names": {
       "en": "Shattering Reflection",
-      "fr": "Reflet éparpillé"
+      "fr": "Reflet éparpillé",
+      "es": "Reflejo destrozado"
     },
     "icon": "attack",
     "max_points": 1
@@ -984,7 +1093,8 @@
     "id": "-632440576",
     "names": {
       "en": "Shock Absorber",
-      "fr": "Antichocs"
+      "fr": "Antichocs",
+      "es": "Amortiguador"
     },
     "icon": "utility",
     "max_points": 1
@@ -993,7 +1103,8 @@
     "id": "166057120",
     "names": {
       "en": "Sleep Attack",
-      "fr": "La nuit porte conseil"
+      "fr": "La nuit porte conseil",
+      "es": "Ataque de sueño"
     },
     "icon": "element",
     "max_points": 3
@@ -1002,7 +1113,8 @@
     "id": "169998480",
     "names": {
       "en": "Sleep Functionality",
-      "fr": "Marchand de sable"
+      "fr": "Marchand de sable",
+      "es": "Añade sueño"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1011,7 +1123,8 @@
     "id": "-193031552",
     "names": {
       "en": "Sleep Resistance",
-      "fr": "Insomnie"
+      "fr": "Insomnie",
+      "es": "Antisueño"
     },
     "icon": "defense",
     "max_points": 3
@@ -1020,7 +1133,8 @@
     "id": "-847539392",
     "names": {
       "en": "Slicked Blade",
-      "fr": "Lame glissante"
+      "fr": "Lame glissante",
+      "es": "Filo alisado"
     },
     "icon": "affinity",
     "max_points": 3
@@ -1029,7 +1143,8 @@
     "id": "-893407296",
     "names": {
       "en": "Slugger",
-      "fr": "Cogneur"
+      "fr": "Cogneur",
+      "es": "As del aturdimiento"
     },
     "icon": "offense",
     "max_points": 3
@@ -1038,7 +1153,8 @@
     "id": "-160562336",
     "names": {
       "en": "Special Ammo Boost",
-      "fr": "Salve mortelle"
+      "fr": "Salve mortelle",
+      "es": "Bonus tiro especial"
     },
     "icon": "ranged",
     "max_points": 2
@@ -1047,7 +1163,8 @@
     "id": "634068352",
     "names": {
       "en": "Speed Eating",
-      "fr": "Carnassier"
+      "fr": "Carnassier",
+      "es": "Ingesta rápida"
     },
     "icon": "utility",
     "max_points": 3
@@ -1056,7 +1173,8 @@
     "id": "1444935552",
     "names": {
       "en": "Speed Sharpening",
-      "fr": "Affûtage rapide"
+      "fr": "Affûtage rapide",
+      "es": "Afilado rápido"
     },
     "icon": "item",
     "max_points": 2
@@ -1065,7 +1183,8 @@
     "id": "-2123993856",
     "names": {
       "en": "Spread/Power Shots",
-      "fr": "Désigné pour mourir"
+      "fr": "Désigné pour mourir",
+      "es": "Disparo abanico/potente"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1074,7 +1193,8 @@
     "id": "-315492576",
     "names": {
       "en": "Stamina Surge",
-      "fr": "Métabolisme"
+      "fr": "Métabolisme",
+      "es": "Aguante"
     },
     "icon": "stamina",
     "max_points": 3
@@ -1083,7 +1203,8 @@
     "id": "1758661504",
     "names": {
       "en": "Stamina Thief",
-      "fr": "Vol d'endurance"
+      "fr": "Vol d'endurance",
+      "es": "Agotador"
     },
     "icon": "offense",
     "max_points": 3
@@ -1092,7 +1213,8 @@
     "id": "-411441344",
     "names": {
       "en": "Stench Resistance",
-      "fr": "Antipuanteur"
+      "fr": "Antipuanteur",
+      "es": "Antihedor"
     },
     "icon": "item",
     "max_points": 2
@@ -1101,7 +1223,8 @@
     "id": "705317568",
     "names": {
       "en": "Stun Resistance",
-      "fr": "Crâne d'acier"
+      "fr": "Crâne d'acier",
+      "es": "Antiaturdimiento"
     },
     "icon": "defense",
     "max_points": 3
@@ -1110,7 +1233,8 @@
     "id": "-593005376",
     "names": {
       "en": "Survival Expert",
-      "fr": "Ami de la nature"
+      "fr": "Ami de la nature",
+      "es": "Experto en supervivencia"
     },
     "icon": "health",
     "max_points": 3
@@ -1119,7 +1243,8 @@
     "id": "31998",
     "names": {
       "en": "Synergy",
-      "fr": "Programme synergique"
+      "fr": "Programme synergique",
+      "es": "Sinergia"
     },
     "icon": "affinity",
     "max_points": 1
@@ -1128,7 +1253,8 @@
     "id": "7506",
     "names": {
       "en": "Synthetic Shield",
-      "fr": "Bouclier optionnel"
+      "fr": "Bouclier optionnel",
+      "es": "Escudo sintético"
     },
     "icon": "defense",
     "max_points": 1
@@ -1137,7 +1263,8 @@
     "id": "1613139840",
     "names": {
       "en": "Tetrad Shot",
-      "fr": "Quatrième tir"
+      "fr": "Quatrième tir",
+      "es": "Disparo tétrada"
     },
     "icon": "ranged",
     "max_points": 3
@@ -1146,7 +1273,8 @@
     "id": "1452140672",
     "names": {
       "en": "Thunder Attack",
-      "fr": "Feu du ciel"
+      "fr": "Feu du ciel",
+      "es": "Ataque de rayo"
     },
     "icon": "element",
     "max_points": 3
@@ -1155,7 +1283,8 @@
     "id": "2143068800",
     "names": {
       "en": "Thunder Resistance",
-      "fr": "Paratonnerre"
+      "fr": "Paratonnerre",
+      "es": "Antirrayo"
     },
     "icon": "defense",
     "max_points": 3
@@ -1164,7 +1293,8 @@
     "id": "469540352",
     "names": {
       "en": "Tool Specialist",
-      "fr": "Expert en survie"
+      "fr": "Expert en survie",
+      "es": "Experto en herramientas"
     },
     "icon": "item",
     "max_points": 5
@@ -1173,7 +1303,8 @@
     "id": "-609509888",
     "names": {
       "en": "Tremor Resistance",
-      "fr": "Sismologie"
+      "fr": "Sismologie",
+      "es": "Antitemblores"
     },
     "icon": "utility",
     "max_points": 3
@@ -1182,7 +1313,8 @@
     "id": "508916704",
     "names": {
       "en": "Water Attack",
-      "fr": "Maelstrom"
+      "fr": "Maelstrom",
+      "es": "Ataque de agua"
     },
     "icon": "element",
     "max_points": 3
@@ -1191,7 +1323,8 @@
     "id": "383104832",
     "names": {
       "en": "Water Resistance",
-      "fr": "Étanchéité"
+      "fr": "Étanchéité",
+      "es": "Antiagua"
     },
     "icon": "defense",
     "max_points": 3
@@ -1200,7 +1333,8 @@
     "id": "-397570464",
     "names": {
       "en": "Weakness Exploit",
-      "fr": "Mise à mort"
+      "fr": "Mise à mort",
+      "es": "Punto débil"
     },
     "icon": "attack",
     "max_points": 5
@@ -1209,7 +1343,8 @@
     "id": "576193792",
     "names": {
       "en": "Whiteflame Torrent",
-      "fr": "Brasier blanc"
+      "fr": "Brasier blanc",
+      "es": "Torrente de llamas blancas"
     },
     "icon": "attack",
     "max_points": 1
@@ -1218,7 +1353,8 @@
     "id": "894530496",
     "names": {
       "en": "Wide-Range",
-      "fr": "Un pour tous"
+      "fr": "Un pour tous",
+      "es": "Efecto área"
     },
     "icon": "item",
     "max_points": 5
@@ -1227,7 +1363,8 @@
     "id": "-895828480",
     "names": {
       "en": "Windproof",
-      "fr": "Pare-vent"
+      "fr": "Pare-vent",
+      "es": "Antiviento"
     },
     "icon": "utility",
     "max_points": 3
