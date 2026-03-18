@@ -531,10 +531,7 @@ def output_builds_json(builds, data):
                     'skills': [
                         {
                             'id': skill_id,
-                            'names': {
-                                'en': data['skill_catalog'].get(skill_id, {}).get('en', skill_id),
-                                'fr': data['skill_catalog'].get(skill_id, {}).get('fr', skill_id),
-                            },
+                            'names': data['skill_catalog'].get(skill_id, {}).get('names', {lang: skill_id for lang in SUPPORTED_LANGUAGES}),
                             'icon': data['skill_catalog'].get(skill_id, {}).get('icon'),
                             'value': value,
                         }
