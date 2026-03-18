@@ -1,17 +1,20 @@
 from flask import Flask, request, send_from_directory, jsonify
 import os
 
+from i18n_utils import (
+    DEFAULT_LANGUAGE,
+    SUPPORTED_LANGUAGES,
+    build_name_to_id,
+    extract_request_language,
+    localize_names,
+)
 from opti_wilds import load_data_files, define_data, run_optimizer, output_builds_json
 
 app = Flask(__name__)
 
 
 def _names(entry):
-    names = entry.get('names', {})
-    en = names.get('en', entry.get('name', ''))
-    fr = names.get('fr', en)
-    es = names.get('es', en)
-    return {'en': en, 'fr': fr, 'es': es}
+    return localize_names(entry)
 
 
 def _derive_custom_amulet_name(input_name, skill_items, skill_by_id, slots_str):
@@ -21,7 +24,7 @@ def _derive_custom_amulet_name(input_name, skill_items, skill_by_id, slots_str):
     parts = []
     for skill_id, value in skill_items.items():
         names = _names(skill_by_id.get(str(skill_id), {'name': str(skill_id)}))
-        parts.append(f"{names['en']} Lv{value}")
+        parts.append(f"{names.get(DEFAULT_LANGUAGE, str(skill_id))} Lv{value}")
 
     suffix = f" [{slots_str}]" if slots_str else ''
     if not parts:
@@ -37,23 +40,16 @@ def _weapon_gear_key(item_id):
 def run_optimization():
     items_data_default, decorations_default, available_skills, available_sets = load_data_files()
 
-    data_json = request.get_json() or {}
+    data_json = request.get_json(silent=True) or {}
+    request_language = extract_request_language(request, data_json)
 
     skill_by_id = {str(skill['id']): skill for skill in available_skills}
-    skill_name_to_id = {}
-    for skill in available_skills:
-        names = _names(skill)
-        skill_name_to_id[names['en']] = str(skill['id'])
-        skill_name_to_id[names['fr']] = str(skill['id'])
+    skill_name_to_id = build_name_to_id(available_skills)
 
     set_entries = available_sets.get('sets', []) + available_sets.get('groups', [])
     set_by_id = {str(s['id']): s for s in set_entries}
-    set_name_to_id = {}
+    set_name_to_id = build_name_to_id(set_entries)
     group_ids = set(str(s['id']) for s in available_sets.get('groups', []))
-    for set_entry in set_entries:
-        names = _names(set_entry)
-        set_name_to_id[names['en']] = str(set_entry['id'])
-        set_name_to_id[names['fr']] = str(set_entry['id'])
 
     desired_skills = []
     for skill in data_json.get('skills', []):
@@ -77,19 +73,17 @@ def run_optimization():
             set_id = set_name_to_id.get(armor_set.get('name'))
         if not set_id or set_id not in set_by_id:
             continue
+        set_names = _names(set_by_id[str(set_id)])
         desired_sets.append({
             'set_id': str(set_id),
-            'set_name': _names(set_by_id[str(set_id)])['en'],
+            'set_name': set_names.get(DEFAULT_LANGUAGE, str(set_id)),
+            'set_names': set_names,
             'min_pieces': armor_set.get('min_pieces', 2),
             'is_group': str(set_id) in group_ids,
         })
 
     desired_weapon_ids = []
-    weapon_name_to_id = {}
-    for weapon in items_data_default['weapon']:
-        names = _names(weapon)
-        weapon_name_to_id[names['en']] = weapon['id']
-        weapon_name_to_id[names['fr']] = weapon['id']
+    weapon_name_to_id = build_name_to_id(items_data_default['weapon'])
 
     for weapon in data_json.get('weapons', []):
         weapon_id = weapon.get('id')
@@ -132,7 +126,7 @@ def run_optimization():
 
         amulet_data = {
             'id': f"custom:{idx}",
-            'names': {'en': amulet_name, 'fr': amulet_name},
+            'names': {lang: amulet_name for lang in SUPPORTED_LANGUAGES},
             'skills': custom_skills,
             'slots': slots,
         }
@@ -186,19 +180,44 @@ def run_optimization():
 
     if not builds:
         if status == 'Infeasible':
-            return jsonify([
-                "No feasible build found with the current constraints.\n"
-                "Try reducing required set pieces, lowering skill caps/weights, "
-                "or widening weapon/armor filters."
-            ])
-        return jsonify([f"Optimization ended with status: {status}"])
+            return jsonify({
+                'results': [
+                    "No feasible build found with the current constraints.\n"
+                    "Try reducing required set pieces, lowering skill caps/weights, "
+                    "or widening weapon/armor filters."
+                ],
+                'meta': {
+                    'language': request_language,
+                    'default_language': DEFAULT_LANGUAGE,
+                    'supported_languages': SUPPORTED_LANGUAGES,
+                    'status': status,
+                },
+            })
+        return jsonify({
+            'results': [f"Optimization ended with status: {status}"],
+            'meta': {
+                'language': request_language,
+                'default_language': DEFAULT_LANGUAGE,
+                'supported_languages': SUPPORTED_LANGUAGES,
+                'status': status,
+            },
+        })
 
-    return jsonify(output_builds_json(builds, data))
+    return jsonify({
+        'results': output_builds_json(builds, data),
+        'meta': {
+            'language': request_language,
+            'default_language': DEFAULT_LANGUAGE,
+            'supported_languages': SUPPORTED_LANGUAGES,
+            'status': status,
+        },
+    })
 
 
 @app.route('/api/available_items', methods=['GET'])
 def available_items():
     items_data_default, _, available_skills, available_sets = load_data_files()
+    request_language = extract_request_language(request)
 
     available_weapons = [
         {
@@ -235,6 +254,11 @@ def available_items():
         'available_sets': available_sets_list,
         'available_groups': available_groups_list,
         'available_weapons': available_weapons,
+        'meta': {
+            'language': request_language,
+            'default_language': DEFAULT_LANGUAGE,
+            'supported_languages': SUPPORTED_LANGUAGES,
+        },
     })
 
 

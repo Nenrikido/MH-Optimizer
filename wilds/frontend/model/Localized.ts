@@ -1,7 +1,6 @@
 export interface LocalizedNames {
   en: string;
-  fr: string;
-  es?: string;
+  [languageCode: string]: string | undefined;
 }
 
 export interface NamedEntity {

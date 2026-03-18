@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import { Amulet } from '../../../../model/Amulet';
+import { LocalizedNames } from '../../../../model/Localized';
 import { Skill } from '../../../../model/Skill';
 import AmuletBadge from './AmuletBadge';
 
@@ -59,7 +60,7 @@ function AmuletBadgeList({ amulets, setAmulets, availableSkills }: AmuletBadgeLi
     amuletIdx: number,
     skillIdx: number,
     field: string,
-    value: string | number | { en: string; fr: string } | undefined
+    value: string | number | LocalizedNames | undefined
   ) => {
     setAmulets((prev) => prev.map((a, i) => {
       if (i !== amuletIdx) return a;

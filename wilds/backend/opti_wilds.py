@@ -6,17 +6,11 @@ import pulp
 from tqdm.auto import tqdm
 
 from amulet_finder import generate_amulets
+from i18n_utils import DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, iter_entry_name_values, localize_names
 
 
 def _get_names(entry):
-    names = entry.get('names')
-    if isinstance(names, dict):
-        en = names.get('en', entry.get('name', ''))
-        fr = names.get('fr', en)
-        es = names.get('es', en)
-        return {'en': en, 'fr': fr, 'es': es}
-    name = entry.get('name', '')
-    return {'en': name, 'fr': name, 'es': name}
+    return localize_names(entry)
 
 
 def _normalize_item(item):
@@ -33,8 +27,7 @@ def _find_by_id_or_name(entries, value):
     for entry in entries:
         if str(entry.get('id')) == str_value:
             return entry
-        names = _get_names(entry)
-        if names['en'] == str_value or names['fr'] == str_value or entry.get('name') == str_value:
+        if str_value in set(iter_entry_name_values(entry)):
             return entry
     return None
 
@@ -73,7 +66,14 @@ def load_data_files():
 
     def _normalize_set_list(entries):
         if entries and isinstance(entries[0], str):
-            return [{'id': name, 'names': {'en': name, 'fr': name}, 'icon': None} for name in entries]
+            return [
+                {
+                    'id': name,
+                    'names': {lang: name for lang in SUPPORTED_LANGUAGES},
+                    'icon': None,
+                }
+                for name in entries
+            ]
         return [
             {
                 'id': str(entry['id']),
@@ -113,20 +113,24 @@ def define_data(
 
     skill_catalog = {
         str(skill['id']): {
-            'en': _get_names(skill)['en'],
-            'fr': _get_names(skill)['fr'],
+            'names': _get_names(skill),
             'icon': skill.get('icon'),
         }
         for skill in desired_skills
     }
     skill_name_to_id = {}
-    for skill_id, names in skill_catalog.items():
-        skill_name_to_id[names['en']] = skill_id
-        skill_name_to_id[names['fr']] = skill_id
+    for skill_id, skill_data in skill_catalog.items():
+        for value in skill_data['names'].values():
+            if value:
+                skill_name_to_id[value] = skill_id
 
     if include_all_amulets:
         generated = generate_amulets(
-            [skill_catalog[s['id']]['en'] for s in desired_skills if s['id'] in skill_catalog],
+            [
+                skill_catalog[s['id']]['names'].get(DEFAULT_LANGUAGE, '')
+                for s in desired_skills
+                if s['id'] in skill_catalog
+            ],
             only_better_slots=True,
         )
         generated_items = []
@@ -134,7 +138,7 @@ def define_data(
             amulet_id = f"generated:{amulet['name']}"
             generated_items.append({
                 'id': amulet_id,
-                'names': {'en': amulet['name'], 'fr': amulet['name']},
+                'names': {lang: amulet['name'] for lang in SUPPORTED_LANGUAGES},
                 'skills': {
                     skill_name_to_id[name]: value
                     for name, value in amulet.get('skills', {}).items()
@@ -163,12 +167,18 @@ def define_data(
                 ({
                     'set_id': str(gog_set_filter),
                     'set_name': desired_set_lookup.get(str(gog_set_filter), {}).get('set_name', str(gog_set_filter)),
+                    'set_names': desired_set_lookup.get(str(gog_set_filter), {}).get('set_names', {
+                        lang: str(gog_set_filter) for lang in SUPPORTED_LANGUAGES
+                    }),
                 } if gog_set_filter else None)
             ]
             group_candidates = [
                 ({
                     'set_id': str(gog_group_filter),
                     'set_name': desired_set_lookup.get(str(gog_group_filter), {}).get('set_name', str(gog_group_filter)),
+                    'set_names': desired_set_lookup.get(str(gog_group_filter), {}).get('set_names', {
+                        lang: str(gog_group_filter) for lang in SUPPORTED_LANGUAGES
+                    }),
                     'is_group': True,
                 } if gog_group_filter else None)
             ]
@@ -179,23 +189,33 @@ def define_data(
 
             for skill_set, skill_group in product(set_candidates, group_candidates):
                 set_ids = []
-                set_names = []
+                set_names = {lang: [] for lang in SUPPORTED_LANGUAGES}
                 if skill_set is not None:
                     set_ids.append(str(skill_set['set_id']))
-                    set_names.append(skill_set.get('set_name', str(skill_set['set_id'])))
+                    localized_names = skill_set.get('set_names', {})
+                    for lang in SUPPORTED_LANGUAGES:
+                        set_names[lang].append(
+                            localized_names.get(lang) or skill_set.get('set_name', str(skill_set['set_id']))
+                        )
                 if skill_group is not None:
                     set_ids.append(str(skill_group['set_id']))
-                    set_names.append(skill_group.get('set_name', str(skill_group['set_id'])))
+                    localized_names = skill_group.get('set_names', {})
+                    for lang in SUPPORTED_LANGUAGES:
+                        set_names[lang].append(
+                            localized_names.get(lang) or skill_group.get('set_name', str(skill_group['set_id']))
+                        )
 
                 if not set_ids:
                     continue
+
+                item_names = _get_names(item_data)
 
                 generated_weapons.append({
                     **item_data,
                     'id': f"{item_data['id']}:gog:{'|'.join(set_ids)}",
                     'names': {
-                        'en': f"{_get_names(item_data)['en']} ({', '.join(set_names)})",
-                        'fr': f"{_get_names(item_data)['fr']} ({', '.join(set_names)})",
+                        lang: f"{item_names.get(lang, item_names.get(DEFAULT_LANGUAGE, ''))} ({', '.join(set_names[lang])})"
+                        for lang in SUPPORTED_LANGUAGES
                     },
                     'sets': set_ids,
                 })

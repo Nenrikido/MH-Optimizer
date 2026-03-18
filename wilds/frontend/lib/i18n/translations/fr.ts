@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const fr: Translations = {
+  header: {
+    title: 'Optimiseur de Build pour MH Wilds',
+    subtitle: 'par @nenrikido sur discord',
+  },
+  form: {
+    skills: 'Compétences',
+    armor: 'Ensembles d\'armure',
+    weapons: 'Armes',
+    optimize: 'Optimiser',
+    save: 'Sauvegarder la config',
+  },
+  options: {
+    includeAllAmulets: 'Inclure toutes les amulettes générées à partir des compétences souhaitées (décocher ceci inclura uniquement les amulettes farmables et les amulettes choisies dans l\'onglet filtres)',
+    transcend: 'Transcender toutes les armures (cela change leurs emplacements de décoration si leur rareté est 5 ou 6)',
+    includeGogSets: 'Inclure tous les sets possibles sur les armes améliorées Gogmazios',
+  },
+  inputs: {
+    skills: 'Quelles compétences souhaitez-vous avoir ?',
+    skillsMaxPoints: 'Niveau max pour cette compétence',
+    skillsWeight: 'Poids pour cette compétence',
+    armor: 'Avec quel(s) ensemble(s) d\'armure ?',
+    armorMinPieces: 'Nombre minimum de pièces pour cet ensemble (défaut 2)',
+    weapons: 'Sur quelle(s) arme(s) ?',
+  },
+  tabs: {
+    results: 'Résultats',
+    filters: 'Filtres',
+    templates: 'Modèles',
+  },
+  templates: {
+    defaultTitle: 'Modèles par défaut',
+    customTitle: 'Modèles personnalisés',
+    namePlaceholder: 'Nom du modèle',
+    saveCurrent: 'Sauver la config actuelle',
+    emptyCustom: 'Aucun modèle personnalisé enregistré.',
+    apply: 'Appliquer',
+    delete: 'Supprimer',
+    names: {
+      'default-great-sword': 'Grande Épée',
+      'default-long-sword': 'Katana',
+      'default-sword-and-shield': 'Épée & Bouclier',
+      'default-dual-blades': 'Doubles Lames',
+      'default-hammer': 'Marteau',
+      'default-hunting-horn': 'Cor de Chasse',
+      'default-lance': 'Lance',
+      'default-gunlance': 'Fusée-Lance',
+      'default-switch-axe': 'Morpho-Hache',
+      'default-charge-blade': 'Lame Chargée',
+      'default-insect-glaive': 'Insectoglaive',
+      'default-light-bowgun': 'Fusarbalète Légère',
+      'default-heavy-bowgun': 'Fusarbalète Lourde',
+      'default-bow': 'Arc',
+    },
+  },
+  results: {
+    noResults: 'Aucun résultat pour le moment.',
+    error: 'Erreur lors de l\'optimisation',
+    title: 'Résultats de l\'optimisation',
+    skillsLabel: 'Compétences',
+    armorSetLabel: 'Bonus d\'ensemble / de groupe',
+    armorLabel: 'Équipement',
+  },
+  filters: {
+    amulets: {
+      title: 'Amulettes',
+      addAmulet: 'Ajouter une amulette',
+      skill: 'Compétence',
+      slots: 'Slots',
+    },
+    excludeArmorParts: {
+      title: 'Exclure des pièces d\'armure',
+      placeholder: 'Sélectionner les pièces d\'armure à exclure des recherches',
+    },
+    gogWeapons: {
+      title: 'Armes Gogmazios',
+      setBonus: 'Bonus d\'ensemble',
+      setBonusAutocomplete: 'Choisissez un bonus d\'ensemble des armes Gogmazios...',
+      groupBonus: 'Bonus de groupe',
+      groupBonusAutocomplete: 'Choisissez un bonus de groupe des armes Gogmazios...',
+    },
+  },
+  armorParts: {
+    head: 'Tête',
+    chest: 'Torse',
+    arms: 'Bras',
+    waist: 'Ceinture',
+    legs: 'Jambes',
+  },
+  info: {
+    help: 'Aide',
+    howToUse: 'Comment utiliser :',
+    howToUseSteps: {
+      step1: 'Choisissez vos compétences, ensembles et armes via l\'auto-complétion.',
+      step2: 'Ajustez les points max / poids et le minimum de pièces par ensemble.',
+      step3: 'Utilisez Filtres pour ajouter vos amulettes et exclure des pièces d\'armure précises.',
+      step4: 'Cliquez sur Optimiser puis consultez les builds, compétences et bonus actifs.',
+    },
+    notes: 'Notes :',
+    notesItems: {
+      dataUpToDate: 'Les données sont à jour avec TU4.1 (AT Arkveld)',
+      defaultValues: 'Oui, les valeurs par défaut sont pour la LS, oui je suis un weeb',
+      noBuild: 'Si aucun build ne sort, assouplissez les contraintes (sets/skills/filtres).',
+      gogFilters: 'Les filtres Gogmazios (set/groupe) sont masqués si "Inclure tous les sets Gog" est activé.',
+      customTemplates: 'Les templates personnalisés sont enregistrés localement dans le navigateur.',
+    },
+  },
+  common: {
+    loading: 'Chargement...',
+    switchToLightMode: 'Passer en mode clair',
+    switchToDarkMode: 'Passer en mode sombre',
+  },
+};
+

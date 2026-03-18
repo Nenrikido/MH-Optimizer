@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const es419: Translations = {
+  header: {
+    title: 'Optimizador de Builds MH Wilds',
+    subtitle: 'por @nenrikido en discord',
+  },
+  form: {
+    skills: 'Habilidades',
+    armor: 'Conjuntos de armadura',
+    weapons: 'Armas',
+    optimize: 'Optimizar',
+    save: 'Guardar configuración',
+  },
+  options: {
+    includeAllAmulets: 'Incluir todos los amuletos generados a partir de las habilidades deseadas (si lo desactivas, solo se incluirán amuletos farmeables y amuletos elegidos en la pestaña de filtros)',
+    transcend: 'Trascender todas las armaduras (esto cambia sus ranuras de decoraciones si su rareza es 5 o 6)',
+    includeGogSets: 'Incluir todos los conjuntos posibles en las armas mejoradas de Gogmazios',
+  },
+  inputs: {
+    skills: '¿Qué habilidades quieres tener?',
+    skillsMaxPoints: 'Nivel máximo para esta habilidad',
+    skillsWeight: 'Peso para esta habilidad',
+    armor: '¿Con qué conjunto(s) de armadura?',
+    armorMinPieces: 'Piezas mínimas para este conjunto (predeterminado 2)',
+    weapons: '¿En qué arma(s)?',
+  },
+  tabs: {
+    results: 'Resultados',
+    filters: 'Filtros',
+    templates: 'Plantillas',
+  },
+  templates: {
+    defaultTitle: 'Plantillas predeterminadas',
+    customTitle: 'Plantillas personalizadas',
+    namePlaceholder: 'Nombre de la plantilla',
+    saveCurrent: 'Guardar actual',
+    emptyCustom: 'Aún no hay plantillas personalizadas guardadas.',
+    apply: 'Aplicar',
+    delete: 'Eliminar',
+    names: {
+      'default-great-sword': 'Gran Espada',
+      'default-long-sword': 'Espada Larga',
+      'default-sword-and-shield': 'Espada y Escudo',
+      'default-dual-blades': 'Hojas Dobles',
+      'default-hammer': 'Martillo',
+      'default-hunting-horn': 'Cuerno de Caza',
+      'default-lance': 'Lanza',
+      'default-gunlance': 'Lanza Pistola',
+      'default-switch-axe': 'Hacha Cargada',
+      'default-charge-blade': 'Espada Cargada',
+      'default-insect-glaive': 'Glaive Insecto',
+      'default-light-bowgun': 'Ballesta Ligera',
+      'default-heavy-bowgun': 'Ballesta Pesada',
+      'default-bow': 'Arco',
+    },
+  },
+  results: {
+    noResults: 'Sin resultados por ahora.',
+    error: 'Error durante la optimización',
+    title: 'Resultados de la optimización',
+    skillsLabel: 'Habilidades',
+    armorSetLabel: 'Bonificaciones de conjunto / grupo',
+    armorLabel: 'Equipamiento',
+  },
+  filters: {
+    amulets: {
+      title: 'Amuletos',
+      addAmulet: 'Agregar un amuleto',
+      skill: 'Habilidad',
+      slots: 'Ranuras',
+    },
+    excludeArmorParts: {
+      title: 'Excluir piezas de armadura',
+      placeholder: 'Busca piezas de armadura para excluir de las búsquedas',
+    },
+    gogWeapons: {
+      title: 'Arma de Gogmazios',
+      setBonus: 'Bonificación de conjunto',
+      setBonusAutocomplete: 'Elige la bonificación de conjunto del arma de Gogmazios',
+      groupBonus: 'Bonificación de grupo',
+      groupBonusAutocomplete: 'Elige la bonificación de grupo del arma de Gogmazios',
+    },
+  },
+  armorParts: {
+    head: 'Cabeza',
+    chest: 'Pecho',
+    arms: 'Brazos',
+    waist: 'Cintura',
+    legs: 'Piernas',
+  },
+  info: {
+    help: 'Ayuda',
+    howToUse: 'Cómo usar:',
+    howToUseSteps: {
+      step1: 'Elige tus habilidades, conjuntos y armas objetivo con autocompletado.',
+      step2: 'Ajusta los puntos máximos/pesos y los requisitos de piezas del conjunto.',
+      step3: 'Usa Filtros para agregar tus amuletos y excluir piezas de armadura específicas.',
+      step4: 'Haz clic en Optimizar y revisa las builds, habilidades y bonificaciones activas de conjunto/grupo.',
+    },
+    notes: 'Notas:',
+    notesItems: {
+      dataUpToDate: 'Los datos están actualizados con TU4.1 (AT Arkveld)',
+      defaultValues: 'Sí, los valores predeterminados son para Espada Larga; sí, soy un weeb',
+      noBuild: 'Si no aparece ninguna build, relaja las restricciones (conjuntos/habilidades/filtros).',
+      gogFilters: 'Los filtros de Gogmazios (conjunto/grupo) se ocultan cuando "Incluir todos los conjuntos Gog" está activado.',
+      customTemplates: 'Las plantillas personalizadas guardadas son locales en tu navegador.',
+    },
+  },
+  common: {
+    loading: 'Cargando...',
+    switchToLightMode: 'Cambiar a modo claro',
+    switchToDarkMode: 'Cambiar a modo oscuro',
+  },
+};
+

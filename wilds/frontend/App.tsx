@@ -20,10 +20,12 @@ import {saveConfig} from './lib/configStorage';
 import { useAvailableItems } from './hooks/useAvailableItems';
 import { useTemplates } from './hooks/useTemplates';
 import { AppStateProvider } from './lib/appStateContext';
+import { useI18n } from './lib/i18nContext';
 import { ThemeModeProvider, useThemeMode } from './lib/themeModeContext';
 
 function AppContent() {
   const { mode } = useThemeMode();
+  const { language } = useI18n();
   const theme = useMemo(() => createAppTheme(mode), [mode]);
   const globalStyles = useMemo(() => createGlobalStyles(mode), [mode]);
 
@@ -38,12 +40,21 @@ function AppContent() {
   const [gogSetFilter, setGogSetFilter] = useState<string>('');
   const [gogGroupFilter, setGogGroupFilter] = useState<string>('');
 
-  const { availableSkills, availableSets, availableWeapons, availableArmorItems, availableGroups, loading: loadingLists } = useAvailableItems(
+  const {
+    availableSkills,
+    availableSets,
+    availableWeapons,
+    availableArmorItems,
+    availableGroups,
+    defaultTemplates,
+    loading: loadingLists,
+  } = useAvailableItems(
     setSkills,
     setSets,
     setWeapons,
     setAmulets,
-    setOptions
+    setOptions,
+    language,
   );
 
   const {
@@ -84,10 +95,11 @@ function AppContent() {
       const response = await fetch('/api/run', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({ ...payload, language }),
       });
       const data = await response.json();
-      setResults(data);
+      const normalizedResults = Array.isArray(data) ? data : (Array.isArray(data?.results) ? data.results : []);
+      setResults(normalizedResults);
     } catch {
       setResults(['Error during optimization.']);
     } finally {
@@ -121,7 +133,7 @@ function AppContent() {
       setGogSetFilter,
       gogGroupFilter,
       setGogGroupFilter,
-      defaultTemplates: DEFAULT_DATA.defaultTemplates,
+      defaultTemplates,
       customTemplates,
       applyTemplate,
       saveTemplate,
@@ -143,6 +155,7 @@ function AppContent() {
       availableGroups,
       availableWeapons,
       availableArmorItems,
+      defaultTemplates,
       excludedArmorItems,
       gogSetFilter,
       gogGroupFilter,

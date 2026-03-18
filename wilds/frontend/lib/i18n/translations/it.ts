@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const it: Translations = {
+  header: {
+    title: 'Ottimizzatore Build MH Wilds',
+    subtitle: 'da @nenrikido su Discord',
+  },
+  form: {
+    skills: 'Abilita',
+    armor: 'Set Armatura',
+    weapons: 'Armi',
+    optimize: 'Ottimizza',
+    save: 'Salva Configurazione',
+  },
+  options: {
+    includeAllAmulets: 'Includi tutti gli amuleti generati dalle abilita desiderate (se disattivato, include solo amuleti farmabili e amuleti scelti nella scheda filtri)',
+    transcend: 'Trascendi tutte le armature (modifica gli slot decorazione se la rarita e 5 o 6)',
+    includeGogSets: 'Includi tutti i set possibili sulle armi potenziate di Gogmazios',
+  },
+  inputs: {
+    skills: 'Quali abilita vuoi ottenere?',
+    skillsMaxPoints: 'Livello massimo per questa abilita',
+    skillsWeight: 'Peso per questa abilita',
+    armor: 'Con quale/i set armatura?',
+    armorMinPieces: 'Pezzi minimi per questo set (predefinito 2)',
+    weapons: 'Su quale/i arma/e?',
+  },
+  tabs: {
+    results: 'Risultati',
+    filters: 'Filtri',
+    templates: 'Template',
+  },
+  templates: {
+    defaultTitle: 'Template Predefiniti',
+    customTitle: 'Template Personalizzati',
+    namePlaceholder: 'Nome template',
+    saveCurrent: 'Salva Corrente',
+    emptyCustom: 'Nessun template personalizzato salvato.',
+    apply: 'Applica',
+    delete: 'Elimina',
+    names: {
+      'default-great-sword': 'Spadone',
+      'default-long-sword': 'Spada Lunga',
+      'default-sword-and-shield': 'Spada e Scudo',
+      'default-dual-blades': 'Doppie Lame',
+      'default-hammer': 'Martello',
+      'default-hunting-horn': 'Corno da Caccia',
+      'default-lance': 'Lancia',
+      'default-gunlance': 'Lanciafucile',
+      'default-switch-axe': 'Ascia Caricata',
+      'default-charge-blade': 'Spadascia',
+      'default-insect-glaive': 'Insectglaive',
+      'default-light-bowgun': 'Balestra Leggera',
+      'default-heavy-bowgun': 'Balestra Pesante',
+      'default-bow': 'Arco',
+    },
+  },
+  results: {
+    noResults: 'Nessun risultato per ora.',
+    error: 'Errore durante l\'ottimizzazione',
+    title: 'Risultati ottimizzazione',
+    skillsLabel: 'Abilita',
+    armorSetLabel: 'Bonus Set / Gruppo',
+    armorLabel: 'Oggetti',
+  },
+  filters: {
+    amulets: {
+      title: 'Amuleti',
+      addAmulet: 'Aggiungi un amuleto',
+      skill: 'Abilita',
+      slots: 'Slot',
+    },
+    excludeArmorParts: {
+      title: 'Escludi Parti Armatura',
+      placeholder: 'Cerca parti armatura da escludere dalla ricerca',
+    },
+    gogWeapons: {
+      title: 'Arma Gogmazios',
+      setBonus: 'Bonus Set',
+      setBonusAutocomplete: 'Scegli il bonus set dell\'arma Gogmazios',
+      groupBonus: 'Bonus Gruppo',
+      groupBonusAutocomplete: 'Scegli il bonus gruppo dell\'arma Gogmazios',
+    },
+  },
+  armorParts: {
+    head: 'Testa',
+    chest: 'Torace',
+    arms: 'Braccia',
+    waist: 'Vita',
+    legs: 'Gambe',
+  },
+  info: {
+    help: 'Aiuto',
+    howToUse: 'Come usare:',
+    howToUseSteps: {
+      step1: 'Scegli abilita, set e armi target con autocomplete.',
+      step2: 'Regola livelli massimi/pesi e requisiti minimi dei pezzi set.',
+      step3: 'Usa Filtri per aggiungere amuleti ed escludere pezzi armatura specifici.',
+      step4: 'Clicca Ottimizza e controlla build, abilita e bonus set/gruppo attivi.',
+    },
+    notes: 'Note:',
+    notesItems: {
+      dataUpToDate: 'I dati sono aggiornati alla TU4.1 (AT Arkveld)',
+      defaultValues: 'Si, i valori predefiniti sono per LS, si sono un weeb',
+      noBuild: 'Se non compare alcuna build, allenta i vincoli (set/abilita/filtri).',
+      gogFilters: 'I filtri set/gruppo Gogmazios sono nascosti quando "Includi tutti i set Gog" e attivo.',
+      customTemplates: 'I template personalizzati salvati sono locali nel browser.',
+    },
+  },
+  common: {
+    loading: 'Caricamento...',
+    switchToLightMode: 'Passa al tema chiaro',
+    switchToDarkMode: 'Passa al tema scuro',
+  },
+};
+

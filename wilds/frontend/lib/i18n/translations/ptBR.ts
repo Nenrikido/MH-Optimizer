@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const ptBR: Translations = {
+  header: {
+    title: 'Otimizador de Build MH Wilds',
+    subtitle: 'por @nenrikido no discord',
+  },
+  form: {
+    skills: 'Habilidades',
+    armor: 'Conjuntos de Armadura',
+    weapons: 'Armas',
+    optimize: 'Otimizar',
+    save: 'Salvar configuração',
+  },
+  options: {
+    includeAllAmulets: 'Incluir todos os amuletos gerados pelas habilidades desejadas (desmarcando isso, inclui apenas amuletos farmáveis e os amuletos escolhidos na aba de filtros)',
+    transcend: 'Transcender todas as armaduras (isso altera os slots de decoração se a raridade for 5 ou 6)',
+    includeGogSets: 'Incluir todos os conjuntos possíveis nas armas aprimoradas de Gogmazios',
+  },
+  inputs: {
+    skills: 'Quais habilidades você quer ter?',
+    skillsMaxPoints: 'Nível máximo para esta habilidade',
+    skillsWeight: 'Peso para esta habilidade',
+    armor: 'Com qual(is) conjunto(s) de armadura?',
+    armorMinPieces: 'Quantidade mínima de peças para este conjunto (padrão 2)',
+    weapons: 'Em qual(is) arma(s)?',
+  },
+  tabs: {
+    results: 'Resultados',
+    filters: 'Filtros',
+    templates: 'Modelos',
+  },
+  templates: {
+    defaultTitle: 'Modelos padrão',
+    customTitle: 'Modelos personalizados',
+    namePlaceholder: 'Nome do modelo',
+    saveCurrent: 'Salvar atual',
+    emptyCustom: 'Nenhum modelo personalizado salvo ainda.',
+    apply: 'Aplicar',
+    delete: 'Excluir',
+    names: {
+      'default-great-sword': 'Espada Grande',
+      'default-long-sword': 'Espada Longa',
+      'default-sword-and-shield': 'Espada e Escudo',
+      'default-dual-blades': 'Lâminas Duplas',
+      'default-hammer': 'Martelo',
+      'default-hunting-horn': 'Berrante de Caça',
+      'default-lance': 'Lança',
+      'default-gunlance': 'Lança-Tiro',
+      'default-switch-axe': 'Machado Morfo',
+      'default-charge-blade': 'Lâmina de Impacto',
+      'default-insect-glaive': 'Glaive Inseto',
+      'default-light-bowgun': 'Besta Leve',
+      'default-heavy-bowgun': 'Besta Pesada',
+      'default-bow': 'Arco',
+    },
+  },
+  results: {
+    noResults: 'Sem resultados por enquanto.',
+    error: 'Erro durante a otimização',
+    title: 'Resultados da otimização',
+    skillsLabel: 'Habilidades',
+    armorSetLabel: 'Bônus de Conjunto / Grupo',
+    armorLabel: 'Itens',
+  },
+  filters: {
+    amulets: {
+      title: 'Amuletos',
+      addAmulet: 'Adicionar um amuleto',
+      skill: 'Habilidade',
+      slots: 'Slots',
+    },
+    excludeArmorParts: {
+      title: 'Excluir peças de armadura',
+      placeholder: 'Busque peças de armadura para excluir das buscas',
+    },
+    gogWeapons: {
+      title: 'Arma de Gogmazios',
+      setBonus: 'Bônus de conjunto',
+      setBonusAutocomplete: 'Escolha o bônus de conjunto da arma de Gogmazios',
+      groupBonus: 'Bônus de grupo',
+      groupBonusAutocomplete: 'Escolha o bônus de grupo da arma de Gogmazios',
+    },
+  },
+  armorParts: {
+    head: 'Cabeça',
+    chest: 'Peito',
+    arms: 'Braços',
+    waist: 'Cintura',
+    legs: 'Pernas',
+  },
+  info: {
+    help: 'Ajuda',
+    howToUse: 'Como usar:',
+    howToUseSteps: {
+      step1: 'Escolha habilidades, conjuntos e armas desejados com autocompletar.',
+      step2: 'Ajuste níveis máximos/pesos e requisitos mínimos de peças dos conjuntos.',
+      step3: 'Use Filtros para adicionar seus amuletos e excluir peças específicas de armadura.',
+      step4: 'Clique em Otimizar e revise builds, habilidades e bônus ativos de conjunto/grupo.',
+    },
+    notes: 'Notas:',
+    notesItems: {
+      dataUpToDate: 'Os dados estão atualizados para TU4.1 (AT Arkveld)',
+      defaultValues: 'Sim, os valores padrão são para Espada Longa, sim, sou um weeb',
+      noBuild: 'Se nenhum build aparecer, relaxe as restrições (conjuntos/habilidades/filtros).',
+      gogFilters: 'Os filtros de conjunto/grupo de Gogmazios ficam ocultos quando "Incluir todos os conjuntos Gog" está ativado.',
+      customTemplates: 'Os modelos personalizados salvos ficam locais no navegador.',
+    },
+  },
+  common: {
+    loading: 'Carregando...',
+    switchToLightMode: 'Alternar para modo claro',
+    switchToDarkMode: 'Alternar para modo escuro',
+  },
+};
+

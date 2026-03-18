@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const pt: Translations = {
+  header: {
+    title: 'Otimizador de Build MH Wilds',
+    subtitle: 'por @nenrikido no Discord',
+  },
+  form: {
+    skills: 'Competências',
+    armor: 'Conjuntos de Armadura',
+    weapons: 'Armas',
+    optimize: 'Otimizar',
+    save: 'Guardar configuração',
+  },
+  options: {
+    includeAllAmulets: 'Incluir todos os amuletos gerados a partir das competências desejadas (ao desativar, inclui apenas amuletos obtíveis em jogo e amuletos escolhidos no separador de filtros)',
+    transcend: 'Transcender todas as armaduras (isto altera os espaços de decorações se a raridade for 5 ou 6)',
+    includeGogSets: 'Incluir todos os conjuntos possíveis nas armas aprimoradas de Gogmazios',
+  },
+  inputs: {
+    skills: 'Que competências pretendes ter?',
+    skillsMaxPoints: 'Nível máximo para esta competência',
+    skillsWeight: 'Peso para esta competência',
+    armor: 'Com qual(is) conjunto(s) de armadura?',
+    armorMinPieces: 'Quantidade mínima de peças para este conjunto (padrão 2)',
+    weapons: 'Em qual(is) arma(s)?',
+  },
+  tabs: {
+    results: 'Resultados',
+    filters: 'Filtros',
+    templates: 'Modelos',
+  },
+  templates: {
+    defaultTitle: 'Modelos padrão',
+    customTitle: 'Modelos personalizados',
+    namePlaceholder: 'Nome do modelo',
+    saveCurrent: 'Guardar atual',
+    emptyCustom: 'Nenhum modelo personalizado salvo ainda.',
+    apply: 'Aplicar',
+    delete: 'Excluir',
+    names: {
+      'default-great-sword': 'Espada Grande',
+      'default-long-sword': 'Espada Longa',
+      'default-sword-and-shield': 'Espada e Escudo',
+      'default-dual-blades': 'Lâminas Duplas',
+      'default-hammer': 'Martelo',
+      'default-hunting-horn': 'Berrante de Caça',
+      'default-lance': 'Lança',
+      'default-gunlance': 'Lança-Tiro',
+      'default-switch-axe': 'Machado Morfo',
+      'default-charge-blade': 'Lâmina de Impacto',
+      'default-insect-glaive': 'Glaive Inseto',
+      'default-light-bowgun': 'Besta Leve',
+      'default-heavy-bowgun': 'Besta Pesada',
+      'default-bow': 'Arco',
+    },
+  },
+  results: {
+    noResults: 'Sem resultados por enquanto.',
+    error: 'Erro durante a otimização',
+    title: 'Resultados da otimização',
+    skillsLabel: 'Competências',
+    armorSetLabel: 'Bónus de Conjunto / Grupo',
+    armorLabel: 'Itens',
+  },
+  filters: {
+    amulets: {
+      title: 'Amuletos',
+      addAmulet: 'Adicionar um amuleto',
+      skill: 'Competência',
+      slots: 'Slots',
+    },
+    excludeArmorParts: {
+      title: 'Excluir peças de armadura',
+      placeholder: 'Pesquisar peças de armadura para excluir das pesquisas',
+    },
+    gogWeapons: {
+      title: 'Arma de Gogmazios',
+      setBonus: 'Bónus de conjunto',
+      setBonusAutocomplete: 'Escolhe o bónus de conjunto da arma de Gogmazios',
+      groupBonus: 'Bónus de grupo',
+      groupBonusAutocomplete: 'Escolhe o bónus de grupo da arma de Gogmazios',
+    },
+  },
+  armorParts: {
+    head: 'Cabeça',
+    chest: 'Peito',
+    arms: 'Braços',
+    waist: 'Cintura',
+    legs: 'Pernas',
+  },
+  info: {
+    help: 'Ajuda',
+    howToUse: 'Como usar:',
+    howToUseSteps: {
+      step1: 'Escolhe as competências, conjuntos e armas pretendidos com preenchimento automático.',
+      step2: 'Ajusta níveis máximos/pesos e requisitos mínimos de peças dos conjuntos.',
+      step3: 'Usa os Filtros para adicionar os teus amuletos e excluir peças específicas de armadura.',
+      step4: 'Clica em Otimizar e analisa builds, competências e bónus ativos de conjunto/grupo.',
+    },
+    notes: 'Notas:',
+    notesItems: {
+      dataUpToDate: 'Os dados estão atualizados para TU4.1 (AT Arkveld)',
+      defaultValues: 'Sim, os valores padrão são para Espada Longa, sim, sou um weeb',
+      noBuild: 'Se não aparecer nenhuma build, reduz as restrições (conjuntos/competências/filtros).',
+      gogFilters: 'Os filtros de conjunto/grupo de Gogmazios ficam ocultos quando "Incluir todos os conjuntos Gog" está ativo.',
+      customTemplates: 'Os modelos personalizados guardados ficam apenas no teu navegador.',
+    },
+  },
+  common: {
+    loading: 'A carregar...',
+    switchToLightMode: 'Mudar para modo claro',
+    switchToDarkMode: 'Mudar para modo escuro',
+  },
+};
+

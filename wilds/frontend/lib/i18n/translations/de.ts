@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const de: Translations = {
+  header: {
+    title: 'MH Wilds Build-Optimierer',
+    subtitle: 'von @nenrikido auf Discord',
+  },
+  form: {
+    skills: 'Fertigkeiten',
+    armor: 'Rüstungssets',
+    weapons: 'Waffen',
+    optimize: 'Optimieren',
+    save: 'Konfiguration speichern',
+  },
+  options: {
+    includeAllAmulets: 'Alle aus gewünschten Fertigkeiten erzeugten Talismane einbeziehen (deaktiviert: nur farmbare Talismane und Talismane aus dem Filter-Tab)',
+    transcend: 'Alle Rüstungen transzendieren (ändert Deko-Slots bei Seltenheit 5 oder 6)',
+    includeGogSets: 'Alle möglichen Sets auf aufgewerteten Gogmazios-Waffen einbeziehen',
+  },
+  inputs: {
+    skills: 'Welche Fertigkeiten möchtest du haben?',
+    skillsMaxPoints: 'Maximales Level für diese Fertigkeit',
+    skillsWeight: 'Gewichtung für diese Fertigkeit',
+    armor: 'Mit welchen Rüstungssets?',
+    armorMinPieces: 'Mindestanzahl Teile für dieses Set (Standard 2)',
+    weapons: 'Auf welchen Waffen?',
+  },
+  tabs: {
+    results: 'Ergebnisse',
+    filters: 'Filter',
+    templates: 'Vorlagen',
+  },
+  templates: {
+    defaultTitle: 'Standardvorlagen',
+    customTitle: 'Benutzerdefinierte Vorlagen',
+    namePlaceholder: 'Vorlagenname',
+    saveCurrent: 'Aktuelles speichern',
+    emptyCustom: 'Noch keine benutzerdefinierten Vorlagen gespeichert.',
+    apply: 'Anwenden',
+    delete: 'Löschen',
+    names: {
+      'default-great-sword': 'Großschwert',
+      'default-long-sword': 'Langschwert',
+      'default-sword-and-shield': 'Schwert & Schild',
+      'default-dual-blades': 'Doppelklingen',
+      'default-hammer': 'Hammer',
+      'default-hunting-horn': 'Jagdhorn',
+      'default-lance': 'Lanze',
+      'default-gunlance': 'Gewehrlanze',
+      'default-switch-axe': 'Morph-Axt',
+      'default-charge-blade': 'Energieklinge',
+      'default-insect-glaive': 'Insektenglefe',
+      'default-light-bowgun': 'Leichtes Bogengewehr',
+      'default-heavy-bowgun': 'Schweres Bogengewehr',
+      'default-bow': 'Bogen',
+    },
+  },
+  results: {
+    noResults: 'Aktuell keine Ergebnisse.',
+    error: 'Fehler bei der Optimierung',
+    title: 'Optimierungsergebnisse',
+    skillsLabel: 'Fertigkeiten',
+    armorSetLabel: 'Set-/Gruppenboni',
+    armorLabel: 'Ausrüstung',
+  },
+  filters: {
+    amulets: {
+      title: 'Talismane',
+      addAmulet: 'Talisman hinzufügen',
+      skill: 'Fertigkeit',
+      slots: 'Slots',
+    },
+    excludeArmorParts: {
+      title: 'Rüstungsteile ausschließen',
+      placeholder: 'Rüstungsteile suchen, die von der Suche ausgeschlossen werden sollen',
+    },
+    gogWeapons: {
+      title: 'Gogmazios-Waffe',
+      setBonus: 'Set-Bonus',
+      setBonusAutocomplete: 'Set-Bonus der Gogmazios-Waffe auswählen',
+      groupBonus: 'Gruppen-Bonus',
+      groupBonusAutocomplete: 'Gruppen-Bonus der Gogmazios-Waffe auswählen',
+    },
+  },
+  armorParts: {
+    head: 'Kopf',
+    chest: 'Brust',
+    arms: 'Arme',
+    waist: 'Taille',
+    legs: 'Beine',
+  },
+  info: {
+    help: 'Hilfe',
+    howToUse: 'Verwendung:',
+    howToUseSteps: {
+      step1: 'Wähle Ziel-Fertigkeiten, Sets und Waffen per Autovervollständigung.',
+      step2: 'Passe Max-Level/Gewichtungen und Set-Teileanfordernungen an.',
+      step3: 'Nutze Filter, um Talismane hinzuzufügen und bestimmte Rüstungsteile auszuschließen.',
+      step4: 'Klicke auf Optimieren und prüfe Builds, Fertigkeiten sowie aktive Set-/Gruppenboni.',
+    },
+    notes: 'Hinweise:',
+    notesItems: {
+      dataUpToDate: 'Datenstand entspricht TU4.1 (AT Arkveld)',
+      defaultValues: 'Ja, die Standardwerte sind für LS, ja ich bin ein Weeb',
+      noBuild: 'Wenn kein Build erscheint, lockere die Vorgaben (Sets/Fertigkeiten/Filter).',
+      gogFilters: 'Gogmazios-Set-/Gruppenfilter sind verborgen, wenn "Alle Gog-Sets einbeziehen" aktiv ist.',
+      customTemplates: 'Gespeicherte benutzerdefinierte Vorlagen sind lokal im Browser.',
+    },
+  },
+  common: {
+    loading: 'Lädt...',
+    switchToLightMode: 'Zum hellen Modus wechseln',
+    switchToDarkMode: 'Zum dunklen Modus wechseln',
+  },
+};
+

@@ -17,13 +17,38 @@ weapon_files = [
     )
 ]
 
+SUPPORTED_LANGUAGES = ['en', 'fr', 'de', 'es', 'es-419', 'pt', 'pt-BR', 'it', 'pl']
+
+LANGUAGE_SOURCE_KEYS = {
+    'en': ['en'],
+    'fr': ['fr', 'en'],
+    'de': ['de', 'en'],
+    'es': ['es', 'en'],
+    'es-419': ['es-419', 'es', 'en'],
+    # DB source has pt; we also expose pt-BR using the same source when needed.
+    'pt': ['pt', 'pt-BR', 'en'],
+    'pt-BR': ['pt-BR', 'pt', 'en'],
+    'it': ['it', 'en'],
+    'pl': ['pl', 'en'],
+}
+
 
 def get_names(entry):
     names = entry.get('names', {})
     en = names.get('en', '')
-    fr = names.get('fr', en)
-    es = names.get('es', en)
-    return {'en': en, 'fr': fr, 'es': es}
+    localized = {'en': en}
+
+    for language in SUPPORTED_LANGUAGES:
+        if language == 'en':
+            continue
+        value = ''
+        for source_key in LANGUAGE_SOURCE_KEYS[language]:
+            value = names.get(source_key, '')
+            if value:
+                break
+        localized[language] = value or en
+
+    return localized
 
 
 skill_name_by_id = {}

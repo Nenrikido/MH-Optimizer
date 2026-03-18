@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const en: Translations = {
+  header: {
+    title: 'MH Wilds Build Optimizer',
+    subtitle: 'from @nenrikido on discord',
+  },
+  form: {
+    skills: 'Skills',
+    armor: 'Armor Sets',
+    weapons: 'Weapons',
+    optimize: 'Optimize',
+    save: 'Save Config',
+  },
+  options: {
+    includeAllAmulets: 'Include all generated amulets from desired skills (unchecking this will include only farmable amulets and amulets chosen from the filters tab)',
+    transcend: 'Transcend all armors (this changes their decoration slots if their rarity is 5 or 6)',
+    includeGogSets: 'Include all possible sets on Gogmazios upgraded weapons',
+  },
+  inputs: {
+    skills: 'Which skills do you want to have ?',
+    skillsMaxPoints: 'Max level for this skill (leave empty for no limit)',
+    skillsWeight: 'Weight for this skill',
+    armor: 'With which armor set(s)',
+    armorMinPieces: 'Minimum pieces for this set (default 2)',
+    weapons: 'On which weapon(s)',
+  },
+  tabs: {
+    results: 'Results',
+    filters: 'Filters',
+    templates: 'Templates',
+  },
+  templates: {
+    defaultTitle: 'Default Templates',
+    customTitle: 'Custom Templates',
+    namePlaceholder: 'Template name',
+    saveCurrent: 'Save Current',
+    emptyCustom: 'No custom templates saved yet.',
+    apply: 'Apply',
+    delete: 'Delete',
+    names: {
+      'default-great-sword': 'Great Sword',
+      'default-long-sword': 'Long Sword',
+      'default-sword-and-shield': 'Sword & Shield',
+      'default-dual-blades': 'Dual Blades',
+      'default-hammer': 'Hammer',
+      'default-hunting-horn': 'Hunting Horn',
+      'default-lance': 'Lance',
+      'default-gunlance': 'Gunlance',
+      'default-switch-axe': 'Switch Axe',
+      'default-charge-blade': 'Charge Blade',
+      'default-insect-glaive': 'Insect Glaive',
+      'default-light-bowgun': 'Light Bowgun',
+      'default-heavy-bowgun': 'Heavy Bowgun',
+      'default-bow': 'Bow',
+    },
+  },
+  results: {
+    noResults: 'No results for now.',
+    error: 'Error during optimization',
+    title: 'Optimization results',
+    skillsLabel: 'Skills',
+    armorSetLabel: 'Set / Group Bonuses',
+    armorLabel: 'Items',
+  },
+  filters: {
+    amulets: {
+      title: 'Amulets',
+      addAmulet: 'Add an amulet',
+      skill: 'Skill',
+      slots: 'Slots',
+    },
+    excludeArmorParts: {
+      title: 'Exclude Armor Parts',
+      placeholder: 'Search armor parts to exclude from searches',
+    },
+    gogWeapons: {
+      title: 'Gogmazios Weapon',
+      setBonus: 'Set Bonus',
+      setBonusAutocomplete: 'Choose the Gogmazios weapons set bonus',
+      groupBonus: 'Group Bonus',
+      groupBonusAutocomplete: 'Choose the Gogmazios weapons group bonus',
+    },
+  },
+  armorParts: {
+    head: 'Head',
+    chest: 'Chest',
+    arms: 'Arms',
+    waist: 'Waist',
+    legs: 'Legs',
+  },
+  info: {
+    help: 'Help',
+    howToUse: 'How to use:',
+    howToUseSteps: {
+      step1: 'Pick your target skills, sets and weapons with autocomplete.',
+      step2: 'Adjust max points / weights and set piece requirements.',
+      step3: 'Use Filters to add your amulets and exclude specific armor items.',
+      step4: 'Click Optimize and review builds, skills and active set/group bonuses.',
+    },
+    notes: 'Notes:',
+    notesItems: {
+      dataUpToDate: 'Data is up to date with TU4.1 (AT Arkveld)',
+      defaultValues: "Yes the default values are for LS, yes I'm a weeb",
+      noBuild: 'If no build appears, relax constraints (sets/skills/filters).',
+      gogFilters: 'Gogmazios set/group filters are hidden when "Include all Gog sets" is enabled.',
+      customTemplates: 'Saved custom templates are local to your browser.',
+    },
+  },
+  common: {
+    loading: 'Loading...',
+    switchToLightMode: 'Switch to light mode',
+    switchToDarkMode: 'Switch to dark mode',
+  },
+};
+

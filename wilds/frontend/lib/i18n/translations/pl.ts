@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const pl: Translations = {
+  header: {
+    title: 'Optymalizator Buildow MH Wilds',
+    subtitle: 'od @nenrikido na Discordzie',
+  },
+  form: {
+    skills: 'Umiejetnosci',
+    armor: 'Zestawy Zbroi',
+    weapons: 'Bronie',
+    optimize: 'Optymalizuj',
+    save: 'Zapisz Konfiguracje',
+  },
+  options: {
+    includeAllAmulets: 'Uwzglednij wszystkie amulety wygenerowane z wybranych umiejetnosci (po odznaczeniu tylko farmowalne amulety i amulety wybrane w zakladce filtry)',
+    transcend: 'Transcenduj wszystkie elementy zbroi (zmienia sloty dekoracji, jesli rzadkosc to 5 lub 6)',
+    includeGogSets: 'Uwzglednij wszystkie mozliwe sety na ulepszonych broniach Gogmaziosa',
+  },
+  inputs: {
+    skills: 'Jakie umiejetnosci chcesz miec?',
+    skillsMaxPoints: 'Maksymalny poziom tej umiejetnosci',
+    skillsWeight: 'Waga tej umiejetnosci',
+    armor: 'Z jakim(i) zestawem(ami) zbroi?',
+    armorMinPieces: 'Minimalna liczba elementow dla tego setu (domyslnie 2)',
+    weapons: 'Na jakiej(ich) broni(ach)?',
+  },
+  tabs: {
+    results: 'Wyniki',
+    filters: 'Filtry',
+    templates: 'Szablony',
+  },
+  templates: {
+    defaultTitle: 'Domyslne Szablony',
+    customTitle: 'Wlasne Szablony',
+    namePlaceholder: 'Nazwa szablonu',
+    saveCurrent: 'Zapisz Biezacy',
+    emptyCustom: 'Brak zapisanych wlasnych szablonow.',
+    apply: 'Zastosuj',
+    delete: 'Usun',
+    names: {
+      'default-great-sword': 'Wielki Miecz',
+      'default-long-sword': 'Dlugi Miecz',
+      'default-sword-and-shield': 'Miecz i Tarcza',
+      'default-dual-blades': 'Podwojne Ostrza',
+      'default-hammer': 'Mlot',
+      'default-hunting-horn': 'Rog Mysliwski',
+      'default-lance': 'Lanca',
+      'default-gunlance': 'Lanca-Strzelba',
+      'default-switch-axe': 'Mieczo-Siekiera',
+      'default-charge-blade': 'Ladujace Ostrze',
+      'default-insect-glaive': 'Naginata Owadzia',
+      'default-light-bowgun': 'Lekka Kusza',
+      'default-heavy-bowgun': 'Ciezka Kusza',
+      'default-bow': 'Luk',
+    },
+  },
+  results: {
+    noResults: 'Na razie brak wynikow.',
+    error: 'Blad podczas optymalizacji',
+    title: 'Wyniki optymalizacji',
+    skillsLabel: 'Umiejetnosci',
+    armorSetLabel: 'Bonusy Setu / Grupy',
+    armorLabel: 'Przedmioty',
+  },
+  filters: {
+    amulets: {
+      title: 'Amulety',
+      addAmulet: 'Dodaj amulet',
+      skill: 'Umiejetnosc',
+      slots: 'Sloty',
+    },
+    excludeArmorParts: {
+      title: 'Wyklucz Elementy Zbroi',
+      placeholder: 'Wyszukaj elementy zbroi do wykluczenia z wyszukiwania',
+    },
+    gogWeapons: {
+      title: 'Bron Gogmaziosa',
+      setBonus: 'Bonus Setu',
+      setBonusAutocomplete: 'Wybierz bonus setu dla broni Gogmaziosa',
+      groupBonus: 'Bonus Grupy',
+      groupBonusAutocomplete: 'Wybierz bonus grupy dla broni Gogmaziosa',
+    },
+  },
+  armorParts: {
+    head: 'Glowa',
+    chest: 'Tors',
+    arms: 'Ramiona',
+    waist: 'Talia',
+    legs: 'Nogi',
+  },
+  info: {
+    help: 'Pomoc',
+    howToUse: 'Jak uzywac:',
+    howToUseSteps: {
+      step1: 'Wybierz docelowe umiejetnosci, sety i bronie przez autocomplete.',
+      step2: 'Dostosuj maksymalne poziomy/wagi oraz wymagane elementy setu.',
+      step3: 'Uzyj Filtrow, aby dodac amulety i wykluczyc konkretne elementy zbroi.',
+      step4: 'Kliknij Optymalizuj i sprawdz buildy, umiejetnosci oraz aktywne bonusy setu/grupy.',
+    },
+    notes: 'Uwagi:',
+    notesItems: {
+      dataUpToDate: 'Dane sa aktualne na TU4.1 (AT Arkveld)',
+      defaultValues: 'Tak, domyslne wartosci sa pod LS, tak, jestem weebem',
+      noBuild: 'Jesli nie pojawia sie build, poluzuj ograniczenia (sety/umiejetnosci/filtry).',
+      gogFilters: 'Filtry setu/grupy Gogmaziosa sa ukryte, gdy wlaczono "Uwzglednij wszystkie sety Gog".',
+      customTemplates: 'Zapisane wlasne szablony sa lokalne w Twojej przegladarce.',
+    },
+  },
+  common: {
+    loading: 'Ladowanie...',
+    switchToLightMode: 'Przelacz na jasny motyw',
+    switchToDarkMode: 'Przelacz na ciemny motyw',
+  },
+};
+

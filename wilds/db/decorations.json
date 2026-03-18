@@ -4,7 +4,13 @@
     "names": {
       "en": "Venom Jewel [1]",
       "fr": "Joyau venin [1]",
-      "es": "Joya venenosa 1"
+      "de": "Gift-Jwl 1",
+      "es": "Joya venenosa 1",
+      "es-419": "J. venenosa [1]",
+      "pt": "Joia Veneno 1",
+      "pt-BR": "Joia Veneno 1",
+      "it": "G veleno 1",
+      "pl": "Klejnot jadu [1]"
     },
     "skills": {
       "-1716324608": 1
@@ -17,7 +23,13 @@
     "names": {
       "en": "Handicraft Jewel II [2]",
       "fr": "Joyau artisanat II [2]",
-      "es": "Joya artesana II 2"
+      "de": "Handwerk-Jwl II 2",
+      "es": "Joya artesana II 2",
+      "es-419": "J. artesanía II [2]",
+      "pt": "Joia Artesanato II 2",
+      "pt-BR": "Joia Artesanato II 2",
+      "it": "G artigiano II 2",
+      "pl": "K. rękodzieła II [2]"
     },
     "skills": {
       "1160639488": 2
@@ -30,7 +42,13 @@
     "names": {
       "en": "Flayer Jewel [3]",
       "fr": "Joyau écorcheur [3]",
-      "es": "Joya desuello 3"
+      "de": "Schinder-Jwl 3",
+      "es": "Joya desuello 3",
+      "es-419": "J. desuelle [3]",
+      "pt": "Joia do Esfolamento 3",
+      "pt-BR": "Joia do Esfolamento 3",
+      "it": "G sferzante 3",
+      "pl": "Klejnot obdzieracza [3]"
     },
     "skills": {
       "-856322816": 1
@@ -43,7 +61,13 @@
     "names": {
       "en": "Crit Stat/Handicraft Jwl [3]",
       "fr": "Joyau châtiment/artisanat [3]",
-      "es": "Joya est. crítico/artesana 3"
+      "de": "KritStat/Handwerk-Jwl 3",
+      "es": "Joya est. crítico/artesana 3",
+      "es-419": "J. est. crít./artes. [3]",
+      "pt": "Joia Stat. Crít./Artesanato 3",
+      "pt-BR": "Joia Stat. Crít./Artesanato 3",
+      "it": "G stato critico/artigiano 3",
+      "pl": "K. st. kryt./rękodz. [3]"
     },
     "skills": {
       "-168922880": 3,
@@ -57,7 +81,13 @@
     "names": {
       "en": "Sleep Jewel [1]",
       "fr": "Joyau sommeil [1]",
-      "es": "Joya sueño 1"
+      "de": "Schlaf-Jwl 1",
+      "es": "Joya sueño 1",
+      "es-419": "J. sueño [1]",
+      "pt": "Joia Sono 1",
+      "pt-BR": "Joia Sono 1",
+      "it": "G sonno 1",
+      "pl": "Klejnot snu [1]"
     },
     "skills": {
       "166057120": 1
@@ -70,7 +100,13 @@
     "names": {
       "en": "Precise Jewel II [2]",
       "fr": "Joyau kyudo II [2]",
-      "es": "Joya puntería II 2"
+      "de": "Präzises Jwl II 2",
+      "es": "Joya puntería II 2",
+      "es-419": "J. precisa II [2]",
+      "pt": "Joia da Precisão II 2",
+      "pt-BR": "Joia da Precisão II 2",
+      "it": "G preciso II 2",
+      "pl": "Klejnot precyz. II [2]"
     },
     "skills": {
       "-420608864": 2
@@ -83,7 +119,13 @@
     "names": {
       "en": "Bolt/Precise Jewel [3]",
       "fr": "Joyau foudre/kyudo [3]",
-      "es": "Joya rayo/puntería 3"
+      "de": "Blitz/Präzises Jwl 3",
+      "es": "Joya rayo/puntería 3",
+      "es-419": "J. rayo/precisa [3]",
+      "pt": "Joia Relâmpago/Precisão 3",
+      "pt-BR": "Joia Relâmpago/Precisão 3",
+      "it": "G tuono/preciso 3",
+      "pl": "K. gromu/precyz. [3]"
     },
     "skills": {
       "-420608864": 1,
@@ -97,7 +139,13 @@
     "names": {
       "en": "Water Res Jewel [1]",
       "fr": "Joyau étanche [1]",
-      "es": "Joya resistencia al agua 1"
+      "de": "Wasserabwehr-Jwl 1",
+      "es": "Joya resistencia al agua 1",
+      "es-419": "J. res. al agua [1]",
+      "pt": "Joia Resistência a Água 1",
+      "pt-BR": "Joia Resistência a Água 1",
+      "it": "G antiacqua 1",
+      "pl": "K. wodoodporności [1]"
     },
     "skills": {
       "383104832": 1
@@ -110,7 +158,13 @@
     "names": {
       "en": "Sleep Jewel II [2]",
       "fr": "Joyau sommeil II [2]",
-      "es": "Joya sueño II 2"
+      "de": "Schlaf-Jwl II 2",
+      "es": "Joya sueño II 2",
+      "es-419": "J. sueño II [2]",
+      "pt": "Joia Sono II 2",
+      "pt-BR": "Joia Sono II 2",
+      "it": "G sonno II 2",
+      "pl": "Klejnot snu II [2]"
     },
     "skills": {
       "166057120": 2
@@ -123,7 +177,13 @@
     "names": {
       "en": "Drain Jewel III [3]",
       "fr": "Joyau fatigue III [3]",
-      "es": "Joya débil III 3"
+      "de": "Entzug-Jwl III 3",
+      "es": "Joya débil III 3",
+      "es-419": "J. débil III [3]",
+      "pt": "Joia de Drenagem III 3",
+      "pt-BR": "Joia de Drenagem III 3",
+      "it": "G affaticante III 3",
+      "pl": "K. wyssania III [3]"
     },
     "skills": {
       "1758661504": 3
@@ -136,7 +196,13 @@
     "names": {
       "en": "Destroyer Jewel [2]",
       "fr": "Joyau destruction [2]",
-      "es": "Joya destrucción 2"
+      "de": "Zerstörer-Jwl 2",
+      "es": "Joya destrucción 2",
+      "es-419": "J. destrucción [2]",
+      "pt": "Joia Destruidora 2",
+      "pt-BR": "Joia Destruidora 2",
+      "it": "G flagello 2",
+      "pl": "Klejnot niszczyciela [2]"
     },
     "skills": {
       "1470960256": 1
@@ -149,7 +215,13 @@
     "names": {
       "en": "Bandolier Jewel III [3]",
       "fr": "Joyau armurier III [3]",
-      "es": "Joya bandolero III 3"
+      "de": "Tetrad-Jwl III 3",
+      "es": "Joya bandolero III 3",
+      "es-419": "J. capacidad III [3]",
+      "pt": "Joia Bandoleira III 3",
+      "pt-BR": "Joia Bandoleira III 3",
+      "it": "G bandoliera III 3",
+      "pl": "Klejnot ładownicy III [3]"
     },
     "skills": {
       "1613139840": 3
@@ -162,7 +234,13 @@
     "names": {
       "en": "Escape Jewel [1]",
       "fr": "Joyau échappatoire [1]",
-      "es": "Joya escape 1"
+      "de": "Flucht-Jwl 1",
+      "es": "Joya escape 1",
+      "es-419": "J. escape [1]",
+      "pt": "Joia da Escapada 1",
+      "pt-BR": "Joia da Escapada 1",
+      "it": "G fuga 1",
+      "pl": "Klejnot ucieczki [1]"
     },
     "skills": {
       "1966172160": 1
@@ -175,7 +253,13 @@
     "names": {
       "en": "Charge Jewel [1]",
       "fr": "Joyau charge [1]",
-      "es": "Joya carga 1"
+      "de": "Lade-Jwl 1",
+      "es": "Joya carga 1",
+      "es-419": "J. carga [1]",
+      "pt": "Joia Energizadora 1",
+      "pt-BR": "Joia Energizadora 1",
+      "it": "G carica 1",
+      "pl": "Klejnot ładowania [1]"
     },
     "skills": {
       "-1475134080": 1
@@ -188,7 +272,13 @@
     "names": {
       "en": "Attack Jewel II [2]",
       "fr": "Joyau attaque II [2]",
-      "es": "Joya ataque II 2"
+      "de": "Angriff-Jwl II 2",
+      "es": "Joya ataque II 2",
+      "es-419": "J. ataque II [2]",
+      "pt": "Joia Ataque II 2",
+      "pt-BR": "Joia Ataque II 2",
+      "it": "G attacco II 2",
+      "pl": "Klejnot ataku II [2]"
     },
     "skills": {
       "1": 2
@@ -201,7 +291,13 @@
     "names": {
       "en": "Bandolier/Ironwall Jwl [3]",
       "fr": "Joyau armurier/paladin [3]",
-      "es": "Joya bandolero/muro 3"
+      "de": "Tetrad/Mauer-Jwl 3",
+      "es": "Joya bandolero/muro 3",
+      "es-419": "J. capacidad/guardia [3]",
+      "pt": "Joia Bandoleira/Muro de Ferro 3",
+      "pt-BR": "Joia Bandoleira/Muro de Ferro 3",
+      "it": "G bandoliera/barriera 3",
+      "pl": "K. ładownicy/ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -215,7 +311,13 @@
     "names": {
       "en": "Blaze/Precise Jewel [3]",
       "fr": "Joyau feu/kyudo [3]",
-      "es": "Joya fuego/puntería 3"
+      "de": "Lohe/Präzises Jwl 3",
+      "es": "Joya fuego/puntería 3",
+      "es-419": "J. fuego/precisa [3]",
+      "pt": "Joia Chama/Precisão 3",
+      "pt-BR": "Joia Chama/Precisão 3",
+      "it": "G fuoco/preciso 3",
+      "pl": "K. pożogi/precyz. [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -229,7 +331,13 @@
     "names": {
       "en": "Bolt Jewel [1]",
       "fr": "Joyau foudre [1]",
-      "es": "Joya rayo 1"
+      "de": "Blitz-Jwl 1",
+      "es": "Joya rayo 1",
+      "es-419": "J. rayo [1]",
+      "pt": "Joia Relâmpago 1",
+      "pt-BR": "Joia Relâmpago 1",
+      "it": "G tuono 1",
+      "pl": "Klejnot gromu [1]"
     },
     "skills": {
       "1452140672": 1
@@ -242,7 +350,13 @@
     "names": {
       "en": "Suture Jewel [1]",
       "fr": "Joyau antihémorragie [1]",
-      "es": "Joya sutura 1"
+      "de": "Naht-Jwl 1",
+      "es": "Joya sutura 1",
+      "es-419": "J. sutura [1]",
+      "pt": "Joia Sutura 1",
+      "pt-BR": "Joia Sutura 1",
+      "it": "G antisangue 1",
+      "pl": "Klejnot szwów [1]"
     },
     "skills": {
       "1940820864": 1
@@ -255,7 +369,13 @@
     "names": {
       "en": "Fire Res Jewel [1]",
       "fr": "Joyau ignifuge [1]",
-      "es": "Joya resistencia al fuego 1"
+      "de": "Feuerabwehr-Jwl 1",
+      "es": "Joya resistencia al fuego 1",
+      "es-419": "J. res. al fuego [1]",
+      "pt": "Joia Resistência a Fogo 1",
+      "pt-BR": "Joia Resistência a Fogo 1",
+      "it": "G antifuoco 1",
+      "pl": "K. ognioodporności [1]"
     },
     "skills": {
       "1425756032": 1
@@ -268,7 +388,13 @@
     "names": {
       "en": "Grinder/Handicraft Jwl [3]",
       "fr": "Joyau aiguiseur/artisanat [3]",
-      "es": "Joya afiladora/artesana 3"
+      "de": "Schleif/Handwerk-Jwl 3",
+      "es": "Joya afiladora/artesana 3",
+      "es-419": "J. afiladora/artes. [3]",
+      "pt": "Joia Amolador/Artesanato 3",
+      "pt-BR": "Joia Amolador/Artesanato 3",
+      "it": "G affilante/artigiano 3",
+      "pl": "K. ostrzenia/rękodz. [3]"
     },
     "skills": {
       "1160639488": 1,
@@ -282,7 +408,13 @@
     "names": {
       "en": "Poison Jewel [2]",
       "fr": "Joyau poison [2]",
-      "es": "Joya tóxica 2"
+      "de": "Gift-Jwl 2",
+      "es": "Joya tóxica 2",
+      "es-419": "J. tóxica [2]",
+      "pt": "Joia Peçonha 2",
+      "pt-BR": "Joia Peçonha 2",
+      "it": "G veleno 2",
+      "pl": "Klejnot trucizny [2]"
     },
     "skills": {
       "-1629629184": 1
@@ -295,7 +427,13 @@
     "names": {
       "en": "Hungerless Jewel [1]",
       "fr": "Joyau spartiate [1]",
-      "es": "Joya antigula 1"
+      "de": "Hungerfrei-Jwl 1",
+      "es": "Joya antigula 1",
+      "es-419": "J. antigula [1]",
+      "pt": "Joia do Fastio 1",
+      "pt-BR": "Joia do Fastio 1",
+      "it": "G senza fame 1",
+      "pl": "Klejnot niegłodnego [1]"
     },
     "skills": {
       "2045149568": 1
@@ -308,7 +446,13 @@
     "names": {
       "en": "Enhancer Jewel [1]",
       "fr": "Joyau puissance [1]",
-      "es": "Joya aumento 1"
+      "de": "Verstärker-Jwl 1",
+      "es": "Joya aumento 1",
+      "es-419": "J. aumento [1]",
+      "pt": "Joia Intensificadora 1",
+      "pt-BR": "Joia Intensificadora 1",
+      "it": "G amplifica 1",
+      "pl": "Klejnot wydłużacza [1]"
     },
     "skills": {
       "691199232": 1
@@ -321,7 +465,13 @@
     "names": {
       "en": "Bolt/Handicraft Jwl [3]",
       "fr": "Joyau foudre/artisanat [3]",
-      "es": "Joya rayo/artesana 3"
+      "de": "Blitz/Handwerk-Jwl 3",
+      "es": "Joya rayo/artesana 3",
+      "es-419": "J. rayo/artes. [3]",
+      "pt": "Joia Relâmpago/Artesanato 3",
+      "pt-BR": "Joia Relâmpago/Artesanato 3",
+      "it": "G tuono/artigiano 3",
+      "pl": "K. gromu/rękodzieła [3]"
     },
     "skills": {
       "1160639488": 1,
@@ -335,7 +485,13 @@
     "names": {
       "en": "Specimen Jewel [1]",
       "fr": "Joyau insectoïde [1]",
-      "es": "Joya espécimen 1"
+      "de": "Insektenforscher-Jwl 1",
+      "es": "Joya espécimen 1",
+      "es-419": "J. especímenes [1]",
+      "pt": "Joia de Espécime 1",
+      "pt-BR": "Joia de Espécime 1",
+      "it": "G entomologo 1",
+      "pl": "Klejnot okazu [1]"
     },
     "skills": {
       "898284480": 1
@@ -348,7 +504,13 @@
     "names": {
       "en": "Salvo Jewel [3]",
       "fr": "Joyau mitraille [3]",
-      "es": "Joya andanada 3"
+      "de": "Salven-Jwl 3",
+      "es": "Joya andanada 3",
+      "es-419": "J. bonus [3]",
+      "pt": "Joia da Rajada 3",
+      "pt-BR": "Joia da Rajada 3",
+      "it": "G sfrecciante 3",
+      "pl": "Klejnot salwy [3]"
     },
     "skills": {
       "-1507579776": 1
@@ -361,7 +523,13 @@
     "names": {
       "en": "Mirewalker Jewel [1]",
       "fr": "Joyau d'Atlantis [1]",
-      "es": "Joya lodazal 1"
+      "de": "Sumpfläufer-Jwl 1",
+      "es": "Joya lodazal 1",
+      "es-419": "J. lodazal [1]",
+      "pt": "Joia de Lodo 1",
+      "pt-BR": "Joia de Lodo 1",
+      "it": "G guado 1",
+      "pl": "Klejnot bagnołaza [1]"
     },
     "skills": {
       "-201445760": 1
@@ -374,7 +542,13 @@
     "names": {
       "en": "Magazine Jewel II [2]",
       "fr": "Joyau franc-tireur II [2]",
-      "es": "Joya cargador II 2"
+      "de": "Magazin-Jwl II 2",
+      "es": "Joya cargador II 2",
+      "es-419": "J. almacén II [2]",
+      "pt": "Joia Aljava II 2",
+      "pt-BR": "Joia Aljava II 2",
+      "it": "G caricatore II 2",
+      "pl": "Klejnot magazynka II [2]"
     },
     "skills": {
       "802725120": 2
@@ -387,7 +561,13 @@
     "names": {
       "en": "Rzr Sharp Jwl III [3]",
       "fr": "Joyau samouraï III [3]",
-      "es": "Joya cortante III 3"
+      "de": "Blankes Jwl III 3",
+      "es": "Joya cortante III 3",
+      "es-419": "J. f. cuchilla III [3]",
+      "pt": "Joia Fio da Navalha III 3",
+      "pt-BR": "Joia Fio da Navalha III 3",
+      "it": "G rasoio III 3",
+      "pl": "K. naostrzenia III [3]"
     },
     "skills": {
       "1050520384": 3
@@ -400,7 +580,13 @@
     "names": {
       "en": "Sleep Jewel III [3]",
       "fr": "Joyau sommeil III [3]",
-      "es": "Joya sueño III 3"
+      "de": "Schlaf-Jwl III 3",
+      "es": "Joya sueño III 3",
+      "es-419": "J. sueño III [3]",
+      "pt": "Joia Sono III 3",
+      "pt-BR": "Joia Sono III 3",
+      "it": "G sonno III 3",
+      "pl": "Klejnot snu III [3]"
     },
     "skills": {
       "166057120": 3
@@ -413,7 +599,13 @@
     "names": {
       "en": "Dragon Jewel III [3]",
       "fr": "Joyau dracocide III [3]",
-      "es": "Joya draco III 3"
+      "de": "Drachen-Jwl III 3",
+      "es": "Joya draco III 3",
+      "es-419": "J. draco III [3]",
+      "pt": "Joia Dragão III 3",
+      "pt-BR": "Joia Dragão III 3",
+      "it": "G drago III 3",
+      "pl": "Klejnot smoka III [3]"
     },
     "skills": {
       "-776946176": 3
@@ -426,7 +618,13 @@
     "names": {
       "en": "Sonorous/Attack Jwl [3]",
       "fr": "Joyau musique/attaque [3]",
-      "es": "Joya músico/ataque 3"
+      "de": "Klang/Angriff-Jwl 3",
+      "es": "Joya músico/ataque 3",
+      "es-419": "J. músico/ataque III [3]",
+      "pt": "Joia Sonora/Ataque 3",
+      "pt-BR": "Joia Sonora/Ataque 3",
+      "it": "G sonoro/attacco 3",
+      "pl": "K. dźwięczny/ataku [3]"
     },
     "skills": {
       "-1237438336": 2,
@@ -440,7 +638,13 @@
     "names": {
       "en": "Crit Stat Jwl III [3]",
       "fr": "Joyau châtiment III [3]",
-      "es": "Joya estado crítico III 3"
+      "de": "KritStatus-Jwl III 3",
+      "es": "Joya estado crítico III 3",
+      "es-419": "J. est. crít. III [3]",
+      "pt": "Joia Status Crítico III 3",
+      "pt-BR": "Joia Status Crítico III 3",
+      "it": "G stato critico III 3",
+      "pl": "K. statusu kryt. III [3]"
     },
     "skills": {
       "-168922880": 3
@@ -453,7 +657,13 @@
     "names": {
       "en": "Bolt Jewel II [2]",
       "fr": "Joyau foudre II [2]",
-      "es": "Joya rayo II 2"
+      "de": "Blitz-Jwl II 2",
+      "es": "Joya rayo II 2",
+      "es-419": "J. rayo II [2]",
+      "pt": "Joia Relâmpago II 2",
+      "pt-BR": "Joia Relâmpago II 2",
+      "it": "G tuono II 2",
+      "pl": "Klejnot gromu II [2]"
     },
     "skills": {
       "1452140672": 2
@@ -466,7 +676,13 @@
     "names": {
       "en": "Blaze/Guardian Jewel [3]",
       "fr": "Joyau feu/gardien [3]",
-      "es": "Joya fuego/guardián 3"
+      "de": "Lohe/Wächter-Jwl 3",
+      "es": "Joya fuego/guardián 3",
+      "es-419": "J. fuego/guardián [3]",
+      "pt": "Joia Chama/Guardiã 3",
+      "pt-BR": "Joia Chama/Guardiã 3",
+      "it": "G fuoco/guardiano 3",
+      "pl": "K. pożogi/strażnika [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -480,7 +696,13 @@
     "names": {
       "en": "Venom Jewel II [2]",
       "fr": "Joyau venin II [2]",
-      "es": "Joya venenosa II 2"
+      "de": "Gift-Jwl II 2",
+      "es": "Joya venenosa II 2",
+      "es-419": "J. venenosa II [2]",
+      "pt": "Joia Veneno II 2",
+      "pt-BR": "Joia Veneno II 2",
+      "it": "G veleno II 2",
+      "pl": "Klejnot jadu II [2]"
     },
     "skills": {
       "-1716324608": 2
@@ -493,7 +715,13 @@
     "names": {
       "en": "Drain Jewel II [2]",
       "fr": "Joyau fatigue II [2]",
-      "es": "Joya débil II 2"
+      "de": "Entzug-Jwl II 2",
+      "es": "Joya débil II 2",
+      "es-419": "J. débil II [2]",
+      "pt": "Joia de Drenagem II 2",
+      "pt-BR": "Joia de Drenagem II 2",
+      "it": "G affaticante II 2",
+      "pl": "Klejnot wyssania [2]"
     },
     "skills": {
       "1758661504": 2
@@ -506,7 +734,13 @@
     "names": {
       "en": "Foray Jewel [3]",
       "fr": "Joyau incursion [3]",
-      "es": "Joya irrupción 3"
+      "de": "Vorstoß-Jwl 3",
+      "es": "Joya irrupción 3",
+      "es-419": "J. incursión [3]",
+      "pt": "Joia Investida 3",
+      "pt-BR": "Joia Investida 3",
+      "it": "G incursione 3",
+      "pl": "Klejnot najazdu [3]"
     },
     "skills": {
       "27684744": 1
@@ -519,7 +753,13 @@
     "names": {
       "en": "Grinder/Ironwall Jewel [3]",
       "fr": "Joyau aiguiseur/paladin [3]",
-      "es": "Joya afiladora/muro 3"
+      "de": "Schleif/Mauer-Jwl 3",
+      "es": "Joya afiladora/muro 3",
+      "es-419": "J. afiladora/guardia [3]",
+      "pt": "Joia Amolador/Muro de Ferro 3",
+      "pt-BR": "Joia Amolador/Muro de Ferro 3",
+      "it": "G affilante/barriera 3",
+      "pl": "K. ostrzenia/ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -533,7 +773,13 @@
     "names": {
       "en": "Def Lock Jewel [1]",
       "fr": "Joyau fer [1]",
-      "es": "Joya bloqueo 1"
+      "de": "Abwehrsperre-Jwl 1",
+      "es": "Joya bloqueo 1",
+      "es-419": "J. bloqueo [1]",
+      "pt": "Joia Defesa Ativa 1",
+      "pt-BR": "Joia Defesa Ativa 1",
+      "it": "G scudo 1",
+      "pl": "K. trwałej obrony [1]"
     },
     "skills": {
       "1522518528": 1
@@ -546,7 +792,13 @@
     "names": {
       "en": "Dragon/KO Jewel [3]",
       "fr": "Joyau dracocide/cogneur [3]",
-      "es": "Joya draco/boxeo 3"
+      "de": "Drachen/K.o.-Jwl 3",
+      "es": "Joya draco/boxeo 3",
+      "es-419": "J. draco/boxeo [3]",
+      "pt": "Joia Dragão/Nocaute 3",
+      "pt-BR": "Joia Dragão/Nocaute 3",
+      "it": "G drago/battitore 3",
+      "pl": "K. smoka/nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -560,7 +812,13 @@
     "names": {
       "en": "Grinder/Draw Jewel [3]",
       "fr": "Joyau aiguiseur/dégainage [3]",
-      "es": "Joya afiladora/desenfunde 3"
+      "de": "Schleif/Ziehen-Jwl 3",
+      "es": "Joya afiladora/desenfunde 3",
+      "es-419": "J. afiladora/desenf. [3]",
+      "pt": "Joia Amolador/Saque 3",
+      "pt-BR": "Joia Amolador/Saque 3",
+      "it": "G affilante/sfoderata 3",
+      "pl": "K. ostrz./dob. broni [3]"
     },
     "skills": {
       "686533440": 1,
@@ -574,7 +832,13 @@
     "names": {
       "en": "Opener Jewel II [2]",
       "fr": "Joyau premier coup II [2]",
-      "es": "Joya detonante II 2"
+      "de": "Eröffner-Jwl II 2",
+      "es": "Joya detonante II 2",
+      "es-419": "J. apertura II [2]",
+      "pt": "Joia Estopim II 2",
+      "pt-BR": "Joia Estopim II 2",
+      "it": "G primo colpo II 2",
+      "pl": "K. pierw. strzału II [2]"
     },
     "skills": {
       "1711950720": 2
@@ -587,7 +851,13 @@
     "names": {
       "en": "Charge Up/Attack Jwl [3]",
       "fr": "Joyau surcharge/attaque [3]",
-      "es": "Joya cargada/ataque 3"
+      "de": "Aufladen/Angriff-Jwl 3",
+      "es": "Joya cargada/ataque 3",
+      "es-419": "J. cargada/ataque [3]",
+      "pt": "Joia Energizar/Ataque 3",
+      "pt-BR": "Joia Energizar/Ataque 3",
+      "it": "G stordente/attacco 3",
+      "pl": "K. ładowania/ataku [3]"
     },
     "skills": {
       "1": 1,
@@ -601,7 +871,13 @@
     "names": {
       "en": "Quickswitch Jewel III [3]",
       "fr": "Joyau morphose III [3]",
-      "es": "Joya mutación III 3"
+      "de": "Morph-Jwl III 3",
+      "es": "Joya mutación III 3",
+      "es-419": "J. mutación III [3]",
+      "pt": "Joia Troca Rápida III 3",
+      "pt-BR": "Joia Troca Rápida III 3",
+      "it": "G trasforma III 3",
+      "pl": "K. szybkoprzeł. III [3]"
     },
     "skills": {
       "-1961116288": 3
@@ -614,7 +890,13 @@
     "names": {
       "en": "Mighty Jewel [2]",
       "fr": "Joyau omnipotence [2]",
-      "es": "Joya poderosa 2"
+      "de": "Mächtiges Jwl 2",
+      "es": "Joya poderosa 2",
+      "es-419": "J. poderosa [2]",
+      "pt": "Joia Potente 2",
+      "pt-BR": "Joia Potente 2",
+      "it": "G possente 2",
+      "pl": "Klejnot mocy [2]"
     },
     "skills": {
       "632127488": 1
@@ -627,7 +909,13 @@
     "names": {
       "en": "Guardian Jewel [1]",
       "fr": "Joyau gardien [1]",
-      "es": "Joya guardián 1"
+      "de": "Wächter-Jwl 1",
+      "es": "Joya guardián 1",
+      "es-419": "J. guardián [1]",
+      "pt": "Joia Guardiã 1",
+      "pt-BR": "Joia Guardiã 1",
+      "it": "G guardiano 1",
+      "pl": "Klejnot strażnika [1]"
     },
     "skills": {
       "-181127504": 1
@@ -640,7 +928,13 @@
     "names": {
       "en": "Sharp Jewel II [2]",
       "fr": "Joyau trempe II [2]",
-      "es": "Joya afilado II 2"
+      "de": "Scharfes Jwl II 2",
+      "es": "Joya afilado II 2",
+      "es-419": "J. afilada II [2]",
+      "pt": "Joia Afiada II 2",
+      "pt-BR": "Joia Afiada II 2",
+      "it": "G tagliente II 2",
+      "pl": "Klejnot ostry II [2]"
     },
     "skills": {
       "1500129152": 2
@@ -653,7 +947,13 @@
     "names": {
       "en": "Bolt Jewel III [3]",
       "fr": "Joyau foudre III [3]",
-      "es": "Joya rayo III 3"
+      "de": "Blitz-Jwl III 3",
+      "es": "Joya rayo III 3",
+      "es-419": "J. rayo III [3]",
+      "pt": "Joia Relâmpago III 3",
+      "pt-BR": "Joia Relâmpago III 3",
+      "it": "G tuono III 3",
+      "pl": "Klejnot gromu III [3]"
     },
     "skills": {
       "1452140672": 3
@@ -666,7 +966,13 @@
     "names": {
       "en": "Guardian/Ironwall Jwl [3]",
       "fr": "Joyau gardien/paladin [3]",
-      "es": "Joya guardián/muro 3"
+      "de": "Wächter/Mauer-Jwl 3",
+      "es": "Joya guardián/muro 3",
+      "es-419": "J. guardián/guardia [3]",
+      "pt": "Joia Guardiã/Muro de Ferro 3",
+      "pt-BR": "Joia Guardiã/Muro de Ferro 3",
+      "it": "G guardiano/barriera 3",
+      "pl": "K. strażnika/ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -680,7 +986,13 @@
     "names": {
       "en": "Jumping Jewel [2]",
       "fr": "Joyau esquive [2]",
-      "es": "Joya salto 2"
+      "de": "Sprung-Jwl 2",
+      "es": "Joya salto 2",
+      "es-419": "J. salto [2]",
+      "pt": "Joia de Salto 2",
+      "pt-BR": "Joia de Salto 2",
+      "it": "G balzo 2",
+      "pl": "Klejnot skoków [2]"
     },
     "skills": {
       "673822976": 1
@@ -693,7 +1005,13 @@
     "names": {
       "en": "Bolt/KO Jewel [3]",
       "fr": "Joyau foudre/cogneur [3]",
-      "es": "Joya rayo/boxeo 3"
+      "de": "Blitz/K.o.-Jwl 3",
+      "es": "Joya rayo/boxeo 3",
+      "es-419": "J. rayo/boxeo [3]",
+      "pt": "Joia Relâmpago/Nocaute 3",
+      "pt-BR": "Joia Relâmpago/Nocaute 3",
+      "it": "G tuono/battitore 3",
+      "pl": "K. gromu/nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -707,7 +1025,13 @@
     "names": {
       "en": "Mind's Eye Jewel [1]",
       "fr": "Joyau spirituel [1]",
-      "es": "Joya ojo mental 1"
+      "de": "Geistiges-Auge-Jwl 1",
+      "es": "Joya ojo mental 1",
+      "es-419": "J. ojo mental [1]",
+      "pt": "Joia Olho da Mente 1",
+      "pt-BR": "Joia Olho da Mente 1",
+      "it": "G profeta 1",
+      "pl": "Klejnot oka umysłu [1]"
     },
     "skills": {
       "1594792704": 1
@@ -720,7 +1044,13 @@
     "names": {
       "en": "Rzr Sharp/Ironwall Jwl [3]",
       "fr": "Joyau samouraï/paladin [3]",
-      "es": "Joya cortante/muro 3"
+      "de": "Blankes/Mauer-Jwl 3",
+      "es": "Joya cortante/muro 3",
+      "es-419": "J. filo cuch./guardia [3]",
+      "pt": "Joia F. Navalha/M. Ferro 3",
+      "pt-BR": "Joia F. Navalha/M. Ferro 3",
+      "it": "G rasoio/barriera 3",
+      "pl": "K. naostrz./ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -734,7 +1064,13 @@
     "names": {
       "en": "Recovery Jewel [1]",
       "fr": "Joyau récupération [1]",
-      "es": "Joya recuperación 1"
+      "de": "Erholung-Jwl 1",
+      "es": "Joya recuperación 1",
+      "es-419": "J. recuperación [1]",
+      "pt": "Joia Regeneração 1",
+      "pt-BR": "Joia Regeneração 1",
+      "it": "G recupero 1",
+      "pl": "Klejnot regeneracji [1]"
     },
     "skills": {
       "-1121468544": 1
@@ -747,7 +1083,13 @@
     "names": {
       "en": "Pep Jewel [1]",
       "fr": "Joyau insomnie [1]",
-      "es": "Joya antisueño 1"
+      "de": "Pepp-Jwl 1",
+      "es": "Joya antisueño 1",
+      "es-419": "J. res. al sueño [1]",
+      "pt": "Joia Ânimo 1",
+      "pt-BR": "Joia Ânimo 1",
+      "it": "G antisonno 1",
+      "pl": "Klejnot rozbudzenia [1]"
     },
     "skills": {
       "-193031552": 1
@@ -760,7 +1102,13 @@
     "names": {
       "en": "Dragon Res Jewel [1]",
       "fr": "Joyau draconique [1]",
-      "es": "Joya resistencia al draco 1"
+      "de": "Drachenabwehr-Jwl 1",
+      "es": "Joya resistencia al draco 1",
+      "es-419": "J. res. al draco [1]",
+      "pt": "Joia Resistência a Dragão 1",
+      "pt-BR": "Joia Resistência a Dragão 1",
+      "it": "G antidrago 1",
+      "pl": "K. smokoodporności [1]"
     },
     "skills": {
       "-2125233152": 1
@@ -773,7 +1121,13 @@
     "names": {
       "en": "Sane Jewel [1]",
       "fr": "Joyau antifurie [1]",
-      "es": "Joya cordura 1"
+      "de": "Vernunft-Jwl 1",
+      "es": "Joya cordura 1",
+      "es-419": "J. sanidad [1]",
+      "pt": "Joia Saudável 1",
+      "pt-BR": "Joia Saudável 1",
+      "it": "G antivirus 1",
+      "pl": "Klejnot rozsądku [1]"
     },
     "skills": {
       "-1662120192": 1
@@ -786,7 +1140,13 @@
     "names": {
       "en": "Trueshot Jewel II [2]",
       "fr": "Joyau sniper II [2]",
-      "es": "Joya tirofijo II 2"
+      "de": "Volltreffer-Jwl II 2",
+      "es": "Joya tirofijo II 2",
+      "es-419": "J. tirofijo II [2]",
+      "pt": "Joia Tiro Certo II 2",
+      "pt-BR": "Joia Tiro Certo II 2",
+      "it": "G perforante II 2",
+      "pl": "K. celn. strzału II [2]"
     },
     "skills": {
       "-160562336": 2
@@ -799,7 +1159,13 @@
     "names": {
       "en": "Stream Jewel [1]",
       "fr": "Joyau eau [1]",
-      "es": "Joya agua 1"
+      "de": "Fluss-Jwl 1",
+      "es": "Joya agua 1",
+      "es-419": "J. agua [1]",
+      "pt": "Joia Riacho 1",
+      "pt-BR": "Joia Riacho 1",
+      "it": "G acqua 1",
+      "pl": "Klejnot strumienia [1]"
     },
     "skills": {
       "508916704": 1
@@ -812,7 +1178,13 @@
     "names": {
       "en": "Earplugs Jewel [2]",
       "fr": "Joyau insonorisation [2]",
-      "es": "Joya tapones 2"
+      "de": "Ohrstöpsel-Jwl 2",
+      "es": "Joya tapones 2",
+      "es-419": "J. antirrugidos [2]",
+      "pt": "Joia Abafadora 2",
+      "pt-BR": "Joia Abafadora 2",
+      "it": "G antirumore 2",
+      "pl": "Klejnot zatyczek [2]"
     },
     "skills": {
       "192746944": 1
@@ -825,7 +1197,13 @@
     "names": {
       "en": "Physique Jewel [1]",
       "fr": "Joyau athlète [1]",
-      "es": "Joya salud 1"
+      "de": "Figur-Jwl 1",
+      "es": "Joya salud 1",
+      "es-419": "J. salud [1]",
+      "pt": "Joia do Biotipo 1",
+      "pt-BR": "Joia do Biotipo 1",
+      "it": "G atleta 1",
+      "pl": "Klejnot sylwetki [1]"
     },
     "skills": {
       "-1689391744": 1
@@ -838,7 +1216,13 @@
     "names": {
       "en": "Opener Jewel III [3]",
       "fr": "Joyau premier coup III [3]",
-      "es": "Joya detonante III 3"
+      "de": "Eröffner-Jwl III 3",
+      "es": "Joya detonante III 3",
+      "es-419": "J. apertura III [3]",
+      "pt": "Joia Estopim III 3",
+      "pt-BR": "Joia Estopim III 3",
+      "it": "G primo colpo III 3",
+      "pl": "K. p. strzału III [3]"
     },
     "skills": {
       "1711950720": 3
@@ -851,7 +1235,13 @@
     "names": {
       "en": "Blaze/Ironwall Jwl [3]",
       "fr": "Joyau feu/paladin [3]",
-      "es": "Joya fuego/muro 3"
+      "de": "Lohe/Mauer-Jwl 3",
+      "es": "Joya fuego/muro 3",
+      "es-419": "J. fuego/guardia [3]",
+      "pt": "Joia Chama/Muro de Ferro 3",
+      "pt-BR": "Joia Chama/Muro de Ferro 3",
+      "it": "G fuoco/barriera 3",
+      "pl": "K. pożogi/nokautu [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -865,7 +1255,13 @@
     "names": {
       "en": "Mastery Jewel [3]",
       "fr": "Joyau maîtrise [3]",
-      "es": "Joya maestría 3"
+      "de": "Meisterung-Jwl 3",
+      "es": "Joya maestría 3",
+      "es-419": "J. del maestro [3]",
+      "pt": "Joia da Maestria 3",
+      "pt-BR": "Joia da Maestria 3",
+      "it": "G maestro 3",
+      "pl": "Klejnot mistrza [3]"
     },
     "skills": {
       "1389859584": 1
@@ -878,7 +1274,13 @@
     "names": {
       "en": "Gambit/KO Jewel [3]",
       "fr": "Joyau punition/cogneur [3]",
-      "es": "Joya gambito/boxeo 3"
+      "de": "Gambit/K.o.-Jwl 3",
+      "es": "Joya gambito/boxeo 3",
+      "es-419": "J. gambito/boxeo [3]",
+      "pt": "Joia Artimanha/Nocaute 3",
+      "pt-BR": "Joia Artimanha/Nocaute 3",
+      "it": "G punizione/battitore 3",
+      "pl": "K. gambitu/nokautu [3]"
     },
     "skills": {
       "-1946345856": 3,
@@ -892,7 +1294,13 @@
     "names": {
       "en": "Survival Jewel [1]",
       "fr": "Joyau de survie [1]",
-      "es": "Joya supervivencia 1"
+      "de": "Überleben-Jwl 1",
+      "es": "Joya supervivencia 1",
+      "es-419": "J. supervivencia [1]",
+      "pt": "Joia de Sobrevivência 1",
+      "pt-BR": "Joia de Sobrevivência 1",
+      "it": "G sopravvivenza 1",
+      "pl": "Klejnot przetrwania [1]"
     },
     "skills": {
       "-593005376": 1
@@ -905,7 +1313,13 @@
     "names": {
       "en": "Thunder Res Jewel [1]",
       "fr": "Joyau isolant [1]",
-      "es": "Joya resistencia al rayo 1"
+      "de": "Donnerabwehr-Jwl 1",
+      "es": "Joya resistencia al rayo 1",
+      "es-419": "J. res. al rayo [1]",
+      "pt": "Joia Resistência a Raio 1",
+      "pt-BR": "Joia Resistência a Raio 1",
+      "it": "G antituono 1",
+      "pl": "K. gromoodporności [1]"
     },
     "skills": {
       "2143068800": 1
@@ -918,7 +1332,13 @@
     "names": {
       "en": "Draw Jewel III [3]",
       "fr": "Joyau dégainage III [3]",
-      "es": "Joya desenfunde III 3"
+      "de": "Ziehen-Jwl III 3",
+      "es": "Joya desenfunde III 3",
+      "es-419": "J. desenfunde III [3]",
+      "pt": "Joia de Saque III 3",
+      "pt-BR": "Joia de Saque III 3",
+      "it": "G sfoderata III 3",
+      "pl": "K. dobycia broni III [3]"
     },
     "skills": {
       "686533440": 3
@@ -931,7 +1351,13 @@
     "names": {
       "en": "Guardian Jewel III [3]",
       "fr": "Joyau gardien III [3]",
-      "es": "Joya guardián III 3"
+      "de": "Wächter-Jwl III 3",
+      "es": "Joya guardián III 3",
+      "es-419": "J. guardián III [3]",
+      "pt": "Joia Guardiã III 3",
+      "pt-BR": "Joia Guardiã III 3",
+      "it": "G guardiano III 3",
+      "pl": "K. strażnika III [3]"
     },
     "skills": {
       "-181127504": 3
@@ -944,7 +1370,13 @@
     "names": {
       "en": "Quickswitch/Handicraft Jwl [3]",
       "fr": "Joyau morphose/artisanat [3]",
-      "es": "Joya mutación/artesana 3"
+      "de": "Morph/Handwerk-Jwl 3",
+      "es": "Joya mutación/artesana 3",
+      "es-419": "J. mutación/artes. [3]",
+      "pt": "Joia Troca Rápida/Artesanato 3",
+      "pt-BR": "Joia Troca Rápida/Artesanato 3",
+      "it": "G trasforma/artigiano 3",
+      "pl": "K. szybkop./rękodz. [3]"
     },
     "skills": {
       "-1961116288": 3,
@@ -958,7 +1390,13 @@
     "names": {
       "en": "Stream Jewel II [2]",
       "fr": "Joyau eau II [2]",
-      "es": "Joya agua II 2"
+      "de": "Fluss-Jwl II 2",
+      "es": "Joya agua II 2",
+      "es-419": "J. agua II [2]",
+      "pt": "Joia Riacho II 2",
+      "pt-BR": "Joia Riacho II 2",
+      "it": "G acqua II 2",
+      "pl": "K. strumienia II [2]"
     },
     "skills": {
       "508916704": 2
@@ -971,7 +1409,13 @@
     "names": {
       "en": "Flight Jewel [2]",
       "fr": "Joyau acrobatie [2]",
-      "es": "Joya vuelo 2"
+      "de": "Flug-Jwl 2",
+      "es": "Joya vuelo 2",
+      "es-419": "J. vuelo [2]",
+      "pt": "Joia de Voo 2",
+      "pt-BR": "Joia de Voo 2",
+      "it": "G volo 2",
+      "pl": "Klejnot lotu [2]"
     },
     "skills": {
       "402237312": 1
@@ -984,7 +1428,13 @@
     "names": {
       "en": "Precise Jewel [1]",
       "fr": "Joyau kyudo [1]",
-      "es": "Joya puntería 1"
+      "de": "Präzises Jwl 1",
+      "es": "Joya puntería 1",
+      "es-419": "J. precisa [1]",
+      "pt": "Joia da Precisão 1",
+      "pt-BR": "Joia da Precisão 1",
+      "it": "G preciso 1",
+      "pl": "Klejnot precyzyjny [1]"
     },
     "skills": {
       "-420608864": 1
@@ -997,7 +1447,13 @@
     "names": {
       "en": "Blunt Jewel III [3]",
       "fr": "Joyau matraque III [3]",
-      "es": "Joya contundente III 3"
+      "de": "Stumpfes Jwl III 3",
+      "es": "Joya contundente III 3",
+      "es-419": "J. contundente III [3]",
+      "pt": "Joia Contundente III 3",
+      "pt-BR": "Joia Contundente III 3",
+      "it": "G smussato III 3",
+      "pl": "Klejnot stępiony III [3]"
     },
     "skills": {
       "397306144": 3
@@ -1010,7 +1466,13 @@
     "names": {
       "en": "Poisoncoat Jewel [2]",
       "fr": "Joyau toxique [2]",
-      "es": "Joya ponzoñosa 2"
+      "de": "Giftüberzug-Jwl 2",
+      "es": "Joya ponzoñosa 2",
+      "es-419": "J. ponzoñosa [2]",
+      "pt": "Joia Camada de Veneno 2",
+      "pt-BR": "Joia Camada de Veneno 2",
+      "it": "G stratoveleno 2",
+      "pl": "K. trującej powłoki [2]"
     },
     "skills": {
       "919683456": 1
@@ -1023,7 +1485,13 @@
     "names": {
       "en": "Sleepcoat Jewel [3]",
       "fr": "Joyau sporifère [3]",
-      "es": "Joya somnífera 3"
+      "de": "Schlafüberzug-Jwl 3",
+      "es": "Joya somnífera 3",
+      "es-419": "J. somnífera [3]",
+      "pt": "Joia Camada de Sono 3",
+      "pt-BR": "Joia Camada de Sono 3",
+      "it": "G stratosonno 3",
+      "pl": "Klejnot powłoki snu [3]"
     },
     "skills": {
       "169998480": 1
@@ -1036,7 +1504,13 @@
     "names": {
       "en": "Crit Elem/Handicraft Jwl [3]",
       "fr": "Joyau chamanisme/artisanat [3]",
-      "es": "Joya crít. elem./artesana 3"
+      "de": "KritElem/HandwerkJwl3",
+      "es": "Joya crít. elem./artesana 3",
+      "es-419": "J. elm. crit./artes. [3]",
+      "pt": "Joia Elemento Crít./Artes. 3",
+      "pt-BR": "Joia Elemento Crít./Artes. 3",
+      "it": "G critico elem./artigiano 3",
+      "pl": "K. ż. kryt./rękodz. [3]"
     },
     "skills": {
       "313598432": 3,
@@ -1050,7 +1524,13 @@
     "names": {
       "en": "Leap Jewel [1]",
       "fr": "Joyau saut [1]",
-      "es": "Joya brinco 1"
+      "de": "Turner-Jwl 1",
+      "es": "Joya brinco 1",
+      "es-419": "J. salto inmune [1]",
+      "pt": "Joia de Salto 1",
+      "pt-BR": "Joia de Salto 1",
+      "it": "G salto 1",
+      "pl": "Klejnot skoku [1]"
     },
     "skills": {
       "78208296": 1
@@ -1063,7 +1543,13 @@
     "names": {
       "en": "Venom Jewel III [3]",
       "fr": "Joyau venin III [3]",
-      "es": "Joya venenosa III 3"
+      "de": "Gift-Jwl III 3",
+      "es": "Joya venenosa III 3",
+      "es-419": "J. venenosa III [3]",
+      "pt": "Joia Veneno III 3",
+      "pt-BR": "Joia Veneno III 3",
+      "it": "G veleno III 3",
+      "pl": "Klejnot jadu III [3]"
     },
     "skills": {
       "-1716324608": 3
@@ -1076,7 +1562,13 @@
     "names": {
       "en": "Adapt Jewel [1]",
       "fr": "Joyau adaptation [1]",
-      "es": "Joya adaptación 1"
+      "de": "Anpassung-Jwl 1",
+      "es": "Joya adaptación 1",
+      "es-419": "J. adaptación [1]",
+      "pt": "Joia da Adaptação 1",
+      "pt-BR": "Joia da Adaptação 1",
+      "it": "G adattamento 1",
+      "pl": "Klejnot adaptacji [1]"
     },
     "skills": {
       "424768352": 1
@@ -1089,7 +1581,13 @@
     "names": {
       "en": "Crit Stat/Ironwall Jwl [3]",
       "fr": "Joyau châtiment/paladin [3]",
-      "es": "Joya crít. estado/muro 3"
+      "de": "KritStat/Mauer-Jwl 3",
+      "es": "Joya crít. estado/muro 3",
+      "es-419": "J. est. crít./guardia [3]",
+      "pt": "Joia Stat. Crít./Muro de Ferro 3",
+      "pt-BR": "Joia Stat. Crít./Muro de Ferro 3",
+      "it": "G stato critico/barriera 3",
+      "pl": "K. st. kryt./ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -1103,7 +1601,13 @@
     "names": {
       "en": "Magazine/Expert Jwl [3]",
       "fr": "Joyau franc-tireur/maître [3]",
-      "es": "Joya cargador/experto 3"
+      "de": "Magazin/Experten-Jwl 3",
+      "es": "Joya cargador/experto 3",
+      "es-419": "J. almacén/exp. [3]",
+      "pt": "Joia Aljava/Especialista 3",
+      "pt-BR": "Joia Aljava/Especialista 3",
+      "it": "G caricatore/esperto 3",
+      "pl": "K. magazynka/eksper. [3]"
     },
     "skills": {
       "-2096489472": 1,
@@ -1117,7 +1621,13 @@
     "names": {
       "en": "Expert Jewel III [3]",
       "fr": "Joyau maître III [3]",
-      "es": "Joya experto III 3"
+      "de": "Experten-Jwl III 3",
+      "es": "Joya experto III 3",
+      "es-419": "J. experto III [3]",
+      "pt": "Joia Especialista III 3",
+      "pt-BR": "Joia Especialista III 3",
+      "it": "G esperto III 3",
+      "pl": "Klejnot eksperta III [3]"
     },
     "skills": {
       "-2096489472": 3
@@ -1130,7 +1640,13 @@
     "names": {
       "en": "Ice Res Jewel [1]",
       "fr": "Joyau antigel [1]",
-      "es": "Joya resistencia al hielo 1"
+      "de": "Eisabwehr-Jwl 1",
+      "es": "Joya resistencia al hielo 1",
+      "es-419": "J. res. al hielo [1]",
+      "pt": "Joia Resistência a Gelo 1",
+      "pt-BR": "Joia Resistência a Gelo 1",
+      "it": "G antighiaccio 1",
+      "pl": "K. lodoodporności [1]"
     },
     "skills": {
       "652161472": 1
@@ -1143,7 +1659,13 @@
     "names": {
       "en": "Gambit/Handicraft Jwl [3]",
       "fr": "Joyau punition/artisanat [3]",
-      "es": "Joya gambito/artesana 3"
+      "de": "Gambit/Handwerk-Jwl 3",
+      "es": "Joya gambito/artesana 3",
+      "es-419": "J. gambito/artes. [3]",
+      "pt": "Joia Artimanha/Artesanato 3",
+      "pt-BR": "Joia Artimanha/Artesanato 3",
+      "it": "G punizione/artigiano 3",
+      "pl": "K. gambitu/rękodz. [3]"
     },
     "skills": {
       "-1946345856": 3,
@@ -1157,7 +1679,13 @@
     "names": {
       "en": "Crit Elem/KO Jewel [3]",
       "fr": "Joyau chamanisme/cogneur [3]",
-      "es": "Joya crít. elemental/boxeo 3"
+      "de": "KritElem/K.o.-Jwl 3",
+      "es": "Joya crít. elemental/boxeo 3",
+      "es-419": "J. elm. crit./boxeo [3]",
+      "pt": "Joia Elem. Crít./Nocaute 3",
+      "pt-BR": "Joia Elem. Crít./Nocaute 3",
+      "it": "G critico elem./battitore 3",
+      "pl": "K. ż. kryt./nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -1171,7 +1699,13 @@
     "names": {
       "en": "Gambit Jewel [1]",
       "fr": "Joyau punition [1]",
-      "es": "Joya gambito 1"
+      "de": "Gambit-Jwl 1",
+      "es": "Joya gambito 1",
+      "es-419": "J. gambito [1]",
+      "pt": "Joia Artimanha 1",
+      "pt-BR": "Joia Artimanha 1",
+      "it": "G punizione 1",
+      "pl": "Klejnot gambitu [1]"
     },
     "skills": {
       "-1946345856": 1
@@ -1184,7 +1718,13 @@
     "names": {
       "en": "Antipara Jewel [1]",
       "fr": "Joyau antiparalysie [1]",
-      "es": "Joya antiparálisis 1"
+      "de": "Anti-Lähm-Jwl 1",
+      "es": "Joya antiparálisis 1",
+      "es-419": "J. antiparálisis [1]",
+      "pt": "Joia Antiparalisia 1",
+      "pt-BR": "Joia Antiparalisia 1",
+      "it": "G antiparalisi 1",
+      "pl": "K. antyparaliżujący [1]"
     },
     "skills": {
       "522288832": 1
@@ -1197,7 +1737,13 @@
     "names": {
       "en": "Blast Jewel [1]",
       "fr": "Joyau explosion [1]",
-      "es": "Joya nitro 1"
+      "de": "Explosion-Jwl 1",
+      "es": "Joya nitro 1",
+      "es-419": "J. nitro [1]",
+      "pt": "Joia Explosão 1",
+      "pt-BR": "Joia Explosão 1",
+      "it": "G scoppio 1",
+      "pl": "Klejnot wybuchu [1]"
     },
     "skills": {
       "-844978880": 1
@@ -1210,7 +1756,13 @@
     "names": {
       "en": "Paracoat Jewel [3]",
       "fr": "Joyau entrave [3]",
-      "es": "Joya paralizadora 3"
+      "de": "Lähmüberzug-Jwl 3",
+      "es": "Joya paralizadora 3",
+      "es-419": "J. paralizadora [3]",
+      "pt": "Joia Camada de Paralisia 3",
+      "pt-BR": "Joia Camada de Paralisia 3",
+      "it": "G stratoparalisi 3",
+      "pl": "K. powłoki paraliżu [3]"
     },
     "skills": {
       "-676967744": 1
@@ -1223,7 +1775,13 @@
     "names": {
       "en": "KO Jewel [1]",
       "fr": "Joyau cogneur [1]",
-      "es": "Joya boxeo 1"
+      "de": "K.o.-Jwl 1",
+      "es": "Joya boxeo 1",
+      "es-419": "J. boxeo [1]",
+      "pt": "Joia de Nocaute 1",
+      "pt-BR": "Joia de Nocaute 1",
+      "it": "G battitore 1",
+      "pl": "Klejnot nokautu [1]"
     },
     "skills": {
       "-893407296": 1
@@ -1236,7 +1794,13 @@
     "names": {
       "en": "Blaze/Enhancer Jwl [3]",
       "fr": "Joyau feu/puissance [3]",
-      "es": "Joya fuego/aumento 3"
+      "de": "Lohe/Verstärker-Jwl 3",
+      "es": "Joya fuego/aumento 3",
+      "es-419": "J. fuego/aumento [3]",
+      "pt": "Joia Chama/Intensificadora 3",
+      "pt-BR": "Joia Chama/Intensificadora 3",
+      "it": "G fuoco/amplifica 3",
+      "pl": "K. pożogi/wydłuż. [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -1250,7 +1814,13 @@
     "names": {
       "en": "Gambit/Ironwall Jwl [3]",
       "fr": "Joyau punition/paladin [3]",
-      "es": "Joya gambito/muro 3"
+      "de": "Gambit/Mauer-Jwl 3",
+      "es": "Joya gambito/muro 3",
+      "es-419": "J. gambito/guardia [3]",
+      "pt": "Joia Artimanha/M. Ferro 3",
+      "pt-BR": "Joia Artimanha/M. Ferro 3",
+      "it": "G punizione/barriera 3",
+      "pl": "K. gambitu/ż. muru [3]"
     },
     "skills": {
       "-1946345856": 3,
@@ -1264,7 +1834,13 @@
     "names": {
       "en": "Flight/Draw Jewel [3]",
       "fr": "Joyau acrobatie/dégainage [3]",
-      "es": "Joya vuelo/desenfunde 3"
+      "de": "Flug/Ziehen-Jwl 3",
+      "es": "Joya vuelo/desenfunde 3",
+      "es-419": "J. vuelo/desenf. [3]",
+      "pt": "Joia de Voo/Saque 3",
+      "pt-BR": "Joia de Voo/Saque 3",
+      "it": "G volo/sfoderata 3",
+      "pl": "K. lotu/dob. broni [3]"
     },
     "skills": {
       "402237312": 1,
@@ -1278,7 +1854,13 @@
     "names": {
       "en": "Blast Jewel II [2]",
       "fr": "Joyau explosion II [2]",
-      "es": "Joya nitro II 2"
+      "de": "Explosion-Jwl II 2",
+      "es": "Joya nitro II 2",
+      "es-419": "J. nitro II [2]",
+      "pt": "Joia Explosão II 2",
+      "pt-BR": "Joia Explosão II 2",
+      "it": "G scoppio II 2",
+      "pl": "Klejnot wybuchu II [2]"
     },
     "skills": {
       "-844978880": 2
@@ -1291,7 +1873,13 @@
     "names": {
       "en": "Critical Jewel II [2]",
       "fr": "Joyau berserk II [2]",
-      "es": "Joya críticos II 2"
+      "de": "Kritisches Jwl II 2",
+      "es": "Joya críticos II 2",
+      "es-419": "J. crítica II [2]",
+      "pt": "Joia Crítica II 2",
+      "pt-BR": "Joia Crítica II 2",
+      "it": "G critico II 2",
+      "pl": "K. krytyczny II [2]"
     },
     "skills": {
       "-1607763456": 2
@@ -1304,7 +1892,13 @@
     "names": {
       "en": "Bolt/Ironwall Jewel [3]",
       "fr": "Joyau foudre/paladin [3]",
-      "es": "Joya rayo/muro 3"
+      "de": "Blitz/Mauer-Jwl 3",
+      "es": "Joya rayo/muro 3",
+      "es-419": "J. rayo/guardia [3]",
+      "pt": "Joia Relâmpago/Muro de Ferro 3",
+      "pt-BR": "Joia Relâmpago/Muro de Ferro 3",
+      "it": "G tuono/barriera 3",
+      "pl": "K. gromu/ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -1318,7 +1912,13 @@
     "names": {
       "en": "Blaze/Handicraft Jwl [3]",
       "fr": "Joyau feu/artisanat [3]",
-      "es": "Joya fuego/artesana 3"
+      "de": "Lohe/Handwerk-Jwl 3",
+      "es": "Joya fuego/artesana 3",
+      "es-419": "J. fuego/artes. [3]",
+      "pt": "Joia Chama/Artesanato 3",
+      "pt-BR": "Joia Chama/Artesanato 3",
+      "it": "G fuoco/artigiano 3",
+      "pl": "K. pożogi/rękodzieła [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -1332,7 +1932,13 @@
     "names": {
       "en": "Charge/KO Jewel [3]",
       "fr": "Joyau charge/cogneur [3]",
-      "es": "Joya carga/boxeo 3"
+      "de": "Lade/K.o.-Jwl 3",
+      "es": "Joya carga/boxeo 3",
+      "es-419": "J. carga/boxeo [3]",
+      "pt": "Joia Energizadora/Nocaute 3",
+      "pt-BR": "Joia Energizadora/Nocaute 3",
+      "it": "G carica/battitore 3",
+      "pl": "K. ładujący/nokautu [3]"
     },
     "skills": {
       "-1475134080": 3,
@@ -1346,7 +1952,13 @@
     "names": {
       "en": "Guardian Jewel II [2]",
       "fr": "Joyau gardien II [2]",
-      "es": "Joya guardián II 2"
+      "de": "Wächter-Jwl II 2",
+      "es": "Joya guardián II 2",
+      "es-419": "J. guardián II [2]",
+      "pt": "Joia Guardiã II 2",
+      "pt-BR": "Joia Guardiã II 2",
+      "it": "G guardiano II 2",
+      "pl": "Klejnot strażnika II [2]"
     },
     "skills": {
       "-181127504": 2
@@ -1359,7 +1971,13 @@
     "names": {
       "en": "Crit Element Jewel [1]",
       "fr": "Joyau chamanisme [1]",
-      "es": "Joya crítico elemental 1"
+      "de": "KritElement-Jwl 1",
+      "es": "Joya crítico elemental 1",
+      "es-419": "J. elemento crítico [1]",
+      "pt": "Joia Elemento Crít. 1",
+      "pt-BR": "Joia Elemento Crít. 1",
+      "it": "G critico elementale 1",
+      "pl": "K. żywiołu kryt. [1]"
     },
     "skills": {
       "313598432": 1
@@ -1372,7 +1990,13 @@
     "names": {
       "en": "Wind Resist Jewel [1]",
       "fr": "Joyau antivent [1]",
-      "es": "Joya antiviento 1"
+      "de": "Windresistenz-Jwl 1",
+      "es": "Joya antiviento 1",
+      "es-419": "J. antiviento [1]",
+      "pt": "Joia Antivento 1",
+      "pt-BR": "Joia Antivento 1",
+      "it": "G antivento 1",
+      "pl": "K. wiatroodporności [1]"
     },
     "skills": {
       "-895828480": 1
@@ -1385,7 +2009,13 @@
     "names": {
       "en": "Paralyzer Jewel [1]",
       "fr": "Joyau paralysant [1]",
-      "es": "Joya paralizante 1"
+      "de": "Lähm-Jwl 1",
+      "es": "Joya paralizante 1",
+      "es-419": "J. paralizante [1]",
+      "pt": "Joia Paralisadora 1",
+      "pt-BR": "Joia Paralisadora 1",
+      "it": "G paralizzante 1",
+      "pl": "Klejnot paraliżu [1]"
     },
     "skills": {
       "-1863702144": 1
@@ -1398,7 +2028,13 @@
     "names": {
       "en": "Focus Jewel III [3]",
       "fr": "Joyau concentration III [3]",
-      "es": "Joya carga veloz III 3"
+      "de": "Fokus-Jwl III 3",
+      "es": "Joya carga veloz III 3",
+      "es-419": "J. concentración III [3]",
+      "pt": "Joia do Foco III 3",
+      "pt-BR": "Joia do Foco III 3",
+      "it": "G disciplina III 3",
+      "pl": "K. skupienia III [3]"
     },
     "skills": {
       "-283334048": 3
@@ -1411,7 +2047,13 @@
     "names": {
       "en": "Poison/KO Jewel [3]",
       "fr": "Joyau poison/cogneur [3]",
-      "es": "Joya tóxica/boxeo 3"
+      "de": "Gift/K.o.-Jwl 3",
+      "es": "Joya tóxica/boxeo 3",
+      "es-419": "J. tóxica/boxeo [3]",
+      "pt": "Joia Peçonha/Nocaute 3",
+      "pt-BR": "Joia Peçonha/Nocaute 3",
+      "it": "G veleno/battitore 3",
+      "pl": "K. trucizny/nokautu [3]"
     },
     "skills": {
       "-1629629184": 1,
@@ -1425,7 +2067,13 @@
     "names": {
       "en": "Flight/Attack Jwl [3]",
       "fr": "Joyau acrobatie/attaque [3]",
-      "es": "Joya vuelo/ataque 3"
+      "de": "Flug/Angriff-Jwl 3",
+      "es": "Joya vuelo/ataque 3",
+      "es-419": "J. vuelo/ataque [3]",
+      "pt": "Joia de Voo/Ataque 3",
+      "pt-BR": "Joia de Voo/Ataque 3",
+      "it": "G volo/attacco 3",
+      "pl": "Klejnot lotu/ataku [3]"
     },
     "skills": {
       "1": 1,
@@ -1439,7 +2087,13 @@
     "names": {
       "en": "Blastcoat Jewel [2]",
       "fr": "Joyau explosif [2]",
-      "es": "Joya vial nitro 2"
+      "de": "Sprengüberzug-Jwl 2",
+      "es": "Joya vial nitro 2",
+      "es-419": "J. nitrada [2]",
+      "pt": "Joia Camada de Explosão 2",
+      "pt-BR": "Joia Camada de Explosão 2",
+      "it": "G stratoscoppio 2",
+      "pl": "K. powłoki wybuchu [2]"
     },
     "skills": {
       "-2022542848": 1
@@ -1452,7 +2106,13 @@
     "names": {
       "en": "Grinder/Expert Jewel [3]",
       "fr": "Joyau aiguiseur/maître [3]",
-      "es": "Joya afiladora/experto 3"
+      "de": "Schleif/ExpertenJwl3",
+      "es": "Joya afiladora/experto 3",
+      "es-419": "J. afiladora/exp. [3]",
+      "pt": "Joia Amolador/Especialista 3",
+      "pt-BR": "Joia Amolador/Especialista 3",
+      "it": "G affilante/esperto 3",
+      "pl": "K. ostrz./eksperta [3]"
     },
     "skills": {
       "-2096489472": 1,
@@ -1466,7 +2126,13 @@
     "names": {
       "en": "Magazine/Draw Jwl [3]",
       "fr": "Joyau franc-tireur/dégainage [3]",
-      "es": "Joya cargador/desenfunde 3"
+      "de": "Magazin/Ziehen-Jwl 3",
+      "es": "Joya cargador/desenfunde 3",
+      "es-419": "J. almacén/desenf. [3]",
+      "pt": "Joia Aljava/Saque 3",
+      "pt-BR": "Joia Aljava/Saque 3",
+      "it": "G caricatore/sfoderata 3",
+      "pl": "K. magaz./dob. broni [3]"
     },
     "skills": {
       "686533440": 1,
@@ -1480,7 +2146,13 @@
     "names": {
       "en": "Refresh Jewel [2]",
       "fr": "Joyau métabolisme [2]",
-      "es": "Joya refresco 2"
+      "de": "Erfrischung-Jwl 2",
+      "es": "Joya refresco 2",
+      "es-419": "J. refresco [2]",
+      "pt": "Joia Revigorante 2",
+      "pt-BR": "Joia Revigorante 2",
+      "it": "G vigoroso 2",
+      "pl": "K. orzeźwienia [2]"
     },
     "skills": {
       "-315492576": 1
@@ -1493,7 +2165,13 @@
     "names": {
       "en": "Blaze/Focus Jewel [3]",
       "fr": "Joyau feu/concentration [3]",
-      "es": "Joya fuego/carga veloz 3"
+      "de": "Lohe/Fokus-Jwl 3",
+      "es": "Joya fuego/carga veloz 3",
+      "es-419": "J. fuego/concen. [3]",
+      "pt": "Joia Chama/Foco 3",
+      "pt-BR": "Joia Chama/Foco 3",
+      "it": "G fuoco/disciplina 3",
+      "pl": "K. pożogi/skupienia [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -1507,7 +2185,13 @@
     "names": {
       "en": "Charge Up/KO Jewel [3]",
       "fr": "Joyau surcharge/cogneur [3]",
-      "es": "Joya cargada/boxeo 3"
+      "de": "Aufladen/K.o.-Jwl 3",
+      "es": "Joya cargada/boxeo 3",
+      "es-419": "J. cargada/boxeo [3]",
+      "pt": "Joia Energizar/Nocaute 3",
+      "pt-BR": "Joia Energizar/Nocaute 3",
+      "it": "G stordente/battitore 3",
+      "pl": "K. ładowania/nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -1521,7 +2205,13 @@
     "names": {
       "en": "Focus/Handicraft Jewel [3]",
       "fr": "Joyau concentration/artisanat [3]",
-      "es": "Joya carga veloz/artesana 3"
+      "de": "Fokus/Handwerk-Jwl 3",
+      "es": "Joya carga veloz/artesana 3",
+      "es-419": "J. concen./artes. [3]",
+      "pt": "Joia Foco/Artesanato 3",
+      "pt-BR": "Joia Foco/Artesanato 3",
+      "it": "G disciplina/artigiano 3",
+      "pl": "K. skupienia/rękodz. [3]"
     },
     "skills": {
       "-283334048": 3,
@@ -1535,7 +2225,13 @@
     "names": {
       "en": "Sonorous/KO Jewel [3]",
       "fr": "Joyau musique/cogneur [3]",
-      "es": "Joya músico/boxeo 3"
+      "de": "Klang/K.o.-Jwl 3",
+      "es": "Joya músico/boxeo 3",
+      "es-419": "J. músico/boxeo [3]",
+      "pt": "Joia Sonora/Nocaute 3",
+      "pt-BR": "Joia Sonora/Nocaute 3",
+      "it": "G sonoro/battitore 3",
+      "pl": "K. dźwięku/nokautu [3]"
     },
     "skills": {
       "-1237438336": 2,
@@ -1549,7 +2245,13 @@
     "names": {
       "en": "Growth Jewel [1]",
       "fr": "Joyau croissance [1]",
-      "es": "Joya crecimiento 1"
+      "de": "Wachstum-Jwl 1",
+      "es": "Joya crecimiento 1",
+      "es-419": "J. crecimiento [1]",
+      "pt": "Joia do Crescimento 1",
+      "pt-BR": "Joia do Crescimento 1",
+      "it": "G miglioramento 1",
+      "pl": "Klejnot wzrostu [1]"
     },
     "skills": {
       "1639440000": 1
@@ -1562,7 +2264,13 @@
     "names": {
       "en": "Bandolier Jewel II [2]",
       "fr": "Joyau armurier II [2]",
-      "es": "Joya bandolero II 2"
+      "de": "Tetrad-Jwl II 2",
+      "es": "Joya bandolero II 2",
+      "es-419": "J. capacidad II [2]",
+      "pt": "Joia Bandoleira II 2",
+      "pt-BR": "Joia Bandoleira II 2",
+      "it": "G bandoliera II 2",
+      "pl": "Klejnot ładownicy II [2]"
     },
     "skills": {
       "1613139840": 2
@@ -1575,7 +2283,13 @@
     "names": {
       "en": "Shield/Handicraft Jwl [3]",
       "fr": "Joyau bouclier/artisanat [3]",
-      "es": "Joya escudo/artesana 3"
+      "de": "Schild/Handwerk-Jwl 3",
+      "es": "Joya escudo/artesana 3",
+      "es-419": "J. escudo/artes. [3]",
+      "pt": "Joia Escudo/Artesanato 3",
+      "pt-BR": "Joia Escudo/Artesanato 3",
+      "it": "G corazza/artigiano 3",
+      "pl": "K. tarczy/rękodzieła [3]"
     },
     "skills": {
       "-1674114176": 3,
@@ -1589,7 +2303,13 @@
     "names": {
       "en": "Protection Jewel [1]",
       "fr": "Joyau protection [1]",
-      "es": "Joya protección 1"
+      "de": "Schutz-Jwl 1",
+      "es": "Joya protección 1",
+      "es-419": "J. protección [1]",
+      "pt": "Joia da Proteção 1",
+      "pt-BR": "Joia da Proteção 1",
+      "it": "G protezione 1",
+      "pl": "Klejnot ochrony [1]"
     },
     "skills": {
       "1346775424": 1
@@ -1602,7 +2322,13 @@
     "names": {
       "en": "Paralyzer Jwl III [3]",
       "fr": "Joyau paralysant III [3]",
-      "es": "Joya paralizante III 3"
+      "de": "Lähm-Jwl III 3",
+      "es": "Joya paralizante III 3",
+      "es-419": "J. paralizante III [3]",
+      "pt": "Joia Paralisadora III 3",
+      "pt-BR": "Joia Paralisadora III 3",
+      "it": "G paralizzante III 3",
+      "pl": "K. paraliżu III [3]"
     },
     "skills": {
       "-1863702144": 3
@@ -1615,7 +2341,13 @@
     "names": {
       "en": "Stream/KO Jewel [3]",
       "fr": "Joyau eau/cogneur [3]",
-      "es": "Joya agua/boxeo 3"
+      "de": "Fluss/K.o.-Jwl 3",
+      "es": "Joya agua/boxeo 3",
+      "es-419": "J. agua/boxeo [3]",
+      "pt": "Joia Riacho/Nocaute 3",
+      "pt-BR": "Joia Riacho/Nocaute 3",
+      "it": "G acqua/battitore 3",
+      "pl": "K. strumien./nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -1629,7 +2361,13 @@
     "names": {
       "en": "Sonorous Jewel [2]",
       "fr": "Joyau musique [2]",
-      "es": "Joya músico 2"
+      "de": "Klang-Jwl 2",
+      "es": "Joya músico 2",
+      "es-419": "J. del músico [2]",
+      "pt": "Joia Sonora 2",
+      "pt-BR": "Joia Sonora 2",
+      "it": "G sonoro 2",
+      "pl": "Klejnot dźwięku [2]"
     },
     "skills": {
       "-1237438336": 1
@@ -1642,7 +2380,13 @@
     "names": {
       "en": "Razor Sharp Jewel [1]",
       "fr": "Joyau samouraï [1]",
-      "es": "Joya cortante 1"
+      "de": "Blankes Jwl 1",
+      "es": "Joya cortante 1",
+      "es-419": "J. filo cuchilla [1]",
+      "pt": "Joia Fio da Navalha 1",
+      "pt-BR": "Joia Fio da Navalha 1",
+      "it": "G rasoio 1",
+      "pl": "Klejnot naostrzenia [1]"
     },
     "skills": {
       "1050520384": 1
@@ -1655,7 +2399,13 @@
     "names": {
       "en": "Quickswitch/Ironwall Jwl [3]",
       "fr": "Joyau morphose/paladin [3]",
-      "es": "Joya mutación/muro 3"
+      "de": "Morph/Mauer-Jwl 3",
+      "es": "Joya mutación/muro 3",
+      "es-419": "J. mutación/guardia [3]",
+      "pt": "Joia Troca Rápida/M. Ferro 3",
+      "pt-BR": "Joia Troca Rápida/M. Ferro 3",
+      "it": "G trasforma/barriera 3",
+      "pl": "K. szybkop./ż. muru [3]"
     },
     "skills": {
       "-1961116288": 3,
@@ -1669,7 +2419,13 @@
     "names": {
       "en": "Dragon/Ironwall Jwl [3]",
       "fr": "Joyau dracocide/paladin [3]",
-      "es": "Joya draco/muro 3"
+      "de": "Drachen/Mauer-Jwl 3",
+      "es": "Joya draco/muro 3",
+      "es-419": "J. draco/guardia [3]",
+      "pt": "Joia Dragão/Muro de Ferro 3",
+      "pt-BR": "Joia Dragão/Muro de Ferro 3",
+      "it": "G drago/barriera 3",
+      "pl": "K. smoka/żelaz. muru [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -1683,7 +2439,13 @@
     "names": {
       "en": "Guardian/Handicraft Jwl [3]",
       "fr": "Joyau gardien/artisanat [3]",
-      "es": "Joya guardián/artesana 3"
+      "de": "Wächter/HandwerkJwl3",
+      "es": "Joya guardián/artesana 3",
+      "es-419": "J. guardián/artes. [3]",
+      "pt": "Joia Guardiã/Artesanato 3",
+      "pt-BR": "Joia Guardiã/Artesanato 3",
+      "it": "G guardiano/artigiano 3",
+      "pl": "K. strażnika/rękodz. [3]"
     },
     "skills": {
       "-181127504": 3,
@@ -1697,7 +2459,13 @@
     "names": {
       "en": "Expert Jewel [1]",
       "fr": "Joyau maître [1]",
-      "es": "Joya experto 1"
+      "de": "Experten-Jwl 1",
+      "es": "Joya experto 1",
+      "es-419": "J. del experto [1]",
+      "pt": "Joia Especialista 1",
+      "pt-BR": "Joia Especialista 1",
+      "it": "G esperto 1",
+      "pl": "Klejnot eksperta [1]"
     },
     "skills": {
       "-2096489472": 1
@@ -1710,7 +2478,13 @@
     "names": {
       "en": "Chain Jewel [3]",
       "fr": "Joyau chaîne [3]",
-      "es": "Joya serie 3"
+      "de": "Ketten-Jwl 3",
+      "es": "Joya serie 3",
+      "es-419": "J. serie [3]",
+      "pt": "Joia de Cadeia 3",
+      "pt-BR": "Joia de Cadeia 3",
+      "it": "G catena 3",
+      "pl": "Klejnot łańcucha [3]"
     },
     "skills": {
       "565867136": 1
@@ -1723,7 +2497,13 @@
     "names": {
       "en": "Magazine/Handicraft Jwl [3]",
       "fr": "Joyau franc-tireur/artisanat [3]",
-      "es": "Joya cargador/artesana 3"
+      "de": "Magazin/HandwerkJwl3",
+      "es": "Joya cargador/artesana 3",
+      "es-419": "J. almacén/artes. [3]",
+      "pt": "Joia Aljava/Artesanato 3",
+      "pt-BR": "Joia Aljava/Artesanato 3",
+      "it": "G caricatore/artigiano 3",
+      "pl": "K. magazynka/rękodz. [3]"
     },
     "skills": {
       "802725120": 2,
@@ -1737,7 +2517,13 @@
     "names": {
       "en": "Brace Jewel [1]",
       "fr": "Joyau inflexible [1]",
-      "es": "Joya tenaz 1"
+      "de": "Wappnungs-Jwl 1",
+      "es": "Joya tenaz 1",
+      "es-419": "J. tenaz [1]",
+      "pt": "Joia do Preparo 1",
+      "pt-BR": "Joia do Preparo 1",
+      "it": "G pilastro 1",
+      "pl": "Klejnot gotowości [1]"
     },
     "skills": {
       "742695104": 1
@@ -1750,7 +2536,13 @@
     "names": {
       "en": "Dive Jewel [1]",
       "fr": "Joyau plongeon [1]",
-      "es": "Joya inmersión 1"
+      "de": "Hechtsprung-Jwl 1",
+      "es": "Joya inmersión 1",
+      "es-419": "J. inmersión [1]",
+      "pt": "Joia de Mergulho 1",
+      "pt-BR": "Joia de Mergulho 1",
+      "it": "G tuffo 1",
+      "pl": "Klejnot nurka [1]"
     },
     "skills": {
       "-1304512512": 1
@@ -1763,7 +2555,13 @@
     "names": {
       "en": "Poison/Ironwall Jwl [3]",
       "fr": "Joyau poison/paladin [3]",
-      "es": "Joya tóxica/muro 3"
+      "de": "Gift/Mauer-Jwl 3",
+      "es": "Joya tóxica/muro 3",
+      "es-419": "J. tóxica/guardia [3]",
+      "pt": "Joia Peçonha/Muro de Ferro 3",
+      "pt-BR": "Joia Peçonha/Muro de Ferro 3",
+      "it": "G veleno/barriera 3",
+      "pl": "K. trucizny/ż. muru [3]"
     },
     "skills": {
       "-1629629184": 1,
@@ -1777,7 +2575,13 @@
     "names": {
       "en": "Antidote Jewel [1]",
       "fr": "Joyau antidote [1]",
-      "es": "Joya antídoto 1"
+      "de": "Gegengift-Jwl 1",
+      "es": "Joya antídoto 1",
+      "es-419": "J. antídoto [1]",
+      "pt": "Joia Antídoto 1",
+      "pt-BR": "Joia Antídoto 1",
+      "it": "G antidoto 1",
+      "pl": "Klejnot antidotum [1]"
     },
     "skills": {
       "1459579264": 1
@@ -1790,7 +2594,13 @@
     "names": {
       "en": "Bomber Jewel [1]",
       "fr": "Joyau bombardier [1]",
-      "es": "Joya bombardera 1"
+      "de": "Bomber-Jwl 1",
+      "es": "Joya bombardera 1",
+      "es-419": "J. bombardera [1]",
+      "pt": "Joia Bombardeiro 1",
+      "pt-BR": "Joia Bombardeiro 1",
+      "it": "G dinamite 1",
+      "pl": "Klejnot bombowy [1]"
     },
     "skills": {
       "-857543744": 1
@@ -1803,7 +2613,13 @@
     "names": {
       "en": "Geology Jewel [1]",
       "fr": "Joyau géologie [1]",
-      "es": "Joya geológica 1"
+      "de": "Geologie-Jwl 1",
+      "es": "Joya geológica 1",
+      "es-419": "J. geológica [1]",
+      "pt": "Joia Geológica 1",
+      "pt-BR": "Joia Geológica 1",
+      "it": "G geologia 1",
+      "pl": "Klejnot geologii [1]"
     },
     "skills": {
       "595870656": 1
@@ -1816,7 +2632,13 @@
     "names": {
       "en": "Enhancer Jewel II [2]",
       "fr": "Joyau puissance II [2]",
-      "es": "Joya aumento II 2"
+      "de": "Verstärker-Jwl II 2",
+      "es": "Joya aumento II 2",
+      "es-419": "J. aumento II [2]",
+      "pt": "Joia Intensificadora II 2",
+      "pt-BR": "Joia Intensificadora II 2",
+      "it": "G amplifica II 2",
+      "pl": "K. wydłużacza II [2]"
     },
     "skills": {
       "691199232": 2
@@ -1829,7 +2651,13 @@
     "names": {
       "en": "Blaze/KO Jewel [3]",
       "fr": "Joyau feu/cogneur [3]",
-      "es": "Joya fuego/boxeo 3"
+      "de": "Lohe/K.o.-Jwl 3",
+      "es": "Joya fuego/boxeo 3",
+      "es-419": "J. fuego/boxeo [3]",
+      "pt": "Joia Chama/Nocaute 3",
+      "pt-BR": "Joia Chama/Nocaute 3",
+      "it": "G fuoco/battitore 3",
+      "pl": "K. pożogi/nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -1843,7 +2671,13 @@
     "names": {
       "en": "Draw Jewel [1]",
       "fr": "Joyau dégainage [1]",
-      "es": "Joya desenfunde 1"
+      "de": "Ziehen-Jwl 1",
+      "es": "Joya desenfunde 1",
+      "es-419": "J. desenfunde [1]",
+      "pt": "Joia de Saque 1",
+      "pt-BR": "Joia de Saque 1",
+      "it": "G sfoderata 1",
+      "pl": "K. dobycia broni [1]"
     },
     "skills": {
       "686533440": 1
@@ -1856,7 +2690,13 @@
     "names": {
       "en": "Charge Jewel II [2]",
       "fr": "Joyau charge II [2]",
-      "es": "Joya carga II 2"
+      "de": "Lade-Jwl II 2",
+      "es": "Joya carga II 2",
+      "es-419": "J. carga II [2]",
+      "pt": "Joia Energizadora II 2",
+      "pt-BR": "Joia Energizadora II 2",
+      "it": "G carica II 2",
+      "pl": "Klejnot ładowania II [2]"
     },
     "skills": {
       "-1475134080": 2
@@ -1869,7 +2709,13 @@
     "names": {
       "en": "Sheath Jewel [1]",
       "fr": "Joyau rengainage [1]",
-      "es": "Joya envainado 1"
+      "de": "Wegsteck-Jwl 1",
+      "es": "Joya envainado 1",
+      "es-419": "J. envainado [1]",
+      "pt": "Joia da Bainha 1",
+      "pt-BR": "Joia da Bainha 1",
+      "it": "G rinfodero 1",
+      "pl": "Klejnot futerału [1]"
     },
     "skills": {
       "-1073401280": 1
@@ -1882,7 +2728,13 @@
     "names": {
       "en": "Shield Jewel II [2]",
       "fr": "Joyau bouclier II [2]",
-      "es": "Joya escudo II 2"
+      "de": "Schild-Jwl II 2",
+      "es": "Joya escudo II 2",
+      "es-419": "J. escudo II [2]",
+      "pt": "Joia de Escudo II 2",
+      "pt-BR": "Joia de Escudo II 2",
+      "it": "G corazza II 2",
+      "pl": "Klejnot tarczy II [2]"
     },
     "skills": {
       "-1674114176": 2
@@ -1895,7 +2747,13 @@
     "names": {
       "en": "Satiated Jewel [1]",
       "fr": "Joyau parasite [1]",
-      "es": "Joya saciante 1"
+      "de": "Sattes Jwl 1",
+      "es": "Joya saciante 1",
+      "es-419": "J. saciante [1]",
+      "pt": "Joia Saciedade 1",
+      "pt-BR": "Joia Saciedade 1",
+      "it": "G spuntino 1",
+      "pl": "Klejnot nasycenia [1]"
     },
     "skills": {
       "850626240": 1
@@ -1908,7 +2766,13 @@
     "names": {
       "en": "Dragon Jewel II [2]",
       "fr": "Joyau dracocide II [2]",
-      "es": "Joya draco II 2"
+      "de": "Drachen-Jwl II 2",
+      "es": "Joya draco II 2",
+      "es-419": "J. draco II [2]",
+      "pt": "Joia Dragão II 2",
+      "pt-BR": "Joia Dragão II 2",
+      "it": "G drago II 2",
+      "pl": "Klejnot smoka II [2]"
     },
     "skills": {
       "-776946176": 2
@@ -1921,7 +2785,13 @@
     "names": {
       "en": "Razor Sharp Jewel II [2]",
       "fr": "Joyau samouraï II [2]",
-      "es": "Joya cortante II 2"
+      "de": "Blankes Jwl II 2",
+      "es": "Joya cortante II 2",
+      "es-419": "J. filo cuchilla II [2]",
+      "pt": "Joia Fio da Navalha II 2",
+      "pt-BR": "Joia Fio da Navalha II 2",
+      "it": "G rasoio II 2",
+      "pl": "K. naostrzenia II [2]"
     },
     "skills": {
       "1050520384": 2
@@ -1934,7 +2804,13 @@
     "names": {
       "en": "Sonorous/Expert Jwl [3]",
       "fr": "Joyau musique/maître [3]",
-      "es": "Joya músico/experto 3"
+      "de": "Klang/Experten-Jwl 3",
+      "es": "Joya músico/experto 3",
+      "es-419": "J. músico/exp. III [3]",
+      "pt": "Joia Sonora/Especialista 3",
+      "pt-BR": "Joia Sonora/Especialista 3",
+      "it": "G sonoro/esperto 3",
+      "pl": "K. dźwięczny/eksper. [3]"
     },
     "skills": {
       "-2096489472": 1,
@@ -1948,7 +2824,13 @@
     "names": {
       "en": "Poison/Draw Jewel [3]",
       "fr": "Joyau poison/dégainage [3]",
-      "es": "Joya tóxica/desenfunde 3"
+      "de": "Gift/Ziehen-Jwl 3",
+      "es": "Joya tóxica/desenfunde 3",
+      "es-419": "J. tóxica/desenf. [3]",
+      "pt": "Joia Peçonha/Saque 3",
+      "pt-BR": "Joia Peçonha/Saque 3",
+      "it": "G veleno/sfoderata 3",
+      "pl": "K. trucizny/dob. br. [3]"
     },
     "skills": {
       "-1629629184": 1,
@@ -1962,7 +2844,13 @@
     "names": {
       "en": "Grinder/KO Jewel [3]",
       "fr": "Joyau aiguiseur/cogneur [3]",
-      "es": "Joya afiladora/boxeo 3"
+      "de": "Schleif/K.o.-Jwl 3",
+      "es": "Joya afiladora/boxeo 3",
+      "es-419": "J. afiladora/boxeo [3]",
+      "pt": "Joia Amolador/Nocaute 3",
+      "pt-BR": "Joia Amolador/Nocaute 3",
+      "it": "G affilante/battitore 3",
+      "pl": "K. ostrzenia/nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -1976,7 +2864,13 @@
     "names": {
       "en": "Ironwall Jewel [1]",
       "fr": "Joyau paladin [1]",
-      "es": "Joya muro 1"
+      "de": "Mauer-Jwl 1",
+      "es": "Joya muro 1",
+      "es-419": "J. guardia [1]",
+      "pt": "Joia Muro de Ferro 1",
+      "pt-BR": "Joia Muro de Ferro 1",
+      "it": "G barriera 1",
+      "pl": "K. żelaznego muru [1]"
     },
     "skills": {
       "-307644128": 1
@@ -1989,7 +2883,13 @@
     "names": {
       "en": "Blaze/Shield Jewel [3]",
       "fr": "Joyau feu/bouclier [3]",
-      "es": "Joya fuego/escudo 3"
+      "de": "Lohe/Schild-Jwl 3",
+      "es": "Joya fuego/escudo 3",
+      "es-419": "J. fuego/escudo [3]",
+      "pt": "Joia Chama/Escudo 3",
+      "pt-BR": "Joia Chama/Escudo 3",
+      "it": "G fuoco/corazza 3",
+      "pl": "K. pożogi/tarczy [3]"
     },
     "skills": {
       "-1674114176": 1,
@@ -2003,7 +2903,13 @@
     "names": {
       "en": "Artillery Jewel II [2]",
       "fr": "Joyau dynamite II [2]",
-      "es": "Joya artillería II 2"
+      "de": "Artillerie-Jwl II 2",
+      "es": "Joya artillería II 2",
+      "es-419": "J. artillería II [2]",
+      "pt": "Joia Artilharia II 2",
+      "pt-BR": "Joia Artilharia II 2",
+      "it": "G armamento II 2",
+      "pl": "K. artylerii II [2]"
     },
     "skills": {
       "-596764096": 2
@@ -2016,7 +2922,13 @@
     "names": {
       "en": "Fungiform Jewel [2]",
       "fr": "Joyau mycologue [2]",
-      "es": "Joya micótica 2"
+      "de": "Pilzform-Jwl 2",
+      "es": "Joya micótica 2",
+      "es-419": "J. micótica [2]",
+      "pt": "Joia Fungiforme 2",
+      "pt-BR": "Joia Fungiforme 2",
+      "it": "G fungomante 2",
+      "pl": "Klejnot grzybny [2]"
     },
     "skills": {
       "-481419552": 1
@@ -2029,7 +2941,13 @@
     "names": {
       "en": "Opener/Precise Jewel [3]",
       "fr": "Joyau premier coup/kyudo [3]",
-      "es": "Joya detonante/puntería 3"
+      "de": "Eröffner/Präzises Jwl 3",
+      "es": "Joya detonante/puntería 3",
+      "es-419": "J. apertura/precisa [3]",
+      "pt": "Joia Estopim/Precisão 3",
+      "pt-BR": "Joia Estopim/Precisão 3",
+      "it": "G primo colpo/preciso 3",
+      "pl": "K. p. strz./precyz. [3]"
     },
     "skills": {
       "-420608864": 1,
@@ -2043,7 +2961,13 @@
     "names": {
       "en": "Blaze Jewel II [2]",
       "fr": "Joyau feu II [2]",
-      "es": "Joya fuego II 2"
+      "de": "Lohe-Jwl II 2",
+      "es": "Joya fuego II 2",
+      "es-419": "J. fuego II [2]",
+      "pt": "Joia Chama II 2",
+      "pt-BR": "Joia Chama II 2",
+      "it": "G fuoco II 2",
+      "pl": "Klejnot pożogi II [2]"
     },
     "skills": {
       "-562534336": 2
@@ -2056,7 +2980,13 @@
     "names": {
       "en": "Blaze Jewel [1]",
       "fr": "Joyau feu [1]",
-      "es": "Joya fuego 1"
+      "de": "Lohe-Jwl 1",
+      "es": "Joya fuego 1",
+      "es-419": "J. fuego [1]",
+      "pt": "Joia Chama 1",
+      "pt-BR": "Joia Chama 1",
+      "it": "G fuoco 1",
+      "pl": "Klejnot pożogi [1]"
     },
     "skills": {
       "-562534336": 1
@@ -2069,7 +2999,13 @@
     "names": {
       "en": "Shield/Stream Jewel [3]",
       "fr": "Joyau bouclier/eau [3]",
-      "es": "Joya escudo/agua 3"
+      "de": "Schild/Fluss-Jwl 3",
+      "es": "Joya escudo/agua 3",
+      "es-419": "J. escudo/agua [3]",
+      "pt": "Joia Escudo/Riacho 3",
+      "pt-BR": "Joia Escudo/Riacho 3",
+      "it": "G corazza/acqua 3",
+      "pl": "K. tarczy/strumienia [3]"
     },
     "skills": {
       "-1674114176": 3,
@@ -2083,7 +3019,13 @@
     "names": {
       "en": "Bolt/Opener Jewel [3]",
       "fr": "Joyau foudre/premier coup [3]",
-      "es": "Joya rayo/detonante 3"
+      "de": "Blitz/Eröffner-Jwl 3",
+      "es": "Joya rayo/detonante 3",
+      "es-419": "J. rayo/apertura [3]",
+      "pt": "Joia Relâmpago/Estopim 3",
+      "pt-BR": "Joia Relâmpago/Estopim 3",
+      "it": "G tuono/primo colpo 3",
+      "pl": "K. gromu/p. strzału [3]"
     },
     "skills": {
       "1452140672": 3,
@@ -2097,7 +3039,13 @@
     "names": {
       "en": "Dragon/Guardian Jwl [3]",
       "fr": "Joyau dracocide/gardien [3]",
-      "es": "Joya draco/guardián 3"
+      "de": "Drachen/Wächter-Jwl 3",
+      "es": "Joya draco/guardián 3",
+      "es-419": "J. draco/guardián [3]",
+      "pt": "Joia Dragão/Guardiã 3",
+      "pt-BR": "Joia Dragão/Guardiã 3",
+      "it": "G drago/guardiano 3",
+      "pl": "K. smoka/strażnika [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -2111,7 +3059,13 @@
     "names": {
       "en": "Dragon/Focus Jewel [3]",
       "fr": "Joyau dracocide/concentration [3]",
-      "es": "Joya draco/carga veloz 3"
+      "de": "Drachen/Fokus-Jwl 3",
+      "es": "Joya draco/carga veloz 3",
+      "es-419": "J. draco/concen. [3]",
+      "pt": "Joia Dragão/Foco 3",
+      "pt-BR": "Joia Dragão/Foco 3",
+      "it": "G drago/disciplina 3",
+      "pl": "K. smoka/skupienia [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -2125,7 +3079,13 @@
     "names": {
       "en": "Crit Elem/Blaze Jwl [3]",
       "fr": "Joyau chamanisme/feu [3]",
-      "es": "Joya crít. elemental/fuego 3"
+      "de": "KritElem/Lohe-Jwl 3",
+      "es": "Joya crít. elemental/fuego 3",
+      "es-419": "J. elm. crít./fuego [3]",
+      "pt": "Joia Elemento Crítico/Chama 3",
+      "pt-BR": "Joia Elemento Crítico/Chama 3",
+      "it": "G critico elem./fuoco 3",
+      "pl": "K. żyw. kryt./pożogi [3]"
     },
     "skills": {
       "-562534336": 1,
@@ -2139,7 +3099,13 @@
     "names": {
       "en": "Frost/Rzr Sharp Jwl [3]",
       "fr": "Joyau glace/samouraï [3]",
-      "es": "Joya hielo/cortante 3"
+      "de": "Frost/Blankes Jwl 3",
+      "es": "Joya hielo/cortante 3",
+      "es-419": "J. hielo/f. cuch. [3]",
+      "pt": "Joia Geada/Fio da Navalha 3",
+      "pt-BR": "Joia Geada/Fio da Navalha 3",
+      "it": "G ghiaccio/rasoio 3",
+      "pl": "K. mrozu/naostrz. [3]"
     },
     "skills": {
       "1050520384": 1,
@@ -2153,7 +3119,13 @@
     "names": {
       "en": "Focus/Frost Jewel [3]",
       "fr": "Joyau concentration/glace [3]",
-      "es": "Joya carga veloz/hielo 3"
+      "de": "Fokus/Frost-Jwl 3",
+      "es": "Joya carga veloz/hielo 3",
+      "es-419": "J. concen./hielo [3]",
+      "pt": "Joia Foco/Geada 3",
+      "pt-BR": "Joia Foco/Geada 3",
+      "it": "G disciplina/ghiaccio 3",
+      "pl": "K. skupienia/mrozu [3]"
     },
     "skills": {
       "-283334048": 3,
@@ -2167,7 +3139,13 @@
     "names": {
       "en": "Rzr Sharp/Frost Jwl [3]",
       "fr": "Joyau samouraï/glace [3]",
-      "es": "Joya cortante/hielo 3"
+      "de": "Blankes/Frost-Jwl 3",
+      "es": "Joya cortante/hielo 3",
+      "es-419": "J. filo. cuch./hielo [3]",
+      "pt": "Joia Fio da Navalha/Geada 3",
+      "pt-BR": "Joia Fio da Navalha/Geada 3",
+      "it": "G rasoio/ghiaccio 3",
+      "pl": "K. naostrzenia/mrozu [3]"
     },
     "skills": {
       "1050520384": 3,
@@ -2181,7 +3159,13 @@
     "names": {
       "en": "Dragon/Opener Jewel [3]",
       "fr": "Joyau dracocide/premier coup [3]",
-      "es": "Joya draco/detonante 3"
+      "de": "Drachen/Eröffner-Jwl 3",
+      "es": "Joya draco/detonante 3",
+      "es-419": "J. draco/apertura [3]",
+      "pt": "Joia Dragão/Estopim 3",
+      "pt-BR": "Joia Dragão/Estopim 3",
+      "it": "G drago/primo colpo 3",
+      "pl": "K. smoka/p. strzału [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -2195,7 +3179,13 @@
     "names": {
       "en": "Focus/Stream Jewel [3]",
       "fr": "Joyau concentration/eau [3]",
-      "es": "Joya carga veloz/agua 3"
+      "de": "Fokus/Fluss-Jwl 3",
+      "es": "Joya carga veloz/agua 3",
+      "es-419": "J. concen./agua [3]",
+      "pt": "Joia Foco/Riacho 3",
+      "pt-BR": "Joia Foco/Riacho 3",
+      "it": "G disciplina/acqua 3",
+      "pl": "K. skupienia/strum. [3]"
     },
     "skills": {
       "-283334048": 3,
@@ -2209,7 +3199,13 @@
     "names": {
       "en": "Quickswitch/Dragon Jwl [3]",
       "fr": "Joyau morphose/dracocide [3]",
-      "es": "Joya mutación/draco 3"
+      "de": "Morph/Drachen-Jwl 3",
+      "es": "Joya mutación/draco 3",
+      "es-419": "J. mutación/draco [3]",
+      "pt": "Joia Troca Rápida/Dragão 3",
+      "pt-BR": "Joia Troca Rápida/Dragão 3",
+      "it": "G trasforma/drago 3",
+      "pl": "K. szybkop./smoka [3]"
     },
     "skills": {
       "-1961116288": 3,
@@ -2223,7 +3219,13 @@
     "names": {
       "en": "Bandolier/Blaze Jwl [3]",
       "fr": "Joyau armurier/feu [3]",
-      "es": "Joya bandolero/fuego 3"
+      "de": "Tetrad/Lohe-Jwl 3",
+      "es": "Joya bandolero/fuego 3",
+      "es-419": "J. capacidad/fuego [3]",
+      "pt": "Joia Bandoleira/Chama 3",
+      "pt-BR": "Joia Bandoleira/Chama 3",
+      "it": "G bandoliera/fuoco 3",
+      "pl": "K. ładownicy/pożogi [3]"
     },
     "skills": {
       "-562534336": 1,
@@ -2237,7 +3239,13 @@
     "names": {
       "en": "Rzr Sharp/Stream Jwl [3]",
       "fr": "Joyau samouraï/eau [3]",
-      "es": "Joya cortante/agua 3"
+      "de": "Blankes/Fluss-Jwl 3",
+      "es": "Joya cortante/agua 3",
+      "es-419": "J. filo cuch./agua [3]",
+      "pt": "Joia Fio da Navalha/Riacho 3",
+      "pt-BR": "Joia Fio da Navalha/Riacho 3",
+      "it": "G rasoio/acqua 3",
+      "pl": "K. naostrz./strum. [3]"
     },
     "skills": {
       "508916704": 1,
@@ -2251,7 +3259,13 @@
     "names": {
       "en": "Blaze/Opener Jewel [3]",
       "fr": "Joyau feu/premier coup [3]",
-      "es": "Joya fuego/detonante 3"
+      "de": "Lohe/Eröffner-Jwl 3",
+      "es": "Joya fuego/detonante 3",
+      "es-419": "J. fuego/apertura [3]",
+      "pt": "Joia Chama/Estopim 3",
+      "pt-BR": "Joia Chama/Estopim 3",
+      "it": "G fuoco/primo colpo 3",
+      "pl": "K. pożogi/p. strzału [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -2265,7 +3279,13 @@
     "names": {
       "en": "Bolt/Focus Jewel [3]",
       "fr": "Joyau foudre/concentration [3]",
-      "es": "Joya rayo/carga veloz 3"
+      "de": "Blitz/Fokus-Jwl 3",
+      "es": "Joya rayo/carga veloz 3",
+      "es-419": "J. rayo/concentración [3]",
+      "pt": "Joia Relâmpago/Foco 3",
+      "pt-BR": "Joia Relâmpago/Foco 3",
+      "it": "G tuono/disciplina 3",
+      "pl": "K. gromu/skupienia [3]"
     },
     "skills": {
       "-283334048": 1,
@@ -2279,7 +3299,13 @@
     "names": {
       "en": "Enhancer/Blaze Jewel [3]",
       "fr": "Joyau puissance/feu [3]",
-      "es": "Joya aumento/fuego 3"
+      "de": "Verstärker/Lohe-Jwl 3",
+      "es": "Joya aumento/fuego 3",
+      "es-419": "J. aumento/fuego [3]",
+      "pt": "Joia Intensificadora/Chama 3",
+      "pt-BR": "Joia Intensificadora/Chama 3",
+      "it": "G amplifica/fuoco 3",
+      "pl": "K. wydłużacza/pożogi [3]"
     },
     "skills": {
       "-562534336": 1,
@@ -2293,7 +3319,13 @@
     "names": {
       "en": "Crit Elem/Stream Jwl [3]",
       "fr": "Joyau chamanisme/eau [3]",
-      "es": "Joya crít. elemental/agua 3"
+      "de": "KritElem/Fluss-Jwl 3",
+      "es": "Joya crít. elemental/agua 3",
+      "es-419": "J. elm. crít./agua [3]",
+      "pt": "Joia Elemento Crítico/Riacho 3",
+      "pt-BR": "Joia Elemento Crítico/Riacho 3",
+      "it": "G critico elem./acqua 3",
+      "pl": "K. żyw. kryt./strum. [3]"
     },
     "skills": {
       "313598432": 3,
@@ -2307,7 +3339,13 @@
     "names": {
       "en": "Bolt/Rzr Sharp Jwl [3]",
       "fr": "Joyau foudre/samouraï [3]",
-      "es": "Joya rayo/cortante 3"
+      "de": "Blitz/Blankes Jwl 3",
+      "es": "Joya rayo/cortante 3",
+      "es-419": "J. rayo/filo de cuch. [3]",
+      "pt": "Joia Relâmpago/Fio Nav. 3",
+      "pt-BR": "Joia Relâmpago/Fio Nav. 3",
+      "it": "G tuono/rasoio 3",
+      "pl": "K. gromu/naostrzenia [3]"
     },
     "skills": {
       "1050520384": 1,
@@ -2321,7 +3359,13 @@
     "names": {
       "en": "Enhancer/Frost Jwl [3]",
       "fr": "Joyau puissance/glace [3]",
-      "es": "Joya aumento/hielo 3"
+      "de": "Verstärker/Frost-Jwl 3",
+      "es": "Joya aumento/hielo 3",
+      "es-419": "J. aumento/hielo [3]",
+      "pt": "Joia Intensificadora/Geada 3",
+      "pt-BR": "Joia Intensificadora/Geada 3",
+      "it": "G amplifica/ghiaccio 3",
+      "pl": "K. wydłużacza/mrozu [3]"
     },
     "skills": {
       "691199232": 3,
@@ -2335,7 +3379,13 @@
     "names": {
       "en": "Crit Elem/Bolt Jwl [3]",
       "fr": "Joyau chamanisme/foudre [3]",
-      "es": "Joya crít. elemental/rayo 3"
+      "de": "KritElem/Blitz-Jwl 3",
+      "es": "Joya crít. elemental/rayo 3",
+      "es-419": "J. elm. crít./rayo [3]",
+      "pt": "Joia Elem. Crít./Relâmpago 3",
+      "pt-BR": "Joia Elem. Crít./Relâmpago 3",
+      "it": "G critico elem./tuono 3",
+      "pl": "K. żyw. kryt./gromu [3]"
     },
     "skills": {
       "313598432": 3,
@@ -2349,7 +3399,13 @@
     "names": {
       "en": "Dragon/Crit Elem Jwl [3]",
       "fr": "Joyau dracocide/chamanisme [3]",
-      "es": "Joya draco/crít. elem. 3"
+      "de": "Drachen/KritElem-Jwl 3",
+      "es": "Joya draco/crít. elem. 3",
+      "es-419": "J. draco/elm. crít. [3]",
+      "pt": "Joia Dragão/Elemento Crítico 3",
+      "pt-BR": "Joia Dragão/Elemento Crítico 3",
+      "it": "G drago/critico elem. 3",
+      "pl": "K. smoka/żyw. kryt. [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -2363,7 +3419,13 @@
     "names": {
       "en": "Frost/Bandolier Jwl [3]",
       "fr": "Joyau glace/armurier [3]",
-      "es": "Joya hielo/bandolero 3"
+      "de": "Frost/Tetrad-Jwl 3",
+      "es": "Joya hielo/bandolero 3",
+      "es-419": "J. hielo/capacidad [3]",
+      "pt": "Joia Geada/Bandoleira 3",
+      "pt-BR": "Joia Geada/Bandoleira 3",
+      "it": "G ghiaccio/bandoliera 3",
+      "pl": "K. mrozu/ładownicy [3]"
     },
     "skills": {
       "1268070400": 3,
@@ -2377,7 +3439,13 @@
     "names": {
       "en": "Dragon/Shield Jewel [3]",
       "fr": "Joyau dracocide/bouclier [3]",
-      "es": "Joya draco/escudo 3"
+      "de": "Drachen/Schild-Jwl 3",
+      "es": "Joya draco/escudo 3",
+      "es-419": "J. draco/escudo [3]",
+      "pt": "Joia Dragão/Escudo 3",
+      "pt-BR": "Joia Dragão/Escudo 3",
+      "it": "G drago/corazza 3",
+      "pl": "Klejnot smoka/tarczy [3]"
     },
     "skills": {
       "-1674114176": 1,
@@ -2391,7 +3459,13 @@
     "names": {
       "en": "Quickswitch/Blaze Jwl [3]",
       "fr": "Joyau morphose/feu [3]",
-      "es": "Joya mutación/fuego 3"
+      "de": "Morph/Lohe-Jwl 3",
+      "es": "Joya mutación/fuego 3",
+      "es-419": "J. mutación/fuego [3]",
+      "pt": "Joia Troca Rápida/Chama 3",
+      "pt-BR": "Joia Troca Rápida/Chama 3",
+      "it": "G trasforma/fuoco 3",
+      "pl": "K. szybkop./pożogi [3]"
     },
     "skills": {
       "-1961116288": 3,
@@ -2405,7 +3479,13 @@
     "names": {
       "en": "Shield/Frost Jewel [3]",
       "fr": "Joyau bouclier/glace [3]",
-      "es": "Joya escudo/hielo 3"
+      "de": "Schild/Frost-Jwl 3",
+      "es": "Joya escudo/hielo 3",
+      "es-419": "J. escudo/hielo [3]",
+      "pt": "Joia Escudo/Geada 3",
+      "pt-BR": "Joia Escudo/Geada 3",
+      "it": "G corazza/ghiaccio 3",
+      "pl": "K. tarczy/mrozu [3]"
     },
     "skills": {
       "-1674114176": 3,
@@ -2419,7 +3499,13 @@
     "names": {
       "en": "Bolt/Quickswitch Jwl [3]",
       "fr": "Joyau foudre/morphose [3]",
-      "es": "Joya rayo/mutación 3"
+      "de": "Blitz/Morph-Jwl 3",
+      "es": "Joya rayo/mutación 3",
+      "es-419": "J. rayo/mutación [3]",
+      "pt": "Joia Relâmpago/Troca Rápida 3",
+      "pt-BR": "Joia Relâmpago/Troca Rápida 3",
+      "it": "G tuono/trasforma 3",
+      "pl": "K. gromu/szybkop. [3]"
     },
     "skills": {
       "-1961116288": 1,
@@ -2433,7 +3519,13 @@
     "names": {
       "en": "Crit Elem/Frost Jwl [3]",
       "fr": "Joyau chamanisme/glace [3]",
-      "es": "Joya crít. elemental/hielo 3"
+      "de": "KritElem/Frost-Jwl 3",
+      "es": "Joya crít. elemental/hielo 3",
+      "es-419": "J. elm. crít./hielo [3]",
+      "pt": "Joia Elemento Crítico/Geada 3",
+      "pt-BR": "Joia Elemento Crítico/Geada 3",
+      "it": "G critico elem./ghiaccio 3",
+      "pl": "K. żyw. kryt./mrozu [3]"
     },
     "skills": {
       "313598432": 3,
@@ -2447,7 +3539,13 @@
     "names": {
       "en": "Shield/Bolt Jewel [3]",
       "fr": "Joyau bouclier/foudre [3]",
-      "es": "Joya escudo/rayo 3"
+      "de": "Schild/Blitz-Jwl 3",
+      "es": "Joya escudo/rayo 3",
+      "es-419": "J. escudo/rayo [3]",
+      "pt": "Joia Escudo/Relâmpago 3",
+      "pt-BR": "Joia Escudo/Relâmpago 3",
+      "it": "G corazza/tuono 3",
+      "pl": "K. tarczy/gromu [3]"
     },
     "skills": {
       "-1674114176": 3,
@@ -2461,7 +3559,13 @@
     "names": {
       "en": "Stream/Rzr Sharp Jwl [3]",
       "fr": "Joyau eau/samouraï [3]",
-      "es": "Joya agua/cortante 3"
+      "de": "Fluss/Blankes Jwl 3",
+      "es": "Joya agua/cortante 3",
+      "es-419": "J. agua/filo cuch. [3]",
+      "pt": "Joia Riacho/Fio da Navalha 3",
+      "pt-BR": "Joia Riacho/Fio da Navalha 3",
+      "it": "G acqua/rasoio 3",
+      "pl": "K. strum./naostrz. [3]"
     },
     "skills": {
       "508916704": 3,
@@ -2475,7 +3579,13 @@
     "names": {
       "en": "Stream/Shield Jewel [3]",
       "fr": "Joyau eau/bouclier [3]",
-      "es": "Joya agua/escudo 3"
+      "de": "Fluss/Schild-Jwl 3",
+      "es": "Joya agua/escudo 3",
+      "es-419": "J. agua/escudo [3]",
+      "pt": "Joia Riacho/Escudo 3",
+      "pt-BR": "Joia Riacho/Escudo 3",
+      "it": "G acqua/corazza 3",
+      "pl": "K. strum./tarczy [3]"
     },
     "skills": {
       "-1674114176": 1,
@@ -2489,7 +3599,13 @@
     "names": {
       "en": "Frost/Focus Jewel [3]",
       "fr": "Joyau glace/concentration [3]",
-      "es": "Joya hielo/carga veloz 3"
+      "de": "Frost/Fokus-Jwl 3",
+      "es": "Joya hielo/carga veloz 3",
+      "es-419": "J. hielo/concen. [3]",
+      "pt": "Joia Geada/Foco 3",
+      "pt-BR": "Joia Geada/Foco 3",
+      "it": "G ghiaccio/disciplina 3",
+      "pl": "K. mrozu/skupienia [3]"
     },
     "skills": {
       "-283334048": 1,
@@ -2503,7 +3619,13 @@
     "names": {
       "en": "Stream/Crit Elem Jwl [3]",
       "fr": "Joyau eau/chamanisme [3]",
-      "es": "Joya agua/crít. elemental 3"
+      "de": "Fluss/KritElem-Jwl 3",
+      "es": "Joya agua/crít. elemental 3",
+      "es-419": "J. agua/elm. crít. [3]",
+      "pt": "Joia Riacho/Elemento Crítico 3",
+      "pt-BR": "Joia Riacho/Elemento Crítico 3",
+      "it": "G acqua/critico elem. 3",
+      "pl": "K. strum./żyw. kryt. [3]"
     },
     "skills": {
       "313598432": 1,
@@ -2517,7 +3639,13 @@
     "names": {
       "en": "Opener/Bolt Jewel [3]",
       "fr": "Joyau premier coup/foudre [3]",
-      "es": "Joya detonante/rayo 3"
+      "de": "Eröffner/Blitz-Jwl 3",
+      "es": "Joya detonante/rayo 3",
+      "es-419": "J. apertura/rayo [3]",
+      "pt": "Joia Estopim/Relâmpago 3",
+      "pt-BR": "Joia Estopim/Relâmpago 3",
+      "it": "G primo colpo/tuono 3",
+      "pl": "K. p. strzału/gromu [3]"
     },
     "skills": {
       "1452140672": 1,
@@ -2531,7 +3659,13 @@
     "names": {
       "en": "Dragon/Enhancer Jwl [3]",
       "fr": "Joyau dracocide/puissance [3]",
-      "es": "Joya draco/aumento 3"
+      "de": "Drachen/Verstärker-Jwl 3",
+      "es": "Joya draco/aumento 3",
+      "es-419": "J. draco/aumento [3]",
+      "pt": "Joia Dragão/Intensif. 3",
+      "pt-BR": "Joia Dragão/Intensif. 3",
+      "it": "G drago/amplifica 3",
+      "pl": "K. smoka/wydłużacza [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -2545,7 +3679,13 @@
     "names": {
       "en": "Rzr Sharp/Blaze Jwl [3]",
       "fr": "Joyau samouraï/feu [3]",
-      "es": "Joya cortante/fuego 3"
+      "de": "Blankes/Lohe-Jwl 3",
+      "es": "Joya cortante/fuego 3",
+      "es-419": "J. filo cuch./fuego [3]",
+      "pt": "Joia Fio da Navalha/Chama 3",
+      "pt-BR": "Joia Fio da Navalha/Chama 3",
+      "it": "G rasoio/fuoco 3",
+      "pl": "K. naostrz./pożogi [3]"
     },
     "skills": {
       "-562534336": 1,
@@ -2559,7 +3699,13 @@
     "names": {
       "en": "Opener/Stream Jwl [3]",
       "fr": "Joyau premier coup/eau [3]",
-      "es": "Joya detonante/agua 3"
+      "de": "Eröffner/Fluss-Jwl 3",
+      "es": "Joya detonante/agua 3",
+      "es-419": "J. apertura/agua [3]",
+      "pt": "Joia Estopim/Riacho 3",
+      "pt-BR": "Joia Estopim/Riacho 3",
+      "it": "G primo colpo/acqua 3",
+      "pl": "K. p. strzału/strum. [3]"
     },
     "skills": {
       "508916704": 1,
@@ -2573,7 +3719,13 @@
     "names": {
       "en": "Guardian/Blaze Jwl [3]",
       "fr": "Joyau gardien/feu [3]",
-      "es": "Joya guardián/fuego 3"
+      "de": "Wächter/Lohe-Jwl 3",
+      "es": "Joya guardián/fuego 3",
+      "es-419": "J. guardián/fuego [3]",
+      "pt": "Joia Guardiã/Chama 3",
+      "pt-BR": "Joia Guardiã/Chama 3",
+      "it": "G guardiano/fuoco 3",
+      "pl": "K. strażnika/pożogi [3]"
     },
     "skills": {
       "-562534336": 1,
@@ -2587,7 +3739,13 @@
     "names": {
       "en": "Focus/Bolt Jwl [3]",
       "fr": "Joyau concentration/foudre [3]",
-      "es": "Joya carga veloz/rayo 3"
+      "de": "Fokus/Blitz-Jwl 3",
+      "es": "Joya carga veloz/rayo 3",
+      "es-419": "J. concen./rayo [3]",
+      "pt": "Joia Foco/Relâmpago 3",
+      "pt-BR": "Joia Foco/Relâmpago 3",
+      "it": "G disciplina/tuono 3",
+      "pl": "K. skupienia/gromu [3]"
     },
     "skills": {
       "-283334048": 3,
@@ -2601,7 +3759,13 @@
     "names": {
       "en": "Frost/Enhancer Jwl [3]",
       "fr": "Joyau glace/puissance [3]",
-      "es": "Joya hielo/aumento 3"
+      "de": "Frost/Verstärker-Jwl 3",
+      "es": "Joya hielo/aumento 3",
+      "es-419": "J. hielo/aumento [3]",
+      "pt": "Joia Geada/Intensificadora 3",
+      "pt-BR": "Joia Geada/Intensificadora 3",
+      "it": "G ghiaccio/amplifica 3",
+      "pl": "K. mrozu/wydłużacza [3]"
     },
     "skills": {
       "691199232": 1,
@@ -2615,7 +3779,13 @@
     "names": {
       "en": "Focus/Dragon Jewel [3]",
       "fr": "Joyau concentration/dracocide [3]",
-      "es": "Joya carga veloz/draco 3"
+      "de": "Fokus/Drachen-Jwl 3",
+      "es": "Joya carga veloz/draco 3",
+      "es-419": "J. concen./draco [3]",
+      "pt": "Joia Foco/Dragão 3",
+      "pt-BR": "Joia Foco/Dragão 3",
+      "it": "G disciplina/drago 3",
+      "pl": "K. skupienia/smoka [3]"
     },
     "skills": {
       "-776946176": 1,
@@ -2629,7 +3799,13 @@
     "names": {
       "en": "Bolt/Shield Jewel [3]",
       "fr": "Joyau foudre/bouclier [3]",
-      "es": "Joya rayo/escudo 3"
+      "de": "Blitz/Schild-Jwl 3",
+      "es": "Joya rayo/escudo 3",
+      "es-419": "J. rayo/escudo [3]",
+      "pt": "Joia Relâmpago/Escudo 3",
+      "pt-BR": "Joia Relâmpago/Escudo 3",
+      "it": "G tuono/corazza 3",
+      "pl": "K. gromu/tarczy [3]"
     },
     "skills": {
       "-1674114176": 1,
@@ -2643,7 +3819,13 @@
     "names": {
       "en": "Bandolier/Stream Jwl [3]",
       "fr": "Joyau armurier/eau [3]",
-      "es": "Joya bandolero/agua 3"
+      "de": "Tetrad/Fluss-Jwl 3",
+      "es": "Joya bandolero/agua 3",
+      "es-419": "J. capacidad/agua [3]",
+      "pt": "Joia Bandol./Riacho 3",
+      "pt-BR": "Joia Bandol./Riacho 3",
+      "it": "G bandoliera/acqua 3",
+      "pl": "K. ładownicy/strum. [3]"
     },
     "skills": {
       "508916704": 1,
@@ -2657,7 +3839,13 @@
     "names": {
       "en": "Bandolier/Frost Jwl [3]",
       "fr": "Joyau armurier/glace [3]",
-      "es": "Joya bandolero/hielo 3"
+      "de": "Tetrad/Frost-Jwl 3",
+      "es": "Joya bandolero/hielo 3",
+      "es-419": "J. capacidad/hielo [3]",
+      "pt": "Joia Bandoleira/Geada 3",
+      "pt-BR": "Joia Bandoleira/Geada 3",
+      "it": "G bandoliera/ghiaccio 3",
+      "pl": "K. ładownicy/mrozu [3]"
     },
     "skills": {
       "1268070400": 1,
@@ -2671,7 +3859,13 @@
     "names": {
       "en": "Quickswitch/Frost Jwl [3]",
       "fr": "Joyau morphose/glace [3]",
-      "es": "Joya mutación/hielo 3"
+      "de": "Morph/Frost-Jwl 3",
+      "es": "Joya mutación/hielo 3",
+      "es-419": "J. mutación/hielo [3]",
+      "pt": "Joia Troca Rápida/Geada 3",
+      "pt-BR": "Joia Troca Rápida/Geada 3",
+      "it": "G trasforma/ghiaccio 3",
+      "pl": "K. szybkop./mrozu [3]"
     },
     "skills": {
       "-1961116288": 3,
@@ -2685,7 +3879,13 @@
     "names": {
       "en": "Bolt/Crit Elem Jwl [3]",
       "fr": "Joyau foudre/chamanisme [3]",
-      "es": "Joya rayo/crít. elemental 3"
+      "de": "Blitz/KritElem-Jwl 3",
+      "es": "Joya rayo/crít. elemental 3",
+      "es-419": "J. rayo/elm. crítico [3]",
+      "pt": "Joia Relâmpago/Elem. Crít. 3",
+      "pt-BR": "Joia Relâmpago/Elem. Crít. 3",
+      "it": "G tuono/critico elem. 3",
+      "pl": "K. gromu/żyw. kryt. [3]"
     },
     "skills": {
       "313598432": 1,
@@ -2699,7 +3899,13 @@
     "names": {
       "en": "Dragon/Quickswitch Jwl [3]",
       "fr": "Joyau dracocide/morphose [3]",
-      "es": "Joya draco/mutación 3"
+      "de": "Drachen/Morph-Jwl 3",
+      "es": "Joya draco/mutación 3",
+      "es-419": "J. draco/mutación [3]",
+      "pt": "Joia Dragão/Troca Rápida 3",
+      "pt-BR": "Joia Dragão/Troca Rápida 3",
+      "it": "G drago/trasforma 3",
+      "pl": "K. smoka/szybkop. [3]"
     },
     "skills": {
       "-1961116288": 1,
@@ -2713,7 +3919,13 @@
     "names": {
       "en": "Shield/Dragon Jwl [3]",
       "fr": "Joyau bouclier/dracocide [3]",
-      "es": "Joya escudo/draco 3"
+      "de": "Schild/Drachen-Jwl 3",
+      "es": "Joya escudo/draco 3",
+      "es-419": "J. escudo/draco [3]",
+      "pt": "Joia Escudo/Dragão 3",
+      "pt-BR": "Joia Escudo/Dragão 3",
+      "it": "G corazza/drago 3",
+      "pl": "K. tarczy/smoka [3]"
     },
     "skills": {
       "-1674114176": 3,
@@ -2727,7 +3939,13 @@
     "names": {
       "en": "Frost/Guardian Jwl [3]",
       "fr": "Joyau glace/gardien [3]",
-      "es": "Joya hielo/guardián 3"
+      "de": "Frost/Wächter-Jwl 3",
+      "es": "Joya hielo/guardián 3",
+      "es-419": "J. hielo/guardián [3]",
+      "pt": "Joia Geada/Guardiã 3",
+      "pt-BR": "Joia Geada/Guardiã 3",
+      "it": "G ghiaccio/guardiano 3",
+      "pl": "K. mrozu/strażnika [3]"
     },
     "skills": {
       "-181127504": 1,
@@ -2741,7 +3959,13 @@
     "names": {
       "en": "Blaze/Crit Elem Jwl [3]",
       "fr": "Joyau feu/chamanisme [3]",
-      "es": "Joya fuego/crít. elem. 3"
+      "de": "Lohe/KritElem-Jwl 3",
+      "es": "Joya fuego/crít. elem. 3",
+      "es-419": "J. fuego/ elm. crít. [3]",
+      "pt": "Joia Chama/Elemento Crítico 3",
+      "pt-BR": "Joia Chama/Elemento Crítico 3",
+      "it": "G fuoco/critico elem. 3",
+      "pl": "K. pożogi/żyw. kryt. [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -2755,7 +3979,13 @@
     "names": {
       "en": "Frost/Crit Elem Jwl [3]",
       "fr": "Joyau glace/chamanisme [3]",
-      "es": "Joya hielo/crít. elem. 3"
+      "de": "Frost/KritElem-Jwl 3",
+      "es": "Joya hielo/crít. elem. 3",
+      "es-419": "J. hielo/elm. crít. [3]",
+      "pt": "Joia Geada/Elemento Crítico 3",
+      "pt-BR": "Joia Geada/Elemento Crítico 3",
+      "it": "G ghiaccio/critico elem. 3",
+      "pl": "K. mrozu/żyw. kryt. [3]"
     },
     "skills": {
       "313598432": 1,
@@ -2769,7 +3999,13 @@
     "names": {
       "en": "Guardian/Dragon Jwl [3]",
       "fr": "Joyau gardien/dracocide [3]",
-      "es": "Joya guardián/draco 3"
+      "de": "Wächter/Drachen-Jwl 3",
+      "es": "Joya guardián/draco 3",
+      "es-419": "J. guardián/draco [3]",
+      "pt": "Joia Guardiã/Dragão 3",
+      "pt-BR": "Joia Guardiã/Dragão 3",
+      "it": "G guardiano/drago 3",
+      "pl": "K. strażnika/smoka [3]"
     },
     "skills": {
       "-776946176": 1,
@@ -2783,7 +4019,13 @@
     "names": {
       "en": "Dragon/Bandolier Jwl [3]",
       "fr": "Joyau dracocide/armurier [3]",
-      "es": "Joya draco/bandolero 3"
+      "de": "Drachen/Tetrad-Jwl 3",
+      "es": "Joya draco/bandolero 3",
+      "es-419": "J. draco/capacidad [3]",
+      "pt": "Joia Dragão/Bandol. 3",
+      "pt-BR": "Joia Dragão/Bandol. 3",
+      "it": "G drago/bandoliera 3",
+      "pl": "K. smoka/ładownicy [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -2797,7 +4039,13 @@
     "names": {
       "en": "Bolt/Guardian Jwl [3]",
       "fr": "Joyau foudre/gardien [3]",
-      "es": "Joya rayo/guardián 3"
+      "de": "Blitz/Wächter-Jwl 3",
+      "es": "Joya rayo/guardián 3",
+      "es-419": "J. rayo/guardián [3]",
+      "pt": "Joia Relâm./Guardiã 3",
+      "pt-BR": "Joia Relâm./Guardiã 3",
+      "it": "G tuono/guardiano 3",
+      "pl": "K. gromu/strażnika [3]"
     },
     "skills": {
       "-181127504": 1,
@@ -2811,7 +4059,13 @@
     "names": {
       "en": "Stream/Enhancer Jwl [3]",
       "fr": "Joyau eau/puissance [3]",
-      "es": "Joya agua/aumento 3"
+      "de": "Fluss/Verstärker-Jwl 3",
+      "es": "Joya agua/aumento 3",
+      "es-419": "J. agua/aumento [3]",
+      "pt": "Joia Riacho/Intensif. 3",
+      "pt-BR": "Joia Riacho/Intensif. 3",
+      "it": "G acqua/amplifica 3",
+      "pl": "K. strum./wydłużacza [3]"
     },
     "skills": {
       "508916704": 3,
@@ -2825,7 +4079,13 @@
     "names": {
       "en": "Stream/Guardian Jwl [3]",
       "fr": "Joyau eau/gardien [3]",
-      "es": "Joya agua/guardián 3"
+      "de": "Fluss/Wächter-Jwl 3",
+      "es": "Joya agua/guardián 3",
+      "es-419": "J. agua/guardián [3]",
+      "pt": "Joia Riacho/Guardiã 3",
+      "pt-BR": "Joia Riacho/Guardiã 3",
+      "it": "G acqua/guardiano 3",
+      "pl": "K. strum./strażnika [3]"
     },
     "skills": {
       "-181127504": 1,
@@ -2839,7 +4099,13 @@
     "names": {
       "en": "Bandolier/Bolt Jwl [3]",
       "fr": "Joyau armurier/foudre [3]",
-      "es": "Joya bandolero/rayo 3"
+      "de": "Tetrad/Blitz-Jwl 3",
+      "es": "Joya bandolero/rayo 3",
+      "es-419": "J. capacidad/rayo [3]",
+      "pt": "Joia Bandol./Relâm. 3",
+      "pt-BR": "Joia Bandol./Relâm. 3",
+      "it": "G bandoliera/tuono 3",
+      "pl": "K. ładownicy/gromu [3]"
     },
     "skills": {
       "1452140672": 1,
@@ -2853,7 +4119,13 @@
     "names": {
       "en": "Guardian/Stream Jwl [3]",
       "fr": "Joyau gardien/eau [3]",
-      "es": "Joya guardián/agua 3"
+      "de": "Wächter/Fluss-Jwl 3",
+      "es": "Joya guardián/agua 3",
+      "es-419": "J. guardián/agua [3]",
+      "pt": "Joia Guardiã/Riacho 3",
+      "pt-BR": "Joia Guardiã/Riacho 3",
+      "it": "G guardiano/acqua 3",
+      "pl": "K. strażnika/strum. [3]"
     },
     "skills": {
       "-181127504": 3,
@@ -2867,7 +4139,13 @@
     "names": {
       "en": "Enhancer/Stream Jwl [3]",
       "fr": "Joyau puissance/eau [3]",
-      "es": "Joya aumento/agua 3"
+      "de": "Verstärker/Fluss-Jwl 3",
+      "es": "Joya aumento/agua 3",
+      "es-419": "J. aumento/agua [3]",
+      "pt": "Joia Intensif./Riacho 3",
+      "pt-BR": "Joia Intensif./Riacho 3",
+      "it": "G amplifica/acqua 3",
+      "pl": "K. wydłużacza/strum. [3]"
     },
     "skills": {
       "508916704": 1,
@@ -2881,7 +4159,13 @@
     "names": {
       "en": "Bolt/Bandolier Jwl [3]",
       "fr": "Joyau foudre/armurier [3]",
-      "es": "Joya rayo/bandolero 3"
+      "de": "Blitz/Tetrad-Jwl 3",
+      "es": "Joya rayo/bandolero 3",
+      "es-419": "J. rayo/capacidad [3]",
+      "pt": "Joia Relâm./Bandol. 3",
+      "pt-BR": "Joia Relâm./Bandol. 3",
+      "it": "G tuono/bandoliera 3",
+      "pl": "K. gromu/ładownicy [3]"
     },
     "skills": {
       "1452140672": 3,
@@ -2895,7 +4179,13 @@
     "names": {
       "en": "Dragon/Rzr Sharp Jwl [3]",
       "fr": "Joyau dracocide/samouraï [3]",
-      "es": "Joya draco/cortante 3"
+      "de": "Drachen/Blankes Jwl 3",
+      "es": "Joya draco/cortante 3",
+      "es-419": "J. draco/filo cuch. [3]",
+      "pt": "Joia Dragão/Fio da Navalha 3",
+      "pt-BR": "Joia Dragão/Fio da Navalha 3",
+      "it": "G drago/rasoio 3",
+      "pl": "K. smoka/naostrzenia [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -2909,7 +4199,13 @@
     "names": {
       "en": "Focus/Blaze Jewel [3]",
       "fr": "Joyau concentration/feu [3]",
-      "es": "Joya carga veloz/fuego 3"
+      "de": "Fokus/Lohe-Jwl 3",
+      "es": "Joya carga veloz/fuego 3",
+      "es-419": "J. concen./fuego [3]",
+      "pt": "Joia Foco/Chama 3",
+      "pt-BR": "Joia Foco/Chama 3",
+      "it": "G disciplina/fuoco 3",
+      "pl": "K. skupienia/pożogi [3]"
     },
     "skills": {
       "-562534336": 1,
@@ -2923,7 +4219,13 @@
     "names": {
       "en": "Guardian/Bolt Jwl [3]",
       "fr": "Joyau gardien/foudre [3]",
-      "es": "Joya guardián/rayo 3"
+      "de": "Wächter/Blitz-Jwl 3",
+      "es": "Joya guardián/rayo 3",
+      "es-419": "J. guardián/rayo [3]",
+      "pt": "Joia Guardiã/Relâm. 3",
+      "pt-BR": "Joia Guardiã/Relâm. 3",
+      "it": "G guardiano/tuono 3",
+      "pl": "K. strażnika/gromu [3]"
     },
     "skills": {
       "-181127504": 3,
@@ -2937,7 +4239,13 @@
     "names": {
       "en": "Quickswitch/Bolt Jwl [3]",
       "fr": "Joyau morphose/foudre [3]",
-      "es": "Joya mutación/rayo 3"
+      "de": "Morph/Blitz-Jwl 3",
+      "es": "Joya mutación/rayo 3",
+      "es-419": "J. mutación/rayo [3]",
+      "pt": "Joia Troca Rápida/Relâmpago 3",
+      "pt-BR": "Joia Troca Rápida/Relâmpago 3",
+      "it": "G trasforma/tuono 3",
+      "pl": "K. szybkop./gromu [3]"
     },
     "skills": {
       "-1961116288": 3,
@@ -2951,7 +4259,13 @@
     "names": {
       "en": "Frost/Quickswitch Jwl [3]",
       "fr": "Joyau glace/morphose [3]",
-      "es": "Joya hielo/mutación 3"
+      "de": "Frost/Morph-Jwl 3",
+      "es": "Joya hielo/mutación 3",
+      "es-419": "J. hielo/mutación [3]",
+      "pt": "Joia Geada/Troca Rápida 3",
+      "pt-BR": "Joia Geada/Troca Rápida 3",
+      "it": "G ghiaccio/trasforma 3",
+      "pl": "K. mrozu/szybkop. [3]"
     },
     "skills": {
       "-1961116288": 1,
@@ -2965,7 +4279,13 @@
     "names": {
       "en": "Guardian/Frost Jwl [3]",
       "fr": "Joyau gardien/glace [3]",
-      "es": "Joya guardián/hielo 3"
+      "de": "Wächter/Frost-Jwl 3",
+      "es": "Joya guardián/hielo 3",
+      "es-419": "J. guardián/hielo [3]",
+      "pt": "Joia Guardiã/Geada 3",
+      "pt-BR": "Joia Guardiã/Geada 3",
+      "it": "G guardiano/ghiaccio 3",
+      "pl": "K. strażnika/mrozu [3]"
     },
     "skills": {
       "-181127504": 3,
@@ -2979,7 +4299,13 @@
     "names": {
       "en": "Opener/Frost Jewel [3]",
       "fr": "Joyau premier coup/glace [3]",
-      "es": "Joya detonante/hielo 3"
+      "de": "Eröffner/Frost-Jwl 3",
+      "es": "Joya detonante/hielo 3",
+      "es-419": "J. apertura/hielo [3]",
+      "pt": "Joia Estopim/Geada 3",
+      "pt-BR": "Joia Estopim/Geada 3",
+      "it": "G primo colpo/ghiaccio 3",
+      "pl": "K. p. strzału/mrozu [3]"
     },
     "skills": {
       "1268070400": 1,
@@ -2993,7 +4319,13 @@
     "names": {
       "en": "Stream/Bandolier Jwl [3]",
       "fr": "Joyau eau/armurier [3]",
-      "es": "Joya agua/bandolero 3"
+      "de": "Fluss/Tetrad-Jwl 3",
+      "es": "Joya agua/bandolero 3",
+      "es-419": "J. agua/capacidad [3]",
+      "pt": "Joia Riacho/Bandol. 3",
+      "pt-BR": "Joia Riacho/Bandol. 3",
+      "it": "G acqua/bandoliera 3",
+      "pl": "K. strum./ładownicy [3]"
     },
     "skills": {
       "508916704": 3,
@@ -3007,7 +4339,13 @@
     "names": {
       "en": "Rzr Sharp/Dragon Jwl [3]",
       "fr": "Joyau samouraï/dracocide [3]",
-      "es": "Joya cortante/draco 3"
+      "de": "Blankes/Drachen-Jwl 3",
+      "es": "Joya cortante/draco 3",
+      "es-419": "J. filo. cuch./draco [3]",
+      "pt": "Joia Fio da Navalha/Dragão 3",
+      "pt-BR": "Joia Fio da Navalha/Dragão 3",
+      "it": "G rasoio/drago 3",
+      "pl": "K. naostrzenia/smoka [3]"
     },
     "skills": {
       "-776946176": 1,
@@ -3021,7 +4359,13 @@
     "names": {
       "en": "Opener/Blaze Jewel [3]",
       "fr": "Joyau premier coup/feu [3]",
-      "es": "Joya detonante/fuego 3"
+      "de": "Eröffner/Lohe-Jwl 3",
+      "es": "Joya detonante/fuego 3",
+      "es-419": "J. apertura/fuego [3]",
+      "pt": "Joia Estopim/Chama 3",
+      "pt-BR": "Joia Estopim/Chama 3",
+      "it": "G primo colpo/fuoco 3",
+      "pl": "K. p. strzału/pożogi [3]"
     },
     "skills": {
       "-562534336": 1,
@@ -3035,7 +4379,13 @@
     "names": {
       "en": "Blaze/Bandolier Jwl [3]",
       "fr": "Joyau feu/armurier [3]",
-      "es": "Joya fuego/bandolero 3"
+      "de": "Lohe/Tetrad-Jwl 3",
+      "es": "Joya fuego/bandolero 3",
+      "es-419": "J. fuego/capacidad [3]",
+      "pt": "Joia Chama/Bandoleira 3",
+      "pt-BR": "Joia Chama/Bandoleira 3",
+      "it": "G fuoco/bandoliera 3",
+      "pl": "K. pożogi/ładownicy [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -3049,7 +4399,13 @@
     "names": {
       "en": "Enhancer/Bolt Jewel [3]",
       "fr": "Joyau puissance/foudre [3]",
-      "es": "Joya aumento/rayo 3"
+      "de": "Verstärker/Blitz-Jwl 3",
+      "es": "Joya aumento/rayo 3",
+      "es-419": "J. aumento/rayo [3]",
+      "pt": "Joia Intensif./Relâmpago 3",
+      "pt-BR": "Joia Intensif./Relâmpago 3",
+      "it": "G amplifica/tuono 3",
+      "pl": "K. wydłużacza/gromu [3]"
     },
     "skills": {
       "691199232": 3,
@@ -3063,7 +4419,13 @@
     "names": {
       "en": "Shield/Blaze Jewel [3]",
       "fr": "Joyau bouclier/feu [3]",
-      "es": "Joya escudo/fuego 3"
+      "de": "Schild/Lohe-Jwl 3",
+      "es": "Joya escudo/fuego 3",
+      "es-419": "J. escudo/fuego [3]",
+      "pt": "Joia Escudo/Chama 3",
+      "pt-BR": "Joia Escudo/Chama 3",
+      "it": "G corazza/fuoco 3",
+      "pl": "K. tarczy/pożogi [3]"
     },
     "skills": {
       "-1674114176": 3,
@@ -3077,7 +4439,13 @@
     "names": {
       "en": "Enhancer/Dragon Jwl [3]",
       "fr": "Joyau puissance/dracocide [3]",
-      "es": "Joya aumento/draco 3"
+      "de": "Verstärker/Drachen-Jwl 3",
+      "es": "Joya aumento/draco 3",
+      "es-419": "J. aumento/draco [3]",
+      "pt": "Joia Intensif./Dragão 3",
+      "pt-BR": "Joia Intensif./Dragão 3",
+      "it": "G amplifica/drago 3",
+      "pl": "K. wydłużacza/smoka [3]"
     },
     "skills": {
       "-776946176": 1,
@@ -3091,7 +4459,13 @@
     "names": {
       "en": "Quickswitch/Stream Jwl [3]",
       "fr": "Joyau morphose/eau [3]",
-      "es": "Joya mutación/agua 3"
+      "de": "Morph/Fluss-Jwl 3",
+      "es": "Joya mutación/agua 3",
+      "es-419": "J. mutación/agua [3]",
+      "pt": "Joia Troca Rápida/Riacho 3",
+      "pt-BR": "Joia Troca Rápida/Riacho 3",
+      "it": "G trasforma/acqua 3",
+      "pl": "K. szybkop./strum. [3]"
     },
     "skills": {
       "-1961116288": 3,
@@ -3105,7 +4479,13 @@
     "names": {
       "en": "Bandolier/Dragon Jwl [3]",
       "fr": "Joyau armurier/dracocide [3]",
-      "es": "Joya bandolero/draco 3"
+      "de": "Tetrad/Drachen-Jwl 3",
+      "es": "Joya bandolero/draco 3",
+      "es-419": "J. capacidad/draco [3]",
+      "pt": "Joia Bandol./Dragão 3",
+      "pt-BR": "Joia Bandol./Dragão 3",
+      "it": "G bandoliera/drago 3",
+      "pl": "K. ładownicy/smoka [3]"
     },
     "skills": {
       "-776946176": 1,
@@ -3119,7 +4499,13 @@
     "names": {
       "en": "Opener/Dragon Jewel [3]",
       "fr": "Joyau premier coup/dracocide [3]",
-      "es": "Joya detonante/draco 3"
+      "de": "Eröffner/Drachen-Jwl 3",
+      "es": "Joya detonante/draco 3",
+      "es-419": "J. apertura/draco [3]",
+      "pt": "Joia Estopim/Dragão 3",
+      "pt-BR": "Joia Estopim/Dragão 3",
+      "it": "G primo colpo/drago 3",
+      "pl": "K. p. strzału/smoka [3]"
     },
     "skills": {
       "-776946176": 1,
@@ -3133,7 +4519,13 @@
     "names": {
       "en": "Crit Elem/Dragon Jwl [3]",
       "fr": "Joyau chamanisme/dracocide [3]",
-      "es": "Joya crít. elemental/draco 3"
+      "de": "KritElem/Drachen-Jwl 3",
+      "es": "Joya crít. elemental/draco 3",
+      "es-419": "J. elm. crít./draco [3]",
+      "pt": "Joia Elemento Crítico/Dragão 3",
+      "pt-BR": "Joia Elemento Crítico/Dragão 3",
+      "it": "G critico elem./drago 3",
+      "pl": "K. żyw. kryt./smoka [3]"
     },
     "skills": {
       "-776946176": 1,
@@ -3147,7 +4539,13 @@
     "names": {
       "en": "Frost/Opener Jewel [3]",
       "fr": "Joyau glace/premier coup [3]",
-      "es": "Joya hielo/detonante 3"
+      "de": "Frost/Eröffner-Jwl 3",
+      "es": "Joya hielo/detonante 3",
+      "es-419": "J. hielo/apertura [3]",
+      "pt": "Joia Geada/Estopim 3",
+      "pt-BR": "Joia Geada/Estopim 3",
+      "it": "G ghiaccio/primo colpo 3",
+      "pl": "K. mrozu/p. strzału [3]"
     },
     "skills": {
       "1268070400": 3,
@@ -3161,7 +4559,13 @@
     "names": {
       "en": "Rzr Sharp/Bolt Jwl [3]",
       "fr": "Joyau samouraï/foudre [3]",
-      "es": "Joya cortante/rayo 3"
+      "de": "Blankes/Blitz-Jwl 3",
+      "es": "Joya cortante/rayo 3",
+      "es-419": "J. filo cuch./rayo [3]",
+      "pt": "Joia Fio da Navalha/Relâm. 3",
+      "pt-BR": "Joia Fio da Navalha/Relâm. 3",
+      "it": "G rasoio/tuono 3",
+      "pl": "K. naostrzenia/gromu [3]"
     },
     "skills": {
       "1050520384": 3,
@@ -3175,7 +4579,13 @@
     "names": {
       "en": "Stream/Quickswitch Jwl [3]",
       "fr": "Joyau eau/morphose [3]",
-      "es": "Joya agua/mutación 3"
+      "de": "Fluss/Morph-Jwl 3",
+      "es": "Joya agua/mutación 3",
+      "es-419": "J. agua/mutación [3]",
+      "pt": "Joia Riacho/Troca Rápida 3",
+      "pt-BR": "Joia Riacho/Troca Rápida 3",
+      "it": "G acqua/trasforma 3",
+      "pl": "K. strum./szybkop. [3]"
     },
     "skills": {
       "-1961116288": 1,
@@ -3189,7 +4599,13 @@
     "names": {
       "en": "Frost/Shield Jewel [3]",
       "fr": "Joyau glace/bouclier [3]",
-      "es": "Joya hielo/escudo 3"
+      "de": "Frost/Schild-Jwl 3",
+      "es": "Joya hielo/escudo 3",
+      "es-419": "J. hielo/escudo [3]",
+      "pt": "Joia Geada/Escudo 3",
+      "pt-BR": "Joia Geada/Escudo 3",
+      "it": "G ghiaccio/corazza 3",
+      "pl": "Klejnot mrozu/tarczy [3]"
     },
     "skills": {
       "-1674114176": 1,
@@ -3203,7 +4619,13 @@
     "names": {
       "en": "Bolt/Enhancer Jwl [3]",
       "fr": "Joyau foudre/puissance [3]",
-      "es": "Joya rayo/aumento 3"
+      "de": "Blitz/Verstärker-Jwl 3",
+      "es": "Joya rayo/aumento 3",
+      "es-419": "J. rayo/aumento [3]",
+      "pt": "Joia Relâm./Intensif. 3",
+      "pt-BR": "Joia Relâm./Intensif. 3",
+      "it": "G tuono/amplifica 3",
+      "pl": "K. gromu/wydłużacza [3]"
     },
     "skills": {
       "691199232": 1,
@@ -3217,7 +4639,13 @@
     "names": {
       "en": "Stream/Focus Jewel [3]",
       "fr": "Joyau eau/concentration [3]",
-      "es": "Joya agua/carga veloz 3"
+      "de": "Fluss/Fokus-Jwl 3",
+      "es": "Joya agua/carga veloz 3",
+      "es-419": "J. agua/concen. [3]",
+      "pt": "Joia Riacho/Foco 3",
+      "pt-BR": "Joia Riacho/Foco 3",
+      "it": "G acqua/disciplina 3",
+      "pl": "K. strumienia/skup. [3]"
     },
     "skills": {
       "-283334048": 1,
@@ -3231,7 +4659,13 @@
     "names": {
       "en": "Stream/Opener Jwl [3]",
       "fr": "Joyau eau/premier coup [3]",
-      "es": "Joya agua/detonante 3"
+      "de": "Fluss/Eröffner-Jwl 3",
+      "es": "Joya agua/detonante 3",
+      "es-419": "J. agua/apertura [3]",
+      "pt": "Joia Riacho/Estopim 3",
+      "pt-BR": "Joia Riacho/Estopim 3",
+      "it": "G acqua/primo colpo 3",
+      "pl": "K. strum./p. strzału [3]"
     },
     "skills": {
       "508916704": 3,
@@ -3245,7 +4679,13 @@
     "names": {
       "en": "Grinder Jewel II [2]",
       "fr": "Joyau aiguiseur II [2]",
-      "es": "Joya afiladora II 2"
+      "de": "Schleif-Jwl II 2",
+      "es": "Joya afiladora II 2",
+      "es-419": "J. afiladora II [2]",
+      "pt": "Joia do Amolador II 2",
+      "pt-BR": "Joia do Amolador II 2",
+      "it": "G affilante II 2",
+      "pl": "Klejnot ostrzenia II [2]"
     },
     "skills": {
       "1444935552": 2
@@ -3258,7 +4698,13 @@
     "names": {
       "en": "Defense Jewel [1]",
       "fr": "Joyau défense [1]",
-      "es": "Joya defensa 1"
+      "de": "Verteidigung-Jwl 1",
+      "es": "Joya defensa 1",
+      "es-419": "J. defensa [1]",
+      "pt": "Joia Defesa 1",
+      "pt-BR": "Joia Defesa 1",
+      "it": "G difesa 1",
+      "pl": "Klejnot obrony [1]"
     },
     "skills": {
       "1077686656": 1
@@ -3271,7 +4717,13 @@
     "names": {
       "en": "Grinder Jewel [1]",
       "fr": "Joyau aiguiseur [1]",
-      "es": "Joya afiladora 1"
+      "de": "Schleif-Jwl 1",
+      "es": "Joya afiladora 1",
+      "es-419": "J. afiladora [1]",
+      "pt": "Joia do Amolador 1",
+      "pt-BR": "Joia do Amolador 1",
+      "it": "G affilante 1",
+      "pl": "Klejnot ostrzenia [1]"
     },
     "skills": {
       "1444935552": 1
@@ -3284,7 +4736,13 @@
     "names": {
       "en": "Poison/Precise Jwl [3]",
       "fr": "Joyau poison/kyudo [3]",
-      "es": "Joya tóxica/puntería 3"
+      "de": "Gift/Präzises Jwl 3",
+      "es": "Joya tóxica/puntería 3",
+      "es-419": "J. tóxica/precisa [3]",
+      "pt": "Joia Peçonha/Precisão 3",
+      "pt-BR": "Joia Peçonha/Precisão 3",
+      "it": "G veleno/mirino 3",
+      "pl": "K. trucizny/precyz. [3]"
     },
     "skills": {
       "-1629629184": 1,
@@ -3298,7 +4756,13 @@
     "names": {
       "en": "Gambit Jewel III [3]",
       "fr": "Joyau punition III [3]",
-      "es": "Joya gambito III 3"
+      "de": "Gambit-Jwl III 3",
+      "es": "Joya gambito III 3",
+      "es-419": "J. gambito III [3]",
+      "pt": "Joia Artimanha III 3",
+      "pt-BR": "Joia Artimanha III 3",
+      "it": "G punizione III 3",
+      "pl": "K. gambitu III [3]"
     },
     "skills": {
       "-1946345856": 3
@@ -3311,7 +4775,13 @@
     "names": {
       "en": "Razor Sharp/KO Jwl [3]",
       "fr": "Joyau samouraï/cogneur [3]",
-      "es": "Joya cortante/boxeo 3"
+      "de": "Blankes/K.o.-Jwl 3",
+      "es": "Joya cortante/boxeo 3",
+      "es-419": "J. filo cuch./boxeo [3]",
+      "pt": "Joia F. Navalha/Nocaute 3",
+      "pt-BR": "Joia F. Navalha/Nocaute 3",
+      "it": "G rasoio/battitore 3",
+      "pl": "K. naostrz./nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -3325,7 +4795,13 @@
     "names": {
       "en": "Spread Jewel [3]",
       "fr": "Joyau plomb [3]",
-      "es": "Joya abanico 3"
+      "de": "Schrot-Jwl 3",
+      "es": "Joya abanico 3",
+      "es-419": "J. abanico [3]",
+      "pt": "Joia Dispersão 3",
+      "pt-BR": "Joia Dispersão 3",
+      "it": "G ventaglio 3",
+      "pl": "Klejnot rozrzutu [3]"
     },
     "skills": {
       "-2123993856": 1
@@ -3338,7 +4814,13 @@
     "names": {
       "en": "KO Jewel II [2]",
       "fr": "Joyau cogneur II [2]",
-      "es": "Joya boxeo II 2"
+      "de": "K.o.-Jwl II 2",
+      "es": "Joya boxeo II 2",
+      "es-419": "J. boxeo II [2]",
+      "pt": "Joia de Nocaute II 2",
+      "pt-BR": "Joia de Nocaute II 2",
+      "it": "G battitore II 2",
+      "pl": "Klejnot nokautu II [2]"
     },
     "skills": {
       "-893407296": 2
@@ -3351,7 +4833,13 @@
     "names": {
       "en": "Focus/KO Jewel [3]",
       "fr": "Joyau concentration/cogneur [3]",
-      "es": "Joya carga veloz/boxeo 3"
+      "de": "Fokus/K.o.-Jwl 3",
+      "es": "Joya carga veloz/boxeo 3",
+      "es-419": "J. concen./boxeo [3]",
+      "pt": "Joia Foco/Nocaute 3",
+      "pt-BR": "Joia Foco/Nocaute 3",
+      "it": "G disciplina/battitore 3",
+      "pl": "K. skupienia/nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -3365,7 +4853,13 @@
     "names": {
       "en": "Sharp Jewel [1]",
       "fr": "Joyau trempe [1]",
-      "es": "Joya afilado 1"
+      "de": "Scharfes Jwl 1",
+      "es": "Joya afilado 1",
+      "es-419": "J. afilada [1]",
+      "pt": "Joia Afiada 1",
+      "pt-BR": "Joia Afiada 1",
+      "it": "G tagliente 1",
+      "pl": "Klejnot ostry [1]"
     },
     "skills": {
       "1500129152": 1
@@ -3378,7 +4872,13 @@
     "names": {
       "en": "Ranger Jewel [1]",
       "fr": "Joyau chasse [1]",
-      "es": "Joya explorador 1"
+      "de": "Hirten-Jwl 1",
+      "es": "Joya explorador 1",
+      "es-419": "J. rural [1]",
+      "pt": "Joia do Patrulheiro 1",
+      "pt-BR": "Joia do Patrulheiro 1",
+      "it": "G boscaiolo 1",
+      "pl": "Klejnot myśliwego [1]"
     },
     "skills": {
       "1845834112": 1
@@ -3391,7 +4891,13 @@
     "names": {
       "en": "Artillery Jewel [1]",
       "fr": "Joyau dynamite [1]",
-      "es": "Joya artillería 1"
+      "de": "Artillerie-Jwl 1",
+      "es": "Joya artillería 1",
+      "es-419": "J. artillería [1]",
+      "pt": "Joia Artilharia 1",
+      "pt-BR": "Joia Artilharia 1",
+      "it": "G armamento 1",
+      "pl": "Klejnot artylerii [1]"
     },
     "skills": {
       "-596764096": 1
@@ -3404,7 +4910,13 @@
     "names": {
       "en": "Bandolier/Precise Jwl [3]",
       "fr": "Joyau armurier/kyudo [3]",
-      "es": "Joya bandolero/puntería 3"
+      "de": "Tetrad/Präzises Jwl 3",
+      "es": "Joya bandolero/puntería 3",
+      "es-419": "J. capacidad/prec. [3]",
+      "pt": "Joia Bandoleira/Precisão 3",
+      "pt-BR": "Joia Bandoleira/Precisão 3",
+      "it": "G bandoliera/preciso 3",
+      "pl": "K. ładow./precyz. [3]"
     },
     "skills": {
       "-420608864": 1,
@@ -3418,7 +4930,13 @@
     "names": {
       "en": "Charge/Handicraft Jwl [3]",
       "fr": "Joyau charge/artisanat [3]",
-      "es": "Joya carga/artesana 3"
+      "de": "Lade/Handwerk-Jwl 3",
+      "es": "Joya carga/artesana 3",
+      "es-419": "J. carga/artes. [3]",
+      "pt": "Joia Energizadora/Artesanato 3",
+      "pt-BR": "Joia Energizadora/Artesanato 3",
+      "it": "G carica/artigiano 3",
+      "pl": "K. ładow./rękodz. [3]"
     },
     "skills": {
       "-1475134080": 3,
@@ -3432,7 +4950,13 @@
     "names": {
       "en": "Crit Status Jewel [1]",
       "fr": "Joyau châtiment [1]",
-      "es": "Joya estado crítico 1"
+      "de": "KritStatus-Jwl 1",
+      "es": "Joya estado crítico 1",
+      "es-419": "J. estado crítico [1]",
+      "pt": "Joia Status Crítico 1",
+      "pt-BR": "Joia Status Crítico 1",
+      "it": "G stato critico 1",
+      "pl": "K. statusu kryt. [1]"
     },
     "skills": {
       "-168922880": 1
@@ -3445,7 +4969,13 @@
     "names": {
       "en": "Attack Jewel [1]",
       "fr": "Joyau attaque [1]",
-      "es": "Joya ataque 1"
+      "de": "Angriff-Jwl 1",
+      "es": "Joya ataque 1",
+      "es-419": "J. ataque [1]",
+      "pt": "Joia Ataque 1",
+      "pt-BR": "Joia Ataque 1",
+      "it": "G attacco 1",
+      "pl": "Klejnot ataku [1]"
     },
     "skills": {
       "1": 1
@@ -3458,7 +4988,13 @@
     "names": {
       "en": "Handicraft Jwl III [3]",
       "fr": "Joyau artisanat III [3]",
-      "es": "Joya artesana III 3"
+      "de": "Handwerk-Jwl III 3",
+      "es": "Joya artesana III 3",
+      "es-419": "J. artesanía III [3]",
+      "pt": "Joia Artesanato III 3",
+      "pt-BR": "Joia Artesanato III 3",
+      "it": "G artigiano III 3",
+      "pl": "K. rękodzieła III [3]"
     },
     "skills": {
       "1160639488": 3
@@ -3471,7 +5007,13 @@
     "names": {
       "en": "Opener/Ironwall Jwl [3]",
       "fr": "Joyau premier coup/paladin [3]",
-      "es": "Joya detonante/muro 3"
+      "de": "Eröffner/Mauer-Jwl 3",
+      "es": "Joya detonante/muro 3",
+      "es-419": "J. apertura/guardia [3]",
+      "pt": "Joia Estopim/Muro de Ferro 3",
+      "pt-BR": "Joia Estopim/Muro de Ferro 3",
+      "it": "G primo colpo/barriera 3",
+      "pl": "K. p. strzału/ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -3485,7 +5027,13 @@
     "names": {
       "en": "Quickswitch Jewel II [2]",
       "fr": "Joyau morphose II [2]",
-      "es": "Joya mutación II 2"
+      "de": "Morph-Jwl II 2",
+      "es": "Joya mutación II 2",
+      "es-419": "J. mutación II [2]",
+      "pt": "Joia Troca Rápida II 2",
+      "pt-BR": "Joia Troca Rápida II 2",
+      "it": "G trasforma II 2",
+      "pl": "K. szybkoprzeł. II [2]"
     },
     "skills": {
       "-1961116288": 2
@@ -3498,7 +5046,13 @@
     "names": {
       "en": "Frost Jewel [1]",
       "fr": "Joyau glace [1]",
-      "es": "Joya hielo 1"
+      "de": "Frost-Jwl 1",
+      "es": "Joya hielo 1",
+      "es-419": "J. hielo [1]",
+      "pt": "Joia Geada 1",
+      "pt-BR": "Joia Geada 1",
+      "it": "G ghiaccio 1",
+      "pl": "Klejnot mrozu [1]"
     },
     "skills": {
       "1268070400": 1
@@ -3511,7 +5065,13 @@
     "names": {
       "en": "Flawless Jewel [2]",
       "fr": "Joyau parfait [2]",
-      "es": "Joya ileso 2"
+      "de": "Makellos-Jwl 2",
+      "es": "Joya ileso 2",
+      "es-419": "J. del ileso [2]",
+      "pt": "Joia Impecável 2",
+      "pt-BR": "Joia Impecável 2",
+      "it": "G impeccabile 2",
+      "pl": "Klejnot perfekcji [2]"
     },
     "skills": {
       "2106877312": 1
@@ -3524,7 +5084,13 @@
     "names": {
       "en": "Dragon/Precise Jewel [3]",
       "fr": "Joyau dracocide/kyudo [3]",
-      "es": "Joya draco/puntería 3"
+      "de": "Drachen/Präzises Jwl 3",
+      "es": "Joya draco/puntería 3",
+      "es-419": "J. draco/precisa [3]",
+      "pt": "Joia Dragão/Precisão 3",
+      "pt-BR": "Joia Dragão/Precisão 3",
+      "it": "G drago/preciso 3",
+      "pl": "K. smoka/precyz. [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -3538,7 +5104,13 @@
     "names": {
       "en": "Expert Jewel II [2]",
       "fr": "Joyau maître II [2]",
-      "es": "Joya experto II 2"
+      "de": "Experten-Jwl II 2",
+      "es": "Joya experto II 2",
+      "es-419": "J. experto II [2]",
+      "pt": "Joia Especialista II 2",
+      "pt-BR": "Joia Especialista II 2",
+      "it": "G esperto II 2",
+      "pl": "Klejnot eksperta II [2]"
     },
     "skills": {
       "-2096489472": 2
@@ -3551,7 +5123,13 @@
     "names": {
       "en": "Attack Jewel III [3]",
       "fr": "Joyau attaque III [3]",
-      "es": "Joya ataque III 3"
+      "de": "Angriff-Jwl III 3",
+      "es": "Joya ataque III 3",
+      "es-419": "J. ataque III [3]",
+      "pt": "Joia Ataque III 3",
+      "pt-BR": "Joia Ataque III 3",
+      "it": "G attacco III 3",
+      "pl": "Klejnot ataku III [3]"
     },
     "skills": {
       "1": 3
@@ -3564,7 +5142,13 @@
     "names": {
       "en": "Magazine Jewel [1]",
       "fr": "Joyau franc-tireur [1]",
-      "es": "Joya cargador 1"
+      "de": "Magazin-Jwl 1",
+      "es": "Joya cargador 1",
+      "es-419": "J. almacén [1]",
+      "pt": "Joia Aljava 1",
+      "pt-BR": "Joia Aljava 1",
+      "it": "G caricatore 1",
+      "pl": "Klejnot magazynka [1]"
     },
     "skills": {
       "802725120": 1
@@ -3577,7 +5161,13 @@
     "names": {
       "en": "Poison/Expert Jwl [3]",
       "fr": "Joyau poison/maître [3]",
-      "es": "Joya tóxica/experto 3"
+      "de": "Gift/Experten-Jwl 3",
+      "es": "Joya tóxica/experto 3",
+      "es-419": "J. tóxica/exp. [3]",
+      "pt": "Joia Peçonha/Especialista 3",
+      "pt-BR": "Joia Peçonha/Especialista 3",
+      "it": "G veleno/esperto 3",
+      "pl": "K. trucizny/eksperta [3]"
     },
     "skills": {
       "-2096489472": 1,
@@ -3591,7 +5181,13 @@
     "names": {
       "en": "Frost Jewel III [3]",
       "fr": "Joyau glace III [3]",
-      "es": "Joya hielo III 3"
+      "de": "Frost-Jwl III 3",
+      "es": "Joya hielo III 3",
+      "es-419": "J. hielo III [3]",
+      "pt": "Joia Geada III 3",
+      "pt-BR": "Joia Geada III 3",
+      "it": "G ghiaccio III 3",
+      "pl": "Klejnot mrozu III [3]"
     },
     "skills": {
       "1268070400": 3
@@ -3604,7 +5200,13 @@
     "names": {
       "en": "Poison/Handicraft Jwl [3]",
       "fr": "Joyau poison/artisanat [3]",
-      "es": "Joya tóxica/artesana 3"
+      "de": "Gift/Handwerk-Jwl 3",
+      "es": "Joya tóxica/artesana 3",
+      "es-419": "J. tóxica/artes. [3]",
+      "pt": "Joia Peçonha/Artesanato 3",
+      "pt-BR": "Joia Peçonha/Artesanato 3",
+      "it": "G veleno/artigiano 3",
+      "pl": "K. trucizny/rękodz. [3]"
     },
     "skills": {
       "-1629629184": 1,
@@ -3618,7 +5220,13 @@
     "names": {
       "en": "Handicraft Jewel [1]",
       "fr": "Joyau artisanat [1]",
-      "es": "Joya artesana 1"
+      "de": "Handwerk-Jwl 1",
+      "es": "Joya artesana 1",
+      "es-419": "J. artesanía [1]",
+      "pt": "Joia Artesanato 1",
+      "pt-BR": "Joia Artesanato 1",
+      "it": "G artigiano 1",
+      "pl": "Klejnot rękodzieła [1]"
     },
     "skills": {
       "1160639488": 1
@@ -3631,7 +5239,13 @@
     "names": {
       "en": "Enhancer Jewel III [3]",
       "fr": "Joyau puissance III [3]",
-      "es": "Joya aumento III 3"
+      "de": "Verstärker-Jwl III 3",
+      "es": "Joya aumento III 3",
+      "es-419": "J. aumento III [3]",
+      "pt": "Joia Intensificadora III 3",
+      "pt-BR": "Joia Intensificadora III 3",
+      "it": "G amplifica III 3",
+      "pl": "K. wydłużacza III [3]"
     },
     "skills": {
       "691199232": 3
@@ -3644,7 +5258,13 @@
     "names": {
       "en": "Medicine Jewel [1]",
       "fr": "Joyau médecin [1]",
-      "es": "Joya medicinal 1"
+      "de": "Medizin-Jwl 1",
+      "es": "Joya medicinal 1",
+      "es-419": "J. medicinal [1]",
+      "pt": "Joia Medicinal 1",
+      "pt-BR": "Joia Medicinal 1",
+      "it": "G cura 1",
+      "pl": "Klejnot medycyny [1]"
     },
     "skills": {
       "-1235658624": 1
@@ -3657,7 +5277,13 @@
     "names": {
       "en": "Charge Jewel III [3]",
       "fr": "Joyau charge III [3]",
-      "es": "Joya carga III 3"
+      "de": "Lade-Jwl III 3",
+      "es": "Joya carga III 3",
+      "es-419": "J. carga III [3]",
+      "pt": "Joia Energizadora III 3",
+      "pt-BR": "Joia Energizadora III 3",
+      "it": "G carica III 3",
+      "pl": "K. ładowania III [3]"
     },
     "skills": {
       "-1475134080": 3
@@ -3670,7 +5296,13 @@
     "names": {
       "en": "Flight/Expert Jewel [3]",
       "fr": "Joyau acrobatie/maître [3]",
-      "es": "Joya vuelo/experto 3"
+      "de": "Flug/Experten-Jwl 3",
+      "es": "Joya vuelo/experto 3",
+      "es-419": "J. vuelo/experto [3]",
+      "pt": "Joia de Voo/Especialista 3",
+      "pt-BR": "Joia de Voo/Especialista 3",
+      "it": "G volo/esperto 3",
+      "pl": "K. lotu/eksperta [3]"
     },
     "skills": {
       "-2096489472": 1,
@@ -3684,7 +5316,13 @@
     "names": {
       "en": "Sonorous/Draw Jwl [3]",
       "fr": "Joyau musique/dégainage [3]",
-      "es": "Joya músico/desenfunde 3"
+      "de": "Klang/Ziehen-Jwl 3",
+      "es": "Joya músico/desenfunde 3",
+      "es-419": "J. músico/desenf. [3]",
+      "pt": "Joia Sonora/Saque 3",
+      "pt-BR": "Joia Sonora/Saque 3",
+      "it": "G sonoro/sfoderata 3",
+      "pl": "K. dźwięc./d. broni [3]"
     },
     "skills": {
       "-1237438336": 2,
@@ -3698,7 +5336,13 @@
     "names": {
       "en": "Furor Jewel [2]",
       "fr": "Joyau vengeance [2]",
-      "es": "Joya furor 2"
+      "de": "Furor-Jwl 2",
+      "es": "Joya furor 2",
+      "es-419": "J. del furor [2]",
+      "pt": "Joia do Furor 2",
+      "pt-BR": "Joia do Furor 2",
+      "it": "G furore 2",
+      "pl": "Klejnot poruszenia [2]"
     },
     "skills": {
       "1359821952": 1
@@ -3711,7 +5355,13 @@
     "names": {
       "en": "Crit Stat/Precise Jwl [3]",
       "fr": "Joyau châtiment/kyudo [3]",
-      "es": "Joya est. crítico/puntería 3"
+      "de": "KritStat/Präzises Jwl 3",
+      "es": "Joya est. crítico/puntería 3",
+      "es-419": "J. est. crít./precisa [3]",
+      "pt": "Joia Stat. Crít./Precisão 3",
+      "pt-BR": "Joia Stat. Crít./Precisão 3",
+      "it": "G stato critico/mirino 3",
+      "pl": "K. st. kryt./precyz. [3]"
     },
     "skills": {
       "-420608864": 1,
@@ -3725,7 +5375,13 @@
     "names": {
       "en": "Mind's Eye Jwl III [3]",
       "fr": "Joyau spirituel III [3]",
-      "es": "Joya ojo mental III 3"
+      "de": "Geistiges-Auge-Jwl III 3",
+      "es": "Joya ojo mental III 3",
+      "es-419": "J. ojo mental III [3]",
+      "pt": "Joia Olho da Mente III 3",
+      "pt-BR": "Joia Olho da Mente III 3",
+      "it": "G profeta III 3",
+      "pl": "K. oka umysłu III [3]"
     },
     "skills": {
       "1594792704": 3
@@ -3738,7 +5394,13 @@
     "names": {
       "en": "KO Jewel III [3]",
       "fr": "Joyau cogneur III [3]",
-      "es": "Joya boxeo III 3"
+      "de": "K.o.-Jwl III 3",
+      "es": "Joya boxeo III 3",
+      "es-419": "J. boxeo III [3]",
+      "pt": "Joia de Nocaute III 3",
+      "pt-BR": "Joia de Nocaute III 3",
+      "it": "G battitore III 3",
+      "pl": "Klejnot nokautu III [3]"
     },
     "skills": {
       "-893407296": 3
@@ -3751,7 +5413,13 @@
     "names": {
       "en": "Magazine/Ironwall Jwl [3]",
       "fr": "Joyau franc-tireur/paladin [3]",
-      "es": "Joya cargador/muro 3"
+      "de": "Magazin/Mauer-Jwl 3",
+      "es": "Joya cargador/muro 3",
+      "es-419": "J. almacén/guardia [3]",
+      "pt": "Joia Aljava/Muro de Ferro 3",
+      "pt-BR": "Joia Aljava/Muro de Ferro 3",
+      "it": "G caricatore/barriera 3",
+      "pl": "K. magazynka/ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -3765,7 +5433,13 @@
     "names": {
       "en": "Paralyzer Jewel II [2]",
       "fr": "Joyau paralysant II [2]",
-      "es": "Joya paralizante II 2"
+      "de": "Lähm-Jwl II 2",
+      "es": "Joya paralizante II 2",
+      "es-419": "J. paralizante II [2]",
+      "pt": "Joia Paralisadora II 2",
+      "pt-BR": "Joia Paralisadora II 2",
+      "it": "G paralizzante II 2",
+      "pl": "Klejnot paraliżu II [2]"
     },
     "skills": {
       "-1863702144": 2
@@ -3778,7 +5452,13 @@
     "names": {
       "en": "Gobbler Jewel [1]",
       "fr": "Joyau carnassier [1]",
-      "es": "Joya tragón 1"
+      "de": "Verschling-Jwl 1",
+      "es": "Joya tragón 1",
+      "es-419": "J. del tragón [1]",
+      "pt": "Joia do Glutão 1",
+      "pt-BR": "Joia do Glutão 1",
+      "it": "G vorace 1",
+      "pl": "Klejnot żarłoka [1]"
     },
     "skills": {
       "634068352": 1
@@ -3791,7 +5471,13 @@
     "names": {
       "en": "Stream/Ironwall Jwl [3]",
       "fr": "Joyau eau/paladin [3]",
-      "es": "Joya agua/muro 3"
+      "de": "Fluss/Mauer-Jwl 3",
+      "es": "Joya agua/muro 3",
+      "es-419": "J. agua/guardia [3]",
+      "pt": "Joia Riacho/Muro de Ferro 3",
+      "pt-BR": "Joia Riacho/Muro de Ferro 3",
+      "it": "G acqua/barriera 3",
+      "pl": "K. strum./ż. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -3805,7 +5491,13 @@
     "names": {
       "en": "Ambush Jewel [2]",
       "fr": "Joyau embuscade [2]",
-      "es": "Joya emboscada 2"
+      "de": "Überfall-Jwl 2",
+      "es": "Joya emboscada 2",
+      "es-419": "J. emboscada [2]",
+      "pt": "Joia da Emboscada 2",
+      "pt-BR": "Joia da Emboscada 2",
+      "it": "G agguato 2",
+      "pl": "Klejnot zasadzki [2]"
     },
     "skills": {
       "-171796848": 1
@@ -3818,7 +5510,13 @@
     "names": {
       "en": "Phoenix Jewel [2]",
       "fr": "Joyau phénix [2]",
-      "es": "Joya fénix 2"
+      "de": "Phönix-Jwl 2",
+      "es": "Joya fénix 2",
+      "es-419": "J. fénix [2]",
+      "pt": "Joia da Fênix 2",
+      "pt-BR": "Joia da Fênix 2",
+      "it": "G fenice 2",
+      "pl": "Klejnot feniksa [2]"
     },
     "skills": {
       "-1700743296": 1
@@ -3831,7 +5529,13 @@
     "names": {
       "en": "Steadfast Jewel [1]",
       "fr": "Joyau volonté [1]",
-      "es": "Joya voluntad 1"
+      "de": "Felsenfest-Jwl 1",
+      "es": "Joya voluntad 1",
+      "es-419": "J. voluntad [1]",
+      "pt": "Joia Resoluto 1",
+      "pt-BR": "Joia Resoluto 1",
+      "it": "G antistordimento 1",
+      "pl": "Klejnot niezłomności [1]"
     },
     "skills": {
       "705317568": 1
@@ -3844,7 +5548,13 @@
     "names": {
       "en": "Antiblast Jewel [1]",
       "fr": "Joyau blindage [1]",
-      "es": "Joya antinitro 1"
+      "de": "Anti-Explosion-Jwl 1",
+      "es": "Joya antinitro 1",
+      "es-419": "J. antinitro [1]",
+      "pt": "Joia Antiexplosão 1",
+      "pt-BR": "Joia Antiexplosão 1",
+      "it": "G antiscoppio 1",
+      "pl": "K. antywybuchowy [1]"
     },
     "skills": {
       "820385792": 1
@@ -3857,7 +5567,13 @@
     "names": {
       "en": "Drain Jewel [1]",
       "fr": "Joyau fatigue [1]",
-      "es": "Joya débil 1"
+      "de": "Entzug-Jwl 1",
+      "es": "Joya débil 1",
+      "es-419": "J. débil [1]",
+      "pt": "Joia de Drenagem 1",
+      "pt-BR": "Joia de Drenagem 1",
+      "it": "G affaticante 1",
+      "pl": "Klejnot wyssania [1]"
     },
     "skills": {
       "1758661504": 1
@@ -3870,7 +5586,13 @@
     "names": {
       "en": "Mind's Eye Jewel II [2]",
       "fr": "Joyau spirituel II [2]",
-      "es": "Joya ojo mental II 2"
+      "de": "Geistiges-Auge-Jwl II 2",
+      "es": "Joya ojo mental II 2",
+      "es-419": "J. ojo mental II [2]",
+      "pt": "Joia Olho da Mente II 2",
+      "pt-BR": "Joia Olho da Mente II 2",
+      "it": "G profeta II 2",
+      "pl": "K. oka umysłu II [2]"
     },
     "skills": {
       "1594792704": 2
@@ -3883,7 +5605,13 @@
     "names": {
       "en": "Tenderizer Jewel [3]",
       "fr": "Joyau supplice [3]",
-      "es": "Joya ablandadora 3"
+      "de": "Aufweich-Jwl 3",
+      "es": "Joya ablandadora 3",
+      "es-419": "J. ablandadora [3]",
+      "pt": "Joia Atenuadora 3",
+      "pt-BR": "Joia Atenuadora 3",
+      "it": "G batticarne 3",
+      "pl": "Klejnot zmiękczający [3]"
     },
     "skills": {
       "-397570464": 1
@@ -3896,7 +5624,13 @@
     "names": {
       "en": "Artillery Jewel III [3]",
       "fr": "Joyau dynamite III [3]",
-      "es": "Joya artillería III 3"
+      "de": "Artillerie-Jwl III 3",
+      "es": "Joya artillería III 3",
+      "es-419": "J. artillería III [3]",
+      "pt": "Joia Artilharia III 3",
+      "pt-BR": "Joia Artilharia III 3",
+      "it": "G armamento III 3",
+      "pl": "K. artylerii III [3]"
     },
     "skills": {
       "-596764096": 3
@@ -3909,7 +5643,13 @@
     "names": {
       "en": "Charge Up Jewel [2]",
       "fr": "Joyau surcharge [2]",
-      "es": "Joya cargada 2"
+      "de": "Aufladen-Jwl 2",
+      "es": "Joya cargada 2",
+      "es-419": "J. cargada [2]",
+      "pt": "Joia Energizar 2",
+      "pt-BR": "Joia Energizar 2",
+      "it": "G stordente 2",
+      "pl": "Klejnot doładowania [2]"
     },
     "skills": {
       "353114912": 1
@@ -3922,7 +5662,13 @@
     "names": {
       "en": "Focus Jewel II [2]",
       "fr": "Joyau concentration II [2]",
-      "es": "Joya carga veloz II 2"
+      "de": "Fokus-Jwl II 2",
+      "es": "Joya carga veloz II 2",
+      "es-419": "J. concentración II [2]",
+      "pt": "Joia do Foco II 2",
+      "pt-BR": "Joia do Foco II 2",
+      "it": "G disciplina II 2",
+      "pl": "Klejnot skupienia II [2]"
     },
     "skills": {
       "-283334048": 2
@@ -3935,7 +5681,13 @@
     "names": {
       "en": "Charge Up/Handicraft Jwl [3]",
       "fr": "Joyau surcharge/artisanat [3]",
-      "es": "Joya cargada/artesana 3"
+      "de": "Aufladen/HandwerkJwl3",
+      "es": "Joya cargada/artesana 3",
+      "es-419": "J. cargada/artes. [3]",
+      "pt": "Joia Energizar/Artesanato 3",
+      "pt-BR": "Joia Energizar/Artesanato 3",
+      "it": "G stordente/artigiano 3",
+      "pl": "K. ładowania/rękodz. [3]"
     },
     "skills": {
       "353114912": 1,
@@ -3949,7 +5701,13 @@
     "names": {
       "en": "Shockproof Jewel [1]",
       "fr": "Joyau antichoc [1]",
-      "es": "Joya amortiguación 1"
+      "de": "Puffer-Jwl 1",
+      "es": "Joya amortiguación 1",
+      "es-419": "J. absorción [1]",
+      "pt": "Joia Antichoque 1",
+      "pt-BR": "Joia Antichoque 1",
+      "it": "G antishock 1",
+      "pl": "Klejnot wstrząsoodp. [1]"
     },
     "skills": {
       "-632440576": 1
@@ -3962,7 +5720,13 @@
     "names": {
       "en": "Blaze Jewel III [3]",
       "fr": "Joyau feu III [3]",
-      "es": "Joya fuego III 3"
+      "de": "Lohe-Jwl III 3",
+      "es": "Joya fuego III 3",
+      "es-419": "J. fuego III [3]",
+      "pt": "Joia Chama III 3",
+      "pt-BR": "Joia Chama III 3",
+      "it": "G fuoco III 3",
+      "pl": "Klejnot pożogi III [3]"
     },
     "skills": {
       "-562534336": 3
@@ -3975,7 +5739,13 @@
     "names": {
       "en": "Frost Jewel II [2]",
       "fr": "Joyau glace II [2]",
-      "es": "Joya hielo II 2"
+      "de": "Frost-Jwl II 2",
+      "es": "Joya hielo II 2",
+      "es-419": "J. hielo II [2]",
+      "pt": "Joia Geada II 2",
+      "pt-BR": "Joia Geada II 2",
+      "it": "G ghiaccio II 2",
+      "pl": "Klejnot mrozu II [2]"
     },
     "skills": {
       "1268070400": 2
@@ -3988,7 +5758,13 @@
     "names": {
       "en": "Dragon/Handicraft Jwl [3]",
       "fr": "Joyau dracocide/artisanat [3]",
-      "es": "Joya draco/artesana 3"
+      "de": "Drachen/HandwerkJwl3",
+      "es": "Joya draco/artesana 3",
+      "es-419": "J. draco/artes. [3]",
+      "pt": "Joia Dragão/Artesanato 3",
+      "pt-BR": "Joia Dragão/Artesanato 3",
+      "it": "G drago/artigiano 3",
+      "pl": "K. smoka/rękodzieła [3]"
     },
     "skills": {
       "-776946176": 3,
@@ -4002,7 +5778,13 @@
     "names": {
       "en": "Crit Elem/Ironwall Jwl [3]",
       "fr": "Joyau chamanisme/paladin [3]",
-      "es": "Joya crít. elemental/muro 3"
+      "de": "KritElem/Mauer-Jwl 3",
+      "es": "Joya crít. elemental/muro 3",
+      "es-419": "J. elm. crit./guardia [3]",
+      "pt": "Joia Elem. Crít./M. Ferro 3",
+      "pt-BR": "Joia Elem. Crít./M. Ferro 3",
+      "it": "G critico elem./barriera 3",
+      "pl": "Klejnot żyw. kryt./żel. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -4016,7 +5798,13 @@
     "names": {
       "en": "Blaze/Quickswitch Jwl [3]",
       "fr": "Joyau feu/morphose [3]",
-      "es": "Joya fuego/mutación 3"
+      "de": "Lohe/Morph-Jwl 3",
+      "es": "Joya fuego/mutación 3",
+      "es-419": "J. fuego/mutación [3]",
+      "pt": "Joia Chama/Troca Ráp. 3",
+      "pt-BR": "Joia Chama/Troca Ráp. 3",
+      "it": "G fuoco/trasforma 3",
+      "pl": "K. żyw. kr./ż. muru [3]"
     },
     "skills": {
       "-1961116288": 1,
@@ -4030,7 +5818,13 @@
     "names": {
       "en": "Stream/Handicraft Jwl [3]",
       "fr": "Joyau eau/artisanat [3]",
-      "es": "Joya agua/artesana 3"
+      "de": "Fluss/Handwerk-Jwl 3",
+      "es": "Joya agua/artesana 3",
+      "es-419": "J. agua/artes. [3]",
+      "pt": "Joia Riacho/Artesanato 3",
+      "pt-BR": "Joia Riacho/Artesanato 3",
+      "it": "G acqua/artigiano 3",
+      "pl": "K. strum./rękodz. [3]"
     },
     "skills": {
       "508916704": 3,
@@ -4044,7 +5838,13 @@
     "names": {
       "en": "Charge Up/Expert Jwl [3]",
       "fr": "Joyau surcharge/maître [3]",
-      "es": "Joya cargada/experto 3"
+      "de": "Aufladen/ExpertenJwl3",
+      "es": "Joya cargada/experto 3",
+      "es-419": "J. cargada/experto [3]",
+      "pt": "Joia Energizar/Especialista 3",
+      "pt-BR": "Joia Energizar/Especialista 3",
+      "it": "G stordente/esperto 3",
+      "pl": "K. ładowania/eksper. [3]"
     },
     "skills": {
       "-2096489472": 1,
@@ -4058,7 +5858,13 @@
     "names": {
       "en": "Crit Element/Precise Jwl [3]",
       "fr": "Joyau chamanisme/kyudo [3]",
-      "es": "Joya crít. elem./puntería 3"
+      "de": "KritElem/Präzises Jwl 3",
+      "es": "Joya crít. elem./puntería 3",
+      "es-419": "J. elm. crít./precisa [3]",
+      "pt": "Joia Elem. Crít./Precisão 3",
+      "pt-BR": "Joia Elem. Crít./Precisão 3",
+      "it": "G critico elem./preciso 3",
+      "pl": "K. ż. kryt./precyz. [3]"
     },
     "skills": {
       "-420608864": 1,
@@ -4072,7 +5878,13 @@
     "names": {
       "en": "Throttle Jewel [3]",
       "fr": "Joyau occulte [3]",
-      "es": "Joya poder 3"
+      "de": "Vollgas-Jwl 3",
+      "es": "Joya poder 3",
+      "es-419": "J. del poder [3]",
+      "pt": "Joia Aceleradora 3",
+      "pt-BR": "Joia Aceleradora 3",
+      "it": "G forza latente 3",
+      "pl": "K. przyśpieszenia [3]"
     },
     "skills": {
       "1763191040": 1
@@ -4085,7 +5897,13 @@
     "names": {
       "en": "Perfume Jewel [1]",
       "fr": "Joyau essence [1]",
-      "es": "Joya aromatizante 1"
+      "de": "Parfüm-Jwl 1",
+      "es": "Joya aromatizante 1",
+      "es-419": "J. perfume [1]",
+      "pt": "Joia de Perfume 1",
+      "pt-BR": "Joia de Perfume 1",
+      "it": "G antipuzza 1",
+      "pl": "Klejnot perfum [1]"
     },
     "skills": {
       "-411441344": 1
@@ -4098,7 +5916,13 @@
     "names": {
       "en": "Maintenance Jewel [2]",
       "fr": "Joyau survie [2]",
-      "es": "Joya reparadora 2"
+      "de": "Wartungs-Jwl 2",
+      "es": "Joya reparadora 2",
+      "es-419": "J. reparadora [2]",
+      "pt": "Joia de Manutenção 2",
+      "pt-BR": "Joia de Manutenção 2",
+      "it": "G manutenzione 2",
+      "pl": "Klejnot konserwacji [2]"
     },
     "skills": {
       "469540352": 1
@@ -4111,7 +5935,13 @@
     "names": {
       "en": "Critical Jewel III [3]",
       "fr": "Joyau berserk III [3]",
-      "es": "Joya críticos III 3"
+      "de": "Kritisches Jwl III 3",
+      "es": "Joya críticos III 3",
+      "es-419": "J. crítica III [3]",
+      "pt": "Joia Crítica III 3",
+      "pt-BR": "Joia Crítica III 3",
+      "it": "G critico III 3",
+      "pl": "K. krytyczny III [3]"
     },
     "skills": {
       "-1607763456": 3
@@ -4124,7 +5954,13 @@
     "names": {
       "en": "Frost/Precise Jewel [3]",
       "fr": "Joyau glace/kyudo [3]",
-      "es": "Joya hielo/puntería 3"
+      "de": "Frost/Präzises Jwl 3",
+      "es": "Joya hielo/puntería 3",
+      "es-419": "J. hielo/precisa [3]",
+      "pt": "Joia Geada/Precisão 3",
+      "pt-BR": "Joia Geada/Precisão 3",
+      "it": "G ghiaccio/preciso 3",
+      "pl": "K. mrozu/precyz. [3]"
     },
     "skills": {
       "-420608864": 1,
@@ -4138,7 +5974,13 @@
     "names": {
       "en": "Blaze/Rzr Sharp Jwl [3]",
       "fr": "Joyau feu/samouraï [3]",
-      "es": "Joya fuego/cortante 3"
+      "de": "Lohe/Blankes Jwl 3",
+      "es": "Joya fuego/cortante 3",
+      "es-419": "J. fuego/filo cuch. [3]",
+      "pt": "Joia Chama/Fio da Navalha 3",
+      "pt-BR": "Joia Chama/Fio da Navalha 3",
+      "it": "G fuoco/rasoio 3",
+      "pl": "K. pożogi/naostrz. [3]"
     },
     "skills": {
       "-562534336": 3,
@@ -4152,7 +5994,13 @@
     "names": {
       "en": "Draincoat Jewel [2]",
       "fr": "Joyau léthargie [2]",
-      "es": "Joya drenaje 2"
+      "de": "Aufsaugüberzug-Jwl 2",
+      "es": "Joya drenaje 2",
+      "es-419": "J. debilitamiento [2]",
+      "pt": "Joia Camada de Dreno 2",
+      "pt-BR": "Joia Camada de Dreno 2",
+      "it": "G stratofatica 2",
+      "pl": "K. pow. wyczerpuj. [2]"
     },
     "skills": {
       "-181774400": 1
@@ -4165,7 +6013,13 @@
     "names": {
       "en": "Shield Jewel III [3]",
       "fr": "Joyau bouclier III [3]",
-      "es": "Joya escudo III 3"
+      "de": "Schild-Jwl III 3",
+      "es": "Joya escudo III 3",
+      "es-419": "J. escudo III [3]",
+      "pt": "Joia de Escudo III 3",
+      "pt-BR": "Joia de Escudo III 3",
+      "it": "G corazza III 3",
+      "pl": "K. tarczy III [3]"
     },
     "skills": {
       "-1674114176": 3
@@ -4178,7 +6032,13 @@
     "names": {
       "en": "Grinder/Attack Jewel [3]",
       "fr": "Joyau aiguiseur/attaque [3]",
-      "es": "Joya afiladora/ataque 3"
+      "de": "Schleif/Angriff-Jwl 3",
+      "es": "Joya afiladora/ataque 3",
+      "es-419": "J. afiladora/ataque [3]",
+      "pt": "Joia Amolador/Ataque 3",
+      "pt-BR": "Joia Amolador/Ataque 3",
+      "it": "G affilante/attacco 3",
+      "pl": "K. ostrzenia/ataku [3]"
     },
     "skills": {
       "1": 1,
@@ -4192,7 +6052,13 @@
     "names": {
       "en": "Blunt Jewel II [2]",
       "fr": "Joyau matraque II [2]",
-      "es": "Joya contundente II 2"
+      "de": "Stumpfes Jwl II 2",
+      "es": "Joya contundente II 2",
+      "es-419": "J. contundente II [2]",
+      "pt": "Joia Contundente II 2",
+      "pt-BR": "Joia Contundente II 2",
+      "it": "G smussato II 2",
+      "pl": "Klejnot stępiony II [2]"
     },
     "skills": {
       "397306144": 2
@@ -4205,7 +6071,13 @@
     "names": {
       "en": "Critical Jewel [1]",
       "fr": "Joyau berserk [1]",
-      "es": "Joya críticos 1"
+      "de": "Kritisches Jwl 1",
+      "es": "Joya críticos 1",
+      "es-419": "J. crítica [1]",
+      "pt": "Joia Crítica 1",
+      "pt-BR": "Joia Crítica 1",
+      "it": "G critico 1",
+      "pl": "Klejnot krytyczny [1]"
     },
     "skills": {
       "-1607763456": 1
@@ -4218,7 +6090,13 @@
     "names": {
       "en": "Sharp Jewel III [3]",
       "fr": "Joyau trempe III [3]",
-      "es": "Joya afilado III 3"
+      "de": "Scharfes Jwl III 3",
+      "es": "Joya afilado III 3",
+      "es-419": "J. afilada III [3]",
+      "pt": "Joia Afiada III 3",
+      "pt-BR": "Joia Afiada III 3",
+      "it": "G tagliente III 3",
+      "pl": "Klejnot ostry III [3]"
     },
     "skills": {
       "1500129152": 3
@@ -4231,7 +6109,13 @@
     "names": {
       "en": "Focus/Precise Jewel [3]",
       "fr": "Joyau concentration/kyudo [3]",
-      "es": "Joya carga veloz/puntería 3"
+      "de": "Fokus/Präzises Jwl 3",
+      "es": "Joya carga veloz/puntería 3",
+      "es-419": "J. concen./precisa [3]",
+      "pt": "Joia Foco/Precisão 3",
+      "pt-BR": "Joia Foco/Precisão 3",
+      "it": "G disciplina/preciso 3",
+      "pl": "K. skup./precyz. [3]"
     },
     "skills": {
       "-420608864": 1,
@@ -4245,7 +6129,13 @@
     "names": {
       "en": "Gambit Jewel II [2]",
       "fr": "Joyau punition II [2]",
-      "es": "Joya gambito II 2"
+      "de": "Gambit-Jwl II 2",
+      "es": "Joya gambito II 2",
+      "es-419": "J. gambito II [2]",
+      "pt": "Joia Artimanha II 2",
+      "pt-BR": "Joia Artimanha II 2",
+      "it": "G punizione II 2",
+      "pl": "Klejnot gambitu II [2]"
     },
     "skills": {
       "-1946345856": 2
@@ -4258,7 +6148,13 @@
     "names": {
       "en": "Bandolier Jewel [1]",
       "fr": "Joyau armurier [1]",
-      "es": "Joya bandolero 1"
+      "de": "Tetrad-Jwl 1",
+      "es": "Joya bandolero 1",
+      "es-419": "J. capacidad [1]",
+      "pt": "Joia Bandoleira 1",
+      "pt-BR": "Joia Bandoleira 1",
+      "it": "G bandoliera 1",
+      "pl": "Klejnot ładownicy [1]"
     },
     "skills": {
       "1613139840": 1
@@ -4271,7 +6167,13 @@
     "names": {
       "en": "Blunt Jewel [1]",
       "fr": "Joyau matraque [1]",
-      "es": "Joya contundente 1"
+      "de": "Stumpfes Jwl 1",
+      "es": "Joya contundente 1",
+      "es-419": "J. contundente [1]",
+      "pt": "Joia Contundente 1",
+      "pt-BR": "Joia Contundente 1",
+      "it": "G smussato 1",
+      "pl": "Klejnot stępiony [1]"
     },
     "skills": {
       "397306144": 1
@@ -4284,7 +6186,13 @@
     "names": {
       "en": "Forceshot Jewel [3]",
       "fr": "Joyau artilleur [3]",
-      "es": "Joya disparo 3"
+      "de": "Starkschuss-Jwl 3",
+      "es": "Joya disparo 3",
+      "es-419": "J. disparo [3]",
+      "pt": "Joia Tiro Forte 3",
+      "pt-BR": "Joia Tiro Forte 3",
+      "it": "G tiroforte 3",
+      "pl": "K. tetrad. strzału [3]"
     },
     "skills": {
       "-1961297152": 1
@@ -4297,7 +6205,13 @@
     "names": {
       "en": "Quickswitch Jewel [1]",
       "fr": "Joyau morphose [1]",
-      "es": "Joya mutación 1"
+      "de": "Morph-Jwl 1",
+      "es": "Joya mutación 1",
+      "es-419": "J. mutación [1]",
+      "pt": "Joia Troca Rápida 1",
+      "pt-BR": "Joia Troca Rápida 1",
+      "it": "G trasforma 1",
+      "pl": "K. szybkoprzełącz. [1]"
     },
     "skills": {
       "-1961116288": 1
@@ -4310,7 +6224,13 @@
     "names": {
       "en": "Crit Element Jewel II [2]",
       "fr": "Joyau chamanisme II [2]",
-      "es": "Joya crítico elemental II 2"
+      "de": "KritElement-Jwl II 2",
+      "es": "Joya crítico elemental II 2",
+      "es-419": "J. elem. crít. II [2]",
+      "pt": "Joia Elemento Crít. II 2",
+      "pt-BR": "Joia Elemento Crít. II 2",
+      "it": "G critico elementale II 2",
+      "pl": "K. żywiołu kryt. II [2]"
     },
     "skills": {
       "313598432": 2
@@ -4323,7 +6243,13 @@
     "names": {
       "en": "Flash Jewel [1]",
       "fr": "Joyau flash [1]",
-      "es": "Joya luz 1"
+      "de": "Blender-Jwl 1",
+      "es": "Joya luz 1",
+      "es-419": "J. destello [1]",
+      "pt": "Joia de Lampejo 1",
+      "pt-BR": "Joia de Lampejo 1",
+      "it": "G sorpresa 1",
+      "pl": "Klejnot błysku [1]"
     },
     "skills": {
       "-257693696": 1
@@ -4336,7 +6262,13 @@
     "names": {
       "en": "Flight/Handicraft Jwl [3]",
       "fr": "Joyau acrobatie/artisanat [3]",
-      "es": "Joya vuelo/artesana 3"
+      "de": "Flug/Handwerk-Jwl 3",
+      "es": "Joya vuelo/artesana 3",
+      "es-419": "J. vuelo/artes. [3]",
+      "pt": "Joia de Voo/Artesanato 3",
+      "pt-BR": "Joia de Voo/Artesanato 3",
+      "it": "G volo/artigiano 3",
+      "pl": "K. lotu/rękodzieła [3]"
     },
     "skills": {
       "402237312": 1,
@@ -4350,7 +6282,13 @@
     "names": {
       "en": "Counter Jewel [2]",
       "fr": "Joyau contre-attaque [2]",
-      "es": "Joya venganza 2"
+      "de": "Konter-Jwl 2",
+      "es": "Joya venganza 2",
+      "es-419": "J. venganza [2]",
+      "pt": "Joia do Revide 2",
+      "pt-BR": "Joia do Revide 2",
+      "it": "G contrattacco 2",
+      "pl": "Klejnot kontry [2]"
     },
     "skills": {
       "280489184": 1
@@ -4363,7 +6301,13 @@
     "names": {
       "en": "Precise Jewel III [3]",
       "fr": "Joyau kyudo III [3]",
-      "es": "Joya puntería III 3"
+      "de": "Präzises Jwl III 3",
+      "es": "Joya puntería III 3",
+      "es-419": "J. precisa III [3]",
+      "pt": "Joia da Precisão III 3",
+      "pt-BR": "Joia da Precisão III 3",
+      "it": "G preciso III 3",
+      "pl": "K. precyzyjny III [3]"
     },
     "skills": {
       "-420608864": 3
@@ -4376,7 +6320,13 @@
     "names": {
       "en": "Trueshot Jewel [1]",
       "fr": "Joyau sniper [1]",
-      "es": "Joya tirofijo 1"
+      "de": "Volltreffer-Jwl 1",
+      "es": "Joya tirofijo 1",
+      "es-419": "J. tirofijo [1]",
+      "pt": "Joia Tiro Certo 1",
+      "pt-BR": "Joia Tiro Certo 1",
+      "it": "G perforante 1",
+      "pl": "K. celnego strzału [1]"
     },
     "skills": {
       "-160562336": 1
@@ -4389,7 +6339,13 @@
     "names": {
       "en": "Frost/KO Jewel [3]",
       "fr": "Joyau glace/cogneur [3]",
-      "es": "Joya hielo/boxeo 3"
+      "de": "Frost/K.o.-Jwl 3",
+      "es": "Joya hielo/boxeo 3",
+      "es-419": "J. hielo/boxeo [3]",
+      "pt": "Joia Geada/Nocaute 3",
+      "pt-BR": "Joia Geada/Nocaute 3",
+      "it": "G ghiaccio/battitore 3",
+      "pl": "K. mrozu/nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -4403,7 +6359,13 @@
     "names": {
       "en": "Crit Status/KO Jwl [3]",
       "fr": "Joyau châtiment/cogneur [3]",
-      "es": "Joya est. crítico/boxeo 3"
+      "de": "KritStat/K.o.-Jwl 3",
+      "es": "Joya est. crítico/boxeo 3",
+      "es-419": "J. est. crít./boxeo [3]",
+      "pt": "Joia Stat. Crít./Nocaute 3",
+      "pt-BR": "Joia Stat. Crít./Nocaute 3",
+      "it": "G stato critico/battitore 3",
+      "pl": "K. st. kryt./nokautu [3]"
     },
     "skills": {
       "-893407296": 1,
@@ -4417,7 +6379,13 @@
     "names": {
       "en": "Potential Jewel [2]",
       "fr": "Joyau héros [2]",
-      "es": "Joya potencia 2"
+      "de": "Potenzial-Jwl 2",
+      "es": "Joya potencia 2",
+      "es-419": "J. potencia [2]",
+      "pt": "Joia Potencial 2",
+      "pt-BR": "Joia Potencial 2",
+      "it": "G eroe 2",
+      "pl": "Klejnot potencjału [2]"
     },
     "skills": {
       "422666624": 1
@@ -4430,7 +6398,13 @@
     "names": {
       "en": "Crit Status Jewel II [2]",
       "fr": "Joyau châtiment II [2]",
-      "es": "Joya estado crítico II 2"
+      "de": "KritStatus-Jwl II 2",
+      "es": "Joya estado crítico II 2",
+      "es-419": "J. est. crít. II [2]",
+      "pt": "Joia Status Crítico II 2",
+      "pt-BR": "Joia Status Crítico II 2",
+      "it": "G stato critico II 2",
+      "pl": "K. stat. kryt. II [2]"
     },
     "skills": {
       "-168922880": 2
@@ -4443,7 +6417,13 @@
     "names": {
       "en": "Shield/Ironwall Jwl [3]",
       "fr": "Joyau bouclier/paladin [3]",
-      "es": "Joya escudo/muro 3"
+      "de": "Schild/Mauer-Jwl 3",
+      "es": "Joya escudo/muro 3",
+      "es-419": "J. escudo/guardia [3]",
+      "pt": "Joia Escudo/Muro de Ferro 3",
+      "pt-BR": "Joia Escudo/Muro de Ferro 3",
+      "it": "G corazza/barriera 3",
+      "pl": "K. tarczy/ż. muru [3]"
     },
     "skills": {
       "-1674114176": 3,
@@ -4457,7 +6437,13 @@
     "names": {
       "en": "Shield Jewel [1]",
       "fr": "Joyau bouclier [1]",
-      "es": "Joya escudo 1"
+      "de": "Schild-Jwl 1",
+      "es": "Joya escudo 1",
+      "es-419": "J. escudo [1]",
+      "pt": "Joia de Escudo 1",
+      "pt-BR": "Joia de Escudo 1",
+      "it": "G corazza 1",
+      "pl": "Klejnot tarczy [1]"
     },
     "skills": {
       "-1674114176": 1
@@ -4470,7 +6456,13 @@
     "names": {
       "en": "Evasion Jewel [2]",
       "fr": "Joyau invulnérabilité [2]",
-      "es": "Joya evasión 2"
+      "de": "Ausweich-Jwl 2",
+      "es": "Joya evasión 2",
+      "es-419": "J. evasión [2]",
+      "pt": "Joia da Evasão 2",
+      "pt-BR": "Joia da Evasão 2",
+      "it": "G schivata 2",
+      "pl": "Klejnot uniku [2]"
     },
     "skills": {
       "144660544": 1
@@ -4483,7 +6475,13 @@
     "names": {
       "en": "Frost/Handicraft Jwl [3]",
       "fr": "Joyau glace/artisanat [3]",
-      "es": "Joya hielo/artesana 3"
+      "de": "Frost/Handwerk-Jwl 3",
+      "es": "Joya hielo/artesana 3",
+      "es-419": "J. hielo/artes. [3]",
+      "pt": "Joia Geada/Artesanato 3",
+      "pt-BR": "Joia Geada/Artesanato 3",
+      "it": "G ghiaccio/artigiano 3",
+      "pl": "K. mrozu/rękodzieła [3]"
     },
     "skills": {
       "1160639488": 1,
@@ -4497,7 +6495,13 @@
     "names": {
       "en": "Stream Jewel III [3]",
       "fr": "Joyau eau III [3]",
-      "es": "Joya agua III 3"
+      "de": "Fluss-Jwl III 3",
+      "es": "Joya agua III 3",
+      "es-419": "J. agua III [3]",
+      "pt": "Joia Riacho III 3",
+      "pt-BR": "Joia Riacho III 3",
+      "it": "G acqua III 3",
+      "pl": "K. strumienia III [3]"
     },
     "skills": {
       "508916704": 3
@@ -4510,7 +6514,13 @@
     "names": {
       "en": "Frost/Ironwall Jwl [3]",
       "fr": "Joyau glace/paladin [3]",
-      "es": "Joya hielo/muro 3"
+      "de": "Frost/Mauer-Jwl 3",
+      "es": "Joya hielo/muro 3",
+      "es-419": "J. hielo/guardia [3]",
+      "pt": "Joia Geada/Muro de Ferro 3",
+      "pt-BR": "Joia Geada/Muro de Ferro 3",
+      "it": "G ghiaccio/barriera 3",
+      "pl": "K. mrozu/żelaz. muru [3]"
     },
     "skills": {
       "-307644128": 1,
@@ -4524,7 +6534,13 @@
     "names": {
       "en": "Draw Jewel II [2]",
       "fr": "Joyau dégainage II [2]",
-      "es": "Joya desenfunde II 2"
+      "de": "Ziehen-Jwl II 2",
+      "es": "Joya desenfunde II 2",
+      "es-419": "J. desenfunde II [2]",
+      "pt": "Joia de Saque II 2",
+      "pt-BR": "Joia de Saque II 2",
+      "it": "G sfoderata II 2",
+      "pl": "K. dobycia broni II [2]"
     },
     "skills": {
       "686533440": 2
@@ -4537,7 +6553,13 @@
     "names": {
       "en": "Counterattack Jewel [3]",
       "fr": "Joyau riposte [3]",
-      "es": "Joya adrenalina 3"
+      "de": "Gegenangriff-Jwl 3",
+      "es": "Joya adrenalina 3",
+      "es-419": "J. adrenalina [3]",
+      "pt": "Joia do Contra-ataque 3",
+      "pt-BR": "Joia do Contra-ataque 3",
+      "it": "G adrenalina 3",
+      "pl": "Klejnot kontrataku [3]"
     },
     "skills": {
       "1174975744": 1
@@ -4550,7 +6572,13 @@
     "names": {
       "en": "Quickswitch/KO Jwl [3]",
       "fr": "Joyau morphose/cogneur [3]",
-      "es": "Joya mutación/boxeo 3"
+      "de": "Morph/K.o.-Jwl 3",
+      "es": "Joya mutación/boxeo 3",
+      "es-419": "J. mutación/boxeo [3]",
+      "pt": "Joia Troca Rápida/Nocaute 3",
+      "pt-BR": "Joia Troca Rápida/Nocaute 3",
+      "it": "G trasforma/battitore 3",
+      "pl": "K. szybkop./nokautu [3]"
     },
     "skills": {
       "-1961116288": 3,
@@ -4564,7 +6592,13 @@
     "names": {
       "en": "Rzr Sharp/Handicraft Jwl [3]",
       "fr": "Joyau samouraï/artisanat [3]",
-      "es": "Joya cortante/artesana 3"
+      "de": "Blankes/Handwerk-Jwl 3",
+      "es": "Joya cortante/artesana 3",
+      "es-419": "J. filo cuch./artes. [3]",
+      "pt": "Joia F. Navalha/Artesanato 3",
+      "pt-BR": "Joia F. Navalha/Artesanato 3",
+      "it": "G rasoio/artigiano 3",
+      "pl": "K. naostrz./rękodz. [3]"
     },
     "skills": {
       "1050520384": 3,
@@ -4578,7 +6612,13 @@
     "names": {
       "en": "Pierce Jewel [3]",
       "fr": "Joyau titane [3]",
-      "es": "Joya perforante 3"
+      "de": "Perforation-Jwl 3",
+      "es": "Joya perforante 3",
+      "es-419": "J. perforante [3]",
+      "pt": "Joia Perfurante 3",
+      "pt-BR": "Joia Perfurante 3",
+      "it": "G penetrante 3",
+      "pl": "Klejnot przebicia [3]"
     },
     "skills": {
       "552982656": 1
@@ -4591,7 +6631,13 @@
     "names": {
       "en": "Friendship Jewel [1]",
       "fr": "Joyau mousquetaire [1]",
-      "es": "Joya amistad 1"
+      "de": "Freundschaft-Jwl 1",
+      "es": "Joya amistad 1",
+      "es-419": "J. amistad [1]",
+      "pt": "Joia da Amizade 1",
+      "pt-BR": "Joia da Amizade 1",
+      "it": "G amicizia 1",
+      "pl": "Klejnot przyjaźni [1]"
     },
     "skills": {
       "894530496": 1
@@ -4604,7 +6650,13 @@
     "names": {
       "en": "Sprinter Jewel [1]",
       "fr": "Joyau marathon [1]",
-      "es": "Joya impulso 1"
+      "de": "Sprinter-Jwl 1",
+      "es": "Joya impulso 1",
+      "es-419": "J. impulso [1]",
+      "pt": "Joia do Corredor 1",
+      "pt-BR": "Joia do Corredor 1",
+      "it": "G velocista 1",
+      "pl": "Klejnot sprintera [1]"
     },
     "skills": {
       "-682586176": 1
@@ -4617,7 +6669,13 @@
     "names": {
       "en": "Crit Elem Jwl III [3]",
       "fr": "Joyau chamanisme III [3]",
-      "es": "Joya crítico elemental III 3"
+      "de": "KritElement-Jwl III 3",
+      "es": "Joya crítico elemental III 3",
+      "es-419": "J. elem. crít. III [3]",
+      "pt": "Joia Elemento Crít. III 3",
+      "pt-BR": "Joia Elemento Crít. III 3",
+      "it": "G critico elementale III 3",
+      "pl": "K. żywiołu kryt. III [3]"
     },
     "skills": {
       "313598432": 3
@@ -4630,7 +6688,13 @@
     "names": {
       "en": "Blast Jewel III [3]",
       "fr": "Joyau explosion III [3]",
-      "es": "Joya nitro III 3"
+      "de": "Explosion-Jwl III 3",
+      "es": "Joya nitro III 3",
+      "es-419": "J. nitro III [3]",
+      "pt": "Joia Explosão III 3",
+      "pt-BR": "Joia Explosão III 3",
+      "it": "G scoppio III 3",
+      "pl": "K. wybuchu III [3]"
     },
     "skills": {
       "-844978880": 3
@@ -4643,7 +6707,13 @@
     "names": {
       "en": "Stream/Precise Jewel [3]",
       "fr": "Joyau eau/kyudo [3]",
-      "es": "Joya agua/puntería 3"
+      "de": "Fluss/Präzises Jwl 3",
+      "es": "Joya agua/puntería 3",
+      "es-419": "J. agua/precisa [3]",
+      "pt": "Joia Riacho/Precisão 3",
+      "pt-BR": "Joia Riacho/Precisão 3",
+      "it": "G acqua/preciso 3",
+      "pl": "K. strum./precyz. [3]"
     },
     "skills": {
       "-420608864": 1,
@@ -4657,7 +6727,13 @@
     "names": {
       "en": "Enhancer/Handicraft Jwl [3]",
       "fr": "Joyau puissance/artisanat [3]",
-      "es": "Joya aumento/artesana 3"
+      "de": "Verstärk/HandwerkJwl3",
+      "es": "Joya aumento/artesana 3",
+      "es-419": "J. aum./artes. [3]",
+      "pt": "Joia Intensif./Artesanato 3",
+      "pt-BR": "Joia Intensif./Artesanato 3",
+      "it": "G amplifica/artigiano 3",
+      "pl": "K. wydłuż./rękodz. [3]"
     },
     "skills": {
       "691199232": 3,
@@ -4671,7 +6747,13 @@
     "names": {
       "en": "Focus Jewel [1]",
       "fr": "Joyau concentration [1]",
-      "es": "Joya carga veloz 1"
+      "de": "Fokus-Jwl 1",
+      "es": "Joya carga veloz 1",
+      "es-419": "J. concentración [1]",
+      "pt": "Joia do Foco 1",
+      "pt-BR": "Joia do Foco 1",
+      "it": "G disciplina 1",
+      "pl": "Klejnot skupienia [1]"
     },
     "skills": {
       "-283334048": 1
@@ -4684,7 +6766,13 @@
     "names": {
       "en": "Charge Up/Draw Jwl [3]",
       "fr": "Joyau surcharge/dégainage [3]",
-      "es": "Joya cargada/desenfunde 3"
+      "de": "Aufladen/Ziehen-Jwl 3",
+      "es": "Joya cargada/desenfunde 3",
+      "es-419": "J. cargada/desenf. [3]",
+      "pt": "Joia Energizar/Saque 3",
+      "pt-BR": "Joia Energizar/Saque 3",
+      "it": "G stordente/sfoderata 3",
+      "pl": "K. ładow./dob. broni [3]"
     },
     "skills": {
       "353114912": 1,
@@ -4698,7 +6786,13 @@
     "names": {
       "en": "Climber Jewel [1]",
       "fr": "Joyau grimpeur [1]",
-      "es": "Joya escalada 1"
+      "de": "Kletterer-Jwl 1",
+      "es": "Joya escalada 1",
+      "es-419": "J. trepado [1]",
+      "pt": "Joia da Escalada 1",
+      "pt-BR": "Joia da Escalada 1",
+      "it": "G scalata 1",
+      "pl": "Klejnot wspinacza [1]"
     },
     "skills": {
       "-692636288": 1
@@ -4711,7 +6805,13 @@
     "names": {
       "en": "Ironwall Jewel II [2]",
       "fr": "Joyau paladin II [2]",
-      "es": "Joya muro II 2"
+      "de": "Mauer-Jwl II 2",
+      "es": "Joya muro II 2",
+      "es-419": "J. guardia II [2]",
+      "pt": "Joia Muro de Ferro II 2",
+      "pt-BR": "Joia Muro de Ferro II 2",
+      "it": "G barriera II 2",
+      "pl": "K. żelaznego muru II [2]"
     },
     "skills": {
       "-307644128": 2
@@ -4724,7 +6824,13 @@
     "names": {
       "en": "Botany Jewel [1]",
       "fr": "Joyau botaniste [1]",
-      "es": "Joya botánica 1"
+      "de": "Botanik-Jwl 1",
+      "es": "Joya botánica 1",
+      "es-419": "J. botánica [1]",
+      "pt": "Joia Botânica 1",
+      "pt-BR": "Joia Botânica 1",
+      "it": "G botanico 1",
+      "pl": "Klejnot botaniki [1]"
     },
     "skills": {
       "860517760": 1
@@ -4737,7 +6843,13 @@
     "names": {
       "en": "Challenger Jewel [3]",
       "fr": "Joyau témérité [3]",
-      "es": "Joya desafiante 3"
+      "de": "Herausforderer-Jwl 3",
+      "es": "Joya desafiante 3",
+      "es-419": "J. desafiante [3]",
+      "pt": "Joia do Desafiante 3",
+      "pt-BR": "Joia do Desafiante 3",
+      "it": "G sfida 3",
+      "pl": "Klejnot prowokatora [3]"
     },
     "skills": {
       "1865909632": 1
@@ -4750,7 +6862,13 @@
     "names": {
       "en": "Magazine/Attack Jwl [3]",
       "fr": "Joyau franc-tireur/attaque [3]",
-      "es": "Joya cargador/ataque 3"
+      "de": "Magazin/Angriff-Jwl 3",
+      "es": "Joya cargador/ataque 3",
+      "es-419": "J. almacén/ataque [3]",
+      "pt": "Joia Aljava/Ataque 3",
+      "pt-BR": "Joia Aljava/Ataque 3",
+      "it": "G caricatore/attacco 3",
+      "pl": "K. magazynka/ataku [3]"
     },
     "skills": {
       "1": 1,
@@ -4764,7 +6882,13 @@
     "names": {
       "en": "Ironwall Jewel III [3]",
       "fr": "Joyau paladin III [3]",
-      "es": "Joya muro III 3"
+      "de": "Mauer-Jwl III 3",
+      "es": "Joya muro III 3",
+      "es-419": "J. guardia III [3]",
+      "pt": "Joia Muro de Ferro III 3",
+      "pt-BR": "Joia Muro de Ferro III 3",
+      "it": "G barriera III 3",
+      "pl": "K. żelaz. muru III [3]"
     },
     "skills": {
       "-307644128": 3
@@ -4777,7 +6901,13 @@
     "names": {
       "en": "Sonorous/Handicraft Jwl [3]",
       "fr": "Joyau musique/artisanat [3]",
-      "es": "Joya músico/artesana 3"
+      "de": "Klang/Handwerk-Jwl 3",
+      "es": "Joya músico/artesana 3",
+      "es-419": "J. músico/artes. [3]",
+      "pt": "Joia Sonora/Artesanato 3",
+      "pt-BR": "Joia Sonora/Artesanato 3",
+      "it": "G sonoro/artigiano 3",
+      "pl": "K. dźwięczny/rękodz. [3]"
     },
     "skills": {
       "-1237438336": 2,
@@ -4791,7 +6921,13 @@
     "names": {
       "en": "Enduring Jewel [1]",
       "fr": "Joyau chimiste [1]",
-      "es": "Joya impasible 1"
+      "de": "Dauer-Jwl 1",
+      "es": "Joya impasible 1",
+      "es-419": "J. impasible [1]",
+      "pt": "Joia da Tolerância 1",
+      "pt-BR": "Joia da Tolerância 1",
+      "it": "G estensione 1",
+      "pl": "Klejnot wytrwałości [1]"
     },
     "skills": {
       "-1684613760": 1
@@ -4804,7 +6940,13 @@
     "names": {
       "en": "Dragon Jewel [1]",
       "fr": "Joyau dracocide [1]",
-      "es": "Joya draco 1"
+      "de": "Drachen-Jwl 1",
+      "es": "Joya draco 1",
+      "es-419": "J. draco [1]",
+      "pt": "Joia Dragão 1",
+      "pt-BR": "Joia Dragão 1",
+      "it": "G drago 1",
+      "pl": "Klejnot smoka [1]"
     },
     "skills": {
       "-776946176": 1
@@ -4817,7 +6959,13 @@
     "names": {
       "en": "Opener Jewel [1]",
       "fr": "Joyau premier coup [1]",
-      "es": "Joya detonante 1"
+      "de": "Eröffner-Jwl 1",
+      "es": "Joya detonante 1",
+      "es-419": "J. apertura [1]",
+      "pt": "Joia Estopim 1",
+      "pt-BR": "Joia Estopim 1",
+      "it": "G primo colpo 1",
+      "pl": "K. pierwsz. strzału [1]"
     },
     "skills": {
       "1711950720": 1
@@ -4830,7 +6978,13 @@
     "names": {
       "en": "Footing Jewel [1]",
       "fr": "Joyau antiséisme [1]",
-      "es": "Joya firmeza 1"
+      "de": "Halt-Jwl 1",
+      "es": "Joya firmeza 1",
+      "es-419": "J. firmeza [1]",
+      "pt": "Joia Equilíbrio 1",
+      "pt-BR": "Joia Equilíbrio 1",
+      "it": "G antisismico 1",
+      "pl": "Klejnot równowagi [1]"
     },
     "skills": {
       "-609509888": 1
@@ -4843,7 +6997,13 @@
     "names": {
       "en": "Poison/Attack Jewel [3]",
       "fr": "Joyau poison/attaque [3]",
-      "es": "Joya tóxica/ataque 3"
+      "de": "Gift/Angriff-Jwl 3",
+      "es": "Joya tóxica/ataque 3",
+      "es-419": "J. tóxica/ataque [3]",
+      "pt": "Joia Peçonha/Ataque 3",
+      "pt-BR": "Joia Peçonha/Ataque 3",
+      "it": "G veleno/attacco 3",
+      "pl": "K. trucizny/ataku [3]"
     },
     "skills": {
       "-1629629184": 1,
@@ -4857,7 +7017,13 @@
     "names": {
       "en": "Intimidator Jewel [1]",
       "fr": "Joyau intimidation [1]",
-      "es": "Joya intimidante 1"
+      "de": "Einschüchtern-Jwl 1",
+      "es": "Joya intimidante 1",
+      "es-419": "J. intimidante [1]",
+      "pt": "Joia Intimidante 1",
+      "pt-BR": "Joia Intimidante 1",
+      "it": "G minaccioso 1",
+      "pl": "Klejnot zastraszacza [1]"
     },
     "skills": {
       "1472632704": 1

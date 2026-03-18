@@ -4,7 +4,13 @@
     "names": {
       "en": "Adaptability",
       "fr": "Adaptabilité",
-      "es": "Adaptabilidad"
+      "de": "Anpassung",
+      "es": "Adaptabilidad",
+      "es-419": "Adaptabilidad",
+      "pt": "Adaptabilidade",
+      "pt-BR": "Adaptabilidade",
+      "it": "Adattabilità",
+      "pl": "Zdolność adaptacji"
     },
     "icon": "defense",
     "max_points": 2
@@ -14,7 +20,13 @@
     "names": {
       "en": "Adrenaline Rush",
       "fr": "Poussée d'adrénaline",
-      "es": "Subida de adrenalina"
+      "de": "Adrenalinschub",
+      "es": "Subida de adrenalina",
+      "es-419": "Subida de adrenalina",
+      "pt": "Onda de Adrenalina",
+      "pt-BR": "Onda de Adrenalina",
+      "it": "Flusso di adrenalina",
+      "pl": "Napływ adrenaliny"
     },
     "icon": "attack",
     "max_points": 5
@@ -24,7 +36,13 @@
     "names": {
       "en": "Agitator",
       "fr": "Témérité",
-      "es": "Instigación"
+      "de": "Aufhetzer",
+      "es": "Instigación",
+      "es-419": "Instigador",
+      "pt": "Agitador",
+      "pt-BR": "Agitador",
+      "it": "Istigatore",
+      "pl": "Podżegacz"
     },
     "icon": "offense",
     "max_points": 5
@@ -34,7 +52,13 @@
     "names": {
       "en": "Airborne",
       "fr": "Mort venue d'en haut",
-      "es": "Bonus ataque en salto"
+      "de": "Luftherrschaft",
+      "es": "Bonus ataque en salto",
+      "es-419": "Bonus ATQ en salto",
+      "pt": "No Ar",
+      "pt-BR": "No Ar",
+      "it": "Minaccia aerea",
+      "pl": "Wzlot"
     },
     "icon": "offense",
     "max_points": 1
@@ -44,7 +68,13 @@
     "names": {
       "en": "Ambush",
       "fr": "Embuscade",
-      "es": "Emboscada"
+      "de": "Überfall",
+      "es": "Emboscada",
+      "es-419": "Emboscada",
+      "pt": "Emboscada",
+      "pt-BR": "Emboscada",
+      "it": "Agguato",
+      "pl": "Zasadzka"
     },
     "icon": "offense",
     "max_points": 3
@@ -54,7 +84,13 @@
     "names": {
       "en": "Antivirus",
       "fr": "Antivirus",
-      "es": "Antivirus"
+      "de": "Antivirus",
+      "es": "Antivirus",
+      "es-419": "Antivirus",
+      "pt": "Antivírus",
+      "pt-BR": "Antivírus",
+      "it": "Antivirus",
+      "pl": "Antywirus"
     },
     "icon": "offense",
     "max_points": 3
@@ -64,7 +100,13 @@
     "names": {
       "en": "Aquatic/Oilsilt Mobility",
       "fr": "Mobilité eau/boue huileuse",
-      "es": "Movilidad por agua/fango"
+      "de": "Sumpfläufer",
+      "es": "Movilidad por agua/fango",
+      "es-419": "Movilidad acuática/oleosa",
+      "pt": "Mob. Aquática/Limólea",
+      "pt-BR": "Mob. Aquática/Limólea",
+      "it": "Mobilità acquatica/fango",
+      "pl": "Mobilność w wodzie/oleju"
     },
     "icon": "utility",
     "max_points": 2
@@ -74,7 +116,13 @@
     "names": {
       "en": "Artillery",
       "fr": "BOUM !",
-      "es": "Artillería"
+      "de": "Artillerie",
+      "es": "Artillería",
+      "es-419": "Artillería",
+      "pt": "Artilharia",
+      "pt-BR": "Artilharia",
+      "it": "Artiglieria",
+      "pl": "Artyleria"
     },
     "icon": "offense",
     "max_points": 3
@@ -84,7 +132,13 @@
     "names": {
       "en": "Attack Boost",
       "fr": "Machine de guerre",
-      "es": "Bonus de ataque"
+      "de": "Angriffsbonus",
+      "es": "Bonus de ataque",
+      "es-419": "Bonus ATQ",
+      "pt": "Reforço de Ataque",
+      "pt-BR": "Reforço de Ataque",
+      "it": "Bonus attacco",
+      "pl": "Wzmocnienie ataku"
     },
     "icon": "attack",
     "max_points": 5
@@ -94,7 +148,13 @@
     "names": {
       "en": "Ballistics",
       "fr": "Balistique",
-      "es": "Balística"
+      "de": "Ballistik",
+      "es": "Balística",
+      "es-419": "Balística",
+      "pt": "Balística",
+      "pt-BR": "Balística",
+      "it": "Balistica",
+      "pl": "Balistyka"
     },
     "icon": "ranged",
     "max_points": 3
@@ -104,7 +164,13 @@
     "names": {
       "en": "Bind Resistance",
       "fr": "Anti-immobilisation",
-      "es": "Antiinmovilización"
+      "de": "Befreiungskunst",
+      "es": "Antiinmovilización",
+      "es-419": "Antiataduras",
+      "pt": "Anti-imobilidade",
+      "pt-BR": "Anti-imobilidade",
+      "it": "Resistenza vincolo",
+      "pl": "Odporność na wiązanie"
     },
     "icon": "defense",
     "max_points": 3
@@ -114,7 +180,13 @@
     "names": {
       "en": "Bladescale Honing",
       "fr": "Aiguisage lamécaille",
-      "es": "Afilado de filoescama"
+      "de": "Schuppen-Schärfung",
+      "es": "Afilado de filoescama",
+      "es-419": "Afilado de filoescama",
+      "pt": "Afiação de Lamescamas",
+      "pt-BR": "Afiação de Lamescamas",
+      "it": "Affilatura delle scaglielama",
+      "pl": "Szlifowanie ostrołuski"
     },
     "icon": "handicraft",
     "max_points": 1
@@ -124,7 +196,13 @@
     "names": {
       "en": "Bladescale Loading",
       "fr": "Chargement lamécaille",
-      "es": "Carga de filoescama"
+      "de": "Schuppen-Magazin",
+      "es": "Carga de filoescama",
+      "es-419": "Carga de filoescama",
+      "pt": "Recarga de Lamescamas",
+      "pt-BR": "Recarga de Lamescamas",
+      "it": "Carica scaglialama",
+      "pl": "Ładowanie ostrołusek"
     },
     "icon": "ranged",
     "max_points": 1
@@ -134,7 +212,13 @@
     "names": {
       "en": "Blast Attack",
       "fr": "Destruction massive",
-      "es": "Ataque de nitro"
+      "de": "Explosionsangriff",
+      "es": "Ataque de nitro",
+      "es-419": "ATQ nitro",
+      "pt": "Ataque de Explosão",
+      "pt-BR": "Ataque de Explosão",
+      "it": "Attacco scoppio",
+      "pl": "Atak wybuchem"
     },
     "icon": "element",
     "max_points": 3
@@ -144,7 +228,13 @@
     "names": {
       "en": "Blast Functionality",
       "fr": "Maître bombardier",
-      "es": "Añade nitro"
+      "de": "Explosionsbeschichtung",
+      "es": "Añade nitro",
+      "es-419": "Añade nitro",
+      "pt": "Adição de Explosão",
+      "pt-BR": "Adição de Explosão",
+      "it": "Applica scoppio",
+      "pl": "Funkcja wybuchu"
     },
     "icon": "ranged",
     "max_points": 1
@@ -154,7 +244,13 @@
     "names": {
       "en": "Blast Resistance",
       "fr": "Antiexplosion",
-      "es": "Antinitro"
+      "de": "Explosionswiderstand",
+      "es": "Antinitro",
+      "es-419": "Antinitro",
+      "pt": "Antiexplosão",
+      "pt-BR": "Antiexplosão",
+      "it": "Resistenza scoppio",
+      "pl": "Odporność na wybuch"
     },
     "icon": "defense",
     "max_points": 3
@@ -164,7 +260,13 @@
     "names": {
       "en": "Bleeding Resistance",
       "fr": "Antihémorragie",
-      "es": "Antisangrado"
+      "de": "Blutungswiderstand",
+      "es": "Antisangrado",
+      "es-419": "Antisangrado",
+      "pt": "Antissangramento",
+      "pt-BR": "Antissangramento",
+      "it": "Resistenza sanguinamento",
+      "pl": "Odporność na krwawienie"
     },
     "icon": "defense",
     "max_points": 3
@@ -174,7 +276,13 @@
     "names": {
       "en": "Blight Resistance",
       "fr": "Totem élémentaire",
-      "es": "Antiplagas"
+      "de": "Pestwiderstand",
+      "es": "Antiplagas",
+      "es-419": "Antiplagas",
+      "pt": "Antiflagelo",
+      "pt-BR": "Antiflagelo",
+      "it": "Resistenza malus",
+      "pl": "Odporność na plagę"
     },
     "icon": "defense",
     "max_points": 3
@@ -184,7 +292,13 @@
     "names": {
       "en": "Blindsider",
       "fr": "Aveuglement",
-      "es": "Mejora al deslumbrar"
+      "de": "Verblendung",
+      "es": "Mejora al deslumbrar",
+      "es-419": "Mejora al deslumbrar",
+      "pt": "Ponto Cego",
+      "pt-BR": "Ponto Cego",
+      "it": "Attacco a sorpresa",
+      "pl": "Oślepiacz"
     },
     "icon": "item",
     "max_points": 1
@@ -194,7 +308,13 @@
     "names": {
       "en": "Bludgeoner",
       "fr": "Matraquage",
-      "es": "Impacto mejorado"
+      "de": "Prügler",
+      "es": "Impacto mejorado",
+      "es-419": "Impacto mejorado",
+      "pt": "Espancador",
+      "pt-BR": "Espancador",
+      "it": "Devastatore",
+      "pl": "Pałkarz"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -204,7 +324,13 @@
     "names": {
       "en": "Bombardier",
       "fr": "Bombardier",
-      "es": "Bombardero"
+      "de": "Bombardier",
+      "es": "Bombardero",
+      "es-419": "Bombardero",
+      "pt": "Bombardeiro",
+      "pt-BR": "Bombardeiro",
+      "it": "Bombardiere",
+      "pl": "Bombardier"
     },
     "icon": "item",
     "max_points": 3
@@ -214,7 +340,13 @@
     "names": {
       "en": "Botanist",
       "fr": "Botaniste",
-      "es": "Botánica"
+      "de": "Botaniker",
+      "es": "Botánica",
+      "es-419": "Botánico",
+      "pt": "Botânica",
+      "pt-BR": "Botânica",
+      "it": "Botanico",
+      "pl": "Botanik"
     },
     "icon": "gathering",
     "max_points": 4
@@ -224,7 +356,13 @@
     "names": {
       "en": "Burst",
       "fr": "Vendetta",
-      "es": "Ráfaga"
+      "de": "Salve",
+      "es": "Ráfaga",
+      "es-419": "Ráfaga",
+      "pt": "Rajada",
+      "pt-BR": "Rajada",
+      "it": "Catena",
+      "pl": "Wybuch"
     },
     "icon": "offense",
     "max_points": 5
@@ -234,7 +372,13 @@
     "names": {
       "en": "Catburglar",
       "fr": "Chat voleur",
-      "es": "Ladrón gato"
+      "de": "Katzendieb",
+      "es": "Ladrón gato",
+      "es-419": "Ladrón gatuno",
+      "pt": "Gato Saqueador",
+      "pt-BR": "Gato Saqueador",
+      "it": "Gattoscaltro",
+      "pl": "Koci włamywacz"
     },
     "icon": "gathering",
     "max_points": 1
@@ -244,7 +388,13 @@
     "names": {
       "en": "Charge Master",
       "fr": "Maître de la charge",
-      "es": "Maestro de cargas"
+      "de": "Auflademeister",
+      "es": "Maestro de cargas",
+      "es-419": "Maestro de cargas",
+      "pt": "Mestre da Energia",
+      "pt-BR": "Mestre da Energia",
+      "it": "Maestro di carica",
+      "pl": "Mistrz ładowania"
     },
     "icon": "element",
     "max_points": 3
@@ -254,7 +404,13 @@
     "names": {
       "en": "Charge Up",
       "fr": "Surcharge",
-      "es": "Más carga"
+      "de": "Aufladen",
+      "es": "Más carga",
+      "es-419": "Más carga",
+      "pt": "Energizar",
+      "pt-BR": "Energizar",
+      "it": "Carica stordente",
+      "pl": "Ładowanie"
     },
     "icon": "offense",
     "max_points": 1
@@ -264,7 +420,13 @@
     "names": {
       "en": "Cliffhanger",
       "fr": "Monte-en-l'air",
-      "es": "Experto en trepar"
+      "de": "Kletterer",
+      "es": "Experto en trepar",
+      "es-419": "Trepado experto",
+      "pt": "Suspensão",
+      "pt-BR": "Suspensão",
+      "it": "Scalatore",
+      "pl": "Wisielec"
     },
     "icon": "utility",
     "max_points": 1
@@ -274,7 +436,13 @@
     "names": {
       "en": "Coalescence",
       "fr": "Union",
-      "es": "Coalescencia"
+      "de": "Verschmelzung",
+      "es": "Coalescencia",
+      "es-419": "Coalescencia",
+      "pt": "Coalescência",
+      "pt-BR": "Coalescência",
+      "it": "Coalescenza",
+      "pl": "Zjednoczenie"
     },
     "icon": "offense",
     "max_points": 3
@@ -284,7 +452,13 @@
     "names": {
       "en": "Constitution",
       "fr": "Athlète",
-      "es": "Constitución"
+      "de": "Konstitution",
+      "es": "Constitución",
+      "es-419": "Constitución",
+      "pt": "Constituição",
+      "pt-BR": "Constituição",
+      "it": "Atleta",
+      "pl": "Tężyzna"
     },
     "icon": "stamina",
     "max_points": 5
@@ -294,7 +468,13 @@
     "names": {
       "en": "Convert Element",
       "fr": "Conversion élémentaire",
-      "es": "Convierte elemento"
+      "de": "Elemente umwandeln",
+      "es": "Convierte elemento",
+      "es-419": "Conversión de elemento",
+      "pt": "Conversão de Elemento",
+      "pt-BR": "Conversão de Elemento",
+      "it": "Conversione elementale",
+      "pl": "Przekształcenie żywiołu"
     },
     "icon": "attack",
     "max_points": 3
@@ -304,7 +484,13 @@
     "names": {
       "en": "Convert Thunder Resistance",
       "fr": "Conversion résistance foudre",
-      "es": "Convierte antirrayo"
+      "de": "Donnerwiderst. umwandeln",
+      "es": "Convierte antirrayo",
+      "es-419": "Conversión de resistencia al rayo",
+      "pt": "Conversão de Res. a Raio",
+      "pt-BR": "Conversão de Res. a Raio",
+      "it": "Conversione res tuono",
+      "pl": "Konwersja piorunów"
     },
     "icon": "element",
     "max_points": 1
@@ -314,7 +500,13 @@
     "names": {
       "en": "Convert Water Resistance",
       "fr": "Conversion résistance eau",
-      "es": "Convertir antiagua"
+      "de": "Wasserwiderst. umwandeln",
+      "es": "Convertir antiagua",
+      "es-419": "Convertir resistencia al agua",
+      "pt": "Conversão de Res. a Água",
+      "pt-BR": "Conversão de Res. a Água",
+      "it": "Conversione res acqua",
+      "pl": "Konwersja wody"
     },
     "icon": "element",
     "max_points": 1
@@ -324,7 +516,13 @@
     "names": {
       "en": "Counterstrike",
       "fr": "Contre-attaque",
-      "es": "Venganza"
+      "de": "Gegenschlag",
+      "es": "Venganza",
+      "es-419": "Venganza",
+      "pt": "Contraofensiva",
+      "pt-BR": "Contraofensiva",
+      "it": "Contrattacco",
+      "pl": "Kontratak"
     },
     "icon": "attack",
     "max_points": 3
@@ -334,7 +532,13 @@
     "names": {
       "en": "Crackling Cornpopper",
       "fr": "Maïs crépitant",
-      "es": "Maicera rebosante"
+      "de": "Popcornkanone",
+      "es": "Maicera rebosante",
+      "es-419": "Maicera chisporroteante",
+      "pt": "Estouramilho Estalante",
+      "pt-BR": "Estouramilho Estalante",
+      "it": "Mietitrice tonante",
+      "pl": "Trzaskająca kolbopukawka"
     },
     "icon": "offense",
     "max_points": 1
@@ -344,7 +548,13 @@
     "names": {
       "en": "Critical Boost",
       "fr": "Berserker",
-      "es": "Bonus críticos"
+      "de": "Kritischer Boost",
+      "es": "Bonus críticos",
+      "es-419": "Potenciador crítico",
+      "pt": "Reforço Crítico",
+      "pt-BR": "Reforço Crítico",
+      "it": "Bonus critico",
+      "pl": "Wzmocnienie krytyczne"
     },
     "icon": "affinity",
     "max_points": 5
@@ -354,7 +564,13 @@
     "names": {
       "en": "Critical Draw",
       "fr": "Dégainage éclair",
-      "es": "Desenfunde crítico"
+      "de": "Kritisches Ziehen",
+      "es": "Desenfunde crítico",
+      "es-419": "Desenvaine crítico",
+      "pt": "Saque Crítico",
+      "pt-BR": "Saque Crítico",
+      "it": "Sfoderata critica",
+      "pl": "Dobycie krytyczne"
     },
     "icon": "affinity",
     "max_points": 3
@@ -364,7 +580,13 @@
     "names": {
       "en": "Critical Element",
       "fr": "Rage élémentaire",
-      "es": "Elemento crítico"
+      "de": "Kritisches Element",
+      "es": "Elemento crítico",
+      "es-419": "Elemento crítico",
+      "pt": "Elemento Crítico",
+      "pt-BR": "Elemento Crítico",
+      "it": "Critico elementale",
+      "pl": "Żywioł krytyczny"
     },
     "icon": "element",
     "max_points": 3
@@ -374,7 +596,13 @@
     "names": {
       "en": "Critical Eye",
       "fr": "Maître d'armes",
-      "es": "Ojo crítico"
+      "de": "Kritisches Auge",
+      "es": "Ojo crítico",
+      "es-419": "Ojo crítico",
+      "pt": "Olho Crítico",
+      "pt-BR": "Olho Crítico",
+      "it": "Occhio critico",
+      "pl": "Krytyczne oko"
     },
     "icon": "affinity",
     "max_points": 5
@@ -384,7 +612,13 @@
     "names": {
       "en": "Critical Status",
       "fr": "Attaque perfide",
-      "es": "Estado crítico"
+      "de": "Kritischer Status",
+      "es": "Estado crítico",
+      "es-419": "Estado crítico",
+      "pt": "Status Crítico",
+      "pt-BR": "Status Crítico",
+      "it": "Stato critico",
+      "pl": "Status krytyczny"
     },
     "icon": "element",
     "max_points": 3
@@ -394,7 +628,13 @@
     "names": {
       "en": "Darkside",
       "fr": "Ténèbres intérieures",
-      "es": "Lado oscuro"
+      "de": "Dunkle Seite",
+      "es": "Lado oscuro",
+      "es-419": "Lado oscuro",
+      "pt": "Lado Sombrio",
+      "pt-BR": "Lado Sombrio",
+      "it": "Lato oscuro",
+      "pl": "Ciemna strona"
     },
     "icon": "attack",
     "max_points": 1
@@ -404,7 +644,13 @@
     "names": {
       "en": "Defense Boost",
       "fr": "Bastion",
-      "es": "Bonus de defensa"
+      "de": "Verteidigungsboost",
+      "es": "Bonus de defensa",
+      "es-419": "Bonus DEF",
+      "pt": "Reforço de Defesa",
+      "pt-BR": "Reforço de Defesa",
+      "it": "Bonus difesa",
+      "pl": "Wzmocnienie obrony"
     },
     "icon": "defense",
     "max_points": 7
@@ -414,7 +660,13 @@
     "names": {
       "en": "Divine Blessing",
       "fr": "Bénédiction",
-      "es": "Bendición divina"
+      "de": "Göttlicher Segen",
+      "es": "Bendición divina",
+      "es-419": "Protección divina",
+      "pt": "Bênção Divina",
+      "pt-BR": "Bênção Divina",
+      "it": "Angelo custode",
+      "pl": "Boskie błogosławieństwo"
     },
     "icon": "defense",
     "max_points": 3
@@ -424,7 +676,13 @@
     "names": {
       "en": "Dragon Attack",
       "fr": "Pourfendeur de dragon",
-      "es": "Ataque de draco"
+      "de": "Drachenangriff",
+      "es": "Ataque de draco",
+      "es-419": "ATQ de draco",
+      "pt": "Ataque de Dragão",
+      "pt-BR": "Ataque de Dragão",
+      "it": "Attacco drago",
+      "pl": "Atak smoczy"
     },
     "icon": "element",
     "max_points": 3
@@ -434,7 +692,13 @@
     "names": {
       "en": "Dragon Resistance",
       "fr": "Aura draconique",
-      "es": "Antidraco"
+      "de": "Drachenwiderstand",
+      "es": "Antidraco",
+      "es-419": "Antidraco",
+      "pt": "Resistência a Dragão",
+      "pt-BR": "Resistência a Dragão",
+      "it": "Resistenza drago",
+      "pl": "Odporność na smoki"
     },
     "icon": "defense",
     "max_points": 3
@@ -444,7 +708,13 @@
     "names": {
       "en": "Earplugs",
       "fr": "Bouchon d'oreilles",
-      "es": "Antirrugidos"
+      "de": "Ohrstöpsel",
+      "es": "Antirrugidos",
+      "es-419": "Antirrugidos",
+      "pt": "Abafadores",
+      "pt-BR": "Abafadores",
+      "it": "Protezione udito",
+      "pl": "Zatyczki do uszu"
     },
     "icon": "utility",
     "max_points": 3
@@ -454,7 +724,13 @@
     "names": {
       "en": "Elemental Absorption",
       "fr": "Absorption élémentaire",
-      "es": "Absorción elemental"
+      "de": "Elementare Absorption",
+      "es": "Absorción elemental",
+      "es-419": "Absorción elemental",
+      "pt": "Absorção Elemental",
+      "pt-BR": "Absorção Elemental",
+      "it": "Assorbi elementi",
+      "pl": "Pochłanianie żywiołów"
     },
     "icon": "offense",
     "max_points": 3
@@ -464,7 +740,13 @@
     "names": {
       "en": "Entomologist",
       "fr": "Entomologiste",
-      "es": "Entomología"
+      "de": "Entomologe",
+      "es": "Entomología",
+      "es-419": "Entomología",
+      "pt": "Entomologista",
+      "pt-BR": "Entomologista",
+      "it": "Entomologo",
+      "pl": "Entomolog"
     },
     "icon": "gathering",
     "max_points": 1
@@ -474,7 +756,13 @@
     "names": {
       "en": "Evade Extender",
       "fr": "Trompe-la-mort",
-      "es": "Distancia evasiva"
+      "de": "Ausweichdistanz",
+      "es": "Distancia evasiva",
+      "es-419": "Distancia evasiva",
+      "pt": "Extensor de Esquiva",
+      "pt-BR": "Extensor de Esquiva",
+      "it": "Schivata estesa",
+      "pl": "Wydłużenie uniku"
     },
     "icon": "utility",
     "max_points": 3
@@ -484,7 +772,13 @@
     "names": {
       "en": "Evade Window",
       "fr": "Fenêtre d'invulnérabilité",
-      "es": "Intervalo de evasión"
+      "de": "Unverwundbarkeit",
+      "es": "Intervalo de evasión",
+      "es-419": "Intervalo de evasión",
+      "pt": "Tempo de Esquiva",
+      "pt-BR": "Tempo de Esquiva",
+      "it": "Schivata",
+      "pl": "Czas na unik"
     },
     "icon": "utility",
     "max_points": 5
@@ -494,7 +788,13 @@
     "names": {
       "en": "Evading Reload",
       "fr": "Rechargement fugitif",
-      "es": "Recarga en esquiva"
+      "de": "Ausweich-Nachladen",
+      "es": "Recarga en esquiva",
+      "es-419": "Recarga en esquiva",
+      "pt": "Recarga Evasiva",
+      "pt-BR": "Recarga Evasiva",
+      "it": "Ricarica in schivata",
+      "pl": "Przeładowanie z unikiem"
     },
     "icon": "ranged",
     "max_points": 1
@@ -504,7 +804,13 @@
     "names": {
       "en": "Exhaust Functionality",
       "fr": "Pattes engourdies",
-      "es": "Añade fatiga"
+      "de": "Ermüdungsbeschichtung",
+      "es": "Añade fatiga",
+      "es-419": "Añade fatiga",
+      "pt": "Adição de Exaustão",
+      "pt-BR": "Adição de Exaustão",
+      "it": "Applica fatica",
+      "pl": "Funkcja wyczerpania"
     },
     "icon": "ranged",
     "max_points": 1
@@ -514,7 +820,13 @@
     "names": {
       "en": "Fire Attack",
       "fr": "Pyromane",
-      "es": "Ataque de fuego"
+      "de": "Feuerangriff",
+      "es": "Ataque de fuego",
+      "es-419": "ATQ de fuego",
+      "pt": "Ataque de Fogo",
+      "pt-BR": "Ataque de Fogo",
+      "it": "Attacco fuoco",
+      "pl": "Atak ogniem"
     },
     "icon": "element",
     "max_points": 3
@@ -524,7 +836,13 @@
     "names": {
       "en": "Fire Resistance",
       "fr": "Ignifuge",
-      "es": "Antifuego"
+      "de": "Feuerwiderstand",
+      "es": "Antifuego",
+      "es-419": "Antifuego",
+      "pt": "Resistência a Fogo",
+      "pt-BR": "Resistência a Fogo",
+      "it": "Resistenza fuoco",
+      "pl": "Odporność na ogień"
     },
     "icon": "defense",
     "max_points": 3
@@ -534,7 +852,13 @@
     "names": {
       "en": "Flayer",
       "fr": "Écorcheur",
-      "es": "Desuello"
+      "de": "Schinder",
+      "es": "Desuello",
+      "es-419": "Desuelle",
+      "pt": "Esfolamento",
+      "pt-BR": "Esfolamento",
+      "it": "Frustata",
+      "pl": "Obdzieracz"
     },
     "icon": "offense",
     "max_points": 5
@@ -544,7 +868,13 @@
     "names": {
       "en": "Flinch Free",
       "fr": "Nerfs d'acier",
-      "es": "Firmeza"
+      "de": "Unbeeindruckt",
+      "es": "Firmeza",
+      "es-419": "Mejora de balance",
+      "pt": "Sem Recuo",
+      "pt-BR": "Sem Recuo",
+      "it": "Antisussulto",
+      "pl": "Kamienna twarz"
     },
     "icon": "utility",
     "max_points": 3
@@ -554,7 +884,13 @@
     "names": {
       "en": "Focus",
       "fr": "Concentration",
-      "es": "Carga veloz"
+      "de": "Fokus",
+      "es": "Carga veloz",
+      "es-419": "Tiempo de carga",
+      "pt": "Foco",
+      "pt-BR": "Foco",
+      "it": "Disciplina",
+      "pl": "Skupienie"
     },
     "icon": "offense",
     "max_points": 3
@@ -564,7 +900,13 @@
     "names": {
       "en": "Foray",
       "fr": "Incursion",
-      "es": "Irrupción"
+      "de": "Vorstoß",
+      "es": "Irrupción",
+      "es-419": "Irrupción",
+      "pt": "Investida",
+      "pt-BR": "Investida",
+      "it": "Incursione",
+      "pl": "Najazd"
     },
     "icon": "offense",
     "max_points": 5
@@ -574,7 +916,13 @@
     "names": {
       "en": "Free Meal",
       "fr": "Pique-assiette",
-      "es": "Comida gratis"
+      "de": "Freie Mahlzeit",
+      "es": "Comida gratis",
+      "es-419": "Comida gratis",
+      "pt": "Refeição Grátis",
+      "pt-BR": "Refeição Grátis",
+      "it": "Pasto gratuito",
+      "pl": "Darmowy posiłek"
     },
     "icon": "item",
     "max_points": 3
@@ -584,7 +932,13 @@
     "names": {
       "en": "Geologist",
       "fr": "Géologiste",
-      "es": "Geología"
+      "de": "Geologe",
+      "es": "Geología",
+      "es-419": "Geólogo",
+      "pt": "Geologia",
+      "pt-BR": "Geologia",
+      "it": "Geologo",
+      "pl": "Geolog"
     },
     "icon": "gathering",
     "max_points": 3
@@ -594,7 +948,13 @@
     "names": {
       "en": "Grillmaster",
       "fr": "Chef BBQ",
-      "es": "Maestro de la parrilla"
+      "de": "Grillprofi",
+      "es": "Maestro de la parrilla",
+      "es-419": "Maestro parrillero",
+      "pt": "Mestre da Grelha",
+      "pt-BR": "Mestre da Grelha",
+      "it": "Maestro della griglia",
+      "pl": "Mistrz grilla"
     },
     "icon": "attack",
     "max_points": 1
@@ -604,7 +964,13 @@
     "names": {
       "en": "Guard",
       "fr": "Paladin",
-      "es": "Bloqueo mejorado"
+      "de": "Blocken",
+      "es": "Bloqueo mejorado",
+      "es-419": "Guardia mejorada",
+      "pt": "Bloqueio",
+      "pt-BR": "Bloqueio",
+      "it": "Guardia",
+      "pl": "Garda"
     },
     "icon": "utility",
     "max_points": 3
@@ -614,7 +980,13 @@
     "names": {
       "en": "Guard Up",
       "fr": "Ultra garde",
-      "es": "Escudo"
+      "de": "Blocken hoch",
+      "es": "Escudo",
+      "es-419": "Escudo",
+      "pt": "Aumento de Bloqueio",
+      "pt-BR": "Aumento de Bloqueio",
+      "it": "Ermetico",
+      "pl": "Wzniesiona garda"
     },
     "icon": "utility",
     "max_points": 3
@@ -624,7 +996,13 @@
     "names": {
       "en": "Handicraft",
       "fr": "Savoir-faire",
-      "es": "Artesanía"
+      "de": "Handwerk",
+      "es": "Artesanía",
+      "es-419": "Artesanía",
+      "pt": "Artesanato",
+      "pt-BR": "Artesanato",
+      "it": "Artigiano",
+      "pl": "Rękodzieło"
     },
     "icon": "handicraft",
     "max_points": 5
@@ -634,7 +1012,13 @@
     "names": {
       "en": "Heroics",
       "fr": "Héroïsme",
-      "es": "Heroicidad"
+      "de": "Heldentat",
+      "es": "Heroicidad",
+      "es-419": "Heroicidad",
+      "pt": "Heroísmo",
+      "pt-BR": "Heroísmo",
+      "it": "Eroismo",
+      "pl": "Wyczyny"
     },
     "icon": "offense",
     "max_points": 5
@@ -644,7 +1028,13 @@
     "names": {
       "en": "Horn Maestro",
       "fr": "Maestro",
-      "es": "As de la cornamusa"
+      "de": "Horn-Maestro",
+      "es": "As de la cornamusa",
+      "es-419": "Músico",
+      "pt": "Regente de Berrante",
+      "pt-BR": "Regente de Berrante",
+      "it": "Maestro del corno",
+      "pl": "Wirtuoz rogu"
     },
     "icon": "offense",
     "max_points": 2
@@ -654,7 +1044,13 @@
     "names": {
       "en": "Hunger Resistance",
       "fr": "Coupe-faim",
-      "es": "Antihambre"
+      "de": "Hungerwiderstand",
+      "es": "Antihambre",
+      "es-419": "Bonus reducción RES",
+      "pt": "Antifome",
+      "pt-BR": "Antifome",
+      "it": "Resistenza fame",
+      "pl": "Odporność na głód"
     },
     "icon": "stamina",
     "max_points": 3
@@ -664,7 +1060,13 @@
     "names": {
       "en": "Ice Attack",
       "fr": "Blizzard",
-      "es": "Ataque de hielo"
+      "de": "Eisangriff",
+      "es": "Ataque de hielo",
+      "es-419": "ATQ de hielo",
+      "pt": "Ataque de Gelo",
+      "pt-BR": "Ataque de Gelo",
+      "it": "Attacco ghiaccio",
+      "pl": "Atak lodem"
     },
     "icon": "element",
     "max_points": 3
@@ -674,7 +1076,13 @@
     "names": {
       "en": "Ice Resistance",
       "fr": "Antigel",
-      "es": "Antihielo"
+      "de": "Eiswiderstand",
+      "es": "Antihielo",
+      "es-419": "Antihielo",
+      "pt": "Resistência a Gelo",
+      "pt-BR": "Resistência a Gelo",
+      "it": "Resistenza ghiaccio",
+      "pl": "Odporność na lód"
     },
     "icon": "defense",
     "max_points": 3
@@ -684,7 +1092,13 @@
     "names": {
       "en": "Intimidator",
       "fr": "Intimidation",
-      "es": "Intimidador"
+      "de": "Einschüchtern",
+      "es": "Intimidador",
+      "es-419": "Intimidador",
+      "pt": "Intimidação",
+      "pt-BR": "Intimidação",
+      "it": "Intimidatore",
+      "pl": "Zastraszacz"
     },
     "icon": "utility",
     "max_points": 3
@@ -694,7 +1108,13 @@
     "names": {
       "en": "Iron Skin",
       "fr": "Peau de fer",
-      "es": "Piel de hierro"
+      "de": "Eisenhaut",
+      "es": "Piel de hierro",
+      "es-419": "Piel de hierro",
+      "pt": "Pele de Ferro",
+      "pt-BR": "Pele de Ferro",
+      "it": "Pelle di ferro",
+      "pl": "Żelazna skóra"
     },
     "icon": "defense",
     "max_points": 3
@@ -704,7 +1124,13 @@
     "names": {
       "en": "Item Prolonger",
       "fr": "Chimiste",
-      "es": "Duración de objetos"
+      "de": "Objektverlängerung",
+      "es": "Duración de objetos",
+      "es-419": "Duración de objetos",
+      "pt": "Prolongar Item",
+      "pt-BR": "Prolongar Item",
+      "it": "Estensione oggetti",
+      "pl": "Długie trwanie"
     },
     "icon": "item",
     "max_points": 3
@@ -714,7 +1140,13 @@
     "names": {
       "en": "Jump Master",
       "fr": "Acrobate",
-      "es": "Experto en salto"
+      "de": "Sprungmeister",
+      "es": "Experto en salto",
+      "es-419": "Experto en salto",
+      "pt": "Mestre do Salto",
+      "pt-BR": "Mestre do Salto",
+      "it": "Maestro saltatore",
+      "pl": "Mistrz skakania"
     },
     "icon": "utility",
     "max_points": 1
@@ -724,7 +1156,13 @@
     "names": {
       "en": "Latent Power",
       "fr": "Force latente",
-      "es": "Poder latente"
+      "de": "Kraftentfesselung",
+      "es": "Poder latente",
+      "es-419": "Poder latente",
+      "pt": "Poder Latente",
+      "pt-BR": "Poder Latente",
+      "it": "Forza latente",
+      "pl": "Uśpiona moc"
     },
     "icon": "offense",
     "max_points": 5
@@ -734,7 +1172,13 @@
     "names": {
       "en": "Leap of Faith",
       "fr": "Saut de la foi",
-      "es": "Mejora de salto"
+      "de": "Schicksalssprung",
+      "es": "Mejora de salto",
+      "es-419": "Mejora de salto",
+      "pt": "Salto de Fé",
+      "pt-BR": "Salto de Fé",
+      "it": "Salto nel buio",
+      "pl": "Skok wiary"
     },
     "icon": "utility",
     "max_points": 1
@@ -744,7 +1188,13 @@
     "names": {
       "en": "Load Shells",
       "fr": "Recharge chargée",
-      "es": "Cargar arma"
+      "de": "Patronennachlader",
+      "es": "Cargar arma",
+      "es-419": "Cargar arma",
+      "pt": "Carregar Munição",
+      "pt-BR": "Carregar Munição",
+      "it": "Bonus capacità",
+      "pl": "Ładuj łuski"
     },
     "icon": "utility",
     "max_points": 2
@@ -754,7 +1204,13 @@
     "names": {
       "en": "Marathon Runner",
       "fr": "Marathonien",
-      "es": "Corredor de fondo"
+      "de": "Marathon-Läufer",
+      "es": "Corredor de fondo",
+      "es-419": "Maratonista",
+      "pt": "Maratonista",
+      "pt-BR": "Maratonista",
+      "it": "Maratoneta",
+      "pl": "Maratończyk"
     },
     "icon": "stamina",
     "max_points": 3
@@ -764,7 +1220,13 @@
     "names": {
       "en": "Master's Touch",
       "fr": "Main de maître",
-      "es": "Toque maestro"
+      "de": "Meisterschliff",
+      "es": "Toque maestro",
+      "es-419": "Toque del maestro",
+      "pt": "Toque de Mestre",
+      "pt-BR": "Toque de Mestre",
+      "it": "Tocco del maestro",
+      "pl": "Dotyk mistrza"
     },
     "icon": "handicraft",
     "max_points": 1
@@ -774,7 +1236,13 @@
     "names": {
       "en": "Maximum Might",
       "fr": "Corps et âme",
-      "es": "Poder máximo"
+      "de": "Höchstmacht",
+      "es": "Poder máximo",
+      "es-419": "Poder máximo",
+      "pt": "Poder Máximo",
+      "pt-BR": "Poder Máximo",
+      "it": "Massima potenza",
+      "pl": "Maksymalna moc"
     },
     "icon": "attack",
     "max_points": 3
@@ -784,7 +1252,13 @@
     "names": {
       "en": "Mind's Eye",
       "fr": "Œil de l'esprit",
-      "es": "Ojo mental"
+      "de": "Geistiges Auge",
+      "es": "Ojo mental",
+      "es-419": "Ojo mental",
+      "pt": "Olho da Mente",
+      "pt-BR": "Olho da Mente",
+      "it": "Preveggenza",
+      "pl": "Oko umysłu"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -794,7 +1268,13 @@
     "names": {
       "en": "Mushroomancer",
       "fr": "Mycologue extrême",
-      "es": "Micología"
+      "de": "Mykologie",
+      "es": "Micología",
+      "es-419": "Adivinahongos",
+      "pt": "Cogumelaria",
+      "pt-BR": "Cogumelaria",
+      "it": "Fungomante",
+      "pl": "Grzybomanta"
     },
     "icon": "item",
     "max_points": 3
@@ -804,7 +1284,13 @@
     "names": {
       "en": "Normal Shots",
       "fr": "Tir maximum",
-      "es": "Disparo normal"
+      "de": "Standardboost",
+      "es": "Disparo normal",
+      "es-419": "Disparos normales",
+      "pt": "Disparos Normais",
+      "pt-BR": "Disparos Normais",
+      "it": "Tiri normali",
+      "pl": "Strzały normalne"
     },
     "icon": "ranged",
     "max_points": 1
@@ -814,7 +1300,13 @@
     "names": {
       "en": "Offensive Guard",
       "fr": "Garde offensive",
-      "es": "Bloqueo agresivo"
+      "de": "Offensive Abwehr",
+      "es": "Bloqueo agresivo",
+      "es-419": "Bloqueo agresivo",
+      "pt": "Bloqueio Ofensivo",
+      "pt-BR": "Bloqueio Ofensivo",
+      "it": "Guardia offensiva",
+      "pl": "Garda ofensywna"
     },
     "icon": "attack",
     "max_points": 3
@@ -824,7 +1316,13 @@
     "names": {
       "en": "Opening Shot",
       "fr": "Premier tir",
-      "es": "Primer disparo"
+      "de": "Eröffnungsschuss",
+      "es": "Primer disparo",
+      "es-419": "Disparo de apertura",
+      "pt": "Disparo Inicial",
+      "pt-BR": "Disparo Inicial",
+      "it": "Primo colpo",
+      "pl": "Strzał otwierający"
     },
     "icon": "ranged",
     "max_points": 3
@@ -834,7 +1332,13 @@
     "names": {
       "en": "Outdoorsman",
       "fr": "Art de la chasse",
-      "es": "Autosuficiente"
+      "de": "Naturbursche",
+      "es": "Autosuficiente",
+      "es-419": "Exteriores",
+      "pt": "Mateiro",
+      "pt-BR": "Mateiro",
+      "it": "Campeggiatore",
+      "pl": "Miłośnik przyrody"
     },
     "icon": "gathering",
     "max_points": 1
@@ -844,7 +1348,13 @@
     "names": {
       "en": "Palico Rally",
       "fr": "Esprit Palico",
-      "es": "Mejora de camarada"
+      "de": "Palico-Versammlung",
+      "es": "Mejora de camarada",
+      "es-419": "Mejora de camarada",
+      "pt": "Reunir Amigatos",
+      "pt-BR": "Reunir Amigatos",
+      "it": "Gregario",
+      "pl": "Mobilizacja koleżkotów"
     },
     "icon": "offense",
     "max_points": 5
@@ -854,7 +1364,13 @@
     "names": {
       "en": "Para Functionality",
       "fr": "Gibier de potence",
-      "es": "Añade parálisis"
+      "de": "Lähmungsbeschichtung",
+      "es": "Añade parálisis",
+      "es-419": "Añade parálisis",
+      "pt": "Adição de Paralisia",
+      "pt-BR": "Adição de Paralisia",
+      "it": "Applica paralisi",
+      "pl": "Funkcja paraliżu"
     },
     "icon": "ranged",
     "max_points": 1
@@ -864,7 +1380,13 @@
     "names": {
       "en": "Paralysis Attack",
       "fr": "Neutralisation",
-      "es": "Ataque paralizante"
+      "de": "Lähmungsangriff",
+      "es": "Ataque paralizante",
+      "es-419": "ATQ paralizante",
+      "pt": "Ataque de Paralisia",
+      "pt-BR": "Ataque de Paralisia",
+      "it": "Attacco paralisi",
+      "pl": "Atak paraliżem"
     },
     "icon": "element",
     "max_points": 3
@@ -874,7 +1396,13 @@
     "names": {
       "en": "Paralysis Resistance",
       "fr": "Antiparalysie",
-      "es": "Antiparálisis"
+      "de": "Lähmungswiderstand",
+      "es": "Antiparálisis",
+      "es-419": "Antiparálisis",
+      "pt": "Antiparalisia",
+      "pt-BR": "Antiparalisia",
+      "it": "Resistenza paralisi",
+      "pl": "Odporność na paraliż"
     },
     "icon": "defense",
     "max_points": 3
@@ -884,7 +1412,13 @@
     "names": {
       "en": "Partbreaker",
       "fr": "Destructeur",
-      "es": "Rompepartes"
+      "de": "Teilezerstörer",
+      "es": "Rompepartes",
+      "es-419": "Rompepartes",
+      "pt": "Quebra-parte",
+      "pt-BR": "Quebra-parte",
+      "it": "Spaccamostri",
+      "pl": "Rozłamywacz"
     },
     "icon": "offense",
     "max_points": 3
@@ -894,7 +1428,13 @@
     "names": {
       "en": "Peak Performance",
       "fr": "Performance optimale",
-      "es": "Plena forma"
+      "de": "Höchstleistung",
+      "es": "Plena forma",
+      "es-419": "Plena forma",
+      "pt": "Desempenho Máximo",
+      "pt-BR": "Desempenho Máximo",
+      "it": "Forma perfetta",
+      "pl": "Szczyt możliwości"
     },
     "icon": "attack",
     "max_points": 5
@@ -904,7 +1444,13 @@
     "names": {
       "en": "Piercing Shots",
       "fr": "Traque sans merci",
-      "es": "Disparo perforante"
+      "de": "Perforierschüsse",
+      "es": "Disparo perforante",
+      "es-419": "Disparo perforante",
+      "pt": "Disparos Perfurantes",
+      "pt-BR": "Disparos Perfurantes",
+      "it": "Colpi perforanti",
+      "pl": "Przebijające strzały"
     },
     "icon": "ranged",
     "max_points": 1
@@ -914,7 +1460,13 @@
     "names": {
       "en": "Poison Attack",
       "fr": "Mort-aux-rats",
-      "es": "Ataque venenoso"
+      "de": "Giftangriff",
+      "es": "Ataque venenoso",
+      "es-419": "ATQ venenoso",
+      "pt": "Ataque de Veneno",
+      "pt-BR": "Ataque de Veneno",
+      "it": "Attacco veleno",
+      "pl": "Atak trucizną"
     },
     "icon": "element",
     "max_points": 3
@@ -924,7 +1476,13 @@
     "names": {
       "en": "Poison Duration Up",
       "fr": "Poison +",
-      "es": "Veneno extendido"
+      "de": "Giftdauer hoch",
+      "es": "Veneno extendido",
+      "es-419": "Veneno extendido",
+      "pt": "Prolongar Veneno",
+      "pt-BR": "Prolongar Veneno",
+      "it": "Aumenta veleno",
+      "pl": "Długotrwała trucizna"
     },
     "icon": "offense",
     "max_points": 1
@@ -934,7 +1492,13 @@
     "names": {
       "en": "Poison Functionality",
       "fr": "Apothicaire",
-      "es": "Añade veneno"
+      "de": "Giftbeschichtung",
+      "es": "Añade veneno",
+      "es-419": "Añade veneno",
+      "pt": "Adição de Veneno",
+      "pt-BR": "Adição de Veneno",
+      "it": "Applica veleno",
+      "pl": "Funkcja trucizny"
     },
     "icon": "ranged",
     "max_points": 1
@@ -944,7 +1508,13 @@
     "names": {
       "en": "Poison Resistance",
       "fr": "Toxicologie",
-      "es": "Antiveneno"
+      "de": "Giftwiderstand",
+      "es": "Antiveneno",
+      "es-419": "Antiveneno",
+      "pt": "Antiveneno",
+      "pt-BR": "Antiveneno",
+      "it": "Resistenza veleno",
+      "pl": "Odporność na truciznę"
     },
     "icon": "defense",
     "max_points": 3
@@ -954,7 +1524,13 @@
     "names": {
       "en": "Power Prolonger",
       "fr": "Puissance absolue",
-      "es": "Carga prolongada"
+      "de": "Kraftverlängerung",
+      "es": "Carga prolongada",
+      "es-419": "Carga prolongada",
+      "pt": "Prolongar Poder",
+      "pt-BR": "Prolongar Poder",
+      "it": "Estendi potenza",
+      "pl": "Przedłużenie mocy"
     },
     "icon": "offense",
     "max_points": 3
@@ -964,7 +1540,13 @@
     "names": {
       "en": "Power Stone",
       "fr": "Pierre de pouvoir",
-      "es": "Piedra de poder"
+      "de": "Kraftstein",
+      "es": "Piedra de poder",
+      "es-419": "Piedra potente",
+      "pt": "Pedra do Poder",
+      "pt-BR": "Pedra do Poder",
+      "it": "Pietra potente",
+      "pl": "Kamień mocy"
     },
     "icon": "attack",
     "max_points": 1
@@ -974,7 +1556,13 @@
     "names": {
       "en": "Protective Polish",
       "fr": "Acier trempé",
-      "es": "Acabado protector"
+      "de": "Schutzpolitur",
+      "es": "Acabado protector",
+      "es-419": "Acabado protector",
+      "pt": "Polimento Protetor",
+      "pt-BR": "Polimento Protetor",
+      "it": "Strato protettivo",
+      "pl": "Lakier ochronny"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -984,7 +1572,13 @@
     "names": {
       "en": "Punishing Draw",
       "fr": "Batto-jutsu",
-      "es": "Pena inmediata"
+      "de": "Bestrafender Zug",
+      "es": "Pena inmediata",
+      "es-419": "Pena inmediata",
+      "pt": "Punição Imediata",
+      "pt-BR": "Punição Imediata",
+      "it": "Sfoderata punitrice",
+      "pl": "Mordercze dobycie"
     },
     "icon": "offense",
     "max_points": 3
@@ -994,7 +1588,13 @@
     "names": {
       "en": "Quick Sheathe",
       "fr": "Rengainage éclair",
-      "es": "Envainado veloz"
+      "de": "Schnelles Wegstecken",
+      "es": "Envainado veloz",
+      "es-419": "Envainado veloz",
+      "pt": "Bainha Rápida",
+      "pt-BR": "Bainha Rápida",
+      "it": "Rinfodero veloce",
+      "pl": "Szybkie chowanie"
     },
     "icon": "utility",
     "max_points": 3
@@ -1004,7 +1604,13 @@
     "names": {
       "en": "Rapid Fire Up",
       "fr": "Tir super rapide",
-      "es": "Andanada rápida"
+      "de": "Schnellfeuer hoch",
+      "es": "Andanada rápida",
+      "es-419": "Disparo múltiple",
+      "pt": "Aum. Disparo Rápido",
+      "pt-BR": "Aum. Disparo Rápido",
+      "it": "Fuoco rapido+",
+      "pl": "Więcej szybkiego ognia"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1014,7 +1620,13 @@
     "names": {
       "en": "Rapid Morph",
       "fr": "Morphose rapide",
-      "es": "Mutación rápida"
+      "de": "Blitz-Morphen",
+      "es": "Mutación rápida",
+      "es-419": "Mutación rápida",
+      "pt": "Transformação Rápida",
+      "pt-BR": "Transformação Rápida",
+      "it": "Trasforma rapido",
+      "pl": "Szybka transformacja"
     },
     "icon": "offense",
     "max_points": 3
@@ -1024,7 +1636,13 @@
     "names": {
       "en": "Razor Sharp",
       "fr": "Samouraï",
-      "es": "Filo de cuchilla"
+      "de": "Superscharf",
+      "es": "Filo de cuchilla",
+      "es-419": "Filo de cuchilla",
+      "pt": "Fio da Navalha",
+      "pt-BR": "Fio da Navalha",
+      "it": "Lama affilata",
+      "pl": "Ostry jak brzytwa"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -1034,7 +1652,13 @@
     "names": {
       "en": "Recovery Speed",
       "fr": "Halo de guérison",
-      "es": "Recuperación rápida"
+      "de": "Erholungstempo",
+      "es": "Recuperación rápida",
+      "es-419": "Recuperación rápida",
+      "pt": "Vel. de Regeneração",
+      "pt-BR": "Vel. de Regeneração",
+      "it": "Guarigione",
+      "pl": "Szybkość regeneracji"
     },
     "icon": "health",
     "max_points": 3
@@ -1044,7 +1668,13 @@
     "names": {
       "en": "Recovery Up",
       "fr": "Cercle de vie",
-      "es": "Recuperación"
+      "de": "Erholungsplus",
+      "es": "Recuperación",
+      "es-419": "Recuperación",
+      "pt": "Aum. de Regeneração",
+      "pt-BR": "Aum. de Regeneração",
+      "it": "Bonus cura",
+      "pl": "Wzrost regeneracji"
     },
     "icon": "health",
     "max_points": 3
@@ -1054,7 +1684,13 @@
     "names": {
       "en": "Resentment",
       "fr": "Vengeance",
-      "es": "Resentimiento"
+      "de": "Groll",
+      "es": "Resentimiento",
+      "es-419": "Resentimiento",
+      "pt": "Indignação",
+      "pt-BR": "Indignação",
+      "it": "Risentimento",
+      "pl": "Uraza"
     },
     "icon": "attack",
     "max_points": 5
@@ -1064,7 +1700,13 @@
     "names": {
       "en": "Rice Ball",
       "fr": "Onigiri",
-      "es": "Onigiri"
+      "de": "Onigiri",
+      "es": "Onigiri",
+      "es-419": "Onigiri",
+      "pt": "Oniguiri",
+      "pt-BR": "Oniguiri",
+      "it": "Onigiri",
+      "pl": "Onigiri"
     },
     "icon": "offense",
     "max_points": 1
@@ -1074,7 +1716,13 @@
     "names": {
       "en": "Self-Improvement",
       "fr": "Auto-amélioration",
-      "es": "Automejora"
+      "de": "Selbstverbesserung",
+      "es": "Automejora",
+      "es-419": "Automejora",
+      "pt": "Autoaprimoramento",
+      "pt-BR": "Autoaprimoramento",
+      "it": "Miglioramento",
+      "pl": "Samodoskonalenie"
     },
     "icon": "offense",
     "max_points": 1
@@ -1084,7 +1732,13 @@
     "names": {
       "en": "Shattering Reflection",
       "fr": "Reflet éparpillé",
-      "es": "Reflejo destrozado"
+      "de": "Berstende Reflexion",
+      "es": "Reflejo destrozado",
+      "es-419": "Reflejo destrozado",
+      "pt": "Reflexo Estilhaçante",
+      "pt-BR": "Reflexo Estilhaçante",
+      "it": "Riflesso infranto",
+      "pl": "Rozbite odbicie"
     },
     "icon": "attack",
     "max_points": 1
@@ -1094,7 +1748,13 @@
     "names": {
       "en": "Shock Absorber",
       "fr": "Antichocs",
-      "es": "Amortiguador"
+      "de": "Schockabsorber",
+      "es": "Amortiguador",
+      "es-419": "Absorbedescargas",
+      "pt": "Amortecedor",
+      "pt-BR": "Amortecedor",
+      "it": "Ammortizza danni",
+      "pl": "Pochłaniacz uderzeń"
     },
     "icon": "utility",
     "max_points": 1
@@ -1104,7 +1764,13 @@
     "names": {
       "en": "Sleep Attack",
       "fr": "La nuit porte conseil",
-      "es": "Ataque de sueño"
+      "de": "Schlafangriff",
+      "es": "Ataque de sueño",
+      "es-419": "ATQ de sueño",
+      "pt": "Ataque de Sono",
+      "pt-BR": "Ataque de Sono",
+      "it": "Attacco sonno",
+      "pl": "Atak uśpieniem"
     },
     "icon": "element",
     "max_points": 3
@@ -1114,7 +1780,13 @@
     "names": {
       "en": "Sleep Functionality",
       "fr": "Marchand de sable",
-      "es": "Añade sueño"
+      "de": "Schlafbeschichtung",
+      "es": "Añade sueño",
+      "es-419": "Añade sueño",
+      "pt": "Adição de Sono",
+      "pt-BR": "Adição de Sono",
+      "it": "Applica sonno",
+      "pl": "Funkcja uśpienia"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1124,7 +1796,13 @@
     "names": {
       "en": "Sleep Resistance",
       "fr": "Insomnie",
-      "es": "Antisueño"
+      "de": "Schlafwiderstand",
+      "es": "Antisueño",
+      "es-419": "Antisueño",
+      "pt": "Antissono",
+      "pt-BR": "Antissono",
+      "it": "Resistenza sonno",
+      "pl": "Odporność na uśpienie"
     },
     "icon": "defense",
     "max_points": 3
@@ -1134,7 +1812,13 @@
     "names": {
       "en": "Slicked Blade",
       "fr": "Lame glissante",
-      "es": "Filo alisado"
+      "de": "Glattpolierte Klinge",
+      "es": "Filo alisado",
+      "es-419": "Espada pulida",
+      "pt": "Lâmina Embebida",
+      "pt-BR": "Lâmina Embebida",
+      "it": "Lama sgusciante",
+      "pl": "Gładkie ostrze"
     },
     "icon": "affinity",
     "max_points": 3
@@ -1144,7 +1828,13 @@
     "names": {
       "en": "Slugger",
       "fr": "Cogneur",
-      "es": "As del aturdimiento"
+      "de": "Lähmer",
+      "es": "As del aturdimiento",
+      "es-419": "Aturdir",
+      "pt": "Atordoante",
+      "pt-BR": "Atordoante",
+      "it": "Battitore",
+      "pl": "Powalacz"
     },
     "icon": "offense",
     "max_points": 3
@@ -1154,7 +1844,13 @@
     "names": {
       "en": "Special Ammo Boost",
       "fr": "Salve mortelle",
-      "es": "Bonus tiro especial"
+      "de": "Spezialmunitionboost",
+      "es": "Bonus tiro especial",
+      "es-419": "Bonus munición especial",
+      "pt": "Reforço Munição Especial",
+      "pt-BR": "Reforço Munição Especial",
+      "it": "Bonus munizioni speciali",
+      "pl": "Moc amunicji specjalnej"
     },
     "icon": "ranged",
     "max_points": 2
@@ -1164,7 +1860,13 @@
     "names": {
       "en": "Speed Eating",
       "fr": "Carnassier",
-      "es": "Ingesta rápida"
+      "de": "Schnellessen",
+      "es": "Ingesta rápida",
+      "es-419": "VEL al comer",
+      "pt": "Comer Rapidamente",
+      "pt-BR": "Comer Rapidamente",
+      "it": "Pasto veloce",
+      "pl": "Szybkie jedzenie"
     },
     "icon": "utility",
     "max_points": 3
@@ -1174,7 +1876,13 @@
     "names": {
       "en": "Speed Sharpening",
       "fr": "Affûtage rapide",
-      "es": "Afilado rápido"
+      "de": "Schnelles Schärfen",
+      "es": "Afilado rápido",
+      "es-419": "Afilado rápido",
+      "pt": "Afiação Rápida",
+      "pt-BR": "Afiação Rápida",
+      "it": "Affilatura veloce",
+      "pl": "Szybkie ostrzenie"
     },
     "icon": "item",
     "max_points": 2
@@ -1184,7 +1892,13 @@
     "names": {
       "en": "Spread/Power Shots",
       "fr": "Désigné pour mourir",
-      "es": "Disparo abanico/potente"
+      "de": "Schrot/Kraftschuss",
+      "es": "Disparo abanico/potente",
+      "es-419": "Disparo abanico/potente",
+      "pt": "Disparo Potente/Disperso",
+      "pt-BR": "Disparo Potente/Disperso",
+      "it": "Bonus ventaglio/tiro potente",
+      "pl": "Strzały mocy/rozrzutowe"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1194,7 +1908,13 @@
     "names": {
       "en": "Stamina Surge",
       "fr": "Métabolisme",
-      "es": "Aguante"
+      "de": "Ausdauererholung",
+      "es": "Aguante",
+      "es-419": "Aumento de Resistencia",
+      "pt": "Surto de Vigor",
+      "pt-BR": "Surto de Vigor",
+      "it": "Super resistenza",
+      "pl": "Przypływ wytrzymałości"
     },
     "icon": "stamina",
     "max_points": 3
@@ -1204,7 +1924,13 @@
     "names": {
       "en": "Stamina Thief",
       "fr": "Vol d'endurance",
-      "es": "Agotador"
+      "de": "Ausdauerdieb",
+      "es": "Agotador",
+      "es-419": "Agotador",
+      "pt": "Ladrão de Vigor",
+      "pt-BR": "Ladrão de Vigor",
+      "it": "Ruba resistenza",
+      "pl": "Kradzież wytrzymałości"
     },
     "icon": "offense",
     "max_points": 3
@@ -1214,7 +1940,13 @@
     "names": {
       "en": "Stench Resistance",
       "fr": "Antipuanteur",
-      "es": "Antihedor"
+      "de": "Gestankswiderstand",
+      "es": "Antihedor",
+      "es-419": "Antihedor",
+      "pt": "Antifedor",
+      "pt-BR": "Antifedor",
+      "it": "Resistenza fetore",
+      "pl": "Odporność na smród"
     },
     "icon": "item",
     "max_points": 2
@@ -1224,7 +1956,13 @@
     "names": {
       "en": "Stun Resistance",
       "fr": "Crâne d'acier",
-      "es": "Antiaturdimiento"
+      "de": "Betäubungswiderstand",
+      "es": "Antiaturdimiento",
+      "es-419": "Antiaturdimiento",
+      "pt": "Antiatordoamento",
+      "pt-BR": "Antiatordoamento",
+      "it": "Resistenza stordimento",
+      "pl": "Odporność na ogłuszenie"
     },
     "icon": "defense",
     "max_points": 3
@@ -1234,7 +1972,13 @@
     "names": {
       "en": "Survival Expert",
       "fr": "Ami de la nature",
-      "es": "Experto en supervivencia"
+      "de": "Überlebensexperte",
+      "es": "Experto en supervivencia",
+      "es-419": "Experto en supervivencia",
+      "pt": "Sobrevivência",
+      "pt-BR": "Sobrevivência",
+      "it": "Esperto di sopravvivenza",
+      "pl": "Mistrz przetrwania"
     },
     "icon": "health",
     "max_points": 3
@@ -1244,7 +1988,13 @@
     "names": {
       "en": "Synergy",
       "fr": "Programme synergique",
-      "es": "Sinergia"
+      "de": "Synergieprogramm",
+      "es": "Sinergia",
+      "es-419": "Sinergia",
+      "pt": "Sinergia",
+      "pt-BR": "Sinergia",
+      "it": "Sinergia",
+      "pl": "Synergia"
     },
     "icon": "affinity",
     "max_points": 1
@@ -1254,7 +2004,13 @@
     "names": {
       "en": "Synthetic Shield",
       "fr": "Bouclier optionnel",
-      "es": "Escudo sintético"
+      "de": "Synthetischer Schild",
+      "es": "Escudo sintético",
+      "es-419": "Escudo sintético",
+      "pt": "Escudo Sintético",
+      "pt-BR": "Escudo Sintético",
+      "it": "Scudo sintetico",
+      "pl": "Syntetyczna tarcza"
     },
     "icon": "defense",
     "max_points": 1
@@ -1264,7 +2020,13 @@
     "names": {
       "en": "Tetrad Shot",
       "fr": "Quatrième tir",
-      "es": "Disparo tétrada"
+      "de": "Tetradschuss",
+      "es": "Disparo tétrada",
+      "es-419": "Disparo tétrado",
+      "pt": "Disparo Tétrade",
+      "pt-BR": "Disparo Tétrade",
+      "it": "Colpo tetrade",
+      "pl": "Strzał tetradowy"
     },
     "icon": "ranged",
     "max_points": 3
@@ -1274,7 +2036,13 @@
     "names": {
       "en": "Thunder Attack",
       "fr": "Feu du ciel",
-      "es": "Ataque de rayo"
+      "de": "Donnerangriff",
+      "es": "Ataque de rayo",
+      "es-419": "ATQ de rayo",
+      "pt": "Ataque de Raio",
+      "pt-BR": "Ataque de Raio",
+      "it": "Attacco tuono",
+      "pl": "Atak piorunem"
     },
     "icon": "element",
     "max_points": 3
@@ -1284,7 +2052,13 @@
     "names": {
       "en": "Thunder Resistance",
       "fr": "Paratonnerre",
-      "es": "Antirrayo"
+      "de": "Donnerwiderstand",
+      "es": "Antirrayo",
+      "es-419": "Antirrayo",
+      "pt": "Resistência a Raio",
+      "pt-BR": "Resistência a Raio",
+      "it": "Resistenza tuono",
+      "pl": "Odporność na piorun"
     },
     "icon": "defense",
     "max_points": 3
@@ -1294,7 +2068,13 @@
     "names": {
       "en": "Tool Specialist",
       "fr": "Expert en survie",
-      "es": "Experto en herramientas"
+      "de": "Werkzeugmeister",
+      "es": "Experto en herramientas",
+      "es-419": "Experto en herramientas",
+      "pt": "Perícia em Ferramentas",
+      "pt-BR": "Perícia em Ferramentas",
+      "it": "Manutenzione",
+      "pl": "Spec od narzędzi"
     },
     "icon": "item",
     "max_points": 5
@@ -1304,7 +2084,13 @@
     "names": {
       "en": "Tremor Resistance",
       "fr": "Sismologie",
-      "es": "Antitemblores"
+      "de": "Bebenwiderstand",
+      "es": "Antitemblores",
+      "es-419": "Antitemblores",
+      "pt": "Antissísmico",
+      "pt-BR": "Antissísmico",
+      "it": "Antisismico",
+      "pl": "Odporność na wstrząsy"
     },
     "icon": "utility",
     "max_points": 3
@@ -1314,7 +2100,13 @@
     "names": {
       "en": "Water Attack",
       "fr": "Maelstrom",
-      "es": "Ataque de agua"
+      "de": "Wasserangriff",
+      "es": "Ataque de agua",
+      "es-419": "ATQ de agua",
+      "pt": "Ataque de Água",
+      "pt-BR": "Ataque de Água",
+      "it": "Attacco acqua",
+      "pl": "Atak wodą"
     },
     "icon": "element",
     "max_points": 3
@@ -1324,7 +2116,13 @@
     "names": {
       "en": "Water Resistance",
       "fr": "Étanchéité",
-      "es": "Antiagua"
+      "de": "Wasserwiderstand",
+      "es": "Antiagua",
+      "es-419": "Antiagua",
+      "pt": "Resistência a Água",
+      "pt-BR": "Resistência a Água",
+      "it": "Resistenza acqua",
+      "pl": "Odporność na wodę"
     },
     "icon": "defense",
     "max_points": 3
@@ -1334,7 +2132,13 @@
     "names": {
       "en": "Weakness Exploit",
       "fr": "Mise à mort",
-      "es": "Punto débil"
+      "de": "Schwächevorteil",
+      "es": "Punto débil",
+      "es-419": "Punto débil",
+      "pt": "Exploração de Fraqueza",
+      "pt-BR": "Exploração de Fraqueza",
+      "it": "Punto debole",
+      "pl": "Wykorzystanie słabości"
     },
     "icon": "attack",
     "max_points": 5
@@ -1344,7 +2148,13 @@
     "names": {
       "en": "Whiteflame Torrent",
       "fr": "Brasier blanc",
-      "es": "Torrente de llamas blancas"
+      "de": "Weißflammen-Flut",
+      "es": "Torrente de llamas blancas",
+      "es-419": "Torrente de llamas blancas",
+      "pt": "Torrente Chamalva",
+      "pt-BR": "Torrente Chamalva",
+      "it": "Biancotorrente",
+      "pl": "Strumień białego płomienia"
     },
     "icon": "attack",
     "max_points": 1
@@ -1354,7 +2164,13 @@
     "names": {
       "en": "Wide-Range",
       "fr": "Un pour tous",
-      "es": "Efecto área"
+      "de": "Wirkbereich",
+      "es": "Efecto área",
+      "es-419": "Efecto área",
+      "pt": "Alcance Amplo",
+      "pt-BR": "Alcance Amplo",
+      "it": "Ampia area",
+      "pl": "Duży zasięg"
     },
     "icon": "item",
     "max_points": 5
@@ -1364,7 +2180,13 @@
     "names": {
       "en": "Windproof",
       "fr": "Pare-vent",
-      "es": "Antiviento"
+      "de": "Windsicher",
+      "es": "Antiviento",
+      "es-419": "Antiviento",
+      "pt": "Antivento",
+      "pt-BR": "Antivento",
+      "it": "Paravento",
+      "pl": "Wiatrochron"
     },
     "icon": "utility",
     "max_points": 3

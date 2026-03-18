@@ -5,6 +5,7 @@ import ClearIcon from '@mui/icons-material/Clear';
 import { Amulet } from '../../../../model/Amulet';
 import { useI18n } from '../../../../lib/i18nContext';
 import { Skill } from '../../../../model/Skill';
+import { LocalizedNames } from '../../../../model/Localized';
 import { Icon, isSkillIconKey } from '../../../../lib/icon';
 
 interface AmuletBadgeProps {
@@ -16,7 +17,7 @@ interface AmuletBadgeProps {
     amuletIdx: number,
     skillIdx: number,
     field: string,
-    value: string | number | { en: string; fr: string } | undefined
+    value: string | number | LocalizedNames | undefined
   ) => void;
   onSlotChange: (index: number, value: string) => void;
   index: number;

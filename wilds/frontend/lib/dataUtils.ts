@@ -7,6 +7,7 @@ import { NamedEntity } from '../model/Localized';
 import { Skill } from '../model/Skill';
 import { Set as ArmorSet } from '../model/Set';
 import { Weapon } from '../model/Weapon';
+import { TemplateData } from '../model/Template';
 
 /**
  * Normalizes a raw API entity into a standardized NamedEntity format.
@@ -21,12 +22,16 @@ export function normalizeEntity(entry: any): NamedEntity | null {
   }
   const id = String(entry.id || entry.name || '');
   if (!id) return null;
-  const en = entry.names?.en || entry.name || id;
-  const fr = entry.names?.fr || en;
-  const es = entry.names?.es || en;
+  const fallbackName = String(entry.names?.en || entry.name || id);
+  const names = typeof entry.names === 'object' && entry.names
+    ? Object.fromEntries(
+        Object.entries(entry.names)
+          .filter(([key, value]) => typeof key === 'string' && typeof value === 'string' && value)
+      )
+    : {};
   return {
     id,
-    names: { en, fr, es },
+    names: { en: fallbackName, ...names },
     icon: entry.icon ?? null,
     gear_key: entry.gear_key ?? null,
   };
@@ -62,7 +67,7 @@ export function normalizeSavedSkill(skill: any, skillIndex: Record<string, Skill
 
   return {
     id: base?.id || String(skill.name),
-    names: base?.names || { en: String(skill.name), fr: String(skill.name), es: String(skill.name) },
+    names: base?.names || { en: String(skill.name) },
     icon: base?.icon ?? null,
     max_points: skill?.max_points ?? base?.max_points ?? 3,
     weight: skill?.weight ?? 10,
@@ -84,7 +89,7 @@ export function normalizeSavedSet(setItem: any, setIndex: Record<string, NamedEn
 
   return {
     id: base?.id || String(setItem.name),
-    names: base?.names || { en: String(setItem.name), fr: String(setItem.name), es: String(setItem.name) },
+    names: base?.names || { en: String(setItem.name) },
     icon: base?.icon ?? null,
     min_pieces: setItem?.min_pieces ?? 2,
     is_group: setItem?.is_group,
@@ -106,7 +111,7 @@ export function normalizeSavedWeapon(weapon: any, weaponIndex: Record<string, Na
 
   return {
     id: base?.id || String(weapon.name),
-    names: base?.names || { en: String(weapon.name), fr: String(weapon.name), es: String(weapon.name) },
+    names: base?.names || { en: String(weapon.name) },
     gear_key: base?.gear_key ?? null,
   };
 }
@@ -121,8 +126,58 @@ export function buildEntityIndex<T extends NamedEntity>(entities: T[]): Record<s
   const index: Record<string, T> = {};
   entities.forEach((entry) => {
     index[entry.id] = entry;
-    index[entry.names.en] = entry;
-    index[entry.names.fr] = entry;
+    Object.values(entry.names).forEach((name) => {
+      if (name) {
+        index[name] = entry;
+      }
+    });
   });
   return index;
 }
+
+function withFallbackNames(id: string, names?: Record<string, string | undefined>, name?: string) {
+  const fallback = name || names?.en || id;
+  return { en: fallback, ...(names || {}) };
+}
+
+/**
+ * Resolves template entities against API catalogs by ID so names/icons stay synced with backend translations.
+ */
+export function resolveDefaultTemplates(
+  templates: TemplateData[],
+  skillIndex: Record<string, Skill>,
+  setIndex: Record<string, NamedEntity>,
+  weaponIndex: Record<string, NamedEntity>
+): TemplateData[] {
+  return templates.map((template) => ({
+    ...template,
+    skills: (template.skills || []).map((skill) => {
+      const fromCatalog = skill?.id ? skillIndex[String(skill.id)] : undefined;
+      return {
+        ...skill,
+        id: fromCatalog?.id || String(skill.id || ''),
+        names: withFallbackNames(String(skill.id || ''), fromCatalog?.names || skill.names, skill.name),
+        icon: fromCatalog?.icon ?? skill.icon ?? null,
+      };
+    }),
+    sets: (template.sets || []).map((setEntry) => {
+      const fromCatalog = setEntry?.id ? setIndex[String(setEntry.id)] : undefined;
+      return {
+        ...setEntry,
+        id: fromCatalog?.id || String(setEntry.id || ''),
+        names: withFallbackNames(String(setEntry.id || ''), fromCatalog?.names || setEntry.names, setEntry.name),
+        icon: fromCatalog?.icon ?? setEntry.icon ?? null,
+      };
+    }),
+    weapons: (template.weapons || []).map((weapon) => {
+      const fromCatalog = weapon?.id ? weaponIndex[String(weapon.id)] : undefined;
+      return {
+        ...weapon,
+        id: fromCatalog?.id || String(weapon.id || ''),
+        names: withFallbackNames(String(weapon.id || ''), fromCatalog?.names || weapon.names, weapon.name),
+        gear_key: fromCatalog?.gear_key ?? weapon.gear_key ?? null,
+      };
+    }),
+  }));
+}
+

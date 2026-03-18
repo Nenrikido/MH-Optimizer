@@ -5,7 +5,13 @@
       "names": {
         "en": "Arkveld's Hunger",
         "fr": "Appétit de l'Arkveld",
-        "es": "Hambre de Arkveld"
+        "de": "Arkvelds Hunger",
+        "es": "Hambre de Arkveld",
+        "es-419": "Hambre de Arkveld",
+        "pt": "Fome de Arkveld",
+        "pt-BR": "Fome de Arkveld",
+        "it": "Fame dell'Arkveld",
+        "pl": "Głód Arkvelda"
       },
       "icon": "set",
       "max_points": 2
@@ -15,7 +21,13 @@
       "names": {
         "en": "Blangonga's Spirit",
         "fr": "Esprit du Blangonga",
-        "es": "Espíritu de Blangonga"
+        "de": "Blangongas Geist",
+        "es": "Espíritu de Blangonga",
+        "es-419": "Espíritu de Blangonga",
+        "pt": "Espírito de Blangonga",
+        "pt-BR": "Espírito de Blangonga",
+        "it": "Spirito di Blangonga",
+        "pl": "Duch Blangongi"
       },
       "icon": "set",
       "max_points": 2
@@ -25,7 +37,13 @@
       "names": {
         "en": "Blossomdance Prayer",
         "fr": "Prière Danse des fleurs",
-        "es": "Oración de floradanza"
+        "de": "Blütentanz-Gebet",
+        "es": "Oración de floradanza",
+        "es-419": "Oración de la Floradanza",
+        "pt": "Prece da Floridança",
+        "pt-BR": "Prece da Floridança",
+        "it": "Preghiera Fiordanza",
+        "pl": "Modlitwa Tańca Kwiatów"
       },
       "icon": "set",
       "max_points": 2
@@ -35,7 +53,13 @@
       "names": {
         "en": "Doshaguma's Might",
         "fr": "Puissance du Doshaguma",
-        "es": "Poder Doshaguma"
+        "de": "Doshaguma-Macht",
+        "es": "Poder Doshaguma",
+        "es-419": "Poder de Doshaguma",
+        "pt": "Força de Doshaguma",
+        "pt-BR": "Força de Doshaguma",
+        "it": "Potenza di Doshaguma",
+        "pl": "Moc Doshagumy"
       },
       "icon": "set",
       "max_points": 2
@@ -45,7 +69,13 @@
       "names": {
         "en": "Dreamspell Prayer",
         "fr": "Prière Veillée des rêves",
-        "es": "Oración del Sueñiencanto"
+        "de": "Traumzauber-Gebet",
+        "es": "Oración del Sueñiencanto",
+        "es-419": "Oración de Sueñiencanto",
+        "pt": "Prece do Feitissonho",
+        "pt-BR": "Prece do Feitissonho",
+        "it": "Preghiera Ognissogni",
+        "pl": "Modlitwa Czaru Snów"
       },
       "icon": "set",
       "max_points": 2
@@ -55,7 +85,13 @@
       "names": {
         "en": "Ebony Odogaron's Power",
         "fr": "Pouvoir de l'Odogaron désastre",
-        "es": "Potencia de Odogaron Ébano"
+        "de": "Vulkan-Odogarons Macht",
+        "es": "Potencia de Odogaron Ébano",
+        "es-419": "Poder de Odogaron Ébano",
+        "pt": "Poder de Odogaron Negro",
+        "pt-BR": "Poder de Odogaron Negro",
+        "it": "Forza Odogaron ebano",
+        "pl": "Moc Hebanowego Odogarona"
       },
       "icon": "set",
       "max_points": 2
@@ -65,7 +101,13 @@
       "names": {
         "en": "Flamefete Prayer",
         "fr": "Prière Fête des flammes",
-        "es": "Oración de chisparranda"
+        "de": "Feuerfest-Gebet",
+        "es": "Oración de chisparranda",
+        "es-419": "Oración de Chisparranda",
+        "pt": "Prece da Flamafolia",
+        "pt-BR": "Prece da Flamafolia",
+        "it": "Preghiera Festardente",
+        "pl": "Modlitwa Tańca Ognia"
       },
       "icon": "set",
       "max_points": 2
@@ -75,7 +117,13 @@
       "names": {
         "en": "Fulgur Anjanath's Will",
         "fr": "Volonté de l'Anjanath tonnerre",
-        "es": "Afán de Anjanath Fulgúreo"
+        "de": "Fulgur-Anjanaths Wille",
+        "es": "Afán de Anjanath Fulgúreo",
+        "es-419": "Voluntad de Anjanath Fulgúreo",
+        "pt": "Vontade de Anjanath Fulgurante",
+        "pt-BR": "Vontade de Anjanath Fulgurante",
+        "it": "Tempra di Anjanath tonante",
+        "pl": "Wola Piorunowego Anjanatha"
       },
       "icon": "set",
       "max_points": 2
@@ -85,7 +133,13 @@
       "names": {
         "en": "Gogmapocalypse",
         "fr": "Gogmapocalypse",
-        "es": "Gogmapocalipsis"
+        "de": "Gogmapokalypse",
+        "es": "Gogmapocalipsis",
+        "es-419": "Gogmapocalipsis",
+        "pt": "Gogmapocalipse",
+        "pt-BR": "Gogmapocalipse",
+        "it": "Apocalisse Gogma",
+        "pl": "Gogmapokalipsa"
       },
       "icon": "set",
       "max_points": 2
@@ -95,7 +149,13 @@
       "names": {
         "en": "Gore Magala's Tyranny",
         "fr": "Tyrannie du Gore Magala",
-        "es": "Tiranía de Gore Magala"
+        "de": "Gore Magalas Tyrannei",
+        "es": "Tiranía de Gore Magala",
+        "es-419": "Tiranía de Gore Magala",
+        "pt": "Tirania de Gore Magala",
+        "pt-BR": "Tirania de Gore Magala",
+        "it": "Sopruso del Gore Magala",
+        "pl": "Tyrania Gore Magali"
       },
       "icon": "set",
       "max_points": 2
@@ -105,7 +165,13 @@
       "names": {
         "en": "Gravios's Protection",
         "fr": "Protection du Gravios",
-        "es": "Protección de Gravios"
+        "de": "Gravios’ Schutz",
+        "es": "Protección de Gravios",
+        "es-419": "Protección de Gravios",
+        "pt": "Proteção de Gravios",
+        "pt-BR": "Proteção de Gravios",
+        "it": "Protezione del Gravios",
+        "pl": "Ochrona Graviosa"
       },
       "icon": "set",
       "max_points": 2
@@ -115,7 +181,13 @@
       "names": {
         "en": "Guardian Arkveld's Vitality",
         "fr": "Vitalité de l'Arkveld Gardien",
-        "es": "Salud de Arkveld Guardián"
+        "de": "Wächter-Arkvelds Vitalität",
+        "es": "Salud de Arkveld Guardián",
+        "es-419": "Vitalidad del Arkveld Guardián",
+        "pt": "Vitalidade de Arkveld Guardião",
+        "pt-BR": "Vitalidade de Arkveld Guardião",
+        "it": "Vitalità dell'Arkveld guardiano",
+        "pl": "Witalność Arkvelda Strażnika"
       },
       "icon": "set",
       "max_points": 2
@@ -125,7 +197,13 @@
       "names": {
         "en": "Jin Dahaad's Revolt",
         "fr": "Révolte du Jin Dahaad",
-        "es": "Rebelión de Jin Dahaad"
+        "de": "Jin-Dahaads Aufstand",
+        "es": "Rebelión de Jin Dahaad",
+        "es-419": "Rebelión de Jin Dahaad",
+        "pt": "Revolta de Jin Dahaad",
+        "pt-BR": "Revolta de Jin Dahaad",
+        "it": "Rivolta di Jin Dahaad",
+        "pl": "Bunt Jin Dahaada"
       },
       "icon": "set",
       "max_points": 2
@@ -135,7 +213,13 @@
       "names": {
         "en": "Leviathan's Fury",
         "fr": "Furie du Léviathan",
-        "es": "Furia de leviatán"
+        "de": "Leviathans Wut",
+        "es": "Furia de leviatán",
+        "es-419": "Furia de Leviatán",
+        "pt": "Fúria de Leviatã",
+        "pt-BR": "Fúria de Leviatã",
+        "it": "Furia del Leviathan",
+        "pl": "Furia lewiatana"
       },
       "icon": "set",
       "max_points": 2
@@ -145,7 +229,13 @@
       "names": {
         "en": "Lumenhymn Prayer",
         "fr": "Prière Chant des lumières",
-        "es": "Oración de iluminario"
+        "de": "Lichterglanz-Gebet",
+        "es": "Oración de iluminario",
+        "es-419": "Oración del Iluminario",
+        "pt": "Prece do Ilumicanto",
+        "pt-BR": "Prece do Ilumicanto",
+        "it": "Preghiera Luminalia",
+        "pl": "Modlitwa Hymnu Jasności"
       },
       "icon": "set",
       "max_points": 2
@@ -155,7 +245,13 @@
       "names": {
         "en": "Mizutsune's Prowess",
         "fr": "Prouesse du Mizutsune",
-        "es": "Poder de Mizutsune"
+        "de": "Mizutsunes Geschick",
+        "es": "Poder de Mizutsune",
+        "es-419": "Destreza del Mizutsune",
+        "pt": "Proeza de Mizutsune",
+        "pt-BR": "Proeza de Mizutsune",
+        "it": "Destrezza Mizutsune",
+        "pl": "Waleczność Mizutsune"
       },
       "icon": "set",
       "max_points": 2
@@ -165,7 +261,13 @@
       "names": {
         "en": "Nu Udra's Mutiny",
         "fr": "Mutinerie du Nu Udra",
-        "es": "Sublevación de Nu Udra"
+        "de": "Nu Udras Meuterei",
+        "es": "Sublevación de Nu Udra",
+        "es-419": "Sublevación de Nu Udra",
+        "pt": "Motim de Nu Udra",
+        "pt-BR": "Motim de Nu Udra",
+        "it": "Ribelle Nu Udra",
+        "pl": "Bunt Nu Udry"
       },
       "icon": "set",
       "max_points": 2
@@ -175,7 +277,13 @@
       "names": {
         "en": "Omega Resonance",
         "fr": "Résonance Oméga",
-        "es": "Resonancia Omega"
+        "de": "Omega-Resonanz",
+        "es": "Resonancia Omega",
+        "es-419": "Resonancia Omega",
+        "pt": "Ressonância Omega",
+        "pt-BR": "Ressonância Omega",
+        "it": "Sintonia Omega",
+        "pl": "Rezonans Omegi"
       },
       "icon": "set",
       "max_points": 2
@@ -185,7 +293,13 @@
       "names": {
         "en": "Rathalos's Flare",
         "fr": "Éclat du Rathalos",
-        "es": "Fulgor de Rathalos"
+        "de": "Rathalos’ Auflodern",
+        "es": "Fulgor de Rathalos",
+        "es-419": "Bengala de Rathalos",
+        "pt": "Labareda de Rathalos",
+        "pt-BR": "Labareda de Rathalos",
+        "it": "Fiamma Rathalos",
+        "pl": "Błysk Rathalosa"
       },
       "icon": "set",
       "max_points": 2
@@ -195,7 +309,13 @@
       "names": {
         "en": "Rey Dau's Voltage",
         "fr": "Tension du Rey Dau",
-        "es": "Voltaje de Rey Dau"
+        "de": "Rey Daus Spannung",
+        "es": "Voltaje de Rey Dau",
+        "es-419": "Voltaje de Rey Dau",
+        "pt": "Voltagem de Rey Dau",
+        "pt-BR": "Voltagem de Rey Dau",
+        "it": "Voltaggio Rey Dau",
+        "pl": "Napięcie Rey Dau"
       },
       "icon": "set",
       "max_points": 2
@@ -205,7 +325,13 @@
       "names": {
         "en": "Seregios's Tenacity",
         "fr": "Ténacité du Seregios",
-        "es": "Tenacidad de Seregios"
+        "de": "Seregios’ Verbissenheit",
+        "es": "Tenacidad de Seregios",
+        "es-419": "Tenacidad de Seregios",
+        "pt": "Tenacidade de Seregios",
+        "pt-BR": "Tenacidade de Seregios",
+        "it": "Tenacia del Seregios",
+        "pl": "Nieustępliwość Seregiosa"
       },
       "icon": "set",
       "max_points": 2
@@ -215,7 +341,13 @@
       "names": {
         "en": "Soul of the Dark Knight",
         "fr": "Cristal de chevalier noir",
-        "es": "Alma del caballero oscuro"
+        "de": "Dunkelritter-Kristall",
+        "es": "Alma del caballero oscuro",
+        "es-419": "Alma del caballero oscuro",
+        "pt": "Alma do Cavaleiro Negro",
+        "pt-BR": "Alma do Cavaleiro Negro",
+        "it": "Anima del cavaliere nero",
+        "pl": "Dusza mrocznego rycerza"
       },
       "icon": "set",
       "max_points": 2
@@ -225,7 +357,13 @@
       "names": {
         "en": "Uth Duna's Cover",
         "fr": "Couverture de l'Uth Duna",
-        "es": "Cobertura de Uth Duna"
+        "de": "Uth Dunas Deckung",
+        "es": "Cobertura de Uth Duna",
+        "es-419": "Cobertura de Uth Duna",
+        "pt": "Véu de Uth Duna",
+        "pt-BR": "Véu de Uth Duna",
+        "it": "Copertura Uth Duna",
+        "pl": "Osłona Uth Duny"
       },
       "icon": "set",
       "max_points": 2
@@ -235,7 +373,13 @@
       "names": {
         "en": "Xu Wu's Vigor",
         "fr": "Vigueur du Xu Wu",
-        "es": "Energía de Xu Wu"
+        "de": "Xu Wus Nachdruck",
+        "es": "Energía de Xu Wu",
+        "es-419": "Vigor de Xu Wu",
+        "pt": "Vigor de Xu Wu",
+        "pt-BR": "Vigor de Xu Wu",
+        "it": "Vigore di Xu Wu",
+        "pl": "Wigor Xu Wu"
       },
       "icon": "set",
       "max_points": 2
@@ -245,7 +389,13 @@
       "names": {
         "en": "Zoh Shia's Pulse",
         "fr": "Pouls du Zoh Shia",
-        "es": "Pulso de Zoh Shia"
+        "de": "Zoh Shias Puls",
+        "es": "Pulso de Zoh Shia",
+        "es-419": "Pulso de Zoh Shia",
+        "pt": "Pulso de Zoh Shia",
+        "pt-BR": "Pulso de Zoh Shia",
+        "it": "Battito Zoh Shia",
+        "pl": "Puls Zoh Shia"
       },
       "icon": "set",
       "max_points": 2
@@ -257,7 +407,13 @@
       "names": {
         "en": "Alluring Pelt",
         "fr": "Pelage attrayant",
-        "es": "Pelaje atractivo"
+        "de": "Ködernder Pelz",
+        "es": "Pelaje atractivo",
+        "es-419": "Piel cautivadora",
+        "pt": "Pelica Sedutora",
+        "pt-BR": "Pelica Sedutora",
+        "it": "Pelle ammaliante",
+        "pl": "Kusząca skórka"
       },
       "icon": "group",
       "max_points": 1
@@ -267,7 +423,13 @@
       "names": {
         "en": "Buttery Leathercraft",
         "fr": "Douceur du cuir",
-        "es": "Cuero mantecoso"
+        "de": "Buttriges Lederhandwerk",
+        "es": "Cuero mantecoso",
+        "es-419": "Cuero mantecoso",
+        "pt": "Couro Macio",
+        "pt-BR": "Couro Macio",
+        "it": "Cuoio scivoloso",
+        "pl": "Wymuskana skóra"
       },
       "icon": "group",
       "max_points": 1
@@ -277,7 +439,13 @@
       "names": {
         "en": "Festival Spirit",
         "fr": "Esprit du festival",
-        "es": "Espíritu festivo"
+        "de": "Festival-Stimmung",
+        "es": "Espíritu festivo",
+        "es-419": "Espíritu festivo",
+        "pt": "Espírito de Festival",
+        "pt-BR": "Espírito de Festival",
+        "it": "Spirito del festival",
+        "pl": "Duch festiwalu"
       },
       "icon": "group",
       "max_points": 1
@@ -287,7 +455,13 @@
       "names": {
         "en": "Flexible Leathercraft",
         "fr": "Cuir souple",
-        "es": "Cuero flexible"
+        "de": "Flexibles Lederhandwerk",
+        "es": "Cuero flexible",
+        "es-419": "Cuero flexible",
+        "pt": "Couro Flexível",
+        "pt-BR": "Couro Flexível",
+        "it": "Cuoio flessibile",
+        "pl": "Elastyczna skóra"
       },
       "icon": "group",
       "max_points": 1
@@ -297,7 +471,13 @@
       "names": {
         "en": "Fortifying Pelt",
         "fr": "Pelage de renforcement",
-        "es": "Pelaje fortalecedor"
+        "de": "Kräftigender Pelz",
+        "es": "Pelaje fortalecedor",
+        "es-419": "Piel fortalecedora",
+        "pt": "Pelica Fortificante",
+        "pt-BR": "Pelica Fortificante",
+        "it": "Pelle tosta",
+        "pl": "Skóra wzmacniająca"
       },
       "icon": "group",
       "max_points": 1
@@ -307,7 +487,13 @@
       "names": {
         "en": "Glory's Favor",
         "fr": "Faveur de la gloire",
-        "es": "Favor de la gloria"
+        "de": "Gefallen des Ruhms",
+        "es": "Favor de la gloria",
+        "es-419": "Favor de la gloria",
+        "pt": "Favor da Glória",
+        "pt-BR": "Favor da Glória",
+        "it": "Grazia della gloria",
+        "pl": "Przychylność chwały"
       },
       "icon": "group",
       "max_points": 1
@@ -317,7 +503,13 @@
       "names": {
         "en": "Guardian's Protection",
         "fr": "Protection du Gardien",
-        "es": "Protección de Guardián"
+        "de": "Wächter-Schutz",
+        "es": "Protección de Guardián",
+        "es-419": "Protección del Guardián",
+        "pt": "Proteção de Guardião",
+        "pt-BR": "Proteção de Guardião",
+        "it": "Protezione di guardiano",
+        "pl": "Ochrona Strażnika"
       },
       "icon": "group",
       "max_points": 1
@@ -327,7 +519,13 @@
       "names": {
         "en": "Guardian's Pulse",
         "fr": "Pouls du Gardien",
-        "es": "Pulso de Guardián"
+        "de": "Wächterpuls",
+        "es": "Pulso de Guardián",
+        "es-419": "Pulso del Guardián",
+        "pt": "Pulso de Guardião",
+        "pt-BR": "Pulso de Guardião",
+        "it": "Battito di guardiano",
+        "pl": "Puls Strażnika"
       },
       "icon": "group",
       "max_points": 1
@@ -337,7 +535,13 @@
       "names": {
         "en": "Imparted Wisdom",
         "fr": "Sagesse transmise",
-        "es": "Sabiduría impartida"
+        "de": "Vermittelte Weisheit",
+        "es": "Sabiduría impartida",
+        "es-419": "Sabiduría impartida",
+        "pt": "Sabedoria Transmitida",
+        "pt-BR": "Sabedoria Transmitida",
+        "it": "Saggezza impartita",
+        "pl": "Przekazana mądrość"
       },
       "icon": "group",
       "max_points": 1
@@ -347,7 +551,13 @@
       "names": {
         "en": "Lord's Favor",
         "fr": "Faveur du seigneur",
-        "es": "Favor del señor"
+        "de": "Gefallen für den Fürsten",
+        "es": "Favor del señor",
+        "es-419": "Favor de Señor",
+        "pt": "Benevolência Máxima",
+        "pt-BR": "Benevolência Máxima",
+        "it": "Grazia del predatore",
+        "pl": "Łaska władcy"
       },
       "icon": "group",
       "max_points": 1
@@ -357,7 +567,13 @@
       "names": {
         "en": "Lord's Fury",
         "fr": "Rage supérieure",
-        "es": "Ira del señor"
+        "de": "Apex-Zorn",
+        "es": "Ira del señor",
+        "es-419": "Ira superior",
+        "pt": "Fúria Máxima",
+        "pt-BR": "Fúria Máxima",
+        "it": "Furia del predatore",
+        "pl": "Furia Lorda"
       },
       "icon": "group",
       "max_points": 1
@@ -367,7 +583,13 @@
       "names": {
         "en": "Lord's Soul",
         "fr": "Âme du seigneur",
-        "es": "Alma del amo"
+        "de": "Seele des Fürsten",
+        "es": "Alma del amo",
+        "es-419": "Alma del amo",
+        "pt": "Alma do Senhor",
+        "pt-BR": "Alma do Senhor",
+        "it": "Anima del predatore",
+        "pl": "Dusza Lorda"
       },
       "icon": "group",
       "max_points": 1
@@ -377,7 +599,13 @@
       "names": {
         "en": "Master of the Fist",
         "fr": "Le Maître du poing",
-        "es": "Maestro del puño"
+        "de": "Meister der Faust",
+        "es": "Maestro del puño",
+        "es-419": "Maestro del puño",
+        "pt": "Mestre do Punho",
+        "pt-BR": "Mestre do Punho",
+        "it": "Maestro del pugno",
+        "pl": "Mistrz pięści"
       },
       "icon": "group",
       "max_points": 1
@@ -387,7 +615,13 @@
       "names": {
         "en": "Neopteron Alert",
         "fr": "Alerte Neopteron",
-        "es": "Alerta de Neopteron"
+        "de": "Neopteron-Alarm",
+        "es": "Alerta de Neopteron",
+        "es-419": "Alerta de Neopteron",
+        "pt": "Alerta de Neopteronte",
+        "pt-BR": "Alerta de Neopteronte",
+        "it": "Senso di Neopteron",
+        "pl": "Ostrzeżenie o Neopteronach"
       },
       "icon": "group",
       "max_points": 1
@@ -397,7 +631,13 @@
       "names": {
         "en": "Neopteron Camouflage",
         "fr": "Camouflage Neopteron",
-        "es": "Camuflaje de neopteron"
+        "de": "Neopteron-Tarnung",
+        "es": "Camuflaje de neopteron",
+        "es-419": "Camuflaje de Neopteron",
+        "pt": "Camuflagem Neopteronte",
+        "pt-BR": "Camuflagem Neopteronte",
+        "it": "Mimetizzazione Neopteron",
+        "pl": "Kamuflaż Neopterona"
       },
       "icon": "group",
       "max_points": 1
@@ -407,7 +647,13 @@
       "names": {
         "en": "Scale Layering",
         "fr": "Écailles superposées",
-        "es": "Capas de escamas"
+        "de": "Schuppenschichtung",
+        "es": "Capas de escamas",
+        "es-419": "Capas de escamas",
+        "pt": "Escamas Sobrepostas",
+        "pt-BR": "Escamas Sobrepostas",
+        "it": "Strati di scaglie",
+        "pl": "Nakładanie łusek"
       },
       "icon": "group",
       "max_points": 1
@@ -417,7 +663,13 @@
       "names": {
         "en": "Scaling Prowess",
         "fr": "Maîtrise des écailles",
-        "es": "Maestría con escamas"
+        "de": "Skalierungstechnik",
+        "es": "Maestría con escamas",
+        "es-419": "Maestría con escamas",
+        "pt": "Escamas Superiores",
+        "pt-BR": "Escamas Superiores",
+        "it": "Maestria nelle arrampicate",
+        "pl": "Technika wspinaczki"
       },
       "icon": "group",
       "max_points": 1

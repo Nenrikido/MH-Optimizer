@@ -17,9 +17,19 @@ import { Set as ArmorSet } from '../model/Set';
 import { Weapon } from '../model/Weapon';
 import { Amulet } from '../model/Amulet';
 import { Options } from '../model/Options';
+import { TemplateData } from '../model/Template';
 import { DEFAULT_DATA } from '../lib/defaultData';
-import { normalizeEntity, normalizeSkillEntity, normalizeSavedSkill, normalizeSavedSet, normalizeSavedWeapon, buildEntityIndex } from '../lib/dataUtils';
+import {
+  normalizeEntity,
+  normalizeSkillEntity,
+  normalizeSavedSkill,
+  normalizeSavedSet,
+  normalizeSavedWeapon,
+  buildEntityIndex,
+  resolveDefaultTemplates,
+} from '../lib/dataUtils';
 import { loadConfig } from '../lib/configStorage';
+import { Language } from '../lib/i18n';
 
 interface AvailableItemsResponse {
   available_skills?: unknown[];
@@ -27,6 +37,11 @@ interface AvailableItemsResponse {
   available_groups?: unknown[];
   available_weapons?: unknown[];
   available_armor_items?: unknown[];
+  meta?: {
+    language?: string;
+    default_language?: string;
+    supported_languages?: string[];
+  };
 }
 
 interface UseAvailableItemsResult {
@@ -35,6 +50,7 @@ interface UseAvailableItemsResult {
   availableWeapons: NamedEntity[];
   availableArmorItems: NamedEntity[];
   availableGroups: NamedEntity[];
+  defaultTemplates: TemplateData[];
   loading: boolean;
 }
 
@@ -43,17 +59,19 @@ export function useAvailableItems(
   setSets: (sets: ArmorSet[]) => void,
   setWeapons: (weapons: Weapon[]) => void,
   setAmulets: (amulets: Amulet[]) => void,
-  setOptions: (options: Options) => void
+  setOptions: (options: Options) => void,
+  language: Language,
 ): UseAvailableItemsResult {
   const [availableSkills, setAvailableSkills] = useState<Skill[]>([]);
   const [availableSets, setAvailableSets] = useState<NamedEntity[]>([]);
   const [availableWeapons, setAvailableWeapons] = useState<NamedEntity[]>([]);
   const [availableArmorItems, setAvailableArmorItems] = useState<NamedEntity[]>([]);
   const [availableGroups, setAvailableGroups] = useState<NamedEntity[]>([]);
+  const [defaultTemplates, setDefaultTemplates] = useState<TemplateData[]>(DEFAULT_DATA.defaultTemplates);
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    fetch('/api/available_items')
+    fetch(`/api/available_items?lang=${encodeURIComponent(language)}`)
       .then((r) => r.json())
       .then((data: AvailableItemsResponse) => {
         const skillsList = (data.available_skills || []).map(normalizeSkillEntity).filter(Boolean) as Skill[];
@@ -71,6 +89,13 @@ export function useAvailableItems(
         const skillIndex = buildEntityIndex(skillsList);
         const setIndex = buildEntityIndex([...setsList, ...groupsList]);
         const weaponIndex = buildEntityIndex(weaponsList);
+        const resolvedDefaultTemplates = resolveDefaultTemplates(
+          DEFAULT_DATA.defaultTemplates,
+          skillIndex,
+          setIndex,
+          weaponIndex
+        );
+        setDefaultTemplates(resolvedDefaultTemplates);
 
         const saved = loadConfig();
         if (saved) {
@@ -92,7 +117,7 @@ export function useAvailableItems(
       .catch(() => {
         setLoading(false);
       });
-  }, [setSkills, setSets, setWeapons, setAmulets, setOptions]);
+  }, [setSkills, setSets, setWeapons, setAmulets, setOptions, language]);
 
   return {
     availableSkills,
@@ -100,6 +125,7 @@ export function useAvailableItems(
     availableWeapons,
     availableArmorItems,
     availableGroups,
+    defaultTemplates,
     loading,
   };
 }
