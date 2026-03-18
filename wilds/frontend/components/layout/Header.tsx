@@ -5,7 +5,7 @@ import {Box, FormControl, IconButton, MenuItem, Select, Tooltip, Typography} fro
 import type {SelectChangeEvent} from '@mui/material/Select';
 import {useTheme} from '@mui/material/styles';
 import {useI18n} from '../../lib/i18nContext';
-import {Language} from "../../lib/i18n";
+import {LANGUAGE_FLAGS, LANGUAGE_LABELS, Language, SUPPORTED_LANGUAGES} from '../../lib/i18n';
 import {useThemeMode} from '../../lib/themeModeContext';
 
 function Header() {
@@ -52,11 +52,11 @@ function Header() {
             renderValue={(value) => (
               <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
                 <Box component="img"
-                     src={value === 'en' ? '/flags/gb.svg' : value === 'fr' ? '/flags/fr.svg' : '/flags/es.svg'}
+                     src={LANGUAGE_FLAGS[value]}
                      alt=""
                      sx={{width: 18, height: 12, borderRadius: '2px'}} />
                 <Box component="span" sx={{color: 'text.secondary', fontSize: '0.875rem'}}>
-                  {value === 'en' ? 'English' : value === 'fr' ? 'Français' : 'Español'}
+                  {LANGUAGE_LABELS[value]}
                 </Box>
               </Box>
             )}
@@ -68,24 +68,14 @@ function Header() {
               '& .MuiSvgIcon-root': {color: 'text.secondary'}
             }}
           >
-            <MenuItem value="en">
-              <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
-                <Box component="img" src="/flags/gb.svg" alt="" sx={{width: 18, height: 12, borderRadius: '2px'}} />
-                <Box component="span">English</Box>
-              </Box>
-            </MenuItem>
-            <MenuItem value="fr">
-              <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
-                <Box component="img" src="/flags/fr.svg" alt="" sx={{width: 18, height: 12, borderRadius: '2px'}} />
-                <Box component="span">Français</Box>
-              </Box>
-            </MenuItem>
-            <MenuItem value="es">
-              <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
-                <Box component="img" src="/flags/es.svg" alt="" sx={{width: 18, height: 12, borderRadius: '2px'}} />
-                <Box component="span">Español</Box>
-              </Box>
-            </MenuItem>
+            {SUPPORTED_LANGUAGES.map((supportedLanguage) => (
+              <MenuItem key={supportedLanguage} value={supportedLanguage}>
+                <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
+                  <Box component="img" src={LANGUAGE_FLAGS[supportedLanguage]} alt="" sx={{width: 18, height: 12, borderRadius: '2px'}} />
+                  <Box component="span">{LANGUAGE_LABELS[supportedLanguage]}</Box>
+                </Box>
+              </MenuItem>
+            ))}
           </Select>
         </FormControl>
       </Box>

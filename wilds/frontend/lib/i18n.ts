@@ -5,6 +5,28 @@
 
 export type Language = 'en' | 'fr' | 'es';
 
+export const SUPPORTED_LANGUAGES = ['en', 'fr', 'es'] as const;
+
+export const LANGUAGE_LABELS: Record<Language, string> = {
+  en: 'English',
+  fr: 'Français',
+  es: 'Español',
+};
+
+export const LANGUAGE_FLAGS: Record<Language, string> = {
+  en: '/flags/gb.svg',
+  fr: '/flags/fr.svg',
+  es: '/flags/es.svg',
+};
+
+export function isLanguage(value: string | null | undefined): value is Language {
+  return value != null && (SUPPORTED_LANGUAGES as readonly string[]).includes(value);
+}
+
+export function normalizeLanguage(value: string | null | undefined): Language {
+  return isLanguage(value) ? value : 'en';
+}
+
 export interface Translations {
   header: {
     title: string;
@@ -464,5 +486,5 @@ const es: Translations = {
 export const translations: Record<Language, Translations> = { en, fr, es };
 
 export const getTranslations = (language: Language): Translations => {
-  return translations[language] || translations.en;
+  return translations[normalizeLanguage(language)];
 };

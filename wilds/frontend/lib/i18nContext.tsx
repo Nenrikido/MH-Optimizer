@@ -3,8 +3,8 @@
  * Provides language switching functionality and translation access throughout the app.
  */
 
-import React, { createContext, useContext, useState, ReactNode } from 'react';
-import { Language, getTranslations, Translations } from './i18n';
+import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { Language, getTranslations, normalizeLanguage, Translations } from './i18n';
 
 interface I18nContextType {
   language: Language;
@@ -20,13 +20,15 @@ const I18nContext = createContext<I18nContextType | undefined>(undefined);
  */
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(() => {
-    const saved = localStorage.getItem('mh_opti_lang');
-    return (saved as Language) || 'en';
+    return normalizeLanguage(localStorage.getItem('mh_opti_lang'));
   });
 
+  useEffect(() => {
+    localStorage.setItem('mh_opti_lang', language);
+  }, [language]);
+
   const handleSetLanguage = (lang: Language) => {
-    setLanguage(lang);
-    localStorage.setItem('mh_opti_lang', lang);
+    setLanguage(normalizeLanguage(lang));
   };
 
   return (
