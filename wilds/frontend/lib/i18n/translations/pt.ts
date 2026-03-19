@@ -15,7 +15,7 @@ export const pt: Translations = {
   options: {
     includeAllAmulets: 'Incluir todos os amuletos gerados a partir das competências desejadas (ao desativar, inclui apenas amuletos obtíveis em jogo e amuletos escolhidos no separador de filtros)',
     transcend: 'Transcender todas as armaduras (isto altera os espaços de decorações se a raridade for 5 ou 6)',
-    includeGogSets: 'Incluir todos os conjuntos possíveis nas armas aprimoradas de Gogmazios',
+    includeGogSets: 'Incluir todos os conjuntos possíveis nas armas amelhoradas de Gogmazios',
   },
   inputs: {
     skills: 'Que competências pretendes ter?',

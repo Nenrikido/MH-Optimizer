@@ -2,20 +2,20 @@ import type { Translations } from '../types';
 
 export const pl: Translations = {
   header: {
-    title: 'Optymalizator Buildow MH Wilds',
+    title: 'Optymalizator buildów MH Wilds',
     subtitle: 'od @nenrikido na Discordzie',
   },
   form: {
-    skills: 'Umiejetnosci',
+    skills: 'Umiejętności',
     armor: 'Zestawy Zbroi',
     weapons: 'Bronie',
     optimize: 'Optymalizuj',
     save: 'Zapisz Konfiguracje',
   },
   options: {
-    includeAllAmulets: 'Uwzglednij wszystkie amulety wygenerowane z wybranych umiejetnosci (po odznaczeniu tylko farmowalne amulety i amulety wybrane w zakladce filtry)',
-    transcend: 'Transcenduj wszystkie elementy zbroi (zmienia sloty dekoracji, jesli rzadkosc to 5 lub 6)',
-    includeGogSets: 'Uwzglednij wszystkie mozliwe sety na ulepszonych broniach Gogmaziosa',
+    includeAllAmulets: 'Uwzględnij wszystkie amulety wygenerowane z wybranych umiejetnosci (po odznaczeniu tylko farmowalne amulety i amulety wybrane w zakładce filtry)',
+    transcend: 'Transcenduj wszystkie elementy zbroi (zmienia sloty dekoracji, jeśli rzadkość to 5 lub 6)',
+    includeGogSets: 'Uwzględnij wszystkie możliwe sety na ulepszonych broniach Gogmaziosa',
   },
   inputs: {
     skills: 'Jakie umiejetnosci chcesz miec?',
@@ -56,10 +56,10 @@ export const pl: Translations = {
     },
   },
   results: {
-    noResults: 'Na razie brak wynikow.',
+    noResults: 'Na razie brak wyników.',
     error: 'Blad podczas optymalizacji',
     title: 'Wyniki optymalizacji',
-    skillsLabel: 'Umiejetnosci',
+    skillsLabel: 'Umiejętności',
     armorSetLabel: 'Bonusy Setu / Grupy',
     armorLabel: 'Przedmioty',
   },
@@ -102,7 +102,7 @@ export const pl: Translations = {
     notesItems: {
       dataUpToDate: 'Dane sa aktualne na TU4.1 (AT Arkveld)',
       defaultValues: 'Tak, domyslne wartosci sa pod LS, tak, jestem weebem',
-      noBuild: 'Jesli nie pojawia sie build, poluzuj ograniczenia (sety/umiejetnosci/filtry).',
+      noBuild: 'Jeśli nie pojawia sie build, poluzuj ograniczenia (sety/umiejetnosci/filtry).',
       gogFilters: 'Filtry setu/grupy Gogmaziosa sa ukryte, gdy wlaczono "Uwzglednij wszystkie sety Gog".',
       customTemplates: 'Zapisane wlasne szablony sa lokalne w Twojej przegladarce.',
     },

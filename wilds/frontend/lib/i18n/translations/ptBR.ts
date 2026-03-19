@@ -15,7 +15,7 @@ export const ptBR: Translations = {
   options: {
     includeAllAmulets: 'Incluir todos os amuletos gerados pelas habilidades desejadas (desmarcando isso, inclui apenas amuletos farmáveis e os amuletos escolhidos na aba de filtros)',
     transcend: 'Transcender todas as armaduras (isso altera os slots de decoração se a raridade for 5 ou 6)',
-    includeGogSets: 'Incluir todos os conjuntos possíveis nas armas aprimoradas de Gogmazios',
+    includeGogSets: 'Incluir todos os conjuntos possíveis nas armas amelhoradas de Gogmazios',
   },
   inputs: {
     skills: 'Quais habilidades você quer ter?',
