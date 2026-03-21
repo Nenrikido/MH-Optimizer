@@ -14,7 +14,7 @@ export const zhHans: Translations = {
   },
   options: {
     includeAllAmulets: '包含由目标技能生成的所有护石（取消勾选后仅包含可刷取护石和筛选页中选择的护石）',
-    transcend: '对所有防具应用超越（会修改稀有度 5 或 6 的防具装饰槽）',
+    transcend: '升华所有防具（会修改稀有度 5 或 6 的防具装饰槽）',
     includeGogSets: '包含戈格玛吉欧斯强化武器上的所有可能套装',
   },
   inputs: {
@@ -71,8 +71,8 @@ export const zhHans: Translations = {
       slots: '插槽',
     },
     excludeArmorParts: {
-      title: '排除防具部件',
-      placeholder: '搜索要从计算中排除的防具部件',
+      title: '排除防具',
+      placeholder: '选择要排除的防具',
     },
     gogWeapons: {
       title: '戈格玛吉欧斯武器',
@@ -93,18 +93,18 @@ export const zhHans: Translations = {
     help: '帮助',
     howToUse: '使用方式：',
     howToUseSteps: {
-      step1: '使用自动补全选择目标技能、套装和武器。',
-      step2: '调整技能最大等级/权重和套装件数要求。',
-      step3: '在筛选页添加护石并排除特定防具。',
-      step4: '点击“开始优化”并查看配装、技能和激活的套装/组加成。',
+      step1: '利用自动填充选择目标技能、套装和武器。',
+      step2: '设置技能的最大等级/权重并调整套装需求。',
+      step3: '在筛选界面可以添加护石并排除特定防具。',
+      step4: '点击“开始优化”即可查看配装、技能和激活的套装/组加成。',
     },
     notes: '说明：',
     notesItems: {
       dataUpToDate: '数据已更新至 TU4.1（AT Arkveld）',
-      defaultValues: '默认值是太刀配装，是的，我就是二次元',
-      noBuild: '如果没有配装结果，请放宽限制（套装/技能/筛选）。',
-      gogFilters: '启用“包含所有 Gog 套装”后，会隐藏 Gog 套装/组筛选。',
-      customTemplates: '保存的自定义模板仅存储在当前浏览器中。',
+      defaultValues: '默认值是太刀配装。没错，我是个御宅族。',
+      noBuild: '如果没有配装结果，请放宽对套装、技能的限制并调整筛选项。',
+      gogFilters: '启用“包含所有戈格玛吉欧斯套装” 会隐藏 Gog 套装/组的筛选项。',
+      customTemplates: '自定义的模板和配置仅保存在您的浏览器本地。',
     },
   },
   common: {
