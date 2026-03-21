@@ -10,7 +10,8 @@
       "pt": "Joia Veneno 1",
       "pt-BR": "Joia Veneno 1",
       "it": "G veleno 1",
-      "pl": "Klejnot jadu [1]"
+      "pl": "Klejnot jadu [1]",
+      "zh-Hans": "毒珠【1】"
     },
     "skills": {
       "-1716324608": 1
@@ -29,7 +30,8 @@
       "pt": "Joia Artesanato II 2",
       "pt-BR": "Joia Artesanato II 2",
       "it": "G artigiano II 2",
-      "pl": "K. rękodzieła II [2]"
+      "pl": "K. rękodzieła II [2]",
+      "zh-Hans": "匠珠Ⅱ【2】"
     },
     "skills": {
       "1160639488": 2
@@ -48,7 +50,8 @@
       "pt": "Joia do Esfolamento 3",
       "pt-BR": "Joia do Esfolamento 3",
       "it": "G sferzante 3",
-      "pl": "Klejnot obdzieracza [3]"
+      "pl": "Klejnot obdzieracza [3]",
+      "zh-Hans": "刺击珠【3】"
     },
     "skills": {
       "-856322816": 1
@@ -67,7 +70,8 @@
       "pt": "Joia Stat. Crít./Artesanato 3",
       "pt-BR": "Joia Stat. Crít./Artesanato 3",
       "it": "G stato critico/artigiano 3",
-      "pl": "K. st. kryt./rękodz. [3]"
+      "pl": "K. st. kryt./rękodz. [3]",
+      "zh-Hans": "特会·匠珠【3】"
     },
     "skills": {
       "-168922880": 3,
@@ -87,7 +91,8 @@
       "pt": "Joia Sono 1",
       "pt-BR": "Joia Sono 1",
       "it": "G sonno 1",
-      "pl": "Klejnot snu [1]"
+      "pl": "Klejnot snu [1]",
+      "zh-Hans": "睡眠珠【1】"
     },
     "skills": {
       "166057120": 1
@@ -106,7 +111,8 @@
       "pt": "Joia da Precisão II 2",
       "pt-BR": "Joia da Precisão II 2",
       "it": "G preciso II 2",
-      "pl": "Klejnot precyz. II [2]"
+      "pl": "Klejnot precyz. II [2]",
+      "zh-Hans": "射法珠Ⅱ【2】"
     },
     "skills": {
       "-420608864": 2
@@ -125,7 +131,8 @@
       "pt": "Joia Relâmpago/Precisão 3",
       "pt-BR": "Joia Relâmpago/Precisão 3",
       "it": "G tuono/preciso 3",
-      "pl": "K. gromu/precyz. [3]"
+      "pl": "K. gromu/precyz. [3]",
+      "zh-Hans": "雷光·射法珠【3】"
     },
     "skills": {
       "-420608864": 1,
@@ -145,7 +152,8 @@
       "pt": "Joia Resistência a Água 1",
       "pt-BR": "Joia Resistência a Água 1",
       "it": "G antiacqua 1",
-      "pl": "K. wodoodporności [1]"
+      "pl": "K. wodoodporności [1]",
+      "zh-Hans": "耐水珠【1】"
     },
     "skills": {
       "383104832": 1
@@ -164,7 +172,8 @@
       "pt": "Joia Sono II 2",
       "pt-BR": "Joia Sono II 2",
       "it": "G sonno II 2",
-      "pl": "Klejnot snu II [2]"
+      "pl": "Klejnot snu II [2]",
+      "zh-Hans": "睡眠珠Ⅱ【2】"
     },
     "skills": {
       "166057120": 2
@@ -183,7 +192,8 @@
       "pt": "Joia de Drenagem III 3",
       "pt-BR": "Joia de Drenagem III 3",
       "it": "G affaticante III 3",
-      "pl": "K. wyssania III [3]"
+      "pl": "K. wyssania III [3]",
+      "zh-Hans": "夺气珠Ⅲ【3】"
     },
     "skills": {
       "1758661504": 3
@@ -202,7 +212,8 @@
       "pt": "Joia Destruidora 2",
       "pt-BR": "Joia Destruidora 2",
       "it": "G flagello 2",
-      "pl": "Klejnot niszczyciela [2]"
+      "pl": "Klejnot niszczyciela [2]",
+      "zh-Hans": "重击珠【2】"
     },
     "skills": {
       "1470960256": 1
@@ -221,7 +232,8 @@
       "pt": "Joia Bandoleira III 3",
       "pt-BR": "Joia Bandoleira III 3",
       "it": "G bandoliera III 3",
-      "pl": "Klejnot ładownicy III [3]"
+      "pl": "Klejnot ładownicy III [3]",
+      "zh-Hans": "积弹珠Ⅲ【3】"
     },
     "skills": {
       "1613139840": 3
@@ -240,7 +252,8 @@
       "pt": "Joia da Escapada 1",
       "pt-BR": "Joia da Escapada 1",
       "it": "G fuga 1",
-      "pl": "Klejnot ucieczki [1]"
+      "pl": "Klejnot ucieczki [1]",
+      "zh-Hans": "耐缚珠【1】"
     },
     "skills": {
       "1966172160": 1
@@ -259,7 +272,8 @@
       "pt": "Joia Energizadora 1",
       "pt-BR": "Joia Energizadora 1",
       "it": "G carica 1",
-      "pl": "Klejnot ładowania [1]"
+      "pl": "Klejnot ładowania [1]",
+      "zh-Hans": "蓄幅珠【1】"
     },
     "skills": {
       "-1475134080": 1
@@ -278,7 +292,8 @@
       "pt": "Joia Ataque II 2",
       "pt-BR": "Joia Ataque II 2",
       "it": "G attacco II 2",
-      "pl": "Klejnot ataku II [2]"
+      "pl": "Klejnot ataku II [2]",
+      "zh-Hans": "攻击珠Ⅱ【2】"
     },
     "skills": {
       "1": 2
@@ -297,7 +312,8 @@
       "pt": "Joia Bandoleira/Muro de Ferro 3",
       "pt-BR": "Joia Bandoleira/Muro de Ferro 3",
       "it": "G bandoliera/barriera 3",
-      "pl": "K. ładownicy/ż. muru [3]"
+      "pl": "K. ładownicy/ż. muru [3]",
+      "zh-Hans": "积弹·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -317,7 +333,8 @@
       "pt": "Joia Chama/Precisão 3",
       "pt-BR": "Joia Chama/Precisão 3",
       "it": "G fuoco/preciso 3",
-      "pl": "K. pożogi/precyz. [3]"
+      "pl": "K. pożogi/precyz. [3]",
+      "zh-Hans": "火炎·射法珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -337,7 +354,8 @@
       "pt": "Joia Relâmpago 1",
       "pt-BR": "Joia Relâmpago 1",
       "it": "G tuono 1",
-      "pl": "Klejnot gromu [1]"
+      "pl": "Klejnot gromu [1]",
+      "zh-Hans": "雷光珠【1】"
     },
     "skills": {
       "1452140672": 1
@@ -356,7 +374,8 @@
       "pt": "Joia Sutura 1",
       "pt-BR": "Joia Sutura 1",
       "it": "G antisangue 1",
-      "pl": "Klejnot szwów [1]"
+      "pl": "Klejnot szwów [1]",
+      "zh-Hans": "耐裂珠【1】"
     },
     "skills": {
       "1940820864": 1
@@ -375,7 +394,8 @@
       "pt": "Joia Resistência a Fogo 1",
       "pt-BR": "Joia Resistência a Fogo 1",
       "it": "G antifuoco 1",
-      "pl": "K. ognioodporności [1]"
+      "pl": "K. ognioodporności [1]",
+      "zh-Hans": "耐火珠【1】"
     },
     "skills": {
       "1425756032": 1
@@ -394,7 +414,8 @@
       "pt": "Joia Amolador/Artesanato 3",
       "pt-BR": "Joia Amolador/Artesanato 3",
       "it": "G affilante/artigiano 3",
-      "pl": "K. ostrzenia/rękodz. [3]"
+      "pl": "K. ostrzenia/rękodz. [3]",
+      "zh-Hans": "打磨·匠珠【3】"
     },
     "skills": {
       "1160639488": 1,
@@ -414,7 +435,8 @@
       "pt": "Joia Peçonha 2",
       "pt-BR": "Joia Peçonha 2",
       "it": "G veleno 2",
-      "pl": "Klejnot trucizny [2]"
+      "pl": "Klejnot trucizny [2]",
+      "zh-Hans": "强毒珠【2】"
     },
     "skills": {
       "-1629629184": 1
@@ -433,7 +455,8 @@
       "pt": "Joia do Fastio 1",
       "pt-BR": "Joia do Fastio 1",
       "it": "G senza fame 1",
-      "pl": "Klejnot niegłodnego [1]"
+      "pl": "Klejnot niegłodnego [1]",
+      "zh-Hans": "无食珠【1】"
     },
     "skills": {
       "2045149568": 1
@@ -452,7 +475,8 @@
       "pt": "Joia Intensificadora 1",
       "pt-BR": "Joia Intensificadora 1",
       "it": "G amplifica 1",
-      "pl": "Klejnot wydłużacza [1]"
+      "pl": "Klejnot wydłużacza [1]",
+      "zh-Hans": "昂扬珠【1】"
     },
     "skills": {
       "691199232": 1
@@ -471,7 +495,8 @@
       "pt": "Joia Relâmpago/Artesanato 3",
       "pt-BR": "Joia Relâmpago/Artesanato 3",
       "it": "G tuono/artigiano 3",
-      "pl": "K. gromu/rękodzieła [3]"
+      "pl": "K. gromu/rękodzieła [3]",
+      "zh-Hans": "雷光·匠珠【3】"
     },
     "skills": {
       "1160639488": 1,
@@ -491,7 +516,8 @@
       "pt": "Joia de Espécime 1",
       "pt-BR": "Joia de Espécime 1",
       "it": "G entomologo 1",
-      "pl": "Klejnot okazu [1]"
+      "pl": "Klejnot okazu [1]",
+      "zh-Hans": "标本珠【1】"
     },
     "skills": {
       "898284480": 1
@@ -510,7 +536,8 @@
       "pt": "Joia da Rajada 3",
       "pt-BR": "Joia da Rajada 3",
       "it": "G sfrecciante 3",
-      "pl": "Klejnot salwy [3]"
+      "pl": "Klejnot salwy [3]",
+      "zh-Hans": "速射珠【3】"
     },
     "skills": {
       "-1507579776": 1
@@ -529,7 +556,8 @@
       "pt": "Joia de Lodo 1",
       "pt-BR": "Joia de Lodo 1",
       "it": "G guado 1",
-      "pl": "Klejnot bagnołaza [1]"
+      "pl": "Klejnot bagnołaza [1]",
+      "zh-Hans": "沼渡珠【1】"
     },
     "skills": {
       "-201445760": 1
@@ -548,7 +576,8 @@
       "pt": "Joia Aljava II 2",
       "pt-BR": "Joia Aljava II 2",
       "it": "G caricatore II 2",
-      "pl": "Klejnot magazynka II [2]"
+      "pl": "Klejnot magazynka II [2]",
+      "zh-Hans": "增弹珠Ⅱ【2】"
     },
     "skills": {
       "802725120": 2
@@ -567,7 +596,8 @@
       "pt": "Joia Fio da Navalha III 3",
       "pt-BR": "Joia Fio da Navalha III 3",
       "it": "G rasoio III 3",
-      "pl": "K. naostrzenia III [3]"
+      "pl": "K. naostrzenia III [3]",
+      "zh-Hans": "利刃珠Ⅲ【3】"
     },
     "skills": {
       "1050520384": 3
@@ -586,7 +616,8 @@
       "pt": "Joia Sono III 3",
       "pt-BR": "Joia Sono III 3",
       "it": "G sonno III 3",
-      "pl": "Klejnot snu III [3]"
+      "pl": "Klejnot snu III [3]",
+      "zh-Hans": "睡眠珠Ⅲ【3】"
     },
     "skills": {
       "166057120": 3
@@ -605,7 +636,8 @@
       "pt": "Joia Dragão III 3",
       "pt-BR": "Joia Dragão III 3",
       "it": "G drago III 3",
-      "pl": "Klejnot smoka III [3]"
+      "pl": "Klejnot smoka III [3]",
+      "zh-Hans": "破龙珠Ⅲ【3】"
     },
     "skills": {
       "-776946176": 3
@@ -624,7 +656,8 @@
       "pt": "Joia Sonora/Ataque 3",
       "pt-BR": "Joia Sonora/Ataque 3",
       "it": "G sonoro/attacco 3",
-      "pl": "K. dźwięczny/ataku [3]"
+      "pl": "K. dźwięczny/ataku [3]",
+      "zh-Hans": "鼓笛·攻击珠【3】"
     },
     "skills": {
       "-1237438336": 2,
@@ -644,7 +677,8 @@
       "pt": "Joia Status Crítico III 3",
       "pt-BR": "Joia Status Crítico III 3",
       "it": "G stato critico III 3",
-      "pl": "K. statusu kryt. III [3]"
+      "pl": "K. statusu kryt. III [3]",
+      "zh-Hans": "特会珠Ⅲ【3】"
     },
     "skills": {
       "-168922880": 3
@@ -663,7 +697,8 @@
       "pt": "Joia Relâmpago II 2",
       "pt-BR": "Joia Relâmpago II 2",
       "it": "G tuono II 2",
-      "pl": "Klejnot gromu II [2]"
+      "pl": "Klejnot gromu II [2]",
+      "zh-Hans": "雷光珠Ⅱ【2】"
     },
     "skills": {
       "1452140672": 2
@@ -682,7 +717,8 @@
       "pt": "Joia Chama/Guardiã 3",
       "pt-BR": "Joia Chama/Guardiã 3",
       "it": "G fuoco/guardiano 3",
-      "pl": "K. pożogi/strażnika [3]"
+      "pl": "K. pożogi/strażnika [3]",
+      "zh-Hans": "火炎·守势珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -702,7 +738,8 @@
       "pt": "Joia Veneno II 2",
       "pt-BR": "Joia Veneno II 2",
       "it": "G veleno II 2",
-      "pl": "Klejnot jadu II [2]"
+      "pl": "Klejnot jadu II [2]",
+      "zh-Hans": "毒珠Ⅱ【2】"
     },
     "skills": {
       "-1716324608": 2
@@ -721,7 +758,8 @@
       "pt": "Joia de Drenagem II 2",
       "pt-BR": "Joia de Drenagem II 2",
       "it": "G affaticante II 2",
-      "pl": "Klejnot wyssania [2]"
+      "pl": "Klejnot wyssania [2]",
+      "zh-Hans": "夺气珠Ⅱ【2】"
     },
     "skills": {
       "1758661504": 2
@@ -740,7 +778,8 @@
       "pt": "Joia Investida 3",
       "pt-BR": "Joia Investida 3",
       "it": "G incursione 3",
-      "pl": "Klejnot najazdu [3]"
+      "pl": "Klejnot najazdu [3]",
+      "zh-Hans": "攻势珠【3】"
     },
     "skills": {
       "27684744": 1
@@ -759,7 +798,8 @@
       "pt": "Joia Amolador/Muro de Ferro 3",
       "pt-BR": "Joia Amolador/Muro de Ferro 3",
       "it": "G affilante/barriera 3",
-      "pl": "K. ostrzenia/ż. muru [3]"
+      "pl": "K. ostrzenia/ż. muru [3]",
+      "zh-Hans": "打磨·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -779,7 +819,8 @@
       "pt": "Joia Defesa Ativa 1",
       "pt-BR": "Joia Defesa Ativa 1",
       "it": "G scudo 1",
-      "pl": "K. trwałej obrony [1]"
+      "pl": "K. trwałej obrony [1]",
+      "zh-Hans": "耐防珠【1】"
     },
     "skills": {
       "1522518528": 1
@@ -798,7 +839,8 @@
       "pt": "Joia Dragão/Nocaute 3",
       "pt-BR": "Joia Dragão/Nocaute 3",
       "it": "G drago/battitore 3",
-      "pl": "K. smoka/nokautu [3]"
+      "pl": "K. smoka/nokautu [3]",
+      "zh-Hans": "破龙·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -818,7 +860,8 @@
       "pt": "Joia Amolador/Saque 3",
       "pt-BR": "Joia Amolador/Saque 3",
       "it": "G affilante/sfoderata 3",
-      "pl": "K. ostrz./dob. broni [3]"
+      "pl": "K. ostrz./dob. broni [3]",
+      "zh-Hans": "打磨·拔刀珠【3】"
     },
     "skills": {
       "686533440": 1,
@@ -838,7 +881,8 @@
       "pt": "Joia Estopim II 2",
       "pt-BR": "Joia Estopim II 2",
       "it": "G primo colpo II 2",
-      "pl": "K. pierw. strzału II [2]"
+      "pl": "K. pierw. strzału II [2]",
+      "zh-Hans": "初弹珠Ⅱ【2】"
     },
     "skills": {
       "1711950720": 2
@@ -857,7 +901,8 @@
       "pt": "Joia Energizar/Ataque 3",
       "pt-BR": "Joia Energizar/Ataque 3",
       "it": "G stordente/attacco 3",
-      "pl": "K. ładowania/ataku [3]"
+      "pl": "K. ładowania/ataku [3]",
+      "zh-Hans": "蓄击·攻击珠【3】"
     },
     "skills": {
       "1": 1,
@@ -877,7 +922,8 @@
       "pt": "Joia Troca Rápida III 3",
       "pt-BR": "Joia Troca Rápida III 3",
       "it": "G trasforma III 3",
-      "pl": "K. szybkoprzeł. III [3]"
+      "pl": "K. szybkoprzeł. III [3]",
+      "zh-Hans": "速变珠Ⅲ【3】"
     },
     "skills": {
       "-1961116288": 3
@@ -896,7 +942,8 @@
       "pt": "Joia Potente 2",
       "pt-BR": "Joia Potente 2",
       "it": "G possente 2",
-      "pl": "Klejnot mocy [2]"
+      "pl": "Klejnot mocy [2]",
+      "zh-Hans": "浑身珠【2】"
     },
     "skills": {
       "632127488": 1
@@ -915,7 +962,8 @@
       "pt": "Joia Guardiã 1",
       "pt-BR": "Joia Guardiã 1",
       "it": "G guardiano 1",
-      "pl": "Klejnot strażnika [1]"
+      "pl": "Klejnot strażnika [1]",
+      "zh-Hans": "守势珠【1】"
     },
     "skills": {
       "-181127504": 1
@@ -934,7 +982,8 @@
       "pt": "Joia Afiada II 2",
       "pt-BR": "Joia Afiada II 2",
       "it": "G tagliente II 2",
-      "pl": "Klejnot ostry II [2]"
+      "pl": "Klejnot ostry II [2]",
+      "zh-Hans": "刚刃珠Ⅱ【2】"
     },
     "skills": {
       "1500129152": 2
@@ -953,7 +1002,8 @@
       "pt": "Joia Relâmpago III 3",
       "pt-BR": "Joia Relâmpago III 3",
       "it": "G tuono III 3",
-      "pl": "Klejnot gromu III [3]"
+      "pl": "Klejnot gromu III [3]",
+      "zh-Hans": "雷光珠Ⅲ【3】"
     },
     "skills": {
       "1452140672": 3
@@ -972,7 +1022,8 @@
       "pt": "Joia Guardiã/Muro de Ferro 3",
       "pt-BR": "Joia Guardiã/Muro de Ferro 3",
       "it": "G guardiano/barriera 3",
-      "pl": "K. strażnika/ż. muru [3]"
+      "pl": "K. strażnika/ż. muru [3]",
+      "zh-Hans": "守势·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -992,7 +1043,8 @@
       "pt": "Joia de Salto 2",
       "pt-BR": "Joia de Salto 2",
       "it": "G balzo 2",
-      "pl": "Klejnot skoków [2]"
+      "pl": "Klejnot skoków [2]",
+      "zh-Hans": "跳跃珠【2】"
     },
     "skills": {
       "673822976": 1
@@ -1011,7 +1063,8 @@
       "pt": "Joia Relâmpago/Nocaute 3",
       "pt-BR": "Joia Relâmpago/Nocaute 3",
       "it": "G tuono/battitore 3",
-      "pl": "K. gromu/nokautu [3]"
+      "pl": "K. gromu/nokautu [3]",
+      "zh-Hans": "雷光·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -1031,7 +1084,8 @@
       "pt": "Joia Olho da Mente 1",
       "pt-BR": "Joia Olho da Mente 1",
       "it": "G profeta 1",
-      "pl": "Klejnot oka umysłu [1]"
+      "pl": "Klejnot oka umysłu [1]",
+      "zh-Hans": "心眼珠【1】"
     },
     "skills": {
       "1594792704": 1
@@ -1050,7 +1104,8 @@
       "pt": "Joia F. Navalha/M. Ferro 3",
       "pt-BR": "Joia F. Navalha/M. Ferro 3",
       "it": "G rasoio/barriera 3",
-      "pl": "K. naostrz./ż. muru [3]"
+      "pl": "K. naostrz./ż. muru [3]",
+      "zh-Hans": "利刃·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -1070,7 +1125,8 @@
       "pt": "Joia Regeneração 1",
       "pt-BR": "Joia Regeneração 1",
       "it": "G recupero 1",
-      "pl": "Klejnot regeneracji [1]"
+      "pl": "Klejnot regeneracji [1]",
+      "zh-Hans": "早复珠【1】"
     },
     "skills": {
       "-1121468544": 1
@@ -1089,7 +1145,8 @@
       "pt": "Joia Ânimo 1",
       "pt-BR": "Joia Ânimo 1",
       "it": "G antisonno 1",
-      "pl": "Klejnot rozbudzenia [1]"
+      "pl": "Klejnot rozbudzenia [1]",
+      "zh-Hans": "耐眠珠【1】"
     },
     "skills": {
       "-193031552": 1
@@ -1108,7 +1165,8 @@
       "pt": "Joia Resistência a Dragão 1",
       "pt-BR": "Joia Resistência a Dragão 1",
       "it": "G antidrago 1",
-      "pl": "K. smokoodporności [1]"
+      "pl": "K. smokoodporności [1]",
+      "zh-Hans": "耐龙珠【1】"
     },
     "skills": {
       "-2125233152": 1
@@ -1127,7 +1185,8 @@
       "pt": "Joia Saudável 1",
       "pt-BR": "Joia Saudável 1",
       "it": "G antivirus 1",
-      "pl": "Klejnot rozsądku [1]"
+      "pl": "Klejnot rozsądku [1]",
+      "zh-Hans": "抗狂珠【1】"
     },
     "skills": {
       "-1662120192": 1
@@ -1146,7 +1205,8 @@
       "pt": "Joia Tiro Certo II 2",
       "pt-BR": "Joia Tiro Certo II 2",
       "it": "G perforante II 2",
-      "pl": "K. celn. strzału II [2]"
+      "pl": "K. celn. strzału II [2]",
+      "zh-Hans": "特射珠Ⅱ【2】"
     },
     "skills": {
       "-160562336": 2
@@ -1165,7 +1225,8 @@
       "pt": "Joia Riacho 1",
       "pt-BR": "Joia Riacho 1",
       "it": "G acqua 1",
-      "pl": "Klejnot strumienia [1]"
+      "pl": "Klejnot strumienia [1]",
+      "zh-Hans": "流水珠【1】"
     },
     "skills": {
       "508916704": 1
@@ -1184,7 +1245,8 @@
       "pt": "Joia Abafadora 2",
       "pt-BR": "Joia Abafadora 2",
       "it": "G antirumore 2",
-      "pl": "Klejnot zatyczek [2]"
+      "pl": "Klejnot zatyczek [2]",
+      "zh-Hans": "防音珠【2】"
     },
     "skills": {
       "192746944": 1
@@ -1203,7 +1265,8 @@
       "pt": "Joia do Biotipo 1",
       "pt-BR": "Joia do Biotipo 1",
       "it": "G atleta 1",
-      "pl": "Klejnot sylwetki [1]"
+      "pl": "Klejnot sylwetki [1]",
+      "zh-Hans": "体术珠【1】"
     },
     "skills": {
       "-1689391744": 1
@@ -1222,7 +1285,8 @@
       "pt": "Joia Estopim III 3",
       "pt-BR": "Joia Estopim III 3",
       "it": "G primo colpo III 3",
-      "pl": "K. p. strzału III [3]"
+      "pl": "K. p. strzału III [3]",
+      "zh-Hans": "初弹珠Ⅲ【3】"
     },
     "skills": {
       "1711950720": 3
@@ -1241,7 +1305,8 @@
       "pt": "Joia Chama/Muro de Ferro 3",
       "pt-BR": "Joia Chama/Muro de Ferro 3",
       "it": "G fuoco/barriera 3",
-      "pl": "K. pożogi/nokautu [3]"
+      "pl": "K. pożogi/nokautu [3]",
+      "zh-Hans": "火炎·铁壁珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -1261,7 +1326,8 @@
       "pt": "Joia da Maestria 3",
       "pt-BR": "Joia da Maestria 3",
       "it": "G maestro 3",
-      "pl": "Klejnot mistrza [3]"
+      "pl": "Klejnot mistrza [3]",
+      "zh-Hans": "达艺珠【3】"
     },
     "skills": {
       "1389859584": 1
@@ -1280,7 +1346,8 @@
       "pt": "Joia Artimanha/Nocaute 3",
       "pt-BR": "Joia Artimanha/Nocaute 3",
       "it": "G punizione/battitore 3",
-      "pl": "K. gambitu/nokautu [3]"
+      "pl": "K. gambitu/nokautu [3]",
+      "zh-Hans": "拔打·击晕珠【3】"
     },
     "skills": {
       "-1946345856": 3,
@@ -1300,7 +1367,8 @@
       "pt": "Joia de Sobrevivência 1",
       "pt-BR": "Joia de Sobrevivência 1",
       "it": "G sopravvivenza 1",
-      "pl": "Klejnot przetrwania [1]"
+      "pl": "Klejnot przetrwania [1]",
+      "zh-Hans": "环境珠【1】"
     },
     "skills": {
       "-593005376": 1
@@ -1319,7 +1387,8 @@
       "pt": "Joia Resistência a Raio 1",
       "pt-BR": "Joia Resistência a Raio 1",
       "it": "G antituono 1",
-      "pl": "K. gromoodporności [1]"
+      "pl": "K. gromoodporności [1]",
+      "zh-Hans": "耐雷珠【1】"
     },
     "skills": {
       "2143068800": 1
@@ -1338,7 +1407,8 @@
       "pt": "Joia de Saque III 3",
       "pt-BR": "Joia de Saque III 3",
       "it": "G sfoderata III 3",
-      "pl": "K. dobycia broni III [3]"
+      "pl": "K. dobycia broni III [3]",
+      "zh-Hans": "拔刀珠Ⅲ【3】"
     },
     "skills": {
       "686533440": 3
@@ -1357,7 +1427,8 @@
       "pt": "Joia Guardiã III 3",
       "pt-BR": "Joia Guardiã III 3",
       "it": "G guardiano III 3",
-      "pl": "K. strażnika III [3]"
+      "pl": "K. strażnika III [3]",
+      "zh-Hans": "守势珠Ⅲ【3】"
     },
     "skills": {
       "-181127504": 3
@@ -1376,7 +1447,8 @@
       "pt": "Joia Troca Rápida/Artesanato 3",
       "pt-BR": "Joia Troca Rápida/Artesanato 3",
       "it": "G trasforma/artigiano 3",
-      "pl": "K. szybkop./rękodz. [3]"
+      "pl": "K. szybkop./rękodz. [3]",
+      "zh-Hans": "速变·匠珠【3】"
     },
     "skills": {
       "-1961116288": 3,
@@ -1396,7 +1468,8 @@
       "pt": "Joia Riacho II 2",
       "pt-BR": "Joia Riacho II 2",
       "it": "G acqua II 2",
-      "pl": "K. strumienia II [2]"
+      "pl": "K. strumienia II [2]",
+      "zh-Hans": "流水珠Ⅱ【2】"
     },
     "skills": {
       "508916704": 2
@@ -1415,7 +1488,8 @@
       "pt": "Joia de Voo 2",
       "pt-BR": "Joia de Voo 2",
       "it": "G volo 2",
-      "pl": "Klejnot lotu [2]"
+      "pl": "Klejnot lotu [2]",
+      "zh-Hans": "飞燕珠【2】"
     },
     "skills": {
       "402237312": 1
@@ -1434,7 +1508,8 @@
       "pt": "Joia da Precisão 1",
       "pt-BR": "Joia da Precisão 1",
       "it": "G preciso 1",
-      "pl": "Klejnot precyzyjny [1]"
+      "pl": "Klejnot precyzyjny [1]",
+      "zh-Hans": "射法珠【1】"
     },
     "skills": {
       "-420608864": 1
@@ -1453,7 +1528,8 @@
       "pt": "Joia Contundente III 3",
       "pt-BR": "Joia Contundente III 3",
       "it": "G smussato III 3",
-      "pl": "Klejnot stępiony III [3]"
+      "pl": "Klejnot stępiony III [3]",
+      "zh-Hans": "钝器珠Ⅲ【3】"
     },
     "skills": {
       "397306144": 3
@@ -1472,7 +1548,8 @@
       "pt": "Joia Camada de Veneno 2",
       "pt-BR": "Joia Camada de Veneno 2",
       "it": "G stratoveleno 2",
-      "pl": "K. trującej powłoki [2]"
+      "pl": "K. trującej powłoki [2]",
+      "zh-Hans": "毒瓶珠【2】"
     },
     "skills": {
       "919683456": 1
@@ -1491,7 +1568,8 @@
       "pt": "Joia Camada de Sono 3",
       "pt-BR": "Joia Camada de Sono 3",
       "it": "G stratosonno 3",
-      "pl": "Klejnot powłoki snu [3]"
+      "pl": "Klejnot powłoki snu [3]",
+      "zh-Hans": "眠瓶珠【3】"
     },
     "skills": {
       "169998480": 1
@@ -1510,7 +1588,8 @@
       "pt": "Joia Elemento Crít./Artes. 3",
       "pt-BR": "Joia Elemento Crít./Artes. 3",
       "it": "G critico elem./artigiano 3",
-      "pl": "K. ż. kryt./rękodz. [3]"
+      "pl": "K. ż. kryt./rękodz. [3]",
+      "zh-Hans": "属会·匠珠【3】"
     },
     "skills": {
       "313598432": 3,
@@ -1530,7 +1609,8 @@
       "pt": "Joia de Salto 1",
       "pt-BR": "Joia de Salto 1",
       "it": "G salto 1",
-      "pl": "Klejnot skoku [1]"
+      "pl": "Klejnot skoku [1]",
+      "zh-Hans": "强跳珠【1】"
     },
     "skills": {
       "78208296": 1
@@ -1549,7 +1629,8 @@
       "pt": "Joia Veneno III 3",
       "pt-BR": "Joia Veneno III 3",
       "it": "G veleno III 3",
-      "pl": "Klejnot jadu III [3]"
+      "pl": "Klejnot jadu III [3]",
+      "zh-Hans": "毒珠Ⅲ【3】"
     },
     "skills": {
       "-1716324608": 3
@@ -1568,7 +1649,8 @@
       "pt": "Joia da Adaptação 1",
       "pt-BR": "Joia da Adaptação 1",
       "it": "G adattamento 1",
-      "pl": "Klejnot adaptacji [1]"
+      "pl": "Klejnot adaptacji [1]",
+      "zh-Hans": "适应珠【1】"
     },
     "skills": {
       "424768352": 1
@@ -1587,7 +1669,8 @@
       "pt": "Joia Stat. Crít./Muro de Ferro 3",
       "pt-BR": "Joia Stat. Crít./Muro de Ferro 3",
       "it": "G stato critico/barriera 3",
-      "pl": "K. st. kryt./ż. muru [3]"
+      "pl": "K. st. kryt./ż. muru [3]",
+      "zh-Hans": "特会·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -1607,7 +1690,8 @@
       "pt": "Joia Aljava/Especialista 3",
       "pt-BR": "Joia Aljava/Especialista 3",
       "it": "G caricatore/esperto 3",
-      "pl": "K. magazynka/eksper. [3]"
+      "pl": "K. magazynka/eksper. [3]",
+      "zh-Hans": "增弹·达人珠【3】"
     },
     "skills": {
       "-2096489472": 1,
@@ -1627,7 +1711,8 @@
       "pt": "Joia Especialista III 3",
       "pt-BR": "Joia Especialista III 3",
       "it": "G esperto III 3",
-      "pl": "Klejnot eksperta III [3]"
+      "pl": "Klejnot eksperta III [3]",
+      "zh-Hans": "达人珠Ⅲ【3】"
     },
     "skills": {
       "-2096489472": 3
@@ -1646,7 +1731,8 @@
       "pt": "Joia Resistência a Gelo 1",
       "pt-BR": "Joia Resistência a Gelo 1",
       "it": "G antighiaccio 1",
-      "pl": "K. lodoodporności [1]"
+      "pl": "K. lodoodporności [1]",
+      "zh-Hans": "耐冰珠【1】"
     },
     "skills": {
       "652161472": 1
@@ -1665,7 +1751,8 @@
       "pt": "Joia Artimanha/Artesanato 3",
       "pt-BR": "Joia Artimanha/Artesanato 3",
       "it": "G punizione/artigiano 3",
-      "pl": "K. gambitu/rękodz. [3]"
+      "pl": "K. gambitu/rękodz. [3]",
+      "zh-Hans": "拔打·匠珠【3】"
     },
     "skills": {
       "-1946345856": 3,
@@ -1685,7 +1772,8 @@
       "pt": "Joia Elem. Crít./Nocaute 3",
       "pt-BR": "Joia Elem. Crít./Nocaute 3",
       "it": "G critico elem./battitore 3",
-      "pl": "K. ż. kryt./nokautu [3]"
+      "pl": "K. ż. kryt./nokautu [3]",
+      "zh-Hans": "属会·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -1705,7 +1793,8 @@
       "pt": "Joia Artimanha 1",
       "pt-BR": "Joia Artimanha 1",
       "it": "G punizione 1",
-      "pl": "Klejnot gambitu [1]"
+      "pl": "Klejnot gambitu [1]",
+      "zh-Hans": "拔打珠【1】"
     },
     "skills": {
       "-1946345856": 1
@@ -1724,7 +1813,8 @@
       "pt": "Joia Antiparalisia 1",
       "pt-BR": "Joia Antiparalisia 1",
       "it": "G antiparalisi 1",
-      "pl": "K. antyparaliżujący [1]"
+      "pl": "K. antyparaliżujący [1]",
+      "zh-Hans": "耐麻珠【1】"
     },
     "skills": {
       "522288832": 1
@@ -1743,7 +1833,8 @@
       "pt": "Joia Explosão 1",
       "pt-BR": "Joia Explosão 1",
       "it": "G scoppio 1",
-      "pl": "Klejnot wybuchu [1]"
+      "pl": "Klejnot wybuchu [1]",
+      "zh-Hans": "爆破珠【1】"
     },
     "skills": {
       "-844978880": 1
@@ -1762,7 +1853,8 @@
       "pt": "Joia Camada de Paralisia 3",
       "pt-BR": "Joia Camada de Paralisia 3",
       "it": "G stratoparalisi 3",
-      "pl": "K. powłoki paraliżu [3]"
+      "pl": "K. powłoki paraliżu [3]",
+      "zh-Hans": "痹瓶珠【3】"
     },
     "skills": {
       "-676967744": 1
@@ -1781,7 +1873,8 @@
       "pt": "Joia de Nocaute 1",
       "pt-BR": "Joia de Nocaute 1",
       "it": "G battitore 1",
-      "pl": "Klejnot nokautu [1]"
+      "pl": "Klejnot nokautu [1]",
+      "zh-Hans": "击晕珠【1】"
     },
     "skills": {
       "-893407296": 1
@@ -1800,7 +1893,8 @@
       "pt": "Joia Chama/Intensificadora 3",
       "pt-BR": "Joia Chama/Intensificadora 3",
       "it": "G fuoco/amplifica 3",
-      "pl": "K. pożogi/wydłuż. [3]"
+      "pl": "K. pożogi/wydłuż. [3]",
+      "zh-Hans": "火炎·昂扬珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -1820,7 +1914,8 @@
       "pt": "Joia Artimanha/M. Ferro 3",
       "pt-BR": "Joia Artimanha/M. Ferro 3",
       "it": "G punizione/barriera 3",
-      "pl": "K. gambitu/ż. muru [3]"
+      "pl": "K. gambitu/ż. muru [3]",
+      "zh-Hans": "拔打·铁壁珠【3】"
     },
     "skills": {
       "-1946345856": 3,
@@ -1840,7 +1935,8 @@
       "pt": "Joia de Voo/Saque 3",
       "pt-BR": "Joia de Voo/Saque 3",
       "it": "G volo/sfoderata 3",
-      "pl": "K. lotu/dob. broni [3]"
+      "pl": "K. lotu/dob. broni [3]",
+      "zh-Hans": "飞燕·拔刀珠【3】"
     },
     "skills": {
       "402237312": 1,
@@ -1860,7 +1956,8 @@
       "pt": "Joia Explosão II 2",
       "pt-BR": "Joia Explosão II 2",
       "it": "G scoppio II 2",
-      "pl": "Klejnot wybuchu II [2]"
+      "pl": "Klejnot wybuchu II [2]",
+      "zh-Hans": "爆破珠Ⅱ【2】"
     },
     "skills": {
       "-844978880": 2
@@ -1879,7 +1976,8 @@
       "pt": "Joia Crítica II 2",
       "pt-BR": "Joia Crítica II 2",
       "it": "G critico II 2",
-      "pl": "K. krytyczny II [2]"
+      "pl": "K. krytyczny II [2]",
+      "zh-Hans": "超心珠Ⅱ【2】"
     },
     "skills": {
       "-1607763456": 2
@@ -1898,7 +1996,8 @@
       "pt": "Joia Relâmpago/Muro de Ferro 3",
       "pt-BR": "Joia Relâmpago/Muro de Ferro 3",
       "it": "G tuono/barriera 3",
-      "pl": "K. gromu/ż. muru [3]"
+      "pl": "K. gromu/ż. muru [3]",
+      "zh-Hans": "雷光·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -1918,7 +2017,8 @@
       "pt": "Joia Chama/Artesanato 3",
       "pt-BR": "Joia Chama/Artesanato 3",
       "it": "G fuoco/artigiano 3",
-      "pl": "K. pożogi/rękodzieła [3]"
+      "pl": "K. pożogi/rękodzieła [3]",
+      "zh-Hans": "火炎·匠珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -1938,7 +2038,8 @@
       "pt": "Joia Energizadora/Nocaute 3",
       "pt-BR": "Joia Energizadora/Nocaute 3",
       "it": "G carica/battitore 3",
-      "pl": "K. ładujący/nokautu [3]"
+      "pl": "K. ładujący/nokautu [3]",
+      "zh-Hans": "蓄幅·击晕珠【3】"
     },
     "skills": {
       "-1475134080": 3,
@@ -1958,7 +2059,8 @@
       "pt": "Joia Guardiã II 2",
       "pt-BR": "Joia Guardiã II 2",
       "it": "G guardiano II 2",
-      "pl": "Klejnot strażnika II [2]"
+      "pl": "Klejnot strażnika II [2]",
+      "zh-Hans": "守势珠Ⅱ【2】"
     },
     "skills": {
       "-181127504": 2
@@ -1977,7 +2079,8 @@
       "pt": "Joia Elemento Crít. 1",
       "pt-BR": "Joia Elemento Crít. 1",
       "it": "G critico elementale 1",
-      "pl": "K. żywiołu kryt. [1]"
+      "pl": "K. żywiołu kryt. [1]",
+      "zh-Hans": "属会珠【1】"
     },
     "skills": {
       "313598432": 1
@@ -1996,7 +2099,8 @@
       "pt": "Joia Antivento 1",
       "pt-BR": "Joia Antivento 1",
       "it": "G antivento 1",
-      "pl": "K. wiatroodporności [1]"
+      "pl": "K. wiatroodporności [1]",
+      "zh-Hans": "防风珠【1】"
     },
     "skills": {
       "-895828480": 1
@@ -2015,7 +2119,8 @@
       "pt": "Joia Paralisadora 1",
       "pt-BR": "Joia Paralisadora 1",
       "it": "G paralizzante 1",
-      "pl": "Klejnot paraliżu [1]"
+      "pl": "Klejnot paraliżu [1]",
+      "zh-Hans": "麻痹珠【1】"
     },
     "skills": {
       "-1863702144": 1
@@ -2034,7 +2139,8 @@
       "pt": "Joia do Foco III 3",
       "pt-BR": "Joia do Foco III 3",
       "it": "G disciplina III 3",
-      "pl": "K. skupienia III [3]"
+      "pl": "K. skupienia III [3]",
+      "zh-Hans": "集中珠Ⅲ【3】"
     },
     "skills": {
       "-283334048": 3
@@ -2053,7 +2159,8 @@
       "pt": "Joia Peçonha/Nocaute 3",
       "pt-BR": "Joia Peçonha/Nocaute 3",
       "it": "G veleno/battitore 3",
-      "pl": "K. trucizny/nokautu [3]"
+      "pl": "K. trucizny/nokautu [3]",
+      "zh-Hans": "强毒·击晕珠【3】"
     },
     "skills": {
       "-1629629184": 1,
@@ -2073,7 +2180,8 @@
       "pt": "Joia de Voo/Ataque 3",
       "pt-BR": "Joia de Voo/Ataque 3",
       "it": "G volo/attacco 3",
-      "pl": "Klejnot lotu/ataku [3]"
+      "pl": "Klejnot lotu/ataku [3]",
+      "zh-Hans": "飞燕·攻击珠【3】"
     },
     "skills": {
       "1": 1,
@@ -2093,7 +2201,8 @@
       "pt": "Joia Camada de Explosão 2",
       "pt-BR": "Joia Camada de Explosão 2",
       "it": "G stratoscoppio 2",
-      "pl": "K. powłoki wybuchu [2]"
+      "pl": "K. powłoki wybuchu [2]",
+      "zh-Hans": "爆瓶珠【2】"
     },
     "skills": {
       "-2022542848": 1
@@ -2112,7 +2221,8 @@
       "pt": "Joia Amolador/Especialista 3",
       "pt-BR": "Joia Amolador/Especialista 3",
       "it": "G affilante/esperto 3",
-      "pl": "K. ostrz./eksperta [3]"
+      "pl": "K. ostrz./eksperta [3]",
+      "zh-Hans": "打磨·达人珠【3】"
     },
     "skills": {
       "-2096489472": 1,
@@ -2132,7 +2242,8 @@
       "pt": "Joia Aljava/Saque 3",
       "pt-BR": "Joia Aljava/Saque 3",
       "it": "G caricatore/sfoderata 3",
-      "pl": "K. magaz./dob. broni [3]"
+      "pl": "K. magaz./dob. broni [3]",
+      "zh-Hans": "增弹·拔刀珠【3】"
     },
     "skills": {
       "686533440": 1,
@@ -2152,7 +2263,8 @@
       "pt": "Joia Revigorante 2",
       "pt-BR": "Joia Revigorante 2",
       "it": "G vigoroso 2",
-      "pl": "K. orzeźwienia [2]"
+      "pl": "K. orzeźwienia [2]",
+      "zh-Hans": "早气珠【2】"
     },
     "skills": {
       "-315492576": 1
@@ -2171,7 +2283,8 @@
       "pt": "Joia Chama/Foco 3",
       "pt-BR": "Joia Chama/Foco 3",
       "it": "G fuoco/disciplina 3",
-      "pl": "K. pożogi/skupienia [3]"
+      "pl": "K. pożogi/skupienia [3]",
+      "zh-Hans": "火炎·集中珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -2191,7 +2304,8 @@
       "pt": "Joia Energizar/Nocaute 3",
       "pt-BR": "Joia Energizar/Nocaute 3",
       "it": "G stordente/battitore 3",
-      "pl": "K. ładowania/nokautu [3]"
+      "pl": "K. ładowania/nokautu [3]",
+      "zh-Hans": "蓄击·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -2211,7 +2325,8 @@
       "pt": "Joia Foco/Artesanato 3",
       "pt-BR": "Joia Foco/Artesanato 3",
       "it": "G disciplina/artigiano 3",
-      "pl": "K. skupienia/rękodz. [3]"
+      "pl": "K. skupienia/rękodz. [3]",
+      "zh-Hans": "集中·匠珠【3】"
     },
     "skills": {
       "-283334048": 3,
@@ -2231,7 +2346,8 @@
       "pt": "Joia Sonora/Nocaute 3",
       "pt-BR": "Joia Sonora/Nocaute 3",
       "it": "G sonoro/battitore 3",
-      "pl": "K. dźwięku/nokautu [3]"
+      "pl": "K. dźwięku/nokautu [3]",
+      "zh-Hans": "鼓笛·击晕珠【3】"
     },
     "skills": {
       "-1237438336": 2,
@@ -2251,7 +2367,8 @@
       "pt": "Joia do Crescimento 1",
       "pt-BR": "Joia do Crescimento 1",
       "it": "G miglioramento 1",
-      "pl": "Klejnot wzrostu [1]"
+      "pl": "Klejnot wzrostu [1]",
+      "zh-Hans": "钻研珠【1】"
     },
     "skills": {
       "1639440000": 1
@@ -2270,7 +2387,8 @@
       "pt": "Joia Bandoleira II 2",
       "pt-BR": "Joia Bandoleira II 2",
       "it": "G bandoliera II 2",
-      "pl": "Klejnot ładownicy II [2]"
+      "pl": "Klejnot ładownicy II [2]",
+      "zh-Hans": "积弹珠Ⅱ【2】"
     },
     "skills": {
       "1613139840": 2
@@ -2289,7 +2407,8 @@
       "pt": "Joia Escudo/Artesanato 3",
       "pt-BR": "Joia Escudo/Artesanato 3",
       "it": "G corazza/artigiano 3",
-      "pl": "K. tarczy/rękodzieła [3]"
+      "pl": "K. tarczy/rękodzieła [3]",
+      "zh-Hans": "强壁·匠珠【3】"
     },
     "skills": {
       "-1674114176": 3,
@@ -2309,7 +2428,8 @@
       "pt": "Joia da Proteção 1",
       "pt-BR": "Joia da Proteção 1",
       "it": "G protezione 1",
-      "pl": "Klejnot ochrony [1]"
+      "pl": "Klejnot ochrony [1]",
+      "zh-Hans": "加护珠【1】"
     },
     "skills": {
       "1346775424": 1
@@ -2328,7 +2448,8 @@
       "pt": "Joia Paralisadora III 3",
       "pt-BR": "Joia Paralisadora III 3",
       "it": "G paralizzante III 3",
-      "pl": "K. paraliżu III [3]"
+      "pl": "K. paraliżu III [3]",
+      "zh-Hans": "麻痹珠Ⅲ【3】"
     },
     "skills": {
       "-1863702144": 3
@@ -2347,7 +2468,8 @@
       "pt": "Joia Riacho/Nocaute 3",
       "pt-BR": "Joia Riacho/Nocaute 3",
       "it": "G acqua/battitore 3",
-      "pl": "K. strumien./nokautu [3]"
+      "pl": "K. strumien./nokautu [3]",
+      "zh-Hans": "流水·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -2367,7 +2489,8 @@
       "pt": "Joia Sonora 2",
       "pt-BR": "Joia Sonora 2",
       "it": "G sonoro 2",
-      "pl": "Klejnot dźwięku [2]"
+      "pl": "Klejnot dźwięku [2]",
+      "zh-Hans": "鼓笛珠【2】"
     },
     "skills": {
       "-1237438336": 1
@@ -2386,7 +2509,8 @@
       "pt": "Joia Fio da Navalha 1",
       "pt-BR": "Joia Fio da Navalha 1",
       "it": "G rasoio 1",
-      "pl": "Klejnot naostrzenia [1]"
+      "pl": "Klejnot naostrzenia [1]",
+      "zh-Hans": "利刃珠【1】"
     },
     "skills": {
       "1050520384": 1
@@ -2405,7 +2529,8 @@
       "pt": "Joia Troca Rápida/M. Ferro 3",
       "pt-BR": "Joia Troca Rápida/M. Ferro 3",
       "it": "G trasforma/barriera 3",
-      "pl": "K. szybkop./ż. muru [3]"
+      "pl": "K. szybkop./ż. muru [3]",
+      "zh-Hans": "速变·铁壁珠【3】"
     },
     "skills": {
       "-1961116288": 3,
@@ -2425,7 +2550,8 @@
       "pt": "Joia Dragão/Muro de Ferro 3",
       "pt-BR": "Joia Dragão/Muro de Ferro 3",
       "it": "G drago/barriera 3",
-      "pl": "K. smoka/żelaz. muru [3]"
+      "pl": "K. smoka/żelaz. muru [3]",
+      "zh-Hans": "破龙·铁壁珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -2445,7 +2571,8 @@
       "pt": "Joia Guardiã/Artesanato 3",
       "pt-BR": "Joia Guardiã/Artesanato 3",
       "it": "G guardiano/artigiano 3",
-      "pl": "K. strażnika/rękodz. [3]"
+      "pl": "K. strażnika/rękodz. [3]",
+      "zh-Hans": "守势·匠珠【3】"
     },
     "skills": {
       "-181127504": 3,
@@ -2465,7 +2592,8 @@
       "pt": "Joia Especialista 1",
       "pt-BR": "Joia Especialista 1",
       "it": "G esperto 1",
-      "pl": "Klejnot eksperta [1]"
+      "pl": "Klejnot eksperta [1]",
+      "zh-Hans": "达人珠【1】"
     },
     "skills": {
       "-2096489472": 1
@@ -2484,7 +2612,8 @@
       "pt": "Joia de Cadeia 3",
       "pt-BR": "Joia de Cadeia 3",
       "it": "G catena 3",
-      "pl": "Klejnot łańcucha [3]"
+      "pl": "Klejnot łańcucha [3]",
+      "zh-Hans": "连击珠【3】"
     },
     "skills": {
       "565867136": 1
@@ -2503,7 +2632,8 @@
       "pt": "Joia Aljava/Artesanato 3",
       "pt-BR": "Joia Aljava/Artesanato 3",
       "it": "G caricatore/artigiano 3",
-      "pl": "K. magazynka/rękodz. [3]"
+      "pl": "K. magazynka/rękodz. [3]",
+      "zh-Hans": "增弹·匠珠【3】"
     },
     "skills": {
       "802725120": 2,
@@ -2523,7 +2653,8 @@
       "pt": "Joia do Preparo 1",
       "pt-BR": "Joia do Preparo 1",
       "it": "G pilastro 1",
-      "pl": "Klejnot gotowości [1]"
+      "pl": "Klejnot gotowości [1]",
+      "zh-Hans": "耐冲珠【1】"
     },
     "skills": {
       "742695104": 1
@@ -2542,7 +2673,8 @@
       "pt": "Joia de Mergulho 1",
       "pt-BR": "Joia de Mergulho 1",
       "it": "G tuffo 1",
-      "pl": "Klejnot nurka [1]"
+      "pl": "Klejnot nurka [1]",
+      "zh-Hans": "飞跃珠【1】"
     },
     "skills": {
       "-1304512512": 1
@@ -2561,7 +2693,8 @@
       "pt": "Joia Peçonha/Muro de Ferro 3",
       "pt-BR": "Joia Peçonha/Muro de Ferro 3",
       "it": "G veleno/barriera 3",
-      "pl": "K. trucizny/ż. muru [3]"
+      "pl": "K. trucizny/ż. muru [3]",
+      "zh-Hans": "强毒·铁壁珠【3】"
     },
     "skills": {
       "-1629629184": 1,
@@ -2581,7 +2714,8 @@
       "pt": "Joia Antídoto 1",
       "pt-BR": "Joia Antídoto 1",
       "it": "G antidoto 1",
-      "pl": "Klejnot antidotum [1]"
+      "pl": "Klejnot antidotum [1]",
+      "zh-Hans": "耐毒珠【1】"
     },
     "skills": {
       "1459579264": 1
@@ -2600,7 +2734,8 @@
       "pt": "Joia Bombardeiro 1",
       "pt-BR": "Joia Bombardeiro 1",
       "it": "G dinamite 1",
-      "pl": "Klejnot bombowy [1]"
+      "pl": "Klejnot bombowy [1]",
+      "zh-Hans": "爆师珠【1】"
     },
     "skills": {
       "-857543744": 1
@@ -2619,7 +2754,8 @@
       "pt": "Joia Geológica 1",
       "pt-BR": "Joia Geológica 1",
       "it": "G geologia 1",
-      "pl": "Klejnot geologii [1]"
+      "pl": "Klejnot geologii [1]",
+      "zh-Hans": "地学珠【1】"
     },
     "skills": {
       "595870656": 1
@@ -2638,7 +2774,8 @@
       "pt": "Joia Intensificadora II 2",
       "pt-BR": "Joia Intensificadora II 2",
       "it": "G amplifica II 2",
-      "pl": "K. wydłużacza II [2]"
+      "pl": "K. wydłużacza II [2]",
+      "zh-Hans": "昂扬珠Ⅱ【2】"
     },
     "skills": {
       "691199232": 2
@@ -2657,7 +2794,8 @@
       "pt": "Joia Chama/Nocaute 3",
       "pt-BR": "Joia Chama/Nocaute 3",
       "it": "G fuoco/battitore 3",
-      "pl": "K. pożogi/nokautu [3]"
+      "pl": "K. pożogi/nokautu [3]",
+      "zh-Hans": "火炎·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -2677,7 +2815,8 @@
       "pt": "Joia de Saque 1",
       "pt-BR": "Joia de Saque 1",
       "it": "G sfoderata 1",
-      "pl": "K. dobycia broni [1]"
+      "pl": "K. dobycia broni [1]",
+      "zh-Hans": "拔刀珠【1】"
     },
     "skills": {
       "686533440": 1
@@ -2696,7 +2835,8 @@
       "pt": "Joia Energizadora II 2",
       "pt-BR": "Joia Energizadora II 2",
       "it": "G carica II 2",
-      "pl": "Klejnot ładowania II [2]"
+      "pl": "Klejnot ładowania II [2]",
+      "zh-Hans": "蓄幅珠Ⅱ【2】"
     },
     "skills": {
       "-1475134080": 2
@@ -2715,7 +2855,8 @@
       "pt": "Joia da Bainha 1",
       "pt-BR": "Joia da Bainha 1",
       "it": "G rinfodero 1",
-      "pl": "Klejnot futerału [1]"
+      "pl": "Klejnot futerału [1]",
+      "zh-Hans": "速纳珠【1】"
     },
     "skills": {
       "-1073401280": 1
@@ -2734,7 +2875,8 @@
       "pt": "Joia de Escudo II 2",
       "pt-BR": "Joia de Escudo II 2",
       "it": "G corazza II 2",
-      "pl": "Klejnot tarczy II [2]"
+      "pl": "Klejnot tarczy II [2]",
+      "zh-Hans": "强壁珠Ⅱ【2】"
     },
     "skills": {
       "-1674114176": 2
@@ -2753,7 +2895,8 @@
       "pt": "Joia Saciedade 1",
       "pt-BR": "Joia Saciedade 1",
       "it": "G spuntino 1",
-      "pl": "Klejnot nasycenia [1]"
+      "pl": "Klejnot nasycenia [1]",
+      "zh-Hans": "节食珠【1】"
     },
     "skills": {
       "850626240": 1
@@ -2772,7 +2915,8 @@
       "pt": "Joia Dragão II 2",
       "pt-BR": "Joia Dragão II 2",
       "it": "G drago II 2",
-      "pl": "Klejnot smoka II [2]"
+      "pl": "Klejnot smoka II [2]",
+      "zh-Hans": "破龙珠Ⅱ【2】"
     },
     "skills": {
       "-776946176": 2
@@ -2791,7 +2935,8 @@
       "pt": "Joia Fio da Navalha II 2",
       "pt-BR": "Joia Fio da Navalha II 2",
       "it": "G rasoio II 2",
-      "pl": "K. naostrzenia II [2]"
+      "pl": "K. naostrzenia II [2]",
+      "zh-Hans": "利刃珠Ⅱ【2】"
     },
     "skills": {
       "1050520384": 2
@@ -2810,7 +2955,8 @@
       "pt": "Joia Sonora/Especialista 3",
       "pt-BR": "Joia Sonora/Especialista 3",
       "it": "G sonoro/esperto 3",
-      "pl": "K. dźwięczny/eksper. [3]"
+      "pl": "K. dźwięczny/eksper. [3]",
+      "zh-Hans": "鼓笛·达人珠【3】"
     },
     "skills": {
       "-2096489472": 1,
@@ -2830,7 +2976,8 @@
       "pt": "Joia Peçonha/Saque 3",
       "pt-BR": "Joia Peçonha/Saque 3",
       "it": "G veleno/sfoderata 3",
-      "pl": "K. trucizny/dob. br. [3]"
+      "pl": "K. trucizny/dob. br. [3]",
+      "zh-Hans": "强毒·拔刀珠【3】"
     },
     "skills": {
       "-1629629184": 1,
@@ -2850,7 +2997,8 @@
       "pt": "Joia Amolador/Nocaute 3",
       "pt-BR": "Joia Amolador/Nocaute 3",
       "it": "G affilante/battitore 3",
-      "pl": "K. ostrzenia/nokautu [3]"
+      "pl": "K. ostrzenia/nokautu [3]",
+      "zh-Hans": "打磨·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -2870,7 +3018,8 @@
       "pt": "Joia Muro de Ferro 1",
       "pt-BR": "Joia Muro de Ferro 1",
       "it": "G barriera 1",
-      "pl": "K. żelaznego muru [1]"
+      "pl": "K. żelaznego muru [1]",
+      "zh-Hans": "铁壁珠【1】"
     },
     "skills": {
       "-307644128": 1
@@ -2889,7 +3038,8 @@
       "pt": "Joia Chama/Escudo 3",
       "pt-BR": "Joia Chama/Escudo 3",
       "it": "G fuoco/corazza 3",
-      "pl": "K. pożogi/tarczy [3]"
+      "pl": "K. pożogi/tarczy [3]",
+      "zh-Hans": "火炎·强壁珠【3】"
     },
     "skills": {
       "-1674114176": 1,
@@ -2909,7 +3059,8 @@
       "pt": "Joia Artilharia II 2",
       "pt-BR": "Joia Artilharia II 2",
       "it": "G armamento II 2",
-      "pl": "K. artylerii II [2]"
+      "pl": "K. artylerii II [2]",
+      "zh-Hans": "炮术珠Ⅱ【2】"
     },
     "skills": {
       "-596764096": 2
@@ -2928,7 +3079,8 @@
       "pt": "Joia Fungiforme 2",
       "pt-BR": "Joia Fungiforme 2",
       "it": "G fungomante 2",
-      "pl": "Klejnot grzybny [2]"
+      "pl": "Klejnot grzybny [2]",
+      "zh-Hans": "嗜菇珠【2】"
     },
     "skills": {
       "-481419552": 1
@@ -2947,7 +3099,8 @@
       "pt": "Joia Estopim/Precisão 3",
       "pt-BR": "Joia Estopim/Precisão 3",
       "it": "G primo colpo/preciso 3",
-      "pl": "K. p. strz./precyz. [3]"
+      "pl": "K. p. strz./precyz. [3]",
+      "zh-Hans": "初弹·射法珠【3】"
     },
     "skills": {
       "-420608864": 1,
@@ -2967,7 +3120,8 @@
       "pt": "Joia Chama II 2",
       "pt-BR": "Joia Chama II 2",
       "it": "G fuoco II 2",
-      "pl": "Klejnot pożogi II [2]"
+      "pl": "Klejnot pożogi II [2]",
+      "zh-Hans": "火炎珠Ⅱ【2】"
     },
     "skills": {
       "-562534336": 2
@@ -2986,7 +3140,8 @@
       "pt": "Joia Chama 1",
       "pt-BR": "Joia Chama 1",
       "it": "G fuoco 1",
-      "pl": "Klejnot pożogi [1]"
+      "pl": "Klejnot pożogi [1]",
+      "zh-Hans": "火炎珠【1】"
     },
     "skills": {
       "-562534336": 1
@@ -3005,7 +3160,8 @@
       "pt": "Joia Escudo/Riacho 3",
       "pt-BR": "Joia Escudo/Riacho 3",
       "it": "G corazza/acqua 3",
-      "pl": "K. tarczy/strumienia [3]"
+      "pl": "K. tarczy/strumienia [3]",
+      "zh-Hans": "强壁·流水珠【3】"
     },
     "skills": {
       "-1674114176": 3,
@@ -3025,7 +3181,8 @@
       "pt": "Joia Relâmpago/Estopim 3",
       "pt-BR": "Joia Relâmpago/Estopim 3",
       "it": "G tuono/primo colpo 3",
-      "pl": "K. gromu/p. strzału [3]"
+      "pl": "K. gromu/p. strzału [3]",
+      "zh-Hans": "雷光·初弹珠【3】"
     },
     "skills": {
       "1452140672": 3,
@@ -3045,7 +3202,8 @@
       "pt": "Joia Dragão/Guardiã 3",
       "pt-BR": "Joia Dragão/Guardiã 3",
       "it": "G drago/guardiano 3",
-      "pl": "K. smoka/strażnika [3]"
+      "pl": "K. smoka/strażnika [3]",
+      "zh-Hans": "破龙·守势珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -3065,7 +3223,8 @@
       "pt": "Joia Dragão/Foco 3",
       "pt-BR": "Joia Dragão/Foco 3",
       "it": "G drago/disciplina 3",
-      "pl": "K. smoka/skupienia [3]"
+      "pl": "K. smoka/skupienia [3]",
+      "zh-Hans": "破龙·集中珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -3085,7 +3244,8 @@
       "pt": "Joia Elemento Crítico/Chama 3",
       "pt-BR": "Joia Elemento Crítico/Chama 3",
       "it": "G critico elem./fuoco 3",
-      "pl": "K. żyw. kryt./pożogi [3]"
+      "pl": "K. żyw. kryt./pożogi [3]",
+      "zh-Hans": "属会·火炎珠【3】"
     },
     "skills": {
       "-562534336": 1,
@@ -3105,7 +3265,8 @@
       "pt": "Joia Geada/Fio da Navalha 3",
       "pt-BR": "Joia Geada/Fio da Navalha 3",
       "it": "G ghiaccio/rasoio 3",
-      "pl": "K. mrozu/naostrz. [3]"
+      "pl": "K. mrozu/naostrz. [3]",
+      "zh-Hans": "冰结·利刃珠【3】"
     },
     "skills": {
       "1050520384": 1,
@@ -3125,7 +3286,8 @@
       "pt": "Joia Foco/Geada 3",
       "pt-BR": "Joia Foco/Geada 3",
       "it": "G disciplina/ghiaccio 3",
-      "pl": "K. skupienia/mrozu [3]"
+      "pl": "K. skupienia/mrozu [3]",
+      "zh-Hans": "集中·冰结珠【3】"
     },
     "skills": {
       "-283334048": 3,
@@ -3145,7 +3307,8 @@
       "pt": "Joia Fio da Navalha/Geada 3",
       "pt-BR": "Joia Fio da Navalha/Geada 3",
       "it": "G rasoio/ghiaccio 3",
-      "pl": "K. naostrzenia/mrozu [3]"
+      "pl": "K. naostrzenia/mrozu [3]",
+      "zh-Hans": "利刃·冰结珠【3】"
     },
     "skills": {
       "1050520384": 3,
@@ -3165,7 +3328,8 @@
       "pt": "Joia Dragão/Estopim 3",
       "pt-BR": "Joia Dragão/Estopim 3",
       "it": "G drago/primo colpo 3",
-      "pl": "K. smoka/p. strzału [3]"
+      "pl": "K. smoka/p. strzału [3]",
+      "zh-Hans": "破龙·初弹珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -3185,7 +3349,8 @@
       "pt": "Joia Foco/Riacho 3",
       "pt-BR": "Joia Foco/Riacho 3",
       "it": "G disciplina/acqua 3",
-      "pl": "K. skupienia/strum. [3]"
+      "pl": "K. skupienia/strum. [3]",
+      "zh-Hans": "集中·流水珠【3】"
     },
     "skills": {
       "-283334048": 3,
@@ -3205,7 +3370,8 @@
       "pt": "Joia Troca Rápida/Dragão 3",
       "pt-BR": "Joia Troca Rápida/Dragão 3",
       "it": "G trasforma/drago 3",
-      "pl": "K. szybkop./smoka [3]"
+      "pl": "K. szybkop./smoka [3]",
+      "zh-Hans": "速变·破龙珠【3】"
     },
     "skills": {
       "-1961116288": 3,
@@ -3225,7 +3391,8 @@
       "pt": "Joia Bandoleira/Chama 3",
       "pt-BR": "Joia Bandoleira/Chama 3",
       "it": "G bandoliera/fuoco 3",
-      "pl": "K. ładownicy/pożogi [3]"
+      "pl": "K. ładownicy/pożogi [3]",
+      "zh-Hans": "积弹·火炎珠【3】"
     },
     "skills": {
       "-562534336": 1,
@@ -3245,7 +3412,8 @@
       "pt": "Joia Fio da Navalha/Riacho 3",
       "pt-BR": "Joia Fio da Navalha/Riacho 3",
       "it": "G rasoio/acqua 3",
-      "pl": "K. naostrz./strum. [3]"
+      "pl": "K. naostrz./strum. [3]",
+      "zh-Hans": "利刃·流水珠【3】"
     },
     "skills": {
       "508916704": 1,
@@ -3265,7 +3433,8 @@
       "pt": "Joia Chama/Estopim 3",
       "pt-BR": "Joia Chama/Estopim 3",
       "it": "G fuoco/primo colpo 3",
-      "pl": "K. pożogi/p. strzału [3]"
+      "pl": "K. pożogi/p. strzału [3]",
+      "zh-Hans": "火炎·初弹珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -3285,7 +3454,8 @@
       "pt": "Joia Relâmpago/Foco 3",
       "pt-BR": "Joia Relâmpago/Foco 3",
       "it": "G tuono/disciplina 3",
-      "pl": "K. gromu/skupienia [3]"
+      "pl": "K. gromu/skupienia [3]",
+      "zh-Hans": "雷光·集中珠【3】"
     },
     "skills": {
       "-283334048": 1,
@@ -3305,7 +3475,8 @@
       "pt": "Joia Intensificadora/Chama 3",
       "pt-BR": "Joia Intensificadora/Chama 3",
       "it": "G amplifica/fuoco 3",
-      "pl": "K. wydłużacza/pożogi [3]"
+      "pl": "K. wydłużacza/pożogi [3]",
+      "zh-Hans": "昂扬·火炎珠【3】"
     },
     "skills": {
       "-562534336": 1,
@@ -3325,7 +3496,8 @@
       "pt": "Joia Elemento Crítico/Riacho 3",
       "pt-BR": "Joia Elemento Crítico/Riacho 3",
       "it": "G critico elem./acqua 3",
-      "pl": "K. żyw. kryt./strum. [3]"
+      "pl": "K. żyw. kryt./strum. [3]",
+      "zh-Hans": "属会·流水珠【3】"
     },
     "skills": {
       "313598432": 3,
@@ -3345,7 +3517,8 @@
       "pt": "Joia Relâmpago/Fio Nav. 3",
       "pt-BR": "Joia Relâmpago/Fio Nav. 3",
       "it": "G tuono/rasoio 3",
-      "pl": "K. gromu/naostrzenia [3]"
+      "pl": "K. gromu/naostrzenia [3]",
+      "zh-Hans": "雷光·利刃珠【3】"
     },
     "skills": {
       "1050520384": 1,
@@ -3365,7 +3538,8 @@
       "pt": "Joia Intensificadora/Geada 3",
       "pt-BR": "Joia Intensificadora/Geada 3",
       "it": "G amplifica/ghiaccio 3",
-      "pl": "K. wydłużacza/mrozu [3]"
+      "pl": "K. wydłużacza/mrozu [3]",
+      "zh-Hans": "昂扬·冰结珠【3】"
     },
     "skills": {
       "691199232": 3,
@@ -3385,7 +3559,8 @@
       "pt": "Joia Elem. Crít./Relâmpago 3",
       "pt-BR": "Joia Elem. Crít./Relâmpago 3",
       "it": "G critico elem./tuono 3",
-      "pl": "K. żyw. kryt./gromu [3]"
+      "pl": "K. żyw. kryt./gromu [3]",
+      "zh-Hans": "属会·雷光珠【3】"
     },
     "skills": {
       "313598432": 3,
@@ -3405,7 +3580,8 @@
       "pt": "Joia Dragão/Elemento Crítico 3",
       "pt-BR": "Joia Dragão/Elemento Crítico 3",
       "it": "G drago/critico elem. 3",
-      "pl": "K. smoka/żyw. kryt. [3]"
+      "pl": "K. smoka/żyw. kryt. [3]",
+      "zh-Hans": "破龙·属会珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -3425,7 +3601,8 @@
       "pt": "Joia Geada/Bandoleira 3",
       "pt-BR": "Joia Geada/Bandoleira 3",
       "it": "G ghiaccio/bandoliera 3",
-      "pl": "K. mrozu/ładownicy [3]"
+      "pl": "K. mrozu/ładownicy [3]",
+      "zh-Hans": "冰结·积弹珠【3】"
     },
     "skills": {
       "1268070400": 3,
@@ -3445,7 +3622,8 @@
       "pt": "Joia Dragão/Escudo 3",
       "pt-BR": "Joia Dragão/Escudo 3",
       "it": "G drago/corazza 3",
-      "pl": "Klejnot smoka/tarczy [3]"
+      "pl": "Klejnot smoka/tarczy [3]",
+      "zh-Hans": "破龙·强壁珠【3】"
     },
     "skills": {
       "-1674114176": 1,
@@ -3465,7 +3643,8 @@
       "pt": "Joia Troca Rápida/Chama 3",
       "pt-BR": "Joia Troca Rápida/Chama 3",
       "it": "G trasforma/fuoco 3",
-      "pl": "K. szybkop./pożogi [3]"
+      "pl": "K. szybkop./pożogi [3]",
+      "zh-Hans": "速变·火炎珠【3】"
     },
     "skills": {
       "-1961116288": 3,
@@ -3485,7 +3664,8 @@
       "pt": "Joia Escudo/Geada 3",
       "pt-BR": "Joia Escudo/Geada 3",
       "it": "G corazza/ghiaccio 3",
-      "pl": "K. tarczy/mrozu [3]"
+      "pl": "K. tarczy/mrozu [3]",
+      "zh-Hans": "强壁·冰结珠【3】"
     },
     "skills": {
       "-1674114176": 3,
@@ -3505,7 +3685,8 @@
       "pt": "Joia Relâmpago/Troca Rápida 3",
       "pt-BR": "Joia Relâmpago/Troca Rápida 3",
       "it": "G tuono/trasforma 3",
-      "pl": "K. gromu/szybkop. [3]"
+      "pl": "K. gromu/szybkop. [3]",
+      "zh-Hans": "雷光·速变珠【3】"
     },
     "skills": {
       "-1961116288": 1,
@@ -3525,7 +3706,8 @@
       "pt": "Joia Elemento Crítico/Geada 3",
       "pt-BR": "Joia Elemento Crítico/Geada 3",
       "it": "G critico elem./ghiaccio 3",
-      "pl": "K. żyw. kryt./mrozu [3]"
+      "pl": "K. żyw. kryt./mrozu [3]",
+      "zh-Hans": "属会·冰结珠【3】"
     },
     "skills": {
       "313598432": 3,
@@ -3545,7 +3727,8 @@
       "pt": "Joia Escudo/Relâmpago 3",
       "pt-BR": "Joia Escudo/Relâmpago 3",
       "it": "G corazza/tuono 3",
-      "pl": "K. tarczy/gromu [3]"
+      "pl": "K. tarczy/gromu [3]",
+      "zh-Hans": "强壁·雷光珠【3】"
     },
     "skills": {
       "-1674114176": 3,
@@ -3565,7 +3748,8 @@
       "pt": "Joia Riacho/Fio da Navalha 3",
       "pt-BR": "Joia Riacho/Fio da Navalha 3",
       "it": "G acqua/rasoio 3",
-      "pl": "K. strum./naostrz. [3]"
+      "pl": "K. strum./naostrz. [3]",
+      "zh-Hans": "流水·利刃珠【3】"
     },
     "skills": {
       "508916704": 3,
@@ -3585,7 +3769,8 @@
       "pt": "Joia Riacho/Escudo 3",
       "pt-BR": "Joia Riacho/Escudo 3",
       "it": "G acqua/corazza 3",
-      "pl": "K. strum./tarczy [3]"
+      "pl": "K. strum./tarczy [3]",
+      "zh-Hans": "流水·强壁珠【3】"
     },
     "skills": {
       "-1674114176": 1,
@@ -3605,7 +3790,8 @@
       "pt": "Joia Geada/Foco 3",
       "pt-BR": "Joia Geada/Foco 3",
       "it": "G ghiaccio/disciplina 3",
-      "pl": "K. mrozu/skupienia [3]"
+      "pl": "K. mrozu/skupienia [3]",
+      "zh-Hans": "冰结·集中珠【3】"
     },
     "skills": {
       "-283334048": 1,
@@ -3625,7 +3811,8 @@
       "pt": "Joia Riacho/Elemento Crítico 3",
       "pt-BR": "Joia Riacho/Elemento Crítico 3",
       "it": "G acqua/critico elem. 3",
-      "pl": "K. strum./żyw. kryt. [3]"
+      "pl": "K. strum./żyw. kryt. [3]",
+      "zh-Hans": "流水·属会珠【3】"
     },
     "skills": {
       "313598432": 1,
@@ -3645,7 +3832,8 @@
       "pt": "Joia Estopim/Relâmpago 3",
       "pt-BR": "Joia Estopim/Relâmpago 3",
       "it": "G primo colpo/tuono 3",
-      "pl": "K. p. strzału/gromu [3]"
+      "pl": "K. p. strzału/gromu [3]",
+      "zh-Hans": "初弹·雷光珠【3】"
     },
     "skills": {
       "1452140672": 1,
@@ -3665,7 +3853,8 @@
       "pt": "Joia Dragão/Intensif. 3",
       "pt-BR": "Joia Dragão/Intensif. 3",
       "it": "G drago/amplifica 3",
-      "pl": "K. smoka/wydłużacza [3]"
+      "pl": "K. smoka/wydłużacza [3]",
+      "zh-Hans": "破龙·昂扬珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -3685,7 +3874,8 @@
       "pt": "Joia Fio da Navalha/Chama 3",
       "pt-BR": "Joia Fio da Navalha/Chama 3",
       "it": "G rasoio/fuoco 3",
-      "pl": "K. naostrz./pożogi [3]"
+      "pl": "K. naostrz./pożogi [3]",
+      "zh-Hans": "利刃·火炎珠【3】"
     },
     "skills": {
       "-562534336": 1,
@@ -3705,7 +3895,8 @@
       "pt": "Joia Estopim/Riacho 3",
       "pt-BR": "Joia Estopim/Riacho 3",
       "it": "G primo colpo/acqua 3",
-      "pl": "K. p. strzału/strum. [3]"
+      "pl": "K. p. strzału/strum. [3]",
+      "zh-Hans": "初弹·流水珠【3】"
     },
     "skills": {
       "508916704": 1,
@@ -3725,7 +3916,8 @@
       "pt": "Joia Guardiã/Chama 3",
       "pt-BR": "Joia Guardiã/Chama 3",
       "it": "G guardiano/fuoco 3",
-      "pl": "K. strażnika/pożogi [3]"
+      "pl": "K. strażnika/pożogi [3]",
+      "zh-Hans": "守势·火炎珠【3】"
     },
     "skills": {
       "-562534336": 1,
@@ -3745,7 +3937,8 @@
       "pt": "Joia Foco/Relâmpago 3",
       "pt-BR": "Joia Foco/Relâmpago 3",
       "it": "G disciplina/tuono 3",
-      "pl": "K. skupienia/gromu [3]"
+      "pl": "K. skupienia/gromu [3]",
+      "zh-Hans": "集中·雷光珠【3】"
     },
     "skills": {
       "-283334048": 3,
@@ -3765,7 +3958,8 @@
       "pt": "Joia Geada/Intensificadora 3",
       "pt-BR": "Joia Geada/Intensificadora 3",
       "it": "G ghiaccio/amplifica 3",
-      "pl": "K. mrozu/wydłużacza [3]"
+      "pl": "K. mrozu/wydłużacza [3]",
+      "zh-Hans": "冰结·昂扬珠【3】"
     },
     "skills": {
       "691199232": 1,
@@ -3785,7 +3979,8 @@
       "pt": "Joia Foco/Dragão 3",
       "pt-BR": "Joia Foco/Dragão 3",
       "it": "G disciplina/drago 3",
-      "pl": "K. skupienia/smoka [3]"
+      "pl": "K. skupienia/smoka [3]",
+      "zh-Hans": "集中·破龙珠【3】"
     },
     "skills": {
       "-776946176": 1,
@@ -3805,7 +4000,8 @@
       "pt": "Joia Relâmpago/Escudo 3",
       "pt-BR": "Joia Relâmpago/Escudo 3",
       "it": "G tuono/corazza 3",
-      "pl": "K. gromu/tarczy [3]"
+      "pl": "K. gromu/tarczy [3]",
+      "zh-Hans": "雷光·强壁珠【3】"
     },
     "skills": {
       "-1674114176": 1,
@@ -3825,7 +4021,8 @@
       "pt": "Joia Bandol./Riacho 3",
       "pt-BR": "Joia Bandol./Riacho 3",
       "it": "G bandoliera/acqua 3",
-      "pl": "K. ładownicy/strum. [3]"
+      "pl": "K. ładownicy/strum. [3]",
+      "zh-Hans": "积弹·流水珠【3】"
     },
     "skills": {
       "508916704": 1,
@@ -3845,7 +4042,8 @@
       "pt": "Joia Bandoleira/Geada 3",
       "pt-BR": "Joia Bandoleira/Geada 3",
       "it": "G bandoliera/ghiaccio 3",
-      "pl": "K. ładownicy/mrozu [3]"
+      "pl": "K. ładownicy/mrozu [3]",
+      "zh-Hans": "积弹·冰结珠【3】"
     },
     "skills": {
       "1268070400": 1,
@@ -3865,7 +4063,8 @@
       "pt": "Joia Troca Rápida/Geada 3",
       "pt-BR": "Joia Troca Rápida/Geada 3",
       "it": "G trasforma/ghiaccio 3",
-      "pl": "K. szybkop./mrozu [3]"
+      "pl": "K. szybkop./mrozu [3]",
+      "zh-Hans": "速变·冰结珠【3】"
     },
     "skills": {
       "-1961116288": 3,
@@ -3885,7 +4084,8 @@
       "pt": "Joia Relâmpago/Elem. Crít. 3",
       "pt-BR": "Joia Relâmpago/Elem. Crít. 3",
       "it": "G tuono/critico elem. 3",
-      "pl": "K. gromu/żyw. kryt. [3]"
+      "pl": "K. gromu/żyw. kryt. [3]",
+      "zh-Hans": "雷光·属会珠【3】"
     },
     "skills": {
       "313598432": 1,
@@ -3905,7 +4105,8 @@
       "pt": "Joia Dragão/Troca Rápida 3",
       "pt-BR": "Joia Dragão/Troca Rápida 3",
       "it": "G drago/trasforma 3",
-      "pl": "K. smoka/szybkop. [3]"
+      "pl": "K. smoka/szybkop. [3]",
+      "zh-Hans": "破龙·速变珠【3】"
     },
     "skills": {
       "-1961116288": 1,
@@ -3925,7 +4126,8 @@
       "pt": "Joia Escudo/Dragão 3",
       "pt-BR": "Joia Escudo/Dragão 3",
       "it": "G corazza/drago 3",
-      "pl": "K. tarczy/smoka [3]"
+      "pl": "K. tarczy/smoka [3]",
+      "zh-Hans": "强壁·破龙珠【3】"
     },
     "skills": {
       "-1674114176": 3,
@@ -3945,7 +4147,8 @@
       "pt": "Joia Geada/Guardiã 3",
       "pt-BR": "Joia Geada/Guardiã 3",
       "it": "G ghiaccio/guardiano 3",
-      "pl": "K. mrozu/strażnika [3]"
+      "pl": "K. mrozu/strażnika [3]",
+      "zh-Hans": "冰结·守势珠【3】"
     },
     "skills": {
       "-181127504": 1,
@@ -3965,7 +4168,8 @@
       "pt": "Joia Chama/Elemento Crítico 3",
       "pt-BR": "Joia Chama/Elemento Crítico 3",
       "it": "G fuoco/critico elem. 3",
-      "pl": "K. pożogi/żyw. kryt. [3]"
+      "pl": "K. pożogi/żyw. kryt. [3]",
+      "zh-Hans": "火炎·属会珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -3985,7 +4189,8 @@
       "pt": "Joia Geada/Elemento Crítico 3",
       "pt-BR": "Joia Geada/Elemento Crítico 3",
       "it": "G ghiaccio/critico elem. 3",
-      "pl": "K. mrozu/żyw. kryt. [3]"
+      "pl": "K. mrozu/żyw. kryt. [3]",
+      "zh-Hans": "冰结·属会珠【3】"
     },
     "skills": {
       "313598432": 1,
@@ -4005,7 +4210,8 @@
       "pt": "Joia Guardiã/Dragão 3",
       "pt-BR": "Joia Guardiã/Dragão 3",
       "it": "G guardiano/drago 3",
-      "pl": "K. strażnika/smoka [3]"
+      "pl": "K. strażnika/smoka [3]",
+      "zh-Hans": "守势·破龙珠【3】"
     },
     "skills": {
       "-776946176": 1,
@@ -4025,7 +4231,8 @@
       "pt": "Joia Dragão/Bandol. 3",
       "pt-BR": "Joia Dragão/Bandol. 3",
       "it": "G drago/bandoliera 3",
-      "pl": "K. smoka/ładownicy [3]"
+      "pl": "K. smoka/ładownicy [3]",
+      "zh-Hans": "破龙·积弹珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -4045,7 +4252,8 @@
       "pt": "Joia Relâm./Guardiã 3",
       "pt-BR": "Joia Relâm./Guardiã 3",
       "it": "G tuono/guardiano 3",
-      "pl": "K. gromu/strażnika [3]"
+      "pl": "K. gromu/strażnika [3]",
+      "zh-Hans": "雷光·守势珠【3】"
     },
     "skills": {
       "-181127504": 1,
@@ -4065,7 +4273,8 @@
       "pt": "Joia Riacho/Intensif. 3",
       "pt-BR": "Joia Riacho/Intensif. 3",
       "it": "G acqua/amplifica 3",
-      "pl": "K. strum./wydłużacza [3]"
+      "pl": "K. strum./wydłużacza [3]",
+      "zh-Hans": "流水·昂扬珠【3】"
     },
     "skills": {
       "508916704": 3,
@@ -4085,7 +4294,8 @@
       "pt": "Joia Riacho/Guardiã 3",
       "pt-BR": "Joia Riacho/Guardiã 3",
       "it": "G acqua/guardiano 3",
-      "pl": "K. strum./strażnika [3]"
+      "pl": "K. strum./strażnika [3]",
+      "zh-Hans": "流水·守势珠【3】"
     },
     "skills": {
       "-181127504": 1,
@@ -4105,7 +4315,8 @@
       "pt": "Joia Bandol./Relâm. 3",
       "pt-BR": "Joia Bandol./Relâm. 3",
       "it": "G bandoliera/tuono 3",
-      "pl": "K. ładownicy/gromu [3]"
+      "pl": "K. ładownicy/gromu [3]",
+      "zh-Hans": "积弹·雷光珠【3】"
     },
     "skills": {
       "1452140672": 1,
@@ -4125,7 +4336,8 @@
       "pt": "Joia Guardiã/Riacho 3",
       "pt-BR": "Joia Guardiã/Riacho 3",
       "it": "G guardiano/acqua 3",
-      "pl": "K. strażnika/strum. [3]"
+      "pl": "K. strażnika/strum. [3]",
+      "zh-Hans": "守势·流水珠【3】"
     },
     "skills": {
       "-181127504": 3,
@@ -4145,7 +4357,8 @@
       "pt": "Joia Intensif./Riacho 3",
       "pt-BR": "Joia Intensif./Riacho 3",
       "it": "G amplifica/acqua 3",
-      "pl": "K. wydłużacza/strum. [3]"
+      "pl": "K. wydłużacza/strum. [3]",
+      "zh-Hans": "昂扬·流水珠【3】"
     },
     "skills": {
       "508916704": 1,
@@ -4165,7 +4378,8 @@
       "pt": "Joia Relâm./Bandol. 3",
       "pt-BR": "Joia Relâm./Bandol. 3",
       "it": "G tuono/bandoliera 3",
-      "pl": "K. gromu/ładownicy [3]"
+      "pl": "K. gromu/ładownicy [3]",
+      "zh-Hans": "雷光·积弹珠【3】"
     },
     "skills": {
       "1452140672": 3,
@@ -4185,7 +4399,8 @@
       "pt": "Joia Dragão/Fio da Navalha 3",
       "pt-BR": "Joia Dragão/Fio da Navalha 3",
       "it": "G drago/rasoio 3",
-      "pl": "K. smoka/naostrzenia [3]"
+      "pl": "K. smoka/naostrzenia [3]",
+      "zh-Hans": "破龙·利刃珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -4205,7 +4420,8 @@
       "pt": "Joia Foco/Chama 3",
       "pt-BR": "Joia Foco/Chama 3",
       "it": "G disciplina/fuoco 3",
-      "pl": "K. skupienia/pożogi [3]"
+      "pl": "K. skupienia/pożogi [3]",
+      "zh-Hans": "集中·火炎珠【3】"
     },
     "skills": {
       "-562534336": 1,
@@ -4225,7 +4441,8 @@
       "pt": "Joia Guardiã/Relâm. 3",
       "pt-BR": "Joia Guardiã/Relâm. 3",
       "it": "G guardiano/tuono 3",
-      "pl": "K. strażnika/gromu [3]"
+      "pl": "K. strażnika/gromu [3]",
+      "zh-Hans": "守势·雷光珠【3】"
     },
     "skills": {
       "-181127504": 3,
@@ -4245,7 +4462,8 @@
       "pt": "Joia Troca Rápida/Relâmpago 3",
       "pt-BR": "Joia Troca Rápida/Relâmpago 3",
       "it": "G trasforma/tuono 3",
-      "pl": "K. szybkop./gromu [3]"
+      "pl": "K. szybkop./gromu [3]",
+      "zh-Hans": "速变·雷光珠【3】"
     },
     "skills": {
       "-1961116288": 3,
@@ -4265,7 +4483,8 @@
       "pt": "Joia Geada/Troca Rápida 3",
       "pt-BR": "Joia Geada/Troca Rápida 3",
       "it": "G ghiaccio/trasforma 3",
-      "pl": "K. mrozu/szybkop. [3]"
+      "pl": "K. mrozu/szybkop. [3]",
+      "zh-Hans": "冰结·速变珠【3】"
     },
     "skills": {
       "-1961116288": 1,
@@ -4285,7 +4504,8 @@
       "pt": "Joia Guardiã/Geada 3",
       "pt-BR": "Joia Guardiã/Geada 3",
       "it": "G guardiano/ghiaccio 3",
-      "pl": "K. strażnika/mrozu [3]"
+      "pl": "K. strażnika/mrozu [3]",
+      "zh-Hans": "守势·冰结珠【3】"
     },
     "skills": {
       "-181127504": 3,
@@ -4305,7 +4525,8 @@
       "pt": "Joia Estopim/Geada 3",
       "pt-BR": "Joia Estopim/Geada 3",
       "it": "G primo colpo/ghiaccio 3",
-      "pl": "K. p. strzału/mrozu [3]"
+      "pl": "K. p. strzału/mrozu [3]",
+      "zh-Hans": "初弹·冰结珠【3】"
     },
     "skills": {
       "1268070400": 1,
@@ -4325,7 +4546,8 @@
       "pt": "Joia Riacho/Bandol. 3",
       "pt-BR": "Joia Riacho/Bandol. 3",
       "it": "G acqua/bandoliera 3",
-      "pl": "K. strum./ładownicy [3]"
+      "pl": "K. strum./ładownicy [3]",
+      "zh-Hans": "流水·积弹珠【3】"
     },
     "skills": {
       "508916704": 3,
@@ -4345,7 +4567,8 @@
       "pt": "Joia Fio da Navalha/Dragão 3",
       "pt-BR": "Joia Fio da Navalha/Dragão 3",
       "it": "G rasoio/drago 3",
-      "pl": "K. naostrzenia/smoka [3]"
+      "pl": "K. naostrzenia/smoka [3]",
+      "zh-Hans": "利刃·破龙珠【3】"
     },
     "skills": {
       "-776946176": 1,
@@ -4365,7 +4588,8 @@
       "pt": "Joia Estopim/Chama 3",
       "pt-BR": "Joia Estopim/Chama 3",
       "it": "G primo colpo/fuoco 3",
-      "pl": "K. p. strzału/pożogi [3]"
+      "pl": "K. p. strzału/pożogi [3]",
+      "zh-Hans": "初弹·火炎珠【3】"
     },
     "skills": {
       "-562534336": 1,
@@ -4385,7 +4609,8 @@
       "pt": "Joia Chama/Bandoleira 3",
       "pt-BR": "Joia Chama/Bandoleira 3",
       "it": "G fuoco/bandoliera 3",
-      "pl": "K. pożogi/ładownicy [3]"
+      "pl": "K. pożogi/ładownicy [3]",
+      "zh-Hans": "火炎·积弹珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -4405,7 +4630,8 @@
       "pt": "Joia Intensif./Relâmpago 3",
       "pt-BR": "Joia Intensif./Relâmpago 3",
       "it": "G amplifica/tuono 3",
-      "pl": "K. wydłużacza/gromu [3]"
+      "pl": "K. wydłużacza/gromu [3]",
+      "zh-Hans": "昂扬·雷光珠【3】"
     },
     "skills": {
       "691199232": 3,
@@ -4425,7 +4651,8 @@
       "pt": "Joia Escudo/Chama 3",
       "pt-BR": "Joia Escudo/Chama 3",
       "it": "G corazza/fuoco 3",
-      "pl": "K. tarczy/pożogi [3]"
+      "pl": "K. tarczy/pożogi [3]",
+      "zh-Hans": "强壁·火炎珠【3】"
     },
     "skills": {
       "-1674114176": 3,
@@ -4445,7 +4672,8 @@
       "pt": "Joia Intensif./Dragão 3",
       "pt-BR": "Joia Intensif./Dragão 3",
       "it": "G amplifica/drago 3",
-      "pl": "K. wydłużacza/smoka [3]"
+      "pl": "K. wydłużacza/smoka [3]",
+      "zh-Hans": "昂扬·破龙珠【3】"
     },
     "skills": {
       "-776946176": 1,
@@ -4465,7 +4693,8 @@
       "pt": "Joia Troca Rápida/Riacho 3",
       "pt-BR": "Joia Troca Rápida/Riacho 3",
       "it": "G trasforma/acqua 3",
-      "pl": "K. szybkop./strum. [3]"
+      "pl": "K. szybkop./strum. [3]",
+      "zh-Hans": "速变·流水珠【3】"
     },
     "skills": {
       "-1961116288": 3,
@@ -4485,7 +4714,8 @@
       "pt": "Joia Bandol./Dragão 3",
       "pt-BR": "Joia Bandol./Dragão 3",
       "it": "G bandoliera/drago 3",
-      "pl": "K. ładownicy/smoka [3]"
+      "pl": "K. ładownicy/smoka [3]",
+      "zh-Hans": "积弹·破龙珠【3】"
     },
     "skills": {
       "-776946176": 1,
@@ -4505,7 +4735,8 @@
       "pt": "Joia Estopim/Dragão 3",
       "pt-BR": "Joia Estopim/Dragão 3",
       "it": "G primo colpo/drago 3",
-      "pl": "K. p. strzału/smoka [3]"
+      "pl": "K. p. strzału/smoka [3]",
+      "zh-Hans": "初弹·破龙珠【3】"
     },
     "skills": {
       "-776946176": 1,
@@ -4525,7 +4756,8 @@
       "pt": "Joia Elemento Crítico/Dragão 3",
       "pt-BR": "Joia Elemento Crítico/Dragão 3",
       "it": "G critico elem./drago 3",
-      "pl": "K. żyw. kryt./smoka [3]"
+      "pl": "K. żyw. kryt./smoka [3]",
+      "zh-Hans": "属会·破龙珠【3】"
     },
     "skills": {
       "-776946176": 1,
@@ -4545,7 +4777,8 @@
       "pt": "Joia Geada/Estopim 3",
       "pt-BR": "Joia Geada/Estopim 3",
       "it": "G ghiaccio/primo colpo 3",
-      "pl": "K. mrozu/p. strzału [3]"
+      "pl": "K. mrozu/p. strzału [3]",
+      "zh-Hans": "冰结·初弹珠【3】"
     },
     "skills": {
       "1268070400": 3,
@@ -4565,7 +4798,8 @@
       "pt": "Joia Fio da Navalha/Relâm. 3",
       "pt-BR": "Joia Fio da Navalha/Relâm. 3",
       "it": "G rasoio/tuono 3",
-      "pl": "K. naostrzenia/gromu [3]"
+      "pl": "K. naostrzenia/gromu [3]",
+      "zh-Hans": "利刃·雷光珠【3】"
     },
     "skills": {
       "1050520384": 3,
@@ -4585,7 +4819,8 @@
       "pt": "Joia Riacho/Troca Rápida 3",
       "pt-BR": "Joia Riacho/Troca Rápida 3",
       "it": "G acqua/trasforma 3",
-      "pl": "K. strum./szybkop. [3]"
+      "pl": "K. strum./szybkop. [3]",
+      "zh-Hans": "流水·速变珠【3】"
     },
     "skills": {
       "-1961116288": 1,
@@ -4605,7 +4840,8 @@
       "pt": "Joia Geada/Escudo 3",
       "pt-BR": "Joia Geada/Escudo 3",
       "it": "G ghiaccio/corazza 3",
-      "pl": "Klejnot mrozu/tarczy [3]"
+      "pl": "Klejnot mrozu/tarczy [3]",
+      "zh-Hans": "冰结·强壁珠【3】"
     },
     "skills": {
       "-1674114176": 1,
@@ -4625,7 +4861,8 @@
       "pt": "Joia Relâm./Intensif. 3",
       "pt-BR": "Joia Relâm./Intensif. 3",
       "it": "G tuono/amplifica 3",
-      "pl": "K. gromu/wydłużacza [3]"
+      "pl": "K. gromu/wydłużacza [3]",
+      "zh-Hans": "雷光·昂扬珠【3】"
     },
     "skills": {
       "691199232": 1,
@@ -4645,7 +4882,8 @@
       "pt": "Joia Riacho/Foco 3",
       "pt-BR": "Joia Riacho/Foco 3",
       "it": "G acqua/disciplina 3",
-      "pl": "K. strumienia/skup. [3]"
+      "pl": "K. strumienia/skup. [3]",
+      "zh-Hans": "流水·集中珠【3】"
     },
     "skills": {
       "-283334048": 1,
@@ -4665,7 +4903,8 @@
       "pt": "Joia Riacho/Estopim 3",
       "pt-BR": "Joia Riacho/Estopim 3",
       "it": "G acqua/primo colpo 3",
-      "pl": "K. strum./p. strzału [3]"
+      "pl": "K. strum./p. strzału [3]",
+      "zh-Hans": "流水·初弹珠【3】"
     },
     "skills": {
       "508916704": 3,
@@ -4685,7 +4924,8 @@
       "pt": "Joia do Amolador II 2",
       "pt-BR": "Joia do Amolador II 2",
       "it": "G affilante II 2",
-      "pl": "Klejnot ostrzenia II [2]"
+      "pl": "Klejnot ostrzenia II [2]",
+      "zh-Hans": "打磨珠Ⅱ【2】"
     },
     "skills": {
       "1444935552": 2
@@ -4704,7 +4944,8 @@
       "pt": "Joia Defesa 1",
       "pt-BR": "Joia Defesa 1",
       "it": "G difesa 1",
-      "pl": "Klejnot obrony [1]"
+      "pl": "Klejnot obrony [1]",
+      "zh-Hans": "防御珠【1】"
     },
     "skills": {
       "1077686656": 1
@@ -4723,7 +4964,8 @@
       "pt": "Joia do Amolador 1",
       "pt-BR": "Joia do Amolador 1",
       "it": "G affilante 1",
-      "pl": "Klejnot ostrzenia [1]"
+      "pl": "Klejnot ostrzenia [1]",
+      "zh-Hans": "打磨珠【1】"
     },
     "skills": {
       "1444935552": 1
@@ -4742,7 +4984,8 @@
       "pt": "Joia Peçonha/Precisão 3",
       "pt-BR": "Joia Peçonha/Precisão 3",
       "it": "G veleno/mirino 3",
-      "pl": "K. trucizny/precyz. [3]"
+      "pl": "K. trucizny/precyz. [3]",
+      "zh-Hans": "强毒·射法珠【3】"
     },
     "skills": {
       "-1629629184": 1,
@@ -4762,7 +5005,8 @@
       "pt": "Joia Artimanha III 3",
       "pt-BR": "Joia Artimanha III 3",
       "it": "G punizione III 3",
-      "pl": "K. gambitu III [3]"
+      "pl": "K. gambitu III [3]",
+      "zh-Hans": "拔打珠Ⅲ【3】"
     },
     "skills": {
       "-1946345856": 3
@@ -4781,7 +5025,8 @@
       "pt": "Joia F. Navalha/Nocaute 3",
       "pt-BR": "Joia F. Navalha/Nocaute 3",
       "it": "G rasoio/battitore 3",
-      "pl": "K. naostrz./nokautu [3]"
+      "pl": "K. naostrz./nokautu [3]",
+      "zh-Hans": "利刃·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -4801,7 +5046,8 @@
       "pt": "Joia Dispersão 3",
       "pt-BR": "Joia Dispersão 3",
       "it": "G ventaglio 3",
-      "pl": "Klejnot rozrzutu [3]"
+      "pl": "Klejnot rozrzutu [3]",
+      "zh-Hans": "散弹珠【3】"
     },
     "skills": {
       "-2123993856": 1
@@ -4820,7 +5066,8 @@
       "pt": "Joia de Nocaute II 2",
       "pt-BR": "Joia de Nocaute II 2",
       "it": "G battitore II 2",
-      "pl": "Klejnot nokautu II [2]"
+      "pl": "Klejnot nokautu II [2]",
+      "zh-Hans": "击晕珠Ⅱ【2】"
     },
     "skills": {
       "-893407296": 2
@@ -4839,7 +5086,8 @@
       "pt": "Joia Foco/Nocaute 3",
       "pt-BR": "Joia Foco/Nocaute 3",
       "it": "G disciplina/battitore 3",
-      "pl": "K. skupienia/nokautu [3]"
+      "pl": "K. skupienia/nokautu [3]",
+      "zh-Hans": "集中·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -4859,7 +5107,8 @@
       "pt": "Joia Afiada 1",
       "pt-BR": "Joia Afiada 1",
       "it": "G tagliente 1",
-      "pl": "Klejnot ostry [1]"
+      "pl": "Klejnot ostry [1]",
+      "zh-Hans": "刚刃珠【1】"
     },
     "skills": {
       "1500129152": 1
@@ -4878,7 +5127,8 @@
       "pt": "Joia do Patrulheiro 1",
       "pt-BR": "Joia do Patrulheiro 1",
       "it": "G boscaiolo 1",
-      "pl": "Klejnot myśliwego [1]"
+      "pl": "Klejnot myśliwego [1]",
+      "zh-Hans": "猎手珠【1】"
     },
     "skills": {
       "1845834112": 1
@@ -4897,7 +5147,8 @@
       "pt": "Joia Artilharia 1",
       "pt-BR": "Joia Artilharia 1",
       "it": "G armamento 1",
-      "pl": "Klejnot artylerii [1]"
+      "pl": "Klejnot artylerii [1]",
+      "zh-Hans": "炮术珠【1】"
     },
     "skills": {
       "-596764096": 1
@@ -4916,7 +5167,8 @@
       "pt": "Joia Bandoleira/Precisão 3",
       "pt-BR": "Joia Bandoleira/Precisão 3",
       "it": "G bandoliera/preciso 3",
-      "pl": "K. ładow./precyz. [3]"
+      "pl": "K. ładow./precyz. [3]",
+      "zh-Hans": "积弹·射法珠【3】"
     },
     "skills": {
       "-420608864": 1,
@@ -4936,7 +5188,8 @@
       "pt": "Joia Energizadora/Artesanato 3",
       "pt-BR": "Joia Energizadora/Artesanato 3",
       "it": "G carica/artigiano 3",
-      "pl": "K. ładow./rękodz. [3]"
+      "pl": "K. ładow./rękodz. [3]",
+      "zh-Hans": "蓄幅·匠珠【3】"
     },
     "skills": {
       "-1475134080": 3,
@@ -4956,7 +5209,8 @@
       "pt": "Joia Status Crítico 1",
       "pt-BR": "Joia Status Crítico 1",
       "it": "G stato critico 1",
-      "pl": "K. statusu kryt. [1]"
+      "pl": "K. statusu kryt. [1]",
+      "zh-Hans": "特会珠【1】"
     },
     "skills": {
       "-168922880": 1
@@ -4975,7 +5229,8 @@
       "pt": "Joia Ataque 1",
       "pt-BR": "Joia Ataque 1",
       "it": "G attacco 1",
-      "pl": "Klejnot ataku [1]"
+      "pl": "Klejnot ataku [1]",
+      "zh-Hans": "攻击珠【1】"
     },
     "skills": {
       "1": 1
@@ -4994,7 +5249,8 @@
       "pt": "Joia Artesanato III 3",
       "pt-BR": "Joia Artesanato III 3",
       "it": "G artigiano III 3",
-      "pl": "K. rękodzieła III [3]"
+      "pl": "K. rękodzieła III [3]",
+      "zh-Hans": "匠珠Ⅲ【3】"
     },
     "skills": {
       "1160639488": 3
@@ -5013,7 +5269,8 @@
       "pt": "Joia Estopim/Muro de Ferro 3",
       "pt-BR": "Joia Estopim/Muro de Ferro 3",
       "it": "G primo colpo/barriera 3",
-      "pl": "K. p. strzału/ż. muru [3]"
+      "pl": "K. p. strzału/ż. muru [3]",
+      "zh-Hans": "初弹·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -5033,7 +5290,8 @@
       "pt": "Joia Troca Rápida II 2",
       "pt-BR": "Joia Troca Rápida II 2",
       "it": "G trasforma II 2",
-      "pl": "K. szybkoprzeł. II [2]"
+      "pl": "K. szybkoprzeł. II [2]",
+      "zh-Hans": "速变珠Ⅱ【2】"
     },
     "skills": {
       "-1961116288": 2
@@ -5052,7 +5310,8 @@
       "pt": "Joia Geada 1",
       "pt-BR": "Joia Geada 1",
       "it": "G ghiaccio 1",
-      "pl": "Klejnot mrozu [1]"
+      "pl": "Klejnot mrozu [1]",
+      "zh-Hans": "冰结珠【1】"
     },
     "skills": {
       "1268070400": 1
@@ -5071,7 +5330,8 @@
       "pt": "Joia Impecável 2",
       "pt-BR": "Joia Impecável 2",
       "it": "G impeccabile 2",
-      "pl": "Klejnot perfekcji [2]"
+      "pl": "Klejnot perfekcji [2]",
+      "zh-Hans": "无伤珠【2】"
     },
     "skills": {
       "2106877312": 1
@@ -5090,7 +5350,8 @@
       "pt": "Joia Dragão/Precisão 3",
       "pt-BR": "Joia Dragão/Precisão 3",
       "it": "G drago/preciso 3",
-      "pl": "K. smoka/precyz. [3]"
+      "pl": "K. smoka/precyz. [3]",
+      "zh-Hans": "破龙·射法珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -5110,7 +5371,8 @@
       "pt": "Joia Especialista II 2",
       "pt-BR": "Joia Especialista II 2",
       "it": "G esperto II 2",
-      "pl": "Klejnot eksperta II [2]"
+      "pl": "Klejnot eksperta II [2]",
+      "zh-Hans": "达人珠Ⅱ【2】"
     },
     "skills": {
       "-2096489472": 2
@@ -5129,7 +5391,8 @@
       "pt": "Joia Ataque III 3",
       "pt-BR": "Joia Ataque III 3",
       "it": "G attacco III 3",
-      "pl": "Klejnot ataku III [3]"
+      "pl": "Klejnot ataku III [3]",
+      "zh-Hans": "攻击珠Ⅲ【3】"
     },
     "skills": {
       "1": 3
@@ -5148,7 +5411,8 @@
       "pt": "Joia Aljava 1",
       "pt-BR": "Joia Aljava 1",
       "it": "G caricatore 1",
-      "pl": "Klejnot magazynka [1]"
+      "pl": "Klejnot magazynka [1]",
+      "zh-Hans": "增弹珠【1】"
     },
     "skills": {
       "802725120": 1
@@ -5167,7 +5431,8 @@
       "pt": "Joia Peçonha/Especialista 3",
       "pt-BR": "Joia Peçonha/Especialista 3",
       "it": "G veleno/esperto 3",
-      "pl": "K. trucizny/eksperta [3]"
+      "pl": "K. trucizny/eksperta [3]",
+      "zh-Hans": "强毒·达人珠【3】"
     },
     "skills": {
       "-2096489472": 1,
@@ -5187,7 +5452,8 @@
       "pt": "Joia Geada III 3",
       "pt-BR": "Joia Geada III 3",
       "it": "G ghiaccio III 3",
-      "pl": "Klejnot mrozu III [3]"
+      "pl": "Klejnot mrozu III [3]",
+      "zh-Hans": "冰结珠Ⅲ【3】"
     },
     "skills": {
       "1268070400": 3
@@ -5206,7 +5472,8 @@
       "pt": "Joia Peçonha/Artesanato 3",
       "pt-BR": "Joia Peçonha/Artesanato 3",
       "it": "G veleno/artigiano 3",
-      "pl": "K. trucizny/rękodz. [3]"
+      "pl": "K. trucizny/rękodz. [3]",
+      "zh-Hans": "强毒·匠珠【3】"
     },
     "skills": {
       "-1629629184": 1,
@@ -5226,7 +5493,8 @@
       "pt": "Joia Artesanato 1",
       "pt-BR": "Joia Artesanato 1",
       "it": "G artigiano 1",
-      "pl": "Klejnot rękodzieła [1]"
+      "pl": "Klejnot rękodzieła [1]",
+      "zh-Hans": "匠珠【1】"
     },
     "skills": {
       "1160639488": 1
@@ -5245,7 +5513,8 @@
       "pt": "Joia Intensificadora III 3",
       "pt-BR": "Joia Intensificadora III 3",
       "it": "G amplifica III 3",
-      "pl": "K. wydłużacza III [3]"
+      "pl": "K. wydłużacza III [3]",
+      "zh-Hans": "昂扬珠Ⅲ【3】"
     },
     "skills": {
       "691199232": 3
@@ -5264,7 +5533,8 @@
       "pt": "Joia Medicinal 1",
       "pt-BR": "Joia Medicinal 1",
       "it": "G cura 1",
-      "pl": "Klejnot medycyny [1]"
+      "pl": "Klejnot medycyny [1]",
+      "zh-Hans": "治愈珠【1】"
     },
     "skills": {
       "-1235658624": 1
@@ -5283,7 +5553,8 @@
       "pt": "Joia Energizadora III 3",
       "pt-BR": "Joia Energizadora III 3",
       "it": "G carica III 3",
-      "pl": "K. ładowania III [3]"
+      "pl": "K. ładowania III [3]",
+      "zh-Hans": "蓄幅珠Ⅲ【3】"
     },
     "skills": {
       "-1475134080": 3
@@ -5302,7 +5573,8 @@
       "pt": "Joia de Voo/Especialista 3",
       "pt-BR": "Joia de Voo/Especialista 3",
       "it": "G volo/esperto 3",
-      "pl": "K. lotu/eksperta [3]"
+      "pl": "K. lotu/eksperta [3]",
+      "zh-Hans": "飞燕·达人珠【3】"
     },
     "skills": {
       "-2096489472": 1,
@@ -5322,7 +5594,8 @@
       "pt": "Joia Sonora/Saque 3",
       "pt-BR": "Joia Sonora/Saque 3",
       "it": "G sonoro/sfoderata 3",
-      "pl": "K. dźwięc./d. broni [3]"
+      "pl": "K. dźwięc./d. broni [3]",
+      "zh-Hans": "鼓笛·拔刀珠【3】"
     },
     "skills": {
       "-1237438336": 2,
@@ -5342,7 +5615,8 @@
       "pt": "Joia do Furor 2",
       "pt-BR": "Joia do Furor 2",
       "it": "G furore 2",
-      "pl": "Klejnot poruszenia [2]"
+      "pl": "Klejnot poruszenia [2]",
+      "zh-Hans": "逆上珠【2】"
     },
     "skills": {
       "1359821952": 1
@@ -5361,7 +5635,8 @@
       "pt": "Joia Stat. Crít./Precisão 3",
       "pt-BR": "Joia Stat. Crít./Precisão 3",
       "it": "G stato critico/mirino 3",
-      "pl": "K. st. kryt./precyz. [3]"
+      "pl": "K. st. kryt./precyz. [3]",
+      "zh-Hans": "特会·射法珠【3】"
     },
     "skills": {
       "-420608864": 1,
@@ -5381,7 +5656,8 @@
       "pt": "Joia Olho da Mente III 3",
       "pt-BR": "Joia Olho da Mente III 3",
       "it": "G profeta III 3",
-      "pl": "K. oka umysłu III [3]"
+      "pl": "K. oka umysłu III [3]",
+      "zh-Hans": "心眼珠Ⅲ【3】"
     },
     "skills": {
       "1594792704": 3
@@ -5400,7 +5676,8 @@
       "pt": "Joia de Nocaute III 3",
       "pt-BR": "Joia de Nocaute III 3",
       "it": "G battitore III 3",
-      "pl": "Klejnot nokautu III [3]"
+      "pl": "Klejnot nokautu III [3]",
+      "zh-Hans": "击晕珠Ⅲ【3】"
     },
     "skills": {
       "-893407296": 3
@@ -5419,7 +5696,8 @@
       "pt": "Joia Aljava/Muro de Ferro 3",
       "pt-BR": "Joia Aljava/Muro de Ferro 3",
       "it": "G caricatore/barriera 3",
-      "pl": "K. magazynka/ż. muru [3]"
+      "pl": "K. magazynka/ż. muru [3]",
+      "zh-Hans": "增弹·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -5439,7 +5717,8 @@
       "pt": "Joia Paralisadora II 2",
       "pt-BR": "Joia Paralisadora II 2",
       "it": "G paralizzante II 2",
-      "pl": "Klejnot paraliżu II [2]"
+      "pl": "Klejnot paraliżu II [2]",
+      "zh-Hans": "麻痹珠Ⅱ【2】"
     },
     "skills": {
       "-1863702144": 2
@@ -5458,7 +5737,8 @@
       "pt": "Joia do Glutão 1",
       "pt-BR": "Joia do Glutão 1",
       "it": "G vorace 1",
-      "pl": "Klejnot żarłoka [1]"
+      "pl": "Klejnot żarłoka [1]",
+      "zh-Hans": "快吃珠【1】"
     },
     "skills": {
       "634068352": 1
@@ -5477,7 +5757,8 @@
       "pt": "Joia Riacho/Muro de Ferro 3",
       "pt-BR": "Joia Riacho/Muro de Ferro 3",
       "it": "G acqua/barriera 3",
-      "pl": "K. strum./ż. muru [3]"
+      "pl": "K. strum./ż. muru [3]",
+      "zh-Hans": "流水·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -5497,7 +5778,8 @@
       "pt": "Joia da Emboscada 2",
       "pt-BR": "Joia da Emboscada 2",
       "it": "G agguato 2",
-      "pl": "Klejnot zasadzki [2]"
+      "pl": "Klejnot zasadzki [2]",
+      "zh-Hans": "急袭珠【2】"
     },
     "skills": {
       "-171796848": 1
@@ -5516,7 +5798,8 @@
       "pt": "Joia da Fênix 2",
       "pt-BR": "Joia da Fênix 2",
       "it": "G fenice 2",
-      "pl": "Klejnot feniksa [2]"
+      "pl": "Klejnot feniksa [2]",
+      "zh-Hans": "转福珠【2】"
     },
     "skills": {
       "-1700743296": 1
@@ -5535,7 +5818,8 @@
       "pt": "Joia Resoluto 1",
       "pt-BR": "Joia Resoluto 1",
       "it": "G antistordimento 1",
-      "pl": "Klejnot niezłomności [1]"
+      "pl": "Klejnot niezłomności [1]",
+      "zh-Hans": "耐绝珠【1】"
     },
     "skills": {
       "705317568": 1
@@ -5554,7 +5838,8 @@
       "pt": "Joia Antiexplosão 1",
       "pt-BR": "Joia Antiexplosão 1",
       "it": "G antiscoppio 1",
-      "pl": "K. antywybuchowy [1]"
+      "pl": "K. antywybuchowy [1]",
+      "zh-Hans": "耐爆珠【1】"
     },
     "skills": {
       "820385792": 1
@@ -5573,7 +5858,8 @@
       "pt": "Joia de Drenagem 1",
       "pt-BR": "Joia de Drenagem 1",
       "it": "G affaticante 1",
-      "pl": "Klejnot wyssania [1]"
+      "pl": "Klejnot wyssania [1]",
+      "zh-Hans": "夺气珠【1】"
     },
     "skills": {
       "1758661504": 1
@@ -5592,7 +5878,8 @@
       "pt": "Joia Olho da Mente II 2",
       "pt-BR": "Joia Olho da Mente II 2",
       "it": "G profeta II 2",
-      "pl": "K. oka umysłu II [2]"
+      "pl": "K. oka umysłu II [2]",
+      "zh-Hans": "心眼珠Ⅱ【2】"
     },
     "skills": {
       "1594792704": 2
@@ -5611,7 +5898,8 @@
       "pt": "Joia Atenuadora 3",
       "pt-BR": "Joia Atenuadora 3",
       "it": "G batticarne 3",
-      "pl": "Klejnot zmiękczający [3]"
+      "pl": "Klejnot zmiękczający [3]",
+      "zh-Hans": "痛击珠【3】"
     },
     "skills": {
       "-397570464": 1
@@ -5630,7 +5918,8 @@
       "pt": "Joia Artilharia III 3",
       "pt-BR": "Joia Artilharia III 3",
       "it": "G armamento III 3",
-      "pl": "K. artylerii III [3]"
+      "pl": "K. artylerii III [3]",
+      "zh-Hans": "炮术珠Ⅲ【3】"
     },
     "skills": {
       "-596764096": 3
@@ -5649,7 +5938,8 @@
       "pt": "Joia Energizar 2",
       "pt-BR": "Joia Energizar 2",
       "it": "G stordente 2",
-      "pl": "Klejnot doładowania [2]"
+      "pl": "Klejnot doładowania [2]",
+      "zh-Hans": "蓄击珠【2】"
     },
     "skills": {
       "353114912": 1
@@ -5668,7 +5958,8 @@
       "pt": "Joia do Foco II 2",
       "pt-BR": "Joia do Foco II 2",
       "it": "G disciplina II 2",
-      "pl": "Klejnot skupienia II [2]"
+      "pl": "Klejnot skupienia II [2]",
+      "zh-Hans": "集中珠Ⅱ【2】"
     },
     "skills": {
       "-283334048": 2
@@ -5687,7 +5978,8 @@
       "pt": "Joia Energizar/Artesanato 3",
       "pt-BR": "Joia Energizar/Artesanato 3",
       "it": "G stordente/artigiano 3",
-      "pl": "K. ładowania/rękodz. [3]"
+      "pl": "K. ładowania/rękodz. [3]",
+      "zh-Hans": "蓄击·匠珠【3】"
     },
     "skills": {
       "353114912": 1,
@@ -5707,7 +5999,8 @@
       "pt": "Joia Antichoque 1",
       "pt-BR": "Joia Antichoque 1",
       "it": "G antishock 1",
-      "pl": "Klejnot wstrząsoodp. [1]"
+      "pl": "Klejnot wstrząsoodp. [1]",
+      "zh-Hans": "缓冲珠【1】"
     },
     "skills": {
       "-632440576": 1
@@ -5726,7 +6019,8 @@
       "pt": "Joia Chama III 3",
       "pt-BR": "Joia Chama III 3",
       "it": "G fuoco III 3",
-      "pl": "Klejnot pożogi III [3]"
+      "pl": "Klejnot pożogi III [3]",
+      "zh-Hans": "火炎珠Ⅲ【3】"
     },
     "skills": {
       "-562534336": 3
@@ -5745,7 +6039,8 @@
       "pt": "Joia Geada II 2",
       "pt-BR": "Joia Geada II 2",
       "it": "G ghiaccio II 2",
-      "pl": "Klejnot mrozu II [2]"
+      "pl": "Klejnot mrozu II [2]",
+      "zh-Hans": "冰结珠Ⅱ【2】"
     },
     "skills": {
       "1268070400": 2
@@ -5764,7 +6059,8 @@
       "pt": "Joia Dragão/Artesanato 3",
       "pt-BR": "Joia Dragão/Artesanato 3",
       "it": "G drago/artigiano 3",
-      "pl": "K. smoka/rękodzieła [3]"
+      "pl": "K. smoka/rękodzieła [3]",
+      "zh-Hans": "破龙·匠珠【3】"
     },
     "skills": {
       "-776946176": 3,
@@ -5784,7 +6080,8 @@
       "pt": "Joia Elem. Crít./M. Ferro 3",
       "pt-BR": "Joia Elem. Crít./M. Ferro 3",
       "it": "G critico elem./barriera 3",
-      "pl": "Klejnot żyw. kryt./żel. muru [3]"
+      "pl": "Klejnot żyw. kryt./żel. muru [3]",
+      "zh-Hans": "属会·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -5804,7 +6101,8 @@
       "pt": "Joia Chama/Troca Ráp. 3",
       "pt-BR": "Joia Chama/Troca Ráp. 3",
       "it": "G fuoco/trasforma 3",
-      "pl": "K. żyw. kr./ż. muru [3]"
+      "pl": "K. żyw. kr./ż. muru [3]",
+      "zh-Hans": "火炎·速变珠【3】"
     },
     "skills": {
       "-1961116288": 1,
@@ -5824,7 +6122,8 @@
       "pt": "Joia Riacho/Artesanato 3",
       "pt-BR": "Joia Riacho/Artesanato 3",
       "it": "G acqua/artigiano 3",
-      "pl": "K. strum./rękodz. [3]"
+      "pl": "K. strum./rękodz. [3]",
+      "zh-Hans": "流水·匠珠【3】"
     },
     "skills": {
       "508916704": 3,
@@ -5844,7 +6143,8 @@
       "pt": "Joia Energizar/Especialista 3",
       "pt-BR": "Joia Energizar/Especialista 3",
       "it": "G stordente/esperto 3",
-      "pl": "K. ładowania/eksper. [3]"
+      "pl": "K. ładowania/eksper. [3]",
+      "zh-Hans": "蓄击·达人珠【3】"
     },
     "skills": {
       "-2096489472": 1,
@@ -5864,7 +6164,8 @@
       "pt": "Joia Elem. Crít./Precisão 3",
       "pt-BR": "Joia Elem. Crít./Precisão 3",
       "it": "G critico elem./preciso 3",
-      "pl": "K. ż. kryt./precyz. [3]"
+      "pl": "K. ż. kryt./precyz. [3]",
+      "zh-Hans": "属会·射法珠【3】"
     },
     "skills": {
       "-420608864": 1,
@@ -5884,7 +6185,8 @@
       "pt": "Joia Aceleradora 3",
       "pt-BR": "Joia Aceleradora 3",
       "it": "G forza latente 3",
-      "pl": "K. przyśpieszenia [3]"
+      "pl": "K. przyśpieszenia [3]",
+      "zh-Hans": "全开珠【3】"
     },
     "skills": {
       "1763191040": 1
@@ -5903,7 +6205,8 @@
       "pt": "Joia de Perfume 1",
       "pt-BR": "Joia de Perfume 1",
       "it": "G antipuzza 1",
-      "pl": "Klejnot perfum [1]"
+      "pl": "Klejnot perfum [1]",
+      "zh-Hans": "耐臭珠【1】"
     },
     "skills": {
       "-411441344": 1
@@ -5922,7 +6225,8 @@
       "pt": "Joia de Manutenção 2",
       "pt-BR": "Joia de Manutenção 2",
       "it": "G manutenzione 2",
-      "pl": "Klejnot konserwacji [2]"
+      "pl": "Klejnot konserwacji [2]",
+      "zh-Hans": "整备珠【2】"
     },
     "skills": {
       "469540352": 1
@@ -5941,7 +6245,8 @@
       "pt": "Joia Crítica III 3",
       "pt-BR": "Joia Crítica III 3",
       "it": "G critico III 3",
-      "pl": "K. krytyczny III [3]"
+      "pl": "K. krytyczny III [3]",
+      "zh-Hans": "超心珠Ⅲ【3】"
     },
     "skills": {
       "-1607763456": 3
@@ -5960,7 +6265,8 @@
       "pt": "Joia Geada/Precisão 3",
       "pt-BR": "Joia Geada/Precisão 3",
       "it": "G ghiaccio/preciso 3",
-      "pl": "K. mrozu/precyz. [3]"
+      "pl": "K. mrozu/precyz. [3]",
+      "zh-Hans": "冰结·射法珠【3】"
     },
     "skills": {
       "-420608864": 1,
@@ -5980,7 +6286,8 @@
       "pt": "Joia Chama/Fio da Navalha 3",
       "pt-BR": "Joia Chama/Fio da Navalha 3",
       "it": "G fuoco/rasoio 3",
-      "pl": "K. pożogi/naostrz. [3]"
+      "pl": "K. pożogi/naostrz. [3]",
+      "zh-Hans": "火炎·利刃珠【3】"
     },
     "skills": {
       "-562534336": 3,
@@ -6000,7 +6307,8 @@
       "pt": "Joia Camada de Dreno 2",
       "pt-BR": "Joia Camada de Dreno 2",
       "it": "G stratofatica 2",
-      "pl": "K. pow. wyczerpuj. [2]"
+      "pl": "K. pow. wyczerpuj. [2]",
+      "zh-Hans": "疲瓶珠【2】"
     },
     "skills": {
       "-181774400": 1
@@ -6019,7 +6327,8 @@
       "pt": "Joia de Escudo III 3",
       "pt-BR": "Joia de Escudo III 3",
       "it": "G corazza III 3",
-      "pl": "K. tarczy III [3]"
+      "pl": "K. tarczy III [3]",
+      "zh-Hans": "强壁珠Ⅲ【3】"
     },
     "skills": {
       "-1674114176": 3
@@ -6038,7 +6347,8 @@
       "pt": "Joia Amolador/Ataque 3",
       "pt-BR": "Joia Amolador/Ataque 3",
       "it": "G affilante/attacco 3",
-      "pl": "K. ostrzenia/ataku [3]"
+      "pl": "K. ostrzenia/ataku [3]",
+      "zh-Hans": "打磨·攻击珠【3】"
     },
     "skills": {
       "1": 1,
@@ -6058,7 +6368,8 @@
       "pt": "Joia Contundente II 2",
       "pt-BR": "Joia Contundente II 2",
       "it": "G smussato II 2",
-      "pl": "Klejnot stępiony II [2]"
+      "pl": "Klejnot stępiony II [2]",
+      "zh-Hans": "钝器珠Ⅱ【2】"
     },
     "skills": {
       "397306144": 2
@@ -6077,7 +6388,8 @@
       "pt": "Joia Crítica 1",
       "pt-BR": "Joia Crítica 1",
       "it": "G critico 1",
-      "pl": "Klejnot krytyczny [1]"
+      "pl": "Klejnot krytyczny [1]",
+      "zh-Hans": "超心珠【1】"
     },
     "skills": {
       "-1607763456": 1
@@ -6096,7 +6408,8 @@
       "pt": "Joia Afiada III 3",
       "pt-BR": "Joia Afiada III 3",
       "it": "G tagliente III 3",
-      "pl": "Klejnot ostry III [3]"
+      "pl": "Klejnot ostry III [3]",
+      "zh-Hans": "刚刃珠Ⅲ【3】"
     },
     "skills": {
       "1500129152": 3
@@ -6115,7 +6428,8 @@
       "pt": "Joia Foco/Precisão 3",
       "pt-BR": "Joia Foco/Precisão 3",
       "it": "G disciplina/preciso 3",
-      "pl": "K. skup./precyz. [3]"
+      "pl": "K. skup./precyz. [3]",
+      "zh-Hans": "集中·射法珠【3】"
     },
     "skills": {
       "-420608864": 1,
@@ -6135,7 +6449,8 @@
       "pt": "Joia Artimanha II 2",
       "pt-BR": "Joia Artimanha II 2",
       "it": "G punizione II 2",
-      "pl": "Klejnot gambitu II [2]"
+      "pl": "Klejnot gambitu II [2]",
+      "zh-Hans": "拔打珠Ⅱ【2】"
     },
     "skills": {
       "-1946345856": 2
@@ -6154,7 +6469,8 @@
       "pt": "Joia Bandoleira 1",
       "pt-BR": "Joia Bandoleira 1",
       "it": "G bandoliera 1",
-      "pl": "Klejnot ładownicy [1]"
+      "pl": "Klejnot ładownicy [1]",
+      "zh-Hans": "积弹珠【1】"
     },
     "skills": {
       "1613139840": 1
@@ -6173,7 +6489,8 @@
       "pt": "Joia Contundente 1",
       "pt-BR": "Joia Contundente 1",
       "it": "G smussato 1",
-      "pl": "Klejnot stępiony [1]"
+      "pl": "Klejnot stępiony [1]",
+      "zh-Hans": "钝器珠【1】"
     },
     "skills": {
       "397306144": 1
@@ -6192,7 +6509,8 @@
       "pt": "Joia Tiro Forte 3",
       "pt-BR": "Joia Tiro Forte 3",
       "it": "G tiroforte 3",
-      "pl": "K. tetrad. strzału [3]"
+      "pl": "K. tetrad. strzału [3]",
+      "zh-Hans": "强弹珠【3】"
     },
     "skills": {
       "-1961297152": 1
@@ -6211,7 +6529,8 @@
       "pt": "Joia Troca Rápida 1",
       "pt-BR": "Joia Troca Rápida 1",
       "it": "G trasforma 1",
-      "pl": "K. szybkoprzełącz. [1]"
+      "pl": "K. szybkoprzełącz. [1]",
+      "zh-Hans": "速变珠【1】"
     },
     "skills": {
       "-1961116288": 1
@@ -6230,7 +6549,8 @@
       "pt": "Joia Elemento Crít. II 2",
       "pt-BR": "Joia Elemento Crít. II 2",
       "it": "G critico elementale II 2",
-      "pl": "K. żywiołu kryt. II [2]"
+      "pl": "K. żywiołu kryt. II [2]",
+      "zh-Hans": "属会珠Ⅱ【2】"
     },
     "skills": {
       "313598432": 2
@@ -6249,7 +6569,8 @@
       "pt": "Joia de Lampejo 1",
       "pt-BR": "Joia de Lampejo 1",
       "it": "G sorpresa 1",
-      "pl": "Klejnot błysku [1]"
+      "pl": "Klejnot błysku [1]",
+      "zh-Hans": "闪光珠【1】"
     },
     "skills": {
       "-257693696": 1
@@ -6268,7 +6589,8 @@
       "pt": "Joia de Voo/Artesanato 3",
       "pt-BR": "Joia de Voo/Artesanato 3",
       "it": "G volo/artigiano 3",
-      "pl": "K. lotu/rękodzieła [3]"
+      "pl": "K. lotu/rękodzieła [3]",
+      "zh-Hans": "飞燕·匠珠【3】"
     },
     "skills": {
       "402237312": 1,
@@ -6288,7 +6610,8 @@
       "pt": "Joia do Revide 2",
       "pt-BR": "Joia do Revide 2",
       "it": "G contrattacco 2",
-      "pl": "Klejnot kontry [2]"
+      "pl": "Klejnot kontry [2]",
+      "zh-Hans": "逆袭珠【2】"
     },
     "skills": {
       "280489184": 1
@@ -6307,7 +6630,8 @@
       "pt": "Joia da Precisão III 3",
       "pt-BR": "Joia da Precisão III 3",
       "it": "G preciso III 3",
-      "pl": "K. precyzyjny III [3]"
+      "pl": "K. precyzyjny III [3]",
+      "zh-Hans": "射法珠Ⅲ【3】"
     },
     "skills": {
       "-420608864": 3
@@ -6326,7 +6650,8 @@
       "pt": "Joia Tiro Certo 1",
       "pt-BR": "Joia Tiro Certo 1",
       "it": "G perforante 1",
-      "pl": "K. celnego strzału [1]"
+      "pl": "K. celnego strzału [1]",
+      "zh-Hans": "特射珠【1】"
     },
     "skills": {
       "-160562336": 1
@@ -6345,7 +6670,8 @@
       "pt": "Joia Geada/Nocaute 3",
       "pt-BR": "Joia Geada/Nocaute 3",
       "it": "G ghiaccio/battitore 3",
-      "pl": "K. mrozu/nokautu [3]"
+      "pl": "K. mrozu/nokautu [3]",
+      "zh-Hans": "冰结·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -6365,7 +6691,8 @@
       "pt": "Joia Stat. Crít./Nocaute 3",
       "pt-BR": "Joia Stat. Crít./Nocaute 3",
       "it": "G stato critico/battitore 3",
-      "pl": "K. st. kryt./nokautu [3]"
+      "pl": "K. st. kryt./nokautu [3]",
+      "zh-Hans": "特会·击晕珠【3】"
     },
     "skills": {
       "-893407296": 1,
@@ -6385,7 +6712,8 @@
       "pt": "Joia Potencial 2",
       "pt-BR": "Joia Potencial 2",
       "it": "G eroe 2",
-      "pl": "Klejnot potencjału [2]"
+      "pl": "Klejnot potencjału [2]",
+      "zh-Hans": "底力珠【2】"
     },
     "skills": {
       "422666624": 1
@@ -6404,7 +6732,8 @@
       "pt": "Joia Status Crítico II 2",
       "pt-BR": "Joia Status Crítico II 2",
       "it": "G stato critico II 2",
-      "pl": "K. stat. kryt. II [2]"
+      "pl": "K. stat. kryt. II [2]",
+      "zh-Hans": "特会珠Ⅱ【2】"
     },
     "skills": {
       "-168922880": 2
@@ -6423,7 +6752,8 @@
       "pt": "Joia Escudo/Muro de Ferro 3",
       "pt-BR": "Joia Escudo/Muro de Ferro 3",
       "it": "G corazza/barriera 3",
-      "pl": "K. tarczy/ż. muru [3]"
+      "pl": "K. tarczy/ż. muru [3]",
+      "zh-Hans": "强壁·铁壁珠【3】"
     },
     "skills": {
       "-1674114176": 3,
@@ -6443,7 +6773,8 @@
       "pt": "Joia de Escudo 1",
       "pt-BR": "Joia de Escudo 1",
       "it": "G corazza 1",
-      "pl": "Klejnot tarczy [1]"
+      "pl": "Klejnot tarczy [1]",
+      "zh-Hans": "强壁珠【1】"
     },
     "skills": {
       "-1674114176": 1
@@ -6462,7 +6793,8 @@
       "pt": "Joia da Evasão 2",
       "pt-BR": "Joia da Evasão 2",
       "it": "G schivata 2",
-      "pl": "Klejnot uniku [2]"
+      "pl": "Klejnot uniku [2]",
+      "zh-Hans": "回避珠【2】"
     },
     "skills": {
       "144660544": 1
@@ -6481,7 +6813,8 @@
       "pt": "Joia Geada/Artesanato 3",
       "pt-BR": "Joia Geada/Artesanato 3",
       "it": "G ghiaccio/artigiano 3",
-      "pl": "K. mrozu/rękodzieła [3]"
+      "pl": "K. mrozu/rękodzieła [3]",
+      "zh-Hans": "冰结·匠珠【3】"
     },
     "skills": {
       "1160639488": 1,
@@ -6501,7 +6834,8 @@
       "pt": "Joia Riacho III 3",
       "pt-BR": "Joia Riacho III 3",
       "it": "G acqua III 3",
-      "pl": "K. strumienia III [3]"
+      "pl": "K. strumienia III [3]",
+      "zh-Hans": "流水珠Ⅲ【3】"
     },
     "skills": {
       "508916704": 3
@@ -6520,7 +6854,8 @@
       "pt": "Joia Geada/Muro de Ferro 3",
       "pt-BR": "Joia Geada/Muro de Ferro 3",
       "it": "G ghiaccio/barriera 3",
-      "pl": "K. mrozu/żelaz. muru [3]"
+      "pl": "K. mrozu/żelaz. muru [3]",
+      "zh-Hans": "冰结·铁壁珠【3】"
     },
     "skills": {
       "-307644128": 1,
@@ -6540,7 +6875,8 @@
       "pt": "Joia de Saque II 2",
       "pt-BR": "Joia de Saque II 2",
       "it": "G sfoderata II 2",
-      "pl": "K. dobycia broni II [2]"
+      "pl": "K. dobycia broni II [2]",
+      "zh-Hans": "拔刀珠Ⅱ【2】"
     },
     "skills": {
       "686533440": 2
@@ -6559,7 +6895,8 @@
       "pt": "Joia do Contra-ataque 3",
       "pt-BR": "Joia do Contra-ataque 3",
       "it": "G adrenalina 3",
-      "pl": "Klejnot kontrataku [3]"
+      "pl": "Klejnot kontrataku [3]",
+      "zh-Hans": "反攻珠【3】"
     },
     "skills": {
       "1174975744": 1
@@ -6578,7 +6915,8 @@
       "pt": "Joia Troca Rápida/Nocaute 3",
       "pt-BR": "Joia Troca Rápida/Nocaute 3",
       "it": "G trasforma/battitore 3",
-      "pl": "K. szybkop./nokautu [3]"
+      "pl": "K. szybkop./nokautu [3]",
+      "zh-Hans": "速变·击晕珠【3】"
     },
     "skills": {
       "-1961116288": 3,
@@ -6598,7 +6936,8 @@
       "pt": "Joia F. Navalha/Artesanato 3",
       "pt-BR": "Joia F. Navalha/Artesanato 3",
       "it": "G rasoio/artigiano 3",
-      "pl": "K. naostrz./rękodz. [3]"
+      "pl": "K. naostrz./rękodz. [3]",
+      "zh-Hans": "利刃·匠珠【3】"
     },
     "skills": {
       "1050520384": 3,
@@ -6618,7 +6957,8 @@
       "pt": "Joia Perfurante 3",
       "pt-BR": "Joia Perfurante 3",
       "it": "G penetrante 3",
-      "pl": "Klejnot przebicia [3]"
+      "pl": "Klejnot przebicia [3]",
+      "zh-Hans": "贯穿珠【3】"
     },
     "skills": {
       "552982656": 1
@@ -6637,7 +6977,8 @@
       "pt": "Joia da Amizade 1",
       "pt-BR": "Joia da Amizade 1",
       "it": "G amicizia 1",
-      "pl": "Klejnot przyjaźni [1]"
+      "pl": "Klejnot przyjaźni [1]",
+      "zh-Hans": "友爱珠【1】"
     },
     "skills": {
       "894530496": 1
@@ -6656,7 +6997,8 @@
       "pt": "Joia do Corredor 1",
       "pt-BR": "Joia do Corredor 1",
       "it": "G velocista 1",
-      "pl": "Klejnot sprintera [1]"
+      "pl": "Klejnot sprintera [1]",
+      "zh-Hans": "强走珠【1】"
     },
     "skills": {
       "-682586176": 1
@@ -6675,7 +7017,8 @@
       "pt": "Joia Elemento Crít. III 3",
       "pt-BR": "Joia Elemento Crít. III 3",
       "it": "G critico elementale III 3",
-      "pl": "K. żywiołu kryt. III [3]"
+      "pl": "K. żywiołu kryt. III [3]",
+      "zh-Hans": "属会珠Ⅲ【3】"
     },
     "skills": {
       "313598432": 3
@@ -6694,7 +7037,8 @@
       "pt": "Joia Explosão III 3",
       "pt-BR": "Joia Explosão III 3",
       "it": "G scoppio III 3",
-      "pl": "K. wybuchu III [3]"
+      "pl": "K. wybuchu III [3]",
+      "zh-Hans": "爆破珠Ⅲ【3】"
     },
     "skills": {
       "-844978880": 3
@@ -6713,7 +7057,8 @@
       "pt": "Joia Riacho/Precisão 3",
       "pt-BR": "Joia Riacho/Precisão 3",
       "it": "G acqua/preciso 3",
-      "pl": "K. strum./precyz. [3]"
+      "pl": "K. strum./precyz. [3]",
+      "zh-Hans": "流水·射法珠【3】"
     },
     "skills": {
       "-420608864": 1,
@@ -6733,7 +7078,8 @@
       "pt": "Joia Intensif./Artesanato 3",
       "pt-BR": "Joia Intensif./Artesanato 3",
       "it": "G amplifica/artigiano 3",
-      "pl": "K. wydłuż./rękodz. [3]"
+      "pl": "K. wydłuż./rękodz. [3]",
+      "zh-Hans": "昂扬·匠珠【3】"
     },
     "skills": {
       "691199232": 3,
@@ -6753,7 +7099,8 @@
       "pt": "Joia do Foco 1",
       "pt-BR": "Joia do Foco 1",
       "it": "G disciplina 1",
-      "pl": "Klejnot skupienia [1]"
+      "pl": "Klejnot skupienia [1]",
+      "zh-Hans": "集中珠【1】"
     },
     "skills": {
       "-283334048": 1
@@ -6772,7 +7119,8 @@
       "pt": "Joia Energizar/Saque 3",
       "pt-BR": "Joia Energizar/Saque 3",
       "it": "G stordente/sfoderata 3",
-      "pl": "K. ładow./dob. broni [3]"
+      "pl": "K. ładow./dob. broni [3]",
+      "zh-Hans": "蓄击·拔刀珠【3】"
     },
     "skills": {
       "353114912": 1,
@@ -6792,7 +7140,8 @@
       "pt": "Joia da Escalada 1",
       "pt-BR": "Joia da Escalada 1",
       "it": "G scalata 1",
-      "pl": "Klejnot wspinacza [1]"
+      "pl": "Klejnot wspinacza [1]",
+      "zh-Hans": "登壁珠【1】"
     },
     "skills": {
       "-692636288": 1
@@ -6811,7 +7160,8 @@
       "pt": "Joia Muro de Ferro II 2",
       "pt-BR": "Joia Muro de Ferro II 2",
       "it": "G barriera II 2",
-      "pl": "K. żelaznego muru II [2]"
+      "pl": "K. żelaznego muru II [2]",
+      "zh-Hans": "铁壁珠Ⅱ【2】"
     },
     "skills": {
       "-307644128": 2
@@ -6830,7 +7180,8 @@
       "pt": "Joia Botânica 1",
       "pt-BR": "Joia Botânica 1",
       "it": "G botanico 1",
-      "pl": "Klejnot botaniki [1]"
+      "pl": "Klejnot botaniki [1]",
+      "zh-Hans": "植学珠【1】"
     },
     "skills": {
       "860517760": 1
@@ -6849,7 +7200,8 @@
       "pt": "Joia do Desafiante 3",
       "pt-BR": "Joia do Desafiante 3",
       "it": "G sfida 3",
-      "pl": "Klejnot prowokatora [3]"
+      "pl": "Klejnot prowokatora [3]",
+      "zh-Hans": "挑战珠【3】"
     },
     "skills": {
       "1865909632": 1
@@ -6868,7 +7220,8 @@
       "pt": "Joia Aljava/Ataque 3",
       "pt-BR": "Joia Aljava/Ataque 3",
       "it": "G caricatore/attacco 3",
-      "pl": "K. magazynka/ataku [3]"
+      "pl": "K. magazynka/ataku [3]",
+      "zh-Hans": "增弹·攻击珠【3】"
     },
     "skills": {
       "1": 1,
@@ -6888,7 +7241,8 @@
       "pt": "Joia Muro de Ferro III 3",
       "pt-BR": "Joia Muro de Ferro III 3",
       "it": "G barriera III 3",
-      "pl": "K. żelaz. muru III [3]"
+      "pl": "K. żelaz. muru III [3]",
+      "zh-Hans": "铁壁珠Ⅲ【3】"
     },
     "skills": {
       "-307644128": 3
@@ -6907,7 +7261,8 @@
       "pt": "Joia Sonora/Artesanato 3",
       "pt-BR": "Joia Sonora/Artesanato 3",
       "it": "G sonoro/artigiano 3",
-      "pl": "K. dźwięczny/rękodz. [3]"
+      "pl": "K. dźwięczny/rękodz. [3]",
+      "zh-Hans": "鼓笛·匠珠【3】"
     },
     "skills": {
       "-1237438336": 2,
@@ -6927,7 +7282,8 @@
       "pt": "Joia da Tolerância 1",
       "pt-BR": "Joia da Tolerância 1",
       "it": "G estensione 1",
-      "pl": "Klejnot wytrwałości [1]"
+      "pl": "Klejnot wytrwałości [1]",
+      "zh-Hans": "持续珠【1】"
     },
     "skills": {
       "-1684613760": 1
@@ -6946,7 +7302,8 @@
       "pt": "Joia Dragão 1",
       "pt-BR": "Joia Dragão 1",
       "it": "G drago 1",
-      "pl": "Klejnot smoka [1]"
+      "pl": "Klejnot smoka [1]",
+      "zh-Hans": "破龙珠【1】"
     },
     "skills": {
       "-776946176": 1
@@ -6965,7 +7322,8 @@
       "pt": "Joia Estopim 1",
       "pt-BR": "Joia Estopim 1",
       "it": "G primo colpo 1",
-      "pl": "K. pierwsz. strzału [1]"
+      "pl": "K. pierwsz. strzału [1]",
+      "zh-Hans": "初弹珠【1】"
     },
     "skills": {
       "1711950720": 1
@@ -6984,7 +7342,8 @@
       "pt": "Joia Equilíbrio 1",
       "pt-BR": "Joia Equilíbrio 1",
       "it": "G antisismico 1",
-      "pl": "Klejnot równowagi [1]"
+      "pl": "Klejnot równowagi [1]",
+      "zh-Hans": "耐震珠【1】"
     },
     "skills": {
       "-609509888": 1
@@ -7003,7 +7362,8 @@
       "pt": "Joia Peçonha/Ataque 3",
       "pt-BR": "Joia Peçonha/Ataque 3",
       "it": "G veleno/attacco 3",
-      "pl": "K. trucizny/ataku [3]"
+      "pl": "K. trucizny/ataku [3]",
+      "zh-Hans": "强毒·攻击珠【3】"
     },
     "skills": {
       "-1629629184": 1,
@@ -7023,7 +7383,8 @@
       "pt": "Joia Intimidante 1",
       "pt-BR": "Joia Intimidante 1",
       "it": "G minaccioso 1",
-      "pl": "Klejnot zastraszacza [1]"
+      "pl": "Klejnot zastraszacza [1]",
+      "zh-Hans": "威吓珠【1】"
     },
     "skills": {
       "1472632704": 1

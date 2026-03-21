@@ -11,7 +11,8 @@
         "pt": "Fome de Arkveld",
         "pt-BR": "Fome de Arkveld",
         "it": "Fame dell'Arkveld",
-        "pl": "Głód Arkvelda"
+        "pl": "Głód Arkvelda",
+        "zh-Hans": "锁刃龙之饥饿"
       },
       "icon": "set",
       "max_points": 2
@@ -27,7 +28,8 @@
         "pt": "Espírito de Blangonga",
         "pt-BR": "Espírito de Blangonga",
         "it": "Spirito di Blangonga",
-        "pl": "Duch Blangongi"
+        "pl": "Duch Blangongi",
+        "zh-Hans": "雪狮子王之斗志"
       },
       "icon": "set",
       "max_points": 2
@@ -43,7 +45,8 @@
         "pt": "Prece da Floridança",
         "pt-BR": "Prece da Floridança",
         "it": "Preghiera Fiordanza",
-        "pl": "Modlitwa Tańca Kwiatów"
+        "pl": "Modlitwa Tańca Kwiatów",
+        "zh-Hans": "花舞祈祷"
       },
       "icon": "set",
       "max_points": 2
@@ -59,7 +62,8 @@
         "pt": "Força de Doshaguma",
         "pt-BR": "Força de Doshaguma",
         "it": "Potenza di Doshaguma",
-        "pl": "Moc Doshagumy"
+        "pl": "Moc Doshagumy",
+        "zh-Hans": "辟兽之力"
       },
       "icon": "set",
       "max_points": 2
@@ -75,7 +79,8 @@
         "pt": "Prece do Feitissonho",
         "pt-BR": "Prece do Feitissonho",
         "it": "Preghiera Ognissogni",
-        "pl": "Modlitwa Czaru Snów"
+        "pl": "Modlitwa Czaru Snów",
+        "zh-Hans": "梦灯祈祷"
       },
       "icon": "set",
       "max_points": 2
@@ -91,7 +96,8 @@
         "pt": "Poder de Odogaron Negro",
         "pt-BR": "Poder de Odogaron Negro",
         "it": "Forza Odogaron ebano",
-        "pl": "Moc Hebanowego Odogarona"
+        "pl": "Moc Hebanowego Odogarona",
+        "zh-Hans": "凶爪龙之力"
       },
       "icon": "set",
       "max_points": 2
@@ -107,7 +113,8 @@
         "pt": "Prece da Flamafolia",
         "pt-BR": "Prece da Flamafolia",
         "it": "Preghiera Festardente",
-        "pl": "Modlitwa Tańca Ognia"
+        "pl": "Modlitwa Tańca Ognia",
+        "zh-Hans": "踊火祈祷"
       },
       "icon": "set",
       "max_points": 2
@@ -123,7 +130,8 @@
         "pt": "Vontade de Anjanath Fulgurante",
         "pt-BR": "Vontade de Anjanath Fulgurante",
         "it": "Tempra di Anjanath tonante",
-        "pl": "Wola Piorunowego Anjanatha"
+        "pl": "Wola Piorunowego Anjanatha",
+        "zh-Hans": "雷颚龙之斗志"
       },
       "icon": "set",
       "max_points": 2
@@ -139,7 +147,8 @@
         "pt": "Gogmapocalipse",
         "pt-BR": "Gogmapocalipse",
         "it": "Apocalisse Gogma",
-        "pl": "Gogmapokalipsa"
+        "pl": "Gogmapokalipsa",
+        "zh-Hans": "巨戟龙的默示录"
       },
       "icon": "set",
       "max_points": 2
@@ -155,7 +164,8 @@
         "pt": "Tirania de Gore Magala",
         "pt-BR": "Tirania de Gore Magala",
         "it": "Sopruso del Gore Magala",
-        "pl": "Tyrania Gore Magali"
+        "pl": "Tyrania Gore Magali",
+        "zh-Hans": "黑蚀龙之力"
       },
       "icon": "set",
       "max_points": 2
@@ -171,7 +181,8 @@
         "pt": "Proteção de Gravios",
         "pt-BR": "Proteção de Gravios",
         "it": "Protezione del Gravios",
-        "pl": "Ochrona Graviosa"
+        "pl": "Ochrona Graviosa",
+        "zh-Hans": "铠龙之守护"
       },
       "icon": "set",
       "max_points": 2
@@ -187,7 +198,8 @@
         "pt": "Vitalidade de Arkveld Guardião",
         "pt-BR": "Vitalidade de Arkveld Guardião",
         "it": "Vitalità dell'Arkveld guardiano",
-        "pl": "Witalność Arkvelda Strażnika"
+        "pl": "Witalność Arkvelda Strażnika",
+        "zh-Hans": "护锁刃龙之命脉"
       },
       "icon": "set",
       "max_points": 2
@@ -203,7 +215,8 @@
         "pt": "Revolta de Jin Dahaad",
         "pt-BR": "Revolta de Jin Dahaad",
         "it": "Rivolta di Jin Dahaad",
-        "pl": "Bunt Jin Dahaada"
+        "pl": "Bunt Jin Dahaada",
+        "zh-Hans": "冻峰龙之反叛"
       },
       "icon": "set",
       "max_points": 2
@@ -219,7 +232,8 @@
         "pt": "Fúria de Leviatã",
         "pt-BR": "Fúria de Leviatã",
         "it": "Furia del Leviathan",
-        "pl": "Furia lewiatana"
+        "pl": "Furia lewiatana",
+        "zh-Hans": "海龙的涡雷"
       },
       "icon": "set",
       "max_points": 2
@@ -235,7 +249,8 @@
         "pt": "Prece do Ilumicanto",
         "pt-BR": "Prece do Ilumicanto",
         "it": "Preghiera Luminalia",
-        "pl": "Modlitwa Hymnu Jasności"
+        "pl": "Modlitwa Hymnu Jasności",
+        "zh-Hans": "祝谣祈祷"
       },
       "icon": "set",
       "max_points": 2
@@ -251,7 +266,8 @@
         "pt": "Proeza de Mizutsune",
         "pt-BR": "Proeza de Mizutsune",
         "it": "Destrezza Mizutsune",
-        "pl": "Waleczność Mizutsune"
+        "pl": "Waleczność Mizutsune",
+        "zh-Hans": "泡狐龙之力"
       },
       "icon": "set",
       "max_points": 2
@@ -267,7 +283,8 @@
         "pt": "Motim de Nu Udra",
         "pt-BR": "Motim de Nu Udra",
         "it": "Ribelle Nu Udra",
-        "pl": "Bunt Nu Udry"
+        "pl": "Bunt Nu Udry",
+        "zh-Hans": "狱焰蛸之反叛"
       },
       "icon": "set",
       "max_points": 2
@@ -283,7 +300,8 @@
         "pt": "Ressonância Omega",
         "pt-BR": "Ressonância Omega",
         "it": "Sintonia Omega",
-        "pl": "Rezonans Omegi"
+        "pl": "Rezonans Omegi",
+        "zh-Hans": "欧米茄共鸣"
       },
       "icon": "set",
       "max_points": 2
@@ -299,7 +317,8 @@
         "pt": "Labareda de Rathalos",
         "pt-BR": "Labareda de Rathalos",
         "it": "Fiamma Rathalos",
-        "pl": "Błysk Rathalosa"
+        "pl": "Błysk Rathalosa",
+        "zh-Hans": "火龙之力"
       },
       "icon": "set",
       "max_points": 2
@@ -315,7 +334,8 @@
         "pt": "Voltagem de Rey Dau",
         "pt-BR": "Voltagem de Rey Dau",
         "it": "Voltaggio Rey Dau",
-        "pl": "Napięcie Rey Dau"
+        "pl": "Napięcie Rey Dau",
+        "zh-Hans": "煌雷龙之力"
       },
       "icon": "set",
       "max_points": 2
@@ -331,7 +351,8 @@
         "pt": "Tenacidade de Seregios",
         "pt-BR": "Tenacidade de Seregios",
         "it": "Tenacia del Seregios",
-        "pl": "Nieustępliwość Seregiosa"
+        "pl": "Nieustępliwość Seregiosa",
+        "zh-Hans": "千刃龙的斗志"
       },
       "icon": "set",
       "max_points": 2
@@ -347,7 +368,8 @@
         "pt": "Alma do Cavaleiro Negro",
         "pt-BR": "Alma do Cavaleiro Negro",
         "it": "Anima del cavaliere nero",
-        "pl": "Dusza mrocznego rycerza"
+        "pl": "Dusza mrocznego rycerza",
+        "zh-Hans": "暗黑骑士之证"
       },
       "icon": "set",
       "max_points": 2
@@ -363,7 +385,8 @@
         "pt": "Véu de Uth Duna",
         "pt-BR": "Véu de Uth Duna",
         "it": "Copertura Uth Duna",
-        "pl": "Osłona Uth Duny"
+        "pl": "Osłona Uth Duny",
+        "zh-Hans": "波衣龙之守护"
       },
       "icon": "set",
       "max_points": 2
@@ -379,7 +402,8 @@
         "pt": "Vigor de Xu Wu",
         "pt-BR": "Vigor de Xu Wu",
         "it": "Vigore di Xu Wu",
-        "pl": "Wigor Xu Wu"
+        "pl": "Wigor Xu Wu",
+        "zh-Hans": "暗器蛸之力"
       },
       "icon": "set",
       "max_points": 2
@@ -395,7 +419,8 @@
         "pt": "Pulso de Zoh Shia",
         "pt-BR": "Pulso de Zoh Shia",
         "it": "Battito Zoh Shia",
-        "pl": "Puls Zoh Shia"
+        "pl": "Puls Zoh Shia",
+        "zh-Hans": "白炽龙之脉动"
       },
       "icon": "set",
       "max_points": 2
@@ -413,7 +438,8 @@
         "pt": "Pelica Sedutora",
         "pt-BR": "Pelica Sedutora",
         "it": "Pelle ammaliante",
-        "pl": "Kusząca skórka"
+        "pl": "Kusząca skórka",
+        "zh-Hans": "毛皮之诱惑"
       },
       "icon": "group",
       "max_points": 1
@@ -429,7 +455,8 @@
         "pt": "Couro Macio",
         "pt-BR": "Couro Macio",
         "it": "Cuoio scivoloso",
-        "pl": "Wymuskana skóra"
+        "pl": "Wymuskana skóra",
+        "zh-Hans": "皮革制品之顺滑"
       },
       "icon": "group",
       "max_points": 1
@@ -445,7 +472,8 @@
         "pt": "Espírito de Festival",
         "pt-BR": "Espírito de Festival",
         "it": "Spirito del festival",
-        "pl": "Duch festiwalu"
+        "pl": "Duch festiwalu",
+        "zh-Hans": "祭典巡礼"
       },
       "icon": "group",
       "max_points": 1
@@ -461,7 +489,8 @@
         "pt": "Couro Flexível",
         "pt-BR": "Couro Flexível",
         "it": "Cuoio flessibile",
-        "pl": "Elastyczna skóra"
+        "pl": "Elastyczna skóra",
+        "zh-Hans": "皮革制品之柔韧"
       },
       "icon": "group",
       "max_points": 1
@@ -477,7 +506,8 @@
         "pt": "Pelica Fortificante",
         "pt-BR": "Pelica Fortificante",
         "it": "Pelle tosta",
-        "pl": "Skóra wzmacniająca"
+        "pl": "Skóra wzmacniająca",
+        "zh-Hans": "毛皮之昂扬"
       },
       "icon": "group",
       "max_points": 1
@@ -493,7 +523,8 @@
         "pt": "Favor da Glória",
         "pt-BR": "Favor da Glória",
         "it": "Grazia della gloria",
-        "pl": "Przychylność chwały"
+        "pl": "Przychylność chwały",
+        "zh-Hans": "荣光盛赞"
       },
       "icon": "group",
       "max_points": 1
@@ -509,7 +540,8 @@
         "pt": "Proteção de Guardião",
         "pt-BR": "Proteção de Guardião",
         "it": "Protezione di guardiano",
-        "pl": "Ochrona Strażnika"
+        "pl": "Ochrona Strażnika",
+        "zh-Hans": "护龙之守护"
       },
       "icon": "group",
       "max_points": 1
@@ -525,7 +557,8 @@
         "pt": "Pulso de Guardião",
         "pt-BR": "Pulso de Guardião",
         "it": "Battito di guardiano",
-        "pl": "Puls Strażnika"
+        "pl": "Puls Strażnika",
+        "zh-Hans": "护龙之脉动"
       },
       "icon": "group",
       "max_points": 1
@@ -541,7 +574,8 @@
         "pt": "Sabedoria Transmitida",
         "pt-BR": "Sabedoria Transmitida",
         "it": "Saggezza impartita",
-        "pl": "Przekazana mądrość"
+        "pl": "Przekazana mądrość",
+        "zh-Hans": "前辈之指引"
       },
       "icon": "group",
       "max_points": 1
@@ -557,7 +591,8 @@
         "pt": "Benevolência Máxima",
         "pt-BR": "Benevolência Máxima",
         "it": "Grazia del predatore",
-        "pl": "Łaska władcy"
+        "pl": "Łaska władcy",
+        "zh-Hans": "霸主之骄傲"
       },
       "icon": "group",
       "max_points": 1
@@ -573,7 +608,8 @@
         "pt": "Fúria Máxima",
         "pt-BR": "Fúria Máxima",
         "it": "Furia del predatore",
-        "pl": "Furia Lorda"
+        "pl": "Furia Lorda",
+        "zh-Hans": "霸主之愤慨"
       },
       "icon": "group",
       "max_points": 1
@@ -589,7 +625,8 @@
         "pt": "Alma do Senhor",
         "pt-BR": "Alma do Senhor",
         "it": "Anima del predatore",
-        "pl": "Dusza Lorda"
+        "pl": "Dusza Lorda",
+        "zh-Hans": "霸主之魂"
       },
       "icon": "group",
       "max_points": 1
@@ -605,7 +642,8 @@
         "pt": "Mestre do Punho",
         "pt-BR": "Mestre do Punho",
         "it": "Maestro del pugno",
-        "pl": "Mistrz pięści"
+        "pl": "Mistrz pięści",
+        "zh-Hans": "拳之极者"
       },
       "icon": "group",
       "max_points": 1
@@ -621,7 +659,8 @@
         "pt": "Alerta de Neopteronte",
         "pt-BR": "Alerta de Neopteronte",
         "it": "Senso di Neopteron",
-        "pl": "Ostrzeżenie o Neopteronach"
+        "pl": "Ostrzeżenie o Neopteronach",
+        "zh-Hans": "甲虫之直觉"
       },
       "icon": "group",
       "max_points": 1
@@ -637,7 +676,8 @@
         "pt": "Camuflagem Neopteronte",
         "pt-BR": "Camuflagem Neopteronte",
         "it": "Mimetizzazione Neopteron",
-        "pl": "Kamuflaż Neopterona"
+        "pl": "Kamuflaż Neopterona",
+        "zh-Hans": "甲虫之拟态"
       },
       "icon": "group",
       "max_points": 1
@@ -653,7 +693,8 @@
         "pt": "Escamas Sobrepostas",
         "pt-BR": "Escamas Sobrepostas",
         "it": "Strati di scaglie",
-        "pl": "Nakładanie łusek"
+        "pl": "Nakładanie łusek",
+        "zh-Hans": "叠鳞之工艺"
       },
       "icon": "group",
       "max_points": 1
@@ -669,7 +710,8 @@
         "pt": "Escamas Superiores",
         "pt-BR": "Escamas Superiores",
         "it": "Maestria nelle arrampicate",
-        "pl": "Technika wspinaczki"
+        "pl": "Technika wspinaczki",
+        "zh-Hans": "铺鳞之技法"
       },
       "icon": "group",
       "max_points": 1

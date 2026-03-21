@@ -1,0 +1,116 @@
+import type { Translations } from '../types';
+
+export const zhHans: Translations = {
+  header: {
+    title: 'MH Wilds 配装优化器',
+    subtitle: '来自 Discord 的 @nenrikido',
+  },
+  form: {
+    skills: '技能',
+    armor: '防具套装',
+    weapons: '武器',
+    optimize: '开始优化',
+    save: '保存配置',
+  },
+  options: {
+    includeAllAmulets: '包含由目标技能生成的所有护石（取消勾选后仅包含可刷取护石和筛选页中选择的护石）',
+    transcend: '对所有防具应用超越（会修改稀有度 5 或 6 的防具装饰槽）',
+    includeGogSets: '包含戈格玛吉欧斯强化武器上的所有可能套装',
+  },
+  inputs: {
+    skills: '你想要哪些技能？',
+    skillsMaxPoints: '该技能的最大等级（留空表示不限）',
+    skillsWeight: '该技能权重',
+    armor: '使用哪些防具套装',
+    armorMinPieces: '该套装最少件数（默认 2）',
+    weapons: '使用哪些武器',
+  },
+  tabs: {
+    results: '结果',
+    filters: '筛选',
+    templates: '模板',
+  },
+  templates: {
+    defaultTitle: '默认模板',
+    customTitle: '自定义模板',
+    namePlaceholder: '模板名称',
+    saveCurrent: '保存当前配置',
+    emptyCustom: '尚未保存任何自定义模板。',
+    apply: '应用',
+    delete: '删除',
+    names: {
+      'default-great-sword': '大剑',
+      'default-long-sword': '太刀',
+      'default-sword-and-shield': '片手剑',
+      'default-dual-blades': '双剑',
+      'default-hammer': '大锤',
+      'default-hunting-horn': '狩猎笛',
+      'default-lance': '长枪',
+      'default-gunlance': '铳枪',
+      'default-switch-axe': '斩斧',
+      'default-charge-blade': '盾斧',
+      'default-insect-glaive': '操虫棍',
+      'default-light-bowgun': '轻弩',
+      'default-heavy-bowgun': '重弩',
+      'default-bow': '弓',
+    },
+  },
+  results: {
+    noResults: '暂无结果。',
+    error: '优化过程中发生错误',
+    title: '优化结果',
+    skillsLabel: '技能',
+    armorSetLabel: '套装/组加成',
+    armorLabel: '装备',
+  },
+  filters: {
+    amulets: {
+      title: '护石',
+      addAmulet: '添加护石',
+      skill: '技能',
+      slots: '插槽',
+    },
+    excludeArmorParts: {
+      title: '排除防具部件',
+      placeholder: '搜索要从计算中排除的防具部件',
+    },
+    gogWeapons: {
+      title: '戈格玛吉欧斯武器',
+      setBonus: '套装加成',
+      setBonusAutocomplete: '选择戈格玛吉欧斯武器的套装加成',
+      groupBonus: '组加成',
+      groupBonusAutocomplete: '选择戈格玛吉欧斯武器的组加成',
+    },
+  },
+  armorParts: {
+    head: '头部',
+    chest: '胸部',
+    arms: '手部',
+    waist: '腰部',
+    legs: '腿部',
+  },
+  info: {
+    help: '帮助',
+    howToUse: '使用方式：',
+    howToUseSteps: {
+      step1: '使用自动补全选择目标技能、套装和武器。',
+      step2: '调整技能最大等级/权重和套装件数要求。',
+      step3: '在筛选页添加护石并排除特定防具。',
+      step4: '点击“开始优化”并查看配装、技能和激活的套装/组加成。',
+    },
+    notes: '说明：',
+    notesItems: {
+      dataUpToDate: '数据已更新至 TU4.1（AT Arkveld）',
+      defaultValues: '默认值是太刀配装，是的，我就是二次元',
+      noBuild: '如果没有配装结果，请放宽限制（套装/技能/筛选）。',
+      gogFilters: '启用“包含所有 Gog 套装”后，会隐藏 Gog 套装/组筛选。',
+      customTemplates: '保存的自定义模板仅存储在当前浏览器中。',
+    },
+  },
+  common: {
+    loading: '加载中...',
+    switchToLightMode: '切换到浅色模式',
+    switchToDarkMode: '切换到深色模式',
+  },
+};
+

@@ -14,9 +14,10 @@ import { pt } from './i18n/translations/pt';
 import { ptBR } from './i18n/translations/ptBR';
 import { it } from './i18n/translations/it';
 import { pl } from './i18n/translations/pl';
+import { zhHans } from './i18n/translations/zhHans';
 import type { Language, Translations } from './i18n/types';
 
-export const SUPPORTED_LANGUAGES = ['en', 'fr', 'de', 'es', 'es-419', 'pt', 'pt-BR', 'it', 'pl'] as const;
+export const SUPPORTED_LANGUAGES = ['en', 'fr', 'de', 'es', 'es-419', 'pt', 'pt-BR', 'it', 'pl', 'zh-Hans'] as const;
 
 export const LANGUAGE_LABELS: Record<Language, string> = {
   en: 'English',
@@ -28,6 +29,7 @@ export const LANGUAGE_LABELS: Record<Language, string> = {
   'pt-BR': 'Português (Brasil)',
   it: 'Italiano',
   pl: 'Polski',
+  'zh-Hans': '简体中文',
 };
 
 export const LANGUAGE_FLAGS: Record<Language, string> = {
@@ -40,6 +42,7 @@ export const LANGUAGE_FLAGS: Record<Language, string> = {
   'pt-BR': '/flags/br.svg',
   it: '/flags/it.svg',
   pl: '/flags/pl.svg',
+  'zh-Hans': '/flags/cn.svg',
 };
 
 export function isLanguage(value: string | null | undefined): value is Language {
@@ -63,6 +66,7 @@ export const translations: Record<Language, Translations> = {
   'pt-BR': ptBR,
   it,
   pl,
+  'zh-Hans': zhHans,
 };
 
 export const getTranslations = (language: Language): Translations => {

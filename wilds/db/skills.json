@@ -10,7 +10,8 @@
       "pt": "Adaptabilidade",
       "pt-BR": "Adaptabilidade",
       "it": "Adattabilità",
-      "pl": "Zdolność adaptacji"
+      "pl": "Zdolność adaptacji",
+      "zh-Hans": "适应环境"
     },
     "icon": "defense",
     "max_points": 2
@@ -26,7 +27,8 @@
       "pt": "Onda de Adrenalina",
       "pt-BR": "Onda de Adrenalina",
       "it": "Flusso di adrenalina",
-      "pl": "Napływ adrenaliny"
+      "pl": "Napływ adrenaliny",
+      "zh-Hans": "巧击"
     },
     "icon": "attack",
     "max_points": 5
@@ -42,7 +44,8 @@
       "pt": "Agitador",
       "pt-BR": "Agitador",
       "it": "Istigatore",
-      "pl": "Podżegacz"
+      "pl": "Podżegacz",
+      "zh-Hans": "挑战者"
     },
     "icon": "offense",
     "max_points": 5
@@ -58,7 +61,8 @@
       "pt": "No Ar",
       "pt-BR": "No Ar",
       "it": "Minaccia aerea",
-      "pl": "Wzlot"
+      "pl": "Wzlot",
+      "zh-Hans": "飞燕"
     },
     "icon": "offense",
     "max_points": 1
@@ -74,7 +78,8 @@
       "pt": "Emboscada",
       "pt-BR": "Emboscada",
       "it": "Agguato",
-      "pl": "Zasadzka"
+      "pl": "Zasadzka",
+      "zh-Hans": "急袭"
     },
     "icon": "offense",
     "max_points": 3
@@ -90,7 +95,8 @@
       "pt": "Antivírus",
       "pt-BR": "Antivírus",
       "it": "Antivirus",
-      "pl": "Antywirus"
+      "pl": "Antywirus",
+      "zh-Hans": "无我之境"
     },
     "icon": "offense",
     "max_points": 3
@@ -106,7 +112,8 @@
       "pt": "Mob. Aquática/Limólea",
       "pt-BR": "Mob. Aquática/Limólea",
       "it": "Mobilità acquatica/fango",
-      "pl": "Mobilność w wodzie/oleju"
+      "pl": "Mobilność w wodzie/oleju",
+      "zh-Hans": "适应水域·油泥"
     },
     "icon": "utility",
     "max_points": 2
@@ -122,7 +129,8 @@
       "pt": "Artilharia",
       "pt-BR": "Artilharia",
       "it": "Artiglieria",
-      "pl": "Artyleria"
+      "pl": "Artyleria",
+      "zh-Hans": "炮术"
     },
     "icon": "offense",
     "max_points": 3
@@ -138,7 +146,8 @@
       "pt": "Reforço de Ataque",
       "pt-BR": "Reforço de Ataque",
       "it": "Bonus attacco",
-      "pl": "Wzmocnienie ataku"
+      "pl": "Wzmocnienie ataku",
+      "zh-Hans": "攻击"
     },
     "icon": "attack",
     "max_points": 5
@@ -154,7 +163,8 @@
       "pt": "Balística",
       "pt-BR": "Balística",
       "it": "Balistica",
-      "pl": "Balistyka"
+      "pl": "Balistyka",
+      "zh-Hans": "弹道强化"
     },
     "icon": "ranged",
     "max_points": 3
@@ -170,7 +180,8 @@
       "pt": "Anti-imobilidade",
       "pt-BR": "Anti-imobilidade",
       "it": "Resistenza vincolo",
-      "pl": "Odporność na wiązanie"
+      "pl": "Odporność na wiązanie",
+      "zh-Hans": "束缚耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -186,7 +197,8 @@
       "pt": "Afiação de Lamescamas",
       "pt-BR": "Afiação de Lamescamas",
       "it": "Affilatura delle scaglielama",
-      "pl": "Szlifowanie ostrołuski"
+      "pl": "Szlifowanie ostrołuski",
+      "zh-Hans": "刃鳞研装"
     },
     "icon": "handicraft",
     "max_points": 1
@@ -202,7 +214,8 @@
       "pt": "Recarga de Lamescamas",
       "pt-BR": "Recarga de Lamescamas",
       "it": "Carica scaglialama",
-      "pl": "Ładowanie ostrołusek"
+      "pl": "Ładowanie ostrołusek",
+      "zh-Hans": "刃鳞增装"
     },
     "icon": "ranged",
     "max_points": 1
@@ -218,7 +231,8 @@
       "pt": "Ataque de Explosão",
       "pt-BR": "Ataque de Explosão",
       "it": "Attacco scoppio",
-      "pl": "Atak wybuchem"
+      "pl": "Atak wybuchem",
+      "zh-Hans": "爆破属性强化"
     },
     "icon": "element",
     "max_points": 3
@@ -234,7 +248,8 @@
       "pt": "Adição de Explosão",
       "pt-BR": "Adição de Explosão",
       "it": "Applica scoppio",
-      "pl": "Funkcja wybuchu"
+      "pl": "Funkcja wybuchu",
+      "zh-Hans": "爆破瓶追加"
     },
     "icon": "ranged",
     "max_points": 1
@@ -250,7 +265,8 @@
       "pt": "Antiexplosão",
       "pt-BR": "Antiexplosão",
       "it": "Resistenza scoppio",
-      "pl": "Odporność na wybuch"
+      "pl": "Odporność na wybuch",
+      "zh-Hans": "爆破异常耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -266,7 +282,8 @@
       "pt": "Antissangramento",
       "pt-BR": "Antissangramento",
       "it": "Resistenza sanguinamento",
-      "pl": "Odporność na krwawienie"
+      "pl": "Odporność na krwawienie",
+      "zh-Hans": "裂伤耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -282,7 +299,8 @@
       "pt": "Antiflagelo",
       "pt-BR": "Antiflagelo",
       "it": "Resistenza malus",
-      "pl": "Odporność na plagę"
+      "pl": "Odporność na plagę",
+      "zh-Hans": "属性异常耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -298,7 +316,8 @@
       "pt": "Ponto Cego",
       "pt-BR": "Ponto Cego",
       "it": "Attacco a sorpresa",
-      "pl": "Oślepiacz"
+      "pl": "Oślepiacz",
+      "zh-Hans": "闪光强化"
     },
     "icon": "item",
     "max_points": 1
@@ -314,7 +333,8 @@
       "pt": "Espancador",
       "pt-BR": "Espancador",
       "it": "Devastatore",
-      "pl": "Pałkarz"
+      "pl": "Pałkarz",
+      "zh-Hans": "钝器能手"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -330,7 +350,8 @@
       "pt": "Bombardeiro",
       "pt-BR": "Bombardeiro",
       "it": "Bombardiere",
-      "pl": "Bombardier"
+      "pl": "Bombardier",
+      "zh-Hans": "炸弹客"
     },
     "icon": "item",
     "max_points": 3
@@ -346,7 +367,8 @@
       "pt": "Botânica",
       "pt-BR": "Botânica",
       "it": "Botanico",
-      "pl": "Botanik"
+      "pl": "Botanik",
+      "zh-Hans": "植生学"
     },
     "icon": "gathering",
     "max_points": 4
@@ -362,7 +384,8 @@
       "pt": "Rajada",
       "pt-BR": "Rajada",
       "it": "Catena",
-      "pl": "Wybuch"
+      "pl": "Wybuch",
+      "zh-Hans": "连击"
     },
     "icon": "offense",
     "max_points": 5
@@ -378,7 +401,8 @@
       "pt": "Gato Saqueador",
       "pt-BR": "Gato Saqueador",
       "it": "Gattoscaltro",
-      "pl": "Koci włamywacz"
+      "pl": "Koci włamywacz",
+      "zh-Hans": "喵喵棒"
     },
     "icon": "gathering",
     "max_points": 1
@@ -394,7 +418,8 @@
       "pt": "Mestre da Energia",
       "pt-BR": "Mestre da Energia",
       "it": "Maestro di carica",
-      "pl": "Mistrz ładowania"
+      "pl": "Mistrz ładowania",
+      "zh-Hans": "蓄力大师"
     },
     "icon": "element",
     "max_points": 3
@@ -410,7 +435,8 @@
       "pt": "Energizar",
       "pt-BR": "Energizar",
       "it": "Carica stordente",
-      "pl": "Ładowanie"
+      "pl": "Ładowanie",
+      "zh-Hans": "蓄击强化"
     },
     "icon": "offense",
     "max_points": 1
@@ -426,7 +452,8 @@
       "pt": "Suspensão",
       "pt-BR": "Suspensão",
       "it": "Scalatore",
-      "pl": "Wisielec"
+      "pl": "Wisielec",
+      "zh-Hans": "攀岩者"
     },
     "icon": "utility",
     "max_points": 1
@@ -442,7 +469,8 @@
       "pt": "Coalescência",
       "pt-BR": "Coalescência",
       "it": "Coalescenza",
-      "pl": "Zjednoczenie"
+      "pl": "Zjednoczenie",
+      "zh-Hans": "因祸得福"
     },
     "icon": "offense",
     "max_points": 3
@@ -458,7 +486,8 @@
       "pt": "Constituição",
       "pt-BR": "Constituição",
       "it": "Atleta",
-      "pl": "Tężyzna"
+      "pl": "Tężyzna",
+      "zh-Hans": "体术"
     },
     "icon": "stamina",
     "max_points": 5
@@ -474,7 +503,8 @@
       "pt": "Conversão de Elemento",
       "pt-BR": "Conversão de Elemento",
       "it": "Conversione elementale",
-      "pl": "Przekształcenie żywiołu"
+      "pl": "Przekształcenie żywiołu",
+      "zh-Hans": "属性变换"
     },
     "icon": "attack",
     "max_points": 3
@@ -490,7 +520,8 @@
       "pt": "Conversão de Res. a Raio",
       "pt-BR": "Conversão de Res. a Raio",
       "it": "Conversione res tuono",
-      "pl": "Konwersja piorunów"
+      "pl": "Konwersja piorunów",
+      "zh-Hans": "耐性变换【雷】"
     },
     "icon": "element",
     "max_points": 1
@@ -506,7 +537,8 @@
       "pt": "Conversão de Res. a Água",
       "pt-BR": "Conversão de Res. a Água",
       "it": "Conversione res acqua",
-      "pl": "Konwersja wody"
+      "pl": "Konwersja wody",
+      "zh-Hans": "耐性变换【水】"
     },
     "icon": "element",
     "max_points": 1
@@ -522,7 +554,8 @@
       "pt": "Contraofensiva",
       "pt-BR": "Contraofensiva",
       "it": "Contrattacco",
-      "pl": "Kontratak"
+      "pl": "Kontratak",
+      "zh-Hans": "逆袭"
     },
     "icon": "attack",
     "max_points": 3
@@ -538,7 +571,8 @@
       "pt": "Estouramilho Estalante",
       "pt-BR": "Estouramilho Estalante",
       "it": "Mietitrice tonante",
-      "pl": "Trzaskająca kolbopukawka"
+      "pl": "Trzaskająca kolbopukawka",
+      "zh-Hans": "烧烤玉米炮"
     },
     "icon": "offense",
     "max_points": 1
@@ -554,7 +588,8 @@
       "pt": "Reforço Crítico",
       "pt-BR": "Reforço Crítico",
       "it": "Bonus critico",
-      "pl": "Wzmocnienie krytyczne"
+      "pl": "Wzmocnienie krytyczne",
+      "zh-Hans": "超会心"
     },
     "icon": "affinity",
     "max_points": 5
@@ -570,7 +605,8 @@
       "pt": "Saque Crítico",
       "pt-BR": "Saque Crítico",
       "it": "Sfoderata critica",
-      "pl": "Dobycie krytyczne"
+      "pl": "Dobycie krytyczne",
+      "zh-Hans": "拔刀术【技】"
     },
     "icon": "affinity",
     "max_points": 3
@@ -586,7 +622,8 @@
       "pt": "Elemento Crítico",
       "pt-BR": "Elemento Crítico",
       "it": "Critico elementale",
-      "pl": "Żywioł krytyczny"
+      "pl": "Żywioł krytyczny",
+      "zh-Hans": "会心击【属性】"
     },
     "icon": "element",
     "max_points": 3
@@ -602,7 +639,8 @@
       "pt": "Olho Crítico",
       "pt-BR": "Olho Crítico",
       "it": "Occhio critico",
-      "pl": "Krytyczne oko"
+      "pl": "Krytyczne oko",
+      "zh-Hans": "看破"
     },
     "icon": "affinity",
     "max_points": 5
@@ -618,7 +656,8 @@
       "pt": "Status Crítico",
       "pt-BR": "Status Crítico",
       "it": "Stato critico",
-      "pl": "Status krytyczny"
+      "pl": "Status krytyczny",
+      "zh-Hans": "会心击【特殊】"
     },
     "icon": "element",
     "max_points": 3
@@ -634,7 +673,8 @@
       "pt": "Lado Sombrio",
       "pt-BR": "Lado Sombrio",
       "it": "Lato oscuro",
-      "pl": "Ciemna strona"
+      "pl": "Ciemna strona",
+      "zh-Hans": "暗黑"
     },
     "icon": "attack",
     "max_points": 1
@@ -650,7 +690,8 @@
       "pt": "Reforço de Defesa",
       "pt-BR": "Reforço de Defesa",
       "it": "Bonus difesa",
-      "pl": "Wzmocnienie obrony"
+      "pl": "Wzmocnienie obrony",
+      "zh-Hans": "防御"
     },
     "icon": "defense",
     "max_points": 7
@@ -666,7 +707,8 @@
       "pt": "Bênção Divina",
       "pt-BR": "Bênção Divina",
       "it": "Angelo custode",
-      "pl": "Boskie błogosławieństwo"
+      "pl": "Boskie błogosławieństwo",
+      "zh-Hans": "精灵加护"
     },
     "icon": "defense",
     "max_points": 3
@@ -682,7 +724,8 @@
       "pt": "Ataque de Dragão",
       "pt-BR": "Ataque de Dragão",
       "it": "Attacco drago",
-      "pl": "Atak smoczy"
+      "pl": "Atak smoczy",
+      "zh-Hans": "龙属性攻击强化"
     },
     "icon": "element",
     "max_points": 3
@@ -698,7 +741,8 @@
       "pt": "Resistência a Dragão",
       "pt-BR": "Resistência a Dragão",
       "it": "Resistenza drago",
-      "pl": "Odporność na smoki"
+      "pl": "Odporność na smoki",
+      "zh-Hans": "龙耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -714,7 +758,8 @@
       "pt": "Abafadores",
       "pt-BR": "Abafadores",
       "it": "Protezione udito",
-      "pl": "Zatyczki do uszu"
+      "pl": "Zatyczki do uszu",
+      "zh-Hans": "耳塞"
     },
     "icon": "utility",
     "max_points": 3
@@ -730,7 +775,8 @@
       "pt": "Absorção Elemental",
       "pt-BR": "Absorção Elemental",
       "it": "Assorbi elementi",
-      "pl": "Pochłanianie żywiołów"
+      "pl": "Pochłanianie żywiołów",
+      "zh-Hans": "属性吸收"
     },
     "icon": "offense",
     "max_points": 3
@@ -746,7 +792,8 @@
       "pt": "Entomologista",
       "pt-BR": "Entomologista",
       "it": "Entomologo",
-      "pl": "Entomolog"
+      "pl": "Entomolog",
+      "zh-Hans": "昆虫标本达人"
     },
     "icon": "gathering",
     "max_points": 1
@@ -762,7 +809,8 @@
       "pt": "Extensor de Esquiva",
       "pt-BR": "Extensor de Esquiva",
       "it": "Schivata estesa",
-      "pl": "Wydłużenie uniku"
+      "pl": "Wydłużenie uniku",
+      "zh-Hans": "回避距离提升"
     },
     "icon": "utility",
     "max_points": 3
@@ -778,7 +826,8 @@
       "pt": "Tempo de Esquiva",
       "pt-BR": "Tempo de Esquiva",
       "it": "Schivata",
-      "pl": "Czas na unik"
+      "pl": "Czas na unik",
+      "zh-Hans": "回避性能"
     },
     "icon": "utility",
     "max_points": 5
@@ -794,7 +843,8 @@
       "pt": "Recarga Evasiva",
       "pt-BR": "Recarga Evasiva",
       "it": "Ricarica in schivata",
-      "pl": "Przeładowanie z unikiem"
+      "pl": "Przeładowanie z unikiem",
+      "zh-Hans": "回避装填"
     },
     "icon": "ranged",
     "max_points": 1
@@ -810,7 +860,8 @@
       "pt": "Adição de Exaustão",
       "pt-BR": "Adição de Exaustão",
       "it": "Applica fatica",
-      "pl": "Funkcja wyczerpania"
+      "pl": "Funkcja wyczerpania",
+      "zh-Hans": "减气瓶追加"
     },
     "icon": "ranged",
     "max_points": 1
@@ -826,7 +877,8 @@
       "pt": "Ataque de Fogo",
       "pt-BR": "Ataque de Fogo",
       "it": "Attacco fuoco",
-      "pl": "Atak ogniem"
+      "pl": "Atak ogniem",
+      "zh-Hans": "火属性攻击强化"
     },
     "icon": "element",
     "max_points": 3
@@ -842,7 +894,8 @@
       "pt": "Resistência a Fogo",
       "pt-BR": "Resistência a Fogo",
       "it": "Resistenza fuoco",
-      "pl": "Odporność na ogień"
+      "pl": "Odporność na ogień",
+      "zh-Hans": "火耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -858,7 +911,8 @@
       "pt": "Esfolamento",
       "pt-BR": "Esfolamento",
       "it": "Frustata",
-      "pl": "Obdzieracz"
+      "pl": "Obdzieracz",
+      "zh-Hans": "锁刃刺击"
     },
     "icon": "offense",
     "max_points": 5
@@ -874,7 +928,8 @@
       "pt": "Sem Recuo",
       "pt-BR": "Sem Recuo",
       "it": "Antisussulto",
-      "pl": "Kamienna twarz"
+      "pl": "Kamienna twarz",
+      "zh-Hans": "减轻胆怯"
     },
     "icon": "utility",
     "max_points": 3
@@ -890,7 +945,8 @@
       "pt": "Foco",
       "pt-BR": "Foco",
       "it": "Disciplina",
-      "pl": "Skupienie"
+      "pl": "Skupienie",
+      "zh-Hans": "集中"
     },
     "icon": "offense",
     "max_points": 3
@@ -906,7 +962,8 @@
       "pt": "Investida",
       "pt-BR": "Investida",
       "it": "Incursione",
-      "pl": "Najazd"
+      "pl": "Najazd",
+      "zh-Hans": "攻势"
     },
     "icon": "offense",
     "max_points": 5
@@ -922,7 +979,8 @@
       "pt": "Refeição Grátis",
       "pt-BR": "Refeição Grátis",
       "it": "Pasto gratuito",
-      "pl": "Darmowy posiłek"
+      "pl": "Darmowy posiłek",
+      "zh-Hans": "满足感"
     },
     "icon": "item",
     "max_points": 3
@@ -938,7 +996,8 @@
       "pt": "Geologia",
       "pt-BR": "Geologia",
       "it": "Geologo",
-      "pl": "Geolog"
+      "pl": "Geolog",
+      "zh-Hans": "地质学"
     },
     "icon": "gathering",
     "max_points": 3
@@ -954,7 +1013,8 @@
       "pt": "Mestre da Grelha",
       "pt-BR": "Mestre da Grelha",
       "it": "Maestro della griglia",
-      "pl": "Mistrz grilla"
+      "pl": "Mistrz grilla",
+      "zh-Hans": "炎之大厨"
     },
     "icon": "attack",
     "max_points": 1
@@ -970,7 +1030,8 @@
       "pt": "Bloqueio",
       "pt-BR": "Bloqueio",
       "it": "Guardia",
-      "pl": "Garda"
+      "pl": "Garda",
+      "zh-Hans": "格挡性能"
     },
     "icon": "utility",
     "max_points": 3
@@ -986,7 +1047,8 @@
       "pt": "Aumento de Bloqueio",
       "pt-BR": "Aumento de Bloqueio",
       "it": "Ermetico",
-      "pl": "Wzniesiona garda"
+      "pl": "Wzniesiona garda",
+      "zh-Hans": "格挡强化"
     },
     "icon": "utility",
     "max_points": 3
@@ -1002,7 +1064,8 @@
       "pt": "Artesanato",
       "pt-BR": "Artesanato",
       "it": "Artigiano",
-      "pl": "Rękodzieło"
+      "pl": "Rękodzieło",
+      "zh-Hans": "匠"
     },
     "icon": "handicraft",
     "max_points": 5
@@ -1018,7 +1081,8 @@
       "pt": "Heroísmo",
       "pt-BR": "Heroísmo",
       "it": "Eroismo",
-      "pl": "Wyczyny"
+      "pl": "Wyczyny",
+      "zh-Hans": "火场怪力"
     },
     "icon": "offense",
     "max_points": 5
@@ -1034,7 +1098,8 @@
       "pt": "Regente de Berrante",
       "pt-BR": "Regente de Berrante",
       "it": "Maestro del corno",
-      "pl": "Wirtuoz rogu"
+      "pl": "Wirtuoz rogu",
+      "zh-Hans": "吹笛名人"
     },
     "icon": "offense",
     "max_points": 2
@@ -1050,7 +1115,8 @@
       "pt": "Antifome",
       "pt-BR": "Antifome",
       "it": "Resistenza fame",
-      "pl": "Odporność na głód"
+      "pl": "Odporność na głód",
+      "zh-Hans": "饥饿耐性"
     },
     "icon": "stamina",
     "max_points": 3
@@ -1066,7 +1132,8 @@
       "pt": "Ataque de Gelo",
       "pt-BR": "Ataque de Gelo",
       "it": "Attacco ghiaccio",
-      "pl": "Atak lodem"
+      "pl": "Atak lodem",
+      "zh-Hans": "冰属性攻击强化"
     },
     "icon": "element",
     "max_points": 3
@@ -1082,7 +1149,8 @@
       "pt": "Resistência a Gelo",
       "pt-BR": "Resistência a Gelo",
       "it": "Resistenza ghiaccio",
-      "pl": "Odporność na lód"
+      "pl": "Odporność na lód",
+      "zh-Hans": "冰耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -1098,7 +1166,8 @@
       "pt": "Intimidação",
       "pt-BR": "Intimidação",
       "it": "Intimidatore",
-      "pl": "Zastraszacz"
+      "pl": "Zastraszacz",
+      "zh-Hans": "威吓"
     },
     "icon": "utility",
     "max_points": 3
@@ -1114,7 +1183,8 @@
       "pt": "Pele de Ferro",
       "pt-BR": "Pele de Ferro",
       "it": "Pelle di ferro",
-      "pl": "Żelazna skóra"
+      "pl": "Żelazna skóra",
+      "zh-Hans": "防御力下降耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -1130,7 +1200,8 @@
       "pt": "Prolongar Item",
       "pt-BR": "Prolongar Item",
       "it": "Estensione oggetti",
-      "pl": "Długie trwanie"
+      "pl": "Długie trwanie",
+      "zh-Hans": "道具使用强化"
     },
     "icon": "item",
     "max_points": 3
@@ -1146,7 +1217,8 @@
       "pt": "Mestre do Salto",
       "pt-BR": "Mestre do Salto",
       "it": "Maestro saltatore",
-      "pl": "Mistrz skakania"
+      "pl": "Mistrz skakania",
+      "zh-Hans": "跳跃铁人"
     },
     "icon": "utility",
     "max_points": 1
@@ -1162,7 +1234,8 @@
       "pt": "Poder Latente",
       "pt-BR": "Poder Latente",
       "it": "Forza latente",
-      "pl": "Uśpiona moc"
+      "pl": "Uśpiona moc",
+      "zh-Hans": "力量解放"
     },
     "icon": "offense",
     "max_points": 5
@@ -1178,7 +1251,8 @@
       "pt": "Salto de Fé",
       "pt-BR": "Salto de Fé",
       "it": "Salto nel buio",
-      "pl": "Skok wiary"
+      "pl": "Skok wiary",
+      "zh-Hans": "飞身跃入"
     },
     "icon": "utility",
     "max_points": 1
@@ -1194,7 +1268,8 @@
       "pt": "Carregar Munição",
       "pt-BR": "Carregar Munição",
       "it": "Bonus capacità",
-      "pl": "Ładuj łuski"
+      "pl": "Ładuj łuski",
+      "zh-Hans": "炮弹装填"
     },
     "icon": "utility",
     "max_points": 2
@@ -1210,7 +1285,8 @@
       "pt": "Maratonista",
       "pt-BR": "Maratonista",
       "it": "Maratoneta",
-      "pl": "Maratończyk"
+      "pl": "Maratończyk",
+      "zh-Hans": "跑者"
     },
     "icon": "stamina",
     "max_points": 3
@@ -1226,7 +1302,8 @@
       "pt": "Toque de Mestre",
       "pt-BR": "Toque de Mestre",
       "it": "Tocco del maestro",
-      "pl": "Dotyk mistrza"
+      "pl": "Dotyk mistrza",
+      "zh-Hans": "达人艺"
     },
     "icon": "handicraft",
     "max_points": 1
@@ -1242,7 +1319,8 @@
       "pt": "Poder Máximo",
       "pt-BR": "Poder Máximo",
       "it": "Massima potenza",
-      "pl": "Maksymalna moc"
+      "pl": "Maksymalna moc",
+      "zh-Hans": "精神抖擞"
     },
     "icon": "attack",
     "max_points": 3
@@ -1258,7 +1336,8 @@
       "pt": "Olho da Mente",
       "pt-BR": "Olho da Mente",
       "it": "Preveggenza",
-      "pl": "Oko umysłu"
+      "pl": "Oko umysłu",
+      "zh-Hans": "心眼"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -1274,7 +1353,8 @@
       "pt": "Cogumelaria",
       "pt-BR": "Cogumelaria",
       "it": "Fungomante",
-      "pl": "Grzybomanta"
+      "pl": "Grzybomanta",
+      "zh-Hans": "最爱蘑菇"
     },
     "icon": "item",
     "max_points": 3
@@ -1290,7 +1370,8 @@
       "pt": "Disparos Normais",
       "pt-BR": "Disparos Normais",
       "it": "Tiri normali",
-      "pl": "Strzały normalne"
+      "pl": "Strzały normalne",
+      "zh-Hans": "通常弹·通常箭强化"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1306,7 +1387,8 @@
       "pt": "Bloqueio Ofensivo",
       "pt-BR": "Bloqueio Ofensivo",
       "it": "Guardia offensiva",
-      "pl": "Garda ofensywna"
+      "pl": "Garda ofensywna",
+      "zh-Hans": "攻击守势"
     },
     "icon": "attack",
     "max_points": 3
@@ -1322,7 +1404,8 @@
       "pt": "Disparo Inicial",
       "pt-BR": "Disparo Inicial",
       "it": "Primo colpo",
-      "pl": "Strzał otwierający"
+      "pl": "Strzał otwierający",
+      "zh-Hans": "首发迅击"
     },
     "icon": "ranged",
     "max_points": 3
@@ -1338,7 +1421,8 @@
       "pt": "Mateiro",
       "pt-BR": "Mateiro",
       "it": "Campeggiatore",
-      "pl": "Miłośnik przyrody"
+      "pl": "Miłośnik przyrody",
+      "zh-Hans": "猎人生活"
     },
     "icon": "gathering",
     "max_points": 1
@@ -1354,7 +1438,8 @@
       "pt": "Reunir Amigatos",
       "pt-BR": "Reunir Amigatos",
       "it": "Gregario",
-      "pl": "Mobilizacja koleżkotów"
+      "pl": "Mobilizacja koleżkotów",
+      "zh-Hans": "指示随从"
     },
     "icon": "offense",
     "max_points": 5
@@ -1370,7 +1455,8 @@
       "pt": "Adição de Paralisia",
       "pt-BR": "Adição de Paralisia",
       "it": "Applica paralisi",
-      "pl": "Funkcja paraliżu"
+      "pl": "Funkcja paraliżu",
+      "zh-Hans": "麻痹瓶追加"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1386,7 +1472,8 @@
       "pt": "Ataque de Paralisia",
       "pt-BR": "Ataque de Paralisia",
       "it": "Attacco paralisi",
-      "pl": "Atak paraliżem"
+      "pl": "Atak paraliżem",
+      "zh-Hans": "麻痹属性强化"
     },
     "icon": "element",
     "max_points": 3
@@ -1402,7 +1489,8 @@
       "pt": "Antiparalisia",
       "pt-BR": "Antiparalisia",
       "it": "Resistenza paralisi",
-      "pl": "Odporność na paraliż"
+      "pl": "Odporność na paraliż",
+      "zh-Hans": "麻痹耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -1418,7 +1506,8 @@
       "pt": "Quebra-parte",
       "pt-BR": "Quebra-parte",
       "it": "Spaccamostri",
-      "pl": "Rozłamywacz"
+      "pl": "Rozłamywacz",
+      "zh-Hans": "破坏王"
     },
     "icon": "offense",
     "max_points": 3
@@ -1434,7 +1523,8 @@
       "pt": "Desempenho Máximo",
       "pt-BR": "Desempenho Máximo",
       "it": "Forma perfetta",
-      "pl": "Szczyt możliwości"
+      "pl": "Szczyt możliwości",
+      "zh-Hans": "无伤"
     },
     "icon": "attack",
     "max_points": 5
@@ -1450,7 +1540,8 @@
       "pt": "Disparos Perfurantes",
       "pt-BR": "Disparos Perfurantes",
       "it": "Colpi perforanti",
-      "pl": "Przebijające strzały"
+      "pl": "Przebijające strzały",
+      "zh-Hans": "贯穿弹·龙之箭强化"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1466,7 +1557,8 @@
       "pt": "Ataque de Veneno",
       "pt-BR": "Ataque de Veneno",
       "it": "Attacco veleno",
-      "pl": "Atak trucizną"
+      "pl": "Atak trucizną",
+      "zh-Hans": "毒属性强化"
     },
     "icon": "element",
     "max_points": 3
@@ -1482,7 +1574,8 @@
       "pt": "Prolongar Veneno",
       "pt-BR": "Prolongar Veneno",
       "it": "Aumenta veleno",
-      "pl": "Długotrwała trucizna"
+      "pl": "Długotrwała trucizna",
+      "zh-Hans": "毒伤害强化"
     },
     "icon": "offense",
     "max_points": 1
@@ -1498,7 +1591,8 @@
       "pt": "Adição de Veneno",
       "pt-BR": "Adição de Veneno",
       "it": "Applica veleno",
-      "pl": "Funkcja trucizny"
+      "pl": "Funkcja trucizny",
+      "zh-Hans": "毒瓶追加"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1514,7 +1608,8 @@
       "pt": "Antiveneno",
       "pt-BR": "Antiveneno",
       "it": "Resistenza veleno",
-      "pl": "Odporność na truciznę"
+      "pl": "Odporność na truciznę",
+      "zh-Hans": "毒耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -1530,7 +1625,8 @@
       "pt": "Prolongar Poder",
       "pt-BR": "Prolongar Poder",
       "it": "Estendi potenza",
-      "pl": "Przedłużenie mocy"
+      "pl": "Przedłużenie mocy",
+      "zh-Hans": "强化持续"
     },
     "icon": "offense",
     "max_points": 3
@@ -1546,7 +1642,8 @@
       "pt": "Pedra do Poder",
       "pt-BR": "Pedra do Poder",
       "it": "Pietra potente",
-      "pl": "Kamień mocy"
+      "pl": "Kamień mocy",
+      "zh-Hans": "能量石"
     },
     "icon": "attack",
     "max_points": 1
@@ -1562,7 +1659,8 @@
       "pt": "Polimento Protetor",
       "pt-BR": "Polimento Protetor",
       "it": "Strato protettivo",
-      "pl": "Lakier ochronny"
+      "pl": "Lakier ochronny",
+      "zh-Hans": "刚刃打磨"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -1578,7 +1676,8 @@
       "pt": "Punição Imediata",
       "pt-BR": "Punição Imediata",
       "it": "Sfoderata punitrice",
-      "pl": "Mordercze dobycie"
+      "pl": "Mordercze dobycie",
+      "zh-Hans": "拔刀术【力】"
     },
     "icon": "offense",
     "max_points": 3
@@ -1594,7 +1693,8 @@
       "pt": "Bainha Rápida",
       "pt-BR": "Bainha Rápida",
       "it": "Rinfodero veloce",
-      "pl": "Szybkie chowanie"
+      "pl": "Szybkie chowanie",
+      "zh-Hans": "纳刀术"
     },
     "icon": "utility",
     "max_points": 3
@@ -1610,7 +1710,8 @@
       "pt": "Aum. Disparo Rápido",
       "pt-BR": "Aum. Disparo Rápido",
       "it": "Fuoco rapido+",
-      "pl": "Więcej szybkiego ognia"
+      "pl": "Więcej szybkiego ognia",
+      "zh-Hans": "速射强化"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1626,7 +1727,8 @@
       "pt": "Transformação Rápida",
       "pt-BR": "Transformação Rápida",
       "it": "Trasforma rapido",
-      "pl": "Szybka transformacja"
+      "pl": "Szybka transformacja",
+      "zh-Hans": "高速变形"
     },
     "icon": "offense",
     "max_points": 3
@@ -1642,7 +1744,8 @@
       "pt": "Fio da Navalha",
       "pt-BR": "Fio da Navalha",
       "it": "Lama affilata",
-      "pl": "Ostry jak brzytwa"
+      "pl": "Ostry jak brzytwa",
+      "zh-Hans": "利刃"
     },
     "icon": "handicraft",
     "max_points": 3
@@ -1658,7 +1761,8 @@
       "pt": "Vel. de Regeneração",
       "pt-BR": "Vel. de Regeneração",
       "it": "Guarigione",
-      "pl": "Szybkość regeneracji"
+      "pl": "Szybkość regeneracji",
+      "zh-Hans": "回复速度"
     },
     "icon": "health",
     "max_points": 3
@@ -1674,7 +1778,8 @@
       "pt": "Aum. de Regeneração",
       "pt-BR": "Aum. de Regeneração",
       "it": "Bonus cura",
-      "pl": "Wzrost regeneracji"
+      "pl": "Wzrost regeneracji",
+      "zh-Hans": "体力回复量提升"
     },
     "icon": "health",
     "max_points": 3
@@ -1690,7 +1795,8 @@
       "pt": "Indignação",
       "pt-BR": "Indignação",
       "it": "Risentimento",
-      "pl": "Uraza"
+      "pl": "Uraza",
+      "zh-Hans": "怨恨"
     },
     "icon": "attack",
     "max_points": 5
@@ -1706,7 +1812,8 @@
       "pt": "Oniguiri",
       "pt-BR": "Oniguiri",
       "it": "Onigiri",
-      "pl": "Onigiri"
+      "pl": "Onigiri",
+      "zh-Hans": "饭团"
     },
     "icon": "offense",
     "max_points": 1
@@ -1722,7 +1829,8 @@
       "pt": "Autoaprimoramento",
       "pt-BR": "Autoaprimoramento",
       "it": "Miglioramento",
-      "pl": "Samodoskonalenie"
+      "pl": "Samodoskonalenie",
+      "zh-Hans": "钻研"
     },
     "icon": "offense",
     "max_points": 1
@@ -1738,7 +1846,8 @@
       "pt": "Reflexo Estilhaçante",
       "pt-BR": "Reflexo Estilhaçante",
       "it": "Riflesso infranto",
-      "pl": "Rozbite odbicie"
+      "pl": "Rozbite odbicie",
+      "zh-Hans": "解放镜刃碎片"
     },
     "icon": "attack",
     "max_points": 1
@@ -1754,7 +1863,8 @@
       "pt": "Amortecedor",
       "pt-BR": "Amortecedor",
       "it": "Ammortizza danni",
-      "pl": "Pochłaniacz uderzeń"
+      "pl": "Pochłaniacz uderzeń",
+      "zh-Hans": "缓冲"
     },
     "icon": "utility",
     "max_points": 1
@@ -1770,7 +1880,8 @@
       "pt": "Ataque de Sono",
       "pt-BR": "Ataque de Sono",
       "it": "Attacco sonno",
-      "pl": "Atak uśpieniem"
+      "pl": "Atak uśpieniem",
+      "zh-Hans": "睡眠属性强化"
     },
     "icon": "element",
     "max_points": 3
@@ -1786,7 +1897,8 @@
       "pt": "Adição de Sono",
       "pt-BR": "Adição de Sono",
       "it": "Applica sonno",
-      "pl": "Funkcja uśpienia"
+      "pl": "Funkcja uśpienia",
+      "zh-Hans": "睡眠瓶追加"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1802,7 +1914,8 @@
       "pt": "Antissono",
       "pt-BR": "Antissono",
       "it": "Resistenza sonno",
-      "pl": "Odporność na uśpienie"
+      "pl": "Odporność na uśpienie",
+      "zh-Hans": "睡眠耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -1818,7 +1931,8 @@
       "pt": "Lâmina Embebida",
       "pt-BR": "Lâmina Embebida",
       "it": "Lama sgusciante",
-      "pl": "Gładkie ostrze"
+      "pl": "Gładkie ostrze",
+      "zh-Hans": "浸水刃纹"
     },
     "icon": "affinity",
     "max_points": 3
@@ -1834,7 +1948,8 @@
       "pt": "Atordoante",
       "pt-BR": "Atordoante",
       "it": "Battitore",
-      "pl": "Powalacz"
+      "pl": "Powalacz",
+      "zh-Hans": "击晕术"
     },
     "icon": "offense",
     "max_points": 3
@@ -1850,7 +1965,8 @@
       "pt": "Reforço Munição Especial",
       "pt-BR": "Reforço Munição Especial",
       "it": "Bonus munizioni speciali",
-      "pl": "Moc amunicji specjalnej"
+      "pl": "Moc amunicji specjalnej",
+      "zh-Hans": "特殊射击强化"
     },
     "icon": "ranged",
     "max_points": 2
@@ -1866,7 +1982,8 @@
       "pt": "Comer Rapidamente",
       "pt-BR": "Comer Rapidamente",
       "it": "Pasto veloce",
-      "pl": "Szybkie jedzenie"
+      "pl": "Szybkie jedzenie",
+      "zh-Hans": "快吃"
     },
     "icon": "utility",
     "max_points": 3
@@ -1882,7 +1999,8 @@
       "pt": "Afiação Rápida",
       "pt-BR": "Afiação Rápida",
       "it": "Affilatura veloce",
-      "pl": "Szybkie ostrzenie"
+      "pl": "Szybkie ostrzenie",
+      "zh-Hans": "砥石使用高速化"
     },
     "icon": "item",
     "max_points": 2
@@ -1898,7 +2016,8 @@
       "pt": "Disparo Potente/Disperso",
       "pt-BR": "Disparo Potente/Disperso",
       "it": "Bonus ventaglio/tiro potente",
-      "pl": "Strzały mocy/rozrzutowe"
+      "pl": "Strzały mocy/rozrzutowe",
+      "zh-Hans": "散弹·刚射强化"
     },
     "icon": "ranged",
     "max_points": 1
@@ -1914,7 +2033,8 @@
       "pt": "Surto de Vigor",
       "pt-BR": "Surto de Vigor",
       "it": "Super resistenza",
-      "pl": "Przypływ wytrzymałości"
+      "pl": "Przypływ wytrzymałości",
+      "zh-Hans": "耐力急速回复"
     },
     "icon": "stamina",
     "max_points": 3
@@ -1930,7 +2050,8 @@
       "pt": "Ladrão de Vigor",
       "pt-BR": "Ladrão de Vigor",
       "it": "Ruba resistenza",
-      "pl": "Kradzież wytrzymałości"
+      "pl": "Kradzież wytrzymałości",
+      "zh-Hans": "夺取耐力"
     },
     "icon": "offense",
     "max_points": 3
@@ -1946,7 +2067,8 @@
       "pt": "Antifedor",
       "pt-BR": "Antifedor",
       "it": "Resistenza fetore",
-      "pl": "Odporność na smród"
+      "pl": "Odporność na smród",
+      "zh-Hans": "恶臭耐性"
     },
     "icon": "item",
     "max_points": 2
@@ -1962,7 +2084,8 @@
       "pt": "Antiatordoamento",
       "pt-BR": "Antiatordoamento",
       "it": "Resistenza stordimento",
-      "pl": "Odporność na ogłuszenie"
+      "pl": "Odporność na ogłuszenie",
+      "zh-Hans": "昏厥耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -1978,7 +2101,8 @@
       "pt": "Sobrevivência",
       "pt-BR": "Sobrevivência",
       "it": "Esperto di sopravvivenza",
-      "pl": "Mistrz przetrwania"
+      "pl": "Mistrz przetrwania",
+      "zh-Hans": "环境利用知识"
     },
     "icon": "health",
     "max_points": 3
@@ -1994,7 +2118,8 @@
       "pt": "Sinergia",
       "pt-BR": "Sinergia",
       "it": "Sinergia",
-      "pl": "Synergia"
+      "pl": "Synergia",
+      "zh-Hans": "协作程序"
     },
     "icon": "affinity",
     "max_points": 1
@@ -2010,7 +2135,8 @@
       "pt": "Escudo Sintético",
       "pt-BR": "Escudo Sintético",
       "it": "Scudo sintetico",
-      "pl": "Syntetyczna tarcza"
+      "pl": "Syntetyczna tarcza",
+      "zh-Hans": "合成盾"
     },
     "icon": "defense",
     "max_points": 1
@@ -2026,7 +2152,8 @@
       "pt": "Disparo Tétrade",
       "pt-BR": "Disparo Tétrade",
       "it": "Colpo tetrade",
-      "pl": "Strzał tetradowy"
+      "pl": "Strzał tetradowy",
+      "zh-Hans": "强四射击"
     },
     "icon": "ranged",
     "max_points": 3
@@ -2042,7 +2169,8 @@
       "pt": "Ataque de Raio",
       "pt-BR": "Ataque de Raio",
       "it": "Attacco tuono",
-      "pl": "Atak piorunem"
+      "pl": "Atak piorunem",
+      "zh-Hans": "雷属性攻击强化"
     },
     "icon": "element",
     "max_points": 3
@@ -2058,7 +2186,8 @@
       "pt": "Resistência a Raio",
       "pt-BR": "Resistência a Raio",
       "it": "Resistenza tuono",
-      "pl": "Odporność na piorun"
+      "pl": "Odporność na piorun",
+      "zh-Hans": "雷耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -2074,7 +2203,8 @@
       "pt": "Perícia em Ferramentas",
       "pt-BR": "Perícia em Ferramentas",
       "it": "Manutenzione",
-      "pl": "Spec od narzędzi"
+      "pl": "Spec od narzędzi",
+      "zh-Hans": "整备"
     },
     "icon": "item",
     "max_points": 5
@@ -2090,7 +2220,8 @@
       "pt": "Antissísmico",
       "pt-BR": "Antissísmico",
       "it": "Antisismico",
-      "pl": "Odporność na wstrząsy"
+      "pl": "Odporność na wstrząsy",
+      "zh-Hans": "耐震"
     },
     "icon": "utility",
     "max_points": 3
@@ -2106,7 +2237,8 @@
       "pt": "Ataque de Água",
       "pt-BR": "Ataque de Água",
       "it": "Attacco acqua",
-      "pl": "Atak wodą"
+      "pl": "Atak wodą",
+      "zh-Hans": "水属性攻击强化"
     },
     "icon": "element",
     "max_points": 3
@@ -2122,7 +2254,8 @@
       "pt": "Resistência a Água",
       "pt-BR": "Resistência a Água",
       "it": "Resistenza acqua",
-      "pl": "Odporność na wodę"
+      "pl": "Odporność na wodę",
+      "zh-Hans": "水耐性"
     },
     "icon": "defense",
     "max_points": 3
@@ -2138,7 +2271,8 @@
       "pt": "Exploração de Fraqueza",
       "pt-BR": "Exploração de Fraqueza",
       "it": "Punto debole",
-      "pl": "Wykorzystanie słabości"
+      "pl": "Wykorzystanie słabości",
+      "zh-Hans": "弱点特效"
     },
     "icon": "attack",
     "max_points": 5
@@ -2154,7 +2288,8 @@
       "pt": "Torrente Chamalva",
       "pt-BR": "Torrente Chamalva",
       "it": "Biancotorrente",
-      "pl": "Strumień białego płomienia"
+      "pl": "Strumień białego płomienia",
+      "zh-Hans": "白炽奔流"
     },
     "icon": "attack",
     "max_points": 1
@@ -2170,7 +2305,8 @@
       "pt": "Alcance Amplo",
       "pt-BR": "Alcance Amplo",
       "it": "Ampia area",
-      "pl": "Duży zasięg"
+      "pl": "Duży zasięg",
+      "zh-Hans": "广域化"
     },
     "icon": "item",
     "max_points": 5
@@ -2186,7 +2322,8 @@
       "pt": "Antivento",
       "pt-BR": "Antivento",
       "it": "Paravento",
-      "pl": "Wiatrochron"
+      "pl": "Wiatrochron",
+      "zh-Hans": "风压耐性"
     },
     "icon": "utility",
     "max_points": 3

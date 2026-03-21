@@ -7,6 +7,15 @@ DATA_NAME_KEY_ALIASES = {
     'pt-BR': 'pt',
     # es-419 can fall back to es when regional key is unavailable.
     'es-419': 'es',
+    # Simplified Chinese variants can fall back to zh-Hans.
+    'zh-CN': 'zh-Hans',
+    'zh': 'zh-Hans',
+}
+
+LANGUAGE_INPUT_ALIASES = {
+    'zh': 'zh-Hans',
+    'zh-cn': 'zh-Hans',
+    'zh-hans': 'zh-Hans',
 }
 
 
@@ -28,7 +37,7 @@ def _parse_supported_languages(raw: str) -> list[str]:
 
 
 SUPPORTED_LANGUAGES = _parse_supported_languages(
-    os.getenv('MHOPTI_SUPPORTED_LANGUAGES', 'en,fr,de,es,es-419,pt,pt-BR,it,pl')
+    os.getenv('MHOPTI_SUPPORTED_LANGUAGES', 'en,fr,de,es,es-419,pt,pt-BR,it,pl,zh-Hans')
 )
 
 _DEFAULT_LANGUAGE = _normalize_language_input(os.getenv('MHOPTI_DEFAULT_LANGUAGE', 'en'))
@@ -41,6 +50,10 @@ def normalize_language(value: str | None) -> str:
     normalized = _normalize_language_input(value)
     if not normalized:
         return DEFAULT_LANGUAGE
+    alias = LANGUAGE_INPUT_ALIASES.get(normalized.lower())
+    if alias and alias in SUPPORTED_LANGUAGES:
+        return alias
+
     if normalized in SUPPORTED_LANGUAGES:
         return normalized
 

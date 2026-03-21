@@ -17,7 +17,7 @@ weapon_files = [
     )
 ]
 
-SUPPORTED_LANGUAGES = ['en', 'fr', 'de', 'es', 'es-419', 'pt', 'pt-BR', 'it', 'pl']
+SUPPORTED_LANGUAGES = ['en', 'fr', 'de', 'es', 'es-419', 'pt', 'pt-BR', 'it', 'pl', 'zh-Hans']
 
 LANGUAGE_SOURCE_KEYS = {
     'en': ['en'],
@@ -30,6 +30,7 @@ LANGUAGE_SOURCE_KEYS = {
     'pt-BR': ['pt-BR', 'pt', 'en'],
     'it': ['it', 'en'],
     'pl': ['pl', 'en'],
+    'zh-Hans': ['zh-Hans', 'zh-CN', 'zh', 'en'],
 }
 
 

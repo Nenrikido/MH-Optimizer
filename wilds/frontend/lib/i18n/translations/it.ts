@@ -14,7 +14,7 @@ export const it: Translations = {
   },
   options: {
     includeAllAmulets: 'Includi tutti gli amuleti generati dalle abilita desiderate (se disattivato, include solo amuleti farmabili e amuleti scelti nella scheda filtri)',
-    transcend: 'Trascendi tutte le armature (modifica gli slot decorazione se la rarita e 5 o 6)',
+    transcend: 'Trascendi tutte le armature (modifica gli slot decorazione se la rarita è 5 o 6)',
     includeGogSets: 'Includi tutti i set possibili sulle armi potenziate di Gogmazios',
   },
   inputs: {
@@ -93,15 +93,15 @@ export const it: Translations = {
     help: 'Aiuto',
     howToUse: 'Come usare:',
     howToUseSteps: {
-      step1: 'Scegli abilita, set e armi target con autocomplete.',
-      step2: 'Regola livelli massimi/pesi e requisiti minimi dei pezzi set.',
+      step1: 'Scegli le tue abilità, set e armi con il completamento automatico.',
+      step2: 'Regola i punti e i pesi massimi e i requisiti dei pezzi del set.',
       step3: 'Usa Filtri per aggiungere amuleti ed escludere pezzi armatura specifici.',
       step4: 'Clicca Ottimizza e controlla build, abilita e bonus set/gruppo attivi.',
     },
     notes: 'Note:',
     notesItems: {
       dataUpToDate: 'I dati sono aggiornati alla TU4.1 (AT Arkveld)',
-      defaultValues: 'Si, i valori predefiniti sono per LS, si sono un weeb',
+      defaultValues: 'Sì, i valori predefiniti sono per LS, sì sono un weeb',
       noBuild: 'Se non compare alcuna build, allenta i vincoli (set/abilita/filtri).',
       gogFilters: 'I filtri set/gruppo Gogmazios sono nascosti quando "Includi tutti i set Gog" e attivo.',
       customTemplates: 'I template personalizzati salvati sono locali nel browser.',
