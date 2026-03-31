@@ -67,6 +67,7 @@ export const de: Translations = {
     amulets: {
       title: 'Talismane',
       addAmulet: 'Talisman hinzufügen',
+      importAmulets: 'Talismane importieren',
       skill: 'Fertigkeit',
       slots: 'Slots',
     },
@@ -103,6 +104,7 @@ export const de: Translations = {
       dataUpToDate: 'Die Daten sind aktuell auf TU4.1 (AT Arkveld).',
       defaultValues: 'Ja, die Standardwerte gehen eher in Richtung Langschwert. Ja, ich bin ein Weeb.',
       noBuild: 'Wenn nichts erscheint, ist die Anfrage wahrscheinlich etwas zu streng — lockere mal einen Set-Bonus, ein Skill-Limit oder einen Filter.',
+      amuletsImport: 'Du kannst Talismane mit dem Mod "GameCat Wilds Charm Exporter" auf Nexus Mods importieren.',
       gogFilters: 'Die Gogmazios-Set-/Gruppenfilter bleiben ausgeblendet, solange „Alle Gog-Sets einbeziehen“ aktiv ist.',
       customTemplates: 'Eigene Vorlagen werden lokal in deinem Browser gespeichert und bleiben damit auf diesem Gerät.',
     },

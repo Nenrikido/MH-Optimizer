@@ -67,6 +67,7 @@ export const pt: Translations = {
     amulets: {
       title: 'Amuletos',
       addAmulet: 'Adicionar um amuleto',
+      importAmulets: 'Importar amuletos',
       skill: 'Competência',
       slots: 'Slots',
     },
@@ -103,6 +104,7 @@ export const pt: Translations = {
       dataUpToDate: 'Os dados estão atualmente atualizados para TU4.1 (AT Arkveld).',
       defaultValues: 'Sim, os valores padrão puxam bastante para Espada Longa. Sim, sou um weeb.',
       noBuild: 'Se não aparecer nada, o pedido está provavelmente apertado demais — tenta aliviar um bónus de conjunto, um limite de competência ou um filtro.',
+      amuletsImport: 'Podes importar amuletos com o mod "GameCat Wilds Charm Exporter" no Nexus Mods.',
       gogFilters: 'Os filtros de conjunto/grupo de Gogmazios ficam ocultos enquanto "Incluir todos os conjuntos Gog" estiver ativo.',
       customTemplates: 'Os modelos personalizados ficam guardados localmente no teu navegador, por isso permanecem apenas neste dispositivo.',
     },

@@ -67,6 +67,7 @@ export const en: Translations = {
     amulets: {
       title: 'Amulets',
       addAmulet: 'Add an amulet',
+      importAmulets: 'Import amulets',
       skill: 'Skill',
       slots: 'Slots',
     },
@@ -103,6 +104,7 @@ export const en: Translations = {
       dataUpToDate: 'Data is currently up to date with TU4.1 (AT Arkveld).',
       defaultValues: 'Yep, the default values lean Long Sword. Yep, i\'m a weeb.',
       noBuild: 'If nothing shows up, your request is probably too strict — try easing a set requirement, skill cap, or filter.',
+      amuletsImport: 'You can import amulets from the "GameCat Wilds Charm Exporter" mod on Nexus Mods.',
       gogFilters: 'Gogmazios set/group filters stay hidden while "Include all Gog sets" is enabled.',
       customTemplates: 'Custom templates are saved locally in your browser, so they stay personal to this device.',
     },

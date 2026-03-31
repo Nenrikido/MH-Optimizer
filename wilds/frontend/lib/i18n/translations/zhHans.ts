@@ -67,6 +67,7 @@ export const zhHans: Translations = {
     amulets: {
       title: '护石',
       addAmulet: '添加护石',
+      importAmulets: '导入护石',
       skill: '技能',
       slots: '插槽',
     },
@@ -103,6 +104,7 @@ export const zhHans: Translations = {
       dataUpToDate: '数据目前已更新到 TU4.1（AT Arkveld）。',
       defaultValues: '没错，默认值明显更偏向太刀。没错，我是个 weeb。',
       noBuild: '如果什么都没出，多半是条件卡得太死了——试着放宽一个套装要求、技能上限，或者某个筛选条件。',
+      amuletsImport: '你可以通过 Nexus Mods 上的 "GameCat Wilds Charm Exporter" 模组导入护石。',
       gogFilters: '启用“包含所有戈格玛吉欧斯套装”后，Gog 的套装/组筛选会保持隐藏。',
       customTemplates: '自定义模板只会保存在你的浏览器本地，所以只属于当前这台设备。',
     },

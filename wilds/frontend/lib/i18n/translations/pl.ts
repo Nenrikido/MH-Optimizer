@@ -67,6 +67,7 @@ export const pl: Translations = {
     amulets: {
       title: 'Amulety',
       addAmulet: 'Dodaj amulet',
+      importAmulets: 'Importuj amulety',
       skill: 'Umiejetnosc',
       slots: 'Sloty',
     },
@@ -103,6 +104,7 @@ export const pl: Translations = {
       dataUpToDate: 'Dane są obecnie aktualne dla TU4.1 (AT Arkveld).',
       defaultValues: 'Tak, domyślne wartości mocno skręcają w stronę Długiego Miecza. Tak, jestem weebem.',
       noBuild: 'Jeśli nic się nie pojawia, prośba jest pewnie zbyt restrykcyjna — spróbuj poluzować bonus setu, limit umiejętności albo któryś filtr.',
+      amuletsImport: 'Możesz importować amulety za pomocą moda "GameCat Wilds Charm Exporter" na Nexus Mods.',
       gogFilters: 'Filtry setu/grupy Gogmaziosa pozostają ukryte, gdy włączone jest „Uwzględnij wszystkie sety Gog”.',
       customTemplates: 'Własne szablony zapisują się lokalnie w przeglądarce, więc zostają tylko na tym urządzeniu.',
     },

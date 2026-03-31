@@ -28,6 +28,7 @@ function InfoCollapse() {
             <li>{t.info.notesItems.dataUpToDate}</li>
             <li>{t.info.notesItems.defaultValues}</li>
             <li>{t.info.notesItems.noBuild}</li>
+            <li>{t.info.notesItems.amuletsImport}</li>
             <li>{t.info.notesItems.gogFilters}</li>
             <li>{t.info.notesItems.customTemplates}</li>
           </ul>

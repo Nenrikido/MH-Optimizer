@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { Box } from '@mui/material';
-import AmuletsSection from './filters/AmuletsSection';
+import AmuletsSection from './filters/amulets/AmuletsSection';
 import ExcludeArmorSection from './filters/ExcludeArmorSection';
 import GogWeaponsSection from './filters/GogWeaponsSection';
 import { useAppState } from '../../lib/appStateContext';

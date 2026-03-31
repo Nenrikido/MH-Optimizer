@@ -67,6 +67,7 @@ export const it: Translations = {
     amulets: {
       title: 'Amuleti',
       addAmulet: 'Aggiungi un amuleto',
+      importAmulets: 'Importa amuleti',
       skill: 'Abilita',
       slots: 'Slot',
     },
@@ -103,6 +104,7 @@ export const it: Translations = {
       dataUpToDate: 'I dati sono attualmente aggiornati alla TU4.1 (AT Arkveld).',
       defaultValues: 'Sì, i valori predefiniti strizzano parecchio l’occhio alla Spada Lunga. Sì, sono un weeb.',
       noBuild: 'Se non compare nulla, probabilmente la richiesta è troppo rigida: prova ad alleggerire un bonus set, un limite abilità o qualche filtro.',
+      amuletsImport: 'Puoi importare amuleti con la mod "GameCat Wilds Charm Exporter" su Nexus Mods.',
       gogFilters: 'I filtri set/gruppo di Gogmazios restano nascosti finché "Includi tutti i set Gog" è attivo.',
       customTemplates: 'I template personalizzati vengono salvati localmente nel browser, quindi restano solo su questo dispositivo.',
     },

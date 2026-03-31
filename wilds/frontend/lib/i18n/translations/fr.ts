@@ -67,6 +67,7 @@ export const fr: Translations = {
     amulets: {
       title: 'Amulettes',
       addAmulet: 'Ajouter une amulette',
+      importAmulets: 'Importer des amulettes',
       skill: 'Compétence',
       slots: 'Slots',
     },
@@ -103,6 +104,7 @@ export const fr: Translations = {
       dataUpToDate: 'Les données sont actuellement à jour avec la TU4.1 (AT Arkveld).',
       defaultValues: 'Oui, les valeurs par défaut sont orientées Katana. Oui, je suis un weeb.',
       noBuild: 'Si rien ne sort, c’est souvent que la demande est trop stricte : relâchez un bonus de set, une limite de compétence ou un filtre.',
+      amuletsImport: 'Vous pouvez importer des amulettes avec le mod "GameCat Wilds Charm Exporter" sur Nexus Mods.',
       gogFilters: 'Les filtres de set/groupe Gogmazios restent masqués tant que « Inclure tous les sets Gog » est activé.',
       customTemplates: 'Les templates personnalisés sont enregistrés localement dans votre navigateur, donc seulement sur cet appareil.',
     },

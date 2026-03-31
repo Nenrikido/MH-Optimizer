@@ -67,6 +67,7 @@ export interface Translations {
     amulets: {
       title: string;
       addAmulet: string;
+      importAmulets: string;
       skill: string;
       slots: string;
     };
@@ -103,6 +104,7 @@ export interface Translations {
       dataUpToDate: string;
       defaultValues: string;
       noBuild: string;
+      amuletsImport: string;
       gogFilters: string;
       customTemplates: string;
     };
@@ -113,4 +115,3 @@ export interface Translations {
     switchToDarkMode: string;
   };
 }
-
