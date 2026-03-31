@@ -1,12 +1,11 @@
 import React from 'react';
-import { Autocomplete, Box, FormControl, IconButton, MenuItem, Select, TextField } from '@mui/material';
+import {Autocomplete, Box, FormControl, IconButton, MenuItem, Select, TextField} from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import ClearIcon from '@mui/icons-material/Clear';
-import { Amulet } from '../../../../model/Amulet';
-import { useI18n } from '../../../../lib/i18n/i18nContext';
-import { Skill } from '../../../../model/Skill';
-import { LocalizedNames } from '../../../../model/Localized';
-import { Icon, isSkillIconKey } from '../../../../lib/style/icon';
+import {Amulet} from '../../../../model/Amulet';
+import {useI18n} from '../../../../lib/i18n/i18nContext';
+import {Skill} from '../../../../model/Skill';
+import {LocalizedNames} from '../../../../model/Localized';
+import {Icon, isSkillIconKey} from '../../../../lib/style/icon';
 
 interface AmuletBadgeProps {
   amulet: Amulet;
@@ -24,15 +23,15 @@ interface AmuletBadgeProps {
 }
 
 function AmuletBadge({
-  amulet,
-  onRemove,
-  onSkillRemove,
-  onSkillChange,
-  onSlotChange,
-  index,
-  availableSkills,
-}: AmuletBadgeProps) {
-  const { t, language } = useI18n();
+                       amulet,
+                       onRemove,
+                       onSkillRemove,
+                       onSkillChange,
+                       onSlotChange,
+                       index,
+                       availableSkills,
+                     }: AmuletBadgeProps) {
+  const {t, language} = useI18n();
 
   const handleSkillSelect = (skillIndex: number, value: Skill | null) => {
     if (value) {
@@ -46,8 +45,25 @@ function AmuletBadge({
   };
 
   return (
-    <Box sx={{ display: 'flex', gap: 1, alignItems: 'center', bgcolor: 'action.selected', p: 1, borderRadius: 1, border: '1px solid', borderColor: 'divider' }}>
-      <Box sx={{ display: 'flex', flexDirection: 'column', width: '75%', gap: 1 }}>
+    <Box sx={{
+      display: 'flex',
+      position: 'relative',
+      gap: 1,
+      alignItems: 'center',
+      bgcolor: 'action.selected',
+      p: 1,
+      borderRadius: 1,
+      border: '1px solid',
+      borderColor: 'divider',
+      width: {
+        xs: '100%',
+        sm: 'calc(50% - 8px)',
+        md: 'calc(33% - 36px / 3)',
+        lg: '100%',
+        xl: 'calc(50% - 8px)'
+      },
+    }}>
+      <Box sx={{display: 'flex', flexDirection: 'column', width: '80%', gap: 1}}>
         {[0, 1, 2].map((i) => {
           const currentSkill = amulet.skills[i];
           const selectedSkill = currentSkill?.id ? availableSkills.find((s) => s.id === currentSkill.id) : null;
@@ -58,7 +74,7 @@ function AmuletBadge({
           const filteredSkills = availableSkills.filter((skill) => !selectedSkillIds.includes(skill.id));
 
           return (
-            <Box key={i} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+            <Box key={i} sx={{display: 'flex', alignItems: 'center', gap: 1}}>
               <Autocomplete
                 value={selectedSkill}
                 onChange={(_, newValue) => handleSkillSelect(i, newValue)}
@@ -66,7 +82,7 @@ function AmuletBadge({
                 getOptionLabel={(option) => option.names[language] || option.names.en}
                 isOptionEqualToValue={(option, value) => option.id === value.id}
                 renderOption={(props, option) => (
-                  <Box component="li" {...props} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                  <Box component="li" {...props} sx={{display: 'flex', alignItems: 'center', gap: 1}}>
                     {isSkillIconKey(option.icon) ? <Icon type="skills" iconKey={option.icon} size={18} /> : null}
                     <span>{option.names[language] || option.names.en}</span>
                   </Box>
@@ -102,7 +118,7 @@ function AmuletBadge({
           );
         })}
       </Box>
-      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+      <Box sx={{display: 'flex', alignItems: 'center'}}>
         <FormControl
           size="small"
           sx={{
@@ -111,7 +127,8 @@ function AmuletBadge({
             },
           }}
         >
-          <Select value={amulet.slots} onChange={(e) => onSlotChange(index, e.target.value)} displayEmpty sx={{ color: 'text.primary' }}>
+          <Select value={amulet.slots} onChange={(e) => onSlotChange(index, e.target.value)} displayEmpty
+                  sx={{color: 'text.primary'}}>
             <MenuItem value="">
               <em>{t.filters.amulets.slots}</em>
             </MenuItem>
@@ -126,7 +143,12 @@ function AmuletBadge({
           </Select>
         </FormControl>
       </Box>
-      <IconButton size="small" onClick={() => onRemove(index)} sx={{ color: 'text.secondary' }}>
+      <IconButton size="small" onClick={() => onRemove(index)} sx={{
+        color: 'text.secondary',
+        position: 'absolute',
+        right: '.5rem',
+        top: '.25rem'
+      }}>
         <CloseIcon fontSize="small" />
       </IconButton>
     </Box>

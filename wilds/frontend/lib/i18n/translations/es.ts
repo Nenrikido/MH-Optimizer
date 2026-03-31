@@ -91,20 +91,20 @@ export const es: Translations = {
   },
   info: {
     help: 'Ayuda',
-    howToUse: 'Cómo usar:',
+    howToUse: 'Guía rápida antes de darle a Optimizar:',
     howToUseSteps: {
-      step1: 'Elige tus habilidades, conjuntos y armas objetivo con autocompletado.',
-      step2: 'Ajusta los puntos máximos / pesos y los requisitos de piezas del conjunto.',
-      step3: 'Usa Filtros para añadir tus amuletos y excluir piezas de armadura específicas.',
-      step4: 'Haz clic en Optimizar y revisa las builds, habilidades y bonificaciones activas.',
+      step1: 'Empieza por lo básico: elige primero las habilidades que más te importan, luego añade un arma y los bonos de set o grupo que de verdad quieras mantener.',
+      step2: 'Después afina el pedido si hace falta: el nivel máximo evita que una habilidad suba demasiado, y el peso le dice al optimizador cuáles son las más importantes para ti.',
+      step3: 'Pásate por Filtros si quieres añadir tus propios amuletos, bloquear piezas de armadura concretas o acotar las opciones de armas de Gogmazios.',
+      step4: 'Luego solo queda pulsar Optimizar y revisar tu build en la pestaña Resultados: mira el equipo, los bonos activos y el reparto de habilidades para ver si el resultado te encaja para la cacería.',
     },
-    notes: 'Notas:',
+    notes: 'Unas notas rápidas:',
     notesItems: {
-      dataUpToDate: 'Los datos están actualizados con TU4.1 (AT Arkveld)',
-      defaultValues: 'Sí, los valores predeterminados son para la Espada Larga, sí soy un weeb',
-      noBuild: 'Si no aparece ninguna build, reduce las restricciones (conjuntos/habilidades/filtros).',
-      gogFilters: 'Los filtros de Gogmazios (conjunto/grupo) se ocultan cuando "Incluir todos los conjuntos Gog" está activado.',
-      customTemplates: 'Las plantillas personalizadas guardadas son locales en tu navegador.',
+      dataUpToDate: 'Los datos están actualmente al día con TU4.1 (AT Arkveld).',
+      defaultValues: 'Sí, los valores por defecto tiran bastante a Espada Larga. Sí, soy un weeb.',
+      noBuild: 'Si no sale nada, seguramente la petición es demasiado estricta: prueba a relajar un bono de set, un límite de habilidad o algún filtro.',
+      gogFilters: 'Los filtros de Gogmazios (set/grupo) siguen ocultos mientras esté activado "Incluir todos los conjuntos Gog".',
+      customTemplates: 'Las plantillas personalizadas se guardan solo en tu navegador, así que se quedan en este dispositivo.',
     },
   },
   common: {
@@ -113,4 +113,3 @@ export const es: Translations = {
     switchToDarkMode: 'Cambiar al modo oscuro',
   },
 };
-

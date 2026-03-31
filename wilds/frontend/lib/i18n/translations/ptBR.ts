@@ -91,20 +91,20 @@ export const ptBR: Translations = {
   },
   info: {
     help: 'Ajuda',
-    howToUse: 'Como usar:',
+    howToUse: 'Guia rápido antes de clicar em Otimizar:',
     howToUseSteps: {
-      step1: 'Escolha habilidades, conjuntos e armas desejados com autocompletar.',
-      step2: 'Ajuste níveis máximos/pesos e requisitos mínimos de peças dos conjuntos.',
-      step3: 'Use Filtros para adicionar seus amuletos e excluir peças específicas de armadura.',
-      step4: 'Clique em Otimizar e revise builds, habilidades e bônus ativos de conjunto/grupo.',
+      step1: 'Comece pelo básico: escolha primeiro as habilidades que mais importam para você, depois adicione uma arma e os bônus de conjunto ou grupo que realmente quer manter.',
+      step2: 'Depois ajuste os detalhes se precisar: o nível máximo evita que uma habilidade suba demais, e o peso diz ao otimizador quais são as mais importantes para você.',
+      step3: 'Passe na aba Filtros se quiser adicionar seus próprios amuletos, bloquear peças de armadura específicas ou restringir as opções de armas de Gogmazios.',
+      step4: 'Aí é só clicar em Otimizar e olhar a sua build na aba Resultados: confira o equipamento, os bônus ativos e a distribuição de habilidades para ver se o resultado funciona para a sua caçada.',
     },
-    notes: 'Notas:',
+    notes: 'Algumas observações úteis:',
     notesItems: {
-      dataUpToDate: 'Os dados estão atualizados para TU4.1 (AT Arkveld)',
-      defaultValues: 'Sim, os valores padrão são para Espada Longa, sim, sou um weeb',
-      noBuild: 'Se nenhum build aparecer, relaxe as restrições (conjuntos/habilidades/filtros).',
-      gogFilters: 'Os filtros de conjunto/grupo de Gogmazios ficam ocultos quando "Incluir todos os conjuntos Gog" está ativado.',
-      customTemplates: 'Os modelos personalizados salvos ficam locais no navegador.',
+      dataUpToDate: 'Os dados estão atualmente atualizados para TU4.1 (AT Arkveld).',
+      defaultValues: 'Sim, os valores padrão pendem bastante para Espada Longa. Sim, sou um weeb.',
+      noBuild: 'Se nada aparecer, a solicitação provavelmente está rígida demais — tente aliviar um bônus de conjunto, um limite de habilidade ou algum filtro.',
+      gogFilters: 'Os filtros de conjunto/grupo de Gogmazios ficam ocultos enquanto "Incluir todos os conjuntos Gog" estiver ativado.',
+      customTemplates: 'Os modelos personalizados ficam salvos localmente no seu navegador, então continuam só neste dispositivo.',
     },
   },
   common: {
@@ -113,4 +113,3 @@ export const ptBR: Translations = {
     switchToDarkMode: 'Alternar para modo escuro',
   },
 };
-

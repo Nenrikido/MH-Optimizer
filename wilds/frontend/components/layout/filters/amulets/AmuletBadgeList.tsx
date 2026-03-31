@@ -76,7 +76,7 @@ function AmuletBadgeList({ amulets, setAmulets, availableSkills }: AmuletBadgeLi
   };
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
       {amulets.map((amulet, idx) => (
         <AmuletBadge
           key={idx}

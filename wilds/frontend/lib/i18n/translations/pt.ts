@@ -91,20 +91,20 @@ export const pt: Translations = {
   },
   info: {
     help: 'Ajuda',
-    howToUse: 'Como usar:',
+    howToUse: 'Guia rápido antes de carregares em Otimizar:',
     howToUseSteps: {
-      step1: 'Escolhe as competências, conjuntos e armas pretendidos com preenchimento automático.',
-      step2: 'Ajusta níveis máximos/pesos e requisitos mínimos de peças dos conjuntos.',
-      step3: 'Usa os Filtros para adicionar os teus amuletos e excluir peças específicas de armadura.',
-      step4: 'Clica em Otimizar e analisa builds, competências e bónus ativos de conjunto/grupo.',
+      step1: 'Começa pelo essencial: escolhe primeiro as competências que mais te interessam, depois adiciona uma arma e os bónus de conjunto ou grupo que queres mesmo manter.',
+      step2: 'Depois afina o pedido se for preciso: o nível máximo evita que uma competência suba demais, e o peso diz ao otimizador quais são as mais importantes para ti.',
+      step3: 'Passa pelos Filtros se quiseres adicionar os teus próprios amuletos, excluir peças de armadura específicas ou restringir as opções das armas de Gogmazios.',
+      step4: 'A seguir é só carregar em Otimizar e ver o teu build no separador Resultados: confirma o equipamento, os bónus ativos e a distribuição das competências para perceber se o resultado serve para a tua caçada.',
     },
-    notes: 'Notas:',
+    notes: 'Algumas notas úteis:',
     notesItems: {
-      dataUpToDate: 'Os dados estão atualizados para TU4.1 (AT Arkveld)',
-      defaultValues: 'Sim, os valores padrão são para Espada Longa, sim, sou um weeb',
-      noBuild: 'Se não aparecer nenhuma build, reduz as restrições (conjuntos/competências/filtros).',
-      gogFilters: 'Os filtros de conjunto/grupo de Gogmazios ficam ocultos quando "Incluir todos os conjuntos Gog" está ativo.',
-      customTemplates: 'Os modelos personalizados guardados ficam apenas no teu navegador.',
+      dataUpToDate: 'Os dados estão atualmente atualizados para TU4.1 (AT Arkveld).',
+      defaultValues: 'Sim, os valores padrão puxam bastante para Espada Longa. Sim, sou um weeb.',
+      noBuild: 'Se não aparecer nada, o pedido está provavelmente apertado demais — tenta aliviar um bónus de conjunto, um limite de competência ou um filtro.',
+      gogFilters: 'Os filtros de conjunto/grupo de Gogmazios ficam ocultos enquanto "Incluir todos os conjuntos Gog" estiver ativo.',
+      customTemplates: 'Os modelos personalizados ficam guardados localmente no teu navegador, por isso permanecem apenas neste dispositivo.',
     },
   },
   common: {
@@ -113,4 +113,3 @@ export const pt: Translations = {
     switchToDarkMode: 'Mudar para modo escuro',
   },
 };
-

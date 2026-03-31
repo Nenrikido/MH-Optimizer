@@ -91,20 +91,20 @@ export const it: Translations = {
   },
   info: {
     help: 'Aiuto',
-    howToUse: 'Come usare:',
+    howToUse: 'Guida rapida prima di premere Ottimizza:',
     howToUseSteps: {
-      step1: 'Scegli le tue abilità, set e armi con il completamento automatico.',
-      step2: 'Regola i punti e i pesi massimi e i requisiti dei pezzi del set.',
-      step3: 'Usa Filtri per aggiungere amuleti ed escludere pezzi armatura specifici.',
-      step4: 'Clicca Ottimizza e controlla build, abilita e bonus set/gruppo attivi.',
+      step1: 'Parti dalle basi: scegli prima le abilità che ti interessano davvero, poi aggiungi un’arma e gli eventuali bonus set/gruppo che vuoi assolutamente mantenere.',
+      step2: 'Poi rifinisci la richiesta se serve: il livello massimo evita che un’abilità salga troppo, mentre il peso dice all’ottimizzatore quali abilità contano di più per te.',
+      step3: 'Passa nella scheda Filtri se vuoi aggiungere i tuoi amuleti, escludere pezzi armatura specifici o restringere le opzioni delle armi di Gogmazios.',
+      step4: 'A quel punto ti basta cliccare su Ottimizza e guardare la tua build nella scheda Risultati: controlla equipaggiamento, bonus attivi e distribuzione delle abilità per capire se il risultato fa al caso tuo per la caccia.',
     },
-    notes: 'Note:',
+    notes: 'Qualche nota utile:',
     notesItems: {
-      dataUpToDate: 'I dati sono aggiornati alla TU4.1 (AT Arkveld)',
-      defaultValues: 'Sì, i valori predefiniti sono per LS, sì sono un weeb',
-      noBuild: 'Se non compare alcuna build, allenta i vincoli (set/abilita/filtri).',
-      gogFilters: 'I filtri set/gruppo Gogmazios sono nascosti quando "Includi tutti i set Gog" e attivo.',
-      customTemplates: 'I template personalizzati salvati sono locali nel browser.',
+      dataUpToDate: 'I dati sono attualmente aggiornati alla TU4.1 (AT Arkveld).',
+      defaultValues: 'Sì, i valori predefiniti strizzano parecchio l’occhio alla Spada Lunga. Sì, sono un weeb.',
+      noBuild: 'Se non compare nulla, probabilmente la richiesta è troppo rigida: prova ad alleggerire un bonus set, un limite abilità o qualche filtro.',
+      gogFilters: 'I filtri set/gruppo di Gogmazios restano nascosti finché "Includi tutti i set Gog" è attivo.',
+      customTemplates: 'I template personalizzati vengono salvati localmente nel browser, quindi restano solo su questo dispositivo.',
     },
   },
   common: {
@@ -113,4 +113,3 @@ export const it: Translations = {
     switchToDarkMode: 'Passa al tema scuro',
   },
 };
-

@@ -91,20 +91,20 @@ export const fr: Translations = {
   },
   info: {
     help: 'Aide',
-    howToUse: 'Comment utiliser :',
+    howToUse: 'Petit guide rapide avant de lancer l’optimisation :',
     howToUseSteps: {
-      step1: 'Choisissez vos compétences, ensembles et armes via l\'auto-complétion.',
-      step2: 'Ajustez les points max / poids et le minimum de pièces par ensemble.',
-      step3: 'Utilisez Filtres pour ajouter vos amulettes et exclure des pièces d\'armure précises.',
-      step4: 'Cliquez sur Optimiser puis consultez les builds, compétences et bonus actifs.',
+      step1: 'Commencez simple : choisissez d’abord les compétences les plus importantes pour votre build, puis ajoutez une arme et les bonus de set/groupe que vous voulez vraiment garder.',
+      step2: 'Affinez ensuite si besoin : le niveau max évite qu’une compétence monte trop haut, et le poids indique à l’optimiseur lesquelles sont les plus importantes pour vous.',
+      step3: 'Passez par l’onglet Filtres pour ajouter vos propres amulettes, exclure certaines pièces d’armure ou restreindre les options d’armes Gogmazios.',
+      step4: 'Ensuite, cliquez sur Optimiser et regardez votre build dans l’onglet Résultats : vérifiez l’équipement, les bonus actifs et la répartition des compétences pour voir si le résultat vous convient pour votre chasse.',
     },
-    notes: 'Notes :',
+    notes: 'Quelques infos utiles :',
     notesItems: {
-      dataUpToDate: 'Les données sont à jour avec TU4.1 (AT Arkveld)',
-      defaultValues: 'Oui, les valeurs par défaut sont pour la LS, oui je suis un weeb',
-      noBuild: 'Si aucun build ne sort, assouplissez les contraintes (sets/skills/filtres).',
-      gogFilters: 'Les filtres Gogmazios (set/groupe) sont masqués si "Inclure tous les sets Gog" est activé.',
-      customTemplates: 'Les templates personnalisés sont enregistrés localement dans le navigateur.',
+      dataUpToDate: 'Les données sont actuellement à jour avec la TU4.1 (AT Arkveld).',
+      defaultValues: 'Oui, les valeurs par défaut sont orientées Katana. Oui, je suis un weeb.',
+      noBuild: 'Si rien ne sort, c’est souvent que la demande est trop stricte : relâchez un bonus de set, une limite de compétence ou un filtre.',
+      gogFilters: 'Les filtres de set/groupe Gogmazios restent masqués tant que « Inclure tous les sets Gog » est activé.',
+      customTemplates: 'Les templates personnalisés sont enregistrés localement dans votre navigateur, donc seulement sur cet appareil.',
     },
   },
   common: {
@@ -113,4 +113,3 @@ export const fr: Translations = {
     switchToDarkMode: 'Passer en mode sombre',
   },
 };
-

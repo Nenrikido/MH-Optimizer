@@ -91,20 +91,20 @@ export const pl: Translations = {
   },
   info: {
     help: 'Pomoc',
-    howToUse: 'Jak uzywac:',
+    howToUse: 'Szybki przewodnik, zanim klikniesz „Optymalizuj”:',
     howToUseSteps: {
-      step1: 'Wybierz docelowe umiejetnosci, sety i bronie przez autocomplete.',
-      step2: 'Dostosuj maksymalne poziomy/wagi oraz wymagane elementy setu.',
-      step3: 'Uzyj Filtrow, aby dodac amulety i wykluczyc konkretne elementy zbroi.',
-      step4: 'Kliknij Optymalizuj i sprawdz buildy, umiejetnosci oraz aktywne bonusy setu/grupy.',
+      step1: 'Zacznij od podstaw: najpierw wybierz umiejętności, na których najbardziej Ci zależy, a potem dodaj broń i bonusy setu lub grupy, które naprawdę chcesz zachować.',
+      step2: 'Potem dopracuj szczegóły, jeśli trzeba: maksymalny poziom nie pozwala danej umiejętności wejść za wysoko, a waga mówi optymalizatorowi, co jest dla Ciebie najważniejsze.',
+      step3: 'Zajrzyj do zakładki Filtry, jeśli chcesz dodać własne amulety, wykluczyć konkretne elementy zbroi albo zawęzić opcje broni Gogmaziosa.',
+      step4: 'Na końcu po prostu kliknij Optymalizuj i sprawdź swój build w zakładce Wyniki — zobacz wyposażenie, aktywne bonusy i rozkład umiejętności, żeby ocenić, czy ten wynik pasuje do Twojego polowania.',
     },
-    notes: 'Uwagi:',
+    notes: 'Kilka przydatnych uwag:',
     notesItems: {
-      dataUpToDate: 'Dane sa aktualne na TU4.1 (AT Arkveld)',
-      defaultValues: 'Tak, domyslne wartosci sa pod LS, tak, jestem weebem',
-      noBuild: 'Jeśli nie pojawia sie build, poluzuj ograniczenia (sety/umiejetnosci/filtry).',
-      gogFilters: 'Filtry setu/grupy Gogmaziosa sa ukryte, gdy wlaczono "Uwzglednij wszystkie sety Gog".',
-      customTemplates: 'Zapisane wlasne szablony sa lokalne w Twojej przegladarce.',
+      dataUpToDate: 'Dane są obecnie aktualne dla TU4.1 (AT Arkveld).',
+      defaultValues: 'Tak, domyślne wartości mocno skręcają w stronę Długiego Miecza. Tak, jestem weebem.',
+      noBuild: 'Jeśli nic się nie pojawia, prośba jest pewnie zbyt restrykcyjna — spróbuj poluzować bonus setu, limit umiejętności albo któryś filtr.',
+      gogFilters: 'Filtry setu/grupy Gogmaziosa pozostają ukryte, gdy włączone jest „Uwzględnij wszystkie sety Gog”.',
+      customTemplates: 'Własne szablony zapisują się lokalnie w przeglądarce, więc zostają tylko na tym urządzeniu.',
     },
   },
   common: {
@@ -113,4 +113,3 @@ export const pl: Translations = {
     switchToDarkMode: 'Przelacz na ciemny motyw',
   },
 };
-

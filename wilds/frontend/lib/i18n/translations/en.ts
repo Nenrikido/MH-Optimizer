@@ -91,20 +91,20 @@ export const en: Translations = {
   },
   info: {
     help: 'Help',
-    howToUse: 'How to use:',
+    howToUse: 'Quick guide before you hit Optimize:',
     howToUseSteps: {
-      step1: 'Pick your target skills, sets and weapons with autocomplete.',
-      step2: 'Adjust max points / weights and set piece requirements.',
-      step3: 'Use Filters to add your amulets and exclude specific armor items.',
-      step4: 'Click Optimize and review builds, skills and active set/group bonuses.',
+      step1: 'Start with the basics: pick the skills you care about most, then add a weapon and any armor set/group bonuses you really want to keep.',
+      step2: 'Fine-tune the request if needed: max level caps keep a skill from going too high, and weights tell the optimizer which skills matter the most to you.',
+      step3: 'Head to Filters if you want to add your own amulets, block specific armor pieces, or narrow down Gogmazios weapon options.',
+      step4: 'Then just click Optimize and check your build in the Results tab — check the gear, active bonuses, and skill spread to see which result feels best for your hunt.',
     },
-    notes: 'Notes:',
+    notes: 'A few handy notes:',
     notesItems: {
-      dataUpToDate: 'Data is up to date with TU4.1 (AT Arkveld)',
-      defaultValues: "Yes the default values are for LS, yes I'm a weeb",
-      noBuild: 'If no build appears, relax constraints (sets/skills/filters).',
-      gogFilters: 'Gogmazios set/group filters are hidden when "Include all Gog sets" is enabled.',
-      customTemplates: 'Saved custom templates are local to your browser.',
+      dataUpToDate: 'Data is currently up to date with TU4.1 (AT Arkveld).',
+      defaultValues: 'Yep, the default values lean Long Sword. Yep, i\'m a weeb.',
+      noBuild: 'If nothing shows up, your request is probably too strict — try easing a set requirement, skill cap, or filter.',
+      gogFilters: 'Gogmazios set/group filters stay hidden while "Include all Gog sets" is enabled.',
+      customTemplates: 'Custom templates are saved locally in your browser, so they stay personal to this device.',
     },
   },
   common: {
@@ -113,4 +113,3 @@ export const en: Translations = {
     switchToDarkMode: 'Switch to dark mode',
   },
 };
-

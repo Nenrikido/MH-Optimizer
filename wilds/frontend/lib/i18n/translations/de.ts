@@ -91,20 +91,20 @@ export const de: Translations = {
   },
   info: {
     help: 'Hilfe',
-    howToUse: 'Verwendung:',
+    howToUse: 'Kurzer Guide, bevor du auf „Optimieren“ klickst:',
     howToUseSteps: {
-      step1: 'Wähle Ziel-Fertigkeiten, Sets und Waffen per Autovervollständigung.',
-      step2: 'Passe Max-Level/Gewichtungen und Set-Teileanfordernungen an.',
-      step3: 'Nutze Filter, um Talismane hinzuzufügen und bestimmte Rüstungsteile auszuschließen.',
-      step4: 'Klicke auf Optimieren und prüfe Builds, Fertigkeiten sowie aktive Set-/Gruppenboni.',
+      step1: 'Fang ganz entspannt mit den Grundlagen an: Wähle zuerst die Fertigkeiten, die dir wirklich wichtig sind, und füge dann eine Waffe sowie gewünschte Set-/Gruppenboni hinzu.',
+      step2: 'Danach kannst du alles feiner abstimmen: Mit Max-Leveln verhinderst du, dass eine Fertigkeit zu hoch geht, und mit Gewichten sagst du dem Optimierer, was dir am wichtigsten ist.',
+      step3: 'Im Filter-Tab kannst du eigene Talismane hinzufügen, bestimmte Rüstungsteile ausschließen oder die Optionen für Gogmazios-Waffen weiter eingrenzen.',
+      step4: 'Dann einfach auf Optimieren klicken und dir deinen Build im Tab „Ergebnisse“ anschauen — prüf Ausrüstung, aktive Boni und die Fertigkeitsverteilung, um zu sehen, ob das Ergebnis für deine Jagd passt.',
     },
-    notes: 'Hinweise:',
+    notes: 'Noch ein paar praktische Hinweise:',
     notesItems: {
-      dataUpToDate: 'Datenstand entspricht TU4.1 (AT Arkveld)',
-      defaultValues: 'Ja, die Standardwerte sind für LS, ja ich bin ein Weeb',
-      noBuild: 'Wenn kein Build erscheint, lockere die Vorgaben (Sets/Fertigkeiten/Filter).',
-      gogFilters: 'Gogmazios-Set-/Gruppenfilter sind verborgen, wenn "Alle Gog-Sets einbeziehen" aktiv ist.',
-      customTemplates: 'Gespeicherte benutzerdefinierte Vorlagen sind lokal im Browser.',
+      dataUpToDate: 'Die Daten sind aktuell auf TU4.1 (AT Arkveld).',
+      defaultValues: 'Ja, die Standardwerte gehen eher in Richtung Langschwert. Ja, ich bin ein Weeb.',
+      noBuild: 'Wenn nichts erscheint, ist die Anfrage wahrscheinlich etwas zu streng — lockere mal einen Set-Bonus, ein Skill-Limit oder einen Filter.',
+      gogFilters: 'Die Gogmazios-Set-/Gruppenfilter bleiben ausgeblendet, solange „Alle Gog-Sets einbeziehen“ aktiv ist.',
+      customTemplates: 'Eigene Vorlagen werden lokal in deinem Browser gespeichert und bleiben damit auf diesem Gerät.',
     },
   },
   common: {
@@ -113,4 +113,3 @@ export const de: Translations = {
     switchToDarkMode: 'Zum dunklen Modus wechseln',
   },
 };
-
