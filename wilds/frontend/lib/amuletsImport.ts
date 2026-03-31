@@ -26,9 +26,19 @@ const GAMECAT_SLOT_MAP: Record<string, string> = {
 
 const normalizeSkillName = (value: string) => value.trim().toLowerCase();
 
+const deriveImportedAmuletName = (skills: AmuletSkill[]): string => {
+  const parts = skills
+    .filter((skill) => Boolean(skill.id) && Number(skill.value) > 0)
+    .map((skill) => `${skill.name || skill.id}: ${skill.value || 1}`);
+
+  if (!parts.length) {
+    return 'Custom Amulet';
+  }
+  return `${parts.join(', ')}`;
+};
+
 const mapCharmToAmulet = (
   charm: GameCatCharm,
-  index: number,
   skillByNormalizedName: Map<string, Skill>
 ): Amulet | null => {
 
@@ -62,9 +72,7 @@ const mapCharmToAmulet = (
   }
 
   return {
-    name: typeof charm.name === 'string' && charm.name.trim().length > 0
-      ? charm.name.trim()
-      : `Imported Amulet ${index + 1}`,
+    name: deriveImportedAmuletName(skillTriplet),
     skills: skillTriplet,
     slots: mappedSlots,
   };
@@ -82,9 +90,9 @@ export const parseGameCatAmulets = (payload: unknown, availableSkills: Skill[]):
   );
 
   return (payload as GameCatCharm[])
-    .map((charm, index) => {
+    .map((charm) => {
       if (!charm || typeof charm !== 'object') return null;
-      return mapCharmToAmulet(charm, index, skillByNormalizedName);
+      return mapCharmToAmulet(charm, skillByNormalizedName);
     })
     .filter((amulet): amulet is Amulet => Boolean(amulet));
 };
