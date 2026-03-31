@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Autocomplete, Box, Chip, TextField, Typography } from '@mui/material';
-import { useI18n } from '../../../lib/i18nContext';
-import { GearIconKey, Icon, isGearIconKey } from '../../../lib/icon';
+import { useI18n } from '../../../lib/i18n/i18nContext';
+import { GearIconKey, Icon, isGearIconKey } from '../../../lib/style/icon';
 import { ExcludeArmorSectionProps } from './types';
 
 function ExcludeArmorSection({ excludedArmorItems, setExcludedArmorItems, availableArmorItems }: ExcludeArmorSectionProps) {

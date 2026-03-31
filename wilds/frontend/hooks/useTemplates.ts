@@ -10,7 +10,7 @@
 import { useState, useEffect } from 'react';
 import { TemplateData } from '../model/Template';
 import { loadCustomTemplates, saveCustomTemplates } from '../lib/configStorage';
-import { cloneTemplate, createTemplate, TemplateConfig } from '../lib/templateUtils';
+import { cloneTemplate, createTemplate, TemplateConfig } from '../lib/style/templateUtils';
 
 interface UseTemplatesResult {
   customTemplates: TemplateData[];

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@mui/material';
-import { useI18n } from '../../../../lib/i18nContext';
+import { useI18n } from '../../../../lib/i18n/i18nContext';
 
 interface AddAmuletButtonProps {
   onAdd: () => void;

@@ -29,7 +29,7 @@ import {
   resolveDefaultTemplates,
 } from '../lib/dataUtils';
 import { loadConfig } from '../lib/configStorage';
-import { Language } from '../lib/i18n';
+import { Language } from '../lib/i18n/i18n';
 
 interface AvailableItemsResponse {
   available_skills?: unknown[];

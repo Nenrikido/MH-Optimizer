@@ -3,10 +3,10 @@
  * Provides functions for cloning and creating template configurations.
  */
 
-import { TemplateData } from '../model/Template';
-import { Skill } from '../model/Skill';
-import { Set as ArmorSet } from '../model/Set';
-import { Weapon } from '../model/Weapon';
+import { TemplateData } from '../../model/Template';
+import { Skill } from '../../model/Skill';
+import { Set as ArmorSet } from '../../model/Set';
+import { Weapon } from '../../model/Weapon';
 
 export interface TemplateConfig {
   skills: Skill[];

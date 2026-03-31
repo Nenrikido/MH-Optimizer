@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import {Autocomplete, Box, TextField} from '@mui/material';
 import {Set as ArmorSet} from '../../model/Set';
-import { useI18n } from '../../lib/i18nContext';
+import { useI18n } from '../../lib/i18n/i18nContext';
 import { NamedEntity } from '../../model/Localized';
-import { Icon, isSkillIconKey } from '../../lib/icon';
+import { Icon, isSkillIconKey } from '../../lib/style/icon';
 
 interface SetInputProps {
   sets: ArmorSet[];

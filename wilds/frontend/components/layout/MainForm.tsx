@@ -6,7 +6,7 @@ import SetInput from '../inputs/SetInput';
 import WeaponInput from '../inputs/WeaponInput';
 import OptionsInputs from '../inputs/OptionsInputs';
 import InfoCollapse from './InfoCollapse';
-import {useI18n} from '../../lib/i18nContext';
+import {useI18n} from '../../lib/i18n/i18nContext';
 import {useAppState} from '../../lib/appStateContext';
 
 function MainForm() {

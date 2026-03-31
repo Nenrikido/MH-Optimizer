@@ -3,7 +3,7 @@ import {Box, Tab, Tabs} from '@mui/material';
 import ResultsTab from './ResultsTab';
 import FiltersTab from './FiltersTab';
 import TemplatesTab from './TemplatesTab';
-import {useI18n} from '../../lib/i18nContext';
+import {useI18n} from '../../lib/i18n/i18nContext';
 
 function TabPanel(props: { children?: React.ReactNode; index: number; value: number }) {
   const {children, value, index, ...other} = props;

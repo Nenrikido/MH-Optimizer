@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {Autocomplete, Box, TextField} from '@mui/material';
 import {Skill} from '../../model/Skill';
-import { useI18n } from '../../lib/i18nContext';
-import { Icon, isSkillIconKey } from '../../lib/icon';
+import { useI18n } from '../../lib/i18n/i18nContext';
+import { Icon, isSkillIconKey } from '../../lib/style/icon';
 
 interface SkillInputProps {
   skills: Skill[];

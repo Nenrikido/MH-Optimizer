@@ -1,7 +1,7 @@
 import { Skill } from './Skill';
 import { Set as ArmorSet } from './Set';
 import { Weapon } from './Weapon';
-import { Translations } from '../lib/i18n';
+import { Translations } from '../lib/i18n/i18n';
 
 export interface TemplateData {
   id: string;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Button, Checkbox, FormControlLabel} from '@mui/material';
 import type {Options} from '../../model/Options';
-import { useI18n } from '../../lib/i18nContext';
+import { useI18n } from '../../lib/i18n/i18nContext';
 
 interface OptionsProps {
   options: Options;

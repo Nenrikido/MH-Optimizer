@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import {Autocomplete, Box, TextField} from '@mui/material';
 import {Weapon} from '../../model/Weapon';
-import { useI18n } from '../../lib/i18nContext';
+import { useI18n } from '../../lib/i18n/i18nContext';
 import { NamedEntity } from '../../model/Localized';
-import { GearIconKey, Icon, isGearIconKey } from '../../lib/icon';
+import { GearIconKey, Icon, isGearIconKey } from '../../lib/style/icon';
 
 interface WeaponInputProps {
   weapons: Weapon[];

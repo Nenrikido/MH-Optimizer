@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, Tooltip, Typography } from '@mui/material';
 import { TemplateData, getTemplateName } from '../../../model/Template';
-import { GearIconKey, Icon, isGearIconKey } from '../../../lib/icon';
-import { useI18n } from '../../../lib/i18nContext';
+import { GearIconKey, Icon, isGearIconKey } from '../../../lib/style/icon';
+import { useI18n } from '../../../lib/i18n/i18nContext';
 import TemplateTooltipContent from './TemplateTooltipContent';
 
 interface DefaultTemplateIconProps {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import { useI18n } from '../../../lib/i18nContext';
+import { useI18n } from '../../../lib/i18n/i18nContext';
 import { AmuletsSectionProps } from './types';
 import AmuletBadgeList from './amulets/AmuletBadgeList';
 import AddAmuletButton from './amulets/AddAmuletButton';

@@ -14,8 +14,8 @@ import {
   Typography
 } from '@mui/material';
 import {BuildItem, BuildSkill, Result} from '../model/Result';
-import {useI18n} from '../lib/i18nContext';
-import {GearIconKey, Icon, isGearIconKey, isSkillIconKey} from '../lib/icon';
+import {useI18n} from '../lib/i18n/i18nContext';
+import {GearIconKey, Icon, isGearIconKey, isSkillIconKey} from '../lib/style/icon';
 
 interface BuildCardProps {
   build: Result;

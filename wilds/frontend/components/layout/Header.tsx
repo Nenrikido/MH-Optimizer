@@ -4,9 +4,9 @@ import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
 import {Box, FormControl, IconButton, MenuItem, Select, Tooltip, Typography} from '@mui/material';
 import type {SelectChangeEvent} from '@mui/material/Select';
 import {useTheme} from '@mui/material/styles';
-import {useI18n} from '../../lib/i18nContext';
-import {LANGUAGE_FLAGS, LANGUAGE_LABELS, Language, SUPPORTED_LANGUAGES} from '../../lib/i18n';
-import {useThemeMode} from '../../lib/themeModeContext';
+import {useI18n} from '../../lib/i18n/i18nContext';
+import {LANGUAGE_FLAGS, LANGUAGE_LABELS, Language, SUPPORTED_LANGUAGES} from '../../lib/i18n/i18n';
+import {useThemeMode} from '../../lib/style/themeModeContext';
 
 function Header() {
   const {language, setLanguage, t} = useI18n();

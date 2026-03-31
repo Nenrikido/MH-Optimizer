@@ -3,19 +3,19 @@
  * Defines translation types and provides translations for supported UI languages.
  */
 
-export type { Language, Translations } from './i18n/types';
+export type { Language, Translations } from './types';
 
-import { en } from './i18n/translations/en';
-import { fr } from './i18n/translations/fr';
-import { de } from './i18n/translations/de';
-import { es } from './i18n/translations/es';
-import { es419 } from './i18n/translations/es419';
-import { pt } from './i18n/translations/pt';
-import { ptBR } from './i18n/translations/ptBR';
-import { it } from './i18n/translations/it';
-import { pl } from './i18n/translations/pl';
-import { zhHans } from './i18n/translations/zhHans';
-import type { Language, Translations } from './i18n/types';
+import { en } from './translations/en';
+import { fr } from './translations/fr';
+import { de } from './translations/de';
+import { es } from './translations/es';
+import { es419 } from './translations/es419';
+import { pt } from './translations/pt';
+import { ptBR } from './translations/ptBR';
+import { it } from './translations/it';
+import { pl } from './translations/pl';
+import { zhHans } from './translations/zhHans';
+import type { Language, Translations } from './types';
 
 export const SUPPORTED_LANGUAGES = ['en', 'fr', 'de', 'es', 'es-419', 'pt', 'pt-BR', 'it', 'pl', 'zh-Hans'] as const;
 

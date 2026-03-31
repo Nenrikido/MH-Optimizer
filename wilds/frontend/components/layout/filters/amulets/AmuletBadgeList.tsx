@@ -52,10 +52,6 @@ function AmuletBadgeList({ amulets, setAmulets, availableSkills }: AmuletBadgeLi
     }));
   };
 
-  const handleSlotRemove = (index: number) => {
-    setAmulets((prev) => prev.map((a, i) => (i === index ? normalizeAmulet({ ...a, slots: '' }) : a)));
-  };
-
   const handleSkillChange = (
     amuletIdx: number,
     skillIdx: number,
@@ -88,7 +84,6 @@ function AmuletBadgeList({ amulets, setAmulets, availableSkills }: AmuletBadgeLi
           index={idx}
           onRemove={handleRemove}
           onSkillRemove={handleSkillRemove}
-          onSlotRemove={handleSlotRemove}
           onSkillChange={handleSkillChange}
           onSlotChange={handleSlotChange}
           availableSkills={availableSkills}

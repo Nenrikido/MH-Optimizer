@@ -4,8 +4,8 @@ import CloseIcon from '@mui/icons-material/Close';
 import {Skill} from '../../model/Skill';
 import {Set as ArmorSet} from '../../model/Set';
 import {Weapon} from '../../model/Weapon';
-import { useI18n } from '../../lib/i18nContext';
-import { Icon, isGearIconKey, isSkillIconKey } from '../../lib/icon';
+import { useI18n } from '../../lib/i18n/i18nContext';
+import { Icon, isGearIconKey, isSkillIconKey } from '../../lib/style/icon';
 
 interface BadgeListProps {
   items: (Skill | ArmorSet | Weapon)[];
@@ -78,16 +78,16 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                           type="number"
                           size="small"
                           title={t.inputs.skillsMaxPoints}
-                          value={(item as Skill).max_points}
+                          value={Number((item as Skill).max_points).toString()}
                           onChange={(e) => handleUpdateSkill(idx, 'max_points', parseInt(e.target.value) || 0)}
                            sx={{width: 45, '& .MuiOutlinedInput-root': {padding: '2px 4px'}}}
-                          slotProps={{input: {inputProps: {min: 1, max: 10, style: {padding: '2px 4px', height: 'auto'}}}}}
+                          slotProps={{input: {inputProps: {min: 1, max: 5, style: {padding: '2px 4px', height: 'auto'}}}}}
                       />
                       <TextField
                           type="number"
                           size="small"
                           title={t.inputs.skillsWeight}
-                          value={(item as Skill).weight}
+                          value={Number((item as Skill).weight).toString()}
                           onChange={(e) => handleUpdateSkill(idx, 'weight', parseInt(e.target.value) || 0)}
                            sx={{width: 45, '& .MuiOutlinedInput-root': {padding: '2px 4px'}}}
                           slotProps={{input: {inputProps: {min: 1, style: {padding: '2px 4px', height: 'auto'}}}}}
@@ -99,10 +99,10 @@ function BadgeList({items, setItems, type}: BadgeListProps) {
                         type="number"
                         size="small"
                         title={t.inputs.armorMinPieces}
-                        value={(item as ArmorSet).min_pieces}
+                        value={Number((item as ArmorSet).min_pieces).toString()}
                         onChange={(e) => handleUpdateSet(idx, parseInt(e.target.value) || 0)}
                         sx={{width: 45, '& .MuiOutlinedInput-root': {padding: '2px 4px'}}}
-                        slotProps={{input: {inputProps: {min: 1, style: {padding: '2px 4px', height: 'auto'}}}}}
+                        slotProps={{input: {inputProps: {min: 2, max: 5, style: {padding: '2px 4px', height: 'auto'}}}}}
                     />
                 )}
                 <IconButton size="small" onClick={() => handleRemove(item)} sx={{color: 'text.secondary', padding: '2px'}}>

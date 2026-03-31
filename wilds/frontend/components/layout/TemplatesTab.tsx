@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Typography } from '@mui/material';
-import { useI18n } from '../../lib/i18nContext';
+import { useI18n } from '../../lib/i18n/i18nContext';
 import DefaultTemplatesSection from './templates/DefaultTemplatesSection';
 import CustomTemplatesSection from './templates/CustomTemplatesSection';
 import { useAppState } from '../../lib/appStateContext';

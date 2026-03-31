@@ -1,7 +1,7 @@
 import React from 'react';
 import {Accordion, AccordionDetails, AccordionSummary, Typography} from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { useI18n } from '../../lib/i18nContext';
+import { useI18n } from '../../lib/i18n/i18nContext';
 
 function InfoCollapse() {
   const { t } = useI18n();

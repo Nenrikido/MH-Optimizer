@@ -13,15 +13,15 @@ import { Amulet } from './model/Amulet';
 import { Options } from './model/Options';
 import { Result } from './model/Result';
 import { DEFAULT_DATA } from './lib/defaultData';
-import { createAppTheme } from './lib/theme';
-import { createGlobalStyles } from './lib/globalStyles';
-import { I18nProvider } from './lib/i18nContext';
+import { createAppTheme } from './lib/style/theme';
+import { createGlobalStyles } from './lib/style/globalStyles';
+import { I18nProvider } from './lib/i18n/i18nContext';
 import {saveConfig} from './lib/configStorage';
 import { useAvailableItems } from './hooks/useAvailableItems';
 import { useTemplates } from './hooks/useTemplates';
 import { AppStateProvider } from './lib/appStateContext';
-import { useI18n } from './lib/i18nContext';
-import { ThemeModeProvider, useThemeMode } from './lib/themeModeContext';
+import { useI18n } from './lib/i18n/i18nContext';
+import { ThemeModeProvider, useThemeMode } from './lib/style/themeModeContext';
 
 function AppContent() {
   const { mode } = useThemeMode();

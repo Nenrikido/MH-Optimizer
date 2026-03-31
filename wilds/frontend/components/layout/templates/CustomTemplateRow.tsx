@@ -3,7 +3,7 @@ import { Button, IconButton, Paper, Tooltip, Typography, Box } from '@mui/materi
 import InfoIcon from '@mui/icons-material/Info';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { TemplateData } from '../../../model/Template';
-import { GearIconKey, Icon, isGearIconKey } from '../../../lib/icon';
+import { GearIconKey, Icon, isGearIconKey } from '../../../lib/style/icon';
 import TemplateTooltipContent from './TemplateTooltipContent';
 
 interface CustomTemplateRowProps {

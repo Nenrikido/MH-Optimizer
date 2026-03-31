@@ -3,16 +3,15 @@ import { Autocomplete, Box, FormControl, IconButton, MenuItem, Select, TextField
 import CloseIcon from '@mui/icons-material/Close';
 import ClearIcon from '@mui/icons-material/Clear';
 import { Amulet } from '../../../../model/Amulet';
-import { useI18n } from '../../../../lib/i18nContext';
+import { useI18n } from '../../../../lib/i18n/i18nContext';
 import { Skill } from '../../../../model/Skill';
 import { LocalizedNames } from '../../../../model/Localized';
-import { Icon, isSkillIconKey } from '../../../../lib/icon';
+import { Icon, isSkillIconKey } from '../../../../lib/style/icon';
 
 interface AmuletBadgeProps {
   amulet: Amulet;
   onRemove: (index: number) => void;
   onSkillRemove: (amuletIdx: number, skillIdx: number) => void;
-  onSlotRemove: (index: number) => void;
   onSkillChange: (
     amuletIdx: number,
     skillIdx: number,
@@ -28,7 +27,6 @@ function AmuletBadge({
   amulet,
   onRemove,
   onSkillRemove,
-  onSlotRemove,
   onSkillChange,
   onSlotChange,
   index,
@@ -86,34 +84,19 @@ function AmuletBadge({
                   flex: 1,
                 }}
               />
-              <Box
-                component="input"
+              <TextField
                 type="number"
-                value={currentSkill?.value || ''}
+                size="medium"
+                value={Number(currentSkill.value).toString()}
                 onChange={(e) => {
                   const val = Number(e.target.value);
-                  if (val >= 1 && val <= 3) {
+                  if (val >= 0 && val <= 3) {
                     onSkillChange(index, i, 'value', val);
                   }
                 }}
-                min={1}
-                max={3}
-                disabled={!currentSkill?.id}
-                placeholder="1"
-                sx={{
-                  width: 60,
-                  padding: '8px',
-                  borderRadius: '4px',
-                  border: '1px solid',
-                  borderColor: 'divider',
-                  backgroundColor: 'background.default',
-                  color: 'text.primary',
-                  fontSize: '0.875rem',
-                  '&:hover': { borderColor: 'text.secondary' },
-                  '&:focus': { outline: 'none', borderColor: 'text.secondary' },
-                  '&:disabled': { opacity: 0.5 },
-                  '&::placeholder': { color: 'text.secondary' },
-                }}
+                sx={{width: 45, '& .MuiOutlinedInput-root': {padding: '2px 4px'}}}
+                slotProps={{input: {inputProps: {min: 1, max: 3, style: {padding: '2px 4px', height: 'auto'}}}}}
+                disabled={!currentSkill.id}
               />
             </Box>
           );
@@ -142,9 +125,6 @@ function AmuletBadge({
             <MenuItem value="W1-1-1">W1-1-1</MenuItem>
           </Select>
         </FormControl>
-        <IconButton size="small" onClick={() => onSlotRemove(index)} sx={{ color: 'text.secondary' }}>
-          <ClearIcon fontSize="small" />
-        </IconButton>
       </Box>
       <IconButton size="small" onClick={() => onRemove(index)} sx={{ color: 'text.secondary' }}>
         <CloseIcon fontSize="small" />

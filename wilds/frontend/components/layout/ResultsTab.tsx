@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Paper, Typography} from '@mui/material';
 import BuildCard from '../BuildCard';
-import { useI18n } from '../../lib/i18nContext';
+import { useI18n } from '../../lib/i18n/i18nContext';
 import { useAppState } from '../../lib/appStateContext';
 
 function ResultsTab() {
