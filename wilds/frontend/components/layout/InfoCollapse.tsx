@@ -19,9 +19,9 @@ function InfoCollapse() {
           <Typography>{t.info.howToUse}</Typography>
           <ul>
             <li>{t.info.howToUseSteps.step1}</li>
-            <li>{t.info.howToUseSteps.step2}</li>
+            <li dangerouslySetInnerHTML={{__html: t.info.howToUseSteps.step2}}></li>
             <li>{t.info.howToUseSteps.step3}</li>
-            <li>{t.info.howToUseSteps.step4}</li>
+            <li dangerouslySetInnerHTML={{__html: t.info.howToUseSteps.step4}}></li>
           </ul>
           <Typography>{t.info.notes}</Typography>
           <ul>

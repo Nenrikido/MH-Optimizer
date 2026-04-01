@@ -18,7 +18,7 @@ export const de: Translations = {
     includeGogSets: 'Alle möglichen Sets auf aufgewerteten Gogmazios-Waffen einbeziehen',
   },
   inputs: {
-    skills: 'Welche Fertigkeiten möchtest du haben?',
+    skills: 'Welche Fertigkeiten möchten Sie haben?',
     skillsMaxPoints: 'Maximales Level für diese Fertigkeit',
     skillsWeight: 'Gewichtung für diese Fertigkeit',
     armor: 'Mit welchen Rüstungssets?',
@@ -92,21 +92,21 @@ export const de: Translations = {
   },
   info: {
     help: 'Hilfe',
-    howToUse: 'Kurzer Guide, bevor du auf „Optimieren“ klickst:',
+    howToUse: 'Kurzer Guide, bevor Sie auf „Optimieren“ klicken:',
     howToUseSteps: {
-      step1: 'Fang ganz entspannt mit den Grundlagen an: Wähle zuerst die Fertigkeiten, die dir wirklich wichtig sind, und füge dann eine Waffe sowie gewünschte Set-/Gruppenboni hinzu.',
-      step2: 'Danach kannst du alles feiner abstimmen: Mit Max-Leveln verhinderst du, dass eine Fertigkeit zu hoch geht, und mit Gewichten sagst du dem Optimierer, was dir am wichtigsten ist.',
-      step3: 'Im Filter-Tab kannst du eigene Talismane hinzufügen, bestimmte Rüstungsteile ausschließen oder die Optionen für Gogmazios-Waffen weiter eingrenzen.',
-      step4: 'Dann einfach auf Optimieren klicken und dir deinen Build im Tab „Ergebnisse“ anschauen — prüf Ausrüstung, aktive Boni und die Fertigkeitsverteilung, um zu sehen, ob das Ergebnis für deine Jagd passt.',
+      step1: 'Beginnen Sie mit den Grundlagen: Wählen Sie zuerst die Fertigkeiten, die Ihnen am wichtigsten sind, und fügen Sie dann eine Waffe sowie gewünschte Set-/Gruppenboni hinzu.',
+      step2: 'Danach können Sie alles verfeinern: Mit Max-Stufen vermeiden Sie, dass eine Fertigkeit zu hoch geht, und mit Gewichten sagen Sie dem Optimierer, was Ihnen am wichtigsten ist.',
+      step3: 'Im Filter-Tab können Sie Ihre eigene Talismane hinzufügen, bestimmte Rüstungsteile ausschließen oder die Optionen für Gogmazios-Waffen weiter eingrenzen.',
+      step4: 'Klicken Sie dann auf „Optimieren“ und schauen Sie sich Ihren Build im Tab „Ergebnisse“ an — prüfen Sie Ausrüstung, aktive Boni und die Fertigkeitsverteilung, um zu sehen, ob das Ergebnis zu Ihrer Jagd passt.',
     },
     notes: 'Noch ein paar praktische Hinweise:',
     notesItems: {
       dataUpToDate: 'Die Daten sind aktuell auf TU4.1 (AT Arkveld).',
       defaultValues: 'Ja, die Standardwerte gehen eher in Richtung Langschwert. Ja, ich bin ein Weeb.',
       noBuild: 'Wenn nichts erscheint, ist die Anfrage wahrscheinlich etwas zu streng — lockere mal einen Set-Bonus, ein Skill-Limit oder einen Filter.',
-      amuletsImport: 'Du kannst Talismane mit dem Mod "GameCat Wilds Charm Exporter" auf Nexus Mods importieren.',
+      amuletsImport: 'Sie können Talismane mit dem Mod "GameCat Wilds Charm Exporter" auf Nexus Mods importieren.',
       gogFilters: 'Die Gogmazios-Set-/Gruppenfilter bleiben ausgeblendet, solange „Alle Gog-Sets einbeziehen“ aktiv ist.',
-      customTemplates: 'Eigene Vorlagen werden lokal in deinem Browser gespeichert und bleiben damit auf diesem Gerät.',
+      customTemplates: 'Eigene Vorlagen werden lokal in Ihrem Browser gespeichert und bleiben damit auf diesem Gerät.',
     },
   },
   common: {

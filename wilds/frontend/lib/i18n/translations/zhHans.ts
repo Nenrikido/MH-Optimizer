@@ -1,4 +1,4 @@
-import type { Translations } from '../types';
+import type {Translations} from '../types';
 
 export const zhHans: Translations = {
   header: {
@@ -95,18 +95,21 @@ export const zhHans: Translations = {
     howToUse: '点“开始优化”前，先看这个简短说明：',
     howToUseSteps: {
       step1: '先从最核心的需求开始：挑出你最在意的技能，再补上武器，以及你真的想保留的套装或组加成。',
-      step2: '如果还想再细调，就继续设置最大等级和权重：最大等级可以防止某个技能堆得太高，权重则是在告诉优化器哪些技能对你更重要。',
-      step3: '想加自己的护石、排除某些防具，或者缩小戈格玛吉欧斯武器的范围，就去“筛选”页慢慢调。',
-      step4: '最后直接点“开始优化”，然后在“结果”标签页中看看你的配装：确认装备、已激活的加成和技能分布，看看这个结果是不是适合这次狩猎。',
+      step2: '如果还想再细调，就继续设置最大等级和权重.<br/>' +
+        '最大等级:可以防止某个技能堆得太高<br/>' +
+        '权重:告诉优化器哪些技能对你更重要。',
+      step3: '想添加自己的护石、排除某些防具，或者缩减可选的小戈格玛吉欧斯武器，就去“筛选”页慢慢调。',
+      step4: '最后点击“开始优化”，然后在“结果”标签页中看看你的配装：<br/>' +
+        '确认装备、已激活的加成和技能分布，看看结果是不是最适合你的狩猎。',
     },
     notes: '再补几条实用说明：',
     notesItems: {
       dataUpToDate: '数据目前已更新到 TU4.1（AT Arkveld）。',
       defaultValues: '没错，默认值明显更偏向太刀。没错，我是个 weeb。',
-      noBuild: '如果什么都没出，多半是条件卡得太死了——试着放宽一个套装要求、技能上限，或者某个筛选条件。',
+      noBuild: '如果没有结果，多半是条件卡得太死了——试着放宽套装要求、技能上限，或者某个筛选条件。',
       amuletsImport: '你可以通过 Nexus Mods 上的 "GameCat Wilds Charm Exporter" 模组导入护石。',
       gogFilters: '启用“包含所有戈格玛吉欧斯套装”后，Gog 的套装/组筛选会保持隐藏。',
-      customTemplates: '自定义模板只会保存在你的浏览器本地，所以只属于当前这台设备。',
+      customTemplates: '自定义模板只会保存在你的浏览器本地，不会离开这台设备。',
     },
   },
   common: {
