@@ -1,26 +1,27 @@
 import React from 'react';
-import { Box, Button, TextField, Typography } from '@mui/material';
+import {Box, Button, TextField, Typography} from '@mui/material';
 import CustomTemplateRow from './CustomTemplateRow';
-import { CustomTemplatesSectionProps } from './types';
+import {CustomTemplatesSectionProps} from './types';
 
 function CustomTemplatesSection({
-  title,
-  templates,
-  templateName,
-  onTemplateNameChange,
-  onSaveTemplate,
-  onApplyTemplate,
-  onDeleteTemplate,
-  labels,
-}: CustomTemplatesSectionProps) {
+                                  title,
+                                  templates,
+                                  templateName,
+                                  onTemplateNameChange,
+                                  onSaveTemplate,
+                                  onApplyTemplate,
+                                  onDeleteTemplate,
+                                  labels,
+                                }: CustomTemplatesSectionProps) {
   return (
     <>
-      <Typography sx={{ fontSize: '1rem', fontWeight: 600, mb: 1, color: 'text.primary' }}>
+      <Typography sx={{fontSize: '1rem', fontWeight: 600, mb: 1, color: 'text.primary'}}>
         {title}
       </Typography>
-      <Box sx={{ display: 'flex', gap: 1, mb: 1.5 }}>
+      <Box sx={{display: 'flex', gap: 1, mb: 1.5}}>
         <TextField
           size="small"
+          sx={{justifyContent: "center"}}
           fullWidth
           value={templateName}
           onChange={(e) => onTemplateNameChange(e.target.value)}
@@ -33,9 +34,9 @@ function CustomTemplatesSection({
             backgroundColor: 'action.selected',
             color: 'text.primary',
             textTransform: 'none',
+            lineHeight: 'normal',
             px: 2,
-            whiteSpace: 'nowrap',
-            '&:hover': { backgroundColor: 'action.hover' },
+            '&:hover': {backgroundColor: 'action.hover'},
           }}
         >
           {labels.saveCurrent}
@@ -43,7 +44,7 @@ function CustomTemplatesSection({
       </Box>
 
       {templates.length === 0 ? (
-        <Typography sx={{ fontSize: '0.85rem', color: 'text.secondary' }}>{labels.emptyCustom}</Typography>
+        <Typography sx={{fontSize: '0.85rem', color: 'text.secondary'}}>{labels.emptyCustom}</Typography>
       ) : (
         templates.map((template) => (
           <CustomTemplateRow
