@@ -76,7 +76,7 @@ export const fr: Translations = {
       placeholder: 'Sélectionner les pièces d\'armure à exclure des recherches',
     },
     gogWeapons: {
-      title: 'Armes Gogmazios',
+      title: 'Arme Gogmazios',
       setBonus: 'Bonus d\'ensemble',
       setBonusAutocomplete: 'Choisissez un bonus d\'ensemble des armes Gogmazios...',
       groupBonus: 'Bonus de groupe',

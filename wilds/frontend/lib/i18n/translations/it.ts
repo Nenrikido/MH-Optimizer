@@ -14,7 +14,7 @@ export const it: Translations = {
   },
   options: {
     includeAllAmulets: 'Includi tutti gli amuleti generati dalle abilita desiderate (se disattivato, include solo amuleti farmabili e amuleti scelti nella scheda filtri)',
-    transcend: 'Trascendi tutte le armature (modifica gli slot decorazione se la rarita è 5 o 6)',
+    transcend: 'Trascendi tutte le armature (modifica i loro slot di decorazione se la loro rarità è 5 o 6)',
     includeGogSets: 'Includi tutti i set possibili sulle armi potenziate di Gogmazios',
   },
   inputs: {
